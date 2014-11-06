@@ -532,28 +532,28 @@ namespace ConvertCSVToXML
             File.WriteAllText( "cust.csv", csvString );
 
             // Read into an array of strings.
-string[] source = File.ReadAllLines("cust.csv");
-XElement cust = new XElement( "Players",
-    from str in source
-    let fields = str.Split( ',' )
-    select new XElement( "Player",
-        new XElement( "Id", fields[0] ),
-        new XElement( "Number", fields[1] ),
-        new XElement( "Nationality", fields[2] ),
-        new XElement( "Poste", fields[3] ),
-        new XElement( "Height", fields[4] ),
-        new XElement( "Weight", fields[5] ),
-        new XElement( "BirthDate", fields[6] ),
-        new XElement( "BirthPlace", fields[7] ),
-        new XElement( "BirthPlace", fields[8] ),
-        new XElement( "PreviousClub", fields[9] ),
-        new XElement( "ActualClub", fields[10] ),
-        new XElement( "Stats", fields[11] ),
-        new XElement( "FormState", fields[12] ),
-        new XElement( "Injury", fields[13] ),
-        new XElement( "Mental", fields[14] ),
-        new XElement( "FinancialValue", fields[15] ) ) );
-cust.Save( @"C:\Users\Guenole\Documents\IN'TECH INFO\S3\Projet Informatique\SimSoccerGit\SimSoccer\Ligue1FrenchPlayers.xml" );
+            string[] source = File.ReadAllLines( "cust.csv" );
+            XElement cust = new XElement( "Players",
+                from str in source
+                let fields = str.Split( ',' )
+                select new XElement( "Player",
+                    new XAttribute( "Id", fields[0] ),
+                    new XElement( "Number", fields[1] ),
+                    new XElement( "Nationality", fields[2] ),
+                    new XElement( "Poste", fields[3] ),
+                    new XElement( "Height", fields[4] ),
+                    new XElement( "Weight", fields[5] ),
+                    new XElement( "BirthDate", fields[6] ),
+                    new XElement( "BirthPlace", fields[7] ),
+                    new XElement( "BirthPlace", fields[8] ),
+                    new XElement( "PreviousClub", fields[9] ),
+                    new XElement( "ActualClub", fields[10] ),
+                    new XElement( "Stats", fields[11] ),
+                    new XElement( "FormState", fields[12] ),
+                    new XElement( "Injury", fields[13] ),
+                    new XElement( "Mental", fields[14] ),
+                    new XElement( "FinancialValue", fields[15] ) ) );
+            cust.Save( @"C:\Users\Guenole\Documents\GitHub\SimSoccer\SimSoccer\Ligue1FrenchPlayers.xml" );
         }
     }
 }

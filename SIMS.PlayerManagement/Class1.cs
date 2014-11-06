@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SoccerSimulator
+namespace SIMS.PlayerManagement
 {
-    public class SoccerSimulator
+    public class Class1
     {
-        readonly Dictionary<string, Player> _player;
     }
 }
