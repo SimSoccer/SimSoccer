@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateUserAccount", "CreateUserAccount\CreateUserAccount.csproj", "{A926D9AB-4857-44C3-95BC-2FBF5504D9F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormWinForm", "FormWinForm\FormWinForm.csproj", "{76530549-747E-4A33-93C6-CCA67F84A38E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BC841E7C-2832-4235-8C45-D05238A589D1}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawGame", "ClassLibrary1\DrawGame.csproj", "{4E58BA04-8DF2-434F-860C-06F374EBA689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertCSVToXML", "ConvertCSVToXML\ConvertCSVToXML.csproj", "{78EE69DF-780A-4035-B08F-E655EA8BBFEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoccerSimulator", "SoccerSimulator\SoccerSimulator.csproj", "{B2677D9F-1EA7-4983-87BE-B8B0A1A500F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A926D9AB-4857-44C3-95BC-2FBF5504D9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A926D9AB-4857-44C3-95BC-2FBF5504D9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A926D9AB-4857-44C3-95BC-2FBF5504D9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A926D9AB-4857-44C3-95BC-2FBF5504D9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76530549-747E-4A33-93C6-CCA67F84A38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76530549-747E-4A33-93C6-CCA67F84A38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76530549-747E-4A33-93C6-CCA67F84A38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76530549-747E-4A33-93C6-CCA67F84A38E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E58BA04-8DF2-434F-860C-06F374EBA689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E58BA04-8DF2-434F-860C-06F374EBA689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E58BA04-8DF2-434F-860C-06F374EBA689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E58BA04-8DF2-434F-860C-06F374EBA689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78EE69DF-780A-4035-B08F-E655EA8BBFEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78EE69DF-780A-4035-B08F-E655EA8BBFEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78EE69DF-780A-4035-B08F-E655EA8BBFEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78EE69DF-780A-4035-B08F-E655EA8BBFEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2677D9F-1EA7-4983-87BE-B8B0A1A500F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2677D9F-1EA7-4983-87BE-B8B0A1A500F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2677D9F-1EA7-4983-87BE-B8B0A1A500F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2677D9F-1EA7-4983-87BE-B8B0A1A500F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
