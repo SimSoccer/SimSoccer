@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawGame", "ClassLibrary1\D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertCSVToXML", "ConvertCSVToXML\ConvertCSVToXML.csproj", "{78EE69DF-780A-4035-B08F-E655EA8BBFEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoccerSimulator", "SoccerSimulator\SoccerSimulator.csproj", "{B2677D9F-1EA7-4983-87BE-B8B0A1A500F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.SimulatorAction", "SoccerSimulator\SIMS.SimulatorAction.csproj", "{B2677D9F-1EA7-4983-87BE-B8B0A1A500F7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.TeamManagement", "SIMS.TeamManagement\SIMS.TeamManagement.csproj", "{960C95D7-E5FA-4511-9D14-703A2937C241}"
 EndProject
