@@ -42,6 +42,12 @@
     <Compile Include="SoccerSimulator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SIMS.PlayerManagement\SIMS.PlayerManagement.csproj">
+      <Project>{6a41fb06-d0ea-4e54-a96b-6591d253f6af}</Project>
+      <Name>SIMS.PlayerManagement</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
