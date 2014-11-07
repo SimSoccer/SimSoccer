@@ -13,16 +13,17 @@ namespace DrawGame
 
         public Team(string name)
         {
+            if (string.IsNullOrWhiteSpace(name)) throw new ArgumentException("The name of team cannot be null");
             _nameTeam = name;
         }
 
-        public  string TeamPlayer(string TeamChoice)
+        public string TeamPlayer(string TeamChoice)
         {
-            return  _nameTeam = TeamChoice;
+            return _nameTeam = TeamChoice;
         }
         public string Name
         {
-            get {return _nameTeam;}
+            get { return _nameTeam; }
         }
     }
 }
