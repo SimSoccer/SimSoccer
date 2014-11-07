@@ -553,7 +553,7 @@ namespace ConvertCSVToXML
                     new XElement( "Injury", fields[13] ),
                     new XElement( "Mental", fields[14] ),
                     new XElement( "FinancialValue", fields[15] ) ) );
-            cust.Save( @"C:\Users\Guenole\Documents\GitHub\SimSoccer\SimSoccer\Ligue1FrenchPlayers.xml" );
+            cust.Save( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1FrenchPlayers.xml" );
         }
     }
 }

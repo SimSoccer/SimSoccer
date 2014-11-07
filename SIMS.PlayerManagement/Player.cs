@@ -1,14 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 using System.Xml.Linq;
 
 namespace SoccerSimulator
 {
     public class Player
     {
+        readonly Dictionary<string, Player> _player;
+
         int _id; int _shirtNumber;
         string _name; string _nationality;
         string _poste; float _height;
@@ -18,15 +23,26 @@ namespace SoccerSimulator
         int _stats; int _formState;
         bool _injury; int _mental; int _financialValue;
 
-        public void CreateDictionary()
+        // need a parameterless constructor for serialization
+        public Player()
         {
-            XDocument xdoc = XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\SimSoccer\SimSoccer\Ligue1FrenchPlayers" );
-            var query = xdoc.Descendants( "Players" )
-                            .Elements()
-                            .ToDictionary( r => r.Attribute( "Id" ).Value,
-                                         r => r.Value );
+          //  XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1FrenchPlayers.xml" ).Descendants( "Id" ).Descendants()
+   // .ToDictionary( element => element.Name, element => element.Value );
+
+            //Try to work with this
+            string s = "<data><resource key=\"123\">foo</resource><resource key=\"456\">bar</resource><resource key=\"789\">bar</resource></data>";
+            XmlDocument xml = new XmlDocument();
+            xml.LoadXml( s );
+            XmlNodeList resources = xml.SelectNodes( "data/resource" );
+            SortedDictionary<string, string> dictionary = new SortedDictionary<string, string>();
+            foreach( XmlNode node in resources )
+            {
+                dictionary.Add( node.Attributes["key"].Value, node.InnerText );
+
+            }
         }
-        //readonly Dictionary<int, Animal> _animals;
+        public Dictionary<string, string> element { get; set; }
+        //readonly Dictionary<int, Animal> _animals;*/
 
         public int Id
         {

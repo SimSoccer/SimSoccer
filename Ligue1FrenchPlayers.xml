@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Players>
-  <Player>
-    <Id>1</Id>
+  <Player Id="1">
     <Number>1</Number>
     <Nationality>Alphonse Aréola</Nationality>
     <Poste>FRA</Poste>
@@ -18,8 +17,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>2</Id>
+  <Player Id="2">
     <Number>2</Number>
     <Nationality>Romain Achilli</Nationality>
     <Poste>FRA</Poste>
@@ -36,8 +34,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>3</Id>
+  <Player Id="3">
     <Number>3</Number>
     <Nationality>Hervin Ongenda</Nationality>
     <Poste>FRA</Poste>
@@ -54,8 +51,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>4</Id>
+  <Player Id="4">
     <Number>4</Number>
     <Nationality>Florian Marange</Nationality>
     <Poste>FRA</Poste>
@@ -72,8 +68,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>5</Id>
+  <Player Id="5">
     <Number>5</Number>
     <Nationality>Sébastien Squillaci</Nationality>
     <Poste>FRA</Poste>
@@ -90,8 +85,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>6</Id>
+  <Player Id="6">
     <Number>6</Number>
     <Nationality>N'Dri Romaric</Nationality>
     <Poste>CIV</Poste>
@@ -108,8 +102,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>7</Id>
+  <Player Id="7">
     <Number>7</Number>
     <Nationality>Floyd Ayité</Nationality>
     <Poste>TOG</Poste>
@@ -126,8 +119,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>8</Id>
+  <Player Id="8">
     <Number>8</Number>
     <Nationality>El-Hajdi Ba</Nationality>
     <Poste>FRA</Poste>
@@ -144,8 +136,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>9</Id>
+  <Player Id="9">
     <Number>9</Number>
     <Nationality>Djibril Cissé</Nationality>
     <Poste>FRA</Poste>
@@ -162,8 +153,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>10</Id>
+  <Player Id="10">
     <Number>10</Number>
     <Nationality>Ryad Boudebouz</Nationality>
     <Poste>ALG</Poste>
@@ -180,8 +170,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>11</Id>
+  <Player Id="11">
     <Number>11</Number>
     <Nationality>Gadji Celi Junior Tallo</Nationality>
     <Poste>CIV</Poste>
@@ -198,8 +187,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>12</Id>
+  <Player Id="12">
     <Number>12</Number>
     <Nationality>Christophe Vincent</Nationality>
     <Poste>FRA</Poste>
@@ -216,8 +204,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>13</Id>
+  <Player Id="13">
     <Number>13</Number>
     <Nationality>Abdoulaye Keita</Nationality>
     <Poste>MLI</Poste>
@@ -234,8 +221,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>14</Id>
+  <Player Id="14">
     <Number>14</Number>
     <Nationality>Famoussa Koné</Nationality>
     <Poste>MLI</Poste>
@@ -252,8 +238,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>15</Id>
+  <Player Id="15">
     <Number>15</Number>
     <Nationality>Julian Palmieri</Nationality>
     <Poste>FRA</Poste>
@@ -270,8 +255,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>16</Id>
+  <Player Id="16">
     <Number>16</Number>
     <Nationality>Jean-Louis Leca</Nationality>
     <Poste>FRA</Poste>
@@ -288,8 +272,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>17</Id>
+  <Player Id="17">
     <Number>17</Number>
     <Nationality>Mathieu Peybernes</Nationality>
     <Poste>FRA</Poste>
@@ -306,8 +289,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>18</Id>
+  <Player Id="18">
     <Number>18</Number>
     <Nationality>Yannick Cahuzac</Nationality>
     <Poste>FRA</Poste>
@@ -324,8 +306,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>19</Id>
+  <Player Id="19">
     <Number>19</Number>
     <Nationality>Benjamin Mokulu</Nationality>
     <Poste>BEL</Poste>
@@ -342,8 +323,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>20</Id>
+  <Player Id="20">
     <Number>20</Number>
     <Nationality>François Modestó</Nationality>
     <Poste>FRA</Poste>
@@ -360,8 +340,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>21</Id>
+  <Player Id="21">
     <Number>21</Number>
     <Nationality>Luka Kikabidze</Nationality>
     <Poste>GEO</Poste>
@@ -378,8 +357,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>22</Id>
+  <Player Id="22">
     <Number>22</Number>
     <Nationality>Christopher Maboulou</Nationality>
     <Poste>FRA</Poste>
@@ -396,8 +374,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>23</Id>
+  <Player Id="23">
     <Number>23</Number>
     <Nationality>Drissa Diakité</Nationality>
     <Poste>MLI</Poste>
@@ -414,8 +391,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>24</Id>
+  <Player Id="24">
     <Number>24</Number>
     <Nationality>Joao Rodríguez</Nationality>
     <Poste>COL</Poste>
@@ -432,8 +408,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>25</Id>
+  <Player Id="25">
     <Number>25</Number>
     <Nationality>François Kamano</Nationality>
     <Poste>GUI</Poste>
@@ -450,8 +425,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>26</Id>
+  <Player Id="26">
     <Number>26</Number>
     <Nationality>Brandão</Nationality>
     <Poste>BRA</Poste>
@@ -468,8 +442,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>27</Id>
+  <Player Id="27">
     <Number>27</Number>
     <Nationality>Guillaume Gillet</Nationality>
     <Poste>BEL</Poste>
@@ -486,8 +459,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>28</Id>
+  <Player Id="28">
     <Number>28</Number>
     <Nationality>Juan Pablo Pino</Nationality>
     <Poste>COL</Poste>
@@ -504,8 +476,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>29</Id>
+  <Player Id="29">
     <Number>29</Number>
     <Nationality>Gilles Cioni</Nationality>
     <Poste>FRA</Poste>
@@ -522,8 +493,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>30</Id>
+  <Player Id="30">
     <Number>30</Number>
     <Nationality>Thomas Vincensini</Nationality>
     <Poste>FRA</Poste>
@@ -540,8 +510,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>31</Id>
+  <Player Id="31">
     <Number>1</Number>
     <Nationality>Ažbe Jug</Nationality>
     <Poste>SVN</Poste>
@@ -558,8 +527,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>32</Id>
+  <Player Id="32">
     <Number>2</Number>
     <Nationality>Mariano</Nationality>
     <Poste>BRA</Poste>
@@ -576,8 +544,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>33</Id>
+  <Player Id="33">
     <Number>3</Number>
     <Nationality>Diego Contento</Nationality>
     <Poste>ITA</Poste>
@@ -594,8 +561,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>34</Id>
+  <Player Id="34">
     <Number>4</Number>
     <Nationality>Tiago Ilori</Nationality>
     <Poste>POR</Poste>
@@ -612,8 +578,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>35</Id>
+  <Player Id="35">
     <Number>5</Number>
     <Nationality>Nicolas Pallois</Nationality>
     <Poste>FRA</Poste>
@@ -630,8 +595,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>36</Id>
+  <Player Id="36">
     <Number>6</Number>
     <Nationality>Ludovic Sané</Nationality>
     <Poste>SEN</Poste>
@@ -648,8 +612,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>37</Id>
+  <Player Id="37">
     <Number>7</Number>
     <Nationality>Abdou Traoré</Nationality>
     <Poste>MLI</Poste>
@@ -666,8 +629,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>38</Id>
+  <Player Id="38">
     <Number>8</Number>
     <Nationality>Grégory Sertic</Nationality>
     <Poste>FRA</Poste>
@@ -684,8 +646,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>39</Id>
+  <Player Id="39">
     <Number>9</Number>
     <Nationality>Diego Rolán</Nationality>
     <Poste>URU</Poste>
@@ -702,8 +663,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>40</Id>
+  <Player Id="40">
     <Number>10</Number>
     <Nationality>Henri Saivet</Nationality>
     <Poste>FRA</Poste>
@@ -720,8 +680,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>41</Id>
+  <Player Id="41">
     <Number>11</Number>
     <Nationality>Emiliano Sala</Nationality>
     <Poste>ARG</Poste>
@@ -738,8 +697,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>42</Id>
+  <Player Id="42">
     <Number>13</Number>
     <Nationality>Thomas Touré</Nationality>
     <Poste>FRA</Poste>
@@ -756,8 +714,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>43</Id>
+  <Player Id="43">
     <Number>14</Number>
     <Nationality>Cheikh Diabaté</Nationality>
     <Poste>MLI</Poste>
@@ -774,8 +731,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>44</Id>
+  <Player Id="44">
     <Number>15</Number>
     <Nationality>Younès Kaabouni</Nationality>
     <Poste>FRA</Poste>
@@ -792,8 +748,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>45</Id>
+  <Player Id="45">
     <Number>16</Number>
     <Nationality>Cédric Carrasso</Nationality>
     <Poste>FRA</Poste>
@@ -810,8 +765,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>46</Id>
+  <Player Id="46">
     <Number>17</Number>
     <Nationality>André Biyogo Poko</Nationality>
     <Poste>GAB</Poste>
@@ -828,8 +782,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>47</Id>
+  <Player Id="47">
     <Number>18</Number>
     <Nationality>Jaroslav Plašil</Nationality>
     <Poste>CZE</Poste>
@@ -846,8 +799,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>48</Id>
+  <Player Id="48">
     <Number>19</Number>
     <Nationality>Nicolas Maurice-Belay</Nationality>
     <Poste>FRA</Poste>
@@ -864,8 +816,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>49</Id>
+  <Player Id="49">
     <Number>20</Number>
     <Nationality>Jussiê</Nationality>
     <Poste>BRA</Poste>
@@ -882,8 +833,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>50</Id>
+  <Player Id="50">
     <Number>22</Number>
     <Nationality>Julien Faubert</Nationality>
     <Poste>FRA</Poste>
@@ -900,8 +850,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>51</Id>
+  <Player Id="51">
     <Number>24</Number>
     <Nationality>Wahbi Khazri</Nationality>
     <Poste>TUN</Poste>
@@ -918,8 +867,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>52</Id>
+  <Player Id="52">
     <Number>25</Number>
     <Nationality>Théo Pellenard</Nationality>
     <Poste>FRA</Poste>
@@ -936,8 +884,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>53</Id>
+  <Player Id="53">
     <Number>26</Number>
     <Nationality>Clément Badin</Nationality>
     <Poste>FRA</Poste>
@@ -954,8 +901,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>54</Id>
+  <Player Id="54">
     <Number>27</Number>
     <Nationality>Marc Planus</Nationality>
     <Poste>FRA</Poste>
@@ -972,8 +918,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>55</Id>
+  <Player Id="55">
     <Number>29</Number>
     <Nationality>Maxime Poundjé</Nationality>
     <Poste>FRA</Poste>
@@ -990,8 +935,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>56</Id>
+  <Player Id="56">
     <Number>30</Number>
     <Nationality>Jérôme Prior</Nationality>
     <Poste>FRA</Poste>
@@ -1008,8 +952,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>57</Id>
+  <Player Id="57">
     <Number>1</Number>
     <Nationality>Rémy Vercoutre</Nationality>
     <Poste>FRA</Poste>
@@ -1026,8 +969,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>58</Id>
+  <Player Id="58">
     <Number>2</Number>
     <Nationality>Nicolas Seube</Nationality>
     <Poste>FRA</Poste>
@@ -1044,8 +986,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>59</Id>
+  <Player Id="59">
     <Number>5</Number>
     <Nationality>Alaeddine Yahia</Nationality>
     <Poste>TUN</Poste>
@@ -1062,8 +1003,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>61</Id>
+  <Player Id="61">
     <Number>7</Number>
     <Nationality>Mathieu Duhamel</Nationality>
     <Poste>FRA</Poste>
@@ -1080,8 +1020,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>62</Id>
+  <Player Id="62">
     <Number>9</Number>
     <Nationality>Sloan Privat</Nationality>
     <Poste>FRA</Poste>
@@ -1098,8 +1037,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>63</Id>
+  <Player Id="63">
     <Number>10</Number>
     <Nationality>Lenny Nangis</Nationality>
     <Poste>FRA</Poste>
@@ -1116,8 +1054,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>64</Id>
+  <Player Id="64">
     <Number>11</Number>
     <Nationality>Bengadli-Fodé Koita</Nationality>
     <Poste>FRA</Poste>
@@ -1134,8 +1071,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>65</Id>
+  <Player Id="65">
     <Number>12</Number>
     <Nationality>Dennis Appiah</Nationality>
     <Poste>FRA</Poste>
@@ -1152,8 +1088,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>66</Id>
+  <Player Id="66">
     <Number>13</Number>
     <Nationality>Jean-Jacques Pierre</Nationality>
     <Poste>HAI</Poste>
@@ -1170,8 +1105,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>67</Id>
+  <Player Id="67">
     <Number>15</Number>
     <Nationality>Emmanuel Imorou</Nationality>
     <Poste>BEN</Poste>
@@ -1188,8 +1122,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>68</Id>
+  <Player Id="68">
     <Number>16</Number>
     <Nationality>Damien Perquis</Nationality>
     <Poste>FRA</Poste>
@@ -1206,8 +1139,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>69</Id>
+  <Player Id="69">
     <Number>17</Number>
     <Nationality>Ngolo Kanté</Nationality>
     <Poste>FRA</Poste>
@@ -1224,8 +1156,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>70</Id>
+  <Player Id="70">
     <Number>18</Number>
     <Nationality>Jordan Adéoti</Nationality>
     <Poste>BEN</Poste>
@@ -1242,8 +1173,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>71</Id>
+  <Player Id="71">
     <Number>19</Number>
     <Nationality>Felipe Saad</Nationality>
     <Poste>BRA</Poste>
@@ -1260,8 +1190,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>72</Id>
+  <Player Id="72">
     <Number>20</Number>
     <Nationality>Hervé Bazile</Nationality>
     <Poste>FRA</Poste>
@@ -1278,8 +1207,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>73</Id>
+  <Player Id="73">
     <Number>21</Number>
     <Nationality>José Saez</Nationality>
     <Poste>FRA</Poste>
@@ -1296,8 +1224,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>74</Id>
+  <Player Id="74">
     <Number>22</Number>
     <Nationality>Alexandre Raineau</Nationality>
     <Poste>FRA</Poste>
@@ -1314,8 +1241,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>75</Id>
+  <Player Id="75">
     <Number>23</Number>
     <Nationality>Jean Calvé</Nationality>
     <Poste>FRA</Poste>
@@ -1332,8 +1258,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>76</Id>
+  <Player Id="76">
     <Number>24</Number>
     <Nationality>Florian Raspentino</Nationality>
     <Poste>FRA</Poste>
@@ -1350,8 +1275,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>77</Id>
+  <Player Id="77">
     <Number>25</Number>
     <Nationality>Julien Féret</Nationality>
     <Poste>FRA</Poste>
@@ -1368,8 +1292,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>78</Id>
+  <Player Id="78">
     <Number>26</Number>
     <Nationality>Jonathan Beaulieu</Nationality>
     <Poste>FRA</Poste>
@@ -1386,8 +1309,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>79</Id>
+  <Player Id="79">
     <Number>27</Number>
     <Nationality>Thomas Lemar</Nationality>
     <Poste>FRA</Poste>
@@ -1404,8 +1326,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>80</Id>
+  <Player Id="80">
     <Number>28</Number>
     <Nationality>Damien Da Silva</Nationality>
     <Poste>FRA</Poste>
@@ -1422,8 +1343,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>81</Id>
+  <Player Id="81">
     <Number>29</Number>
     <Nationality>Yrondu Musavu-King</Nationality>
     <Poste>GAB</Poste>
@@ -1440,8 +1360,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>82</Id>
+  <Player Id="82">
     <Number>30</Number>
     <Nationality>Paul Reulet</Nationality>
     <Poste>FRA</Poste>
@@ -1458,8 +1377,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>83</Id>
+  <Player Id="83">
     <Number>1</Number>
     <Nationality>Johann Durand</Nationality>
     <Poste>FRA</Poste>
@@ -1476,8 +1394,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>84</Id>
+  <Player Id="84">
     <Number>2</Number>
     <Nationality>Kassim Abdallah</Nationality>
     <Poste>FRA</Poste>
@@ -1494,8 +1411,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>85</Id>
+  <Player Id="85">
     <Number>5</Number>
     <Nationality>Miloš Ninkovi?</Nationality>
     <Poste>SRB</Poste>
@@ -1512,8 +1428,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>86</Id>
+  <Player Id="86">
     <Number>6</Number>
     <Nationality>Djakaridja Koné</Nationality>
     <Poste>BFA</Poste>
@@ -1530,8 +1445,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>87</Id>
+  <Player Id="87">
     <Number>7</Number>
     <Nationality>Adrien Thomasson</Nationality>
     <Poste>FRA</Poste>
@@ -1548,8 +1462,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>88</Id>
+  <Player Id="88">
     <Number>8</Number>
     <Nationality>Yeltsin Tejeda</Nationality>
     <Poste>CRC</Poste>
@@ -1566,8 +1479,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>89</Id>
+  <Player Id="89">
     <Number>9</Number>
     <Nationality>Gianni Bruno</Nationality>
     <Poste>BEL</Poste>
@@ -1584,8 +1496,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>90</Id>
+  <Player Id="90">
     <Number>10</Number>
     <Nationality>Nicolas Benezet</Nationality>
     <Poste>FRA</Poste>
@@ -1602,8 +1513,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>91</Id>
+  <Player Id="91">
     <Number>11</Number>
     <Nationality>Fabien Camus</Nationality>
     <Poste>FRA</Poste>
@@ -1620,8 +1530,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>92</Id>
+  <Player Id="92">
     <Number>12</Number>
     <Nationality>Gaël Givet</Nationality>
     <Poste>FRA</Poste>
@@ -1638,8 +1547,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>93</Id>
+  <Player Id="93">
     <Number>14</Number>
     <Nationality>Cédric Barbosa</Nationality>
     <Poste>FRA</Poste>
@@ -1656,8 +1564,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>94</Id>
+  <Player Id="94">
     <Number>17</Number>
     <Nationality>Aldo Angoula</Nationality>
     <Poste>FRA</Poste>
@@ -1674,8 +1581,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>95</Id>
+  <Player Id="95">
     <Number>18</Number>
     <Nationality>Daniel Wass</Nationality>
     <Poste>DEN</Poste>
@@ -1692,8 +1598,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>96</Id>
+  <Player Id="96">
     <Number>19</Number>
     <Nationality>Youssouf Sabaly</Nationality>
     <Poste>FRA</Poste>
@@ -1710,8 +1615,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>97</Id>
+  <Player Id="97">
     <Number>20</Number>
     <Nationality>Modou Sougou</Nationality>
     <Poste>SEN</Poste>
@@ -1728,8 +1632,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>98</Id>
+  <Player Id="98">
     <Number>21</Number>
     <Nationality>Cédric Mongongu</Nationality>
     <Poste>COD</Poste>
@@ -1746,8 +1649,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>99</Id>
+  <Player Id="99">
     <Number>22</Number>
     <Nationality>Cédric Cambon</Nationality>
     <Poste>FRA</Poste>
@@ -1764,8 +1666,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>100</Id>
+  <Player Id="100">
     <Number>23</Number>
     <Nationality>Nicki Bille Nielsen</Nationality>
     <Poste>DEN</Poste>
@@ -1782,8 +1683,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>101</Id>
+  <Player Id="101">
     <Number>24</Number>
     <Nationality>Olivier Sorlin</Nationality>
     <Poste>FRA</Poste>
@@ -1800,8 +1700,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>102</Id>
+  <Player Id="102">
     <Number>25</Number>
     <Nationality>Jonathan Mensah</Nationality>
     <Poste>GHA</Poste>
@@ -1818,8 +1717,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>103</Id>
+  <Player Id="103">
     <Number>26</Number>
     <Nationality>Jesper Juelsgaard</Nationality>
     <Poste>DEN</Poste>
@@ -1836,8 +1734,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>104</Id>
+  <Player Id="104">
     <Number>27</Number>
     <Nationality>Clarck N'Sikulu</Nationality>
     <Poste>FRA</Poste>
@@ -1854,8 +1751,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>105</Id>
+  <Player Id="105">
     <Number>28</Number>
     <Nationality>Najib Baouia</Nationality>
     <Poste>ALG</Poste>
@@ -1872,8 +1768,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>106</Id>
+  <Player Id="106">
     <Number>30</Number>
     <Nationality>Jesper Hansen</Nationality>
     <Poste>DEN</Poste>
@@ -1890,8 +1785,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>107</Id>
+  <Player Id="107">
     <Number>1</Number>
     <Nationality>Jonas Lössl</Nationality>
     <Poste>DEN</Poste>
@@ -1908,8 +1802,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>108</Id>
+  <Player Id="108">
     <Number>2</Number>
     <Nationality>Lars Jacobsen</Nationality>
     <Poste>DEN</Poste>
@@ -1926,8 +1819,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>109</Id>
+  <Player Id="109">
     <Number>3</Number>
     <Nationality>Angoua Brou Benjamin</Nationality>
     <Poste>CIV</Poste>
@@ -1944,8 +1836,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>110</Id>
+  <Player Id="110">
     <Number>4</Number>
     <Nationality>Baïssama Sankoh</Nationality>
     <Poste>FRA</Poste>
@@ -1962,8 +1853,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>111</Id>
+  <Player Id="111">
     <Number>5</Number>
     <Nationality>Moustapha Diallo</Nationality>
     <Poste>SEN</Poste>
@@ -1980,8 +1870,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>112</Id>
+  <Player Id="112">
     <Number>6</Number>
     <Nationality>Maxime Baca</Nationality>
     <Poste>FRA</Poste>
@@ -1998,8 +1887,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>113</Id>
+  <Player Id="113">
     <Number>7</Number>
     <Nationality>Dorian Levêque</Nationality>
     <Poste>FRA</Poste>
@@ -2016,8 +1904,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>114</Id>
+  <Player Id="114">
     <Number>8</Number>
     <Nationality>Ronnie Schwartz</Nationality>
     <Poste>DEN</Poste>
@@ -2034,8 +1921,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>115</Id>
+  <Player Id="115">
     <Number>10</Number>
     <Nationality>Younousse Sankharé</Nationality>
     <Poste>FRA</Poste>
@@ -2052,8 +1938,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>116</Id>
+  <Player Id="116">
     <Number>12</Number>
     <Nationality>Claudio Beauvue</Nationality>
     <Poste>FRA</Poste>
@@ -2070,8 +1955,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>117</Id>
+  <Player Id="117">
     <Number>13</Number>
     <Nationality>Christophe Mandanne</Nationality>
     <Poste>FRA</Poste>
@@ -2088,8 +1972,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>118</Id>
+  <Player Id="118">
     <Number>14</Number>
     <Nationality>Ladislas Douniama</Nationality>
     <Poste>CGO</Poste>
@@ -2106,8 +1989,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>119</Id>
+  <Player Id="119">
     <Number>15</Number>
     <Nationality>Jérémy Sorbon</Nationality>
     <Poste>FRA</Poste>
@@ -2124,8 +2006,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>120</Id>
+  <Player Id="120">
     <Number>16</Number>
     <Nationality>Hugo Guichard</Nationality>
     <Poste>FRA</Poste>
@@ -2142,8 +2023,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>121</Id>
+  <Player Id="121">
     <Number>17</Number>
     <Nationality>Rachid Alioui</Nationality>
     <Poste>FRA</Poste>
@@ -2160,8 +2040,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>122</Id>
+  <Player Id="122">
     <Number>18</Number>
     <Nationality>Lionel Mathis</Nationality>
     <Poste>FRA</Poste>
@@ -2178,8 +2057,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>123</Id>
+  <Player Id="123">
     <Number>20</Number>
     <Nationality>Laurent Dos Santos</Nationality>
     <Poste>FRA</Poste>
@@ -2196,8 +2074,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>124</Id>
+  <Player Id="124">
     <Number>21</Number>
     <Nationality>Sylvain Marveaux</Nationality>
     <Poste>FRA</Poste>
@@ -2214,8 +2091,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>125</Id>
+  <Player Id="125">
     <Number>22</Number>
     <Nationality>Julien Cardy</Nationality>
     <Poste>FRA</Poste>
@@ -2232,8 +2108,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>126</Id>
+  <Player Id="126">
     <Number>23</Number>
     <Nationality>Jérémy Pied</Nationality>
     <Poste>FRA</Poste>
@@ -2250,8 +2125,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>127</Id>
+  <Player Id="127">
     <Number>24</Number>
     <Nationality>Sambou Yatabaré</Nationality>
     <Poste>MLI</Poste>
@@ -2268,8 +2142,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>128</Id>
+  <Player Id="128">
     <Number>25</Number>
     <Nationality>Reynald Lemaître</Nationality>
     <Poste>FRA</Poste>
@@ -2286,8 +2159,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>129</Id>
+  <Player Id="129">
     <Number>26</Number>
     <Nationality>Thibault Giresse</Nationality>
     <Poste>FRA</Poste>
@@ -2304,8 +2176,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>130</Id>
+  <Player Id="130">
     <Number>29</Number>
     <Nationality>Christophe Kerbrat</Nationality>
     <Poste>FRA</Poste>
@@ -2322,8 +2193,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>131</Id>
+  <Player Id="131">
     <Number>30</Number>
     <Nationality>Mamadou Samassa</Nationality>
     <Poste>MLI</Poste>
@@ -2340,8 +2210,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>132</Id>
+  <Player Id="132">
     <Number>1</Number>
     <Nationality>Rudy Riou</Nationality>
     <Poste>FRA</Poste>
@@ -2358,8 +2227,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>133</Id>
+  <Player Id="133">
     <Number>4</Number>
     <Nationality>Ahmed Kantari</Nationality>
     <Poste>MAR</Poste>
@@ -2376,8 +2244,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>134</Id>
+  <Player Id="134">
     <Number>6</Number>
     <Nationality>Jérôme Lemoigne</Nationality>
     <Poste>FRA</Poste>
@@ -2394,8 +2261,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>135</Id>
+  <Player Id="135">
     <Number>7</Number>
     <Nationality>Yoann Touzghar</Nationality>
     <Poste>FRA</Poste>
@@ -2412,8 +2278,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>136</Id>
+  <Player Id="136">
     <Number>9</Number>
     <Nationality>Adamo Coulibaly</Nationality>
     <Poste>FRA</Poste>
@@ -2430,8 +2295,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>137</Id>
+  <Player Id="137">
     <Number>11</Number>
     <Nationality>Pablo Chavarría</Nationality>
     <Poste>ARG</Poste>
@@ -2448,8 +2312,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>138</Id>
+  <Player Id="138">
     <Number>14</Number>
     <Nationality>Deme N'Diaye</Nationality>
     <Poste>SEN</Poste>
@@ -2466,8 +2329,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>139</Id>
+  <Player Id="139">
     <Number>15</Number>
     <Nationality>Patrick Fradj</Nationality>
     <Poste>FRA</Poste>
@@ -2484,8 +2346,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>140</Id>
+  <Player Id="140">
     <Number>18</Number>
     <Nationality>Pierrick Valdivia</Nationality>
     <Poste>FRA</Poste>
@@ -2502,8 +2363,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>141</Id>
+  <Player Id="141">
     <Number>19</Number>
     <Nationality>Baptiste Guillaume</Nationality>
     <Poste>FRA</Poste>
@@ -2520,8 +2380,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>142</Id>
+  <Player Id="142">
     <Number>20</Number>
     <Nationality>Lalaina Nomenjanahary</Nationality>
     <Poste>MDA</Poste>
@@ -2538,8 +2397,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>143</Id>
+  <Player Id="143">
     <Number>21</Number>
     <Nationality>Alharbi El Jadeyaoui</Nationality>
     <Poste>FRA</Poste>
@@ -2556,8 +2414,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>144</Id>
+  <Player Id="144">
     <Number>22</Number>
     <Nationality>Loïck Landré</Nationality>
     <Poste>FRA</Poste>
@@ -2574,8 +2431,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>145</Id>
+  <Player Id="145">
     <Number>23</Number>
     <Nationality>Wylan Cyprien</Nationality>
     <Poste>FRA</Poste>
@@ -2592,8 +2448,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>146</Id>
+  <Player Id="146">
     <Number>24</Number>
     <Nationality>Ludovic Baal</Nationality>
     <Poste>FRA</Poste>
@@ -2610,8 +2465,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>147</Id>
+  <Player Id="147">
     <Number>25</Number>
     <Nationality>Jean-Philippe Gbamin</Nationality>
     <Poste>FRA</Poste>
@@ -2628,8 +2482,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>148</Id>
+  <Player Id="148">
     <Number>27</Number>
     <Nationality>Benjamin Boulenger</Nationality>
     <Poste>FRA</Poste>
@@ -2646,8 +2499,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>149</Id>
+  <Player Id="149">
     <Number>29</Number>
     <Nationality>Benjamin Bourigeaud</Nationality>
     <Poste>FRA</Poste>
@@ -2664,8 +2516,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>150</Id>
+  <Player Id="150">
     <Number>1</Number>
     <Nationality>Vincent Enyeama</Nationality>
     <Poste>NGA</Poste>
@@ -2682,8 +2533,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>151</Id>
+  <Player Id="151">
     <Number>2</Number>
     <Nationality>Sébastien Corchia</Nationality>
     <Poste>FRA</Poste>
@@ -2700,8 +2550,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>152</Id>
+  <Player Id="152">
     <Number>4</Number>
     <Nationality>Florent Balmont</Nationality>
     <Poste>FRA</Poste>
@@ -2718,8 +2567,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>153</Id>
+  <Player Id="153">
     <Number>5</Number>
     <Nationality>Idrissa Gueye</Nationality>
     <Poste>SEN</Poste>
@@ -2736,8 +2584,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>154</Id>
+  <Player Id="154">
     <Number>6</Number>
     <Nationality>Jonathan Delaplace</Nationality>
     <Poste>FRA</Poste>
@@ -2754,8 +2601,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>155</Id>
+  <Player Id="155">
     <Number>9</Number>
     <Nationality>Ronny Rodelin</Nationality>
     <Poste>FRA</Poste>
@@ -2772,8 +2618,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>156</Id>
+  <Player Id="156">
     <Number>10</Number>
     <Nationality>Marvin Martin</Nationality>
     <Poste>FRA</Poste>
@@ -2790,8 +2635,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>157</Id>
+  <Player Id="157">
     <Number>11</Number>
     <Nationality>Michael Frey</Nationality>
     <Poste>SUI</Poste>
@@ -2808,8 +2652,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>158</Id>
+  <Player Id="158">
     <Number>12</Number>
     <Nationality>Souahilo Meïté</Nationality>
     <Poste>FRA</Poste>
@@ -2826,8 +2669,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>159</Id>
+  <Player Id="159">
     <Number>13</Number>
     <Nationality>Adama Soumaoro</Nationality>
     <Poste>CIV</Poste>
@@ -2844,8 +2686,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>160</Id>
+  <Player Id="160">
     <Number>14</Number>
     <Nationality>Simon Kjær</Nationality>
     <Poste>DEN</Poste>
@@ -2862,8 +2703,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>161</Id>
+  <Player Id="161">
     <Number>15</Number>
     <Nationality>Djibril Sidibé</Nationality>
     <Poste>FRA</Poste>
@@ -2880,8 +2720,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>162</Id>
+  <Player Id="162">
     <Number>16</Number>
     <Nationality>Steeve Elana</Nationality>
     <Poste>FRA</Poste>
@@ -2898,8 +2737,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>163</Id>
+  <Player Id="163">
     <Number>17</Number>
     <Nationality>Marcos Lopes</Nationality>
     <Poste>POR</Poste>
@@ -2916,8 +2754,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>164</Id>
+  <Player Id="164">
     <Number>18</Number>
     <Nationality>Franck Béria</Nationality>
     <Poste>FRA</Poste>
@@ -2934,8 +2771,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>165</Id>
+  <Player Id="165">
     <Number>20</Number>
     <Nationality>Ryan Mendes</Nationality>
     <Poste>CPV</Poste>
@@ -2952,8 +2788,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>166</Id>
+  <Player Id="166">
     <Number>22</Number>
     <Nationality>David Rozehnal</Nationality>
     <Poste>CZE</Poste>
@@ -2970,8 +2805,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>167</Id>
+  <Player Id="167">
     <Number>23</Number>
     <Nationality>Pape N'Diaye Souaré</Nationality>
     <Poste>SEN</Poste>
@@ -2988,8 +2822,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>168</Id>
+  <Player Id="168">
     <Number>24</Number>
     <Nationality>Rio Antonio Mavuba</Nationality>
     <Poste>FRA</Poste>
@@ -3006,8 +2839,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>169</Id>
+  <Player Id="169">
     <Number>25</Number>
     <Nationality>Marko Baša</Nationality>
     <Poste>SRB</Poste>
@@ -3024,8 +2856,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>170</Id>
+  <Player Id="170">
     <Number>26</Number>
     <Nationality>Nolan Roux</Nationality>
     <Poste>FRA</Poste>
@@ -3042,8 +2873,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>171</Id>
+  <Player Id="171">
     <Number>27</Number>
     <Nationality>Divock Origi</Nationality>
     <Poste>BEL</Poste>
@@ -3060,8 +2890,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>172</Id>
+  <Player Id="172">
     <Number>30</Number>
     <Nationality>Jean Butez</Nationality>
     <Poste>FRA</Poste>
@@ -3078,8 +2907,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>173</Id>
+  <Player Id="173">
     <Number>2</Number>
     <Nationality>Lamine Koné</Nationality>
     <Poste>FRA</Poste>
@@ -3096,8 +2924,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>174</Id>
+  <Player Id="174">
     <Number>3</Number>
     <Nationality>Pedrinho</Nationality>
     <Poste>POR</Poste>
@@ -3114,8 +2941,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>175</Id>
+  <Player Id="175">
     <Number>4</Number>
     <Nationality>Vincent Le Goff</Nationality>
     <Poste>FRA</Poste>
@@ -3132,8 +2958,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>176</Id>
+  <Player Id="176">
     <Number>5</Number>
     <Nationality>Mehdi Mostefa Sbaa</Nationality>
     <Poste>ALG</Poste>
@@ -3150,8 +2975,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>177</Id>
+  <Player Id="177">
     <Number>6</Number>
     <Nationality>François Bellugou</Nationality>
     <Poste>FRA</Poste>
@@ -3168,8 +2992,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>178</Id>
+  <Player Id="178">
     <Number>7</Number>
     <Nationality>Sadio Diallo</Nationality>
     <Poste>GUI</Poste>
@@ -3186,8 +3009,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>179</Id>
+  <Player Id="179">
     <Number>8</Number>
     <Nationality>Yann Jouffre</Nationality>
     <Poste>FRA</Poste>
@@ -3204,8 +3026,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>180</Id>
+  <Player Id="180">
     <Number>9</Number>
     <Nationality>Jordan Ayew</Nationality>
     <Poste>GHA</Poste>
@@ -3222,8 +3043,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>181</Id>
+  <Player Id="181">
     <Number>10</Number>
     <Nationality>Mathieu Coutadeur</Nationality>
     <Poste>FRA</Poste>
@@ -3240,8 +3060,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>182</Id>
+  <Player Id="182">
     <Number>12</Number>
     <Nationality>Pierre Lavenant</Nationality>
     <Poste>FRA</Poste>
@@ -3258,8 +3077,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>183</Id>
+  <Player Id="183">
     <Number>13</Number>
     <Nationality>Rafidine Abdullah</Nationality>
     <Poste>FRA</Poste>
@@ -3276,8 +3094,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>184</Id>
+  <Player Id="184">
     <Number>14</Number>
     <Nationality>Raphaël Guerreiro</Nationality>
     <Poste>FRA</Poste>
@@ -3294,8 +3111,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>185</Id>
+  <Player Id="185">
     <Number>15</Number>
     <Nationality>Fabien Robert</Nationality>
     <Poste>FRA</Poste>
@@ -3312,8 +3128,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>186</Id>
+  <Player Id="186">
     <Number>16</Number>
     <Nationality>Fabien Audard</Nationality>
     <Poste>FRA</Poste>
@@ -3330,8 +3145,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>187</Id>
+  <Player Id="187">
     <Number>17</Number>
     <Nationality>Walid Mesloub</Nationality>
     <Poste>ALG</Poste>
@@ -3348,8 +3162,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>188</Id>
+  <Player Id="188">
     <Number>18</Number>
     <Nationality>Gilles Sunu</Nationality>
     <Poste>FRA</Poste>
@@ -3366,8 +3179,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>189</Id>
+  <Player Id="189">
     <Number>19</Number>
     <Nationality>Bryan Pelé</Nationality>
     <Poste>FRA</Poste>
@@ -3384,8 +3196,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>190</Id>
+  <Player Id="190">
     <Number>20</Number>
     <Nationality>Julien Quercia</Nationality>
     <Poste>FRA</Poste>
@@ -3402,8 +3213,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>191</Id>
+  <Player Id="191">
     <Number>21</Number>
     <Nationality>Alain Traoré</Nationality>
     <Poste>BFA</Poste>
@@ -3420,8 +3230,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>192</Id>
+  <Player Id="192">
     <Number>22</Number>
     <Nationality>Benjamin Jeannot</Nationality>
     <Poste>FRA</Poste>
@@ -3438,8 +3247,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>193</Id>
+  <Player Id="193">
     <Number>23</Number>
     <Nationality>Mathias Autret</Nationality>
     <Poste>FRA</Poste>
@@ -3456,8 +3264,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>194</Id>
+  <Player Id="194">
     <Number>24</Number>
     <Nationality>Wesley Lautoa</Nationality>
     <Poste>FRA</Poste>
@@ -3474,8 +3281,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>195</Id>
+  <Player Id="195">
     <Number>25</Number>
     <Nationality>Lamine Gassama</Nationality>
     <Poste>SEN</Poste>
@@ -3492,8 +3298,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>196</Id>
+  <Player Id="196">
     <Number>26</Number>
     <Nationality>Yohann Wachter</Nationality>
     <Poste>FRA</Poste>
@@ -3510,8 +3315,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>197</Id>
+  <Player Id="197">
     <Number>27</Number>
     <Nationality>Enzo Reale</Nationality>
     <Poste>FRA</Poste>
@@ -3528,8 +3332,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>198</Id>
+  <Player Id="198">
     <Number>28</Number>
     <Nationality>Maxime Barthelme</Nationality>
     <Poste>FRA</Poste>
@@ -3546,8 +3349,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>199</Id>
+  <Player Id="199">
     <Number>29</Number>
     <Nationality>Cheick Touré</Nationality>
     <Poste>CIV</Poste>
@@ -3564,8 +3366,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>200</Id>
+  <Player Id="200">
     <Number>30</Number>
     <Nationality>Florent Chaigneau</Nationality>
     <Poste>FRA</Poste>
@@ -3582,8 +3383,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>201</Id>
+  <Player Id="201">
     <Number>31</Number>
     <Nationality>Valentin Lavigne</Nationality>
     <Poste>FRA</Poste>
@@ -3600,8 +3400,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>202</Id>
+  <Player Id="202">
     <Number>1</Number>
     <Nationality>Anthony Lopes</Nationality>
     <Poste>POR</Poste>
@@ -3618,8 +3417,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>203</Id>
+  <Player Id="203">
     <Number>2</Number>
     <Nationality>Mehdi Zeffane</Nationality>
     <Poste>FRA</Poste>
@@ -3636,8 +3434,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>204</Id>
+  <Player Id="204">
     <Number>3</Number>
     <Nationality>Henri Bedimo Nsame</Nationality>
     <Poste>CMR</Poste>
@@ -3654,8 +3451,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>205</Id>
+  <Player Id="205">
     <Number>4</Number>
     <Nationality>Bakari Koné</Nationality>
     <Poste>BFA</Poste>
@@ -3672,8 +3468,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>206</Id>
+  <Player Id="206">
     <Number>5</Number>
     <Nationality>Milan Biševac</Nationality>
     <Poste>SRB</Poste>
@@ -3690,8 +3485,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>207</Id>
+  <Player Id="207">
     <Number>6</Number>
     <Nationality>Gueïda Fofana</Nationality>
     <Poste>FRA</Poste>
@@ -3708,8 +3502,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>208</Id>
+  <Player Id="208">
     <Number>7</Number>
     <Nationality>Clément Grenier</Nationality>
     <Poste>FRA</Poste>
@@ -3726,8 +3519,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>209</Id>
+  <Player Id="209">
     <Number>8</Number>
     <Nationality>Yoann Gourcuff</Nationality>
     <Poste>FRA</Poste>
@@ -3744,8 +3536,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>210</Id>
+  <Player Id="210">
     <Number>10</Number>
     <Nationality>Alexandre Lacazette</Nationality>
     <Poste>FRA</Poste>
@@ -3762,8 +3553,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>211</Id>
+  <Player Id="211">
     <Number>11</Number>
     <Nationality>Rachid Ghezzal</Nationality>
     <Poste>FRA</Poste>
@@ -3780,8 +3570,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>212</Id>
+  <Player Id="212">
     <Number>12</Number>
     <Nationality>Jordan Ferri</Nationality>
     <Poste>FRA</Poste>
@@ -3798,8 +3587,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>213</Id>
+  <Player Id="213">
     <Number>13</Number>
     <Nationality>Christophe Jallet</Nationality>
     <Poste>FRA</Poste>
@@ -3816,8 +3604,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>214</Id>
+  <Player Id="214">
     <Number>14</Number>
     <Nationality>Mouhamadou Dabo</Nationality>
     <Poste>SEN</Poste>
@@ -3834,8 +3621,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>215</Id>
+  <Player Id="215">
     <Number>16</Number>
     <Nationality>Jérémy Frick</Nationality>
     <Poste>SUI</Poste>
@@ -3852,8 +3638,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>216</Id>
+  <Player Id="216">
     <Number>17</Number>
     <Nationality>Steed Malbranque</Nationality>
     <Poste>FRA</Poste>
@@ -3870,8 +3655,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>217</Id>
+  <Player Id="217">
     <Number>18</Number>
     <Nationality>Nabil Fekir</Nationality>
     <Poste>FRA</Poste>
@@ -3888,8 +3672,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>218</Id>
+  <Player Id="218">
     <Number>19</Number>
     <Nationality>Mohamed Yattara</Nationality>
     <Poste>GUI</Poste>
@@ -3906,8 +3689,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>219</Id>
+  <Player Id="219">
     <Number>20</Number>
     <Nationality>Clinton N'Jie</Nationality>
     <Poste>CMR</Poste>
@@ -3924,8 +3706,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>220</Id>
+  <Player Id="220">
     <Number>21</Number>
     <Nationality>Maxime Gonalons</Nationality>
     <Poste>FRA</Poste>
@@ -3942,8 +3723,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>221</Id>
+  <Player Id="221">
     <Number>22</Number>
     <Nationality>Lindsay Rose</Nationality>
     <Poste>FRA</Poste>
@@ -3960,8 +3740,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>222</Id>
+  <Player Id="222">
     <Number>23</Number>
     <Nationality>Samuel Umtiti</Nationality>
     <Poste>FRA</Poste>
@@ -3978,8 +3757,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>223</Id>
+  <Player Id="223">
     <Number>24</Number>
     <Nationality>Corentin Tolisso</Nationality>
     <Poste>FRA</Poste>
@@ -3996,8 +3774,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>224</Id>
+  <Player Id="224">
     <Number>25</Number>
     <Nationality>Yassine Benzia</Nationality>
     <Poste>FRA</Poste>
@@ -4014,8 +3791,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>225</Id>
+  <Player Id="225">
     <Number>26</Number>
     <Nationality>Gaël Danic</Nationality>
     <Poste>FRA</Poste>
@@ -4032,8 +3808,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>226</Id>
+  <Player Id="226">
     <Number>28</Number>
     <Nationality>Arnold Mvuemba</Nationality>
     <Poste>FRA</Poste>
@@ -4050,8 +3825,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>227</Id>
+  <Player Id="227">
     <Number>29</Number>
     <Nationality>Fares Bahlouli</Nationality>
     <Poste>FRA</Poste>
@@ -4068,8 +3842,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>228</Id>
+  <Player Id="228">
     <Number>30</Number>
     <Nationality>Mathieu Gorgelin</Nationality>
     <Poste>FRA</Poste>
@@ -4086,8 +3859,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>229</Id>
+  <Player Id="229">
     <Number>3</Number>
     <Nationality>Nicolas Nkoulou</Nationality>
     <Poste>CMR</Poste>
@@ -4104,8 +3876,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>230</Id>
+  <Player Id="230">
     <Number>4</Number>
     <Nationality>Dória</Nationality>
     <Poste>BRA</Poste>
@@ -4122,8 +3893,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>231</Id>
+  <Player Id="231">
     <Number>5</Number>
     <Nationality>Stéphane Sparagna</Nationality>
     <Poste>FRA</Poste>
@@ -4140,8 +3910,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>232</Id>
+  <Player Id="232">
     <Number>6</Number>
     <Nationality>Momar Bangoura</Nationality>
     <Poste>FRA</Poste>
@@ -4158,8 +3927,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>233</Id>
+  <Player Id="233">
     <Number>7</Number>
     <Nationality>Benoît Cheyrou</Nationality>
     <Poste>FRA</Poste>
@@ -4176,8 +3944,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>234</Id>
+  <Player Id="234">
     <Number>8</Number>
     <Nationality>Mario Lemina</Nationality>
     <Poste>FRA</Poste>
@@ -4194,8 +3961,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>235</Id>
+  <Player Id="235">
     <Number>9</Number>
     <Nationality>André-Pierre Gignac</Nationality>
     <Poste>FRA</Poste>
@@ -4212,8 +3978,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>236</Id>
+  <Player Id="236">
     <Number>10</Number>
     <Nationality>André Ayew</Nationality>
     <Poste>GHA</Poste>
@@ -4230,8 +3995,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>237</Id>
+  <Player Id="237">
     <Number>11</Number>
     <Nationality>Romain Alessandrini</Nationality>
     <Poste>FRA</Poste>
@@ -4248,8 +4012,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>238</Id>
+  <Player Id="238">
     <Number>14</Number>
     <Nationality>Florian Thauvin</Nationality>
     <Poste>FRA</Poste>
@@ -4266,8 +4029,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>239</Id>
+  <Player Id="239">
     <Number>15</Number>
     <Nationality>Jérémy Morel</Nationality>
     <Poste>FRA</Poste>
@@ -4284,8 +4046,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>240</Id>
+  <Player Id="240">
     <Number>16</Number>
     <Nationality>Brice Samba</Nationality>
     <Poste>CGO</Poste>
@@ -4302,8 +4063,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>241</Id>
+  <Player Id="241">
     <Number>17</Number>
     <Nationality>Dimitri Payet</Nationality>
     <Poste>FRA</Poste>
@@ -4320,8 +4080,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>242</Id>
+  <Player Id="242">
     <Number>20</Number>
     <Nationality>Alaixys Romao</Nationality>
     <Poste>TOG</Poste>
@@ -4338,8 +4097,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>243</Id>
+  <Player Id="243">
     <Number>22</Number>
     <Nationality>Michy Batshuayi</Nationality>
     <Poste>BEL</Poste>
@@ -4356,8 +4114,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>244</Id>
+  <Player Id="244">
     <Number>23</Number>
     <Nationality>Benjamin Mendy</Nationality>
     <Poste>FRA</Poste>
@@ -4374,8 +4131,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>245</Id>
+  <Player Id="245">
     <Number>24</Number>
     <Nationality>Rod Fanni</Nationality>
     <Poste>FRA</Poste>
@@ -4392,8 +4148,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>246</Id>
+  <Player Id="246">
     <Number>25</Number>
     <Nationality>Gianelli Imbula</Nationality>
     <Poste>CGO</Poste>
@@ -4410,8 +4165,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>247</Id>
+  <Player Id="247">
     <Number>26</Number>
     <Nationality>Brice Dja Djedje</Nationality>
     <Poste>CIV</Poste>
@@ -4428,8 +4182,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>248</Id>
+  <Player Id="248">
     <Number>27</Number>
     <Nationality>Abdelaziz Barrada</Nationality>
     <Poste>MAR</Poste>
@@ -4446,8 +4199,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>249</Id>
+  <Player Id="249">
     <Number>29</Number>
     <Nationality>Jérémie Porsan-Clemente</Nationality>
     <Poste>FRA</Poste>
@@ -4464,8 +4216,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>250</Id>
+  <Player Id="250">
     <Number>30</Number>
     <Nationality>Steve Mandanda</Nationality>
     <Poste>FRA</Poste>
@@ -4482,8 +4233,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>251</Id>
+  <Player Id="251">
     <Number>1</Number>
     <Nationality>Johann Carrasso</Nationality>
     <Poste>FRA</Poste>
@@ -4500,8 +4250,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>252</Id>
+  <Player Id="252">
     <Number>3</Number>
     <Nationality>Jonathan Rivierez</Nationality>
     <Poste>FRA</Poste>
@@ -4518,8 +4267,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>253</Id>
+  <Player Id="253">
     <Number>4</Number>
     <Nationality>Sylvain Marchal</Nationality>
     <Poste>FRA</Poste>
@@ -4536,8 +4284,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>254</Id>
+  <Player Id="254">
     <Number>5</Number>
     <Nationality>Guido Milan</Nationality>
     <Poste>ARG</Poste>
@@ -4554,8 +4301,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>255</Id>
+  <Player Id="255">
     <Number>7</Number>
     <Nationality>Romain Rocchi</Nationality>
     <Poste>FRA</Poste>
@@ -4572,8 +4318,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>256</Id>
+  <Player Id="256">
     <Number>8</Number>
     <Nationality>Cheick Doukouré</Nationality>
     <Poste>FRA</Poste>
@@ -4590,8 +4335,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>257</Id>
+  <Player Id="257">
     <Number>9</Number>
     <Nationality>Juan Manuel Falcón</Nationality>
     <Poste>VEN</Poste>
@@ -4608,8 +4352,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>258</Id>
+  <Player Id="258">
     <Number>10</Number>
     <Nationality>Bouna Sarr</Nationality>
     <Poste>FRA</Poste>
@@ -4626,8 +4369,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>259</Id>
+  <Player Id="259">
     <Number>11</Number>
     <Nationality>Federico Andrada</Nationality>
     <Poste>ARG</Poste>
@@ -4644,8 +4386,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>260</Id>
+  <Player Id="260">
     <Number>12</Number>
     <Nationality>Kwamé Nsor</Nationality>
     <Poste>GHA</Poste>
@@ -4662,8 +4403,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>261</Id>
+  <Player Id="261">
     <Number>13</Number>
     <Nationality>Florent Malouda</Nationality>
     <Poste>FRA</Poste>
@@ -4680,8 +4420,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>262</Id>
+  <Player Id="262">
     <Number>14</Number>
     <Nationality>Fadil Sido</Nationality>
     <Poste>BFA</Poste>
@@ -4698,8 +4437,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>263</Id>
+  <Player Id="263">
     <Number>15</Number>
     <Nationality>Romain Métanire</Nationality>
     <Poste>FRA</Poste>
@@ -4716,8 +4454,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>264</Id>
+  <Player Id="264">
     <Number>16</Number>
     <Nationality>Anthony Mfa Mezui</Nationality>
     <Poste>GAB</Poste>
@@ -4734,8 +4471,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>265</Id>
+  <Player Id="265">
     <Number>17</Number>
     <Nationality>Maxwel Cornet</Nationality>
     <Poste>FRA</Poste>
@@ -4752,8 +4488,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>266</Id>
+  <Player Id="266">
     <Number>18</Number>
     <Nationality>Jérémy Choplin</Nationality>
     <Poste>FRA</Poste>
@@ -4770,8 +4505,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>267</Id>
+  <Player Id="267">
     <Number>19</Number>
     <Nationality>Thibaut Vion</Nationality>
     <Poste>FRA</Poste>
@@ -4788,8 +4522,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>268</Id>
+  <Player Id="268">
     <Number>20</Number>
     <Nationality>Modibo Maïga</Nationality>
     <Poste>MLI</Poste>
@@ -4806,8 +4539,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>269</Id>
+  <Player Id="269">
     <Number>21</Number>
     <Nationality>Ahmed Kashi</Nationality>
     <Poste>FRA</Poste>
@@ -4824,8 +4556,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>270</Id>
+  <Player Id="270">
     <Number>22</Number>
     <Nationality>Kévin Lejeune</Nationality>
     <Poste>FRA</Poste>
@@ -4842,8 +4573,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>271</Id>
+  <Player Id="271">
     <Number>23</Number>
     <Nationality>Yeni Atito Ngbakoto</Nationality>
     <Poste>FRA</Poste>
@@ -4860,8 +4590,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>272</Id>
+  <Player Id="272">
     <Number>24</Number>
     <Nationality>Gaétan Bussmann</Nationality>
     <Poste>FRA</Poste>
@@ -4878,8 +4607,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>273</Id>
+  <Player Id="273">
     <Number>25</Number>
     <Nationality>Guirane N'Daw</Nationality>
     <Poste>SEN</Poste>
@@ -4896,8 +4624,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>274</Id>
+  <Player Id="274">
     <Number>26</Number>
     <Nationality>Chris Philipps</Nationality>
     <Poste>LUX</Poste>
@@ -4914,8 +4641,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>275</Id>
+  <Player Id="275">
     <Number>27</Number>
     <Nationality>José Luis Palomino</Nationality>
     <Poste>ARG</Poste>
@@ -4932,8 +4658,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>276</Id>
+  <Player Id="276">
     <Number>28</Number>
     <Nationality>Mayoro N'Doye-Baye</Nationality>
     <Poste>SEN</Poste>
@@ -4950,8 +4675,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>277</Id>
+  <Player Id="277">
     <Number>29</Number>
     <Nationality>Sergey Krivets</Nationality>
     <Poste>BLR</Poste>
@@ -4968,8 +4692,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>278</Id>
+  <Player Id="278">
     <Number>30</Number>
     <Nationality>David Oberhauser</Nationality>
     <Poste>FRA</Poste>
@@ -4986,8 +4709,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>279</Id>
+  <Player Id="279">
     <Number>1</Number>
     <Nationality>Danijel Subaši?</Nationality>
     <Poste>CRO</Poste>
@@ -5004,8 +4726,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>280</Id>
+  <Player Id="280">
     <Number>2</Number>
     <Nationality>Fabinho</Nationality>
     <Poste>BRA</Poste>
@@ -5022,8 +4743,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>281</Id>
+  <Player Id="281">
     <Number>3</Number>
     <Nationality>Layvin Kurzawa</Nationality>
     <Poste>FRA</Poste>
@@ -5040,8 +4760,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>282</Id>
+  <Player Id="282">
     <Number>4</Number>
     <Nationality>Borja López</Nationality>
     <Poste>ESP</Poste>
@@ -5058,8 +4777,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>283</Id>
+  <Player Id="283">
     <Number>5</Number>
     <Nationality>Aymen Abdennour</Nationality>
     <Poste>TUN</Poste>
@@ -5076,8 +4794,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>284</Id>
+  <Player Id="284">
     <Number>6</Number>
     <Nationality>Ricardo Carvalho</Nationality>
     <Poste>POR</Poste>
@@ -5094,8 +4811,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>285</Id>
+  <Player Id="285">
     <Number>7</Number>
     <Nationality>Nabil Dirar</Nationality>
     <Poste>MAR</Poste>
@@ -5112,8 +4828,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>286</Id>
+  <Player Id="286">
     <Number>8</Number>
     <Nationality>João Moutinho</Nationality>
     <Poste>POR</Poste>
@@ -5130,8 +4845,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>287</Id>
+  <Player Id="287">
     <Number>10</Number>
     <Nationality>Dimitar Berbatov</Nationality>
     <Poste>BUL</Poste>
@@ -5148,8 +4862,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>288</Id>
+  <Player Id="288">
     <Number>11</Number>
     <Nationality>Lucas Ocampos</Nationality>
     <Poste>ARG</Poste>
@@ -5166,8 +4879,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>289</Id>
+  <Player Id="289">
     <Number>13</Number>
     <Nationality>Wallace</Nationality>
     <Poste>BRA</Poste>
@@ -5184,8 +4896,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>290</Id>
+  <Player Id="290">
     <Number>14</Number>
     <Nationality>Tiemoué Bakayoko</Nationality>
     <Poste>FRA</Poste>
@@ -5202,8 +4913,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>291</Id>
+  <Player Id="291">
     <Number>15</Number>
     <Nationality>Bernardo Silva</Nationality>
     <Poste>POR</Poste>
@@ -5220,8 +4930,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>292</Id>
+  <Player Id="292">
     <Number>16</Number>
     <Nationality>Maarten Stekelenburg</Nationality>
     <Poste>NED</Poste>
@@ -5238,8 +4947,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>293</Id>
+  <Player Id="293">
     <Number>17</Number>
     <Nationality>Yannick Ferreira Carrasco</Nationality>
     <Poste>BEL</Poste>
@@ -5256,8 +4964,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>294</Id>
+  <Player Id="294">
     <Number>18</Number>
     <Nationality>Valère Germain</Nationality>
     <Poste>FRA</Poste>
@@ -5274,8 +4981,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>295</Id>
+  <Player Id="295">
     <Number>19</Number>
     <Nationality>Lacina Traoré</Nationality>
     <Poste>CIV</Poste>
@@ -5292,8 +4998,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>296</Id>
+  <Player Id="296">
     <Number>21</Number>
     <Nationality>Elderson Uwa Echiejile</Nationality>
     <Poste>NGA</Poste>
@@ -5310,8 +5015,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>297</Id>
+  <Player Id="297">
     <Number>22</Number>
     <Nationality>Geoffrey Kondogbia</Nationality>
     <Poste>FRA</Poste>
@@ -5328,8 +5032,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>298</Id>
+  <Player Id="298">
     <Number>23</Number>
     <Nationality>Anthony Martial</Nationality>
     <Poste>FRA</Poste>
@@ -5346,8 +5049,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>299</Id>
+  <Player Id="299">
     <Number>24</Number>
     <Nationality>Andrea Raggi</Nationality>
     <Poste>ITA</Poste>
@@ -5364,8 +5066,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>300</Id>
+  <Player Id="300">
     <Number>28</Number>
     <Nationality>Jérémy Toulalan</Nationality>
     <Poste>FRA</Poste>
@@ -5382,8 +5083,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>301</Id>
+  <Player Id="301">
     <Number>29</Number>
     <Nationality>Dylan Bahamboula</Nationality>
     <Poste>FRA</Poste>
@@ -5400,8 +5100,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>302</Id>
+  <Player Id="302">
     <Number>30</Number>
     <Nationality>Seydou Sy</Nationality>
     <Poste>SEN</Poste>
@@ -5418,8 +5117,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>303</Id>
+  <Player Id="303">
     <Number>34</Number>
     <Nationality>Abdou Diallo</Nationality>
     <Poste>FRA</Poste>
@@ -5436,8 +5134,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>304</Id>
+  <Player Id="304">
     <Number>37</Number>
     <Nationality>Aboud Aziz Thiam</Nationality>
     <Poste>FRA</Poste>
@@ -5454,8 +5151,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>305</Id>
+  <Player Id="305">
     <Number>38</Number>
     <Nationality>Almary Touré</Nationality>
     <Poste>MLI</Poste>
@@ -5472,8 +5168,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>306</Id>
+  <Player Id="306">
     <Number>40</Number>
     <Nationality>Marc-Aurèle Caillard</Nationality>
     <Poste>FRA</Poste>
@@ -5490,8 +5185,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>307</Id>
+  <Player Id="307">
     <Number>1</Number>
     <Nationality>Laurent Pionnier</Nationality>
     <Poste>FRA</Poste>
@@ -5508,8 +5202,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>308</Id>
+  <Player Id="308">
     <Number>3</Number>
     <Nationality>Daniel Congré</Nationality>
     <Poste>FRA</Poste>
@@ -5526,8 +5219,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>309</Id>
+  <Player Id="309">
     <Number>4</Number>
     <Nationality>Hilton</Nationality>
     <Poste>BRA</Poste>
@@ -5544,8 +5236,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>310</Id>
+  <Player Id="310">
     <Number>5</Number>
     <Nationality>Siaka Tiéné</Nationality>
     <Poste>CIV</Poste>
@@ -5562,8 +5253,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>311</Id>
+  <Player Id="311">
     <Number>6</Number>
     <Nationality>Joris Marveaux</Nationality>
     <Poste>FRA</Poste>
@@ -5580,8 +5270,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>312</Id>
+  <Player Id="312">
     <Number>7</Number>
     <Nationality>Anthony Mounier</Nationality>
     <Poste>FRA</Poste>
@@ -5598,8 +5287,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>313</Id>
+  <Player Id="313">
     <Number>8</Number>
     <Nationality>Jonas Martin</Nationality>
     <Poste>FRA</Poste>
@@ -5616,8 +5304,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>314</Id>
+  <Player Id="314">
     <Number>9</Number>
     <Nationality>Kévin Bérigaud</Nationality>
     <Poste>FRA</Poste>
@@ -5634,8 +5321,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>315</Id>
+  <Player Id="315">
     <Number>10</Number>
     <Nationality>Lucas Barrios</Nationality>
     <Poste>PAR</Poste>
@@ -5652,8 +5338,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>316</Id>
+  <Player Id="316">
     <Number>11</Number>
     <Nationality>Victor Hugo Montaño</Nationality>
     <Poste>COL</Poste>
@@ -5670,8 +5355,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>317</Id>
+  <Player Id="317">
     <Number>13</Number>
     <Nationality>Dylan Gissi</Nationality>
     <Poste>SUI</Poste>
@@ -5688,8 +5372,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>318</Id>
+  <Player Id="318">
     <Number>14</Number>
     <Nationality>Bryan Dabo</Nationality>
     <Poste>FRA</Poste>
@@ -5706,8 +5389,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>319</Id>
+  <Player Id="319">
     <Number>16</Number>
     <Nationality>Geoffrey Jourdren</Nationality>
     <Poste>FRA</Poste>
@@ -5724,8 +5406,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>320</Id>
+  <Player Id="320">
     <Number>17</Number>
     <Nationality>Paul Lasne</Nationality>
     <Poste>FRA</Poste>
@@ -5742,8 +5423,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>321</Id>
+  <Player Id="321">
     <Number>18</Number>
     <Nationality>Karim Aït-Fana</Nationality>
     <Poste>MAR</Poste>
@@ -5760,8 +5440,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>322</Id>
+  <Player Id="322">
     <Number>19</Number>
     <Nationality>Souleymane Camara</Nationality>
     <Poste>SEN</Poste>
@@ -5778,8 +5457,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>323</Id>
+  <Player Id="323">
     <Number>20</Number>
     <Nationality>Morgan Sanson</Nationality>
     <Poste>FRA</Poste>
@@ -5796,8 +5474,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>324</Id>
+  <Player Id="324">
     <Number>21</Number>
     <Nationality>Abdelhamid El Kaoutari</Nationality>
     <Poste>MAR</Poste>
@@ -5814,8 +5491,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>325</Id>
+  <Player Id="325">
     <Number>23</Number>
     <Nationality>Jamel Saihi</Nationality>
     <Poste>TUN</Poste>
@@ -5832,8 +5508,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>326</Id>
+  <Player Id="326">
     <Number>24</Number>
     <Nationality>Jean Deza</Nationality>
     <Poste>PER</Poste>
@@ -5850,8 +5525,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>327</Id>
+  <Player Id="327">
     <Number>25</Number>
     <Nationality>Mathieu Deplagne</Nationality>
     <Poste>FRA</Poste>
@@ -5868,8 +5542,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>328</Id>
+  <Player Id="328">
     <Number>26</Number>
     <Nationality>Yassine Jebbour</Nationality>
     <Poste>MAR</Poste>
@@ -5886,8 +5559,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>329</Id>
+  <Player Id="329">
     <Number>27</Number>
     <Nationality>Steve Mounié</Nationality>
     <Poste>BEN</Poste>
@@ -5904,8 +5576,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>330</Id>
+  <Player Id="330">
     <Number>28</Number>
     <Nationality>Djamel Bakar</Nationality>
     <Poste>FRA</Poste>
@@ -5922,8 +5593,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>331</Id>
+  <Player Id="331">
     <Number>29</Number>
     <Nationality>Gianni Seraf</Nationality>
     <Poste>FRA</Poste>
@@ -5940,8 +5610,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>332</Id>
+  <Player Id="332">
     <Number>30</Number>
     <Nationality>Jonathan Ligali</Nationality>
     <Poste>FRA</Poste>
@@ -5958,8 +5627,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>333</Id>
+  <Player Id="333">
     <Number>31</Number>
     <Nationality>Quentin Cornette</Nationality>
     <Poste>FRA</Poste>
@@ -5976,8 +5644,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>334</Id>
+  <Player Id="334">
     <Number>32</Number>
     <Nationality>Nicolas Saint-Ruf</Nationality>
     <Poste>FRA</Poste>
@@ -5994,8 +5661,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>335</Id>
+  <Player Id="335">
     <Number>1</Number>
     <Nationality>Rémy Riou</Nationality>
     <Poste>FRA</Poste>
@@ -6012,8 +5678,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>336</Id>
+  <Player Id="336">
     <Number>2</Number>
     <Nationality>Kian Hansen</Nationality>
     <Poste>DEN</Poste>
@@ -6030,8 +5695,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>337</Id>
+  <Player Id="337">
     <Number>3</Number>
     <Nationality>Papy Mison Djilobodji</Nationality>
     <Poste>SEN</Poste>
@@ -6048,8 +5712,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>338</Id>
+  <Player Id="338">
     <Number>4</Number>
     <Nationality>Oswaldo Vizcarrondo</Nationality>
     <Poste>VEN</Poste>
@@ -6066,8 +5729,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>339</Id>
+  <Player Id="339">
     <Number>5</Number>
     <Nationality>Olivier Veigneau</Nationality>
     <Poste>FRA</Poste>
@@ -6084,8 +5746,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>340</Id>
+  <Player Id="340">
     <Number>6</Number>
     <Nationality>Rémi Gomis</Nationality>
     <Poste>SEN</Poste>
@@ -6102,8 +5763,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>341</Id>
+  <Player Id="341">
     <Number>7</Number>
     <Nationality>Alejandro Bedoya</Nationality>
     <Poste>USA</Poste>
@@ -6120,8 +5780,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>342</Id>
+  <Player Id="342">
     <Number>8</Number>
     <Nationality>Vincent Bessat</Nationality>
     <Poste>FRA</Poste>
@@ -6138,8 +5797,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>343</Id>
+  <Player Id="343">
     <Number>9</Number>
     <Nationality>Itay Shechter</Nationality>
     <Poste>ISR</Poste>
@@ -6156,8 +5814,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>344</Id>
+  <Player Id="344">
     <Number>10</Number>
     <Nationality>Fernando Aristeguieta</Nationality>
     <Poste>VEN</Poste>
@@ -6174,8 +5831,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>345</Id>
+  <Player Id="345">
     <Number>11</Number>
     <Nationality>Ismaël Bangoura</Nationality>
     <Poste>GUI</Poste>
@@ -6192,8 +5848,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>346</Id>
+  <Player Id="346">
     <Number>12</Number>
     <Nationality>Birama Touré</Nationality>
     <Poste>MLI</Poste>
@@ -6210,8 +5865,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>347</Id>
+  <Player Id="347">
     <Number>13</Number>
     <Nationality>Serge Gakpé</Nationality>
     <Poste>TOG</Poste>
@@ -6228,8 +5882,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>348</Id>
+  <Player Id="348">
     <Number>14</Number>
     <Nationality>Georges-Kevin Nkoudou</Nationality>
     <Poste>FRA</Poste>
@@ -6246,8 +5899,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>349</Id>
+  <Player Id="349">
     <Number>15</Number>
     <Nationality>Léo Dubois</Nationality>
     <Poste>FRA</Poste>
@@ -6264,8 +5916,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>350</Id>
+  <Player Id="350">
     <Number>16</Number>
     <Nationality>Erwin Zelazny</Nationality>
     <Poste>FRA</Poste>
@@ -6282,8 +5933,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>351</Id>
+  <Player Id="351">
     <Number>18</Number>
     <Nationality>Lucas Deaux</Nationality>
     <Poste>FRA</Poste>
@@ -6300,8 +5950,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>352</Id>
+  <Player Id="352">
     <Number>19</Number>
     <Nationality>Abdoulaye Touré</Nationality>
     <Poste>FRA</Poste>
@@ -6318,8 +5967,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>353</Id>
+  <Player Id="353">
     <Number>20</Number>
     <Nationality>Amine Oudrhiri</Nationality>
     <Poste>FRA</Poste>
@@ -6336,8 +5984,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>354</Id>
+  <Player Id="354">
     <Number>21</Number>
     <Nationality>Johan Audel</Nationality>
     <Poste>FRA</Poste>
@@ -6354,8 +6001,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>355</Id>
+  <Player Id="355">
     <Number>22</Number>
     <Nationality>Issa Cissokho</Nationality>
     <Poste>FRA</Poste>
@@ -6372,8 +6018,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>356</Id>
+  <Player Id="356">
     <Number>23</Number>
     <Nationality>Yacine Bammou</Nationality>
     <Poste>FRA</Poste>
@@ -6390,8 +6035,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>357</Id>
+  <Player Id="357">
     <Number>24</Number>
     <Nationality>Chaker Alhadhur</Nationality>
     <Poste>COM</Poste>
@@ -6408,8 +6052,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>358</Id>
+  <Player Id="358">
     <Number>25</Number>
     <Nationality>Jordan Veretout</Nationality>
     <Poste>FRA</Poste>
@@ -6426,8 +6069,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>359</Id>
+  <Player Id="359">
     <Number>26</Number>
     <Nationality>Koffi Djidji</Nationality>
     <Poste>FRA</Poste>
@@ -6444,8 +6086,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>360</Id>
+  <Player Id="360">
     <Number>28</Number>
     <Nationality>Valentin Rongier</Nationality>
     <Poste>FRA</Poste>
@@ -6462,8 +6103,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>361</Id>
+  <Player Id="361">
     <Number>30</Number>
     <Nationality>Maxime Dupé</Nationality>
     <Poste>FRA</Poste>
@@ -6480,8 +6120,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>362</Id>
+  <Player Id="362">
     <Number>1</Number>
     <Nationality>Mouez Hassan</Nationality>
     <Poste>FRA</Poste>
@@ -6498,8 +6137,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>363</Id>
+  <Player Id="363">
     <Number>3</Number>
     <Nationality>Carlos Eduardo</Nationality>
     <Poste>BRA</Poste>
@@ -6516,8 +6154,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>364</Id>
+  <Player Id="364">
     <Number>5</Number>
     <Nationality>Kevin Gomis</Nationality>
     <Poste>FRA</Poste>
@@ -6534,8 +6171,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>365</Id>
+  <Player Id="365">
     <Number>6</Number>
     <Nationality>Didier Digard</Nationality>
     <Poste>FRA</Poste>
@@ -6552,8 +6188,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>366</Id>
+  <Player Id="366">
     <Number>7</Number>
     <Nationality>Julien Vercauteren</Nationality>
     <Poste>BEL</Poste>
@@ -6570,8 +6205,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>367</Id>
+  <Player Id="367">
     <Number>8</Number>
     <Nationality>Mahamane Traoré</Nationality>
     <Poste>MLI</Poste>
@@ -6588,8 +6222,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>368</Id>
+  <Player Id="368">
     <Number>9</Number>
     <Nationality>Xavier Pentecôte</Nationality>
     <Poste>FRA</Poste>
@@ -6606,8 +6239,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>369</Id>
+  <Player Id="369">
     <Number>10</Number>
     <Nationality>Valentin Eysseric</Nationality>
     <Poste>FRA</Poste>
@@ -6624,8 +6256,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>370</Id>
+  <Player Id="370">
     <Number>11</Number>
     <Nationality>Eric Bauthéac</Nationality>
     <Poste>FRA</Poste>
@@ -6642,8 +6273,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>371</Id>
+  <Player Id="371">
     <Number>12</Number>
     <Nationality>Darío Cvitanich</Nationality>
     <Poste>ARG</Poste>
@@ -6660,8 +6290,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>372</Id>
+  <Player Id="372">
     <Number>13</Number>
     <Nationality>Niklas Hult</Nationality>
     <Poste>SWE</Poste>
@@ -6678,8 +6307,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>373</Id>
+  <Player Id="373">
     <Number>14</Number>
     <Nationality>Alassane Pléa</Nationality>
     <Poste>FRA</Poste>
@@ -6696,8 +6324,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>374</Id>
+  <Player Id="374">
     <Number>15</Number>
     <Nationality>Grégoire Puel</Nationality>
     <Poste>FRA</Poste>
@@ -6714,8 +6341,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>375</Id>
+  <Player Id="375">
     <Number>16</Number>
     <Nationality>Simon Pouplin</Nationality>
     <Poste>FRA</Poste>
@@ -6732,8 +6358,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>376</Id>
+  <Player Id="376">
     <Number>18</Number>
     <Nationality>Neal Maupay</Nationality>
     <Poste>FRA</Poste>
@@ -6750,8 +6375,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>377</Id>
+  <Player Id="377">
     <Number>19</Number>
     <Nationality>Jordan Amavi</Nationality>
     <Poste>FRA</Poste>
@@ -6768,8 +6392,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>378</Id>
+  <Player Id="378">
     <Number>20</Number>
     <Nationality>Souleymane Diawara</Nationality>
     <Poste>SEN</Poste>
@@ -6786,8 +6409,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>379</Id>
+  <Player Id="379">
     <Number>21</Number>
     <Nationality>Lloyd Palun</Nationality>
     <Poste>GAB</Poste>
@@ -6804,8 +6426,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>380</Id>
+  <Player Id="380">
     <Number>22</Number>
     <Nationality>Nampalys Mendy</Nationality>
     <Poste>FRA</Poste>
@@ -6822,8 +6443,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>381</Id>
+  <Player Id="381">
     <Number>23</Number>
     <Nationality>Alexy Bosetti</Nationality>
     <Poste>FRA</Poste>
@@ -6840,8 +6460,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>382</Id>
+  <Player Id="382">
     <Number>24</Number>
     <Nationality>Mathieu Bodmer</Nationality>
     <Poste>FRA</Poste>
@@ -6858,8 +6477,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>383</Id>
+  <Player Id="383">
     <Number>25</Number>
     <Nationality>Romain Genevois</Nationality>
     <Poste>HAI</Poste>
@@ -6876,8 +6494,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>384</Id>
+  <Player Id="384">
     <Number>27</Number>
     <Nationality>Bryan Constant</Nationality>
     <Poste>FRA</Poste>
@@ -6894,8 +6511,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>385</Id>
+  <Player Id="385">
     <Number>28</Number>
     <Nationality>Fabien Dao Castellana</Nationality>
     <Poste>FRA</Poste>
@@ -6912,8 +6528,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>386</Id>
+  <Player Id="386">
     <Number>30</Number>
     <Nationality>Joris Delle</Nationality>
     <Poste>FRA</Poste>
@@ -6930,8 +6545,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>387</Id>
+  <Player Id="387">
     <Number>31</Number>
     <Nationality>Moussa M'Bow</Nationality>
     <Poste>SEN</Poste>
@@ -6948,8 +6562,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>388</Id>
+  <Player Id="388">
     <Number>1</Number>
     <Nationality>Nicolas Douchez</Nationality>
     <Poste>FRA</Poste>
@@ -6966,8 +6579,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>389</Id>
+  <Player Id="389">
     <Number>2</Number>
     <Nationality>Thiago Silva</Nationality>
     <Poste>BRA</Poste>
@@ -6984,8 +6596,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>390</Id>
+  <Player Id="390">
     <Number>4</Number>
     <Nationality>Yohan Cabaye</Nationality>
     <Poste>FRA</Poste>
@@ -7002,8 +6613,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>391</Id>
+  <Player Id="391">
     <Number>5</Number>
     <Nationality>Marquinhos</Nationality>
     <Poste>BRA</Poste>
@@ -7020,8 +6630,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>392</Id>
+  <Player Id="392">
     <Number>6</Number>
     <Nationality>Zoumana Camara</Nationality>
     <Poste>FRA</Poste>
@@ -7038,8 +6647,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>393</Id>
+  <Player Id="393">
     <Number>7</Number>
     <Nationality>Lucas</Nationality>
     <Poste>BRA</Poste>
@@ -7056,8 +6664,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>394</Id>
+  <Player Id="394">
     <Number>8</Number>
     <Nationality>Thiago Motta</Nationality>
     <Poste>ITA</Poste>
@@ -7074,8 +6681,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>395</Id>
+  <Player Id="395">
     <Number>9</Number>
     <Nationality>Edinson Cavani</Nationality>
     <Poste>URU</Poste>
@@ -7092,8 +6698,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>396</Id>
+  <Player Id="396">
     <Number>10</Number>
     <Nationality>Zlatan Ibrahimovi?</Nationality>
     <Poste>SWE</Poste>
@@ -7110,8 +6715,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>397</Id>
+  <Player Id="397">
     <Number>14</Number>
     <Nationality>Blaise Matuidi</Nationality>
     <Poste>FRA</Poste>
@@ -7128,8 +6732,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>398</Id>
+  <Player Id="398">
     <Number>15</Number>
     <Nationality>Jean-Christophe Bahebeck</Nationality>
     <Poste>FRA</Poste>
@@ -7146,8 +6749,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>399</Id>
+  <Player Id="399">
     <Number>16</Number>
     <Nationality>Mike Maignan</Nationality>
     <Poste>FRA</Poste>
@@ -7164,8 +6766,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>400</Id>
+  <Player Id="400">
     <Number>17</Number>
     <Nationality>Maxwell</Nationality>
     <Poste>BRA</Poste>
@@ -7182,8 +6783,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>401</Id>
+  <Player Id="401">
     <Number>19</Number>
     <Nationality>Serge Aurier</Nationality>
     <Poste>CIV</Poste>
@@ -7200,8 +6800,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>402</Id>
+  <Player Id="402">
     <Number>20</Number>
     <Nationality>Clément Chantôme</Nationality>
     <Poste>FRA</Poste>
@@ -7218,8 +6817,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>403</Id>
+  <Player Id="403">
     <Number>21</Number>
     <Nationality>Lucas Digne</Nationality>
     <Poste>FRA</Poste>
@@ -7236,8 +6834,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>404</Id>
+  <Player Id="404">
     <Number>22</Number>
     <Nationality>Ezequiel Lavezzi</Nationality>
     <Poste>ARG</Poste>
@@ -7254,8 +6851,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>405</Id>
+  <Player Id="405">
     <Number>23</Number>
     <Nationality>Gregory van der Wiel</Nationality>
     <Poste>NED</Poste>
@@ -7272,8 +6868,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>406</Id>
+  <Player Id="406">
     <Number>24</Number>
     <Nationality>Marco Verratti</Nationality>
     <Poste>ITA</Poste>
@@ -7290,8 +6885,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>407</Id>
+  <Player Id="407">
     <Number>25</Number>
     <Nationality>Adrien Rabiot</Nationality>
     <Poste>FRA</Poste>
@@ -7308,8 +6902,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>408</Id>
+  <Player Id="408">
     <Number>27</Number>
     <Nationality>Javier Pastore</Nationality>
     <Poste>ARG</Poste>
@@ -7326,8 +6919,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>409</Id>
+  <Player Id="409">
     <Number>30</Number>
     <Nationality>Salvatore Sirigu</Nationality>
     <Poste>ITA</Poste>
@@ -7344,8 +6936,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>410</Id>
+  <Player Id="410">
     <Number>32</Number>
     <Nationality>David Luiz</Nationality>
     <Poste>BRA</Poste>
@@ -7362,8 +6953,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>411</Id>
+  <Player Id="411">
     <Number>40</Number>
     <Nationality>Mory Diaw</Nationality>
     <Poste>FRA</Poste>
@@ -7380,8 +6970,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>412</Id>
+  <Player Id="412">
     <Number>1</Number>
     <Nationality>Sacha Bastien</Nationality>
     <Poste>FRA</Poste>
@@ -7398,8 +6987,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>413</Id>
+  <Player Id="413">
     <Number>2</Number>
     <Nationality>Mohamed Fofana</Nationality>
     <Poste>MLI</Poste>
@@ -7416,8 +7004,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>414</Id>
+  <Player Id="414">
     <Number>3</Number>
     <Nationality>Franck Signorino</Nationality>
     <Poste>ITA</Poste>
@@ -7434,8 +7021,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>415</Id>
+  <Player Id="415">
     <Number>4</Number>
     <Nationality>Valentin Roberge</Nationality>
     <Poste>FRA</Poste>
@@ -7452,8 +7038,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>416</Id>
+  <Player Id="416">
     <Number>5</Number>
     <Nationality>Grégory Bourillon</Nationality>
     <Poste>FRA</Poste>
@@ -7470,8 +7055,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>417</Id>
+  <Player Id="417">
     <Number>6</Number>
     <Nationality>Antoine Devaux</Nationality>
     <Poste>FRA</Poste>
@@ -7488,8 +7072,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>418</Id>
+  <Player Id="418">
     <Number>7</Number>
     <Nationality>Odaïr Fortes</Nationality>
     <Poste>CPV</Poste>
@@ -7506,8 +7089,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>419</Id>
+  <Player Id="419">
     <Number>8</Number>
     <Nationality>Prince Oniangue</Nationality>
     <Poste>FRA</Poste>
@@ -7524,8 +7106,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>420</Id>
+  <Player Id="420">
     <Number>9</Number>
     <Nationality>Eliran Atar</Nationality>
     <Poste>ISR</Poste>
@@ -7542,8 +7123,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>421</Id>
+  <Player Id="421">
     <Number>10</Number>
     <Nationality>Gaëtan Charbonnier</Nationality>
     <Poste>FRA</Poste>
@@ -7560,8 +7140,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>422</Id>
+  <Player Id="422">
     <Number>11</Number>
     <Nationality>Diego</Nationality>
     <Poste>BRA</Poste>
@@ -7578,8 +7157,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>423</Id>
+  <Player Id="423">
     <Number>12</Number>
     <Nationality>Nicolas De Préville</Nationality>
     <Poste>FRA</Poste>
@@ -7596,8 +7174,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>424</Id>
+  <Player Id="424">
     <Number>14</Number>
     <Nationality>Benjamin Moukandjo</Nationality>
     <Poste>CMR</Poste>
@@ -7614,8 +7191,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>425</Id>
+  <Player Id="425">
     <Number>15</Number>
     <Nationality>Chris Mavinga</Nationality>
     <Poste>FRA</Poste>
@@ -7632,8 +7208,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>426</Id>
+  <Player Id="426">
     <Number>16</Number>
     <Nationality>Kossi Agassa</Nationality>
     <Poste>TOG</Poste>
@@ -7650,8 +7225,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>427</Id>
+  <Player Id="427">
     <Number>17</Number>
     <Nationality>Mads Albæk</Nationality>
     <Poste>DEN</Poste>
@@ -7668,8 +7242,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>428</Id>
+  <Player Id="428">
     <Number>18</Number>
     <Nationality>Gaëtan Courtet</Nationality>
     <Poste>FRA</Poste>
@@ -7686,8 +7259,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>429</Id>
+  <Player Id="429">
     <Number>19</Number>
     <Nationality>Alexi Peuget</Nationality>
     <Poste>FRA</Poste>
@@ -7704,8 +7276,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>430</Id>
+  <Player Id="430">
     <Number>20</Number>
     <Nationality>Yann Benedick</Nationality>
     <Poste>FRA</Poste>
@@ -7722,8 +7293,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>431</Id>
+  <Player Id="431">
     <Number>21</Number>
     <Nationality>Bocundji Ca</Nationality>
     <Poste>GNB</Poste>
@@ -7740,8 +7310,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>432</Id>
+  <Player Id="432">
     <Number>22</Number>
     <Nationality>Mickaël Tacalfred</Nationality>
     <Poste>FRA</Poste>
@@ -7758,8 +7327,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>433</Id>
+  <Player Id="433">
     <Number>23</Number>
     <Nationality>Aïssa Mandi</Nationality>
     <Poste>ALG</Poste>
@@ -7776,8 +7344,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>434</Id>
+  <Player Id="434">
     <Number>24</Number>
     <Nationality>David N'Gog</Nationality>
     <Poste>FRA</Poste>
@@ -7794,8 +7361,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>435</Id>
+  <Player Id="435">
     <Number>25</Number>
     <Nationality>Anthony Weber</Nationality>
     <Poste>FRA</Poste>
@@ -7812,8 +7378,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>436</Id>
+  <Player Id="436">
     <Number>26</Number>
     <Nationality>Omenuke Mfulu</Nationality>
     <Poste>COD</Poste>
@@ -7830,8 +7395,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>437</Id>
+  <Player Id="437">
     <Number>27</Number>
     <Nationality>Christopher Glombard</Nationality>
     <Poste>FRA</Poste>
@@ -7848,8 +7412,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>438</Id>
+  <Player Id="438">
     <Number>28</Number>
     <Nationality>Antoine Conte</Nationality>
     <Poste>FRA</Poste>
@@ -7866,8 +7429,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>439</Id>
+  <Player Id="439">
     <Number>29</Number>
     <Nationality>Grejohn Kiey</Nationality>
     <Poste>FRA</Poste>
@@ -7884,8 +7446,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>440</Id>
+  <Player Id="440">
     <Number>30</Number>
     <Nationality>Johnny Placide</Nationality>
     <Poste>HAI</Poste>
@@ -7902,8 +7463,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>441</Id>
+  <Player Id="441">
     <Number>1</Number>
     <Nationality>Benoît Costil</Nationality>
     <Poste>FRA</Poste>
@@ -7920,8 +7480,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>442</Id>
+  <Player Id="442">
     <Number>3</Number>
     <Nationality>Cheikh M'Bengué</Nationality>
     <Poste>SEN</Poste>
@@ -7938,8 +7497,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>443</Id>
+  <Player Id="443">
     <Number>4</Number>
     <Nationality>Mexer</Nationality>
     <Poste>MOZ</Poste>
@@ -7956,8 +7514,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>444</Id>
+  <Player Id="444">
     <Number>5</Number>
     <Nationality>Jean-Armel Kana-Biyik</Nationality>
     <Poste>CMR</Poste>
@@ -7974,8 +7531,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>445</Id>
+  <Player Id="445">
     <Number>6</Number>
     <Nationality>Gelson Fernandes</Nationality>
     <Poste>SUI</Poste>
@@ -7992,8 +7548,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>446</Id>
+  <Player Id="446">
     <Number>7</Number>
     <Nationality>Paul-Georges Ntep</Nationality>
     <Poste>FRA</Poste>
@@ -8010,8 +7565,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>447</Id>
+  <Player Id="447">
     <Number>8</Number>
     <Nationality>Abdoulaye Doucouré</Nationality>
     <Poste>FRA</Poste>
@@ -8028,8 +7582,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>448</Id>
+  <Player Id="448">
     <Number>9</Number>
     <Nationality>Ola Toivonen</Nationality>
     <Poste>SWE</Poste>
@@ -8046,8 +7599,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>449</Id>
+  <Player Id="449">
     <Number>10</Number>
     <Nationality>Kamil Grosicki</Nationality>
     <Poste>POL</Poste>
@@ -8064,8 +7616,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>450</Id>
+  <Player Id="450">
     <Number>11</Number>
     <Nationality>Philipp Hosiner</Nationality>
     <Poste>AUT</Poste>
@@ -8082,8 +7633,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>451</Id>
+  <Player Id="451">
     <Number>12</Number>
     <Nationality>Steven Moreira</Nationality>
     <Poste>FRA</Poste>
@@ -8100,8 +7650,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>452</Id>
+  <Player Id="452">
     <Number>14</Number>
     <Nationality>Fallou Diagné</Nationality>
     <Poste>SEN</Poste>
@@ -8118,8 +7667,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>453</Id>
+  <Player Id="453">
     <Number>15</Number>
     <Nationality>Jean II Makoun</Nationality>
     <Poste>CMR</Poste>
@@ -8136,8 +7684,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>454</Id>
+  <Player Id="454">
     <Number>16</Number>
     <Nationality>Olivier Sorin</Nationality>
     <Poste>FRA</Poste>
@@ -8154,8 +7701,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>455</Id>
+  <Player Id="455">
     <Number>17</Number>
     <Nationality>Vincent Pajot</Nationality>
     <Poste>FRA</Poste>
@@ -8172,8 +7718,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>456</Id>
+  <Player Id="456">
     <Number>18</Number>
     <Nationality>Pedro Henrique</Nationality>
     <Poste>BRA</Poste>
@@ -8190,8 +7735,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>457</Id>
+  <Player Id="457">
     <Number>19</Number>
     <Nationality>Adrien Hunou</Nationality>
     <Poste>FRA</Poste>
@@ -8208,8 +7752,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>458</Id>
+  <Player Id="458">
     <Number>20</Number>
     <Nationality>Axel Ngando</Nationality>
     <Poste>FRA</Poste>
@@ -8226,8 +7769,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>459</Id>
+  <Player Id="459">
     <Number>21</Number>
     <Nationality>Benjamin André</Nationality>
     <Poste>FRA</Poste>
@@ -8244,8 +7786,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>460</Id>
+  <Player Id="460">
     <Number>22</Number>
     <Nationality>Sylvain Armand</Nationality>
     <Poste>FRA</Poste>
@@ -8262,8 +7803,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>461</Id>
+  <Player Id="461">
     <Number>23</Number>
     <Nationality>Anders Konradsen</Nationality>
     <Poste>NOR</Poste>
@@ -8280,8 +7820,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>462</Id>
+  <Player Id="462">
     <Number>24</Number>
     <Nationality>Sanjin Prci?</Nationality>
     <Poste>BIH</Poste>
@@ -8298,8 +7837,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>463</Id>
+  <Player Id="463">
     <Number>25</Number>
     <Nationality>Zana Allée</Nationality>
     <Poste>FRA</Poste>
@@ -8316,8 +7854,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>464</Id>
+  <Player Id="464">
     <Number>27</Number>
     <Nationality>Mahamadou Habib Habibou</Nationality>
     <Poste>CTA</Poste>
@@ -8334,8 +7871,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>465</Id>
+  <Player Id="465">
     <Number>28</Number>
     <Nationality>Gjoko Zajkov</Nationality>
     <Poste>MKD</Poste>
@@ -8352,8 +7888,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>466</Id>
+  <Player Id="466">
     <Number>29</Number>
     <Nationality>Romain Danzé</Nationality>
     <Poste>FRA</Poste>
@@ -8370,8 +7905,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>467</Id>
+  <Player Id="467">
     <Number>1</Number>
     <Nationality>Baptiste Valette</Nationality>
     <Poste>FRA</Poste>
@@ -8388,8 +7922,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>468</Id>
+  <Player Id="468">
     <Number>2</Number>
     <Nationality>Kévin Theophile Catherine</Nationality>
     <Poste>FRA</Poste>
@@ -8406,8 +7939,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>469</Id>
+  <Player Id="469">
     <Number>6</Number>
     <Nationality>Jérémy Clément</Nationality>
     <Poste>FRA</Poste>
@@ -8424,8 +7956,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>470</Id>
+  <Player Id="470">
     <Number>7</Number>
     <Nationality>Max Gradel</Nationality>
     <Poste>CIV</Poste>
@@ -8442,8 +7973,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>471</Id>
+  <Player Id="471">
     <Number>8</Number>
     <Nationality>Benjamin Corgnet</Nationality>
     <Poste>FRA</Poste>
@@ -8460,8 +7990,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>472</Id>
+  <Player Id="472">
     <Number>9</Number>
     <Nationality>Mevlüt Erdinç</Nationality>
     <Poste>TUR</Poste>
@@ -8478,8 +8007,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>473</Id>
+  <Player Id="473">
     <Number>10</Number>
     <Nationality>Renaud Cohade</Nationality>
     <Poste>FRA</Poste>
@@ -8496,8 +8024,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>474</Id>
+  <Player Id="474">
     <Number>11</Number>
     <Nationality>Yohan Mollo</Nationality>
     <Poste>FRA</Poste>
@@ -8514,8 +8041,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>475</Id>
+  <Player Id="475">
     <Number>12</Number>
     <Nationality>Allan Saint-Maximin</Nationality>
     <Poste>FRA</Poste>
@@ -8532,8 +8058,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>476</Id>
+  <Player Id="476">
     <Number>13</Number>
     <Nationality>Ricky van Wolfswinkel</Nationality>
     <Poste>NED</Poste>
@@ -8550,8 +8075,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>477</Id>
+  <Player Id="477">
     <Number>16</Number>
     <Nationality>Stéphane Ruffier</Nationality>
     <Poste>FRA</Poste>
@@ -8568,8 +8092,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>478</Id>
+  <Player Id="478">
     <Number>18</Number>
     <Nationality>Fabien Lemoine</Nationality>
     <Poste>FRA</Poste>
@@ -8586,8 +8109,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>479</Id>
+  <Player Id="479">
     <Number>19</Number>
     <Nationality>Florentin Pogba</Nationality>
     <Poste>GUI</Poste>
@@ -8604,8 +8126,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>480</Id>
+  <Player Id="480">
     <Number>20</Number>
     <Nationality>Jonathan Brison</Nationality>
     <Poste>FRA</Poste>
@@ -8622,8 +8143,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>481</Id>
+  <Player Id="481">
     <Number>21</Number>
     <Nationality>Romain Hamouma</Nationality>
     <Poste>FRA</Poste>
@@ -8640,8 +8160,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>482</Id>
+  <Player Id="482">
     <Number>22</Number>
     <Nationality>Kévin Monnet-Paquet</Nationality>
     <Poste>FRA</Poste>
@@ -8658,8 +8177,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>483</Id>
+  <Player Id="483">
     <Number>23</Number>
     <Nationality>Paul Baysse</Nationality>
     <Poste>FRA</Poste>
@@ -8676,8 +8194,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>484</Id>
+  <Player Id="484">
     <Number>24</Number>
     <Nationality>Loïc Perrin</Nationality>
     <Poste>FRA</Poste>
@@ -8694,8 +8211,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>485</Id>
+  <Player Id="485">
     <Number>26</Number>
     <Nationality>Moustapha Bayal Sall</Nationality>
     <Poste>SEN</Poste>
@@ -8712,8 +8228,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>486</Id>
+  <Player Id="486">
     <Number>27</Number>
     <Nationality>Franck Tabanou</Nationality>
     <Poste>FRA</Poste>
@@ -8730,8 +8245,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>487</Id>
+  <Player Id="487">
     <Number>28</Number>
     <Nationality>Ismaël Diomande</Nationality>
     <Poste>CIV</Poste>
@@ -8748,8 +8262,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>488</Id>
+  <Player Id="488">
     <Number>29</Number>
     <Nationality>François Clerc</Nationality>
     <Poste>FRA</Poste>
@@ -8766,8 +8279,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>489</Id>
+  <Player Id="489">
     <Number>30</Number>
     <Nationality>Jessy Moulin</Nationality>
     <Poste>FRA</Poste>
@@ -8784,8 +8296,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>490</Id>
+  <Player Id="490">
     <Number>1</Number>
     <Nationality>Zacharie Boucher</Nationality>
     <Poste>FRA</Poste>
@@ -8802,8 +8313,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>491</Id>
+  <Player Id="491">
     <Number>2</Number>
     <Nationality>Maxime Spano</Nationality>
     <Poste>FRA</Poste>
@@ -8820,8 +8330,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>492</Id>
+  <Player Id="492">
     <Number>4</Number>
     <Nationality>Tongo Doumbia</Nationality>
     <Poste>MLI</Poste>
@@ -8838,8 +8347,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>493</Id>
+  <Player Id="493">
     <Number>5</Number>
     <Nationality>Issiaga Sylla</Nationality>
     <Poste>GUI</Poste>
@@ -8856,8 +8364,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>494</Id>
+  <Player Id="494">
     <Number>6</Number>
     <Nationality>William Matheus</Nationality>
     <Poste>BRA</Poste>
@@ -8874,8 +8381,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>495</Id>
+  <Player Id="495">
     <Number>7</Number>
     <Nationality>Jean-Daniel Akpa Akpro</Nationality>
     <Poste>CIV</Poste>
@@ -8892,8 +8398,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>496</Id>
+  <Player Id="496">
     <Number>8</Number>
     <Nationality>Etienne Didot</Nationality>
     <Poste>FRA</Poste>
@@ -8910,8 +8415,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>497</Id>
+  <Player Id="497">
     <Number>9</Number>
     <Nationality>Martin Braithwaite</Nationality>
     <Poste>DEN</Poste>
@@ -8928,8 +8432,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>498</Id>
+  <Player Id="498">
     <Number>10</Number>
     <Nationality>Wissam Ben Yedder</Nationality>
     <Poste>FRA</Poste>
@@ -8946,8 +8449,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>499</Id>
+  <Player Id="499">
     <Number>11</Number>
     <Nationality>Aleksandar Peši?</Nationality>
     <Poste>SRB</Poste>
@@ -8964,8 +8466,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>500</Id>
+  <Player Id="500">
     <Number>12</Number>
     <Nationality>Florian David</Nationality>
     <Poste>FRA</Poste>
@@ -8982,8 +8483,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>501</Id>
+  <Player Id="501">
     <Number>13</Number>
     <Nationality>Dominik Furman</Nationality>
     <Poste>POL</Poste>
@@ -9000,8 +8500,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>502</Id>
+  <Player Id="502">
     <Number>14</Number>
     <Nationality>François Sirieix</Nationality>
     <Poste>FRA</Poste>
@@ -9018,8 +8517,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>503</Id>
+  <Player Id="503">
     <Number>15</Number>
     <Nationality>Uroš Spaji?</Nationality>
     <Poste>SRB</Poste>
@@ -9036,8 +8534,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>504</Id>
+  <Player Id="504">
     <Number>16</Number>
     <Nationality>Marc Vidal</Nationality>
     <Poste>FRA</Poste>
@@ -9054,8 +8551,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>505</Id>
+  <Player Id="505">
     <Number>17</Number>
     <Nationality>Adrien Regattin</Nationality>
     <Poste>MAR</Poste>
@@ -9072,8 +8568,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>506</Id>
+  <Player Id="506">
     <Number>18</Number>
     <Nationality>Óscar Trejo</Nationality>
     <Poste>ARG</Poste>
@@ -9090,8 +8585,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>507</Id>
+  <Player Id="507">
     <Number>20</Number>
     <Nationality>Steeve Yago</Nationality>
     <Poste>FRA</Poste>
@@ -9108,8 +8602,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>508</Id>
+  <Player Id="508">
     <Number>21</Number>
     <Nationality>Abel Aguilar</Nationality>
     <Poste>COL</Poste>
@@ -9126,8 +8619,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>509</Id>
+  <Player Id="509">
     <Number>22</Number>
     <Nationality>Dušan Veškovac</Nationality>
     <Poste>SRB</Poste>
@@ -9144,8 +8636,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>510</Id>
+  <Player Id="510">
     <Number>23</Number>
     <Nationality>Marcel Tisserand</Nationality>
     <Poste>COD</Poste>
@@ -9162,8 +8653,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>511</Id>
+  <Player Id="511">
     <Number>24</Number>
     <Nationality>Pavle Ninkov</Nationality>
     <Poste>SRB</Poste>
@@ -9180,8 +8670,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>512</Id>
+  <Player Id="512">
     <Number>25</Number>
     <Nationality>Drago? Grigore</Nationality>
     <Poste>ROU</Poste>
@@ -9198,8 +8687,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>513</Id>
+  <Player Id="513">
     <Number>26</Number>
     <Nationality>Sana Zaniou</Nationality>
     <Poste>BFA</Poste>
@@ -9216,8 +8704,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>514</Id>
+  <Player Id="514">
     <Number>27</Number>
     <Nationality>Amadou Soukouna</Nationality>
     <Poste>FRA</Poste>
@@ -9234,8 +8721,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>515</Id>
+  <Player Id="515">
     <Number>28</Number>
     <Nationality>Mihai Roman</Nationality>
     <Poste>ROU</Poste>
@@ -9252,8 +8738,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>516</Id>
+  <Player Id="516">
     <Number>29</Number>
     <Nationality>François Moubandje</Nationality>
     <Poste>SUI</Poste>
@@ -9270,8 +8755,7 @@
     <Mental>100</Mental>
     <FinancialValue>10 000;</FinancialValue>
   </Player>
-  <Player>
-    <Id>517</Id>
+  <Player Id="517">
     <Number>30</Number>
     <Nationality>Ali Ahamada</Nationality>
     <Poste>FRA</Poste>
