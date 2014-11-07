@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace SoccerSimulator
 {
-    class Player
+    public class Player
     {
         int _id; int _shirtNumber;
         string _name; string _nationality;
