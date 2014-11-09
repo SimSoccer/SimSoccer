@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using SoccerSimulator;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,14 @@ namespace SIMS.PlayerManagement
     class PlayerManagementTests
     {
         [Test]
-        public void check_it_there_is_players_in_dictionary()
+        public void check_it_there_is_players_in_list()
         {
+            // Arrange
+            Player test = new Player();
+            // Act
+
+            // Assert
+
 
         }
     }

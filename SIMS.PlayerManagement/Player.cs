@@ -28,7 +28,7 @@ namespace SoccerSimulator
         {
           //  XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1FrenchPlayers.xml" ).Descendants( "Id" ).Descendants()
    // .ToDictionary( element => element.Name, element => element.Value );
-
+            /*
             //Try to work with this
             string s = "<data><resource key=\"123\">foo</resource><resource key=\"456\">bar</resource><resource key=\"789\">bar</resource></data>";
             XmlDocument xml = new XmlDocument();
@@ -39,8 +39,17 @@ namespace SoccerSimulator
             {
                 dictionary.Add( node.Attributes["key"].Value, node.InnerText );
 
+            }*/
+
+            string myxml = @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1FrenchPlayers.xml";
+            XElement patternDoc = XElement.Load( myxml );
+            List<string> values = new List<string>();
+            foreach( var element in patternDoc.Elements( "Id" ) )
+            {
+                values.Add( element.Value );
             }
         }
+
         public Dictionary<string, string> element { get; set; }
         //readonly Dictionary<int, Animal> _animals;*/
 
