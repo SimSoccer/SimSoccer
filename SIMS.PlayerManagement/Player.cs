@@ -41,7 +41,7 @@ namespace SoccerSimulator
 
             }*/
 
-            string myxml = @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1FrenchPlayers.xml";
+            string myxml = @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Players.xml";
             XElement patternDoc = XElement.Load( myxml );
             List<string> values = new List<string>();
             foreach( var element in patternDoc.Elements( "Id" ) )
@@ -56,6 +56,7 @@ namespace SoccerSimulator
         public int Id
         {
             get { return _id; }
+            set { _id = value; }
         }
 
         public int ShirtNumber

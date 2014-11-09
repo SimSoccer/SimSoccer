@@ -538,13 +538,13 @@ namespace ConvertCSVToXML
                 let fields = str.Split( ',' )
                 select new XElement( "Player",
                     new XAttribute( "Id", fields[0] ),
-                    new XElement( "Number", fields[1] ),
-                    new XElement( "Nationality", fields[2] ),
-                    new XElement( "Poste", fields[3] ),
-                    new XElement( "Height", fields[4] ),
-                    new XElement( "Weight", fields[5] ),
-                    new XElement( "BirthDate", fields[6] ),
-                    new XElement( "BirthPlace", fields[7] ),
+                    new XElement( "ShirtNumber", fields[1] ),
+                    new XElement( "Name", fields[2] ),
+                    new XElement( "Nationality", fields[3] ),
+                    new XElement( "Poste", fields[4] ),
+                    new XElement( "Height", fields[5] ),
+                    new XElement( "Weight", fields[6] ),
+                    new XElement( "BirthDate", fields[7] ),
                     new XElement( "BirthPlace", fields[8] ),
                     new XElement( "PreviousClub", fields[9] ),
                     new XElement( "ActualClub", fields[10] ),
@@ -553,7 +553,7 @@ namespace ConvertCSVToXML
                     new XElement( "Injury", fields[13] ),
                     new XElement( "Mental", fields[14] ),
                     new XElement( "FinancialValue", fields[15] ) ) );
-            cust.Save( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1FrenchPlayers.xml" );
+            cust.Save( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Players.xml" );
         }
     }
 }

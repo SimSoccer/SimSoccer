@@ -16,10 +16,11 @@ namespace SIMS.PlayerManagement
         {
             // Arrange
             Player test = new Player();
+
             // Act
 
-            // Assert
 
+            // Assert
 
         }
     }
