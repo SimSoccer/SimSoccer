@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Team>
+  <Team>
+    <Id>1</Id>
+	<Name>Sporting Club de Bastia</Name>
+	<TeamTag>S.C BASTIA</TeamTag>
+    <Town>Bastia</Town>
+	<Logo>.\SimSoccer\Images\TeamLogo\Bastia.png<Logo>
+	<Stadium>
+  </Team>
+</Team>
