@@ -2,20 +2,18 @@
 <Team>
   <Team>
     <Id>1</Id>
-    <Number>1</Number>
-    <Nationality>Alphonse Aréola</Nationality>
-    <Poste>FRA</Poste>
-    <Height>G</Height>
-    <Weight>1.90</Weight>
-    <BirthDate>85</BirthDate>
-    <BirthPlace>27/02/1993</BirthPlace>
-    <BirthPlace>Paris</BirthPlace>
-    <PreviousClub>Paris St-Germain</PreviousClub>
-    <ActualClub>Bastia</ActualClub>
-    <Stats>50</Stats>
-    <FormState>100</FormState>
-    <Injury>false</Injury>
-    <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <Name>Sporting Club de Bastia</Name>
+	<Town>Bastia</Town>
+	<TeamTag>S.C Bastia</TeamTag>
+	<Stadium>Armand-Cesari</Stadium>
+	<Logo>.\Images\TeamLogo\Bastia.png</Logo>
+  </Team>
+  <Team>
+    <Id>2</Id>
+    <Name>Football Club des Girondins de Bordeaux</Name>
+	<Town>Bordeaux</Town>
+	<TeamTag>Girondins de Bordeaux</TeamTag>
+	<Stadium>Jacques-Chaban-Delmas</Stadium>
+	<Logo>.\Images\TeamLogo\Bordeaux.png</Logo>
   </Team>
 </Team>
