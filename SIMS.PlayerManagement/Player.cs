@@ -12,8 +12,7 @@ namespace SoccerSimulator
 {
     public class Player
     {
-        readonly Dictionary<string, Player> _player;
-
+        Dictionary<string, string> _players;
         int _id; int _shirtNumber;
         string _name; string _nationality;
         string _poste; float _height;
@@ -26,32 +25,27 @@ namespace SoccerSimulator
         // need a parameterless constructor for serialization
         public Player()
         {
-          //  XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1FrenchPlayers.xml" ).Descendants( "Id" ).Descendants()
-   // .ToDictionary( element => element.Name, element => element.Value );
-            /*
-            //Try to work with this
-            string s = "<data><resource key=\"123\">foo</resource><resource key=\"456\">bar</resource><resource key=\"789\">bar</resource></data>";
-            XmlDocument xml = new XmlDocument();
-            xml.LoadXml( s );
-            XmlNodeList resources = xml.SelectNodes( "data/resource" );
-            SortedDictionary<string, string> dictionary = new SortedDictionary<string, string>();
-            foreach( XmlNode node in resources )
-            {
-                dictionary.Add( node.Attributes["key"].Value, node.InnerText );
+            /*var doc = XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Players.xml" );
 
-            }*/
+            Console.WriteLine( doc );*/
 
-            string myxml = @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Players.xml";
-            XElement patternDoc = XElement.Load( myxml );
-            List<string> values = new List<string>();
-            foreach( var element in patternDoc.Elements( "Id" ) )
+            var doc = XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Players.xml" );
+            var rootNodes = doc.Root.DescendantNodes().OfType<XElement>().DescendantNodes().OfType<XAttribute>();
+            var keyValuePairs = from n in rootNodes
+                                select new
+                                {
+                                    TagName = n.Name,
+                                    TagValue = n.Value
+                                };
+
+            Dictionary<string, string> allItems = new Dictionary<string, string>();
+            foreach( var token in keyValuePairs )
             {
-                values.Add( element.Value );
+                allItems.Add( token.TagName.ToString(), token.TagValue.ToString() );
             }
+            _players = allItems;
+            Console.WriteLine( allItems );
         }
-
-        public Dictionary<string, string> element { get; set; }
-        //readonly Dictionary<int, Animal> _animals;*/
 
         public int Id
         {

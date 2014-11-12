@@ -8,6 +8,5 @@ namespace SoccerSimulator
 {
     public class SoccerSimulator
     {
-        readonly Dictionary<string, Player> _player;
     }
 }

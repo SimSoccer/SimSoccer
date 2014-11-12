@@ -11,12 +11,23 @@ namespace PlayerConsole
     {
         static void Main( string[] args )
         {
+           /* var player = new Dictionary<string, string>();
+            
 
-            Player test = new Player();
+            foreach( KeyValuePair<string,string> pair in player  )
+            {
+                Console.WriteLine(pair);
+            }*/
 
-            Console.WriteLine( test.FinancialValue );
+            readonly Dictionary<string,Player> _players;
+            _players = new Dictionary<string,Player>
 
+            foreach( string key in allItems.Keys )
+            {
+                Console.WriteLine( key );
+            }
             Console.ReadLine();
+
         }
     }
 }
