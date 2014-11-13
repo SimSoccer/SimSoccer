@@ -15,7 +15,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="2">
     <ShirtNumber>2</ShirtNumber>
@@ -32,7 +32,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="3">
     <ShirtNumber>3</ShirtNumber>
@@ -49,7 +49,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="4">
     <ShirtNumber>4</ShirtNumber>
@@ -66,7 +66,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="5">
     <ShirtNumber>5</ShirtNumber>
@@ -83,7 +83,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="6">
     <ShirtNumber>6</ShirtNumber>
@@ -100,7 +100,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="7">
     <ShirtNumber>7</ShirtNumber>
@@ -117,7 +117,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="8">
     <ShirtNumber>8</ShirtNumber>
@@ -134,7 +134,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="9">
     <ShirtNumber>9</ShirtNumber>
@@ -151,7 +151,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="10">
     <ShirtNumber>10</ShirtNumber>
@@ -168,7 +168,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="11">
     <ShirtNumber>11</ShirtNumber>
@@ -185,7 +185,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="12">
     <ShirtNumber>12</ShirtNumber>
@@ -202,7 +202,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="13">
     <ShirtNumber>13</ShirtNumber>
@@ -219,7 +219,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="14">
     <ShirtNumber>14</ShirtNumber>
@@ -236,7 +236,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="15">
     <ShirtNumber>15</ShirtNumber>
@@ -253,7 +253,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="16">
     <ShirtNumber>16</ShirtNumber>
@@ -270,7 +270,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="17">
     <ShirtNumber>17</ShirtNumber>
@@ -287,7 +287,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="18">
     <ShirtNumber>18</ShirtNumber>
@@ -304,7 +304,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="19">
     <ShirtNumber>19</ShirtNumber>
@@ -321,7 +321,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="20">
     <ShirtNumber>20</ShirtNumber>
@@ -338,7 +338,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="21">
     <ShirtNumber>21</ShirtNumber>
@@ -355,7 +355,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="22">
     <ShirtNumber>22</ShirtNumber>
@@ -372,7 +372,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="23">
     <ShirtNumber>23</ShirtNumber>
@@ -389,7 +389,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="24">
     <ShirtNumber>24</ShirtNumber>
@@ -406,7 +406,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="25">
     <ShirtNumber>25</ShirtNumber>
@@ -423,7 +423,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="26">
     <ShirtNumber>26</ShirtNumber>
@@ -440,7 +440,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="27">
     <ShirtNumber>27</ShirtNumber>
@@ -457,7 +457,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="28">
     <ShirtNumber>28</ShirtNumber>
@@ -474,7 +474,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="29">
     <ShirtNumber>29</ShirtNumber>
@@ -491,7 +491,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="30">
     <ShirtNumber>30</ShirtNumber>
@@ -508,7 +508,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="31">
     <ShirtNumber>1</ShirtNumber>
@@ -525,7 +525,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="32">
     <ShirtNumber>2</ShirtNumber>
@@ -542,7 +542,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="33">
     <ShirtNumber>3</ShirtNumber>
@@ -559,7 +559,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="34">
     <ShirtNumber>4</ShirtNumber>
@@ -576,7 +576,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="35">
     <ShirtNumber>5</ShirtNumber>
@@ -593,7 +593,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="36">
     <ShirtNumber>6</ShirtNumber>
@@ -610,7 +610,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="37">
     <ShirtNumber>7</ShirtNumber>
@@ -627,7 +627,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="38">
     <ShirtNumber>8</ShirtNumber>
@@ -644,7 +644,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="39">
     <ShirtNumber>9</ShirtNumber>
@@ -661,7 +661,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="40">
     <ShirtNumber>10</ShirtNumber>
@@ -678,7 +678,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="41">
     <ShirtNumber>11</ShirtNumber>
@@ -695,7 +695,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="42">
     <ShirtNumber>13</ShirtNumber>
@@ -712,7 +712,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="43">
     <ShirtNumber>14</ShirtNumber>
@@ -729,7 +729,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="44">
     <ShirtNumber>15</ShirtNumber>
@@ -746,7 +746,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="45">
     <ShirtNumber>16</ShirtNumber>
@@ -763,7 +763,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="46">
     <ShirtNumber>17</ShirtNumber>
@@ -780,7 +780,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="47">
     <ShirtNumber>18</ShirtNumber>
@@ -797,7 +797,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="48">
     <ShirtNumber>19</ShirtNumber>
@@ -814,7 +814,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="49">
     <ShirtNumber>20</ShirtNumber>
@@ -831,7 +831,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="50">
     <ShirtNumber>22</ShirtNumber>
@@ -848,7 +848,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="51">
     <ShirtNumber>24</ShirtNumber>
@@ -865,7 +865,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="52">
     <ShirtNumber>25</ShirtNumber>
@@ -882,7 +882,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="53">
     <ShirtNumber>26</ShirtNumber>
@@ -899,7 +899,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="54">
     <ShirtNumber>27</ShirtNumber>
@@ -916,7 +916,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="55">
     <ShirtNumber>29</ShirtNumber>
@@ -933,7 +933,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="56">
     <ShirtNumber>30</ShirtNumber>
@@ -950,7 +950,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="57">
     <ShirtNumber>1</ShirtNumber>
@@ -967,7 +967,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="58">
     <ShirtNumber>2</ShirtNumber>
@@ -984,7 +984,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="59">
     <ShirtNumber>5</ShirtNumber>
@@ -1001,7 +1001,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="61">
     <ShirtNumber>7</ShirtNumber>
@@ -1018,7 +1018,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="62">
     <ShirtNumber>9</ShirtNumber>
@@ -1035,7 +1035,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="63">
     <ShirtNumber>10</ShirtNumber>
@@ -1052,7 +1052,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="64">
     <ShirtNumber>11</ShirtNumber>
@@ -1069,7 +1069,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="65">
     <ShirtNumber>12</ShirtNumber>
@@ -1086,7 +1086,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="66">
     <ShirtNumber>13</ShirtNumber>
@@ -1103,7 +1103,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="67">
     <ShirtNumber>15</ShirtNumber>
@@ -1120,7 +1120,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="68">
     <ShirtNumber>16</ShirtNumber>
@@ -1137,7 +1137,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="69">
     <ShirtNumber>17</ShirtNumber>
@@ -1154,7 +1154,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="70">
     <ShirtNumber>18</ShirtNumber>
@@ -1171,7 +1171,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="71">
     <ShirtNumber>19</ShirtNumber>
@@ -1188,7 +1188,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="72">
     <ShirtNumber>20</ShirtNumber>
@@ -1205,7 +1205,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="73">
     <ShirtNumber>21</ShirtNumber>
@@ -1222,7 +1222,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="74">
     <ShirtNumber>22</ShirtNumber>
@@ -1239,7 +1239,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="75">
     <ShirtNumber>23</ShirtNumber>
@@ -1256,7 +1256,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="76">
     <ShirtNumber>24</ShirtNumber>
@@ -1273,7 +1273,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="77">
     <ShirtNumber>25</ShirtNumber>
@@ -1290,7 +1290,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="78">
     <ShirtNumber>26</ShirtNumber>
@@ -1307,7 +1307,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="79">
     <ShirtNumber>27</ShirtNumber>
@@ -1324,7 +1324,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="80">
     <ShirtNumber>28</ShirtNumber>
@@ -1341,7 +1341,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="81">
     <ShirtNumber>29</ShirtNumber>
@@ -1358,7 +1358,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="82">
     <ShirtNumber>30</ShirtNumber>
@@ -1375,7 +1375,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="83">
     <ShirtNumber>1</ShirtNumber>
@@ -1392,7 +1392,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="84">
     <ShirtNumber>2</ShirtNumber>
@@ -1409,7 +1409,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="85">
     <ShirtNumber>5</ShirtNumber>
@@ -1426,7 +1426,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="86">
     <ShirtNumber>6</ShirtNumber>
@@ -1443,7 +1443,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="87">
     <ShirtNumber>7</ShirtNumber>
@@ -1460,7 +1460,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="88">
     <ShirtNumber>8</ShirtNumber>
@@ -1477,7 +1477,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="89">
     <ShirtNumber>9</ShirtNumber>
@@ -1494,7 +1494,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="90">
     <ShirtNumber>10</ShirtNumber>
@@ -1511,7 +1511,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="91">
     <ShirtNumber>11</ShirtNumber>
@@ -1528,7 +1528,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="92">
     <ShirtNumber>12</ShirtNumber>
@@ -1545,7 +1545,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="93">
     <ShirtNumber>14</ShirtNumber>
@@ -1562,7 +1562,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="94">
     <ShirtNumber>17</ShirtNumber>
@@ -1579,7 +1579,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="95">
     <ShirtNumber>18</ShirtNumber>
@@ -1596,7 +1596,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="96">
     <ShirtNumber>19</ShirtNumber>
@@ -1613,7 +1613,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="97">
     <ShirtNumber>20</ShirtNumber>
@@ -1630,7 +1630,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="98">
     <ShirtNumber>21</ShirtNumber>
@@ -1647,7 +1647,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="99">
     <ShirtNumber>22</ShirtNumber>
@@ -1664,7 +1664,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="100">
     <ShirtNumber>23</ShirtNumber>
@@ -1681,7 +1681,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="101">
     <ShirtNumber>24</ShirtNumber>
@@ -1698,7 +1698,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="102">
     <ShirtNumber>25</ShirtNumber>
@@ -1715,7 +1715,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="103">
     <ShirtNumber>26</ShirtNumber>
@@ -1732,7 +1732,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="104">
     <ShirtNumber>27</ShirtNumber>
@@ -1749,7 +1749,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="105">
     <ShirtNumber>28</ShirtNumber>
@@ -1766,7 +1766,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="106">
     <ShirtNumber>30</ShirtNumber>
@@ -1783,7 +1783,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="107">
     <ShirtNumber>1</ShirtNumber>
@@ -1800,7 +1800,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="108">
     <ShirtNumber>2</ShirtNumber>
@@ -1817,7 +1817,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="109">
     <ShirtNumber>3</ShirtNumber>
@@ -1834,7 +1834,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="110">
     <ShirtNumber>4</ShirtNumber>
@@ -1851,7 +1851,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="111">
     <ShirtNumber>5</ShirtNumber>
@@ -1868,7 +1868,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="112">
     <ShirtNumber>6</ShirtNumber>
@@ -1885,7 +1885,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="113">
     <ShirtNumber>7</ShirtNumber>
@@ -1902,7 +1902,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="114">
     <ShirtNumber>8</ShirtNumber>
@@ -1919,7 +1919,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="115">
     <ShirtNumber>10</ShirtNumber>
@@ -1936,7 +1936,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="116">
     <ShirtNumber>12</ShirtNumber>
@@ -1953,7 +1953,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="117">
     <ShirtNumber>13</ShirtNumber>
@@ -1970,7 +1970,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="118">
     <ShirtNumber>14</ShirtNumber>
@@ -1987,7 +1987,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="119">
     <ShirtNumber>15</ShirtNumber>
@@ -2004,7 +2004,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="120">
     <ShirtNumber>16</ShirtNumber>
@@ -2021,7 +2021,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="121">
     <ShirtNumber>17</ShirtNumber>
@@ -2038,7 +2038,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="122">
     <ShirtNumber>18</ShirtNumber>
@@ -2055,7 +2055,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="123">
     <ShirtNumber>20</ShirtNumber>
@@ -2072,7 +2072,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="124">
     <ShirtNumber>21</ShirtNumber>
@@ -2089,7 +2089,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="125">
     <ShirtNumber>22</ShirtNumber>
@@ -2106,7 +2106,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="126">
     <ShirtNumber>23</ShirtNumber>
@@ -2123,7 +2123,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="127">
     <ShirtNumber>24</ShirtNumber>
@@ -2140,7 +2140,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="128">
     <ShirtNumber>25</ShirtNumber>
@@ -2157,7 +2157,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="129">
     <ShirtNumber>26</ShirtNumber>
@@ -2174,7 +2174,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="130">
     <ShirtNumber>29</ShirtNumber>
@@ -2191,7 +2191,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="131">
     <ShirtNumber>30</ShirtNumber>
@@ -2208,7 +2208,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="132">
     <ShirtNumber>1</ShirtNumber>
@@ -2225,7 +2225,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="133">
     <ShirtNumber>4</ShirtNumber>
@@ -2242,7 +2242,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="134">
     <ShirtNumber>6</ShirtNumber>
@@ -2259,7 +2259,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="135">
     <ShirtNumber>7</ShirtNumber>
@@ -2276,7 +2276,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="136">
     <ShirtNumber>9</ShirtNumber>
@@ -2293,7 +2293,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="137">
     <ShirtNumber>11</ShirtNumber>
@@ -2310,7 +2310,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="138">
     <ShirtNumber>14</ShirtNumber>
@@ -2327,7 +2327,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="139">
     <ShirtNumber>15</ShirtNumber>
@@ -2344,7 +2344,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="140">
     <ShirtNumber>18</ShirtNumber>
@@ -2361,7 +2361,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="141">
     <ShirtNumber>19</ShirtNumber>
@@ -2378,7 +2378,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="142">
     <ShirtNumber>20</ShirtNumber>
@@ -2395,7 +2395,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="143">
     <ShirtNumber>21</ShirtNumber>
@@ -2412,7 +2412,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="144">
     <ShirtNumber>22</ShirtNumber>
@@ -2429,7 +2429,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="145">
     <ShirtNumber>23</ShirtNumber>
@@ -2446,7 +2446,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="146">
     <ShirtNumber>24</ShirtNumber>
@@ -2463,7 +2463,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="147">
     <ShirtNumber>25</ShirtNumber>
@@ -2480,7 +2480,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="148">
     <ShirtNumber>27</ShirtNumber>
@@ -2497,7 +2497,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="149">
     <ShirtNumber>29</ShirtNumber>
@@ -2514,7 +2514,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="150">
     <ShirtNumber>1</ShirtNumber>
@@ -2531,7 +2531,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="151">
     <ShirtNumber>2</ShirtNumber>
@@ -2548,7 +2548,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="152">
     <ShirtNumber>4</ShirtNumber>
@@ -2565,7 +2565,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="153">
     <ShirtNumber>5</ShirtNumber>
@@ -2582,7 +2582,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="154">
     <ShirtNumber>6</ShirtNumber>
@@ -2599,7 +2599,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="155">
     <ShirtNumber>9</ShirtNumber>
@@ -2616,7 +2616,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="156">
     <ShirtNumber>10</ShirtNumber>
@@ -2633,7 +2633,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="157">
     <ShirtNumber>11</ShirtNumber>
@@ -2650,7 +2650,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="158">
     <ShirtNumber>12</ShirtNumber>
@@ -2667,7 +2667,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="159">
     <ShirtNumber>13</ShirtNumber>
@@ -2684,7 +2684,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="160">
     <ShirtNumber>14</ShirtNumber>
@@ -2701,7 +2701,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="161">
     <ShirtNumber>15</ShirtNumber>
@@ -2718,7 +2718,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="162">
     <ShirtNumber>16</ShirtNumber>
@@ -2735,7 +2735,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="163">
     <ShirtNumber>17</ShirtNumber>
@@ -2752,7 +2752,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="164">
     <ShirtNumber>18</ShirtNumber>
@@ -2769,7 +2769,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="165">
     <ShirtNumber>20</ShirtNumber>
@@ -2786,7 +2786,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="166">
     <ShirtNumber>22</ShirtNumber>
@@ -2803,7 +2803,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="167">
     <ShirtNumber>23</ShirtNumber>
@@ -2820,7 +2820,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="168">
     <ShirtNumber>24</ShirtNumber>
@@ -2837,7 +2837,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="169">
     <ShirtNumber>25</ShirtNumber>
@@ -2854,7 +2854,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="170">
     <ShirtNumber>26</ShirtNumber>
@@ -2871,7 +2871,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="171">
     <ShirtNumber>27</ShirtNumber>
@@ -2888,7 +2888,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="172">
     <ShirtNumber>30</ShirtNumber>
@@ -2905,7 +2905,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="173">
     <ShirtNumber>2</ShirtNumber>
@@ -2922,7 +2922,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="174">
     <ShirtNumber>3</ShirtNumber>
@@ -2939,7 +2939,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="175">
     <ShirtNumber>4</ShirtNumber>
@@ -2956,7 +2956,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="176">
     <ShirtNumber>5</ShirtNumber>
@@ -2973,7 +2973,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="177">
     <ShirtNumber>6</ShirtNumber>
@@ -2990,7 +2990,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="178">
     <ShirtNumber>7</ShirtNumber>
@@ -3007,7 +3007,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="179">
     <ShirtNumber>8</ShirtNumber>
@@ -3024,7 +3024,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="180">
     <ShirtNumber>9</ShirtNumber>
@@ -3041,7 +3041,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="181">
     <ShirtNumber>10</ShirtNumber>
@@ -3058,7 +3058,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="182">
     <ShirtNumber>12</ShirtNumber>
@@ -3075,7 +3075,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="183">
     <ShirtNumber>13</ShirtNumber>
@@ -3092,7 +3092,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="184">
     <ShirtNumber>14</ShirtNumber>
@@ -3109,7 +3109,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="185">
     <ShirtNumber>15</ShirtNumber>
@@ -3126,7 +3126,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="186">
     <ShirtNumber>16</ShirtNumber>
@@ -3143,7 +3143,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="187">
     <ShirtNumber>17</ShirtNumber>
@@ -3160,7 +3160,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="188">
     <ShirtNumber>18</ShirtNumber>
@@ -3177,7 +3177,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="189">
     <ShirtNumber>19</ShirtNumber>
@@ -3194,7 +3194,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="190">
     <ShirtNumber>20</ShirtNumber>
@@ -3211,7 +3211,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="191">
     <ShirtNumber>21</ShirtNumber>
@@ -3228,7 +3228,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="192">
     <ShirtNumber>22</ShirtNumber>
@@ -3245,7 +3245,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="193">
     <ShirtNumber>23</ShirtNumber>
@@ -3262,7 +3262,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="194">
     <ShirtNumber>24</ShirtNumber>
@@ -3279,7 +3279,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="195">
     <ShirtNumber>25</ShirtNumber>
@@ -3296,7 +3296,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="196">
     <ShirtNumber>26</ShirtNumber>
@@ -3313,7 +3313,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="197">
     <ShirtNumber>27</ShirtNumber>
@@ -3330,7 +3330,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="198">
     <ShirtNumber>28</ShirtNumber>
@@ -3347,7 +3347,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="199">
     <ShirtNumber>29</ShirtNumber>
@@ -3364,7 +3364,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="200">
     <ShirtNumber>30</ShirtNumber>
@@ -3381,7 +3381,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="201">
     <ShirtNumber>31</ShirtNumber>
@@ -3398,7 +3398,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="202">
     <ShirtNumber>1</ShirtNumber>
@@ -3415,7 +3415,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="203">
     <ShirtNumber>2</ShirtNumber>
@@ -3432,7 +3432,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="204">
     <ShirtNumber>3</ShirtNumber>
@@ -3449,7 +3449,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="205">
     <ShirtNumber>4</ShirtNumber>
@@ -3466,7 +3466,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="206">
     <ShirtNumber>5</ShirtNumber>
@@ -3483,7 +3483,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="207">
     <ShirtNumber>6</ShirtNumber>
@@ -3500,7 +3500,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="208">
     <ShirtNumber>7</ShirtNumber>
@@ -3517,7 +3517,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="209">
     <ShirtNumber>8</ShirtNumber>
@@ -3534,7 +3534,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="210">
     <ShirtNumber>10</ShirtNumber>
@@ -3551,7 +3551,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="211">
     <ShirtNumber>11</ShirtNumber>
@@ -3568,7 +3568,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="212">
     <ShirtNumber>12</ShirtNumber>
@@ -3585,7 +3585,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="213">
     <ShirtNumber>13</ShirtNumber>
@@ -3602,7 +3602,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="214">
     <ShirtNumber>14</ShirtNumber>
@@ -3619,7 +3619,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="215">
     <ShirtNumber>16</ShirtNumber>
@@ -3636,7 +3636,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="216">
     <ShirtNumber>17</ShirtNumber>
@@ -3653,7 +3653,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="217">
     <ShirtNumber>18</ShirtNumber>
@@ -3670,7 +3670,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="218">
     <ShirtNumber>19</ShirtNumber>
@@ -3687,7 +3687,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="219">
     <ShirtNumber>20</ShirtNumber>
@@ -3704,7 +3704,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="220">
     <ShirtNumber>21</ShirtNumber>
@@ -3721,7 +3721,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="221">
     <ShirtNumber>22</ShirtNumber>
@@ -3738,7 +3738,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="222">
     <ShirtNumber>23</ShirtNumber>
@@ -3755,7 +3755,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="223">
     <ShirtNumber>24</ShirtNumber>
@@ -3772,7 +3772,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="224">
     <ShirtNumber>25</ShirtNumber>
@@ -3789,7 +3789,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="225">
     <ShirtNumber>26</ShirtNumber>
@@ -3806,7 +3806,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="226">
     <ShirtNumber>28</ShirtNumber>
@@ -3823,7 +3823,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="227">
     <ShirtNumber>29</ShirtNumber>
@@ -3840,7 +3840,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="228">
     <ShirtNumber>30</ShirtNumber>
@@ -3857,7 +3857,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="229">
     <ShirtNumber>3</ShirtNumber>
@@ -3874,7 +3874,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="230">
     <ShirtNumber>4</ShirtNumber>
@@ -3891,7 +3891,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="231">
     <ShirtNumber>5</ShirtNumber>
@@ -3908,7 +3908,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="232">
     <ShirtNumber>6</ShirtNumber>
@@ -3925,7 +3925,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="233">
     <ShirtNumber>7</ShirtNumber>
@@ -3942,7 +3942,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="234">
     <ShirtNumber>8</ShirtNumber>
@@ -3959,7 +3959,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="235">
     <ShirtNumber>9</ShirtNumber>
@@ -3976,7 +3976,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="236">
     <ShirtNumber>10</ShirtNumber>
@@ -3993,7 +3993,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="237">
     <ShirtNumber>11</ShirtNumber>
@@ -4010,7 +4010,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="238">
     <ShirtNumber>14</ShirtNumber>
@@ -4027,7 +4027,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="239">
     <ShirtNumber>15</ShirtNumber>
@@ -4044,7 +4044,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="240">
     <ShirtNumber>16</ShirtNumber>
@@ -4061,7 +4061,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="241">
     <ShirtNumber>17</ShirtNumber>
@@ -4078,7 +4078,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="242">
     <ShirtNumber>20</ShirtNumber>
@@ -4095,7 +4095,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="243">
     <ShirtNumber>22</ShirtNumber>
@@ -4112,7 +4112,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="244">
     <ShirtNumber>23</ShirtNumber>
@@ -4129,7 +4129,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="245">
     <ShirtNumber>24</ShirtNumber>
@@ -4146,7 +4146,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="246">
     <ShirtNumber>25</ShirtNumber>
@@ -4163,7 +4163,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="247">
     <ShirtNumber>26</ShirtNumber>
@@ -4180,7 +4180,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="248">
     <ShirtNumber>27</ShirtNumber>
@@ -4197,7 +4197,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="249">
     <ShirtNumber>29</ShirtNumber>
@@ -4214,7 +4214,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="250">
     <ShirtNumber>30</ShirtNumber>
@@ -4231,7 +4231,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="251">
     <ShirtNumber>1</ShirtNumber>
@@ -4248,7 +4248,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="252">
     <ShirtNumber>3</ShirtNumber>
@@ -4265,7 +4265,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="253">
     <ShirtNumber>4</ShirtNumber>
@@ -4282,7 +4282,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="254">
     <ShirtNumber>5</ShirtNumber>
@@ -4299,7 +4299,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="255">
     <ShirtNumber>7</ShirtNumber>
@@ -4316,7 +4316,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="256">
     <ShirtNumber>8</ShirtNumber>
@@ -4333,7 +4333,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="257">
     <ShirtNumber>9</ShirtNumber>
@@ -4350,7 +4350,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="258">
     <ShirtNumber>10</ShirtNumber>
@@ -4367,7 +4367,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="259">
     <ShirtNumber>11</ShirtNumber>
@@ -4384,7 +4384,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="260">
     <ShirtNumber>12</ShirtNumber>
@@ -4401,7 +4401,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="261">
     <ShirtNumber>13</ShirtNumber>
@@ -4418,7 +4418,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="262">
     <ShirtNumber>14</ShirtNumber>
@@ -4435,7 +4435,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="263">
     <ShirtNumber>15</ShirtNumber>
@@ -4452,7 +4452,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="264">
     <ShirtNumber>16</ShirtNumber>
@@ -4469,7 +4469,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="265">
     <ShirtNumber>17</ShirtNumber>
@@ -4486,7 +4486,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="266">
     <ShirtNumber>18</ShirtNumber>
@@ -4503,7 +4503,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="267">
     <ShirtNumber>19</ShirtNumber>
@@ -4520,7 +4520,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="268">
     <ShirtNumber>20</ShirtNumber>
@@ -4537,7 +4537,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="269">
     <ShirtNumber>21</ShirtNumber>
@@ -4554,7 +4554,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="270">
     <ShirtNumber>22</ShirtNumber>
@@ -4571,7 +4571,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="271">
     <ShirtNumber>23</ShirtNumber>
@@ -4588,7 +4588,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="272">
     <ShirtNumber>24</ShirtNumber>
@@ -4605,7 +4605,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="273">
     <ShirtNumber>25</ShirtNumber>
@@ -4622,7 +4622,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="274">
     <ShirtNumber>26</ShirtNumber>
@@ -4639,7 +4639,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="275">
     <ShirtNumber>27</ShirtNumber>
@@ -4656,7 +4656,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="276">
     <ShirtNumber>28</ShirtNumber>
@@ -4673,7 +4673,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="277">
     <ShirtNumber>29</ShirtNumber>
@@ -4690,7 +4690,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="278">
     <ShirtNumber>30</ShirtNumber>
@@ -4707,7 +4707,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="279">
     <ShirtNumber>1</ShirtNumber>
@@ -4724,7 +4724,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="280">
     <ShirtNumber>2</ShirtNumber>
@@ -4741,7 +4741,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="281">
     <ShirtNumber>3</ShirtNumber>
@@ -4758,7 +4758,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="282">
     <ShirtNumber>4</ShirtNumber>
@@ -4775,7 +4775,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="283">
     <ShirtNumber>5</ShirtNumber>
@@ -4792,7 +4792,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="284">
     <ShirtNumber>6</ShirtNumber>
@@ -4809,7 +4809,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="285">
     <ShirtNumber>7</ShirtNumber>
@@ -4826,7 +4826,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="286">
     <ShirtNumber>8</ShirtNumber>
@@ -4843,7 +4843,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="287">
     <ShirtNumber>10</ShirtNumber>
@@ -4860,7 +4860,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="288">
     <ShirtNumber>11</ShirtNumber>
@@ -4877,7 +4877,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="289">
     <ShirtNumber>13</ShirtNumber>
@@ -4894,7 +4894,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="290">
     <ShirtNumber>14</ShirtNumber>
@@ -4911,7 +4911,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="291">
     <ShirtNumber>15</ShirtNumber>
@@ -4928,7 +4928,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="292">
     <ShirtNumber>16</ShirtNumber>
@@ -4945,7 +4945,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="293">
     <ShirtNumber>17</ShirtNumber>
@@ -4962,7 +4962,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="294">
     <ShirtNumber>18</ShirtNumber>
@@ -4979,7 +4979,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="295">
     <ShirtNumber>19</ShirtNumber>
@@ -4996,7 +4996,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="296">
     <ShirtNumber>21</ShirtNumber>
@@ -5013,7 +5013,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="297">
     <ShirtNumber>22</ShirtNumber>
@@ -5030,7 +5030,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="298">
     <ShirtNumber>23</ShirtNumber>
@@ -5047,7 +5047,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="299">
     <ShirtNumber>24</ShirtNumber>
@@ -5064,7 +5064,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="300">
     <ShirtNumber>28</ShirtNumber>
@@ -5081,7 +5081,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="301">
     <ShirtNumber>29</ShirtNumber>
@@ -5098,7 +5098,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="302">
     <ShirtNumber>30</ShirtNumber>
@@ -5115,7 +5115,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="303">
     <ShirtNumber>34</ShirtNumber>
@@ -5132,7 +5132,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="304">
     <ShirtNumber>37</ShirtNumber>
@@ -5149,7 +5149,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="305">
     <ShirtNumber>38</ShirtNumber>
@@ -5166,7 +5166,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="306">
     <ShirtNumber>40</ShirtNumber>
@@ -5183,7 +5183,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="307">
     <ShirtNumber>1</ShirtNumber>
@@ -5200,7 +5200,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="308">
     <ShirtNumber>3</ShirtNumber>
@@ -5217,7 +5217,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="309">
     <ShirtNumber>4</ShirtNumber>
@@ -5234,7 +5234,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="310">
     <ShirtNumber>5</ShirtNumber>
@@ -5251,7 +5251,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="311">
     <ShirtNumber>6</ShirtNumber>
@@ -5268,7 +5268,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="312">
     <ShirtNumber>7</ShirtNumber>
@@ -5285,7 +5285,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="313">
     <ShirtNumber>8</ShirtNumber>
@@ -5302,7 +5302,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="314">
     <ShirtNumber>9</ShirtNumber>
@@ -5319,7 +5319,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="315">
     <ShirtNumber>10</ShirtNumber>
@@ -5336,7 +5336,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="316">
     <ShirtNumber>11</ShirtNumber>
@@ -5353,7 +5353,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="317">
     <ShirtNumber>13</ShirtNumber>
@@ -5370,7 +5370,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="318">
     <ShirtNumber>14</ShirtNumber>
@@ -5387,7 +5387,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="319">
     <ShirtNumber>16</ShirtNumber>
@@ -5404,7 +5404,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="320">
     <ShirtNumber>17</ShirtNumber>
@@ -5421,7 +5421,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="321">
     <ShirtNumber>18</ShirtNumber>
@@ -5438,7 +5438,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="322">
     <ShirtNumber>19</ShirtNumber>
@@ -5455,7 +5455,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="323">
     <ShirtNumber>20</ShirtNumber>
@@ -5472,7 +5472,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="324">
     <ShirtNumber>21</ShirtNumber>
@@ -5489,7 +5489,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="325">
     <ShirtNumber>23</ShirtNumber>
@@ -5506,7 +5506,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="326">
     <ShirtNumber>24</ShirtNumber>
@@ -5523,7 +5523,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="327">
     <ShirtNumber>25</ShirtNumber>
@@ -5540,7 +5540,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="328">
     <ShirtNumber>26</ShirtNumber>
@@ -5557,7 +5557,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="329">
     <ShirtNumber>27</ShirtNumber>
@@ -5574,7 +5574,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="330">
     <ShirtNumber>28</ShirtNumber>
@@ -5591,7 +5591,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="331">
     <ShirtNumber>29</ShirtNumber>
@@ -5608,7 +5608,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="332">
     <ShirtNumber>30</ShirtNumber>
@@ -5625,7 +5625,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="333">
     <ShirtNumber>31</ShirtNumber>
@@ -5642,7 +5642,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="334">
     <ShirtNumber>32</ShirtNumber>
@@ -5659,7 +5659,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="335">
     <ShirtNumber>1</ShirtNumber>
@@ -5676,7 +5676,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="336">
     <ShirtNumber>2</ShirtNumber>
@@ -5693,7 +5693,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="337">
     <ShirtNumber>3</ShirtNumber>
@@ -5710,7 +5710,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="338">
     <ShirtNumber>4</ShirtNumber>
@@ -5727,7 +5727,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="339">
     <ShirtNumber>5</ShirtNumber>
@@ -5744,7 +5744,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="340">
     <ShirtNumber>6</ShirtNumber>
@@ -5761,7 +5761,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="341">
     <ShirtNumber>7</ShirtNumber>
@@ -5778,7 +5778,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="342">
     <ShirtNumber>8</ShirtNumber>
@@ -5795,7 +5795,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="343">
     <ShirtNumber>9</ShirtNumber>
@@ -5812,7 +5812,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="344">
     <ShirtNumber>10</ShirtNumber>
@@ -5829,7 +5829,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="345">
     <ShirtNumber>11</ShirtNumber>
@@ -5846,7 +5846,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="346">
     <ShirtNumber>12</ShirtNumber>
@@ -5863,7 +5863,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="347">
     <ShirtNumber>13</ShirtNumber>
@@ -5880,7 +5880,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="348">
     <ShirtNumber>14</ShirtNumber>
@@ -5897,7 +5897,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="349">
     <ShirtNumber>15</ShirtNumber>
@@ -5914,7 +5914,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="350">
     <ShirtNumber>16</ShirtNumber>
@@ -5931,7 +5931,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="351">
     <ShirtNumber>18</ShirtNumber>
@@ -5948,7 +5948,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="352">
     <ShirtNumber>19</ShirtNumber>
@@ -5965,7 +5965,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="353">
     <ShirtNumber>20</ShirtNumber>
@@ -5982,7 +5982,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="354">
     <ShirtNumber>21</ShirtNumber>
@@ -5999,7 +5999,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="355">
     <ShirtNumber>22</ShirtNumber>
@@ -6016,7 +6016,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="356">
     <ShirtNumber>23</ShirtNumber>
@@ -6033,7 +6033,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="357">
     <ShirtNumber>24</ShirtNumber>
@@ -6050,7 +6050,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="358">
     <ShirtNumber>25</ShirtNumber>
@@ -6067,7 +6067,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="359">
     <ShirtNumber>26</ShirtNumber>
@@ -6084,7 +6084,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="360">
     <ShirtNumber>28</ShirtNumber>
@@ -6101,7 +6101,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="361">
     <ShirtNumber>30</ShirtNumber>
@@ -6118,7 +6118,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="362">
     <ShirtNumber>1</ShirtNumber>
@@ -6135,7 +6135,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="363">
     <ShirtNumber>3</ShirtNumber>
@@ -6152,7 +6152,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="364">
     <ShirtNumber>5</ShirtNumber>
@@ -6169,7 +6169,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="365">
     <ShirtNumber>6</ShirtNumber>
@@ -6186,7 +6186,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="366">
     <ShirtNumber>7</ShirtNumber>
@@ -6203,7 +6203,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="367">
     <ShirtNumber>8</ShirtNumber>
@@ -6220,7 +6220,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="368">
     <ShirtNumber>9</ShirtNumber>
@@ -6237,7 +6237,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="369">
     <ShirtNumber>10</ShirtNumber>
@@ -6254,7 +6254,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="370">
     <ShirtNumber>11</ShirtNumber>
@@ -6271,7 +6271,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="371">
     <ShirtNumber>12</ShirtNumber>
@@ -6288,7 +6288,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="372">
     <ShirtNumber>13</ShirtNumber>
@@ -6305,7 +6305,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="373">
     <ShirtNumber>14</ShirtNumber>
@@ -6322,7 +6322,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="374">
     <ShirtNumber>15</ShirtNumber>
@@ -6339,7 +6339,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="375">
     <ShirtNumber>16</ShirtNumber>
@@ -6356,7 +6356,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="376">
     <ShirtNumber>18</ShirtNumber>
@@ -6373,7 +6373,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="377">
     <ShirtNumber>19</ShirtNumber>
@@ -6390,7 +6390,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="378">
     <ShirtNumber>20</ShirtNumber>
@@ -6407,7 +6407,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="379">
     <ShirtNumber>21</ShirtNumber>
@@ -6424,7 +6424,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="380">
     <ShirtNumber>22</ShirtNumber>
@@ -6441,7 +6441,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="381">
     <ShirtNumber>23</ShirtNumber>
@@ -6458,7 +6458,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="382">
     <ShirtNumber>24</ShirtNumber>
@@ -6475,7 +6475,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="383">
     <ShirtNumber>25</ShirtNumber>
@@ -6492,7 +6492,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="384">
     <ShirtNumber>27</ShirtNumber>
@@ -6509,7 +6509,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="385">
     <ShirtNumber>28</ShirtNumber>
@@ -6526,7 +6526,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="386">
     <ShirtNumber>30</ShirtNumber>
@@ -6543,7 +6543,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="387">
     <ShirtNumber>31</ShirtNumber>
@@ -6560,7 +6560,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="388">
     <ShirtNumber>1</ShirtNumber>
@@ -6577,7 +6577,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="389">
     <ShirtNumber>2</ShirtNumber>
@@ -6594,7 +6594,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="390">
     <ShirtNumber>4</ShirtNumber>
@@ -6611,7 +6611,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="391">
     <ShirtNumber>5</ShirtNumber>
@@ -6628,7 +6628,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="392">
     <ShirtNumber>6</ShirtNumber>
@@ -6645,7 +6645,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="393">
     <ShirtNumber>7</ShirtNumber>
@@ -6662,7 +6662,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="394">
     <ShirtNumber>8</ShirtNumber>
@@ -6679,7 +6679,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="395">
     <ShirtNumber>9</ShirtNumber>
@@ -6696,7 +6696,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="396">
     <ShirtNumber>10</ShirtNumber>
@@ -6713,7 +6713,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="397">
     <ShirtNumber>14</ShirtNumber>
@@ -6730,7 +6730,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="398">
     <ShirtNumber>15</ShirtNumber>
@@ -6747,7 +6747,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="399">
     <ShirtNumber>16</ShirtNumber>
@@ -6764,7 +6764,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="400">
     <ShirtNumber>17</ShirtNumber>
@@ -6781,7 +6781,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="401">
     <ShirtNumber>19</ShirtNumber>
@@ -6798,7 +6798,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="402">
     <ShirtNumber>20</ShirtNumber>
@@ -6815,7 +6815,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="403">
     <ShirtNumber>21</ShirtNumber>
@@ -6832,7 +6832,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="404">
     <ShirtNumber>22</ShirtNumber>
@@ -6849,7 +6849,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="405">
     <ShirtNumber>23</ShirtNumber>
@@ -6866,7 +6866,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="406">
     <ShirtNumber>24</ShirtNumber>
@@ -6883,7 +6883,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="407">
     <ShirtNumber>25</ShirtNumber>
@@ -6900,7 +6900,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="408">
     <ShirtNumber>27</ShirtNumber>
@@ -6917,7 +6917,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="409">
     <ShirtNumber>30</ShirtNumber>
@@ -6934,7 +6934,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="410">
     <ShirtNumber>32</ShirtNumber>
@@ -6951,7 +6951,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="411">
     <ShirtNumber>40</ShirtNumber>
@@ -6968,7 +6968,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="412">
     <ShirtNumber>1</ShirtNumber>
@@ -6985,7 +6985,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="413">
     <ShirtNumber>2</ShirtNumber>
@@ -7002,7 +7002,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="414">
     <ShirtNumber>3</ShirtNumber>
@@ -7019,7 +7019,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="415">
     <ShirtNumber>4</ShirtNumber>
@@ -7036,7 +7036,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="416">
     <ShirtNumber>5</ShirtNumber>
@@ -7053,7 +7053,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="417">
     <ShirtNumber>6</ShirtNumber>
@@ -7070,7 +7070,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="418">
     <ShirtNumber>7</ShirtNumber>
@@ -7087,7 +7087,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="419">
     <ShirtNumber>8</ShirtNumber>
@@ -7104,7 +7104,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="420">
     <ShirtNumber>9</ShirtNumber>
@@ -7121,7 +7121,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="421">
     <ShirtNumber>10</ShirtNumber>
@@ -7138,7 +7138,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="422">
     <ShirtNumber>11</ShirtNumber>
@@ -7155,7 +7155,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="423">
     <ShirtNumber>12</ShirtNumber>
@@ -7172,7 +7172,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="424">
     <ShirtNumber>14</ShirtNumber>
@@ -7189,7 +7189,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="425">
     <ShirtNumber>15</ShirtNumber>
@@ -7206,7 +7206,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="426">
     <ShirtNumber>16</ShirtNumber>
@@ -7223,7 +7223,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="427">
     <ShirtNumber>17</ShirtNumber>
@@ -7240,7 +7240,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="428">
     <ShirtNumber>18</ShirtNumber>
@@ -7257,7 +7257,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="429">
     <ShirtNumber>19</ShirtNumber>
@@ -7274,7 +7274,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="430">
     <ShirtNumber>20</ShirtNumber>
@@ -7291,7 +7291,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="431">
     <ShirtNumber>21</ShirtNumber>
@@ -7308,7 +7308,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="432">
     <ShirtNumber>22</ShirtNumber>
@@ -7325,7 +7325,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="433">
     <ShirtNumber>23</ShirtNumber>
@@ -7342,7 +7342,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="434">
     <ShirtNumber>24</ShirtNumber>
@@ -7359,7 +7359,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="435">
     <ShirtNumber>25</ShirtNumber>
@@ -7376,7 +7376,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="436">
     <ShirtNumber>26</ShirtNumber>
@@ -7393,7 +7393,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="437">
     <ShirtNumber>27</ShirtNumber>
@@ -7410,7 +7410,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="438">
     <ShirtNumber>28</ShirtNumber>
@@ -7427,7 +7427,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="439">
     <ShirtNumber>29</ShirtNumber>
@@ -7444,7 +7444,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="440">
     <ShirtNumber>30</ShirtNumber>
@@ -7461,7 +7461,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="441">
     <ShirtNumber>1</ShirtNumber>
@@ -7478,7 +7478,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="442">
     <ShirtNumber>3</ShirtNumber>
@@ -7495,7 +7495,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="443">
     <ShirtNumber>4</ShirtNumber>
@@ -7512,7 +7512,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="444">
     <ShirtNumber>5</ShirtNumber>
@@ -7529,7 +7529,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="445">
     <ShirtNumber>6</ShirtNumber>
@@ -7546,7 +7546,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="446">
     <ShirtNumber>7</ShirtNumber>
@@ -7563,7 +7563,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="447">
     <ShirtNumber>8</ShirtNumber>
@@ -7580,7 +7580,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="448">
     <ShirtNumber>9</ShirtNumber>
@@ -7597,7 +7597,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="449">
     <ShirtNumber>10</ShirtNumber>
@@ -7614,7 +7614,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="450">
     <ShirtNumber>11</ShirtNumber>
@@ -7631,7 +7631,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="451">
     <ShirtNumber>12</ShirtNumber>
@@ -7648,7 +7648,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="452">
     <ShirtNumber>14</ShirtNumber>
@@ -7665,7 +7665,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="453">
     <ShirtNumber>15</ShirtNumber>
@@ -7682,7 +7682,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="454">
     <ShirtNumber>16</ShirtNumber>
@@ -7699,7 +7699,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="455">
     <ShirtNumber>17</ShirtNumber>
@@ -7716,7 +7716,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="456">
     <ShirtNumber>18</ShirtNumber>
@@ -7733,7 +7733,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="457">
     <ShirtNumber>19</ShirtNumber>
@@ -7750,7 +7750,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="458">
     <ShirtNumber>20</ShirtNumber>
@@ -7767,7 +7767,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="459">
     <ShirtNumber>21</ShirtNumber>
@@ -7784,7 +7784,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="460">
     <ShirtNumber>22</ShirtNumber>
@@ -7801,7 +7801,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="461">
     <ShirtNumber>23</ShirtNumber>
@@ -7818,7 +7818,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="462">
     <ShirtNumber>24</ShirtNumber>
@@ -7835,7 +7835,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="463">
     <ShirtNumber>25</ShirtNumber>
@@ -7852,7 +7852,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="464">
     <ShirtNumber>27</ShirtNumber>
@@ -7869,7 +7869,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="465">
     <ShirtNumber>28</ShirtNumber>
@@ -7886,7 +7886,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="466">
     <ShirtNumber>29</ShirtNumber>
@@ -7903,7 +7903,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="467">
     <ShirtNumber>1</ShirtNumber>
@@ -7920,7 +7920,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="468">
     <ShirtNumber>2</ShirtNumber>
@@ -7937,7 +7937,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="469">
     <ShirtNumber>6</ShirtNumber>
@@ -7954,7 +7954,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="470">
     <ShirtNumber>7</ShirtNumber>
@@ -7971,7 +7971,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="471">
     <ShirtNumber>8</ShirtNumber>
@@ -7988,7 +7988,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="472">
     <ShirtNumber>9</ShirtNumber>
@@ -8005,7 +8005,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="473">
     <ShirtNumber>10</ShirtNumber>
@@ -8022,7 +8022,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="474">
     <ShirtNumber>11</ShirtNumber>
@@ -8039,7 +8039,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="475">
     <ShirtNumber>12</ShirtNumber>
@@ -8056,7 +8056,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="476">
     <ShirtNumber>13</ShirtNumber>
@@ -8073,7 +8073,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="477">
     <ShirtNumber>16</ShirtNumber>
@@ -8090,7 +8090,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="478">
     <ShirtNumber>18</ShirtNumber>
@@ -8107,7 +8107,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="479">
     <ShirtNumber>19</ShirtNumber>
@@ -8124,7 +8124,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="480">
     <ShirtNumber>20</ShirtNumber>
@@ -8141,7 +8141,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="481">
     <ShirtNumber>21</ShirtNumber>
@@ -8158,7 +8158,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="482">
     <ShirtNumber>22</ShirtNumber>
@@ -8175,7 +8175,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="483">
     <ShirtNumber>23</ShirtNumber>
@@ -8192,7 +8192,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="484">
     <ShirtNumber>24</ShirtNumber>
@@ -8209,7 +8209,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="485">
     <ShirtNumber>26</ShirtNumber>
@@ -8226,7 +8226,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="486">
     <ShirtNumber>27</ShirtNumber>
@@ -8243,7 +8243,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="487">
     <ShirtNumber>28</ShirtNumber>
@@ -8260,7 +8260,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="488">
     <ShirtNumber>29</ShirtNumber>
@@ -8277,7 +8277,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="489">
     <ShirtNumber>30</ShirtNumber>
@@ -8294,7 +8294,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="490">
     <ShirtNumber>1</ShirtNumber>
@@ -8311,7 +8311,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="491">
     <ShirtNumber>2</ShirtNumber>
@@ -8328,7 +8328,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="492">
     <ShirtNumber>4</ShirtNumber>
@@ -8345,7 +8345,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="493">
     <ShirtNumber>5</ShirtNumber>
@@ -8362,7 +8362,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="494">
     <ShirtNumber>6</ShirtNumber>
@@ -8379,7 +8379,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="495">
     <ShirtNumber>7</ShirtNumber>
@@ -8396,7 +8396,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="496">
     <ShirtNumber>8</ShirtNumber>
@@ -8413,7 +8413,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="497">
     <ShirtNumber>9</ShirtNumber>
@@ -8430,7 +8430,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="498">
     <ShirtNumber>10</ShirtNumber>
@@ -8447,7 +8447,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="499">
     <ShirtNumber>11</ShirtNumber>
@@ -8464,7 +8464,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="500">
     <ShirtNumber>12</ShirtNumber>
@@ -8481,7 +8481,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="501">
     <ShirtNumber>13</ShirtNumber>
@@ -8498,7 +8498,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="502">
     <ShirtNumber>14</ShirtNumber>
@@ -8515,7 +8515,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="503">
     <ShirtNumber>15</ShirtNumber>
@@ -8532,7 +8532,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="504">
     <ShirtNumber>16</ShirtNumber>
@@ -8549,7 +8549,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="505">
     <ShirtNumber>17</ShirtNumber>
@@ -8566,7 +8566,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="506">
     <ShirtNumber>18</ShirtNumber>
@@ -8583,7 +8583,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="507">
     <ShirtNumber>20</ShirtNumber>
@@ -8600,7 +8600,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="508">
     <ShirtNumber>21</ShirtNumber>
@@ -8617,7 +8617,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="509">
     <ShirtNumber>22</ShirtNumber>
@@ -8634,7 +8634,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="510">
     <ShirtNumber>23</ShirtNumber>
@@ -8651,7 +8651,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="511">
     <ShirtNumber>24</ShirtNumber>
@@ -8668,7 +8668,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="512">
     <ShirtNumber>25</ShirtNumber>
@@ -8685,7 +8685,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="513">
     <ShirtNumber>26</ShirtNumber>
@@ -8702,7 +8702,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="514">
     <ShirtNumber>27</ShirtNumber>
@@ -8719,7 +8719,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="515">
     <ShirtNumber>28</ShirtNumber>
@@ -8736,7 +8736,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="516">
     <ShirtNumber>29</ShirtNumber>
@@ -8753,7 +8753,7 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
   <Player Id="517">
     <ShirtNumber>30</ShirtNumber>
@@ -8770,6 +8770,6 @@
     <FormState>100</FormState>
     <Injury>false</Injury>
     <Mental>100</Mental>
-    <FinancialValue>10 000;</FinancialValue>
+    <FinancialValue>10 000</FinancialValue>
   </Player>
 </Players>

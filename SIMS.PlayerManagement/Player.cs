@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -7,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
+using System.Xml.XPath;
 
 namespace SoccerSimulator
 {
     public class Player
     {
-        Dictionary<string, string> _players;
         int _id; int _shirtNumber;
         string _name; string _nationality;
         string _poste; float _height;
@@ -21,31 +22,6 @@ namespace SoccerSimulator
         string _previousClub; string _actualClub;
         int _stats; int _formState;
         bool _injury; int _mental; int _financialValue;
-
-        // need a parameterless constructor for serialization
-        public Player()
-        {
-            /*var doc = XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Players.xml" );
-
-            Console.WriteLine( doc );*/
-
-            var doc = XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Players.xml" );
-            var rootNodes = doc.Root.DescendantNodes().OfType<XElement>().DescendantNodes().OfType<XAttribute>();
-            var keyValuePairs = from n in rootNodes
-                                select new
-                                {
-                                    TagName = n.Name,
-                                    TagValue = n.Value
-                                };
-
-            Dictionary<string, string> allItems = new Dictionary<string, string>();
-            foreach( var token in keyValuePairs )
-            {
-                allItems.Add( token.TagName.ToString(), token.TagValue.ToString() );
-            }
-            _players = allItems;
-            Console.WriteLine( allItems );
-        }
 
         public int Id
         {
@@ -134,5 +110,6 @@ namespace SoccerSimulator
         {
             get { return _financialValue; }
         }
+        
     }
 }

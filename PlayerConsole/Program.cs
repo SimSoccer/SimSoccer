@@ -1,9 +1,12 @@
-﻿using SoccerSimulator;
+﻿using SIMS.PlayerManagement;
+using SoccerSimulator;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.XPath;
 
 namespace PlayerConsole
 {
@@ -11,23 +14,18 @@ namespace PlayerConsole
     {
         static void Main( string[] args )
         {
-           /* var player = new Dictionary<string, string>();
-            
+            PlayersList l = new PlayersList();
 
-            foreach( KeyValuePair<string,string> pair in player  )
+            l.CreateListPlayers();
+
+            foreach( KeyValuePair<string, Player> kvp in l.Name)
             {
-                Console.WriteLine(pair);
-            }*/
-
-            readonly Dictionary<string,Player> _players;
-            _players = new Dictionary<string,Player>
-
-            foreach( string key in allItems.Keys )
-            {
-                Console.WriteLine( key );
+                Console.WriteLine( kvp );
             }
-            Console.ReadLine();
 
+            Console.WriteLine( l );
+
+            Console.Read();
         }
     }
 }
