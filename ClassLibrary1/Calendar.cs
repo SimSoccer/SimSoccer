@@ -8,8 +8,8 @@ namespace DrawGame
 {
     public class Calendar
     {
-        string _Competition;
-        string Place;
+        string _competition;
+        string _place;
         Team[] oppenent;
         Team[] _teamPlayer;
         DateTime _date;
@@ -17,7 +17,7 @@ namespace DrawGame
 
         public Calendar(Team teamPlayer)
         {
-            ///
+            _teamPlayer[0] = teamPlayer;
         }
         public void SeeCalendar()
         {
@@ -28,9 +28,24 @@ namespace DrawGame
             /// program in progress...
         }
 
-        public string Comptetion
+        public string Competetion
         {
-            get { return _Competition; }
+            get { return _competition; }
+            set { _competition = value; }
+        }
+
+        public string Place
+        {
+            get { return _place; }
+        }
+        public DateTime Hour
+        {
+            get { return _hour; }
+        }
+
+        public DateTime Date
+        {
+            get { return _date; }
         }
     }
 }

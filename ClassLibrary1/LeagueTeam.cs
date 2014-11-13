@@ -8,10 +8,19 @@ namespace DrawGame
 {
     public class LeagueTeam
     {
-        readonly Dictionary<string, Team> _team;
+        int _nbSeasonMatch = 38;
+
+        readonly Dictionary<string, Team> _leagueTeam;
         public LeagueTeam()
         {
-            _team = new Dictionary<string, Team>();
+            _leagueTeam = new Dictionary<string, Team>();
+        }
+
+        public void Opposent( string teamPlayer)
+        {
+            Team team;
+            _leagueTeam.TryGetValue(teamPlayer, out team);
+            _leagueTeam.Remove(teamPlayer);
         }
 
         public Team this[string nameTeam]
@@ -20,7 +29,7 @@ namespace DrawGame
             {
                 if (string.IsNullOrWhiteSpace(nameTeam)) throw new ArgumentException("The name of team cannot be null.");
                 Team team;
-                _team.TryGetValue(nameTeam, out team);
+                _leagueTeam.TryGetValue(nameTeam, out team);
                 return team;
             }
         }
@@ -31,7 +40,7 @@ namespace DrawGame
             if (Exist(nameTeam)) throw new ArgumentException("The team already exist");
 
             Team t = new Team(nameTeam);
-            _team.Add(nameTeam, t);
+            _leagueTeam.Add(nameTeam, t);
             return t;
         }
 
@@ -42,7 +51,12 @@ namespace DrawGame
         /// <returns></returns>
         public bool Exist(string name)
         {
-            return _team.ContainsKey(name);
+            return _leagueTeam.ContainsKey(name);
+        }
+
+        public int NbSeasonMatch
+        {
+           get {return _nbSeasonMatch;}
         }
     }
 }
