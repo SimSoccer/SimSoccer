@@ -11,16 +11,17 @@ namespace SIMS.PlayerManagement
     public class PlayersList
     {
         Dictionary<string, Player> _players;
-
         public PlayersList()
         {
             _players = new Dictionary<string, Player>();
         }
 
-        public Player CreateListPlayers()
+        public Player CreatePlayersList()
         {
             var doc = XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Players.xml" );
-            var rootNodes = doc.Root.DescendantNodes().OfType<XElement>().DescendantNodes().OfType<XAttribute>();
+            var rootNodes = doc.Root.DescendantNodes().
+                OfType<XElement>().DescendantNodes().
+                OfType<XAttribute>();
             var keyValuePairs = from n in rootNodes
                                 select new
                                 {
@@ -28,13 +29,24 @@ namespace SIMS.PlayerManagement
                                     TagValue = n.Value
                                 };
 
+            /*_players = e.Elements( "Players" )
+                            .Elements( "Player" )
+                            .Select( eg => new Player() )
+                            .ToDictionary( g => g.Name );*/
+            
             Player p = new Player();
 
-            Dictionary<string, Player> allItems = new Dictionary<string, Player>();
             foreach( var token in keyValuePairs )
-                allItems.Add( token.TagName.ToString(), p );
+                _players.Add( token.TagName.ToString(), p );
             return p;
         }
+
+        
+
+        /*public Player CreateListPlayers(XElement e)
+        {
+            
+        }*/
 
         public Dictionary<string,Player> Name
         {

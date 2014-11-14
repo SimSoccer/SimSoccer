@@ -16,15 +16,16 @@ namespace PlayerConsole
         {
             PlayersList l = new PlayersList();
 
-            l.CreateListPlayers();
+            Console.WriteLine( l.Name );
+            l.CreatePlayersList();
+            Console.WriteLine("Count : " + l.Name.Count );
 
+            /*l.CreateListPlayers();
+            */
             foreach( KeyValuePair<string, Player> kvp in l.Name)
             {
-                Console.WriteLine( kvp );
+                Console.WriteLine( "Key : " + kvp.Key + " Value : " + kvp.Value );
             }
-
-            Console.WriteLine( l );
-
             Console.Read();
         }
     }
