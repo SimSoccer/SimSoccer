@@ -537,7 +537,7 @@ namespace ConvertCSVToXML
                 from str in source
                 let fields = str.Split( ',' )
                 select new XElement( "Player",
-                    new XAttribute( "Id", fields[0] ),
+                    new XElement( "Id", fields[0] ),
                     new XElement( "ShirtNumber", fields[1] ),
                     new XElement( "Name", fields[2] ),
                     new XElement( "Nationality", fields[3] ),
@@ -553,7 +553,7 @@ namespace ConvertCSVToXML
                     new XElement( "Injury", fields[13] ),
                     new XElement( "Mental", fields[14] ),
                     new XElement( "FinancialValue", fields[15] ) ) );
-            cust.Save( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Players.xml" );
+            cust.Save( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Players2.xml" );
         }
     }
 }

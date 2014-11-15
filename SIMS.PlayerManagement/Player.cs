@@ -23,6 +23,7 @@ namespace SoccerSimulator
         int _stats; int _formState;
         bool _injury; int _mental; int _financialValue;
 
+
         public int Id
         {
             get { return _id; }
@@ -32,61 +33,73 @@ namespace SoccerSimulator
         public int ShirtNumber
         {
             get { return _shirtNumber; }
+            set { _shirtNumber = value; }
         }
 
         public string Name
         {
             get { return _name; }
+            set { _name = value; }
         }
 
         public string Nationality
         {
             get { return _nationality; }
+            set { _nationality = value; }
         }
 
         public string Poste
         {
             get { return _poste; }
+            set { _poste = value; }
         }
 
         public float Height
         {
             get { return _height; }
+            set { _height = value; }
         }
 
         public float Weight
         {
             get { return _weight; }
+            set { _weight = value; }
         }
 
         public string BirthDate
         {
             get { return _birthDate; }
+            set { _birthDate = value; }
         }
 
         public string BirthPlace
         {
             get { return _birthPlace; }
+            set { _birthDate = value; }
         }
 
         public string PreviousClub
         {
             get { return _previousClub; }
+            set { _previousClub = value; }
         }
 
         public string ActualClub
         {
             get { return _actualClub; }
+            set { _actualClub = value; }
         }
 
         public int Stats
         {
             get { return _stats; }
+            set { _stats = value; }
         }
 
         public int FormState
         {
             get { return _formState; }
+            set { _formState = value; }
         }
 
         /// <summary>
@@ -99,16 +112,19 @@ namespace SoccerSimulator
         public bool Injury
         {
             get { return _injury; }
+            set { _injury = value; }
         }
 
         public int Mental
         {
             get { return _mental; }
+            set { _mental = value; }
         }
 
         public int FinancialValue
         {
             get { return _financialValue; }
+            set { _financialValue = value; }
         }
         
     }
