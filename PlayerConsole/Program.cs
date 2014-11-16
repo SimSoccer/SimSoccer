@@ -15,6 +15,9 @@ namespace PlayerConsole
         static void Main( string[] args )
         {
             PlayersList l = new PlayersList();
+            l.CreatePlayersList();
+            Console.WriteLine( l.Name );
+            Console.ReadLine();
         }
     }
 }

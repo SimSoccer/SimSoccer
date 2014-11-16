@@ -25,7 +25,7 @@ namespace SIMS.PlayerManagement
 
             var players = doc.Descendants( "Player" ).Select( player => new Player
             {
-                Id = int.Parse( player.Element( "Id" ).Value ),
+                Id = int.Parse(player.Element( "Id" ).Value),
                 ShirtNumber = int.Parse( player.Element( "ShirtNumber" ).Value ),
                 Name = player.Element( "Name" ).Value,
                 Nationality = player.Element( "Nationality" ).Value,
@@ -41,8 +41,9 @@ namespace SIMS.PlayerManagement
                 Injury = bool.Parse( player.Element( "Injury" ).Value ),
                 Mental = int.Parse( player.Element( "Mental" ).Value ),
                 FinancialValue = int.Parse( player.Element( "FinancialValue" ).Value )
-            } ).ToDictionary( student => student.Id );
-            return ;
+            } ).ToDictionary( player => player.Id );
+
+            return p;
         }
 
         public Dictionary<string,Player> Name
