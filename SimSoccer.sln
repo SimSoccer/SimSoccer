@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.UserManagement", "SIMS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.TestsDrawGame", "SIMS.TestsDrawGame\SIMS.TestsDrawGame.csproj", "{034E64EC-72B2-46C1-9FB5-0DAD5206418D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDrawGame", "TestDrawGame\TestDrawGame.csproj", "{C9F6256E-36E1-4C44-AE47-73A60B55E4AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{034E64EC-72B2-46C1-9FB5-0DAD5206418D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{034E64EC-72B2-46C1-9FB5-0DAD5206418D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{034E64EC-72B2-46C1-9FB5-0DAD5206418D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F6256E-36E1-4C44-AE47-73A60B55E4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F6256E-36E1-4C44-AE47-73A60B55E4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F6256E-36E1-4C44-AE47-73A60B55E4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F6256E-36E1-4C44-AE47-73A60B55E4AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

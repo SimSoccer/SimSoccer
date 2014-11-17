@@ -18,18 +18,10 @@ namespace SIMS.TestsDrawGame
             LeagueTeam sut = new LeagueTeam();
 
             ///Act
-            Team paris = sut.CreateTeam("Psg");
+            Team paris = sut.CreateTeam("psg");
 
             ///Assert
-            Assert.That(paris.Name, Is.EqualTo("Psg"));
-        }
-
-        [Test]
-        public void create_a_team_with_null_or_whitespace()
-        {
-            Assert.Throws<ArgumentException>(() => new Team(null));
-            Assert.Throws<ArgumentException>(() => new Team(" "));
-            Assert.Throws<ArgumentException>(() => new Team(string.Empty));
+            Assert.That(paris.NameTeam, Is.EqualTo(1));
         }
 
         [Test]
@@ -37,7 +29,7 @@ namespace SIMS.TestsDrawGame
         {
             LeagueTeam sut = CreateTestTeam();
 
-            Assert.Throws<ArgumentException>(() => sut.CreateTeam("Psg"));
+            Assert.Throws<ArgumentException>(() => sut.CreateTeam("psg"));
         }
 
         private LeagueTeam CreateTestTeam()
@@ -45,7 +37,7 @@ namespace SIMS.TestsDrawGame
             ///Arrange
             LeagueTeam leagueTeam = new LeagueTeam();
             ///Act
-            Team psg = leagueTeam.CreateTeam("Psg");
+            Team psg = leagueTeam.CreateTeam("psg");
             return leagueTeam;
         }
     }

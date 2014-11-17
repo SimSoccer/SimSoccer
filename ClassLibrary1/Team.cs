@@ -9,21 +9,30 @@ namespace DrawGame
     public class Team
     {
 
-        string _nameTeam;
-
-        public Team(string name)
+        string _team;
+        List<Team> opposent = new List<Team>();
+              
+        public Team(string team)
         {
-            if (string.IsNullOrWhiteSpace(name)) throw new ArgumentException("The name of team cannot be null");
-            _nameTeam = name;
+            _team = team;
         }
 
         public string TeamPlayer(string TeamChoice)
         {
-            return _nameTeam = TeamChoice;
+            return _team = TeamChoice;
         }
-        public string Name
+        public string NameTeam
         {
-            get { return _nameTeam; }
+            get { return _team; }
+        }
+        public void Opposent(Team opponent)
+        {
+            opposent.Add(opponent);
+        }
+
+        public List<Team> Name
+        {
+            get { return opposent; }
         }
     }
 }

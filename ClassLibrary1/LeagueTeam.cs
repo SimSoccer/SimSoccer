@@ -16,47 +16,44 @@ namespace DrawGame
             _leagueTeam = new Dictionary<string, Team>();
         }
 
-        public void Opposent( string teamPlayer)
-        {
-            Team team;
-            _leagueTeam.TryGetValue(teamPlayer, out team);
-            _leagueTeam.Remove(teamPlayer);
-        }
-
         public Team this[string nameTeam]
         {
             get
             {
-                if (string.IsNullOrWhiteSpace(nameTeam)) throw new ArgumentException("The name of team cannot be null.");
                 Team team;
                 _leagueTeam.TryGetValue(nameTeam, out team);
                 return team;
             }
         }
 
-        public Team CreateTeam(string nameTeam)
+        public Team CreateTeam(string team)
         {
-            if (string.IsNullOrWhiteSpace(nameTeam)) throw new ArgumentException("The name of team cannot be null");
-            if (Exist(nameTeam)) throw new ArgumentException("The team already exist");
+            if (Exist(team)) throw new ArgumentException("The team already exist");
 
-            Team t = new Team(nameTeam);
-            _leagueTeam.Add(nameTeam, t);
+            Team t = new Team(team);
+            _leagueTeam.Add(team, t);
             return t;
         }
 
         /// <summary>
         /// Search in the dictionary if the team already exist
         /// </summary>
-        /// <param name="name"></param>
+        /// <param name="Team"></param>
         /// <returns></returns>
-        public bool Exist(string name)
+        public bool Exist(string Team)
         {
-            return _leagueTeam.ContainsKey(name);
+            return _leagueTeam.ContainsKey(Team);
         }
 
         public int NbSeasonMatch
         {
            get {return _nbSeasonMatch;}
         }
+
+        public Dictionary<string,Team> Name
+        {
+            get { return _leagueTeam; }
+        }
+
     }
 }
