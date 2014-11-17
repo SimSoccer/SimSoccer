@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Team>
+<Teams>
   <Team>
     <Id>1</Id>
     <Name>Sporting Club de Bastia</Name>
@@ -16,4 +16,4 @@
 	<Stadium>Jacques-Chaban-Delmas</Stadium>
 	<Logo>.\Images\TeamLogo\Bordeaux.png</Logo>
   </Team>
-</Team>
+</Teams>
