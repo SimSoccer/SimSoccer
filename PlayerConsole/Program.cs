@@ -16,7 +16,6 @@ namespace PlayerConsole
         {
             PlayersList test = new PlayersList();
 
-            // Act
             test.CreatePlayersList();
             foreach( KeyValuePair<int, Player> pair in test.Name )
             {
@@ -27,7 +26,6 @@ namespace PlayerConsole
             {
                 Console.WriteLine( "{0} , {1}", d.Key, d.Value.Name );
             }
-            num = Convert.ToString( test.Name.Keys );
             Console.Read();
         }
     }
