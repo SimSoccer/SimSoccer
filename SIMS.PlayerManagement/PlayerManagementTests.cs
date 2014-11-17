@@ -15,13 +15,21 @@ namespace SIMS.PlayerManagement
         public void check_it_there_is_players_in_list()
         {
             // Arrange
-            Player test = new Player();
+            PlayersList test = new PlayersList();
+            string container = "";
 
             // Act
+            test.CreatePlayersList();
 
+            if( test.Name.ContainsKey( "50" ) )
+            {
+                // This is in the Dictionary.
+                Console.WriteLine( "The Key" );
+                container = "true";
+            }
 
             // Assert
-
+            Assert.That( container == "true" );
         }
     }
 }
