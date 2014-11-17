@@ -14,23 +14,23 @@ namespace SoccerSimulator
 {
     public class Player
     {
-        string _id; string _shirtNumber;
+        int _id; int _shirtNumber;
         string _name, _nationality;
-        string _poste; string _height;
-        string _weight;
+        string _poste; float _height;
+        int _weight;
         string _birthDate; string _birthPlace;
         string _previousClub; string _actualClub;
-        string _stats; string _formState;
-        string _injury; string _mental; string _financialValue;
+        int _stats; int _formState;
+        bool _injury; int _mental; int _financialValue;
 
 
-        public string Id
+        public int Id
         {
             get { return _id; }
             set { _id = value; }
         }
 
-        public string ShirtNumber
+        public int ShirtNumber
         {
             get { return _shirtNumber; }
             set { _shirtNumber = value; }
@@ -54,13 +54,13 @@ namespace SoccerSimulator
             set { _poste = value; }
         }
 
-        public string Height
+        public float Height
         {
             get { return _height; }
             set { _height = value; }
         }
 
-        public string Weight
+        public int Weight
         {
             get { return _weight; }
             set { _weight = value; }
@@ -90,13 +90,13 @@ namespace SoccerSimulator
             set { _actualClub = value; }
         }
 
-        public string Stats
+        public int Stats
         {
             get { return _stats; }
             set { _stats = value; }
         }
 
-        public string FormState
+        public int FormState
         {
             get { return _formState; }
             set { _formState = value; }
@@ -107,21 +107,21 @@ namespace SoccerSimulator
         /// </summary>
         public void IsInjuried()
         {
-            if( _formState == "50" ) _injury = "true";
+            if( _formState < 50 ) _injury = true;
         }
-        public string Injury
+        public bool Injury
         {
             get { return _injury; }
             set { _injury = value; }
         }
 
-        public string Mental
+        public int Mental
         {
             get { return _mental; }
             set { _mental = value; }
         }
 
-        public string FinancialValue
+        public int FinancialValue
         {
             get { return _financialValue; }
             set { _financialValue = value; }

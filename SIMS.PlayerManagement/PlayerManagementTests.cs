@@ -16,20 +16,19 @@ namespace SIMS.PlayerManagement
         {
             // Arrange
             PlayersList test = new PlayersList();
-            string container = "";
+            bool container = false;
 
             // Act
             test.CreatePlayersList();
-
-            if( test.Name.ContainsKey( "50" ) )
+            if( test.Name.ContainsKey( 518 ) )
             {
                 // This is in the Dictionary.
                 Console.WriteLine( "The Key" );
-                container = "true";
+                container = true;
             }
 
             // Assert
-            Assert.That( container == "true" );
+            Assert.That( container == true );
         }
     }
 }
