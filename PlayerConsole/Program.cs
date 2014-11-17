@@ -14,10 +14,21 @@ namespace PlayerConsole
     {
         static void Main( string[] args )
         {
-            PlayersList l = new PlayersList();
-            l.CreatePlayersList();
-            Console.WriteLine( l.Name );
-            Console.ReadLine();
+            PlayersList test = new PlayersList();
+
+            // Act
+            test.CreatePlayersList();
+            foreach( KeyValuePair<int, Player> pair in test.Name )
+            {
+                Console.WriteLine( pair.Value.Name );
+            }
+
+            foreach (var d in test.Name)
+            {
+                Console.WriteLine( "{0} , {1}", d.Key, d.Value.Name );
+            }
+            num = Convert.ToString( test.Name.Keys );
+            Console.Read();
         }
     }
 }
