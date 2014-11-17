@@ -1,5 +1,5 @@
-﻿using SIMS.PlayerManagement;
-using SoccerSimulator;
+﻿using SIMS.PlayersManagement;
+using SIMS;
 using System;
 using System.Collections;
 using System.Collections.Generic;

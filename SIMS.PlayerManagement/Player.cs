@@ -10,7 +10,7 @@ using System.Xml;
 using System.Xml.Linq;
 using System.Xml.XPath;
 
-namespace SoccerSimulator
+namespace SIMS.PlayersManagement
 {
     public class Player
     {

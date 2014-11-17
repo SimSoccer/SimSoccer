@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormWinForm", "FormWinForm\FormWinForm.csproj", "{76530549-747E-4A33-93C6-CCA67F84A38E}"
 EndProject
@@ -12,17 +12,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BC841E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawGame", "ClassLibrary1\DrawGame.csproj", "{4E58BA04-8DF2-434F-860C-06F374EBA689}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertCSVToXML", "ConvertCSVToXML\ConvertCSVToXML.csproj", "{78EE69DF-780A-4035-B08F-E655EA8BBFEB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateXMLPlayers", "ConvertCSVToXML\CreateXMLPlayers.csproj", "{78EE69DF-780A-4035-B08F-E655EA8BBFEB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.SimulatorAction", "SoccerSimulator\SIMS.SimulatorAction.csproj", "{B2677D9F-1EA7-4983-87BE-B8B0A1A500F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.TeamManagement", "SIMS.TeamManagement\SIMS.TeamManagement.csproj", "{960C95D7-E5FA-4511-9D14-703A2937C241}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.TeamsManagement", "SIMS.TeamManagement\SIMS.TeamsManagement.csproj", "{960C95D7-E5FA-4511-9D14-703A2937C241}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.PlayerManagement", "SIMS.PlayerManagement\SIMS.PlayerManagement.csproj", "{6A41FB06-D0EA-4E54-A96B-6591D253F6AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.PlayersManagement", "SIMS.PlayerManagement\SIMS.PlayersManagement.csproj", "{6A41FB06-D0EA-4E54-A96B-6591D253F6AF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.UserManagement", "SIMS.UserManagement\SIMS.UserManagement.csproj", "{62C5F69A-8308-469C-B2DA-296212FAC4B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerConsole", "PlayerConsole\PlayerConsole.csproj", "{C3415A87-5E24-46C0-A640-F862C70CC256}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatePlayersConsole", "PlayerConsole\CreatePlayersConsole.csproj", "{C3415A87-5E24-46C0-A640-F862C70CC256}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateXMLTeams", "CreateXMLTeams\CreateXMLTeams.csproj", "{4E9DE5E7-CF10-4C85-8B50-FA5C2E761A8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -116,6 +118,16 @@ Global
 		{C3415A87-5E24-46C0-A640-F862C70CC256}.Release|ARM.ActiveCfg = Release|Any CPU
 		{C3415A87-5E24-46C0-A640-F862C70CC256}.Release|x64.ActiveCfg = Release|Any CPU
 		{C3415A87-5E24-46C0-A640-F862C70CC256}.Release|x86.ActiveCfg = Release|Any CPU
+		{4E9DE5E7-CF10-4C85-8B50-FA5C2E761A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9DE5E7-CF10-4C85-8B50-FA5C2E761A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9DE5E7-CF10-4C85-8B50-FA5C2E761A8D}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{4E9DE5E7-CF10-4C85-8B50-FA5C2E761A8D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4E9DE5E7-CF10-4C85-8B50-FA5C2E761A8D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4E9DE5E7-CF10-4C85-8B50-FA5C2E761A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9DE5E7-CF10-4C85-8B50-FA5C2E761A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E9DE5E7-CF10-4C85-8B50-FA5C2E761A8D}.Release|ARM.ActiveCfg = Release|Any CPU
+		{4E9DE5E7-CF10-4C85-8B50-FA5C2E761A8D}.Release|x64.ActiveCfg = Release|Any CPU
+		{4E9DE5E7-CF10-4C85-8B50-FA5C2E761A8D}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

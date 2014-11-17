@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Teams>
+  <Team>
+    <Id>1</Id>
+    <Name>Sporting Club de Bastia</Name>
+    <TeamTag>SCB</TeamTag>
+    <Town>Bastia</Town>
+    <Stadium>Armand-Cesari</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/16/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Ghislain PRINTANT</Manager>
+    <LeagueRanking>1</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>2</Id>
+    <Name>Football Club des Girondins de Bordeaux</Name>
+    <TeamTag>FCB</TeamTag>
+    <Town>Bordeaux</Town>
+    <Stadium>Jacques Chaban-Delmas</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/18/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Willy SAGNOL</Manager>
+    <LeagueRanking>2</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>3</Id>
+    <Name>Stade Malherbe de Caen</Name>
+    <TeamTag>SMC</TeamTag>
+    <Town>Cean</Town>
+    <Stadium>Michel-d'Ornano</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/41/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Patrice GARANDE</Manager>
+    <LeagueRanking>3</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>4</Id>
+    <Name>Evian Thonon Gaillard Football Club</Name>
+    <TeamTag>ETG</TeamTag>
+    <Town>Evian</Town>
+    <Stadium>Parc des Sports</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/1897/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Pascal DUPRAZ</Manager>
+    <LeagueRanking>4</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>5</Id>
+    <Name>En Avant Guingamp</Name>
+    <TeamTag>EAG</TeamTag>
+    <Town>Guingamp</Town>
+    <Stadium>Stade du Roudourou</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/37/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Jocelyn GOURVENNEC</Manager>
+    <LeagueRanking>5</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>6</Id>
+    <Name>Racing Club de Lens</Name>
+    <TeamTag>RCL</TeamTag>
+    <Town>Lens</Town>
+    <Stadium>Bollaert-Delelis</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/9/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Antoine KOMBOUARE</Manager>
+    <LeagueRanking>6</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>7</Id>
+    <Name>Lille Olympique Sporting Club </Name>
+    <TeamTag>LOSC</TeamTag>
+    <Town>Lille</Town>
+    <Stadium>Stade Pierre-Mauroy</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/43/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>René GIRARD</Manager>
+    <LeagueRanking>7</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>8</Id>
+    <Name>Football Club Lorient-Bretagne Sud</Name>
+    <TeamTag>FCL</TeamTag>
+    <Town>Lorient</Town>
+    <Stadium>Yves-Allainmat</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/11/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Sylvain RIPOLL</Manager>
+    <LeagueRanking>8</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>9</Id>
+    <Name>Olympique Lyonnais</Name>
+    <TeamTag>OL</TeamTag>
+    <Town>Lyon</Town>
+    <Stadium>Gerland</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/22/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Hubert FOURNIER</Manager>
+    <LeagueRanking>9</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>10</Id>
+    <Name>Olympique de Marseille</Name>
+    <TeamTag>OM</TeamTag>
+    <Town>Marseille</Town>
+    <Stadium>Velodrome</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/6/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Marcelo BIELSA</Manager>
+    <LeagueRanking>10</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>11</Id>
+    <Name>Football Club de Metz</Name>
+    <TeamTag>FCM</TeamTag>
+    <Town>Metz</Town>
+    <Stadium>Saint-Symphorien</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/20/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Albert CARTIER</Manager>
+    <LeagueRanking>11</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>12</Id>
+    <Name>Association sportive de Monaco FC</Name>
+    <TeamTag>ASM</TeamTag>
+    <Town>Monaco</Town>
+    <Stadium>Louis II</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/25/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Leonardo JARDIM</Manager>
+    <LeagueRanking>12</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>13</Id>
+    <Name>Montpellier-Herault Sports Club</Name>
+    <TeamTag>MHSC</TeamTag>
+    <Town>Montpellier</Town>
+    <Stadium>La Mosson</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/17/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Rolland COURBIS</Manager>
+    <LeagueRanking>13</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>14</Id>
+    <Name>Football Club de Nantes</Name>
+    <TeamTag>FCN</TeamTag>
+    <Town>Nantes</Town>
+    <Stadium>La Beaujoire</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/15/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Michel DER ZAKARIAN</Manager>
+    <LeagueRanking>14</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>15</Id>
+    <Name>Olympique Gymnaste Club Nice Côte d'Azur</Name>
+    <TeamTag>OGCN</TeamTag>
+    <Town>Nice</Town>
+    <Stadium>Allianz Riviera</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/46/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Claude PUEL</Manager>
+    <LeagueRanking>15</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>16</Id>
+    <Name>Paris-Saint-Germain Football Club</Name>
+    <TeamTag>PSG</TeamTag>
+    <Town>Paris</Town>
+    <Stadium>Parc des Princes</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/26/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Laurent BLANC</Manager>
+    <LeagueRanking>16</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>17</Id>
+    <Name>Stade de Reims</Name>
+    <TeamTag>SDR</TeamTag>
+    <Town>Reims</Town>
+    <Stadium>Auguste-Delaune</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/211/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Jean-Luc VASSEUR</Manager>
+    <LeagueRanking>17</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>18</Id>
+    <Name>Stade Rennais Football Club</Name>
+    <TeamTag>SRFC</TeamTag>
+    <Town>Rennes</Town>
+    <Stadium>Stade de la Route de Lorient</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/14/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Philippe MONTANIER</Manager>
+    <LeagueRanking>18</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>19</Id>
+    <Name>Association Sportive de St-Etienne</Name>
+    <TeamTag>ASSE</TeamTag>
+    <Town>Saint-Etiennes</Town>
+    <Stadium>Geoffroy-Guichard</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/38/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Christophe GALTIER</Manager>
+    <LeagueRanking>19</LeagueRanking>
+  </Team>
+  <Team>
+    <Id>20</Id>
+    <Name>Toulouse Football Club</Name>
+    <TeamTag>TFC</TeamTag>
+    <Town>Toulouse</Town>
+    <Stadium>Stadium Municipal</Stadium>
+    <Logo>http://medias.lequipe.fr/logo-football/12/300?LFW0FOX0004800Y-14-46</Logo>
+    <Manager>Alain CASANOVA</Manager>
+    <LeagueRanking>20</LeagueRanking>
+  </Team>
+</Teams>

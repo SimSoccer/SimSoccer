@@ -1,4 +1,4 @@
-﻿using SoccerSimulator;
+﻿using SIMS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,11 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace SIMS.PlayerManagement
+namespace SIMS.PlayersManagement
 {
     public class PlayersList
     {
-        Dictionary<int, Player> _players;
+        internal Dictionary<int, Player> _players;
         Player p;
         public PlayersList()
         {
