@@ -8,5 +8,8 @@ namespace SoccerSimulator
 {
     class Team
     {
+        
+
+
     }
 }
