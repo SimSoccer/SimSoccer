@@ -8,52 +8,35 @@ namespace DrawGame
 {
     public class LeagueTeam
     {
-        int _nbSeasonMatch = 38;
+        List<Team> _teamLeague;
 
-        readonly Dictionary<string, Team> _leagueTeam;
         public LeagueTeam()
         {
-            _leagueTeam = new Dictionary<string, Team>();
+            _teamLeague = new List<Team>();
         }
 
-        public Team this[string nameTeam]
+        public List<Team> NameLeague
         {
-            get
-            {
-                Team team;
-                _leagueTeam.TryGetValue(nameTeam, out team);
-                return team;
-            }
+            get { return _teamLeague; }
         }
 
-        public Team CreateTeam(string team)
+        public Team CreateTeam(string team, int scoreTeam, string stade)
         {
-            if (Exist(team)) throw new ArgumentException("The team already exist");
-
-            Team t = new Team(team);
-            _leagueTeam.Add(team, t);
+            Team t = new Team(team, scoreTeam, stade);
+            _teamLeague.Add(t);
             return t;
         }
 
-        /// <summary>
-        /// Search in the dictionary if the team already exist
-        /// </summary>
-        /// <param name="Team"></param>
-        /// <returns></returns>
-        public bool Exist(string Team)
+        public void CreateDay()
         {
-            return _leagueTeam.ContainsKey(Team);
+            foreach (Team t in _teamLeague)
+            {
+                if (!t.Opossent.Contains(t))
+                {
+                    t.AddOpposent(_teamLeague);
+                    t.Remove(t);
+                }
+            }
         }
-
-        public int NbSeasonMatch
-        {
-           get {return _nbSeasonMatch;}
-        }
-
-        public Dictionary<string,Team> Name
-        {
-            get { return _leagueTeam; }
-        }
-
     }
 }

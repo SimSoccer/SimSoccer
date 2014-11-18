@@ -18,7 +18,7 @@ namespace SIMS.TestsDrawGame
             LeagueTeam sut = new LeagueTeam();
 
             ///Act
-            Team paris = sut.CreateTeam("psg");
+            Team paris = sut.CreateTeam("psg",89,"Parc des princes");
 
             ///Assert
             Assert.That(paris.NameTeam, Is.EqualTo(1));
@@ -29,7 +29,7 @@ namespace SIMS.TestsDrawGame
         {
             LeagueTeam sut = CreateTestTeam();
 
-            Assert.Throws<ArgumentException>(() => sut.CreateTeam("psg"));
+            Assert.Throws<ArgumentException>(() => sut.CreateTeam("psg",89,"Parc des princes"));
         }
 
         private LeagueTeam CreateTestTeam()
@@ -37,7 +37,7 @@ namespace SIMS.TestsDrawGame
             ///Arrange
             LeagueTeam leagueTeam = new LeagueTeam();
             ///Act
-            Team psg = leagueTeam.CreateTeam("psg");
+            Team psg = leagueTeam.CreateTeam("psg",89,"Parc des princes");
             return leagueTeam;
         }
     }

@@ -10,27 +10,24 @@ namespace DrawGame
     {
         static void Main(string[] args)
         {
-           
-            //Dictionary<string, Team> ligue2 = new Dictionary<string, Team>();
-
             LeagueTeam ligue1 = new LeagueTeam();
 
-            Team psg = ligue1.CreateTeam("psg");
-            Team om = ligue1.CreateTeam("om");
-            Team lyon = ligue1.CreateTeam("o");
+            Team psg = ligue1.CreateTeam("Psg", 89, "Parc des princes");
+            Team om = ligue1.CreateTeam("om",78,"Vélodrome");
+            Team lyon = ligue1.CreateTeam("lyon",76,"Gerland");
 
-            lyon.Opposent(om);
-            lyon.Opposent(psg);
 
-            foreach (Team o in lyon.Name)
+            ligue1.CreateDay();
+
+            foreach (Team e in ligue1.NameLeague)
             {
-                Console.WriteLine("Les opposants sont : " + o.NameTeam);
+                Console.WriteLine("Les equipes dans la ligue sont : " + e.NameTeam);
             }
 
-            foreach(KeyValuePair<string,Team> e in ligue1.Name)
+            foreach (Team o in psg.Opossent)
             {
-                Console.WriteLine(e);
-            }
+                Console.WriteLine("Les opposants de " + om.NameTeam + " sont : " + o.NameTeam);
+            }          
             Console.Read();
         }
     }

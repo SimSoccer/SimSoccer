@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace DrawGame
 {
-    public class Calendar
+     public class Journee
     {
-        List<Journee> journees = new List<Journee>();
+        List<Match> matchs = new List<Match>();
     }
 }

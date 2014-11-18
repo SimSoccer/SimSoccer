@@ -8,29 +8,34 @@ namespace DrawGame
 {
     public class Team
     {
-
         string _team;
+        string _stade;
+        int _scoreTeam;
+
         List<Team> opposent = new List<Team>();
               
-        public Team(string team)
+        public Team( string team, int scoreTeam,string stade )
         {
             _team = team;
+            _scoreTeam = scoreTeam;
+            _stade = stade;
         }
 
-        public string TeamPlayer(string TeamChoice)
-        {
-            return _team = TeamChoice;
-        }
         public string NameTeam
         {
             get { return _team; }
         }
-        public void Opposent(Team opponent)
+        public void AddOpposent(List<Team> opponent)
         {
-            opposent.Add(opponent);
+            opposent.AddRange(opponent);
         }
 
-        public List<Team> Name
+        public void Remove(Team opponent)
+        {
+            opposent.Remove(opponent);
+        }
+
+        public List<Team> Opossent
         {
             get { return opposent; }
         }
