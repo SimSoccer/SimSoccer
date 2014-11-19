@@ -32,7 +32,7 @@ namespace SIMS.PlayersManagement
                 ShirtNumber = int.Parse(player.Element( "ShirtNumber" ).Value),
                 Name = player.Element( "Name" ).Value,
                 Nationality = player.Element( "Nationality" ).Value,
-                FieldPosition = player.Element( "Poste" ).Value,
+                FieldPosition = player.Element( "FieldPosition" ).Value,
                 Height = float.Parse(player.Element( "Height" ).Value),
                 Weight = int.Parse( player.Element( "Weight" ).Value ),
                 BirthDate = player.Element( "BirthDate" ).Value,
@@ -44,7 +44,7 @@ namespace SIMS.PlayersManagement
                 Injury = bool.Parse(player.Element( "Injury" ).Value),
                 Mental = int.Parse(player.Element( "Mental" ).Value),
                 FinancialValue = int.Parse(player.Element( "FinancialValue" ).Value),
-                ActualClubTag = player.Element("ActualClubTag").Value
+                ActualClubTag = player.Element( "ActualClubTag" ).Value
             } ).ToDictionary( player => player.Id, player => player );
             
             return p;
@@ -53,6 +53,11 @@ namespace SIMS.PlayersManagement
         public Dictionary<int,Player> Name
         {
             get { return _players; }
+        }
+
+        public IEnumerable<Player> Players
+        {
+            get { return _players.Values; }
         }
     }
 }

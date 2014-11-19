@@ -133,6 +133,5 @@ namespace SIMS.PlayersManagement
             get {return _actualClubTag;}
             set {_actualClubTag = value;}
         }
-        
     }
 }

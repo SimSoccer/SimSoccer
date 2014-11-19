@@ -13,7 +13,7 @@ namespace SIMS.TeamsManagement
         string _name,  _teamTag, _town;
         string _stadium, _logo, _manager;
         int _leagueRanking; int _level;
-        PlayersList _players;
+        Player _players;
 
         public int Id
         {
@@ -69,10 +69,15 @@ namespace SIMS.TeamsManagement
             set { _level = value; }
         }
 
-        public PlayersList Composition
+        public IEnumerable<Player> Composition
         {
-            get { return _players; }
-            set { _players = value; }
+            get
+            {
+                PlayersList players = new PlayersList();
+                players.CreatePlayersList();
+
+            }
+            set { }
         }
     }
 }

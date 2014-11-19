@@ -6,7 +6,7 @@
     <Name>Alphonse Aréola</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>85</Weight>
     <BirthDate>27/02/1993</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -25,7 +25,7 @@
     <Name>Romain Achilli</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>70</Weight>
     <BirthDate>15/02/1993</BirthDate>
     <BirthPlace>Bastia</BirthPlace>
@@ -44,7 +44,7 @@
     <Name>Hervin Ongenda</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>64</Weight>
     <BirthDate>24/06/1995</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -63,7 +63,7 @@
     <Name>Florian Marange</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>70</Weight>
     <BirthDate>03/03/1986</BirthDate>
     <BirthPlace>Talence</BirthPlace>
@@ -82,7 +82,7 @@
     <Name>Sébastien Squillaci</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>76</Weight>
     <BirthDate>11/08/1980</BirthDate>
     <BirthPlace>Toulon</BirthPlace>
@@ -101,7 +101,7 @@
     <Name>N'Dri Romaric</Name>
     <Nationality>CIV</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>88</Weight>
     <BirthDate>04/06/1983</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -120,7 +120,7 @@
     <Name>Floyd Ayité</Name>
     <Nationality>TOG</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>68</Weight>
     <BirthDate>15/12/1988</BirthDate>
     <BirthPlace>Bordeaux</BirthPlace>
@@ -139,7 +139,7 @@
     <Name>El-Hajdi Ba</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>74</Weight>
     <BirthDate>05/03/1993</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -158,7 +158,7 @@
     <Name>Djibril Cissé</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>78</Weight>
     <BirthDate>12/08/1981</BirthDate>
     <BirthPlace>Arles</BirthPlace>
@@ -177,7 +177,7 @@
     <Name>Ryad Boudebouz</Name>
     <Nationality>ALG</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>59</Weight>
     <BirthDate>19/02/1990</BirthDate>
     <BirthPlace>Colmar</BirthPlace>
@@ -196,7 +196,7 @@
     <Name>Gadji Celi Junior Tallo</Name>
     <Nationality>CIV</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>77</Weight>
     <BirthDate>21/12/1992</BirthDate>
     <BirthPlace>Ouragahio</BirthPlace>
@@ -215,7 +215,7 @@
     <Name>Christophe Vincent</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>72</Weight>
     <BirthDate>08/11/1992</BirthDate>
     <BirthPlace>Bastia</BirthPlace>
@@ -234,7 +234,7 @@
     <Name>Abdoulaye Keita</Name>
     <Nationality>MLI</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>75</Weight>
     <BirthDate>05/01/1994</BirthDate>
     <BirthPlace>Bamako</BirthPlace>
@@ -253,7 +253,7 @@
     <Name>Famoussa Koné</Name>
     <Nationality>MLI</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>74</Weight>
     <BirthDate>03/05/1994</BirthDate>
     <BirthPlace>Bamako</BirthPlace>
@@ -272,7 +272,7 @@
     <Name>Julian Palmieri</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>66</Weight>
     <BirthDate>17/12/1986</BirthDate>
     <BirthPlace>Lyon</BirthPlace>
@@ -291,7 +291,7 @@
     <Name>Jean-Louis Leca</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>65</Weight>
     <BirthDate>21/09/1985</BirthDate>
     <BirthPlace>Bastia</BirthPlace>
@@ -310,7 +310,7 @@
     <Name>Mathieu Peybernes</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>80</Weight>
     <BirthDate>21/10/1990</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -329,7 +329,7 @@
     <Name>Yannick Cahuzac</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>66</Weight>
     <BirthDate>18/01/1985</BirthDate>
     <BirthPlace>Ajaccio</BirthPlace>
@@ -348,7 +348,7 @@
     <Name>Benjamin Mokulu</Name>
     <Nationality>BEL</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>83</Weight>
     <BirthDate>11/10/1989</BirthDate>
     <BirthPlace>Brussels</BirthPlace>
@@ -367,7 +367,7 @@
     <Name>François Modestó</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>80</Weight>
     <BirthDate>19/08/1978</BirthDate>
     <BirthPlace>Bastia</BirthPlace>
@@ -386,7 +386,7 @@
     <Name>Luka Kikabidze</Name>
     <Nationality>GEO</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>70</Weight>
     <BirthDate>21/01/1995</BirthDate>
     <BirthPlace>Tbilisi</BirthPlace>
@@ -405,7 +405,7 @@
     <Name>Christopher Maboulou</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>79</Weight>
     <BirthDate>19/03/1990</BirthDate>
     <BirthPlace>Montfermeil</BirthPlace>
@@ -424,7 +424,7 @@
     <Name>Drissa Diakité</Name>
     <Nationality>MLI</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>69</Weight>
     <BirthDate>18/02/1985</BirthDate>
     <BirthPlace>Bamako</BirthPlace>
@@ -443,7 +443,7 @@
     <Name>Joao Rodríguez</Name>
     <Nationality>COL</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>69</Weight>
     <BirthDate>12/05/1996</BirthDate>
     <BirthPlace>Cúcuta</BirthPlace>
@@ -462,7 +462,7 @@
     <Name>François Kamano</Name>
     <Nationality>GUI</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>70</Weight>
     <BirthDate>01/05/1996</BirthDate>
     <BirthPlace></BirthPlace>
@@ -481,7 +481,7 @@
     <Name>Brandão</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>78</Weight>
     <BirthDate>16/06/1980</BirthDate>
     <BirthPlace>São Paulo</BirthPlace>
@@ -500,7 +500,7 @@
     <Name>Guillaume Gillet</Name>
     <Nationality>BEL</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>77</Weight>
     <BirthDate>09/03/1985</BirthDate>
     <BirthPlace>Liège</BirthPlace>
@@ -519,7 +519,7 @@
     <Name>Juan Pablo Pino</Name>
     <Nationality>COL</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>72</Weight>
     <BirthDate>30/03/1987</BirthDate>
     <BirthPlace>Cartagena</BirthPlace>
@@ -538,7 +538,7 @@
     <Name>Gilles Cioni</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.65</Height>
+    <Height>1,65</Height>
     <Weight>65</Weight>
     <BirthDate>14/06/1984</BirthDate>
     <BirthPlace>Bastia</BirthPlace>
@@ -557,7 +557,7 @@
     <Name>Thomas Vincensini</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>73</Weight>
     <BirthDate>12/09/1993</BirthDate>
     <BirthPlace>Bastia</BirthPlace>
@@ -576,7 +576,7 @@
     <Name>Ažbe Jug</Name>
     <Nationality>SVN</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>91</Weight>
     <BirthDate>03/03/1992</BirthDate>
     <BirthPlace>Maribor</BirthPlace>
@@ -595,7 +595,7 @@
     <Name>Mariano</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>70</Weight>
     <BirthDate>23/06/1986</BirthDate>
     <BirthPlace>São João</BirthPlace>
@@ -614,7 +614,7 @@
     <Name>Diego Contento</Name>
     <Nationality>ITA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>70</Weight>
     <BirthDate>01/05/1990</BirthDate>
     <BirthPlace>Munich</BirthPlace>
@@ -633,7 +633,7 @@
     <Name>Tiago Ilori</Name>
     <Nationality>POR</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>80</Weight>
     <BirthDate>26/02/1993</BirthDate>
     <BirthPlace>Hampstead</BirthPlace>
@@ -652,7 +652,7 @@
     <Name>Nicolas Pallois</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>85</Weight>
     <BirthDate>19/09/1987</BirthDate>
     <BirthPlace>Elbeuf</BirthPlace>
@@ -671,7 +671,7 @@
     <Name>Ludovic Sané</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>77</Weight>
     <BirthDate>22/03/1987</BirthDate>
     <BirthPlace>Villeneuve-sur-Lot</BirthPlace>
@@ -690,7 +690,7 @@
     <Name>Abdou Traoré</Name>
     <Nationality>MLI</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>73</Weight>
     <BirthDate>17/01/1988</BirthDate>
     <BirthPlace>Bamako</BirthPlace>
@@ -709,7 +709,7 @@
     <Name>Grégory Sertic</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>69</Weight>
     <BirthDate>05/08/1989</BirthDate>
     <BirthPlace>Brétigny-sur-Orge</BirthPlace>
@@ -728,7 +728,7 @@
     <Name>Diego Rolán</Name>
     <Nationality>URU</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>74</Weight>
     <BirthDate>24/03/1993</BirthDate>
     <BirthPlace>Montevideo</BirthPlace>
@@ -747,7 +747,7 @@
     <Name>Henri Saivet</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>70</Weight>
     <BirthDate>26/10/1990</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -766,7 +766,7 @@
     <Name>Emiliano Sala</Name>
     <Nationality>ARG</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>75</Weight>
     <BirthDate>31/10/1990</BirthDate>
     <BirthPlace>Cululú</BirthPlace>
@@ -785,7 +785,7 @@
     <Name>Thomas Touré</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>75</Weight>
     <BirthDate>27/12/1993</BirthDate>
     <BirthPlace>Grasse</BirthPlace>
@@ -804,7 +804,7 @@
     <Name>Cheikh Diabaté</Name>
     <Nationality>MLI</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.94</Height>
+    <Height>1,94</Height>
     <Weight>84</Weight>
     <BirthDate>25/04/1988</BirthDate>
     <BirthPlace>Bamako</BirthPlace>
@@ -823,7 +823,7 @@
     <Name>Younès Kaabouni</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>67</Weight>
     <BirthDate>23/05/1995</BirthDate>
     <BirthPlace>Bordeaux</BirthPlace>
@@ -842,7 +842,7 @@
     <Name>Cédric Carrasso</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>87</Weight>
     <BirthDate>30/12/1981</BirthDate>
     <BirthPlace>Avignon</BirthPlace>
@@ -861,7 +861,7 @@
     <Name>André Biyogo Poko</Name>
     <Nationality>GAB</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>72</Weight>
     <BirthDate>01/01/1993</BirthDate>
     <BirthPlace>Bitam</BirthPlace>
@@ -880,7 +880,7 @@
     <Name>Jaroslav Plašil</Name>
     <Nationality>CZE</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>72</Weight>
     <BirthDate>05/01/1982</BirthDate>
     <BirthPlace>Opo?no</BirthPlace>
@@ -899,7 +899,7 @@
     <Name>Nicolas Maurice-Belay</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>76</Weight>
     <BirthDate>19/04/1985</BirthDate>
     <BirthPlace>Sucy-en-Brie</BirthPlace>
@@ -918,7 +918,7 @@
     <Name>Jussiê</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>76</Weight>
     <BirthDate>19/09/1983</BirthDate>
     <BirthPlace>Nova Venécia</BirthPlace>
@@ -937,7 +937,7 @@
     <Name>Julien Faubert</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>75</Weight>
     <BirthDate>01/08/1983</BirthDate>
     <BirthPlace>Le Havre</BirthPlace>
@@ -956,7 +956,7 @@
     <Name>Wahbi Khazri</Name>
     <Nationality>TUN</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>78</Weight>
     <BirthDate>08/02/1991</BirthDate>
     <BirthPlace>Ajaccio</BirthPlace>
@@ -975,7 +975,7 @@
     <Name>Théo Pellenard</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>71</Weight>
     <BirthDate>04/03/1994</BirthDate>
     <BirthPlace>Lille</BirthPlace>
@@ -994,7 +994,7 @@
     <Name>Clément Badin</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.68</Height>
+    <Height>1,68</Height>
     <Weight>71</Weight>
     <BirthDate>26/05/1993</BirthDate>
     <BirthPlace>Bruges</BirthPlace>
@@ -1013,7 +1013,7 @@
     <Name>Marc Planus</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>76</Weight>
     <BirthDate>07/03/1982</BirthDate>
     <BirthPlace>Bordeaux</BirthPlace>
@@ -1032,7 +1032,7 @@
     <Name>Maxime Poundjé</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>71</Weight>
     <BirthDate>16/08/1992</BirthDate>
     <BirthPlace>Bordeaux</BirthPlace>
@@ -1051,7 +1051,7 @@
     <Name>Jérôme Prior</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>88</Weight>
     <BirthDate>08/08/1995</BirthDate>
     <BirthPlace>Toulon</BirthPlace>
@@ -1070,7 +1070,7 @@
     <Name>Rémy Vercoutre</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>78</Weight>
     <BirthDate>26/06/1980</BirthDate>
     <BirthPlace>Grande-Synthe</BirthPlace>
@@ -1089,7 +1089,7 @@
     <Name>Nicolas Seube</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>72</Weight>
     <BirthDate>11/08/1979</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -1108,7 +1108,7 @@
     <Name>Alaeddine Yahia</Name>
     <Nationality>TUN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>81</Weight>
     <BirthDate>26/08/1981</BirthDate>
     <BirthPlace>Courbevoie</BirthPlace>
@@ -1127,7 +1127,7 @@
     <Name>Mathieu Duhamel</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>76</Weight>
     <BirthDate>12/07/1984</BirthDate>
     <BirthPlace>Mont-Saint-Aignan</BirthPlace>
@@ -1146,7 +1146,7 @@
     <Name>Sloan Privat</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>83</Weight>
     <BirthDate>24/07/1989</BirthDate>
     <BirthPlace>Cayenne</BirthPlace>
@@ -1165,7 +1165,7 @@
     <Name>Lenny Nangis</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>65</Weight>
     <BirthDate>24/03/1994</BirthDate>
     <BirthPlace>Caen</BirthPlace>
@@ -1184,7 +1184,7 @@
     <Name>Bengadli-Fodé Koita</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>86</Weight>
     <BirthDate>21/10/1990</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -1203,7 +1203,7 @@
     <Name>Dennis Appiah</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>68</Weight>
     <BirthDate>09/06/1992</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -1222,7 +1222,7 @@
     <Name>Jean-Jacques Pierre</Name>
     <Nationality>HAI</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>79</Weight>
     <BirthDate>23/01/1981</BirthDate>
     <BirthPlace>Leogane</BirthPlace>
@@ -1241,7 +1241,7 @@
     <Name>Emmanuel Imorou</Name>
     <Nationality>BEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>69</Weight>
     <BirthDate>16/09/1988</BirthDate>
     <BirthPlace>Bourges</BirthPlace>
@@ -1260,7 +1260,7 @@
     <Name>Damien Perquis</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>82</Weight>
     <BirthDate>08/03/1986</BirthDate>
     <BirthPlace>Saint-Brieuc</BirthPlace>
@@ -1279,7 +1279,7 @@
     <Name>Ngolo Kanté</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>70</Weight>
     <BirthDate>29/03/1991</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -1298,7 +1298,7 @@
     <Name>Jordan Adéoti</Name>
     <Nationality>BEN</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>77</Weight>
     <BirthDate>12/03/1989</BirthDate>
     <BirthPlace>L'Union</BirthPlace>
@@ -1317,7 +1317,7 @@
     <Name>Felipe Saad</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>83</Weight>
     <BirthDate>11/09/1983</BirthDate>
     <BirthPlace>Santos</BirthPlace>
@@ -1336,7 +1336,7 @@
     <Name>Hervé Bazile</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>73</Weight>
     <BirthDate>18/03/1990</BirthDate>
     <BirthPlace>Créteil</BirthPlace>
@@ -1355,7 +1355,7 @@
     <Name>José Saez</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>63</Weight>
     <BirthDate>07/05/1982</BirthDate>
     <BirthPlace>Memin</BirthPlace>
@@ -1374,7 +1374,7 @@
     <Name>Alexandre Raineau</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>71</Weight>
     <BirthDate>21/06/1986</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -1393,7 +1393,7 @@
     <Name>Jean Calvé</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>78</Weight>
     <BirthDate>30/04/1984</BirthDate>
     <BirthPlace>Cormeilles-en-Parisis</BirthPlace>
@@ -1412,7 +1412,7 @@
     <Name>Florian Raspentino</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>73</Weight>
     <BirthDate>06/06/1989</BirthDate>
     <BirthPlace>Marignane</BirthPlace>
@@ -1431,7 +1431,7 @@
     <Name>Julien Féret</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>74</Weight>
     <BirthDate>05/07/1982</BirthDate>
     <BirthPlace>Saint Brieuc</BirthPlace>
@@ -1450,7 +1450,7 @@
     <Name>Jonathan Beaulieu</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>65</Weight>
     <BirthDate>11/03/1993</BirthDate>
     <BirthPlace>Meudon</BirthPlace>
@@ -1469,7 +1469,7 @@
     <Name>Thomas Lemar</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.63</Height>
+    <Height>1,63</Height>
     <Weight>46</Weight>
     <BirthDate>12/11/1995</BirthDate>
     <BirthPlace>Baie-Mahault</BirthPlace>
@@ -1488,7 +1488,7 @@
     <Name>Damien Da Silva</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>77</Weight>
     <BirthDate>17/05/1988</BirthDate>
     <BirthPlace>Talence</BirthPlace>
@@ -1507,7 +1507,7 @@
     <Name>Yrondu Musavu-King</Name>
     <Nationality>GAB</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>83</Weight>
     <BirthDate>08/01/1992</BirthDate>
     <BirthPlace>Libreville</BirthPlace>
@@ -1526,7 +1526,7 @@
     <Name>Paul Reulet</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>64</Weight>
     <BirthDate>14/01/1994</BirthDate>
     <BirthPlace>Caen</BirthPlace>
@@ -1545,7 +1545,7 @@
     <Name>Johann Durand</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>71</Weight>
     <BirthDate>17/06/1981</BirthDate>
     <BirthPlace>Evian</BirthPlace>
@@ -1564,7 +1564,7 @@
     <Name>Kassim Abdallah</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>76</Weight>
     <BirthDate>09/04/1987</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -1583,7 +1583,7 @@
     <Name>Miloš Ninkovi?</Name>
     <Nationality>SRB</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>76</Weight>
     <BirthDate>25/12/1984</BirthDate>
     <BirthPlace>Belgrade</BirthPlace>
@@ -1602,7 +1602,7 @@
     <Name>Djakaridja Koné</Name>
     <Nationality>BFA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>75</Weight>
     <BirthDate>22/07/1986</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -1621,7 +1621,7 @@
     <Name>Adrien Thomasson</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>75</Weight>
     <BirthDate>10/12/1993</BirthDate>
     <BirthPlace>Bourg-Saint-Maurice</BirthPlace>
@@ -1640,7 +1640,7 @@
     <Name>Yeltsin Tejeda</Name>
     <Nationality>CRC</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>66</Weight>
     <BirthDate>17/03/1992</BirthDate>
     <BirthPlace>Puerto Limón</BirthPlace>
@@ -1659,7 +1659,7 @@
     <Name>Gianni Bruno</Name>
     <Nationality>BEL</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>64</Weight>
     <BirthDate>19/08/1991</BirthDate>
     <BirthPlace>Rocourt</BirthPlace>
@@ -1678,7 +1678,7 @@
     <Name>Nicolas Benezet</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>61</Weight>
     <BirthDate>24/02/1991</BirthDate>
     <BirthPlace>Montpellier</BirthPlace>
@@ -1697,7 +1697,7 @@
     <Name>Fabien Camus</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>67</Weight>
     <BirthDate>28/02/1985</BirthDate>
     <BirthPlace>Arles</BirthPlace>
@@ -1716,7 +1716,7 @@
     <Name>Gaël Givet</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>75</Weight>
     <BirthDate>09/10/1981</BirthDate>
     <BirthPlace>Arles</BirthPlace>
@@ -1735,7 +1735,7 @@
     <Name>Cédric Barbosa</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>67</Weight>
     <BirthDate>06/03/1976</BirthDate>
     <BirthPlace>Aubenas</BirthPlace>
@@ -1754,7 +1754,7 @@
     <Name>Aldo Angoula</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>82</Weight>
     <BirthDate>04/05/1981</BirthDate>
     <BirthPlace>Le Havre</BirthPlace>
@@ -1773,7 +1773,7 @@
     <Name>Daniel Wass</Name>
     <Nationality>DEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>74</Weight>
     <BirthDate>31/05/1989</BirthDate>
     <BirthPlace>Gladsaxe</BirthPlace>
@@ -1792,7 +1792,7 @@
     <Name>Youssouf Sabaly</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>71</Weight>
     <BirthDate>05/03/1993</BirthDate>
     <BirthPlace>Chesnay</BirthPlace>
@@ -1811,7 +1811,7 @@
     <Name>Modou Sougou</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>68</Weight>
     <BirthDate>18/12/1984</BirthDate>
     <BirthPlace>Fissel</BirthPlace>
@@ -1830,7 +1830,7 @@
     <Name>Cédric Mongongu</Name>
     <Nationality>COD</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>76</Weight>
     <BirthDate>22/06/1989</BirthDate>
     <BirthPlace>Kinshasa</BirthPlace>
@@ -1849,7 +1849,7 @@
     <Name>Cédric Cambon</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>76</Weight>
     <BirthDate>20/09/1986</BirthDate>
     <BirthPlace>Montpellier</BirthPlace>
@@ -1868,7 +1868,7 @@
     <Name>Nicki Bille Nielsen</Name>
     <Nationality>DEN</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>76</Weight>
     <BirthDate>07/02/1988</BirthDate>
     <BirthPlace>Vigerslev</BirthPlace>
@@ -1887,7 +1887,7 @@
     <Name>Olivier Sorlin</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>77</Weight>
     <BirthDate>09/04/1979</BirthDate>
     <BirthPlace>Saint-Etienne</BirthPlace>
@@ -1906,7 +1906,7 @@
     <Name>Jonathan Mensah</Name>
     <Nationality>GHA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>75</Weight>
     <BirthDate>13/07/1990</BirthDate>
     <BirthPlace>Accra</BirthPlace>
@@ -1925,7 +1925,7 @@
     <Name>Jesper Juelsgaard</Name>
     <Nationality>DEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>78</Weight>
     <BirthDate>26/01/1989</BirthDate>
     <BirthPlace>Spjald</BirthPlace>
@@ -1944,7 +1944,7 @@
     <Name>Clarck N'Sikulu</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>78</Weight>
     <BirthDate>10/07/1992</BirthDate>
     <BirthPlace>Lille</BirthPlace>
@@ -1963,7 +1963,7 @@
     <Name>Najib Baouia</Name>
     <Nationality>ALG</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.65</Height>
+    <Height>1,65</Height>
     <Weight>65</Weight>
     <BirthDate>25/02/1992</BirthDate>
     <BirthPlace>El Meghaier</BirthPlace>
@@ -1982,7 +1982,7 @@
     <Name>Jesper Hansen</Name>
     <Nationality>DEN</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>78</Weight>
     <BirthDate>31/03/1985</BirthDate>
     <BirthPlace>Frederikssund</BirthPlace>
@@ -2001,7 +2001,7 @@
     <Name>Jonas Lössl</Name>
     <Nationality>DEN</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.95</Height>
+    <Height>1,95</Height>
     <Weight>89</Weight>
     <BirthDate>01/02/1989</BirthDate>
     <BirthPlace>Kolding</BirthPlace>
@@ -2020,7 +2020,7 @@
     <Name>Lars Jacobsen</Name>
     <Nationality>DEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>75</Weight>
     <BirthDate>20/09/1979</BirthDate>
     <BirthPlace>Odense</BirthPlace>
@@ -2039,7 +2039,7 @@
     <Name>Angoua Brou Benjamin</Name>
     <Nationality>CIV</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>69</Weight>
     <BirthDate>28/11/1986</BirthDate>
     <BirthPlace>Anyama</BirthPlace>
@@ -2058,7 +2058,7 @@
     <Name>Baïssama Sankoh</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>73</Weight>
     <BirthDate>20/03/1992</BirthDate>
     <BirthPlace>Nogent-sur-Marne</BirthPlace>
@@ -2077,7 +2077,7 @@
     <Name>Moustapha Diallo</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>78</Weight>
     <BirthDate>14/05/1986</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -2096,7 +2096,7 @@
     <Name>Maxime Baca</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.71</Height>
+    <Height>1,71</Height>
     <Weight>68</Weight>
     <BirthDate>02/06/1983</BirthDate>
     <BirthPlace>Corbeil Essonnes</BirthPlace>
@@ -2115,7 +2115,7 @@
     <Name>Dorian Levêque</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>72</Weight>
     <BirthDate>22/11/1989</BirthDate>
     <BirthPlace>Annecy</BirthPlace>
@@ -2134,7 +2134,7 @@
     <Name>Ronnie Schwartz</Name>
     <Nationality>DEN</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>74</Weight>
     <BirthDate>29/08/1989</BirthDate>
     <BirthPlace>Ulsted</BirthPlace>
@@ -2153,7 +2153,7 @@
     <Name>Younousse Sankharé</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>76</Weight>
     <BirthDate>10/09/1989</BirthDate>
     <BirthPlace>Sarcelles</BirthPlace>
@@ -2172,7 +2172,7 @@
     <Name>Claudio Beauvue</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>66</Weight>
     <BirthDate>16/04/1988</BirthDate>
     <BirthPlace>Saint-Claude</BirthPlace>
@@ -2191,7 +2191,7 @@
     <Name>Christophe Mandanne</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.71</Height>
+    <Height>1,71</Height>
     <Weight>62</Weight>
     <BirthDate>07/02/1985</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -2210,7 +2210,7 @@
     <Name>Ladislas Douniama</Name>
     <Nationality>CGO</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.63</Height>
+    <Height>1,63</Height>
     <Weight>62</Weight>
     <BirthDate>24/05/1986</BirthDate>
     <BirthPlace>Brazzaville</BirthPlace>
@@ -2229,7 +2229,7 @@
     <Name>Jérémy Sorbon</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>79</Weight>
     <BirthDate>05/08/1983</BirthDate>
     <BirthPlace>Caen</BirthPlace>
@@ -2248,7 +2248,7 @@
     <Name>Hugo Guichard</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>77</Weight>
     <BirthDate>16/05/1992</BirthDate>
     <BirthPlace>Saint-Étienne</BirthPlace>
@@ -2267,7 +2267,7 @@
     <Name>Rachid Alioui</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>81</Weight>
     <BirthDate>18/06/1992</BirthDate>
     <BirthPlace>La Rochelle</BirthPlace>
@@ -2286,7 +2286,7 @@
     <Name>Lionel Mathis</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>71</Weight>
     <BirthDate>04/10/1981</BirthDate>
     <BirthPlace>Montreuil-sous-Bois</BirthPlace>
@@ -2305,7 +2305,7 @@
     <Name>Laurent Dos Santos</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>70</Weight>
     <BirthDate>21/09/1993</BirthDate>
     <BirthPlace>Montmorency</BirthPlace>
@@ -2324,7 +2324,7 @@
     <Name>Sylvain Marveaux</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>66</Weight>
     <BirthDate>15/04/1986</BirthDate>
     <BirthPlace>Vannes</BirthPlace>
@@ -2343,7 +2343,7 @@
     <Name>Julien Cardy</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>71</Weight>
     <BirthDate>29/09/1981</BirthDate>
     <BirthPlace>Pau</BirthPlace>
@@ -2362,7 +2362,7 @@
     <Name>Jérémy Pied</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>69</Weight>
     <BirthDate>23/02/1989</BirthDate>
     <BirthPlace>Grenoble</BirthPlace>
@@ -2381,7 +2381,7 @@
     <Name>Sambou Yatabaré</Name>
     <Nationality>MLI</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>82</Weight>
     <BirthDate>02/03/1989</BirthDate>
     <BirthPlace>Beauvais</BirthPlace>
@@ -2400,7 +2400,7 @@
     <Name>Reynald Lemaître</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>66</Weight>
     <BirthDate>28/06/1983</BirthDate>
     <BirthPlace>Chambray-lès-Tours</BirthPlace>
@@ -2419,7 +2419,7 @@
     <Name>Thibault Giresse</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>68</Weight>
     <BirthDate>25/05/1981</BirthDate>
     <BirthPlace>Talence</BirthPlace>
@@ -2438,7 +2438,7 @@
     <Name>Christophe Kerbrat</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>74</Weight>
     <BirthDate>02/08/1986</BirthDate>
     <BirthPlace>Brest</BirthPlace>
@@ -2457,7 +2457,7 @@
     <Name>Mamadou Samassa</Name>
     <Nationality>MLI</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.91</Height>
+    <Height>1,91</Height>
     <Weight>81</Weight>
     <BirthDate>16/02/1990</BirthDate>
     <BirthPlace>Montreuil</BirthPlace>
@@ -2476,7 +2476,7 @@
     <Name>Rudy Riou</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>78</Weight>
     <BirthDate>22/01/1980</BirthDate>
     <BirthPlace>Grande-Synthe</BirthPlace>
@@ -2495,7 +2495,7 @@
     <Name>Ahmed Kantari</Name>
     <Nationality>MAR</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>80</Weight>
     <BirthDate>28/06/1985</BirthDate>
     <BirthPlace>Blois</BirthPlace>
@@ -2514,7 +2514,7 @@
     <Name>Jérôme Lemoigne</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>77</Weight>
     <BirthDate>15/02/1983</BirthDate>
     <BirthPlace>Toulon</BirthPlace>
@@ -2533,7 +2533,7 @@
     <Name>Yoann Touzghar</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>75</Weight>
     <BirthDate>28/11/1986</BirthDate>
     <BirthPlace>Avignon</BirthPlace>
@@ -2552,7 +2552,7 @@
     <Name>Adamo Coulibaly</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>81</Weight>
     <BirthDate>14/08/1981</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -2571,7 +2571,7 @@
     <Name>Pablo Chavarría</Name>
     <Nationality>ARG</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>74</Weight>
     <BirthDate>02/01/1988</BirthDate>
     <BirthPlace>Las Perdices</BirthPlace>
@@ -2590,7 +2590,7 @@
     <Name>Deme N'Diaye</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>72</Weight>
     <BirthDate>06/02/1985</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -2609,7 +2609,7 @@
     <Name>Patrick Fradj</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>70</Weight>
     <BirthDate>11/03/1992</BirthDate>
     <BirthPlace>Saint-Saulve</BirthPlace>
@@ -2628,7 +2628,7 @@
     <Name>Pierrick Valdivia</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>67</Weight>
     <BirthDate>18/04/1988</BirthDate>
     <BirthPlace>Bron</BirthPlace>
@@ -2647,7 +2647,7 @@
     <Name>Baptiste Guillaume</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>77</Weight>
     <BirthDate>16/06/1995</BirthDate>
     <BirthPlace>Brussels</BirthPlace>
@@ -2666,7 +2666,7 @@
     <Name>Lalaina Nomenjanahary</Name>
     <Nationality>MDA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>74</Weight>
     <BirthDate>16/01/1986</BirthDate>
     <BirthPlace>Antananarivo</BirthPlace>
@@ -2685,7 +2685,7 @@
     <Name>Alharbi El Jadeyaoui</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>68</Weight>
     <BirthDate>08/08/1986</BirthDate>
     <BirthPlace>Strasbourg</BirthPlace>
@@ -2704,7 +2704,7 @@
     <Name>Loïck Landré</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>75</Weight>
     <BirthDate>05/05/1992</BirthDate>
     <BirthPlace>Aubervilliers</BirthPlace>
@@ -2723,7 +2723,7 @@
     <Name>Wylan Cyprien</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>75</Weight>
     <BirthDate>28/01/1995</BirthDate>
     <BirthPlace>Pointe-à-Pitre</BirthPlace>
@@ -2742,7 +2742,7 @@
     <Name>Ludovic Baal</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>72</Weight>
     <BirthDate>24/05/1986</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -2761,7 +2761,7 @@
     <Name>Jean-Philippe Gbamin</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>83</Weight>
     <BirthDate>25/05/1995</BirthDate>
     <BirthPlace>San-Pédro</BirthPlace>
@@ -2780,7 +2780,7 @@
     <Name>Benjamin Boulenger</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>80</Weight>
     <BirthDate>01/03/1990</BirthDate>
     <BirthPlace>Maubeuge</BirthPlace>
@@ -2799,7 +2799,7 @@
     <Name>Benjamin Bourigeaud</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>71</Weight>
     <BirthDate>14/01/1994</BirthDate>
     <BirthPlace>Calais</BirthPlace>
@@ -2818,7 +2818,7 @@
     <Name>Vincent Enyeama</Name>
     <Nationality>NGA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>80</Weight>
     <BirthDate>29/08/1982</BirthDate>
     <BirthPlace>Aba</BirthPlace>
@@ -2837,7 +2837,7 @@
     <Name>Sébastien Corchia</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>65</Weight>
     <BirthDate>01/11/1990</BirthDate>
     <BirthPlace>Noisy-le-Sec</BirthPlace>
@@ -2856,7 +2856,7 @@
     <Name>Florent Balmont</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.68</Height>
+    <Height>1,68</Height>
     <Weight>71</Weight>
     <BirthDate>02/02/1980</BirthDate>
     <BirthPlace>Sainte-Foy-les-Lyon</BirthPlace>
@@ -2875,7 +2875,7 @@
     <Name>Idrissa Gueye</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>64</Weight>
     <BirthDate>26/09/1989</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -2894,7 +2894,7 @@
     <Name>Jonathan Delaplace</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.67</Height>
+    <Height>1,67</Height>
     <Weight>60</Weight>
     <BirthDate>20/03/1986</BirthDate>
     <BirthPlace>La Seyne-sur-Mer</BirthPlace>
@@ -2913,7 +2913,7 @@
     <Name>Ronny Rodelin</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>70</Weight>
     <BirthDate>18/11/1989</BirthDate>
     <BirthPlace>Saint-Denis de La Réunion</BirthPlace>
@@ -2932,7 +2932,7 @@
     <Name>Marvin Martin</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.71</Height>
+    <Height>1,71</Height>
     <Weight>63</Weight>
     <BirthDate>10/06/1988</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -2951,7 +2951,7 @@
     <Name>Michael Frey</Name>
     <Nationality>SUI</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>72</Weight>
     <BirthDate>19/07/1994</BirthDate>
     <BirthPlace></BirthPlace>
@@ -2970,7 +2970,7 @@
     <Name>Souahilo Meïté</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>80</Weight>
     <BirthDate>17/03/1994</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -2989,7 +2989,7 @@
     <Name>Adama Soumaoro</Name>
     <Nationality>CIV</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>75</Weight>
     <BirthDate>18/06/1992</BirthDate>
     <BirthPlace>Fontenay-aux-Roses</BirthPlace>
@@ -3008,7 +3008,7 @@
     <Name>Simon Kjær</Name>
     <Nationality>DEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>82</Weight>
     <BirthDate>26/03/1989</BirthDate>
     <BirthPlace>Horsens</BirthPlace>
@@ -3027,7 +3027,7 @@
     <Name>Djibril Sidibé</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>73</Weight>
     <BirthDate>29/07/1992</BirthDate>
     <BirthPlace>Troyes</BirthPlace>
@@ -3046,7 +3046,7 @@
     <Name>Steeve Elana</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>85</Weight>
     <BirthDate>11/07/1980</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -3065,7 +3065,7 @@
     <Name>Marcos Lopes</Name>
     <Nationality>POR</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>68</Weight>
     <BirthDate>28/12/1995</BirthDate>
     <BirthPlace>Belém</BirthPlace>
@@ -3084,7 +3084,7 @@
     <Name>Franck Béria</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>75</Weight>
     <BirthDate>23/05/1983</BirthDate>
     <BirthPlace>Argenteuil</BirthPlace>
@@ -3103,7 +3103,7 @@
     <Name>Ryan Mendes</Name>
     <Nationality>CPV</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>77</Weight>
     <BirthDate>08/01/1990</BirthDate>
     <BirthPlace>Mindelo</BirthPlace>
@@ -3122,7 +3122,7 @@
     <Name>David Rozehnal</Name>
     <Nationality>CZE</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.93</Height>
+    <Height>1,93</Height>
     <Weight>77</Weight>
     <BirthDate>05/07/1980</BirthDate>
     <BirthPlace>Šternberk</BirthPlace>
@@ -3141,7 +3141,7 @@
     <Name>Pape N'Diaye Souaré</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>68</Weight>
     <BirthDate>06/06/1990</BirthDate>
     <BirthPlace>Mbao</BirthPlace>
@@ -3160,7 +3160,7 @@
     <Name>Rio Antonio Mavuba</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>70</Weight>
     <BirthDate>08/03/1984</BirthDate>
     <BirthPlace>Born At Sea</BirthPlace>
@@ -3179,7 +3179,7 @@
     <Name>Marko Baša</Name>
     <Nationality>SRB</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>79</Weight>
     <BirthDate>29/12/1982</BirthDate>
     <BirthPlace>Trstenik</BirthPlace>
@@ -3198,7 +3198,7 @@
     <Name>Nolan Roux</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>75</Weight>
     <BirthDate>01/03/1988</BirthDate>
     <BirthPlace>Compiègne</BirthPlace>
@@ -3217,7 +3217,7 @@
     <Name>Divock Origi</Name>
     <Nationality>BEL</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>75</Weight>
     <BirthDate>18/04/1995</BirthDate>
     <BirthPlace>Ostend</BirthPlace>
@@ -3236,7 +3236,7 @@
     <Name>Jean Butez</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>75</Weight>
     <BirthDate>08/06/1995</BirthDate>
     <BirthPlace>Lille</BirthPlace>
@@ -3255,7 +3255,7 @@
     <Name>Lamine Koné</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>83</Weight>
     <BirthDate>01/02/1989</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -3274,7 +3274,7 @@
     <Name>Pedrinho</Name>
     <Nationality>POR</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>73</Weight>
     <BirthDate>06/03/1985</BirthDate>
     <BirthPlace>Vila do Conde</BirthPlace>
@@ -3293,7 +3293,7 @@
     <Name>Vincent Le Goff</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>64</Weight>
     <BirthDate>15/10/1989</BirthDate>
     <BirthPlace>Quimper</BirthPlace>
@@ -3312,7 +3312,7 @@
     <Name>Mehdi Mostefa Sbaa</Name>
     <Nationality>ALG</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>82</Weight>
     <BirthDate>30/08/1983</BirthDate>
     <BirthPlace>Dijon</BirthPlace>
@@ -3331,7 +3331,7 @@
     <Name>François Bellugou</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>70</Weight>
     <BirthDate>25/04/1987</BirthDate>
     <BirthPlace>Prades</BirthPlace>
@@ -3350,7 +3350,7 @@
     <Name>Sadio Diallo</Name>
     <Nationality>GUI</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>75</Weight>
     <BirthDate>28/12/1990</BirthDate>
     <BirthPlace>Conakry</BirthPlace>
@@ -3369,7 +3369,7 @@
     <Name>Yann Jouffre</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>65</Weight>
     <BirthDate>23/07/1984</BirthDate>
     <BirthPlace>Montélimar</BirthPlace>
@@ -3388,7 +3388,7 @@
     <Name>Jordan Ayew</Name>
     <Nationality>GHA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>81</Weight>
     <BirthDate>11/09/1991</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -3407,7 +3407,7 @@
     <Name>Mathieu Coutadeur</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>69</Weight>
     <BirthDate>20/06/1986</BirthDate>
     <BirthPlace>Le Mans</BirthPlace>
@@ -3426,7 +3426,7 @@
     <Name>Pierre Lavenant</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>74</Weight>
     <BirthDate>03/08/1995</BirthDate>
     <BirthPlace>Saint-Malo</BirthPlace>
@@ -3445,7 +3445,7 @@
     <Name>Rafidine Abdullah</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>75</Weight>
     <BirthDate>15/01/1994</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -3464,7 +3464,7 @@
     <Name>Raphaël Guerreiro</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>67</Weight>
     <BirthDate>22/12/1993</BirthDate>
     <BirthPlace>Le Blanc-Mesnil</BirthPlace>
@@ -3483,7 +3483,7 @@
     <Name>Fabien Robert</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>67</Weight>
     <BirthDate>06/01/1989</BirthDate>
     <BirthPlace>Hennebont</BirthPlace>
@@ -3502,7 +3502,7 @@
     <Name>Fabien Audard</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>89</Weight>
     <BirthDate>28/03/1978</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -3521,7 +3521,7 @@
     <Name>Walid Mesloub</Name>
     <Nationality>ALG</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>69</Weight>
     <BirthDate>04/09/1985</BirthDate>
     <BirthPlace>Trappes</BirthPlace>
@@ -3540,7 +3540,7 @@
     <Name>Gilles Sunu</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>70</Weight>
     <BirthDate>30/03/1991</BirthDate>
     <BirthPlace>Châteauroux</BirthPlace>
@@ -3559,7 +3559,7 @@
     <Name>Bryan Pelé</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.69</Height>
+    <Height>1,69</Height>
     <Weight>65</Weight>
     <BirthDate>25/03/1992</BirthDate>
     <BirthPlace>Ploërmel</BirthPlace>
@@ -3578,7 +3578,7 @@
     <Name>Julien Quercia</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.68</Height>
+    <Height>1,68</Height>
     <Weight>65</Weight>
     <BirthDate>17/08/1986</BirthDate>
     <BirthPlace>Thionville</BirthPlace>
@@ -3597,7 +3597,7 @@
     <Name>Alain Traoré</Name>
     <Nationality>BFA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>66</Weight>
     <BirthDate>31/12/1988</BirthDate>
     <BirthPlace>Bobo-Dioulasso</BirthPlace>
@@ -3616,7 +3616,7 @@
     <Name>Benjamin Jeannot</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>73</Weight>
     <BirthDate>22/01/1992</BirthDate>
     <BirthPlace>Laxou</BirthPlace>
@@ -3635,7 +3635,7 @@
     <Name>Mathias Autret</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>64</Weight>
     <BirthDate>01/03/1991</BirthDate>
     <BirthPlace>Morlaix</BirthPlace>
@@ -3654,7 +3654,7 @@
     <Name>Wesley Lautoa</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>65</Weight>
     <BirthDate>25/08/1987</BirthDate>
     <BirthPlace>Épernay</BirthPlace>
@@ -3673,7 +3673,7 @@
     <Name>Lamine Gassama</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>74</Weight>
     <BirthDate>20/10/1989</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -3692,7 +3692,7 @@
     <Name>Yohann Wachter</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>65</Weight>
     <BirthDate>07/04/1992</BirthDate>
     <BirthPlace>Courbevoie</BirthPlace>
@@ -3711,7 +3711,7 @@
     <Name>Enzo Reale</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>69</Weight>
     <BirthDate>07/10/1991</BirthDate>
     <BirthPlace>Venissieux</BirthPlace>
@@ -3730,7 +3730,7 @@
     <Name>Maxime Barthelme</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>65</Weight>
     <BirthDate>08/09/1988</BirthDate>
     <BirthPlace>Sartrouville</BirthPlace>
@@ -3749,7 +3749,7 @@
     <Name>Cheick Touré</Name>
     <Nationality>CIV</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>86</Weight>
     <BirthDate>16/12/1992</BirthDate>
     <BirthPlace>Koukourandoumi</BirthPlace>
@@ -3768,7 +3768,7 @@
     <Name>Florent Chaigneau</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.97</Height>
+    <Height>1,97</Height>
     <Weight>94</Weight>
     <BirthDate>21/03/1984</BirthDate>
     <BirthPlace>La Roche-sur-Yon</BirthPlace>
@@ -3787,7 +3787,7 @@
     <Name>Valentin Lavigne</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.71</Height>
+    <Height>1,71</Height>
     <Weight>72</Weight>
     <BirthDate>04/06/1994</BirthDate>
     <BirthPlace>Lorient</BirthPlace>
@@ -3806,7 +3806,7 @@
     <Name>Anthony Lopes</Name>
     <Nationality>POR</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>81</Weight>
     <BirthDate>01/10/1990</BirthDate>
     <BirthPlace>Givors</BirthPlace>
@@ -3825,7 +3825,7 @@
     <Name>Mehdi Zeffane</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>63</Weight>
     <BirthDate>19/05/1992</BirthDate>
     <BirthPlace>Sainte-Foy-lès-Lyon</BirthPlace>
@@ -3844,7 +3844,7 @@
     <Name>Henri Bedimo Nsame</Name>
     <Nationality>CMR</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>80</Weight>
     <BirthDate>04/06/1984</BirthDate>
     <BirthPlace>Douala</BirthPlace>
@@ -3863,7 +3863,7 @@
     <Name>Bakari Koné</Name>
     <Nationality>BFA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>80</Weight>
     <BirthDate>27/04/1988</BirthDate>
     <BirthPlace>Ouagadougou</BirthPlace>
@@ -3882,7 +3882,7 @@
     <Name>Milan Biševac</Name>
     <Nationality>SRB</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>83</Weight>
     <BirthDate>31/08/1983</BirthDate>
     <BirthPlace>Mitrovica</BirthPlace>
@@ -3901,7 +3901,7 @@
     <Name>Gueïda Fofana</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>74</Weight>
     <BirthDate>16/05/1991</BirthDate>
     <BirthPlace>Le Havre</BirthPlace>
@@ -3920,7 +3920,7 @@
     <Name>Clément Grenier</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>72</Weight>
     <BirthDate>07/01/1991</BirthDate>
     <BirthPlace>Annonay</BirthPlace>
@@ -3939,7 +3939,7 @@
     <Name>Yoann Gourcuff</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>79</Weight>
     <BirthDate>11/07/1986</BirthDate>
     <BirthPlace>Lorient</BirthPlace>
@@ -3958,7 +3958,7 @@
     <Name>Alexandre Lacazette</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>69</Weight>
     <BirthDate>28/05/1991</BirthDate>
     <BirthPlace>Lyon</BirthPlace>
@@ -3977,7 +3977,7 @@
     <Name>Rachid Ghezzal</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>65</Weight>
     <BirthDate>09/05/1992</BirthDate>
     <BirthPlace>Décines-Charpieu</BirthPlace>
@@ -3996,7 +3996,7 @@
     <Name>Jordan Ferri</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>70</Weight>
     <BirthDate>12/03/1992</BirthDate>
     <BirthPlace>Cavaillon</BirthPlace>
@@ -4015,7 +4015,7 @@
     <Name>Christophe Jallet</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>65</Weight>
     <BirthDate>31/10/1983</BirthDate>
     <BirthPlace>Cognac</BirthPlace>
@@ -4034,7 +4034,7 @@
     <Name>Mouhamadou Dabo</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>67</Weight>
     <BirthDate>28/11/1986</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -4053,7 +4053,7 @@
     <Name>Jérémy Frick</Name>
     <Nationality>SUI</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>88</Weight>
     <BirthDate>08/03/1993</BirthDate>
     <BirthPlace>Geneva</BirthPlace>
@@ -4072,7 +4072,7 @@
     <Name>Steed Malbranque</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>73</Weight>
     <BirthDate>06/01/1980</BirthDate>
     <BirthPlace>Mouscron</BirthPlace>
@@ -4091,7 +4091,7 @@
     <Name>Nabil Fekir</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>72</Weight>
     <BirthDate>18/07/1993</BirthDate>
     <BirthPlace>Lyon</BirthPlace>
@@ -4110,7 +4110,7 @@
     <Name>Mohamed Yattara</Name>
     <Nationality>GUI</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>76</Weight>
     <BirthDate>28/07/1993</BirthDate>
     <BirthPlace>Conakry</BirthPlace>
@@ -4129,7 +4129,7 @@
     <Name>Clinton N'Jie</Name>
     <Nationality>CMR</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>68</Weight>
     <BirthDate>15/08/1993</BirthDate>
     <BirthPlace>Douala</BirthPlace>
@@ -4148,7 +4148,7 @@
     <Name>Maxime Gonalons</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>76</Weight>
     <BirthDate>10/03/1989</BirthDate>
     <BirthPlace>Vénissieux</BirthPlace>
@@ -4167,7 +4167,7 @@
     <Name>Lindsay Rose</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>79</Weight>
     <BirthDate>08/02/1992</BirthDate>
     <BirthPlace>Rennes</BirthPlace>
@@ -4186,7 +4186,7 @@
     <Name>Samuel Umtiti</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>75</Weight>
     <BirthDate>14/11/1993</BirthDate>
     <BirthPlace>Yaoundé</BirthPlace>
@@ -4205,7 +4205,7 @@
     <Name>Corentin Tolisso</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.65</Height>
+    <Height>1,65</Height>
     <Weight>54</Weight>
     <BirthDate>03/08/1994</BirthDate>
     <BirthPlace>Tarare</BirthPlace>
@@ -4224,7 +4224,7 @@
     <Name>Yassine Benzia</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>71</Weight>
     <BirthDate>08/09/1994</BirthDate>
     <BirthPlace>Saint-Aubin Lès-Elbeuf</BirthPlace>
@@ -4243,7 +4243,7 @@
     <Name>Gaël Danic</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>65</Weight>
     <BirthDate>19/11/1981</BirthDate>
     <BirthPlace>Vannes</BirthPlace>
@@ -4262,7 +4262,7 @@
     <Name>Arnold Mvuemba</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>67</Weight>
     <BirthDate>28/01/1985</BirthDate>
     <BirthPlace>Alencon</BirthPlace>
@@ -4281,7 +4281,7 @@
     <Name>Fares Bahlouli</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>78</Weight>
     <BirthDate>08/04/1995</BirthDate>
     <BirthPlace>Lyon</BirthPlace>
@@ -4300,7 +4300,7 @@
     <Name>Mathieu Gorgelin</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>83</Weight>
     <BirthDate>05/08/1990</BirthDate>
     <BirthPlace>Ambérieu-en-Bugey</BirthPlace>
@@ -4319,7 +4319,7 @@
     <Name>Nicolas Nkoulou</Name>
     <Nationality>CMR</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>77</Weight>
     <BirthDate>27/03/1990</BirthDate>
     <BirthPlace>Yaoundé</BirthPlace>
@@ -4338,7 +4338,7 @@
     <Name>Dória</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>82</Weight>
     <BirthDate>08/11/1994</BirthDate>
     <BirthPlace>São Gonçalo</BirthPlace>
@@ -4357,7 +4357,7 @@
     <Name>Stéphane Sparagna</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>82</Weight>
     <BirthDate>17/02/1995</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -4376,7 +4376,7 @@
     <Name>Momar Bangoura</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>65</Weight>
     <BirthDate>24/02/1994</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -4395,7 +4395,7 @@
     <Name>Benoît Cheyrou</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>78</Weight>
     <BirthDate>03/05/1981</BirthDate>
     <BirthPlace>Suresnes</BirthPlace>
@@ -4414,7 +4414,7 @@
     <Name>Mario Lemina</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>76</Weight>
     <BirthDate>01/09/1993</BirthDate>
     <BirthPlace>Libreville</BirthPlace>
@@ -4433,7 +4433,7 @@
     <Name>André-Pierre Gignac</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>84</Weight>
     <BirthDate>12/05/1985</BirthDate>
     <BirthPlace>Martigues</BirthPlace>
@@ -4452,7 +4452,7 @@
     <Name>André Ayew</Name>
     <Nationality>GHA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>72</Weight>
     <BirthDate>17/12/1989</BirthDate>
     <BirthPlace>Seclin</BirthPlace>
@@ -4471,7 +4471,7 @@
     <Name>Romain Alessandrini</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.66</Height>
+    <Height>1,66</Height>
     <Weight>60</Weight>
     <BirthDate>03/04/1989</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -4490,7 +4490,7 @@
     <Name>Florian Thauvin</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>70</Weight>
     <BirthDate>26/01/1993</BirthDate>
     <BirthPlace>Orléans</BirthPlace>
@@ -4509,7 +4509,7 @@
     <Name>Jérémy Morel</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>71</Weight>
     <BirthDate>02/04/1984</BirthDate>
     <BirthPlace>Lorient</BirthPlace>
@@ -4528,7 +4528,7 @@
     <Name>Brice Samba</Name>
     <Nationality>CGO</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>79</Weight>
     <BirthDate>25/04/1994</BirthDate>
     <BirthPlace>Linzolo</BirthPlace>
@@ -4547,7 +4547,7 @@
     <Name>Dimitri Payet</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>70</Weight>
     <BirthDate>29/03/1987</BirthDate>
     <BirthPlace>St-Pierre de la Réunion</BirthPlace>
@@ -4566,7 +4566,7 @@
     <Name>Alaixys Romao</Name>
     <Nationality>TOG</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>74</Weight>
     <BirthDate>18/01/1984</BirthDate>
     <BirthPlace>L'Hay-les-Roses</BirthPlace>
@@ -4585,7 +4585,7 @@
     <Name>Michy Batshuayi</Name>
     <Nationality>BEL</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>78</Weight>
     <BirthDate>02/10/1993</BirthDate>
     <BirthPlace>Brussels</BirthPlace>
@@ -4604,7 +4604,7 @@
     <Name>Benjamin Mendy</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>72</Weight>
     <BirthDate>17/07/1994</BirthDate>
     <BirthPlace>Longjumeau</BirthPlace>
@@ -4623,7 +4623,7 @@
     <Name>Rod Fanni</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>78</Weight>
     <BirthDate>06/12/1981</BirthDate>
     <BirthPlace>Martigues</BirthPlace>
@@ -4642,7 +4642,7 @@
     <Name>Gianelli Imbula</Name>
     <Nationality>CGO</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>77</Weight>
     <BirthDate>12/09/1992</BirthDate>
     <BirthPlace>Vilvoorde</BirthPlace>
@@ -4661,7 +4661,7 @@
     <Name>Brice Dja Djedje</Name>
     <Nationality>CIV</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>70</Weight>
     <BirthDate>23/12/1990</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -4680,7 +4680,7 @@
     <Name>Abdelaziz Barrada</Name>
     <Nationality>MAR</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>73</Weight>
     <BirthDate>19/06/1989</BirthDate>
     <BirthPlace>Provins</BirthPlace>
@@ -4699,7 +4699,7 @@
     <Name>Jérémie Porsan-Clemente</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>73</Weight>
     <BirthDate>16/12/1997</BirthDate>
     <BirthPlace>Schœlcher</BirthPlace>
@@ -4718,7 +4718,7 @@
     <Name>Steve Mandanda</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>82</Weight>
     <BirthDate>28/03/1985</BirthDate>
     <BirthPlace>Kinshasa</BirthPlace>
@@ -4737,7 +4737,7 @@
     <Name>Johann Carrasso</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>79</Weight>
     <BirthDate>07/05/1988</BirthDate>
     <BirthPlace>Avignon</BirthPlace>
@@ -4756,7 +4756,7 @@
     <Name>Jonathan Rivierez</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>79</Weight>
     <BirthDate>18/05/1989</BirthDate>
     <BirthPlace>Le Blanc-Mesnil</BirthPlace>
@@ -4775,7 +4775,7 @@
     <Name>Sylvain Marchal</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>80</Weight>
     <BirthDate>10/02/1980</BirthDate>
     <BirthPlace>Langres</BirthPlace>
@@ -4794,7 +4794,7 @@
     <Name>Guido Milan</Name>
     <Nationality>ARG</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.94</Height>
+    <Height>1,94</Height>
     <Weight>93</Weight>
     <BirthDate>03/07/1987</BirthDate>
     <BirthPlace>Haedo</BirthPlace>
@@ -4813,7 +4813,7 @@
     <Name>Romain Rocchi</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>75</Weight>
     <BirthDate>02/10/1981</BirthDate>
     <BirthPlace>Cavaillon</BirthPlace>
@@ -4832,7 +4832,7 @@
     <Name>Cheick Doukouré</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>72</Weight>
     <BirthDate>11/09/1992</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -4851,7 +4851,7 @@
     <Name>Juan Manuel Falcón</Name>
     <Nationality>VEN</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>81</Weight>
     <BirthDate>24/02/1989</BirthDate>
     <BirthPlace> Acarigua</BirthPlace>
@@ -4870,7 +4870,7 @@
     <Name>Bouna Sarr</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>65</Weight>
     <BirthDate>31/01/1992</BirthDate>
     <BirthPlace>Lyon</BirthPlace>
@@ -4889,7 +4889,7 @@
     <Name>Federico Andrada</Name>
     <Nationality>ARG</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>74</Weight>
     <BirthDate>03/03/1994</BirthDate>
     <BirthPlace>Carapachay</BirthPlace>
@@ -4908,7 +4908,7 @@
     <Name>Kwamé Nsor</Name>
     <Nationality>GHA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>76</Weight>
     <BirthDate>01/08/1992</BirthDate>
     <BirthPlace>Accra</BirthPlace>
@@ -4927,7 +4927,7 @@
     <Name>Florent Malouda</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>73</Weight>
     <BirthDate>13/06/1980</BirthDate>
     <BirthPlace>Cayenne</BirthPlace>
@@ -4946,7 +4946,7 @@
     <Name>Fadil Sido</Name>
     <Nationality>BFA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>65</Weight>
     <BirthDate>13/04/1993</BirthDate>
     <BirthPlace>Ouagadougou</BirthPlace>
@@ -4965,7 +4965,7 @@
     <Name>Romain Métanire</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>72</Weight>
     <BirthDate>28/03/1990</BirthDate>
     <BirthPlace>Metz</BirthPlace>
@@ -4984,7 +4984,7 @@
     <Name>Anthony Mfa Mezui</Name>
     <Nationality>GAB</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>91</Weight>
     <BirthDate>07/03/1991</BirthDate>
     <BirthPlace>Beauvais</BirthPlace>
@@ -5003,7 +5003,7 @@
     <Name>Maxwel Cornet</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>69</Weight>
     <BirthDate>27/09/1996</BirthDate>
     <BirthPlace>Bregbo</BirthPlace>
@@ -5022,7 +5022,7 @@
     <Name>Jérémy Choplin</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>70</Weight>
     <BirthDate>09/02/1985</BirthDate>
     <BirthPlace>Le Mans</BirthPlace>
@@ -5041,7 +5041,7 @@
     <Name>Thibaut Vion</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>68</Weight>
     <BirthDate>11/12/1993</BirthDate>
     <BirthPlace>Mont-Saint-Martin</BirthPlace>
@@ -5060,7 +5060,7 @@
     <Name>Modibo Maïga</Name>
     <Nationality>MLI</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>76</Weight>
     <BirthDate>03/09/1986</BirthDate>
     <BirthPlace>Bamako</BirthPlace>
@@ -5079,7 +5079,7 @@
     <Name>Ahmed Kashi</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>76</Weight>
     <BirthDate>18/11/1988</BirthDate>
     <BirthPlace>Aubervilliers</BirthPlace>
@@ -5098,7 +5098,7 @@
     <Name>Kévin Lejeune</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>76</Weight>
     <BirthDate>22/01/1985</BirthDate>
     <BirthPlace>Cambrai</BirthPlace>
@@ -5117,7 +5117,7 @@
     <Name>Yeni Atito Ngbakoto</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>71</Weight>
     <BirthDate>23/01/1992</BirthDate>
     <BirthPlace>Croix</BirthPlace>
@@ -5136,7 +5136,7 @@
     <Name>Gaétan Bussmann</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>75</Weight>
     <BirthDate>02/02/1991</BirthDate>
     <BirthPlace>Épinal</BirthPlace>
@@ -5155,7 +5155,7 @@
     <Name>Guirane N'Daw</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>79</Weight>
     <BirthDate>24/04/1984</BirthDate>
     <BirthPlace>Rufisque</BirthPlace>
@@ -5174,7 +5174,7 @@
     <Name>Chris Philipps</Name>
     <Nationality>LUX</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>72</Weight>
     <BirthDate>08/03/1994</BirthDate>
     <BirthPlace>Wiltz</BirthPlace>
@@ -5193,7 +5193,7 @@
     <Name>José Luis Palomino</Name>
     <Nationality>ARG</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>87</Weight>
     <BirthDate>05/01/1990</BirthDate>
     <BirthPlace>San Miguel de Tucumán</BirthPlace>
@@ -5212,7 +5212,7 @@
     <Name>Mayoro N'Doye-Baye</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>67</Weight>
     <BirthDate>18/12/1991</BirthDate>
     <BirthPlace>Mbao</BirthPlace>
@@ -5231,7 +5231,7 @@
     <Name>Sergey Krivets</Name>
     <Nationality>BLR</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>77</Weight>
     <BirthDate>08/06/1986</BirthDate>
     <BirthPlace>Grodno</BirthPlace>
@@ -5250,7 +5250,7 @@
     <Name>David Oberhauser</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>75</Weight>
     <BirthDate>29/11/1989</BirthDate>
     <BirthPlace>Bitche</BirthPlace>
@@ -5269,7 +5269,7 @@
     <Name>Danijel Subaši?</Name>
     <Nationality>CRO</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>84</Weight>
     <BirthDate>27/10/1984</BirthDate>
     <BirthPlace>Zadar</BirthPlace>
@@ -5288,7 +5288,7 @@
     <Name>Fabinho</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>78</Weight>
     <BirthDate>23/10/1993</BirthDate>
     <BirthPlace>Campinas</BirthPlace>
@@ -5307,7 +5307,7 @@
     <Name>Layvin Kurzawa</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>73</Weight>
     <BirthDate>04/09/1992</BirthDate>
     <BirthPlace>Fréjuis</BirthPlace>
@@ -5326,7 +5326,7 @@
     <Name>Borja López</Name>
     <Nationality>ESP</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>83</Weight>
     <BirthDate>02/02/1994</BirthDate>
     <BirthPlace>Gijón</BirthPlace>
@@ -5345,7 +5345,7 @@
     <Name>Aymen Abdennour</Name>
     <Nationality>TUN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>84</Weight>
     <BirthDate>06/08/1989</BirthDate>
     <BirthPlace>Sousse</BirthPlace>
@@ -5364,7 +5364,7 @@
     <Name>Ricardo Carvalho</Name>
     <Nationality>POR</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>76</Weight>
     <BirthDate>18/05/1978</BirthDate>
     <BirthPlace>Amarante</BirthPlace>
@@ -5383,7 +5383,7 @@
     <Name>Nabil Dirar</Name>
     <Nationality>MAR</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>79</Weight>
     <BirthDate>25/02/1986</BirthDate>
     <BirthPlace>Casablanca</BirthPlace>
@@ -5402,7 +5402,7 @@
     <Name>João Moutinho</Name>
     <Nationality>POR</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>61</Weight>
     <BirthDate>08/09/1986</BirthDate>
     <BirthPlace>Portimão</BirthPlace>
@@ -5421,7 +5421,7 @@
     <Name>Dimitar Berbatov</Name>
     <Nationality>BUL</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>79</Weight>
     <BirthDate>30/01/1981</BirthDate>
     <BirthPlace>Blagoevgrad</BirthPlace>
@@ -5440,7 +5440,7 @@
     <Name>Lucas Ocampos</Name>
     <Nationality>ARG</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>82</Weight>
     <BirthDate>11/07/1994</BirthDate>
     <BirthPlace>Quilmes</BirthPlace>
@@ -5459,7 +5459,7 @@
     <Name>Wallace</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.91</Height>
+    <Height>1,91</Height>
     <Weight>78</Weight>
     <BirthDate>14/10/1994</BirthDate>
     <BirthPlace>Rio de Janeiro</BirthPlace>
@@ -5478,7 +5478,7 @@
     <Name>Tiemoué Bakayoko</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>77</Weight>
     <BirthDate>17/08/1994</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -5497,7 +5497,7 @@
     <Name>Bernardo Silva</Name>
     <Nationality>POR</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>62</Weight>
     <BirthDate>10/08/1994</BirthDate>
     <BirthPlace>Lisbon</BirthPlace>
@@ -5516,7 +5516,7 @@
     <Name>Maarten Stekelenburg</Name>
     <Nationality>NED</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.97</Height>
+    <Height>1,97</Height>
     <Weight>92</Weight>
     <BirthDate>22/09/1982</BirthDate>
     <BirthPlace>Haarlem</BirthPlace>
@@ -5535,7 +5535,7 @@
     <Name>Yannick Ferreira Carrasco</Name>
     <Nationality>BEL</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>67</Weight>
     <BirthDate>04/09/1993</BirthDate>
     <BirthPlace>Elsene</BirthPlace>
@@ -5554,7 +5554,7 @@
     <Name>Valère Germain</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>75</Weight>
     <BirthDate>17/04/1990</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -5573,7 +5573,7 @@
     <Name>Lacina Traoré</Name>
     <Nationality>CIV</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>75</Weight>
     <BirthDate>20/08/1990</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -5592,7 +5592,7 @@
     <Name>Elderson Uwa Echiejile</Name>
     <Nationality>NGA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>76</Weight>
     <BirthDate>20/01/1988</BirthDate>
     <BirthPlace>Cotonou</BirthPlace>
@@ -5611,7 +5611,7 @@
     <Name>Geoffrey Kondogbia</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>71</Weight>
     <BirthDate>25/04/1993</BirthDate>
     <BirthPlace>Saint-Denis</BirthPlace>
@@ -5630,7 +5630,7 @@
     <Name>Anthony Martial</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>76</Weight>
     <BirthDate>05/12/1995</BirthDate>
     <BirthPlace>Massy</BirthPlace>
@@ -5649,7 +5649,7 @@
     <Name>Andrea Raggi</Name>
     <Nationality>ITA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>82</Weight>
     <BirthDate>24/06/1984</BirthDate>
     <BirthPlace>Carrara</BirthPlace>
@@ -5668,7 +5668,7 @@
     <Name>Jérémy Toulalan</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>77</Weight>
     <BirthDate>10/09/1983</BirthDate>
     <BirthPlace>Nantes</BirthPlace>
@@ -5687,7 +5687,7 @@
     <Name>Dylan Bahamboula</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>65</Weight>
     <BirthDate>22/05/1995</BirthDate>
     <BirthPlace></BirthPlace>
@@ -5706,7 +5706,7 @@
     <Name>Seydou Sy</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>80</Weight>
     <BirthDate>12/12/1995</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -5725,7 +5725,7 @@
     <Name>Abdou Diallo</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>72</Weight>
     <BirthDate>04/05/1996</BirthDate>
     <BirthPlace>Tours</BirthPlace>
@@ -5744,7 +5744,7 @@
     <Name>Aboud Aziz Thiam</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>62</Weight>
     <BirthDate>15/01/1997</BirthDate>
     <BirthPlace></BirthPlace>
@@ -5763,7 +5763,7 @@
     <Name>Almary Touré</Name>
     <Nationality>MLI</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>72</Weight>
     <BirthDate>28/04/1996</BirthDate>
     <BirthPlace></BirthPlace>
@@ -5782,7 +5782,7 @@
     <Name>Marc-Aurèle Caillard</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.91</Height>
+    <Height>1,91</Height>
     <Weight>79</Weight>
     <BirthDate>12/05/1994</BirthDate>
     <BirthPlace>Melun</BirthPlace>
@@ -5801,7 +5801,7 @@
     <Name>Laurent Pionnier</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>76</Weight>
     <BirthDate>24/05/1982</BirthDate>
     <BirthPlace>Bagnois sur Cèze</BirthPlace>
@@ -5820,7 +5820,7 @@
     <Name>Daniel Congré</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>79</Weight>
     <BirthDate>05/04/1985</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -5839,7 +5839,7 @@
     <Name>Hilton</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>73</Weight>
     <BirthDate>13/09/1977</BirthDate>
     <BirthPlace>Brasilia</BirthPlace>
@@ -5858,7 +5858,7 @@
     <Name>Siaka Tiéné</Name>
     <Nationality>CIV</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>72</Weight>
     <BirthDate>22/02/1982</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -5877,7 +5877,7 @@
     <Name>Joris Marveaux</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>69</Weight>
     <BirthDate>15/08/1982</BirthDate>
     <BirthPlace>Vannes</BirthPlace>
@@ -5896,7 +5896,7 @@
     <Name>Anthony Mounier</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>65</Weight>
     <BirthDate>27/09/1987</BirthDate>
     <BirthPlace>Aubenas</BirthPlace>
@@ -5915,7 +5915,7 @@
     <Name>Jonas Martin</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>70</Weight>
     <BirthDate>09/04/1990</BirthDate>
     <BirthPlace>Besançon</BirthPlace>
@@ -5934,7 +5934,7 @@
     <Name>Kévin Bérigaud</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>69</Weight>
     <BirthDate>03/03/1984</BirthDate>
     <BirthPlace>Thonon-les-Bains</BirthPlace>
@@ -5953,7 +5953,7 @@
     <Name>Lucas Barrios</Name>
     <Nationality>PAR</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>87</Weight>
     <BirthDate>13/11/1984</BirthDate>
     <BirthPlace>San Fernando</BirthPlace>
@@ -5972,7 +5972,7 @@
     <Name>Victor Hugo Montaño</Name>
     <Nationality>COL</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>76</Weight>
     <BirthDate>01/05/1984</BirthDate>
     <BirthPlace>Cali</BirthPlace>
@@ -5991,7 +5991,7 @@
     <Name>Dylan Gissi</Name>
     <Nationality>SUI</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>79</Weight>
     <BirthDate>27/04/1991</BirthDate>
     <BirthPlace>Geneva</BirthPlace>
@@ -6010,7 +6010,7 @@
     <Name>Bryan Dabo</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>75</Weight>
     <BirthDate>18/02/1992</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -6029,7 +6029,7 @@
     <Name>Geoffrey Jourdren</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>73</Weight>
     <BirthDate>04/02/1986</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -6048,7 +6048,7 @@
     <Name>Paul Lasne</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>72</Weight>
     <BirthDate>16/01/1989</BirthDate>
     <BirthPlace>Saint-Cloud</BirthPlace>
@@ -6067,7 +6067,7 @@
     <Name>Karim Aït-Fana</Name>
     <Nationality>MAR</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>65</Weight>
     <BirthDate>25/02/1989</BirthDate>
     <BirthPlace>Limoges</BirthPlace>
@@ -6086,7 +6086,7 @@
     <Name>Souleymane Camara</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>72</Weight>
     <BirthDate>22/12/1982</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -6105,7 +6105,7 @@
     <Name>Morgan Sanson</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>70</Weight>
     <BirthDate>18/08/1994</BirthDate>
     <BirthPlace>Saint-Doulchard</BirthPlace>
@@ -6124,7 +6124,7 @@
     <Name>Abdelhamid El Kaoutari</Name>
     <Nationality>MAR</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>73</Weight>
     <BirthDate>17/03/1990</BirthDate>
     <BirthPlace>Montpellier</BirthPlace>
@@ -6143,7 +6143,7 @@
     <Name>Jamel Saihi</Name>
     <Nationality>TUN</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>73</Weight>
     <BirthDate>27/01/1987</BirthDate>
     <BirthPlace>Montpellier</BirthPlace>
@@ -6162,7 +6162,7 @@
     <Name>Jean Deza</Name>
     <Nationality>PER</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>71</Weight>
     <BirthDate>09/06/1993</BirthDate>
     <BirthPlace>Callao</BirthPlace>
@@ -6181,7 +6181,7 @@
     <Name>Mathieu Deplagne</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>66</Weight>
     <BirthDate>01/10/1991</BirthDate>
     <BirthPlace>Montpellier</BirthPlace>
@@ -6200,7 +6200,7 @@
     <Name>Yassine Jebbour</Name>
     <Nationality>MAR</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>70</Weight>
     <BirthDate>24/08/1991</BirthDate>
     <BirthPlace>Poitiers</BirthPlace>
@@ -6219,7 +6219,7 @@
     <Name>Steve Mounié</Name>
     <Nationality>BEN</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>80</Weight>
     <BirthDate>29/09/1994</BirthDate>
     <BirthPlace>Parakou</BirthPlace>
@@ -6238,7 +6238,7 @@
     <Name>Djamel Bakar</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.71</Height>
+    <Height>1,71</Height>
     <Weight>67</Weight>
     <BirthDate>06/04/1989</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -6257,7 +6257,7 @@
     <Name>Gianni Seraf</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.69</Height>
+    <Height>1,69</Height>
     <Weight>65</Weight>
     <BirthDate>05/07/1994</BirthDate>
     <BirthPlace>Thiais</BirthPlace>
@@ -6276,7 +6276,7 @@
     <Name>Jonathan Ligali</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>82</Weight>
     <BirthDate>28/05/1991</BirthDate>
     <BirthPlace>Montpellier</BirthPlace>
@@ -6295,7 +6295,7 @@
     <Name>Quentin Cornette</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>75</Weight>
     <BirthDate>17/01/1994</BirthDate>
     <BirthPlace>La Ciotat</BirthPlace>
@@ -6314,7 +6314,7 @@
     <Name>Nicolas Saint-Ruf</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>81</Weight>
     <BirthDate>24/10/1992</BirthDate>
     <BirthPlace>Rouen</BirthPlace>
@@ -6333,7 +6333,7 @@
     <Name>Rémy Riou</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.91</Height>
+    <Height>1,91</Height>
     <Weight>81</Weight>
     <BirthDate>06/08/1987</BirthDate>
     <BirthPlace>Lyon</BirthPlace>
@@ -6352,7 +6352,7 @@
     <Name>Kian Hansen</Name>
     <Nationality>DEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>74</Weight>
     <BirthDate>03/03/1989</BirthDate>
     <BirthPlace>Grindsted</BirthPlace>
@@ -6371,7 +6371,7 @@
     <Name>Papy Mison Djilobodji</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.93</Height>
+    <Height>1,93</Height>
     <Weight>82</Weight>
     <BirthDate>01/12/1988</BirthDate>
     <BirthPlace>Kaolack</BirthPlace>
@@ -6390,7 +6390,7 @@
     <Name>Oswaldo Vizcarrondo</Name>
     <Nationality>VEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.91</Height>
+    <Height>1,91</Height>
     <Weight>86</Weight>
     <BirthDate>31/05/1984</BirthDate>
     <BirthPlace>Caracas</BirthPlace>
@@ -6409,7 +6409,7 @@
     <Name>Olivier Veigneau</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>69</Weight>
     <BirthDate>16/07/1985</BirthDate>
     <BirthPlace>Suresnes</BirthPlace>
@@ -6428,7 +6428,7 @@
     <Name>Rémi Gomis</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>64</Weight>
     <BirthDate>14/02/1984</BirthDate>
     <BirthPlace>Versailles</BirthPlace>
@@ -6447,7 +6447,7 @@
     <Name>Alejandro Bedoya</Name>
     <Nationality>USA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>73</Weight>
     <BirthDate>29/04/1987</BirthDate>
     <BirthPlace>Weston</BirthPlace>
@@ -6466,7 +6466,7 @@
     <Name>Vincent Bessat</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>73</Weight>
     <BirthDate>08/11/1985</BirthDate>
     <BirthPlace>Lyon</BirthPlace>
@@ -6485,7 +6485,7 @@
     <Name>Itay Shechter</Name>
     <Nationality>ISR</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>77</Weight>
     <BirthDate>22/02/1987</BirthDate>
     <BirthPlace>Ramat Yishai</BirthPlace>
@@ -6504,7 +6504,7 @@
     <Name>Fernando Aristeguieta</Name>
     <Nationality>VEN</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>80</Weight>
     <BirthDate>09/04/1992</BirthDate>
     <BirthPlace>Caracas</BirthPlace>
@@ -6523,7 +6523,7 @@
     <Name>Ismaël Bangoura</Name>
     <Nationality>GUI</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>72</Weight>
     <BirthDate>02/01/1985</BirthDate>
     <BirthPlace>Conakry</BirthPlace>
@@ -6542,7 +6542,7 @@
     <Name>Birama Touré</Name>
     <Nationality>MLI</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>75</Weight>
     <BirthDate>06/06/1992</BirthDate>
     <BirthPlace>Kayes</BirthPlace>
@@ -6561,7 +6561,7 @@
     <Name>Serge Gakpé</Name>
     <Nationality>TOG</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>79</Weight>
     <BirthDate>07/05/1987</BirthDate>
     <BirthPlace>Bondy</BirthPlace>
@@ -6580,7 +6580,7 @@
     <Name>Georges-Kevin Nkoudou</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>68</Weight>
     <BirthDate>13/02/1995</BirthDate>
     <BirthPlace>Versailles</BirthPlace>
@@ -6599,7 +6599,7 @@
     <Name>Léo Dubois</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>65</Weight>
     <BirthDate>14/09/1994</BirthDate>
     <BirthPlace>Segré</BirthPlace>
@@ -6618,7 +6618,7 @@
     <Name>Erwin Zelazny</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>80</Weight>
     <BirthDate>22/09/1991</BirthDate>
     <BirthPlace>Grande-Synthe</BirthPlace>
@@ -6637,7 +6637,7 @@
     <Name>Lucas Deaux</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>77</Weight>
     <BirthDate>26/12/1988</BirthDate>
     <BirthPlace>Reims</BirthPlace>
@@ -6656,7 +6656,7 @@
     <Name>Abdoulaye Touré</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>77</Weight>
     <BirthDate>03/03/1994</BirthDate>
     <BirthPlace>Nantes</BirthPlace>
@@ -6675,7 +6675,7 @@
     <Name>Amine Oudrhiri</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>75</Weight>
     <BirthDate>04/11/1992</BirthDate>
     <BirthPlace>Ermont</BirthPlace>
@@ -6694,7 +6694,7 @@
     <Name>Johan Audel</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>73</Weight>
     <BirthDate>12/12/1983</BirthDate>
     <BirthPlace>Nice</BirthPlace>
@@ -6713,7 +6713,7 @@
     <Name>Issa Cissokho</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>73</Weight>
     <BirthDate>23/02/1985</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -6732,7 +6732,7 @@
     <Name>Yacine Bammou</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>78</Weight>
     <BirthDate>11/09/1991</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -6751,7 +6751,7 @@
     <Name>Chaker Alhadhur</Name>
     <Nationality>COM</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.71</Height>
+    <Height>1,71</Height>
     <Weight>56</Weight>
     <BirthDate>04/12/1991</BirthDate>
     <BirthPlace>Nantes</BirthPlace>
@@ -6770,7 +6770,7 @@
     <Name>Jordan Veretout</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>66</Weight>
     <BirthDate>01/03/1993</BirthDate>
     <BirthPlace>Ancenis</BirthPlace>
@@ -6789,7 +6789,7 @@
     <Name>Koffi Djidji</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>71</Weight>
     <BirthDate>30/11/1992</BirthDate>
     <BirthPlace>Bagnolet</BirthPlace>
@@ -6808,7 +6808,7 @@
     <Name>Valentin Rongier</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>66</Weight>
     <BirthDate>07/12/1994</BirthDate>
     <BirthPlace>Mâcon</BirthPlace>
@@ -6827,7 +6827,7 @@
     <Name>Maxime Dupé</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>85</Weight>
     <BirthDate>04/03/1993</BirthDate>
     <BirthPlace>Malestroit</BirthPlace>
@@ -6846,7 +6846,7 @@
     <Name>Mouez Hassan</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>74</Weight>
     <BirthDate>05/03/1995</BirthDate>
     <BirthPlace>Fréjus</BirthPlace>
@@ -6865,7 +6865,7 @@
     <Name>Carlos Eduardo</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>72</Weight>
     <BirthDate>17/10/1989</BirthDate>
     <BirthPlace>Sorocaba</BirthPlace>
@@ -6884,7 +6884,7 @@
     <Name>Kevin Gomis</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>85</Weight>
     <BirthDate>20/01/1989</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -6903,7 +6903,7 @@
     <Name>Didier Digard</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>76</Weight>
     <BirthDate>12/07/1986</BirthDate>
     <BirthPlace>Gisors</BirthPlace>
@@ -6922,7 +6922,7 @@
     <Name>Julien Vercauteren</Name>
     <Nationality>BEL</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>66</Weight>
     <BirthDate>12/01/1993</BirthDate>
     <BirthPlace>Sint-Agatha-Berchem</BirthPlace>
@@ -6941,7 +6941,7 @@
     <Name>Mahamane Traoré</Name>
     <Nationality>MLI</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>66</Weight>
     <BirthDate>31/08/1988</BirthDate>
     <BirthPlace>Bamako</BirthPlace>
@@ -6960,7 +6960,7 @@
     <Name>Xavier Pentecôte</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>77</Weight>
     <BirthDate>13/08/1986</BirthDate>
     <BirthPlace>St Dié</BirthPlace>
@@ -6979,7 +6979,7 @@
     <Name>Valentin Eysseric</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>73</Weight>
     <BirthDate>25/03/1992</BirthDate>
     <BirthPlace>Aix-en-Provence</BirthPlace>
@@ -6998,7 +6998,7 @@
     <Name>Eric Bauthéac</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.65</Height>
+    <Height>1,65</Height>
     <Weight>65</Weight>
     <BirthDate>24/08/1987</BirthDate>
     <BirthPlace>Bagnols-sur-Cèze</BirthPlace>
@@ -7017,7 +7017,7 @@
     <Name>Darío Cvitanich</Name>
     <Nationality>ARG</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>67</Weight>
     <BirthDate>16/05/1984</BirthDate>
     <BirthPlace>Baradero</BirthPlace>
@@ -7036,7 +7036,7 @@
     <Name>Niklas Hult</Name>
     <Nationality>SWE</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>65</Weight>
     <BirthDate>13/02/1990</BirthDate>
     <BirthPlace>Värnamo</BirthPlace>
@@ -7055,7 +7055,7 @@
     <Name>Alassane Pléa</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>72</Weight>
     <BirthDate>10/03/1993</BirthDate>
     <BirthPlace>Lille</BirthPlace>
@@ -7074,7 +7074,7 @@
     <Name>Grégoire Puel</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>67</Weight>
     <BirthDate>20/02/1992</BirthDate>
     <BirthPlace>Nice</BirthPlace>
@@ -7093,7 +7093,7 @@
     <Name>Simon Pouplin</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>79</Weight>
     <BirthDate>28/05/1985</BirthDate>
     <BirthPlace>Cholet</BirthPlace>
@@ -7112,7 +7112,7 @@
     <Name>Neal Maupay</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.71</Height>
+    <Height>1,71</Height>
     <Weight>69</Weight>
     <BirthDate>14/08/1996</BirthDate>
     <BirthPlace>Versailles</BirthPlace>
@@ -7131,7 +7131,7 @@
     <Name>Jordan Amavi</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>70</Weight>
     <BirthDate>09/03/1994</BirthDate>
     <BirthPlace>Toulon</BirthPlace>
@@ -7150,7 +7150,7 @@
     <Name>Souleymane Diawara</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>88</Weight>
     <BirthDate>24/12/1978</BirthDate>
     <BirthPlace>Gabou</BirthPlace>
@@ -7169,7 +7169,7 @@
     <Name>Lloyd Palun</Name>
     <Nationality>GAB</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>73</Weight>
     <BirthDate>28/11/1988</BirthDate>
     <BirthPlace>Arles</BirthPlace>
@@ -7188,7 +7188,7 @@
     <Name>Nampalys Mendy</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.68</Height>
+    <Height>1,68</Height>
     <Weight>68</Weight>
     <BirthDate>23/06/1992</BirthDate>
     <BirthPlace>La Seyne-sur-Mer</BirthPlace>
@@ -7207,7 +7207,7 @@
     <Name>Alexy Bosetti</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>66</Weight>
     <BirthDate>23/04/1993</BirthDate>
     <BirthPlace>Nice</BirthPlace>
@@ -7226,7 +7226,7 @@
     <Name>Mathieu Bodmer</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>91</Weight>
     <BirthDate>22/11/1982</BirthDate>
     <BirthPlace>Evreux</BirthPlace>
@@ -7245,7 +7245,7 @@
     <Name>Romain Genevois</Name>
     <Nationality>HAI</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>66</Weight>
     <BirthDate>28/10/1987</BirthDate>
     <BirthPlace>L'Estère</BirthPlace>
@@ -7264,7 +7264,7 @@
     <Name>Bryan Constant</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>65</Weight>
     <BirthDate>27/03/1994</BirthDate>
     <BirthPlace>Fréjus</BirthPlace>
@@ -7283,7 +7283,7 @@
     <Name>Fabien Dao Castellana</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.69</Height>
+    <Height>1,69</Height>
     <Weight>61</Weight>
     <BirthDate>28/07/1993</BirthDate>
     <BirthPlace>Saint-Raphaël</BirthPlace>
@@ -7302,7 +7302,7 @@
     <Name>Joris Delle</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>84</Weight>
     <BirthDate>29/03/1990</BirthDate>
     <BirthPlace>Briey</BirthPlace>
@@ -7321,7 +7321,7 @@
     <Name>Moussa M'Bow</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>80</Weight>
     <BirthDate>07/02/1992</BirthDate>
     <BirthPlace>Gwediawayé</BirthPlace>
@@ -7340,7 +7340,7 @@
     <Name>Nicolas Douchez</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>77</Weight>
     <BirthDate>22/04/1980</BirthDate>
     <BirthPlace>Rasny-sous-Bois</BirthPlace>
@@ -7359,7 +7359,7 @@
     <Name>Thiago Silva</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>79</Weight>
     <BirthDate>22/09/1984</BirthDate>
     <BirthPlace>Rio de Janeiro</BirthPlace>
@@ -7378,7 +7378,7 @@
     <Name>Yohan Cabaye</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>72</Weight>
     <BirthDate>14/01/1986</BirthDate>
     <BirthPlace>Tourcoing</BirthPlace>
@@ -7397,7 +7397,7 @@
     <Name>Marquinhos</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>67</Weight>
     <BirthDate>14/05/1994</BirthDate>
     <BirthPlace>São Paulo</BirthPlace>
@@ -7416,7 +7416,7 @@
     <Name>Zoumana Camara</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>76</Weight>
     <BirthDate>03/04/1979</BirthDate>
     <BirthPlace>Colombes</BirthPlace>
@@ -7435,7 +7435,7 @@
     <Name>Lucas</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>66</Weight>
     <BirthDate>13/08/1992</BirthDate>
     <BirthPlace>São Paulo</BirthPlace>
@@ -7454,7 +7454,7 @@
     <Name>Thiago Motta</Name>
     <Nationality>ITA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>77</Weight>
     <BirthDate>28/08/1982</BirthDate>
     <BirthPlace>São Bernardo do Campo</BirthPlace>
@@ -7473,7 +7473,7 @@
     <Name>Edinson Cavani</Name>
     <Nationality>URU</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>71</Weight>
     <BirthDate>14/02/1987</BirthDate>
     <BirthPlace>Montevideo</BirthPlace>
@@ -7492,7 +7492,7 @@
     <Name>Zlatan Ibrahimovi?</Name>
     <Nationality>SWE</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>84</Weight>
     <BirthDate>03/10/1981</BirthDate>
     <BirthPlace>Malmö</BirthPlace>
@@ -7511,7 +7511,7 @@
     <Name>Blaise Matuidi</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>70</Weight>
     <BirthDate>09/04/1987</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -7530,7 +7530,7 @@
     <Name>Jean-Christophe Bahebeck</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>70</Weight>
     <BirthDate>01/05/1993</BirthDate>
     <BirthPlace>Saint-Denis</BirthPlace>
@@ -7549,7 +7549,7 @@
     <Name>Mike Maignan</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>80</Weight>
     <BirthDate>03/07/1995</BirthDate>
     <BirthPlace>Cayenne</BirthPlace>
@@ -7568,7 +7568,7 @@
     <Name>Maxwell</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>73</Weight>
     <BirthDate>27/08/1981</BirthDate>
     <BirthPlace>Vila Velha</BirthPlace>
@@ -7587,7 +7587,7 @@
     <Name>Serge Aurier</Name>
     <Nationality>CIV</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>75</Weight>
     <BirthDate>24/12/1992</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -7606,7 +7606,7 @@
     <Name>Clément Chantôme</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>71</Weight>
     <BirthDate>11/09/1987</BirthDate>
     <BirthPlace>Sens</BirthPlace>
@@ -7625,7 +7625,7 @@
     <Name>Lucas Digne</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>75</Weight>
     <BirthDate>20/07/1993</BirthDate>
     <BirthPlace>Meaux</BirthPlace>
@@ -7644,7 +7644,7 @@
     <Name>Ezequiel Lavezzi</Name>
     <Nationality>ARG</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>75</Weight>
     <BirthDate>03/05/1985</BirthDate>
     <BirthPlace>Villa Gobernador Gálvez</BirthPlace>
@@ -7663,7 +7663,7 @@
     <Name>Gregory van der Wiel</Name>
     <Nationality>NED</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>68</Weight>
     <BirthDate>03/02/1988</BirthDate>
     <BirthPlace>Amsterdam</BirthPlace>
@@ -7682,7 +7682,7 @@
     <Name>Marco Verratti</Name>
     <Nationality>ITA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.65</Height>
+    <Height>1,65</Height>
     <Weight>60</Weight>
     <BirthDate>05/11/1992</BirthDate>
     <BirthPlace>Pescara</BirthPlace>
@@ -7701,7 +7701,7 @@
     <Name>Adrien Rabiot</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>71</Weight>
     <BirthDate>03/04/1995</BirthDate>
     <BirthPlace>Saint-Maurice</BirthPlace>
@@ -7720,7 +7720,7 @@
     <Name>Javier Pastore</Name>
     <Nationality>ARG</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>75</Weight>
     <BirthDate>20/06/1989</BirthDate>
     <BirthPlace>Córdoba</BirthPlace>
@@ -7739,7 +7739,7 @@
     <Name>Salvatore Sirigu</Name>
     <Nationality>ITA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>80</Weight>
     <BirthDate>12/01/1987</BirthDate>
     <BirthPlace>Nuoro</BirthPlace>
@@ -7758,7 +7758,7 @@
     <Name>David Luiz</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>84</Weight>
     <BirthDate>22/04/1987</BirthDate>
     <BirthPlace>São Paulo</BirthPlace>
@@ -7777,7 +7777,7 @@
     <Name>Mory Diaw</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.95</Height>
+    <Height>1,95</Height>
     <Weight>95</Weight>
     <BirthDate>22/06/1993</BirthDate>
     <BirthPlace>Poissy</BirthPlace>
@@ -7796,7 +7796,7 @@
     <Name>Sacha Bastien</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.93</Height>
+    <Height>1,93</Height>
     <Weight>85</Weight>
     <BirthDate>22/01/1995</BirthDate>
     <BirthPlace>Metz</BirthPlace>
@@ -7815,7 +7815,7 @@
     <Name>Mohamed Fofana</Name>
     <Nationality>MLI</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>75</Weight>
     <BirthDate>07/03/1985</BirthDate>
     <BirthPlace>Gonesse</BirthPlace>
@@ -7834,7 +7834,7 @@
     <Name>Franck Signorino</Name>
     <Nationality>ITA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>60</Weight>
     <BirthDate>19/09/1981</BirthDate>
     <BirthPlace>Nogent-sur-Marne</BirthPlace>
@@ -7853,7 +7853,7 @@
     <Name>Valentin Roberge</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>73</Weight>
     <BirthDate>09/06/1987</BirthDate>
     <BirthPlace>Montreuil</BirthPlace>
@@ -7872,7 +7872,7 @@
     <Name>Grégory Bourillon</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>74</Weight>
     <BirthDate>01/07/1984</BirthDate>
     <BirthPlace>Laval</BirthPlace>
@@ -7891,7 +7891,7 @@
     <Name>Antoine Devaux</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>70</Weight>
     <BirthDate>21/02/1985</BirthDate>
     <BirthPlace>Dieppe</BirthPlace>
@@ -7910,7 +7910,7 @@
     <Name>Odaïr Fortes</Name>
     <Nationality>CPV</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>70</Weight>
     <BirthDate>31/03/1987</BirthDate>
     <BirthPlace>Alfortville</BirthPlace>
@@ -7929,7 +7929,7 @@
     <Name>Prince Oniangue</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>78</Weight>
     <BirthDate>04/11/1988</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -7948,7 +7948,7 @@
     <Name>Eliran Atar</Name>
     <Nationality>ISR</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>73</Weight>
     <BirthDate>17/02/1987</BirthDate>
     <BirthPlace>Tel Aviv</BirthPlace>
@@ -7967,7 +7967,7 @@
     <Name>Gaëtan Charbonnier</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>80</Weight>
     <BirthDate>27/12/1988</BirthDate>
     <BirthPlace>Saint-Mandé</BirthPlace>
@@ -7986,7 +7986,7 @@
     <Name>Diego</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>72</Weight>
     <BirthDate>09/03/1988</BirthDate>
     <BirthPlace>Americana</BirthPlace>
@@ -8005,7 +8005,7 @@
     <Name>Nicolas De Préville</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>77</Weight>
     <BirthDate>08/01/1991</BirthDate>
     <BirthPlace>Istres</BirthPlace>
@@ -8024,7 +8024,7 @@
     <Name>Benjamin Moukandjo</Name>
     <Nationality>CMR</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>76</Weight>
     <BirthDate>12/11/1988</BirthDate>
     <BirthPlace>Douala</BirthPlace>
@@ -8043,7 +8043,7 @@
     <Name>Chris Mavinga</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>78</Weight>
     <BirthDate>26/05/1991</BirthDate>
     <BirthPlace>Meaux</BirthPlace>
@@ -8062,7 +8062,7 @@
     <Name>Kossi Agassa</Name>
     <Nationality>TOG</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>86</Weight>
     <BirthDate>07/07/1978</BirthDate>
     <BirthPlace>Lomé</BirthPlace>
@@ -8081,7 +8081,7 @@
     <Name>Mads Albæk</Name>
     <Nationality>DEN</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>76</Weight>
     <BirthDate>14/01/1990</BirthDate>
     <BirthPlace>Roskilde</BirthPlace>
@@ -8100,7 +8100,7 @@
     <Name>Gaëtan Courtet</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>72</Weight>
     <BirthDate>22/02/1989</BirthDate>
     <BirthPlace>Lorient</BirthPlace>
@@ -8119,7 +8119,7 @@
     <Name>Alexi Peuget</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>75</Weight>
     <BirthDate>18/12/1990</BirthDate>
     <BirthPlace>Mulhouse</BirthPlace>
@@ -8138,7 +8138,7 @@
     <Name>Yann Benedick</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>73</Weight>
     <BirthDate>01/02/1992</BirthDate>
     <BirthPlace>Strasbourg</BirthPlace>
@@ -8157,7 +8157,7 @@
     <Name>Bocundji Ca</Name>
     <Nationality>GNB</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>69</Weight>
     <BirthDate>28/12/1986</BirthDate>
     <BirthPlace>Biombo</BirthPlace>
@@ -8176,7 +8176,7 @@
     <Name>Mickaël Tacalfred</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>69</Weight>
     <BirthDate>23/04/1981</BirthDate>
     <BirthPlace>Colombes</BirthPlace>
@@ -8195,7 +8195,7 @@
     <Name>Aïssa Mandi</Name>
     <Nationality>ALG</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>78</Weight>
     <BirthDate>22/10/1991</BirthDate>
     <BirthPlace>Châlons-en-Champagne</BirthPlace>
@@ -8214,7 +8214,7 @@
     <Name>David N'Gog</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>79</Weight>
     <BirthDate>01/04/1989</BirthDate>
     <BirthPlace>Gennevilliers</BirthPlace>
@@ -8233,7 +8233,7 @@
     <Name>Anthony Weber</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>82</Weight>
     <BirthDate>11/06/1987</BirthDate>
     <BirthPlace>Strasbourg</BirthPlace>
@@ -8252,7 +8252,7 @@
     <Name>Omenuke Mfulu</Name>
     <Nationality>COD</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>69</Weight>
     <BirthDate>20/03/1994</BirthDate>
     <BirthPlace></BirthPlace>
@@ -8271,7 +8271,7 @@
     <Name>Christopher Glombard</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>74</Weight>
     <BirthDate>05/06/1989</BirthDate>
     <BirthPlace>Montreuil</BirthPlace>
@@ -8290,7 +8290,7 @@
     <Name>Antoine Conte</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>73</Weight>
     <BirthDate>29/01/1994</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -8309,7 +8309,7 @@
     <Name>Grejohn Kiey</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>84</Weight>
     <BirthDate>12/08/1995</BirthDate>
     <BirthPlace></BirthPlace>
@@ -8328,7 +8328,7 @@
     <Name>Johnny Placide</Name>
     <Nationality>HAI</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>84</Weight>
     <BirthDate>29/01/1988</BirthDate>
     <BirthPlace>Montfermeil</BirthPlace>
@@ -8347,7 +8347,7 @@
     <Name>Benoît Costil</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>83</Weight>
     <BirthDate>03/07/1987</BirthDate>
     <BirthPlace>Caen</BirthPlace>
@@ -8366,7 +8366,7 @@
     <Name>Cheikh M'Bengué</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>75</Weight>
     <BirthDate>23/07/1988</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -8385,7 +8385,7 @@
     <Name>Mexer</Name>
     <Nationality>MOZ</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>75</Weight>
     <BirthDate>08/09/1985</BirthDate>
     <BirthPlace>Maputo</BirthPlace>
@@ -8404,7 +8404,7 @@
     <Name>Jean-Armel Kana-Biyik</Name>
     <Nationality>CMR</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>86</Weight>
     <BirthDate>03/07/1989</BirthDate>
     <BirthPlace>Metz</BirthPlace>
@@ -8423,7 +8423,7 @@
     <Name>Gelson Fernandes</Name>
     <Nationality>SUI</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>70</Weight>
     <BirthDate>02/09/1986</BirthDate>
     <BirthPlace>Praia</BirthPlace>
@@ -8442,7 +8442,7 @@
     <Name>Paul-Georges Ntep</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>75</Weight>
     <BirthDate>29/07/1992</BirthDate>
     <BirthPlace>Douala</BirthPlace>
@@ -8461,7 +8461,7 @@
     <Name>Abdoulaye Doucouré</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>69</Weight>
     <BirthDate>01/01/1993</BirthDate>
     <BirthPlace>Meulan-en-Yvelines</BirthPlace>
@@ -8480,7 +8480,7 @@
     <Name>Ola Toivonen</Name>
     <Nationality>SWE</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>74</Weight>
     <BirthDate>03/07/1986</BirthDate>
     <BirthPlace>Degerfors</BirthPlace>
@@ -8499,7 +8499,7 @@
     <Name>Kamil Grosicki</Name>
     <Nationality>POL</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>78</Weight>
     <BirthDate>08/06/1988</BirthDate>
     <BirthPlace>Szczecin</BirthPlace>
@@ -8518,7 +8518,7 @@
     <Name>Philipp Hosiner</Name>
     <Nationality>AUT</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>75</Weight>
     <BirthDate>15/05/1989</BirthDate>
     <BirthPlace>Eisenstadt</BirthPlace>
@@ -8537,7 +8537,7 @@
     <Name>Steven Moreira</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>67</Weight>
     <BirthDate>13/08/1994</BirthDate>
     <BirthPlace>Noisy-le-Grand</BirthPlace>
@@ -8556,7 +8556,7 @@
     <Name>Fallou Diagné</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>75</Weight>
     <BirthDate>14/08/1989</BirthDate>
     <BirthPlace>Pikine</BirthPlace>
@@ -8575,7 +8575,7 @@
     <Name>Jean II Makoun</Name>
     <Nationality>CMR</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>69</Weight>
     <BirthDate>29/05/1983</BirthDate>
     <BirthPlace>Yaoundé</BirthPlace>
@@ -8594,7 +8594,7 @@
     <Name>Olivier Sorin</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>76</Weight>
     <BirthDate>16/04/1981</BirthDate>
     <BirthPlace>Gien</BirthPlace>
@@ -8613,7 +8613,7 @@
     <Name>Vincent Pajot</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>64</Weight>
     <BirthDate>19/08/1990</BirthDate>
     <BirthPlace>Domont</BirthPlace>
@@ -8632,7 +8632,7 @@
     <Name>Pedro Henrique</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>72</Weight>
     <BirthDate>16/06/1990</BirthDate>
     <BirthPlace>Novo Hamburgo</BirthPlace>
@@ -8651,7 +8651,7 @@
     <Name>Adrien Hunou</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>66</Weight>
     <BirthDate>19/01/1994</BirthDate>
     <BirthPlace>Evry</BirthPlace>
@@ -8670,7 +8670,7 @@
     <Name>Axel Ngando</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>66</Weight>
     <BirthDate>13/07/1993</BirthDate>
     <BirthPlace>Asnières-sur-Seine</BirthPlace>
@@ -8689,7 +8689,7 @@
     <Name>Benjamin André</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>68</Weight>
     <BirthDate>03/08/1990</BirthDate>
     <BirthPlace>Nice</BirthPlace>
@@ -8708,7 +8708,7 @@
     <Name>Sylvain Armand</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>82</Weight>
     <BirthDate>01/08/1980</BirthDate>
     <BirthPlace>Saint-Etienne</BirthPlace>
@@ -8727,7 +8727,7 @@
     <Name>Anders Konradsen</Name>
     <Nationality>NOR</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>79</Weight>
     <BirthDate>18/07/1990</BirthDate>
     <BirthPlace>Bodø</BirthPlace>
@@ -8746,7 +8746,7 @@
     <Name>Sanjin Prci?</Name>
     <Nationality>BIH</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>73</Weight>
     <BirthDate>20/11/1993</BirthDate>
     <BirthPlace>Belfort</BirthPlace>
@@ -8765,7 +8765,7 @@
     <Name>Zana Allée</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>66</Weight>
     <BirthDate>29/04/1996</BirthDate>
     <BirthPlace>Baghdad</BirthPlace>
@@ -8784,7 +8784,7 @@
     <Name>Mahamadou Habib Habibou</Name>
     <Nationality>CTA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>80</Weight>
     <BirthDate>16/04/1987</BirthDate>
     <BirthPlace>Bria</BirthPlace>
@@ -8803,7 +8803,7 @@
     <Name>Gjoko Zajkov</Name>
     <Nationality>MKD</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>78</Weight>
     <BirthDate>10/02/1995</BirthDate>
     <BirthPlace>Skopje</BirthPlace>
@@ -8822,7 +8822,7 @@
     <Name>Romain Danzé</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>72</Weight>
     <BirthDate>03/07/1986</BirthDate>
     <BirthPlace>Douarnenez</BirthPlace>
@@ -8841,7 +8841,7 @@
     <Name>Baptiste Valette</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>80</Weight>
     <BirthDate>01/09/1992</BirthDate>
     <BirthPlace>Sète</BirthPlace>
@@ -8860,7 +8860,7 @@
     <Name>Kévin Theophile Catherine</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>77</Weight>
     <BirthDate>28/10/1989</BirthDate>
     <BirthPlace>Saint Brieuc</BirthPlace>
@@ -8879,7 +8879,7 @@
     <Name>Jérémy Clément</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>61</Weight>
     <BirthDate>26/08/1984</BirthDate>
     <BirthPlace>Béziers</BirthPlace>
@@ -8898,7 +8898,7 @@
     <Name>Max Gradel</Name>
     <Nationality>CIV</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>70</Weight>
     <BirthDate>30/11/1987</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -8917,7 +8917,7 @@
     <Name>Benjamin Corgnet</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>75</Weight>
     <BirthDate>06/04/1987</BirthDate>
     <BirthPlace>Thionville</BirthPlace>
@@ -8936,7 +8936,7 @@
     <Name>Mevlüt Erdinç</Name>
     <Nationality>TUR</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>85</Weight>
     <BirthDate>25/02/1987</BirthDate>
     <BirthPlace>Saint-Claude</BirthPlace>
@@ -8955,7 +8955,7 @@
     <Name>Renaud Cohade</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>74</Weight>
     <BirthDate>29/09/1984</BirthDate>
     <BirthPlace>Aubenas</BirthPlace>
@@ -8974,7 +8974,7 @@
     <Name>Yohan Mollo</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>74</Weight>
     <BirthDate>18/07/1989</BirthDate>
     <BirthPlace>Martigues</BirthPlace>
@@ -8993,7 +8993,7 @@
     <Name>Allan Saint-Maximin</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>67</Weight>
     <BirthDate>12/03/1997</BirthDate>
     <BirthPlace>Châtenay-Malabry</BirthPlace>
@@ -9012,7 +9012,7 @@
     <Name>Ricky van Wolfswinkel</Name>
     <Nationality>NED</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>69</Weight>
     <BirthDate>27/01/1989</BirthDate>
     <BirthPlace>Amersfoort</BirthPlace>
@@ -9031,7 +9031,7 @@
     <Name>Stéphane Ruffier</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>89</Weight>
     <BirthDate>27/09/1986</BirthDate>
     <BirthPlace>Bayonne</BirthPlace>
@@ -9050,7 +9050,7 @@
     <Name>Fabien Lemoine</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>67</Weight>
     <BirthDate>16/03/1987</BirthDate>
     <BirthPlace>Fougères</BirthPlace>
@@ -9069,7 +9069,7 @@
     <Name>Florentin Pogba</Name>
     <Nationality>GUI</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>87</Weight>
     <BirthDate>19/08/1990</BirthDate>
     <BirthPlace>Conakry</BirthPlace>
@@ -9088,7 +9088,7 @@
     <Name>Jonathan Brison</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>73</Weight>
     <BirthDate>07/02/1983</BirthDate>
     <BirthPlace>Soissons</BirthPlace>
@@ -9107,7 +9107,7 @@
     <Name>Romain Hamouma</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>67</Weight>
     <BirthDate>29/03/1987</BirthDate>
     <BirthPlace>Lure</BirthPlace>
@@ -9126,7 +9126,7 @@
     <Name>Kévin Monnet-Paquet</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>73</Weight>
     <BirthDate>19/08/1988</BirthDate>
     <BirthPlace>Bourgoin-Jallieu</BirthPlace>
@@ -9145,7 +9145,7 @@
     <Name>Paul Baysse</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>82</Weight>
     <BirthDate>15/05/1988</BirthDate>
     <BirthPlace>Bordeaux</BirthPlace>
@@ -9164,7 +9164,7 @@
     <Name>Loïc Perrin</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>76</Weight>
     <BirthDate>07/08/1985</BirthDate>
     <BirthPlace>Saint-Etienne</BirthPlace>
@@ -9183,7 +9183,7 @@
     <Name>Moustapha Bayal Sall</Name>
     <Nationality>SEN</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>90</Weight>
     <BirthDate>30/11/1985</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -9202,7 +9202,7 @@
     <Name>Franck Tabanou</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>70</Weight>
     <BirthDate>30/01/1989</BirthDate>
     <BirthPlace>Thiais</BirthPlace>
@@ -9221,7 +9221,7 @@
     <Name>Ismaël Diomande</Name>
     <Nationality>CIV</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>75</Weight>
     <BirthDate>28/08/1992</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -9240,7 +9240,7 @@
     <Name>François Clerc</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>77</Weight>
     <BirthDate>18/04/1983</BirthDate>
     <BirthPlace>Bourg en Bresse</BirthPlace>
@@ -9259,7 +9259,7 @@
     <Name>Jessy Moulin</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>80</Weight>
     <BirthDate>13/01/1986</BirthDate>
     <BirthPlace>Valence</BirthPlace>
@@ -9278,7 +9278,7 @@
     <Name>Zacharie Boucher</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>74</Weight>
     <BirthDate>07/03/1992</BirthDate>
     <BirthPlace>St Pierre</BirthPlace>
@@ -9297,7 +9297,7 @@
     <Name>Maxime Spano</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>79</Weight>
     <BirthDate>31/10/1994</BirthDate>
     <BirthPlace>Aubagne</BirthPlace>
@@ -9316,7 +9316,7 @@
     <Name>Tongo Doumbia</Name>
     <Nationality>MLI</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>79</Weight>
     <BirthDate>06/08/1989</BirthDate>
     <BirthPlace>Vernon</BirthPlace>
@@ -9335,7 +9335,7 @@
     <Name>Issiaga Sylla</Name>
     <Nationality>GUI</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>70</Weight>
     <BirthDate>01/01/1994</BirthDate>
     <BirthPlace>Conakry</BirthPlace>
@@ -9354,7 +9354,7 @@
     <Name>William Matheus</Name>
     <Nationality>BRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>85</Weight>
     <BirthDate>02/04/1990</BirthDate>
     <BirthPlace>Rio de Janeiro</BirthPlace>
@@ -9373,7 +9373,7 @@
     <Name>Jean-Daniel Akpa Akpro</Name>
     <Nationality>CIV</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>66</Weight>
     <BirthDate>11/10/1992</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -9392,7 +9392,7 @@
     <Name>Etienne Didot</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>65</Weight>
     <BirthDate>24/07/1983</BirthDate>
     <BirthPlace>Paimpol</BirthPlace>
@@ -9411,7 +9411,7 @@
     <Name>Martin Braithwaite</Name>
     <Nationality>DEN</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>77</Weight>
     <BirthDate>05/06/1991</BirthDate>
     <BirthPlace>Esbjerg</BirthPlace>
@@ -9430,7 +9430,7 @@
     <Name>Wissam Ben Yedder</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>68</Weight>
     <BirthDate>12/08/1990</BirthDate>
     <BirthPlace>Sarcelles</BirthPlace>
@@ -9449,7 +9449,7 @@
     <Name>Aleksandar Peši?</Name>
     <Nationality>SRB</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>83</Weight>
     <BirthDate>21/05/1992</BirthDate>
     <BirthPlace>Niš</BirthPlace>
@@ -9468,7 +9468,7 @@
     <Name>Florian David</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>71</Weight>
     <BirthDate>16/11/1992</BirthDate>
     <BirthPlace>Champigny-sur-Marne</BirthPlace>
@@ -9487,7 +9487,7 @@
     <Name>Dominik Furman</Name>
     <Nationality>POL</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>71</Weight>
     <BirthDate>06/07/1992</BirthDate>
     <BirthPlace>Szyd?owiec</BirthPlace>
@@ -9506,7 +9506,7 @@
     <Name>François Sirieix</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>72</Weight>
     <BirthDate>07/10/1980</BirthDate>
     <BirthPlace>Bordeaux</BirthPlace>
@@ -9525,7 +9525,7 @@
     <Name>Uroš Spaji?</Name>
     <Nationality>SRB</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>76</Weight>
     <BirthDate>13/02/1993</BirthDate>
     <BirthPlace>Belgrade</BirthPlace>
@@ -9544,7 +9544,7 @@
     <Name>Marc Vidal</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>80</Weight>
     <BirthDate>03/06/1991</BirthDate>
     <BirthPlace>Saint-Affrique</BirthPlace>
@@ -9563,7 +9563,7 @@
     <Name>Adrien Regattin</Name>
     <Nationality>MAR</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.66</Height>
+    <Height>1,66</Height>
     <Weight>67</Weight>
     <BirthDate>22/08/1991</BirthDate>
     <BirthPlace>Sète</BirthPlace>
@@ -9582,7 +9582,7 @@
     <Name>Óscar Trejo</Name>
     <Nationality>ARG</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>79</Weight>
     <BirthDate>26/04/1988</BirthDate>
     <BirthPlace>Santiago del Estero</BirthPlace>
@@ -9601,7 +9601,7 @@
     <Name>Steeve Yago</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>72</Weight>
     <BirthDate>16/12/1992</BirthDate>
     <BirthPlace>Sarcelles</BirthPlace>
@@ -9620,7 +9620,7 @@
     <Name>Abel Aguilar</Name>
     <Nationality>COL</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>82</Weight>
     <BirthDate>06/01/1985</BirthDate>
     <BirthPlace>Santa Fe de Bogota</BirthPlace>
@@ -9639,7 +9639,7 @@
     <Name>Dušan Veškovac</Name>
     <Nationality>SRB</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>78</Weight>
     <BirthDate>16/03/1986</BirthDate>
     <BirthPlace>Kruševac</BirthPlace>
@@ -9658,7 +9658,7 @@
     <Name>Marcel Tisserand</Name>
     <Nationality>COD</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>70</Weight>
     <BirthDate>10/01/1993</BirthDate>
     <BirthPlace>Meaux</BirthPlace>
@@ -9677,7 +9677,7 @@
     <Name>Pavle Ninkov</Name>
     <Nationality>SRB</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>81</Weight>
     <BirthDate>20/04/1985</BirthDate>
     <BirthPlace>Belgrade</BirthPlace>
@@ -9696,7 +9696,7 @@
     <Name>Drago? Grigore</Name>
     <Nationality>ROU</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>76</Weight>
     <BirthDate>07/09/1986</BirthDate>
     <BirthPlace>Vaslui</BirthPlace>
@@ -9715,7 +9715,7 @@
     <Name>Sana Zaniou</Name>
     <Nationality>BFA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>65</Weight>
     <BirthDate>31/12/1994</BirthDate>
     <BirthPlace>Cinsense</BirthPlace>
@@ -9734,7 +9734,7 @@
     <Name>Amadou Soukouna</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>F</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>76</Weight>
     <BirthDate>21/06/1992</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -9753,7 +9753,7 @@
     <Name>Mihai Roman</Name>
     <Nationality>ROU</Nationality>
     <FieldPosition>M</FieldPosition>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>70</Weight>
     <BirthDate>16/11/1984</BirthDate>
     <BirthPlace>Suceava</BirthPlace>
@@ -9772,7 +9772,7 @@
     <Name>François Moubandje</Name>
     <Nationality>SUI</Nationality>
     <FieldPosition>D</FieldPosition>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>76</Weight>
     <BirthDate>21/06/1990</BirthDate>
     <BirthPlace>Geneva</BirthPlace>
@@ -9791,7 +9791,7 @@
     <Name>Ali Ahamada</Name>
     <Nationality>FRA</Nationality>
     <FieldPosition>G</FieldPosition>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>83</Weight>
     <BirthDate>19/08/1991</BirthDate>
     <BirthPlace>Martigues</BirthPlace>
