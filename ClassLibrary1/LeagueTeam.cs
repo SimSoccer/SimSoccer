@@ -9,6 +9,7 @@ namespace DrawGame
     public class LeagueTeam
     {
         List<Team> _teamLeague;
+        Random _result = new Random();
 
         public LeagueTeam()
         {
@@ -26,7 +27,14 @@ namespace DrawGame
             _teamLeague.Add(t);
             return t;
         }
-
+      
+        public void DrawTeamLeague()
+        {
+            Random r = new Random();
+            r.Next(1, _teamLeague.Count());
+            //Console.WriteLine(r.Next(1, _teamLeague.Count()).ToString());
+        }
+        
         public void CreateDay()
         {
             foreach (Team t in _teamLeague)

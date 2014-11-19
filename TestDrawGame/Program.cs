@@ -15,8 +15,10 @@ namespace DrawGame
             Team psg = ligue1.CreateTeam("Psg", 89, "Parc des princes");
             Team om = ligue1.CreateTeam("om",78,"Vélodrome");
             Team lyon = ligue1.CreateTeam("lyon",76,"Gerland");
+            Team lorient = ligue1.CreateTeam("Lorient", 70, "Le moustoir");
+            Team bordeaux = ligue1.CreateTeam("Bordeaux", 76, "Delmas");
 
-
+            ligue1.DrawTeamLeague();
             ligue1.CreateDay();
 
             foreach (Team e in ligue1.NameLeague)

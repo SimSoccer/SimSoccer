@@ -13,7 +13,7 @@ namespace DrawGame
         int _scoreTeam;
 
         List<Team> opposent = new List<Team>();
-              
+
         public Team( string team, int scoreTeam,string stade )
         {
             _team = team;
