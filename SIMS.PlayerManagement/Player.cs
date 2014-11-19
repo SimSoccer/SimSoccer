@@ -16,12 +16,13 @@ namespace SIMS.PlayersManagement
     {
         int _id; int _shirtNumber;
         string _name, _nationality;
-        string _poste; float _height;
+        string _fieldPosition; float _height;
         int _weight;
         string _birthDate; string _birthPlace;
         string _previousClub; string _actualClub;
         int _stats; int _formState;
         bool _injury; int _mental; int _financialValue;
+        string _actualClubTag;
 
 
         public int Id
@@ -48,10 +49,10 @@ namespace SIMS.PlayersManagement
             set { _nationality = value; }
         }
 
-        public string Poste
+        public string FieldPosition
         {
-            get { return _poste; }
-            set { _poste = value; }
+            get { return _fieldPosition; }
+            set { _fieldPosition = value; }
         }
 
         public float Height
@@ -125,6 +126,12 @@ namespace SIMS.PlayersManagement
         {
             get { return _financialValue; }
             set { _financialValue = value; }
+        }
+
+        public string ActualClubTag
+        {
+            get {return _actualClubTag;}
+            set {_actualClubTag = value;}
         }
         
     }

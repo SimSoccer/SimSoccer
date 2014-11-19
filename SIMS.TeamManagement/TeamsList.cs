@@ -1,4 +1,5 @@
 ﻿using SIMS;
+using SIMS.PlayersManagement;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,8 @@ namespace SIMS.TeamsManagement
     public class TeamsList
     {
         internal Dictionary<int, Team> _teams;
-        Team p;
+        Team t;
+        PlayersList p;
         public TeamsList()
         {
             _teams = new Dictionary<int, Team>();
@@ -33,10 +35,11 @@ namespace SIMS.TeamsManagement
                 Logo = team.Element( "Logo" ).Value,
                 Manager = team.Element( "Manager" ).Value,
                 LeagueRanking = int.Parse( team.Element( "LeagueRanking" ).Value ),
-                Level = int.Parse(team.Element("Level").Value)
+                Level = int.Parse(team.Element("Level").Value),
+                Composition = p.CreatePlayersList()
             } ).ToDictionary( team => team.Id, team => team );
             
-            return p;
+            return t;
         }
 
         public Dictionary<int,Team> Name

@@ -68,7 +68,7 @@
   </Team>
   <Team>
     <Id>7</Id>
-    <Name>Lille Olympique Sporting Club </Name>
+    <Name>Lille Olympique Sporting Club</Name>
     <TeamTag>LOSC</TeamTag>
     <Town>Lille</Town>
     <Stadium>Stade Pierre-Mauroy</Stadium>
@@ -123,7 +123,7 @@
   </Team>
   <Team>
     <Id>12</Id>
-    <Name>Association sportive de Monaco FC</Name>
+    <Name>Association Sportive de Monaco FC</Name>
     <TeamTag>ASM</TeamTag>
     <Town>Monaco</Town>
     <Stadium>Louis II</Stadium>

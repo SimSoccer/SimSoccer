@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{960C95D7-E5FA-4511-9D14-703A2937C241}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{BF5CD10E-00AF-49EB-873A-7810F8E6BD57}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SIMS.TeamsManagement</RootNamespace>
-    <AssemblyName>SIMS.TeamsManagement</AssemblyName>
+    <RootNamespace>CreateTeamsConsole</RootNamespace>
+    <AssemblyName>CreateTeamsConsole</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -30,9 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,21 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TeamsList.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>
-      </SubType>
-    </Compile>
-    <Compile Include="Team.cs" />
-    <Compile Include="TeamsManagementTests.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SIMS.PlayerManagement\SIMS.PlayersManagement.csproj">
       <Project>{6a41fb06-d0ea-4e54-a96b-6591d253f6af}</Project>
       <Name>SIMS.PlayersManagement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SIMS.TeamManagement\SIMS.TeamsManagement.csproj">
+      <Project>{960c95d7-e5fa-4511-9d14-703a2937c241}</Project>
+      <Name>SIMS.TeamsManagement</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
