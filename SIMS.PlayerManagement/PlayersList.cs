@@ -18,7 +18,10 @@ namespace SIMS.PlayersManagement
             
         }
 
-
+        /// <summary>
+        /// Will create Players objects and dictionaries which will contain dictionaries with these Players
+        /// </summary>
+        /// <returns></returns>
         public Player CreatePlayersList()
         {
             var doc = XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Players2.xml" );

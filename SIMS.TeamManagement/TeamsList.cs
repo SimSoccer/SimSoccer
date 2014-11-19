@@ -32,7 +32,8 @@ namespace SIMS.TeamsManagement
                 Stadium = team.Element( "Stadium" ).Value,
                 Logo = team.Element( "Logo" ).Value,
                 Manager = team.Element( "Manager" ).Value,
-                LeagueRanking = int.Parse( team.Element( "LeagueRanking" ).Value )
+                LeagueRanking = int.Parse( team.Element( "LeagueRanking" ).Value ),
+                Level = int.Parse(team.Element("Level").Value)
             } ).ToDictionary( team => team.Id, team => team );
             
             return p;

@@ -9,6 +9,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/16/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Ghislain PRINTANT</Manager>
     <LeagueRanking>1</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>2</Id>
@@ -19,6 +20,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/18/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Willy SAGNOL</Manager>
     <LeagueRanking>2</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>3</Id>
@@ -29,6 +31,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/41/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Patrice GARANDE</Manager>
     <LeagueRanking>3</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>4</Id>
@@ -39,6 +42,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/1897/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Pascal DUPRAZ</Manager>
     <LeagueRanking>4</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>5</Id>
@@ -49,6 +53,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/37/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Jocelyn GOURVENNEC</Manager>
     <LeagueRanking>5</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>6</Id>
@@ -59,6 +64,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/9/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Antoine KOMBOUARE</Manager>
     <LeagueRanking>6</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>7</Id>
@@ -69,6 +75,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/43/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>René GIRARD</Manager>
     <LeagueRanking>7</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>8</Id>
@@ -79,6 +86,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/11/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Sylvain RIPOLL</Manager>
     <LeagueRanking>8</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>9</Id>
@@ -89,6 +97,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/22/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Hubert FOURNIER</Manager>
     <LeagueRanking>9</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>10</Id>
@@ -99,6 +108,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/6/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Marcelo BIELSA</Manager>
     <LeagueRanking>10</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>11</Id>
@@ -109,6 +119,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/20/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Albert CARTIER</Manager>
     <LeagueRanking>11</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>12</Id>
@@ -119,6 +130,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/25/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Leonardo JARDIM</Manager>
     <LeagueRanking>12</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>13</Id>
@@ -129,6 +141,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/17/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Rolland COURBIS</Manager>
     <LeagueRanking>13</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>14</Id>
@@ -139,6 +152,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/15/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Michel DER ZAKARIAN</Manager>
     <LeagueRanking>14</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>15</Id>
@@ -149,6 +163,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/46/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Claude PUEL</Manager>
     <LeagueRanking>15</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>16</Id>
@@ -159,6 +174,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/26/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Laurent BLANC</Manager>
     <LeagueRanking>16</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>17</Id>
@@ -169,6 +185,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/211/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Jean-Luc VASSEUR</Manager>
     <LeagueRanking>17</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>18</Id>
@@ -179,6 +196,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/14/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Philippe MONTANIER</Manager>
     <LeagueRanking>18</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>19</Id>
@@ -189,6 +207,7 @@
     <Logo>http://medias.lequipe.fr/logo-football/38/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Christophe GALTIER</Manager>
     <LeagueRanking>19</LeagueRanking>
+    <Level>50</Level>
   </Team>
   <Team>
     <Id>20</Id>
@@ -199,5 +218,6 @@
     <Logo>http://medias.lequipe.fr/logo-football/12/300?LFW0FOX0004800Y-14-46</Logo>
     <Manager>Alain CASANOVA</Manager>
     <LeagueRanking>20</LeagueRanking>
+    <Level>50</Level>
   </Team>
 </Teams>

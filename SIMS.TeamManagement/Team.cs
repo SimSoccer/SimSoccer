@@ -10,8 +10,8 @@ namespace SIMS.TeamsManagement
     {
         int _id; 
         string _name,  _teamTag, _town;
-        string _stadium, _logo, _manager; 
-        int _leagueRanking;
+        string _stadium, _logo, _manager;
+        int _leagueRanking; int _level;
 
         public int Id
         {
@@ -59,6 +59,12 @@ namespace SIMS.TeamsManagement
         {
             get { return _leagueRanking; }
             set { _leagueRanking = value; }
+        }
+
+        public int Level
+        {
+            get { return _level; }
+            set { _level = value; }
         }
     }
 }
