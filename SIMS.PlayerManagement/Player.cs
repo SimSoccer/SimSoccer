@@ -1,96 +1,105 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 using System.Xml.Linq;
+using System.Xml.XPath;
 
-namespace SoccerSimulator
+namespace SIMS.PlayersManagement
 {
-    class Player
+    public class Player
     {
         int _id; int _shirtNumber;
-        string _name; string _nationality;
+        string _name, _nationality;
         string _poste; float _height;
-        float _weight;
+        int _weight;
         string _birthDate; string _birthPlace;
         string _previousClub; string _actualClub;
         int _stats; int _formState;
         bool _injury; int _mental; int _financialValue;
 
-        public void CreateDictionary()
-        {
-            XDocument xdoc = XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\SimSoccer\SimSoccer\Ligue1FrenchPlayers" );
-            var query = xdoc.Descendants( "Players" )
-                            .Elements()
-                            .ToDictionary( r => r.Attribute( "Id" ).Value,
-                                         r => r.Value );
-        }
-        //readonly Dictionary<int, Animal> _animals;
 
         public int Id
         {
             get { return _id; }
+            set { _id = value; }
         }
 
         public int ShirtNumber
         {
             get { return _shirtNumber; }
+            set { _shirtNumber = value; }
         }
 
         public string Name
         {
             get { return _name; }
+            set { _name = value; }
         }
 
         public string Nationality
         {
             get { return _nationality; }
+            set { _nationality = value; }
         }
 
         public string Poste
         {
             get { return _poste; }
+            set { _poste = value; }
         }
 
         public float Height
         {
             get { return _height; }
+            set { _height = value; }
         }
 
-        public float Weight
+        public int Weight
         {
             get { return _weight; }
+            set { _weight = value; }
         }
 
         public string BirthDate
         {
             get { return _birthDate; }
+            set { _birthDate = value; }
         }
 
         public string BirthPlace
         {
             get { return _birthPlace; }
+            set { _birthDate = value; }
         }
 
         public string PreviousClub
         {
             get { return _previousClub; }
+            set { _previousClub = value; }
         }
 
         public string ActualClub
         {
             get { return _actualClub; }
+            set { _actualClub = value; }
         }
 
         public int Stats
         {
             get { return _stats; }
+            set { _stats = value; }
         }
 
         public int FormState
         {
             get { return _formState; }
+            set { _formState = value; }
         }
 
         /// <summary>
@@ -103,16 +112,20 @@ namespace SoccerSimulator
         public bool Injury
         {
             get { return _injury; }
+            set { _injury = value; }
         }
 
         public int Mental
         {
             get { return _mental; }
+            set { _mental = value; }
         }
 
         public int FinancialValue
         {
             get { return _financialValue; }
+            set { _financialValue = value; }
         }
+        
     }
 }
