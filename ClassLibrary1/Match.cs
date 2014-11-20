@@ -6,15 +6,18 @@ using System.Threading.Tasks;
 
 namespace DrawGame
 {
-     public class Match
+    public class Match
     {
         Team _team1;
         Team _team2;
 
-        public Match (Team team1, Team team2)
+        public Match(Team team1, Team team2)
         {
             _team1 = team1;
             _team2 = team2;
+
+            _team1.Oponent.Add(_team2);
+            _team2.Oponent.Add(_team1);
         }
     }
 }

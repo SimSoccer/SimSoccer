@@ -8,6 +8,6 @@ namespace DrawGame
 {
     public class Calendar
     {
-        List<Journee> journees = new List<Journee>();
+
     }
 }

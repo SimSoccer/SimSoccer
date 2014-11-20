@@ -12,9 +12,9 @@ namespace DrawGame
         string _stade;
         int _scoreTeam;
 
-        List<Team> opposent = new List<Team>();
+        List<Team> opponent = new List<Team>();
 
-        public Team( string team, int scoreTeam,string stade )
+        public Team(string team, int scoreTeam, string stade)
         {
             _team = team;
             _scoreTeam = scoreTeam;
@@ -24,20 +24,22 @@ namespace DrawGame
         public string NameTeam
         {
             get { return _team; }
-        }
-        public void AddOpposent(List<Team> opponent)
-        {
-            opposent.AddRange(opponent);
+            set { _team = value; }
         }
 
-        public void Remove(Team opponent)
+        public void Remove(Team team)
         {
-            opposent.Remove(opponent);
+            opponent.Remove(team);
         }
 
-        public List<Team> Opossent
+        public List<Team> Oponent
         {
-            get { return opposent; }
+            get { return opponent; }
+        }
+
+        public int TotalOponent
+        {
+            get { return opponent.Count(); }
         }
     }
 }

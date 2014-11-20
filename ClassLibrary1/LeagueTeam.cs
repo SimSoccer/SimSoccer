@@ -8,8 +8,13 @@ namespace DrawGame
 {
     public class LeagueTeam
     {
+        /// <summary>
+        /// fields
+        /// </summary>
         List<Team> _teamLeague;
-        Random _result = new Random();
+        Random r = new Random();
+        int tirageFirstTeam;
+        List<Match> matchs = new List<Match>();
 
         public LeagueTeam()
         {
@@ -21,30 +26,49 @@ namespace DrawGame
             get { return _teamLeague; }
         }
 
+        public int TotalLeague
+        {
+            get { return _teamLeague.Count(); }
+        }
+        public List<Match> ListMatch
+        {
+            get { return matchs; }
+        }
+        public int TotalMatch
+        {
+            get { return matchs.Count(); }
+        }
+
         public Team CreateTeam(string team, int scoreTeam, string stade)
         {
             Team t = new Team(team, scoreTeam, stade);
             _teamLeague.Add(t);
             return t;
         }
-      
-        public void DrawTeamLeague()
+
+        /// <summary>
+        /// Function witch return a list of matchs and who put the matchs in the journey
+        /// </summary>
+        /// <returns>List of matchs</returns>
+        public List<Match> CreateDayAller()
         {
-            Random r = new Random();
-            r.Next(1, _teamLeague.Count());
-            //Console.WriteLine(r.Next(1, _teamLeague.Count()).ToString());
-        }
-        
-        public void CreateDay()
-        {
-            foreach (Team t in _teamLeague)
+            while (TotalMatch <= TotalLeague / 2)
             {
-                if (!t.Opossent.Contains(t))
+                tirageFirstTeam = r.Next(0, TotalLeague);
+                int tirageSecondTeam = r.Next(0, TotalLeague);
+                if (!_teamLeague[tirageFirstTeam].Oponent.Contains(_teamLeague[tirageSecondTeam]) && tirageFirstTeam != tirageSecondTeam)
                 {
-                    t.AddOpposent(_teamLeague);
-                    t.Remove(t);
+                    Match m = new Match(_teamLeague[tirageFirstTeam], _teamLeague[tirageSecondTeam]);
+                    matchs.Add(m);
+                }
+                else
+                {
+                    tirageSecondTeam = r.Next(0, TotalLeague);
+                    Match m = new Match(_teamLeague[tirageFirstTeam], _teamLeague[tirageSecondTeam]);
+                    matchs.Add(m);
                 }
             }
+            return matchs;
         }
     }
 }
