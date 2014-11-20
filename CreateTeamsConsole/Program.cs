@@ -13,6 +13,8 @@ namespace CreateTeamsConsole
         {
             TeamsList test = new TeamsList();
 
+
+
             test.CreateTeamsList();
             foreach( KeyValuePair<int, Team> pair in test.Name )
             {

@@ -15,7 +15,6 @@ namespace SIMS.PlayersManagement
         public PlayersList()
         {
             _players = new Dictionary<int, Player>();
-            
         }
 
         /// <summary>
