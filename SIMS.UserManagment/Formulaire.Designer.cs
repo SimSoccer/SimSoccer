@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormInscription));
             this.btValider = new System.Windows.Forms.Button();
             this.btLire = new System.Windows.Forms.Button();
+            this.btLogin = new System.Windows.Forms.Button();
             this.userControl1 = new SIMS.UserManagment.UserControl1();
             this.SuspendLayout();
             // 
@@ -53,9 +55,19 @@
             this.btLire.UseVisualStyleBackColor = true;
             this.btLire.Click += new System.EventHandler(this.btLire_Click);
             // 
+            // btLogin
+            // 
+            this.btLogin.Location = new System.Drawing.Point(323, 168);
+            this.btLogin.Name = "btLogin";
+            this.btLogin.Size = new System.Drawing.Size(75, 23);
+            this.btLogin.TabIndex = 3;
+            this.btLogin.Text = "Login";
+            this.btLogin.UseVisualStyleBackColor = true;
+            this.btLogin.Click += new System.EventHandler(this.btLogin_Click);
+            // 
             // userControl1
             // 
-            this.userControl1.Location = new System.Drawing.Point(3, 14);
+            this.userControl1.Location = new System.Drawing.Point(39, 40);
             this.userControl1.Name = "userControl1";
             this.userControl1.Size = new System.Drawing.Size(249, 181);
             this.userControl1.TabIndex = 0;
@@ -66,12 +78,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(439, 343);
+            this.Controls.Add(this.btLogin);
             this.Controls.Add(this.btLire);
             this.Controls.Add(this.btValider);
             this.Controls.Add(this.userControl1);
             this.Name = "FormInscription";
             this.Text = "Inscription";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
         }
@@ -81,6 +97,7 @@
         private UserControl1 userControl1;
         private System.Windows.Forms.Button btValider;
         private System.Windows.Forms.Button btLire;
+        private System.Windows.Forms.Button btLogin;
 
 
 

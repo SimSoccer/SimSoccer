@@ -16,7 +16,8 @@ namespace SIMS.UserManagment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault( false );
-            Application.Run( new FormInscription() );
+            Application.Run( new StartForm() );
+            //Application.Run( new FormInscription() );
         }
     }
 }
