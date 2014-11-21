@@ -23,12 +23,6 @@ namespace SIMS.TeamsManagement
 
         public Team CreateTeamsList()
         {
-            PlayersList p = new PlayersList();
-            p.CreatePlayersList();
-            var r = p.Players
-                       .Where( a => a.ActualClubTag.Contains( t.TeamTag ) )
-                       .Select( a => a.Name );
-
             var doc = XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Teams.xml" );
             
             _teams = doc.Descendants( "Team" ).Select( team => new Team
@@ -41,8 +35,7 @@ namespace SIMS.TeamsManagement
                 Logo = team.Element( "Logo" ).Value,
                 Manager = team.Element( "Manager" ).Value,
                 LeagueRanking = int.Parse( team.Element( "LeagueRanking" ).Value ),
-                Level = int.Parse(team.Element("Level").Value),
-                Composition = r
+                Level = int.Parse(team.Element("Level").Value)
             } ).ToDictionary( team => team.Id, team => team );
             
             return t;

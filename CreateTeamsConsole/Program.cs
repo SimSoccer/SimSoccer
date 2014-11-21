@@ -13,12 +13,10 @@ namespace CreateTeamsConsole
         {
             TeamsList test = new TeamsList();
 
-
-
             test.CreateTeamsList();
             foreach( KeyValuePair<int, Team> pair in test.Name )
             {
-                Console.WriteLine( pair.Value.Composition );
+                Console.WriteLine( pair.Value );
             }
 
             /*foreach( var d in test.Name )
