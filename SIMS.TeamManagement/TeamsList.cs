@@ -8,40 +8,53 @@ using System.Xml.Linq;
 
 namespace SIMS.TeamsManagement
 {
-    public class TeamsList
+    public class TeamList
     {
-        internal Dictionary<int, Team> _teams;
-        Team p;
-        public TeamsList()
+        readonly Game _game;
+        readonly List<Team> _teams;
+
+        public TeamList( Game game )
         {
-            _teams = new Dictionary<int, Team>();
-            
+            _game = game;
+            _teams = new List<Team>();
         }
 
-
-        public Team CreateTeamsList()
+        public Game Game
         {
-            var doc = XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Teams.xml" );
-
-            _teams = doc.Descendants( "Team" ).Select( team => new Team
-            {
-                Id = int.Parse( team.Element( "Id" ).Value),
-                Name = team.Element( "Name" ).Value,
-                TeamTag = team.Element( "TeamTag" ).Value,
-                Town = team.Element( "Town" ).Value,
-                Stadium = team.Element( "Stadium" ).Value,
-                Logo = team.Element( "Logo" ).Value,
-                Manager = team.Element( "Manager" ).Value,
-                LeagueRanking = int.Parse( team.Element( "LeagueRanking" ).Value ),
-                Level = int.Parse(team.Element("Level").Value)
-            } ).ToDictionary( team => team.Id, team => team );
-            
-            return p;
+            get { return _game; }
         }
 
-        public Dictionary<int,Team> Name
+        public TeamList( Game game, XElement e )
         {
-            get { return _teams; }
+            _game = game;
+            _teams = e.Elements( "Team" )
+                .OrderBy( eT => int.Parse( eT.Attribute( "Id" ).Value ) )
+                .Select( eT => new Team( this, eT ) )
+                .ToList();
+        }
+
+        public XElement ToXml()
+        {
+            return new XElement( "Teams", _teams.Select( (t,idx) => t.ToXml( idx ) ) );
+        }
+
+        public IReadOnlyList<Team> Teams 
+        { 
+            get { return _teams; } 
+        }
+        public void RemoveTeam( Team t )
+        {
+            int idx = _teams.IndexOf( t );
+            if( idx < 0 ) throw new ArgumentException();
+            _teams.RemoveAt( idx );
+        }
+
+        public Team CreateTeam( string uniqueName )
+        {
+            if( _teams.Any( t => t.Name == uniqueName ) ) throw new InvalidOperationException( "Name must be unique!" );
+            var team = new Team( this, uniqueName );
+            _teams.Add( team );
+            return team;
         }
     }
 }

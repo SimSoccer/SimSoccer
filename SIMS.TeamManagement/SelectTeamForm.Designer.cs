@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectTeamForm));
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.previous = new System.Windows.Forms.Button();
             this.Logo = new System.Windows.Forms.PictureBox();
             this.teamName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,14 +43,15 @@
             resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Next_Click);
             // 
-            // button2
+            // previous
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = false;
+            this.previous.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.previous, "previous");
+            this.previous.Name = "previous";
+            this.previous.UseVisualStyleBackColor = false;
+            this.previous.Click += new System.EventHandler(this.Previous_Click);
             // 
             // Logo
             // 
@@ -78,7 +79,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.teamName);
             this.Controls.Add(this.Logo);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.previous);
             this.Controls.Add(this.button1);
             this.Name = "SelectTeamForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -92,7 +93,7 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button previous;
         private System.Windows.Forms.PictureBox Logo;
         protected System.Windows.Forms.TextBox teamName;
         private System.Windows.Forms.Label label1;

@@ -121,7 +121,7 @@
   <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAACE2SURBVHhe7Z0HfBRl+se5O/2fnoJYEEVEagAJNfSewu6m
+        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AACE2SURBVHhe7Z0HfBRl+se5O/2fnoJYEEVEagAJNfSewu6m
         EhACGAwBEiDUNFog9CKd0KRJFRQRBdFTFLw7FfEUPe6klySkk0Jvd+f5/J9n5n1n35mdbQmBJMz7+fw+
         szu7O1u+v6dM3UqlMH7HpsZ4yMcjqN+jDENU+FF/TJWaPm9F1+7xdkotvw0znmuT3A3nPo56lMkwQgUd
         v3uqaczTbQbs2Tdo7i8wZkUqRC06C91HfHW7tvntTU/WD38Vn/N/qD+ijIxQEUeTntumjVx2DmLfyoLw
@@ -298,10 +298,10 @@
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="button2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="previous.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAACB7SURBVHhe7Z0HeBVl1sf5vk9WEXtD0UVqaAktEEKAQNpN
+        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AACB7SURBVHhe7Z0HeBVl1sf5vk9WEXtD0UVqaAktEEKAQNpN
         LyDVYAglQKhp9A4JSO+IgFRBEFEQXUXB3VVR174rvSQhHRJ63eb5znln3sk7c2funRRjEuZ9nv8z997c
         IvP7n/85M7dYw1rWslblXv+D+j/Ufaiasuj6/6Lob9aqpovgEuQ/oB5EPYJ6VFZtFN1ORrBMUM0WB0+V
         XgtFwOug/oh6HvUc6gkUmeB+FN3XWtVk8bgnsA+jnkK9iGqMavOs18T4RpFbXmvcY8fS57wmeuNtdD9q
@@ -443,34 +443,34 @@
         /w+jyZ5bu1+TyQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="button2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="previous.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="button2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="previous.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="previous.Location" type="System.Drawing.Point, System.Drawing">
     <value>473, 165</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="previous.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 120</value>
   </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+  <data name="previous.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="button2.Text" xml:space="preserve">
+  <data name="previous.Text" xml:space="preserve">
     <value>previous</value>
   </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
+  <data name="&gt;&gt;previous.Name" xml:space="preserve">
+    <value>previous</value>
   </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+  <data name="&gt;&gt;previous.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;previous.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;previous.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="Logo.Location" type="System.Drawing.Point, System.Drawing">

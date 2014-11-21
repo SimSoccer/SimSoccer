@@ -13,14 +13,62 @@ namespace SIMS.TeamsManagement
 {
     public partial class SelectTeamForm : Form
     {
+
+        /*public Team Read_Dictionnay(){
+        
+        TeamListReader team = new TeamListReader();
+        team.CreateTeamsList();
+       
+        Team currentTeam = null;
+
+        currentTeam = team.Teams[i];
+        
+        return currentTeam;
+        }*/
+
+
+        
+        
+
+   
+        int i = 1;
+
         public SelectTeamForm()
         {
+            
             InitializeComponent();
+          
+            
         }
 
-        private void button1_Click( object sender, EventArgs e )
+      
+        private void Next_Click( object sender, EventArgs e )
         {
+           
+         /*   if( i == team.Teams.count)
+            {
+                i = 1;
+            }
+            else
+            {
+                i++;
+            }
+            
+            pictureBox1_Click( this, EventArgs.Empty );
+        */}
 
+        private void Previous_Click( object sender, EventArgs e )
+        {
+           /* if( i ==  0)
+            {
+                i = 9;
+            }
+            else
+            {
+                i--;
+            }
+            pictureBox1_Click( this, EventArgs.Empty );
+            */
         }
 
         private void SelectTeamForm_Load( object sender, EventArgs e )
@@ -41,9 +89,12 @@ namespace SIMS.TeamsManagement
 
         private void teamName_TextChanged( object sender, EventArgs e )
         {
-            teamName.Text = "équipe de merde";
+            
+            //teamName.Text = currentTeam
             
 
         }
+
+        
     }
 }

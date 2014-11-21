@@ -15,6 +15,7 @@ namespace SIMS.TeamsManagement
         [STAThread]
         static void Main()
         {
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault( false );
             Application.Run( new SelectTeamForm() );
