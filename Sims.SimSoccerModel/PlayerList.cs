@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace SIMS.TeamsManagement
+namespace Sims.SimSoccerModel
 {
-    class PlayerList
+    public class PlayerList
     {
         readonly Game _game;
         readonly List<Player> _players;
