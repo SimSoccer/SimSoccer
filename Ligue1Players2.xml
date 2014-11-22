@@ -5,11 +5,11 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>85</Weight>
     <BirthDate>27/02/1993</BirthDate>
     <BirthPlace>Paris</BirthPlace>
-    <PreviousClub>Paris St-Germain</PreviousClub>
+    <PreviousClub>Paris-Saint-Germain Football Club-Germain</PreviousClub>
     <ActualClub>Sporting Club de Bastia</ActualClub>
     <Stats>50</Stats>
     <FormState>100</FormState>
@@ -22,7 +22,7 @@
     <ShirtNumber>2</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>70</Weight>
     <BirthDate>15/02/1993</BirthDate>
     <BirthPlace>Bastia</BirthPlace>
@@ -39,11 +39,11 @@
     <ShirtNumber>3</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>64</Weight>
     <BirthDate>24/06/1995</BirthDate>
     <BirthPlace>Paris</BirthPlace>
-    <PreviousClub>Paris St-Germain</PreviousClub>
+    <PreviousClub>Paris-Saint-Germain Football Club-Germain</PreviousClub>
     <ActualClub>Sporting Club de Bastia</ActualClub>
     <Stats>50</Stats>
     <FormState>100</FormState>
@@ -56,7 +56,7 @@
     <ShirtNumber>4</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>70</Weight>
     <BirthDate>03/03/1986</BirthDate>
     <BirthPlace>Talence</BirthPlace>
@@ -73,7 +73,7 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>76</Weight>
     <BirthDate>11/08/1980</BirthDate>
     <BirthPlace>Toulon</BirthPlace>
@@ -90,7 +90,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>M</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>88</Weight>
     <BirthDate>04/06/1983</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -107,7 +107,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>TOG</Nationality>
     <Poste>M</Poste>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>68</Weight>
     <BirthDate>15/12/1988</BirthDate>
     <BirthPlace>Bordeaux</BirthPlace>
@@ -124,7 +124,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>74</Weight>
     <BirthDate>05/03/1993</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -141,7 +141,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>78</Weight>
     <BirthDate>12/08/1981</BirthDate>
     <BirthPlace>Arles</BirthPlace>
@@ -158,7 +158,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>ALG</Nationality>
     <Poste>M</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>59</Weight>
     <BirthDate>19/02/1990</BirthDate>
     <BirthPlace>Colmar</BirthPlace>
@@ -175,7 +175,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>F</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>77</Weight>
     <BirthDate>21/12/1992</BirthDate>
     <BirthPlace>Ouragahio</BirthPlace>
@@ -192,7 +192,7 @@
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>72</Weight>
     <BirthDate>08/11/1992</BirthDate>
     <BirthPlace>Bastia</BirthPlace>
@@ -209,7 +209,7 @@
     <ShirtNumber>13</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>M</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>75</Weight>
     <BirthDate>05/01/1994</BirthDate>
     <BirthPlace>Bamako</BirthPlace>
@@ -226,7 +226,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>F</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>74</Weight>
     <BirthDate>03/05/1994</BirthDate>
     <BirthPlace>Bamako</BirthPlace>
@@ -243,7 +243,7 @@
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>66</Weight>
     <BirthDate>17/12/1986</BirthDate>
     <BirthPlace>Lyon</BirthPlace>
@@ -260,7 +260,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>65</Weight>
     <BirthDate>21/09/1985</BirthDate>
     <BirthPlace>Bastia</BirthPlace>
@@ -277,7 +277,7 @@
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>80</Weight>
     <BirthDate>21/10/1990</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -294,7 +294,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>66</Weight>
     <BirthDate>18/01/1985</BirthDate>
     <BirthPlace>Ajaccio</BirthPlace>
@@ -311,7 +311,7 @@
     <ShirtNumber>19</ShirtNumber>
     <Nationality>BEL</Nationality>
     <Poste>F</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>83</Weight>
     <BirthDate>11/10/1989</BirthDate>
     <BirthPlace>Brussels</BirthPlace>
@@ -328,7 +328,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>80</Weight>
     <BirthDate>19/08/1978</BirthDate>
     <BirthPlace>Bastia</BirthPlace>
@@ -345,7 +345,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>GEO</Nationality>
     <Poste>M</Poste>
-    <Weight>1.75</Weight>
+    <Height>1,75</Height>
     <Weight>75</Weight>
     <BirthDate>21/01/1995</BirthDate>
     <BirthPlace>Tbilisi</BirthPlace>
@@ -362,7 +362,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>79</Weight>
     <BirthDate>19/03/1990</BirthDate>
     <BirthPlace>Montfermeil</BirthPlace>
@@ -379,7 +379,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>D</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>69</Weight>
     <BirthDate>18/02/1985</BirthDate>
     <BirthPlace>Bamako</BirthPlace>
@@ -396,7 +396,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>COL</Nationality>
     <Poste>F</Poste>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>69</Weight>
     <BirthDate>12/05/1996</BirthDate>
     <BirthPlace>Cúcuta</BirthPlace>
@@ -413,7 +413,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>GUI</Nationality>
     <Poste>F</Poste>
-    <Weight>1.75</Weight>
+    <Height>1,75</Height>
     <Weight>75</Weight>
     <BirthDate>01/05/1996</BirthDate>
     <BirthPlace></BirthPlace>
@@ -430,7 +430,7 @@
     <ShirtNumber>26</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>78</Weight>
     <BirthDate>16/06/1980</BirthDate>
     <BirthPlace>São Paulo</BirthPlace>
@@ -447,7 +447,7 @@
     <ShirtNumber>27</ShirtNumber>
     <Nationality>BEL</Nationality>
     <Poste>M</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>77</Weight>
     <BirthDate>09/03/1985</BirthDate>
     <BirthPlace>Liège</BirthPlace>
@@ -464,7 +464,7 @@
     <ShirtNumber>28</ShirtNumber>
     <Nationality>COL</Nationality>
     <Poste>M</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>72</Weight>
     <BirthDate>30/03/1987</BirthDate>
     <BirthPlace>Cartagena</BirthPlace>
@@ -481,7 +481,7 @@
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.65</Height>
+    <Height>1,65</Height>
     <Weight>65</Weight>
     <BirthDate>14/06/1984</BirthDate>
     <BirthPlace>Bastia</BirthPlace>
@@ -498,7 +498,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>73</Weight>
     <BirthDate>12/09/1993</BirthDate>
     <BirthPlace>Bastia</BirthPlace>
@@ -515,7 +515,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>SVN</Nationality>
     <Poste>G</Poste>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>91</Weight>
     <BirthDate>03/03/1992</BirthDate>
     <BirthPlace>Maribor</BirthPlace>
@@ -532,7 +532,7 @@
     <ShirtNumber>2</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>70</Weight>
     <BirthDate>23/06/1986</BirthDate>
     <BirthPlace>São João</BirthPlace>
@@ -549,7 +549,7 @@
     <ShirtNumber>3</ShirtNumber>
     <Nationality>ITA</Nationality>
     <Poste>D</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>70</Weight>
     <BirthDate>01/05/1990</BirthDate>
     <BirthPlace>Munich</BirthPlace>
@@ -566,7 +566,7 @@
     <ShirtNumber>4</ShirtNumber>
     <Nationality>POR</Nationality>
     <Poste>D</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>80</Weight>
     <BirthDate>26/02/1993</BirthDate>
     <BirthPlace>Hampstead</BirthPlace>
@@ -583,7 +583,7 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>85</Weight>
     <BirthDate>19/09/1987</BirthDate>
     <BirthPlace>Elbeuf</BirthPlace>
@@ -600,7 +600,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>77</Weight>
     <BirthDate>22/03/1987</BirthDate>
     <BirthPlace>Villeneuve-sur-Lot</BirthPlace>
@@ -617,7 +617,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>M</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>73</Weight>
     <BirthDate>17/01/1988</BirthDate>
     <BirthPlace>Bamako</BirthPlace>
@@ -634,7 +634,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>69</Weight>
     <BirthDate>05/08/1989</BirthDate>
     <BirthPlace>Brétigny-sur-Orge</BirthPlace>
@@ -651,7 +651,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>URU</Nationality>
     <Poste>F</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>74</Weight>
     <BirthDate>24/03/1993</BirthDate>
     <BirthPlace>Montevideo</BirthPlace>
@@ -668,7 +668,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>70</Weight>
     <BirthDate>26/10/1990</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -685,7 +685,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>F</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>75</Weight>
     <BirthDate>31/10/1990</BirthDate>
     <BirthPlace>Cululú</BirthPlace>
@@ -702,7 +702,7 @@
     <ShirtNumber>13</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>75</Weight>
     <BirthDate>27/12/1993</BirthDate>
     <BirthPlace>Grasse</BirthPlace>
@@ -719,7 +719,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>F</Poste>
-    <Height>1.94</Height>
+    <Height>1,94</Height>
     <Weight>84</Weight>
     <BirthDate>25/04/1988</BirthDate>
     <BirthPlace>Bamako</BirthPlace>
@@ -736,7 +736,7 @@
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>67</Weight>
     <BirthDate>23/05/1995</BirthDate>
     <BirthPlace>Bordeaux</BirthPlace>
@@ -753,7 +753,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>87</Weight>
     <BirthDate>30/12/1981</BirthDate>
     <BirthPlace>Avignon</BirthPlace>
@@ -770,7 +770,7 @@
     <ShirtNumber>17</ShirtNumber>
     <Nationality>GAB</Nationality>
     <Poste>M</Poste>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>72</Weight>
     <BirthDate>01/01/1993</BirthDate>
     <BirthPlace>Bitam</BirthPlace>
@@ -787,7 +787,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>CZE</Nationality>
     <Poste>M</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>72</Weight>
     <BirthDate>05/01/1982</BirthDate>
     <BirthPlace>Opo?no</BirthPlace>
@@ -804,7 +804,7 @@
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>76</Weight>
     <BirthDate>19/04/1985</BirthDate>
     <BirthPlace>Sucy-en-Brie</BirthPlace>
@@ -821,7 +821,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>76</Weight>
     <BirthDate>19/09/1983</BirthDate>
     <BirthPlace>Nova Venécia</BirthPlace>
@@ -838,7 +838,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>75</Weight>
     <BirthDate>01/08/1983</BirthDate>
     <BirthPlace>Le Havre</BirthPlace>
@@ -855,7 +855,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>TUN</Nationality>
     <Poste>M</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>78</Weight>
     <BirthDate>08/02/1991</BirthDate>
     <BirthPlace>Ajaccio</BirthPlace>
@@ -872,7 +872,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>71</Weight>
     <BirthDate>04/03/1994</BirthDate>
     <BirthPlace>Lille</BirthPlace>
@@ -889,7 +889,7 @@
     <ShirtNumber>26</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.68</Height>
+    <Height>1,68</Height>
     <Weight>71</Weight>
     <BirthDate>26/05/1993</BirthDate>
     <BirthPlace>Bruges</BirthPlace>
@@ -906,7 +906,7 @@
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>76</Weight>
     <BirthDate>07/03/1982</BirthDate>
     <BirthPlace>Bordeaux</BirthPlace>
@@ -923,7 +923,7 @@
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>71</Weight>
     <BirthDate>16/08/1992</BirthDate>
     <BirthPlace>Bordeaux</BirthPlace>
@@ -940,7 +940,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>88</Weight>
     <BirthDate>08/08/1995</BirthDate>
     <BirthPlace>Toulon</BirthPlace>
@@ -957,7 +957,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>78</Weight>
     <BirthDate>26/06/1980</BirthDate>
     <BirthPlace>Grande-Synthe</BirthPlace>
@@ -974,7 +974,7 @@
     <ShirtNumber>2</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>72</Weight>
     <BirthDate>11/08/1979</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -991,7 +991,7 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>TUN</Nationality>
     <Poste>D</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>81</Weight>
     <BirthDate>26/08/1981</BirthDate>
     <BirthPlace>Courbevoie</BirthPlace>
@@ -1008,7 +1008,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>76</Weight>
     <BirthDate>12/07/1984</BirthDate>
     <BirthPlace>Mont-Saint-Aignan</BirthPlace>
@@ -1025,7 +1025,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>83</Weight>
     <BirthDate>24/07/1989</BirthDate>
     <BirthPlace>Cayenne</BirthPlace>
@@ -1042,7 +1042,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>65</Weight>
     <BirthDate>24/03/1994</BirthDate>
     <BirthPlace>Caen</BirthPlace>
@@ -1059,7 +1059,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>86</Weight>
     <BirthDate>21/10/1990</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -1076,7 +1076,7 @@
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>68</Weight>
     <BirthDate>09/06/1992</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -1093,7 +1093,7 @@
     <ShirtNumber>13</ShirtNumber>
     <Nationality>HAI</Nationality>
     <Poste>D</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>79</Weight>
     <BirthDate>23/01/1981</BirthDate>
     <BirthPlace>Leogane</BirthPlace>
@@ -1110,7 +1110,7 @@
     <ShirtNumber>15</ShirtNumber>
     <Nationality>BEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>69</Weight>
     <BirthDate>16/09/1988</BirthDate>
     <BirthPlace>Bourges</BirthPlace>
@@ -1127,7 +1127,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>82</Weight>
     <BirthDate>08/03/1986</BirthDate>
     <BirthPlace>Saint-Brieuc</BirthPlace>
@@ -1144,7 +1144,7 @@
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>70</Weight>
     <BirthDate>29/03/1991</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -1161,7 +1161,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>BEN</Nationality>
     <Poste>M</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>77</Weight>
     <BirthDate>12/03/1989</BirthDate>
     <BirthPlace>L'Union</BirthPlace>
@@ -1178,7 +1178,7 @@
     <ShirtNumber>19</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>83</Weight>
     <BirthDate>11/09/1983</BirthDate>
     <BirthPlace>Santos</BirthPlace>
@@ -1195,7 +1195,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>73</Weight>
     <BirthDate>18/03/1990</BirthDate>
     <BirthPlace>Créteil</BirthPlace>
@@ -1212,7 +1212,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>63</Weight>
     <BirthDate>07/05/1982</BirthDate>
     <BirthPlace>Memin</BirthPlace>
@@ -1229,7 +1229,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>71</Weight>
     <BirthDate>21/06/1986</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -1246,7 +1246,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>78</Weight>
     <BirthDate>30/04/1984</BirthDate>
     <BirthPlace>Cormeilles-en-Parisis</BirthPlace>
@@ -1263,7 +1263,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>73</Weight>
     <BirthDate>06/06/1989</BirthDate>
     <BirthPlace>Marignane</BirthPlace>
@@ -1280,7 +1280,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>74</Weight>
     <BirthDate>05/07/1982</BirthDate>
     <BirthPlace>Saint Brieuc</BirthPlace>
@@ -1297,7 +1297,7 @@
     <ShirtNumber>26</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>65</Weight>
     <BirthDate>11/03/1993</BirthDate>
     <BirthPlace>Meudon</BirthPlace>
@@ -1314,7 +1314,7 @@
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.63</Height>
+    <Height>1,63</Height>
     <Weight>46</Weight>
     <BirthDate>12/11/1995</BirthDate>
     <BirthPlace>Baie-Mahault</BirthPlace>
@@ -1331,7 +1331,7 @@
     <ShirtNumber>28</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>77</Weight>
     <BirthDate>17/05/1988</BirthDate>
     <BirthPlace>Talence</BirthPlace>
@@ -1348,7 +1348,7 @@
     <ShirtNumber>29</ShirtNumber>
     <Nationality>GAB</Nationality>
     <Poste>D</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>83</Weight>
     <BirthDate>08/01/1992</BirthDate>
     <BirthPlace>Libreville</BirthPlace>
@@ -1365,7 +1365,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>64</Weight>
     <BirthDate>14/01/1994</BirthDate>
     <BirthPlace>Caen</BirthPlace>
@@ -1382,7 +1382,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>71</Weight>
     <BirthDate>17/06/1981</BirthDate>
     <BirthPlace>Evian</BirthPlace>
@@ -1399,7 +1399,7 @@
     <ShirtNumber>2</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>76</Weight>
     <BirthDate>09/04/1987</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -1416,7 +1416,7 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>SRB</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>76</Weight>
     <BirthDate>25/12/1984</BirthDate>
     <BirthPlace>Belgrade</BirthPlace>
@@ -1433,7 +1433,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>BFA</Nationality>
     <Poste>M</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>75</Weight>
     <BirthDate>22/07/1986</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -1450,7 +1450,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>75</Weight>
     <BirthDate>10/12/1993</BirthDate>
     <BirthPlace>Bourg-Saint-Maurice</BirthPlace>
@@ -1467,7 +1467,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>CRC</Nationality>
     <Poste>M</Poste>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>66</Weight>
     <BirthDate>17/03/1992</BirthDate>
     <BirthPlace>Puerto Limón</BirthPlace>
@@ -1484,7 +1484,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>BEL</Nationality>
     <Poste>F</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>64</Weight>
     <BirthDate>19/08/1991</BirthDate>
     <BirthPlace>Rocourt</BirthPlace>
@@ -1501,7 +1501,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>61</Weight>
     <BirthDate>24/02/1991</BirthDate>
     <BirthPlace>Montpellier</BirthPlace>
@@ -1518,7 +1518,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>67</Weight>
     <BirthDate>28/02/1985</BirthDate>
     <BirthPlace>Arles</BirthPlace>
@@ -1535,7 +1535,7 @@
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>75</Weight>
     <BirthDate>09/10/1981</BirthDate>
     <BirthPlace>Arles</BirthPlace>
@@ -1552,7 +1552,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>67</Weight>
     <BirthDate>06/03/1976</BirthDate>
     <BirthPlace>Aubenas</BirthPlace>
@@ -1569,7 +1569,7 @@
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>82</Weight>
     <BirthDate>04/05/1981</BirthDate>
     <BirthPlace>Le Havre</BirthPlace>
@@ -1586,7 +1586,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>74</Weight>
     <BirthDate>31/05/1989</BirthDate>
     <BirthPlace>Gladsaxe</BirthPlace>
@@ -1603,11 +1603,11 @@
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>71</Weight>
     <BirthDate>05/03/1993</BirthDate>
     <BirthPlace>Chesnay</BirthPlace>
-    <PreviousClub>Paris St-Germain</PreviousClub>
+    <PreviousClub>Paris-Saint-Germain Football Club-Germain</PreviousClub>
     <ActualClub>Evian Thonon Gaillard Football Club</ActualClub>
     <Stats>50</Stats>
     <FormState>100</FormState>
@@ -1620,7 +1620,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>F</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>68</Weight>
     <BirthDate>18/12/1984</BirthDate>
     <BirthPlace>Fissel</BirthPlace>
@@ -1637,7 +1637,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>COD</Nationality>
     <Poste>D</Poste>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>76</Weight>
     <BirthDate>22/06/1989</BirthDate>
     <BirthPlace>Kinshasa</BirthPlace>
@@ -1654,7 +1654,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>76</Weight>
     <BirthDate>20/09/1986</BirthDate>
     <BirthPlace>Montpellier</BirthPlace>
@@ -1671,7 +1671,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>F</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>76</Weight>
     <BirthDate>07/02/1988</BirthDate>
     <BirthPlace>Vigerslev</BirthPlace>
@@ -1688,7 +1688,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>77</Weight>
     <BirthDate>09/04/1979</BirthDate>
     <BirthPlace>Saint-Etienne</BirthPlace>
@@ -1705,7 +1705,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>GHA</Nationality>
     <Poste>D</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>75</Weight>
     <BirthDate>13/07/1990</BirthDate>
     <BirthPlace>Accra</BirthPlace>
@@ -1722,7 +1722,7 @@
     <ShirtNumber>26</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>78</Weight>
     <BirthDate>26/01/1989</BirthDate>
     <BirthPlace>Spjald</BirthPlace>
@@ -1739,7 +1739,7 @@
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>78</Weight>
     <BirthDate>10/07/1992</BirthDate>
     <BirthPlace>Lille</BirthPlace>
@@ -1756,7 +1756,7 @@
     <ShirtNumber>28</ShirtNumber>
     <Nationality>ALG</Nationality>
     <Poste>F</Poste>
-    <Height>1.65</Height>
+    <Height>1,65</Height>
     <Weight>65</Weight>
     <BirthDate>25/02/1992</BirthDate>
     <BirthPlace>El Meghaier</BirthPlace>
@@ -1773,7 +1773,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>G</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>78</Weight>
     <BirthDate>31/03/1985</BirthDate>
     <BirthPlace>Frederikssund</BirthPlace>
@@ -1790,7 +1790,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>G</Poste>
-    <Height>1.95</Height>
+    <Height>1,95</Height>
     <Weight>89</Weight>
     <BirthDate>01/02/1989</BirthDate>
     <BirthPlace>Kolding</BirthPlace>
@@ -1807,7 +1807,7 @@
     <ShirtNumber>2</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>75</Weight>
     <BirthDate>20/09/1979</BirthDate>
     <BirthPlace>Odense</BirthPlace>
@@ -1824,7 +1824,7 @@
     <ShirtNumber>3</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>D</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>69</Weight>
     <BirthDate>28/11/1986</BirthDate>
     <BirthPlace>Anyama</BirthPlace>
@@ -1841,7 +1841,7 @@
     <ShirtNumber>4</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>73</Weight>
     <BirthDate>20/03/1992</BirthDate>
     <BirthPlace>Nogent-sur-Marne</BirthPlace>
@@ -1858,7 +1858,7 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>M</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>78</Weight>
     <BirthDate>14/05/1986</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -1875,7 +1875,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.71</Height>
+    <Height>1,71</Height>
     <Weight>68</Weight>
     <BirthDate>02/06/1983</BirthDate>
     <BirthPlace>Corbeil Essonnes</BirthPlace>
@@ -1892,7 +1892,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>72</Weight>
     <BirthDate>22/11/1989</BirthDate>
     <BirthPlace>Annecy</BirthPlace>
@@ -1909,7 +1909,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>F</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>74</Weight>
     <BirthDate>29/08/1989</BirthDate>
     <BirthPlace>Ulsted</BirthPlace>
@@ -1926,7 +1926,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>76</Weight>
     <BirthDate>10/09/1989</BirthDate>
     <BirthPlace>Sarcelles</BirthPlace>
@@ -1943,7 +1943,7 @@
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>66</Weight>
     <BirthDate>16/04/1988</BirthDate>
     <BirthPlace>Saint-Claude</BirthPlace>
@@ -1960,7 +1960,7 @@
     <ShirtNumber>13</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.71</Height>
+    <Height>1,71</Height>
     <Weight>62</Weight>
     <BirthDate>07/02/1985</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -1977,7 +1977,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>CGO</Nationality>
     <Poste>F</Poste>
-    <Height>1.63</Height>
+    <Height>1,63</Height>
     <Weight>62</Weight>
     <BirthDate>24/05/1986</BirthDate>
     <BirthPlace>Brazzaville</BirthPlace>
@@ -1994,7 +1994,7 @@
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>79</Weight>
     <BirthDate>05/08/1983</BirthDate>
     <BirthPlace>Caen</BirthPlace>
@@ -2011,7 +2011,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>77</Weight>
     <BirthDate>16/05/1992</BirthDate>
     <BirthPlace>Saint-Étienne</BirthPlace>
@@ -2028,7 +2028,7 @@
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>81</Weight>
     <BirthDate>18/06/1992</BirthDate>
     <BirthPlace>La Rochelle</BirthPlace>
@@ -2045,7 +2045,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>71</Weight>
     <BirthDate>04/10/1981</BirthDate>
     <BirthPlace>Montreuil-sous-Bois</BirthPlace>
@@ -2062,7 +2062,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>70</Weight>
     <BirthDate>21/09/1993</BirthDate>
     <BirthPlace>Montmorency</BirthPlace>
@@ -2079,7 +2079,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>66</Weight>
     <BirthDate>15/04/1986</BirthDate>
     <BirthPlace>Vannes</BirthPlace>
@@ -2096,7 +2096,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>71</Weight>
     <BirthDate>29/09/1981</BirthDate>
     <BirthPlace>Pau</BirthPlace>
@@ -2113,7 +2113,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>69</Weight>
     <BirthDate>23/02/1989</BirthDate>
     <BirthPlace>Grenoble</BirthPlace>
@@ -2130,7 +2130,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>M</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>82</Weight>
     <BirthDate>02/03/1989</BirthDate>
     <BirthPlace>Beauvais</BirthPlace>
@@ -2147,7 +2147,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>66</Weight>
     <BirthDate>28/06/1983</BirthDate>
     <BirthPlace>Chambray-lès-Tours</BirthPlace>
@@ -2164,7 +2164,7 @@
     <ShirtNumber>26</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>68</Weight>
     <BirthDate>25/05/1981</BirthDate>
     <BirthPlace>Talence</BirthPlace>
@@ -2181,7 +2181,7 @@
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>74</Weight>
     <BirthDate>02/08/1986</BirthDate>
     <BirthPlace>Brest</BirthPlace>
@@ -2198,7 +2198,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>G</Poste>
-    <Height>1.91</Height>
+    <Height>1,91</Height>
     <Weight>81</Weight>
     <BirthDate>16/02/1990</BirthDate>
     <BirthPlace>Montreuil</BirthPlace>
@@ -2215,7 +2215,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>78</Weight>
     <BirthDate>22/01/1980</BirthDate>
     <BirthPlace>Grande-Synthe</BirthPlace>
@@ -2232,7 +2232,7 @@
     <ShirtNumber>4</ShirtNumber>
     <Nationality>MAR</Nationality>
     <Poste>D</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>80</Weight>
     <BirthDate>28/06/1985</BirthDate>
     <BirthPlace>Blois</BirthPlace>
@@ -2249,7 +2249,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>77</Weight>
     <BirthDate>15/02/1983</BirthDate>
     <BirthPlace>Toulon</BirthPlace>
@@ -2266,7 +2266,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>75</Weight>
     <BirthDate>28/11/1986</BirthDate>
     <BirthPlace>Avignon</BirthPlace>
@@ -2283,7 +2283,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>81</Weight>
     <BirthDate>14/08/1981</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -2300,7 +2300,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>F</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>74</Weight>
     <BirthDate>02/01/1988</BirthDate>
     <BirthPlace>Las Perdices</BirthPlace>
@@ -2317,7 +2317,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>M</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>72</Weight>
     <BirthDate>06/02/1985</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -2334,7 +2334,7 @@
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>70</Weight>
     <BirthDate>11/03/1992</BirthDate>
     <BirthPlace>Saint-Saulve</BirthPlace>
@@ -2351,7 +2351,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>67</Weight>
     <BirthDate>18/04/1988</BirthDate>
     <BirthPlace>Bron</BirthPlace>
@@ -2368,7 +2368,7 @@
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>77</Weight>
     <BirthDate>16/06/1995</BirthDate>
     <BirthPlace>Brussels</BirthPlace>
@@ -2385,7 +2385,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>MDA</Nationality>
     <Poste>M</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>74</Weight>
     <BirthDate>16/01/1986</BirthDate>
     <BirthPlace>Antananarivo</BirthPlace>
@@ -2402,7 +2402,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>68</Weight>
     <BirthDate>08/08/1986</BirthDate>
     <BirthPlace>Strasbourg</BirthPlace>
@@ -2419,11 +2419,11 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>75</Weight>
     <BirthDate>05/05/1992</BirthDate>
     <BirthPlace>Aubervilliers</BirthPlace>
-    <PreviousClub>Paris St-Germain</PreviousClub>
+    <PreviousClub>Paris-Saint-Germain Football Club-Germain</PreviousClub>
     <ActualClub>Racing Club de Lens</ActualClub>
     <Stats>50</Stats>
     <FormState>100</FormState>
@@ -2436,7 +2436,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>75</Weight>
     <BirthDate>28/01/1995</BirthDate>
     <BirthPlace>Pointe-à-Pitre</BirthPlace>
@@ -2453,7 +2453,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>72</Weight>
     <BirthDate>24/05/1986</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -2470,7 +2470,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>83</Weight>
     <BirthDate>25/05/1995</BirthDate>
     <BirthPlace>San-Pédro</BirthPlace>
@@ -2487,7 +2487,7 @@
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>80</Weight>
     <BirthDate>01/03/1990</BirthDate>
     <BirthPlace>Maubeuge</BirthPlace>
@@ -2504,7 +2504,7 @@
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>71</Weight>
     <BirthDate>14/01/1994</BirthDate>
     <BirthPlace>Calais</BirthPlace>
@@ -2521,7 +2521,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>NGA</Nationality>
     <Poste>G</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>80</Weight>
     <BirthDate>29/08/1982</BirthDate>
     <BirthPlace>Aba</BirthPlace>
@@ -2538,7 +2538,7 @@
     <ShirtNumber>2</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>65</Weight>
     <BirthDate>01/11/1990</BirthDate>
     <BirthPlace>Noisy-le-Sec</BirthPlace>
@@ -2555,7 +2555,7 @@
     <ShirtNumber>4</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.68</Height>
+    <Height>1,68</Height>
     <Weight>71</Weight>
     <BirthDate>02/02/1980</BirthDate>
     <BirthPlace>Sainte-Foy-les-Lyon</BirthPlace>
@@ -2572,7 +2572,7 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>M</Poste>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>64</Weight>
     <BirthDate>26/09/1989</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -2589,7 +2589,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.67</Height>
+    <Height>1,67</Height>
     <Weight>60</Weight>
     <BirthDate>20/03/1986</BirthDate>
     <BirthPlace>La Seyne-sur-Mer</BirthPlace>
@@ -2606,7 +2606,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>70</Weight>
     <BirthDate>18/11/1989</BirthDate>
     <BirthPlace>Saint-Denis de La Réunion</BirthPlace>
@@ -2623,7 +2623,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.71</Height>
+    <Height>1,71</Height>
     <Weight>63</Weight>
     <BirthDate>10/06/1988</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -2640,7 +2640,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>SUI</Nationality>
     <Poste>F</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>72</Weight>
     <BirthDate>19/07/1994</BirthDate>
     <BirthPlace></BirthPlace>
@@ -2657,7 +2657,7 @@
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>80</Weight>
     <BirthDate>17/03/1994</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -2674,7 +2674,7 @@
     <ShirtNumber>13</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>D</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>75</Weight>
     <BirthDate>18/06/1992</BirthDate>
     <BirthPlace>Fontenay-aux-Roses</BirthPlace>
@@ -2691,7 +2691,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>82</Weight>
     <BirthDate>26/03/1989</BirthDate>
     <BirthPlace>Horsens</BirthPlace>
@@ -2708,7 +2708,7 @@
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>73</Weight>
     <BirthDate>29/07/1992</BirthDate>
     <BirthPlace>Troyes</BirthPlace>
@@ -2725,7 +2725,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>85</Weight>
     <BirthDate>11/07/1980</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -2742,7 +2742,7 @@
     <ShirtNumber>17</ShirtNumber>
     <Nationality>POR</Nationality>
     <Poste>M</Poste>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>68</Weight>
     <BirthDate>28/12/1995</BirthDate>
     <BirthPlace>Belém</BirthPlace>
@@ -2759,7 +2759,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>75</Weight>
     <BirthDate>23/05/1983</BirthDate>
     <BirthPlace>Argenteuil</BirthPlace>
@@ -2776,7 +2776,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>CPV</Nationality>
     <Poste>F</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>77</Weight>
     <BirthDate>08/01/1990</BirthDate>
     <BirthPlace>Mindelo</BirthPlace>
@@ -2793,7 +2793,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>CZE</Nationality>
     <Poste>D</Poste>
-    <Height>1.93</Height>
+    <Height>1,93</Height>
     <Weight>77</Weight>
     <BirthDate>05/07/1980</BirthDate>
     <BirthPlace>Šternberk</BirthPlace>
@@ -2810,7 +2810,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>68</Weight>
     <BirthDate>06/06/1990</BirthDate>
     <BirthPlace>Mbao</BirthPlace>
@@ -2827,7 +2827,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>70</Weight>
     <BirthDate>08/03/1984</BirthDate>
     <BirthPlace>Born At Sea</BirthPlace>
@@ -2844,7 +2844,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>SRB</Nationality>
     <Poste>D</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>79</Weight>
     <BirthDate>29/12/1982</BirthDate>
     <BirthPlace>Trstenik</BirthPlace>
@@ -2861,7 +2861,7 @@
     <ShirtNumber>26</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>75</Weight>
     <BirthDate>01/03/1988</BirthDate>
     <BirthPlace>Compiègne</BirthPlace>
@@ -2878,7 +2878,7 @@
     <ShirtNumber>27</ShirtNumber>
     <Nationality>BEL</Nationality>
     <Poste>F</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>75</Weight>
     <BirthDate>18/04/1995</BirthDate>
     <BirthPlace>Ostend</BirthPlace>
@@ -2895,7 +2895,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>75</Weight>
     <BirthDate>08/06/1995</BirthDate>
     <BirthPlace>Lille</BirthPlace>
@@ -2912,7 +2912,7 @@
     <ShirtNumber>2</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>83</Weight>
     <BirthDate>01/02/1989</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -2929,7 +2929,7 @@
     <ShirtNumber>3</ShirtNumber>
     <Nationality>POR</Nationality>
     <Poste>D</Poste>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>73</Weight>
     <BirthDate>06/03/1985</BirthDate>
     <BirthPlace>Vila do Conde</BirthPlace>
@@ -2946,7 +2946,7 @@
     <ShirtNumber>4</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>64</Weight>
     <BirthDate>15/10/1989</BirthDate>
     <BirthPlace>Quimper</BirthPlace>
@@ -2963,7 +2963,7 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>ALG</Nationality>
     <Poste>M</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>82</Weight>
     <BirthDate>30/08/1983</BirthDate>
     <BirthPlace>Dijon</BirthPlace>
@@ -2980,7 +2980,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>70</Weight>
     <BirthDate>25/04/1987</BirthDate>
     <BirthPlace>Prades</BirthPlace>
@@ -2997,7 +2997,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>GUI</Nationality>
     <Poste>F</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>75</Weight>
     <BirthDate>28/12/1990</BirthDate>
     <BirthPlace>Conakry</BirthPlace>
@@ -3014,7 +3014,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>65</Weight>
     <BirthDate>23/07/1984</BirthDate>
     <BirthPlace>Montélimar</BirthPlace>
@@ -3031,7 +3031,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>GHA</Nationality>
     <Poste>F</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>81</Weight>
     <BirthDate>11/09/1991</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -3048,7 +3048,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>69</Weight>
     <BirthDate>20/06/1986</BirthDate>
     <BirthPlace>Le Mans</BirthPlace>
@@ -3065,7 +3065,7 @@
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>74</Weight>
     <BirthDate>03/08/1995</BirthDate>
     <BirthPlace>Saint-Malo</BirthPlace>
@@ -3082,7 +3082,7 @@
     <ShirtNumber>13</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>75</Weight>
     <BirthDate>15/01/1994</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -3099,7 +3099,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>67</Weight>
     <BirthDate>22/12/1993</BirthDate>
     <BirthPlace>Le Blanc-Mesnil</BirthPlace>
@@ -3116,7 +3116,7 @@
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>67</Weight>
     <BirthDate>06/01/1989</BirthDate>
     <BirthPlace>Hennebont</BirthPlace>
@@ -3133,7 +3133,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>89</Weight>
     <BirthDate>28/03/1978</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -3150,7 +3150,7 @@
     <ShirtNumber>17</ShirtNumber>
     <Nationality>ALG</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>69</Weight>
     <BirthDate>04/09/1985</BirthDate>
     <BirthPlace>Trappes</BirthPlace>
@@ -3167,7 +3167,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>70</Weight>
     <BirthDate>30/03/1991</BirthDate>
     <BirthPlace>Châteauroux</BirthPlace>
@@ -3184,7 +3184,7 @@
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.69</Height>
+    <Height>1,69</Height>
     <Weight>65</Weight>
     <BirthDate>25/03/1992</BirthDate>
     <BirthPlace>Ploërmel</BirthPlace>
@@ -3201,7 +3201,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.68</Height>
+    <Height>1,68</Height>
     <Weight>65</Weight>
     <BirthDate>17/08/1986</BirthDate>
     <BirthPlace>Thionville</BirthPlace>
@@ -3218,7 +3218,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>BFA</Nationality>
     <Poste>M</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>66</Weight>
     <BirthDate>31/12/1988</BirthDate>
     <BirthPlace>Bobo-Dioulasso</BirthPlace>
@@ -3235,7 +3235,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>73</Weight>
     <BirthDate>22/01/1992</BirthDate>
     <BirthPlace>Laxou</BirthPlace>
@@ -3252,7 +3252,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>64</Weight>
     <BirthDate>01/03/1991</BirthDate>
     <BirthPlace>Morlaix</BirthPlace>
@@ -3269,7 +3269,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>65</Weight>
     <BirthDate>25/08/1987</BirthDate>
     <BirthPlace>Épernay</BirthPlace>
@@ -3286,7 +3286,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>74</Weight>
     <BirthDate>20/10/1989</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -3303,7 +3303,7 @@
     <ShirtNumber>26</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>65</Weight>
     <BirthDate>07/04/1992</BirthDate>
     <BirthPlace>Courbevoie</BirthPlace>
@@ -3320,7 +3320,7 @@
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>69</Weight>
     <BirthDate>07/10/1991</BirthDate>
     <BirthPlace>Venissieux</BirthPlace>
@@ -3337,7 +3337,7 @@
     <ShirtNumber>28</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>65</Weight>
     <BirthDate>08/09/1988</BirthDate>
     <BirthPlace>Sartrouville</BirthPlace>
@@ -3354,7 +3354,7 @@
     <ShirtNumber>29</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>D</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>86</Weight>
     <BirthDate>16/12/1992</BirthDate>
     <BirthPlace>Koukourandoumi</BirthPlace>
@@ -3371,7 +3371,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.97</Height>
+    <Height>1,97</Height>
     <Weight>94</Weight>
     <BirthDate>21/03/1984</BirthDate>
     <BirthPlace>La Roche-sur-Yon</BirthPlace>
@@ -3388,7 +3388,7 @@
     <ShirtNumber>31</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.71</Height>
+    <Height>1,71</Height>
     <Weight>72</Weight>
     <BirthDate>04/06/1994</BirthDate>
     <BirthPlace>Lorient</BirthPlace>
@@ -3405,7 +3405,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>POR</Nationality>
     <Poste>G</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>81</Weight>
     <BirthDate>01/10/1990</BirthDate>
     <BirthPlace>Givors</BirthPlace>
@@ -3422,7 +3422,7 @@
     <ShirtNumber>2</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>63</Weight>
     <BirthDate>19/05/1992</BirthDate>
     <BirthPlace>Sainte-Foy-lès-Lyon</BirthPlace>
@@ -3439,7 +3439,7 @@
     <ShirtNumber>3</ShirtNumber>
     <Nationality>CMR</Nationality>
     <Poste>D</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>80</Weight>
     <BirthDate>04/06/1984</BirthDate>
     <BirthPlace>Douala</BirthPlace>
@@ -3456,7 +3456,7 @@
     <ShirtNumber>4</ShirtNumber>
     <Nationality>BFA</Nationality>
     <Poste>D</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>80</Weight>
     <BirthDate>27/04/1988</BirthDate>
     <BirthPlace>Ouagadougou</BirthPlace>
@@ -3473,11 +3473,11 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>SRB</Nationality>
     <Poste>D</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>83</Weight>
     <BirthDate>31/08/1983</BirthDate>
     <BirthPlace>Mitrovica</BirthPlace>
-    <PreviousClub>Paris St-Germain</PreviousClub>
+    <PreviousClub>Paris-Saint-Germain Football Club-Germain</PreviousClub>
     <ActualClub>Olympique Lyonnais</ActualClub>
     <Stats>50</Stats>
     <FormState>100</FormState>
@@ -3490,7 +3490,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>74</Weight>
     <BirthDate>16/05/1991</BirthDate>
     <BirthPlace>Le Havre</BirthPlace>
@@ -3507,7 +3507,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>72</Weight>
     <BirthDate>07/01/1991</BirthDate>
     <BirthPlace>Annonay</BirthPlace>
@@ -3524,7 +3524,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>79</Weight>
     <BirthDate>11/07/1986</BirthDate>
     <BirthPlace>Lorient</BirthPlace>
@@ -3541,7 +3541,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>69</Weight>
     <BirthDate>28/05/1991</BirthDate>
     <BirthPlace>Lyon</BirthPlace>
@@ -3558,7 +3558,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>65</Weight>
     <BirthDate>09/05/1992</BirthDate>
     <BirthPlace>Décines-Charpieu</BirthPlace>
@@ -3575,7 +3575,7 @@
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>70</Weight>
     <BirthDate>12/03/1992</BirthDate>
     <BirthPlace>Cavaillon</BirthPlace>
@@ -3592,11 +3592,11 @@
     <ShirtNumber>13</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>65</Weight>
     <BirthDate>31/10/1983</BirthDate>
     <BirthPlace>Cognac</BirthPlace>
-    <PreviousClub>Paris St-Germain</PreviousClub>
+    <PreviousClub>Paris-Saint-Germain Football Club-Germain</PreviousClub>
     <ActualClub>Olympique Lyonnais</ActualClub>
     <Stats>50</Stats>
     <FormState>100</FormState>
@@ -3609,7 +3609,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>67</Weight>
     <BirthDate>28/11/1986</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -3626,7 +3626,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>SUI</Nationality>
     <Poste>G</Poste>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>88</Weight>
     <BirthDate>08/03/1993</BirthDate>
     <BirthPlace>Geneva</BirthPlace>
@@ -3643,7 +3643,7 @@
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>73</Weight>
     <BirthDate>06/01/1980</BirthDate>
     <BirthPlace>Mouscron</BirthPlace>
@@ -3660,7 +3660,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>72</Weight>
     <BirthDate>18/07/1993</BirthDate>
     <BirthPlace>Lyon</BirthPlace>
@@ -3677,7 +3677,7 @@
     <ShirtNumber>19</ShirtNumber>
     <Nationality>GUI</Nationality>
     <Poste>F</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>76</Weight>
     <BirthDate>28/07/1993</BirthDate>
     <BirthPlace>Conakry</BirthPlace>
@@ -3694,7 +3694,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>CMR</Nationality>
     <Poste>F</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>68</Weight>
     <BirthDate>15/08/1993</BirthDate>
     <BirthPlace>Douala</BirthPlace>
@@ -3711,7 +3711,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>76</Weight>
     <BirthDate>10/03/1989</BirthDate>
     <BirthPlace>Vénissieux</BirthPlace>
@@ -3728,7 +3728,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>79</Weight>
     <BirthDate>08/02/1992</BirthDate>
     <BirthPlace>Rennes</BirthPlace>
@@ -3745,7 +3745,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>75</Weight>
     <BirthDate>14/11/1993</BirthDate>
     <BirthPlace>Yaoundé</BirthPlace>
@@ -3762,7 +3762,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.65</Height>
+    <Height>1,65</Height>
     <Weight>54</Weight>
     <BirthDate>03/08/1994</BirthDate>
     <BirthPlace>Tarare</BirthPlace>
@@ -3779,7 +3779,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>71</Weight>
     <BirthDate>08/09/1994</BirthDate>
     <BirthPlace>Saint-Aubin Lès-Elbeuf</BirthPlace>
@@ -3796,7 +3796,7 @@
     <ShirtNumber>26</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>65</Weight>
     <BirthDate>19/11/1981</BirthDate>
     <BirthPlace>Vannes</BirthPlace>
@@ -3813,7 +3813,7 @@
     <ShirtNumber>28</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>67</Weight>
     <BirthDate>28/01/1985</BirthDate>
     <BirthPlace>Alencon</BirthPlace>
@@ -3830,7 +3830,7 @@
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>78</Weight>
     <BirthDate>08/04/1995</BirthDate>
     <BirthPlace>Lyon</BirthPlace>
@@ -3847,7 +3847,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>83</Weight>
     <BirthDate>05/08/1990</BirthDate>
     <BirthPlace>Ambérieu-en-Bugey</BirthPlace>
@@ -3864,7 +3864,7 @@
     <ShirtNumber>3</ShirtNumber>
     <Nationality>CMR</Nationality>
     <Poste>D</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>77</Weight>
     <BirthDate>27/03/1990</BirthDate>
     <BirthPlace>Yaoundé</BirthPlace>
@@ -3881,7 +3881,7 @@
     <ShirtNumber>4</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>82</Weight>
     <BirthDate>08/11/1994</BirthDate>
     <BirthPlace>São Gonçalo</BirthPlace>
@@ -3898,7 +3898,7 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>82</Weight>
     <BirthDate>17/02/1995</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -3915,7 +3915,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>65</Weight>
     <BirthDate>24/02/1994</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -3932,7 +3932,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>78</Weight>
     <BirthDate>03/05/1981</BirthDate>
     <BirthPlace>Suresnes</BirthPlace>
@@ -3949,7 +3949,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>76</Weight>
     <BirthDate>01/09/1993</BirthDate>
     <BirthPlace>Libreville</BirthPlace>
@@ -3966,7 +3966,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>84</Weight>
     <BirthDate>12/05/1985</BirthDate>
     <BirthPlace>Martigues</BirthPlace>
@@ -3983,7 +3983,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>GHA</Nationality>
     <Poste>F</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>72</Weight>
     <BirthDate>17/12/1989</BirthDate>
     <BirthPlace>Seclin</BirthPlace>
@@ -4000,7 +4000,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.66</Height>
+    <Height>1,66</Height>
     <Weight>60</Weight>
     <BirthDate>03/04/1989</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -4017,7 +4017,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>70</Weight>
     <BirthDate>26/01/1993</BirthDate>
     <BirthPlace>Orléans</BirthPlace>
@@ -4034,7 +4034,7 @@
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>71</Weight>
     <BirthDate>02/04/1984</BirthDate>
     <BirthPlace>Lorient</BirthPlace>
@@ -4051,7 +4051,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>CGO</Nationality>
     <Poste>G</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>79</Weight>
     <BirthDate>25/04/1994</BirthDate>
     <BirthPlace>Linzolo</BirthPlace>
@@ -4068,7 +4068,7 @@
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>70</Weight>
     <BirthDate>29/03/1987</BirthDate>
     <BirthPlace>St-Pierre de la Réunion</BirthPlace>
@@ -4085,7 +4085,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>TOG</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>74</Weight>
     <BirthDate>18/01/1984</BirthDate>
     <BirthPlace>L'Hay-les-Roses</BirthPlace>
@@ -4102,7 +4102,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>BEL</Nationality>
     <Poste>F</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>78</Weight>
     <BirthDate>02/10/1993</BirthDate>
     <BirthPlace>Brussels</BirthPlace>
@@ -4119,7 +4119,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>72</Weight>
     <BirthDate>17/07/1994</BirthDate>
     <BirthPlace>Longjumeau</BirthPlace>
@@ -4136,7 +4136,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>78</Weight>
     <BirthDate>06/12/1981</BirthDate>
     <BirthPlace>Martigues</BirthPlace>
@@ -4153,7 +4153,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>CGO</Nationality>
     <Poste>M</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>77</Weight>
     <BirthDate>12/09/1992</BirthDate>
     <BirthPlace>Vilvoorde</BirthPlace>
@@ -4170,7 +4170,7 @@
     <ShirtNumber>26</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>D</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>70</Weight>
     <BirthDate>23/12/1990</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -4187,7 +4187,7 @@
     <ShirtNumber>27</ShirtNumber>
     <Nationality>MAR</Nationality>
     <Poste>M</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>73</Weight>
     <BirthDate>19/06/1989</BirthDate>
     <BirthPlace>Provins</BirthPlace>
@@ -4204,7 +4204,7 @@
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>73</Weight>
     <BirthDate>16/12/1997</BirthDate>
     <BirthPlace>Schœlcher</BirthPlace>
@@ -4221,7 +4221,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>82</Weight>
     <BirthDate>28/03/1985</BirthDate>
     <BirthPlace>Kinshasa</BirthPlace>
@@ -4238,7 +4238,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>79</Weight>
     <BirthDate>07/05/1988</BirthDate>
     <BirthPlace>Avignon</BirthPlace>
@@ -4255,7 +4255,7 @@
     <ShirtNumber>3</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>79</Weight>
     <BirthDate>18/05/1989</BirthDate>
     <BirthPlace>Le Blanc-Mesnil</BirthPlace>
@@ -4272,7 +4272,7 @@
     <ShirtNumber>4</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>80</Weight>
     <BirthDate>10/02/1980</BirthDate>
     <BirthPlace>Langres</BirthPlace>
@@ -4289,7 +4289,7 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>D</Poste>
-    <Height>1.94</Height>
+    <Height>1,94</Height>
     <Weight>93</Weight>
     <BirthDate>03/07/1987</BirthDate>
     <BirthPlace>Haedo</BirthPlace>
@@ -4306,7 +4306,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>75</Weight>
     <BirthDate>02/10/1981</BirthDate>
     <BirthPlace>Cavaillon</BirthPlace>
@@ -4323,7 +4323,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>72</Weight>
     <BirthDate>11/09/1992</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -4340,7 +4340,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>VEN</Nationality>
     <Poste>F</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>81</Weight>
     <BirthDate>24/02/1989</BirthDate>
     <BirthPlace> Acarigua</BirthPlace>
@@ -4357,7 +4357,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>65</Weight>
     <BirthDate>31/01/1992</BirthDate>
     <BirthPlace>Lyon</BirthPlace>
@@ -4374,7 +4374,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>F</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>74</Weight>
     <BirthDate>03/03/1994</BirthDate>
     <BirthPlace>Carapachay</BirthPlace>
@@ -4391,7 +4391,7 @@
     <ShirtNumber>12</ShirtNumber>
     <Nationality>GHA</Nationality>
     <Poste>F</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>76</Weight>
     <BirthDate>01/08/1992</BirthDate>
     <BirthPlace>Accra</BirthPlace>
@@ -4408,7 +4408,7 @@
     <ShirtNumber>13</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>73</Weight>
     <BirthDate>13/06/1980</BirthDate>
     <BirthPlace>Cayenne</BirthPlace>
@@ -4425,7 +4425,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>BFA</Nationality>
     <Poste>M</Poste>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>65</Weight>
     <BirthDate>13/04/1993</BirthDate>
     <BirthPlace>Ouagadougou</BirthPlace>
@@ -4442,7 +4442,7 @@
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>72</Weight>
     <BirthDate>28/03/1990</BirthDate>
     <BirthPlace>Metz</BirthPlace>
@@ -4459,7 +4459,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>GAB</Nationality>
     <Poste>G</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>91</Weight>
     <BirthDate>07/03/1991</BirthDate>
     <BirthPlace>Beauvais</BirthPlace>
@@ -4476,7 +4476,7 @@
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>69</Weight>
     <BirthDate>27/09/1996</BirthDate>
     <BirthPlace>Bregbo</BirthPlace>
@@ -4493,7 +4493,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>70</Weight>
     <BirthDate>09/02/1985</BirthDate>
     <BirthPlace>Le Mans</BirthPlace>
@@ -4510,7 +4510,7 @@
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>68</Weight>
     <BirthDate>11/12/1993</BirthDate>
     <BirthPlace>Mont-Saint-Martin</BirthPlace>
@@ -4527,7 +4527,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>F</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>76</Weight>
     <BirthDate>03/09/1986</BirthDate>
     <BirthPlace>Bamako</BirthPlace>
@@ -4544,7 +4544,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>76</Weight>
     <BirthDate>18/11/1988</BirthDate>
     <BirthPlace>Aubervilliers</BirthPlace>
@@ -4561,7 +4561,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>76</Weight>
     <BirthDate>22/01/1985</BirthDate>
     <BirthPlace>Cambrai</BirthPlace>
@@ -4578,7 +4578,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>71</Weight>
     <BirthDate>23/01/1992</BirthDate>
     <BirthPlace>Croix</BirthPlace>
@@ -4595,7 +4595,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>75</Weight>
     <BirthDate>02/02/1991</BirthDate>
     <BirthPlace>Épinal</BirthPlace>
@@ -4612,7 +4612,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>M</Poste>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>79</Weight>
     <BirthDate>24/04/1984</BirthDate>
     <BirthPlace>Rufisque</BirthPlace>
@@ -4629,7 +4629,7 @@
     <ShirtNumber>26</ShirtNumber>
     <Nationality>LUX</Nationality>
     <Poste>D</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>72</Weight>
     <BirthDate>08/03/1994</BirthDate>
     <BirthPlace>Wiltz</BirthPlace>
@@ -4646,7 +4646,7 @@
     <ShirtNumber>27</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>D</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>87</Weight>
     <BirthDate>05/01/1990</BirthDate>
     <BirthPlace>San Miguel de Tucumán</BirthPlace>
@@ -4663,7 +4663,7 @@
     <ShirtNumber>28</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>M</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>67</Weight>
     <BirthDate>18/12/1991</BirthDate>
     <BirthPlace>Mbao</BirthPlace>
@@ -4680,7 +4680,7 @@
     <ShirtNumber>29</ShirtNumber>
     <Nationality>BLR</Nationality>
     <Poste>M</Poste>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>77</Weight>
     <BirthDate>08/06/1986</BirthDate>
     <BirthPlace>Grodno</BirthPlace>
@@ -4697,7 +4697,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>75</Weight>
     <BirthDate>29/11/1989</BirthDate>
     <BirthPlace>Bitche</BirthPlace>
@@ -4714,7 +4714,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>CRO</Nationality>
     <Poste>G</Poste>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>84</Weight>
     <BirthDate>27/10/1984</BirthDate>
     <BirthPlace>Zadar</BirthPlace>
@@ -4731,7 +4731,7 @@
     <ShirtNumber>2</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>78</Weight>
     <BirthDate>23/10/1993</BirthDate>
     <BirthPlace>Campinas</BirthPlace>
@@ -4748,7 +4748,7 @@
     <ShirtNumber>3</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>73</Weight>
     <BirthDate>04/09/1992</BirthDate>
     <BirthPlace>Fréjuis</BirthPlace>
@@ -4765,7 +4765,7 @@
     <ShirtNumber>4</ShirtNumber>
     <Nationality>ESP</Nationality>
     <Poste>D</Poste>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>83</Weight>
     <BirthDate>02/02/1994</BirthDate>
     <BirthPlace>Gijón</BirthPlace>
@@ -4782,7 +4782,7 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>TUN</Nationality>
     <Poste>D</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>84</Weight>
     <BirthDate>06/08/1989</BirthDate>
     <BirthPlace>Sousse</BirthPlace>
@@ -4799,7 +4799,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>POR</Nationality>
     <Poste>D</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>76</Weight>
     <BirthDate>18/05/1978</BirthDate>
     <BirthPlace>Amarante</BirthPlace>
@@ -4816,7 +4816,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>MAR</Nationality>
     <Poste>M</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>79</Weight>
     <BirthDate>25/02/1986</BirthDate>
     <BirthPlace>Casablanca</BirthPlace>
@@ -4833,7 +4833,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>POR</Nationality>
     <Poste>M</Poste>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>61</Weight>
     <BirthDate>08/09/1986</BirthDate>
     <BirthPlace>Portimão</BirthPlace>
@@ -4850,7 +4850,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>BUL</Nationality>
     <Poste>F</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>79</Weight>
     <BirthDate>30/01/1981</BirthDate>
     <BirthPlace>Blagoevgrad</BirthPlace>
@@ -4867,7 +4867,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>M</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>82</Weight>
     <BirthDate>11/07/1994</BirthDate>
     <BirthPlace>Quilmes</BirthPlace>
@@ -4884,7 +4884,7 @@
     <ShirtNumber>13</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.91</Height>
+    <Height>1,91</Height>
     <Weight>78</Weight>
     <BirthDate>14/10/1994</BirthDate>
     <BirthPlace>Rio de Janeiro</BirthPlace>
@@ -4901,7 +4901,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>77</Weight>
     <BirthDate>17/08/1994</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -4918,7 +4918,7 @@
     <ShirtNumber>15</ShirtNumber>
     <Nationality>POR</Nationality>
     <Poste>M</Poste>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>62</Weight>
     <BirthDate>10/08/1994</BirthDate>
     <BirthPlace>Lisbon</BirthPlace>
@@ -4935,7 +4935,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>NED</Nationality>
     <Poste>G</Poste>
-    <Height>1.97</Height>
+    <Height>1,97</Height>
     <Weight>92</Weight>
     <BirthDate>22/09/1982</BirthDate>
     <BirthPlace>Haarlem</BirthPlace>
@@ -4952,7 +4952,7 @@
     <ShirtNumber>17</ShirtNumber>
     <Nationality>BEL</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>67</Weight>
     <BirthDate>04/09/1993</BirthDate>
     <BirthPlace>Elsene</BirthPlace>
@@ -4969,7 +4969,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>75</Weight>
     <BirthDate>17/04/1990</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -4986,7 +4986,7 @@
     <ShirtNumber>19</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>F</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>75</Weight>
     <BirthDate>20/08/1990</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -5003,7 +5003,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>NGA</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>76</Weight>
     <BirthDate>20/01/1988</BirthDate>
     <BirthPlace>Cotonou</BirthPlace>
@@ -5020,7 +5020,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>71</Weight>
     <BirthDate>25/04/1993</BirthDate>
     <BirthPlace>Saint-Denis</BirthPlace>
@@ -5037,7 +5037,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>76</Weight>
     <BirthDate>05/12/1995</BirthDate>
     <BirthPlace>Massy</BirthPlace>
@@ -5054,7 +5054,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>ITA</Nationality>
     <Poste>D</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>82</Weight>
     <BirthDate>24/06/1984</BirthDate>
     <BirthPlace>Carrara</BirthPlace>
@@ -5071,7 +5071,7 @@
     <ShirtNumber>28</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>77</Weight>
     <BirthDate>10/09/1983</BirthDate>
     <BirthPlace>Nantes</BirthPlace>
@@ -5088,7 +5088,7 @@
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>65</Weight>
     <BirthDate>22/05/1995</BirthDate>
     <BirthPlace></BirthPlace>
@@ -5105,7 +5105,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>G</Poste>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>80</Weight>
     <BirthDate>12/12/1995</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -5122,7 +5122,7 @@
     <ShirtNumber>34</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>72</Weight>
     <BirthDate>04/05/1996</BirthDate>
     <BirthPlace>Tours</BirthPlace>
@@ -5139,7 +5139,7 @@
     <ShirtNumber>37</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>62</Weight>
     <BirthDate>15/01/1997</BirthDate>
     <BirthPlace></BirthPlace>
@@ -5156,7 +5156,7 @@
     <ShirtNumber>38</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>D</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>72</Weight>
     <BirthDate>28/04/1996</BirthDate>
     <BirthPlace></BirthPlace>
@@ -5173,7 +5173,7 @@
     <ShirtNumber>40</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.91</Height>
+    <Height>1,91</Height>
     <Weight>79</Weight>
     <BirthDate>12/05/1994</BirthDate>
     <BirthPlace>Melun</BirthPlace>
@@ -5190,7 +5190,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>76</Weight>
     <BirthDate>24/05/1982</BirthDate>
     <BirthPlace>Bagnois sur Cèze</BirthPlace>
@@ -5207,7 +5207,7 @@
     <ShirtNumber>3</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>79</Weight>
     <BirthDate>05/04/1985</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -5224,7 +5224,7 @@
     <ShirtNumber>4</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>73</Weight>
     <BirthDate>13/09/1977</BirthDate>
     <BirthPlace>Brasilia</BirthPlace>
@@ -5241,11 +5241,11 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>D</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>72</Weight>
     <BirthDate>22/02/1982</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
-    <PreviousClub>Paris St-Germain</PreviousClub>
+    <PreviousClub>Paris-Saint-Germain Football Club-Germain</PreviousClub>
     <ActualClub>Montpellier-Herault Sports Club</ActualClub>
     <Stats>50</Stats>
     <FormState>100</FormState>
@@ -5258,7 +5258,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>69</Weight>
     <BirthDate>15/08/1982</BirthDate>
     <BirthPlace>Vannes</BirthPlace>
@@ -5275,7 +5275,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>65</Weight>
     <BirthDate>27/09/1987</BirthDate>
     <BirthPlace>Aubenas</BirthPlace>
@@ -5292,7 +5292,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>70</Weight>
     <BirthDate>09/04/1990</BirthDate>
     <BirthPlace>Besançon</BirthPlace>
@@ -5309,7 +5309,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>69</Weight>
     <BirthDate>03/03/1984</BirthDate>
     <BirthPlace>Thonon-les-Bains</BirthPlace>
@@ -5326,7 +5326,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>PAR</Nationality>
     <Poste>F</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>87</Weight>
     <BirthDate>13/11/1984</BirthDate>
     <BirthPlace>San Fernando</BirthPlace>
@@ -5343,7 +5343,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>COL</Nationality>
     <Poste>F</Poste>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>76</Weight>
     <BirthDate>01/05/1984</BirthDate>
     <BirthPlace>Cali</BirthPlace>
@@ -5360,7 +5360,7 @@
     <ShirtNumber>13</ShirtNumber>
     <Nationality>SUI</Nationality>
     <Poste>D</Poste>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>79</Weight>
     <BirthDate>27/04/1991</BirthDate>
     <BirthPlace>Geneva</BirthPlace>
@@ -5377,7 +5377,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>75</Weight>
     <BirthDate>18/02/1992</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -5394,7 +5394,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>73</Weight>
     <BirthDate>04/02/1986</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -5411,7 +5411,7 @@
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>72</Weight>
     <BirthDate>16/01/1989</BirthDate>
     <BirthPlace>Saint-Cloud</BirthPlace>
@@ -5428,7 +5428,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>MAR</Nationality>
     <Poste>F</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>65</Weight>
     <BirthDate>25/02/1989</BirthDate>
     <BirthPlace>Limoges</BirthPlace>
@@ -5445,7 +5445,7 @@
     <ShirtNumber>19</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>F</Poste>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>72</Weight>
     <BirthDate>22/12/1982</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -5462,7 +5462,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>70</Weight>
     <BirthDate>18/08/1994</BirthDate>
     <BirthPlace>Saint-Doulchard</BirthPlace>
@@ -5479,7 +5479,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>MAR</Nationality>
     <Poste>D</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>73</Weight>
     <BirthDate>17/03/1990</BirthDate>
     <BirthPlace>Montpellier</BirthPlace>
@@ -5496,7 +5496,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>TUN</Nationality>
     <Poste>M</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>73</Weight>
     <BirthDate>27/01/1987</BirthDate>
     <BirthPlace>Montpellier</BirthPlace>
@@ -5513,7 +5513,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>PER</Nationality>
     <Poste>F</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>71</Weight>
     <BirthDate>09/06/1993</BirthDate>
     <BirthPlace>Callao</BirthPlace>
@@ -5530,7 +5530,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>66</Weight>
     <BirthDate>01/10/1991</BirthDate>
     <BirthPlace>Montpellier</BirthPlace>
@@ -5547,7 +5547,7 @@
     <ShirtNumber>26</ShirtNumber>
     <Nationality>MAR</Nationality>
     <Poste>D</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>70</Weight>
     <BirthDate>24/08/1991</BirthDate>
     <BirthPlace>Poitiers</BirthPlace>
@@ -5564,7 +5564,7 @@
     <ShirtNumber>27</ShirtNumber>
     <Nationality>BEN</Nationality>
     <Poste>F</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>80</Weight>
     <BirthDate>29/09/1994</BirthDate>
     <BirthPlace>Parakou</BirthPlace>
@@ -5581,7 +5581,7 @@
     <ShirtNumber>28</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.71</Height>
+    <Height>1,71</Height>
     <Weight>67</Weight>
     <BirthDate>06/04/1989</BirthDate>
     <BirthPlace>Marseille</BirthPlace>
@@ -5598,7 +5598,7 @@
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.69</Height>
+    <Height>1,69</Height>
     <Weight>65</Weight>
     <BirthDate>05/07/1994</BirthDate>
     <BirthPlace>Thiais</BirthPlace>
@@ -5615,7 +5615,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>82</Weight>
     <BirthDate>28/05/1991</BirthDate>
     <BirthPlace>Montpellier</BirthPlace>
@@ -5632,7 +5632,7 @@
     <ShirtNumber>31</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>75</Weight>
     <BirthDate>17/01/1994</BirthDate>
     <BirthPlace>La Ciotat</BirthPlace>
@@ -5649,7 +5649,7 @@
     <ShirtNumber>32</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>81</Weight>
     <BirthDate>24/10/1992</BirthDate>
     <BirthPlace>Rouen</BirthPlace>
@@ -5666,7 +5666,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.91</Height>
+    <Height>1,91</Height>
     <Weight>81</Weight>
     <BirthDate>06/08/1987</BirthDate>
     <BirthPlace>Lyon</BirthPlace>
@@ -5683,7 +5683,7 @@
     <ShirtNumber>2</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>74</Weight>
     <BirthDate>03/03/1989</BirthDate>
     <BirthPlace>Grindsted</BirthPlace>
@@ -5700,7 +5700,7 @@
     <ShirtNumber>3</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.93</Height>
+    <Height>1,93</Height>
     <Weight>82</Weight>
     <BirthDate>01/12/1988</BirthDate>
     <BirthPlace>Kaolack</BirthPlace>
@@ -5717,7 +5717,7 @@
     <ShirtNumber>4</ShirtNumber>
     <Nationality>VEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.91</Height>
+    <Height>1,91</Height>
     <Weight>86</Weight>
     <BirthDate>31/05/1984</BirthDate>
     <BirthPlace>Caracas</BirthPlace>
@@ -5734,7 +5734,7 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>69</Weight>
     <BirthDate>16/07/1985</BirthDate>
     <BirthPlace>Suresnes</BirthPlace>
@@ -5751,7 +5751,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>64</Weight>
     <BirthDate>14/02/1984</BirthDate>
     <BirthPlace>Versailles</BirthPlace>
@@ -5768,7 +5768,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>USA</Nationality>
     <Poste>M</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>73</Weight>
     <BirthDate>29/04/1987</BirthDate>
     <BirthPlace>Weston</BirthPlace>
@@ -5785,7 +5785,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>73</Weight>
     <BirthDate>08/11/1985</BirthDate>
     <BirthPlace>Lyon</BirthPlace>
@@ -5802,7 +5802,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>ISR</Nationality>
     <Poste>F</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>77</Weight>
     <BirthDate>22/02/1987</BirthDate>
     <BirthPlace>Ramat Yishai</BirthPlace>
@@ -5819,7 +5819,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>VEN</Nationality>
     <Poste>F</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>80</Weight>
     <BirthDate>09/04/1992</BirthDate>
     <BirthPlace>Caracas</BirthPlace>
@@ -5836,7 +5836,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>GUI</Nationality>
     <Poste>F</Poste>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>72</Weight>
     <BirthDate>02/01/1985</BirthDate>
     <BirthPlace>Conakry</BirthPlace>
@@ -5853,7 +5853,7 @@
     <ShirtNumber>12</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>M</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>75</Weight>
     <BirthDate>06/06/1992</BirthDate>
     <BirthPlace>Kayes</BirthPlace>
@@ -5870,7 +5870,7 @@
     <ShirtNumber>13</ShirtNumber>
     <Nationality>TOG</Nationality>
     <Poste>M</Poste>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>79</Weight>
     <BirthDate>07/05/1987</BirthDate>
     <BirthPlace>Bondy</BirthPlace>
@@ -5887,7 +5887,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>68</Weight>
     <BirthDate>13/02/1995</BirthDate>
     <BirthPlace>Versailles</BirthPlace>
@@ -5904,7 +5904,7 @@
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>65</Weight>
     <BirthDate>14/09/1994</BirthDate>
     <BirthPlace>Segré</BirthPlace>
@@ -5921,7 +5921,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>80</Weight>
     <BirthDate>22/09/1991</BirthDate>
     <BirthPlace>Grande-Synthe</BirthPlace>
@@ -5938,7 +5938,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>77</Weight>
     <BirthDate>26/12/1988</BirthDate>
     <BirthPlace>Reims</BirthPlace>
@@ -5955,7 +5955,7 @@
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>77</Weight>
     <BirthDate>03/03/1994</BirthDate>
     <BirthPlace>Nantes</BirthPlace>
@@ -5972,7 +5972,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>75</Weight>
     <BirthDate>04/11/1992</BirthDate>
     <BirthPlace>Ermont</BirthPlace>
@@ -5989,7 +5989,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>73</Weight>
     <BirthDate>12/12/1983</BirthDate>
     <BirthPlace>Nice</BirthPlace>
@@ -6006,7 +6006,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>73</Weight>
     <BirthDate>23/02/1985</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -6023,7 +6023,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>78</Weight>
     <BirthDate>11/09/1991</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -6040,7 +6040,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>COM</Nationality>
     <Poste>D</Poste>
-    <Height>1.71</Height>
+    <Height>1,71</Height>
     <Weight>56</Weight>
     <BirthDate>04/12/1991</BirthDate>
     <BirthPlace>Nantes</BirthPlace>
@@ -6057,7 +6057,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>66</Weight>
     <BirthDate>01/03/1993</BirthDate>
     <BirthPlace>Ancenis</BirthPlace>
@@ -6074,7 +6074,7 @@
     <ShirtNumber>26</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>71</Weight>
     <BirthDate>30/11/1992</BirthDate>
     <BirthPlace>Bagnolet</BirthPlace>
@@ -6091,7 +6091,7 @@
     <ShirtNumber>28</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>66</Weight>
     <BirthDate>07/12/1994</BirthDate>
     <BirthPlace>Mâcon</BirthPlace>
@@ -6108,7 +6108,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>85</Weight>
     <BirthDate>04/03/1993</BirthDate>
     <BirthPlace>Malestroit</BirthPlace>
@@ -6125,7 +6125,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>74</Weight>
     <BirthDate>05/03/1995</BirthDate>
     <BirthPlace>Fréjus</BirthPlace>
@@ -6142,7 +6142,7 @@
     <ShirtNumber>3</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>72</Weight>
     <BirthDate>17/10/1989</BirthDate>
     <BirthPlace>Sorocaba</BirthPlace>
@@ -6159,7 +6159,7 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>85</Weight>
     <BirthDate>20/01/1989</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -6176,7 +6176,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>76</Weight>
     <BirthDate>12/07/1986</BirthDate>
     <BirthPlace>Gisors</BirthPlace>
@@ -6193,7 +6193,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>BEL</Nationality>
     <Poste>M</Poste>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>66</Weight>
     <BirthDate>12/01/1993</BirthDate>
     <BirthPlace>Sint-Agatha-Berchem</BirthPlace>
@@ -6210,7 +6210,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>M</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>66</Weight>
     <BirthDate>31/08/1988</BirthDate>
     <BirthPlace>Bamako</BirthPlace>
@@ -6227,7 +6227,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>77</Weight>
     <BirthDate>13/08/1986</BirthDate>
     <BirthPlace>St Dié</BirthPlace>
@@ -6244,7 +6244,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>73</Weight>
     <BirthDate>25/03/1992</BirthDate>
     <BirthPlace>Aix-en-Provence</BirthPlace>
@@ -6261,7 +6261,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.65</Height>
+    <Height>1,65</Height>
     <Weight>65</Weight>
     <BirthDate>24/08/1987</BirthDate>
     <BirthPlace>Bagnols-sur-Cèze</BirthPlace>
@@ -6278,7 +6278,7 @@
     <ShirtNumber>12</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>F</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>67</Weight>
     <BirthDate>16/05/1984</BirthDate>
     <BirthPlace>Baradero</BirthPlace>
@@ -6295,7 +6295,7 @@
     <ShirtNumber>13</ShirtNumber>
     <Nationality>SWE</Nationality>
     <Poste>M</Poste>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>65</Weight>
     <BirthDate>13/02/1990</BirthDate>
     <BirthPlace>Värnamo</BirthPlace>
@@ -6312,7 +6312,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>72</Weight>
     <BirthDate>10/03/1993</BirthDate>
     <BirthPlace>Lille</BirthPlace>
@@ -6329,7 +6329,7 @@
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>67</Weight>
     <BirthDate>20/02/1992</BirthDate>
     <BirthPlace>Nice</BirthPlace>
@@ -6346,7 +6346,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>79</Weight>
     <BirthDate>28/05/1985</BirthDate>
     <BirthPlace>Cholet</BirthPlace>
@@ -6363,7 +6363,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.71</Height>
+    <Height>1,71</Height>
     <Weight>69</Weight>
     <BirthDate>14/08/1996</BirthDate>
     <BirthPlace>Versailles</BirthPlace>
@@ -6380,7 +6380,7 @@
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>70</Weight>
     <BirthDate>09/03/1994</BirthDate>
     <BirthPlace>Toulon</BirthPlace>
@@ -6397,7 +6397,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>88</Weight>
     <BirthDate>24/12/1978</BirthDate>
     <BirthPlace>Gabou</BirthPlace>
@@ -6414,7 +6414,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>GAB</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>73</Weight>
     <BirthDate>28/11/1988</BirthDate>
     <BirthPlace>Arles</BirthPlace>
@@ -6431,7 +6431,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.68</Height>
+    <Height>1,68</Height>
     <Weight>68</Weight>
     <BirthDate>23/06/1992</BirthDate>
     <BirthPlace>La Seyne-sur-Mer</BirthPlace>
@@ -6448,7 +6448,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>66</Weight>
     <BirthDate>23/04/1993</BirthDate>
     <BirthPlace>Nice</BirthPlace>
@@ -6465,11 +6465,11 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>91</Weight>
     <BirthDate>22/11/1982</BirthDate>
     <BirthPlace>Evreux</BirthPlace>
-    <PreviousClub>Paris St-Germain</PreviousClub>
+    <PreviousClub>Paris-Saint-Germain Football Club-Germain</PreviousClub>
     <ActualClub>Olympique Gymnaste Club Nice Côte d'Azur</ActualClub>
     <Stats>50</Stats>
     <FormState>100</FormState>
@@ -6482,7 +6482,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>HAI</Nationality>
     <Poste>D</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>66</Weight>
     <BirthDate>28/10/1987</BirthDate>
     <BirthPlace>L'Estère</BirthPlace>
@@ -6499,7 +6499,7 @@
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>65</Weight>
     <BirthDate>27/03/1994</BirthDate>
     <BirthPlace>Fréjus</BirthPlace>
@@ -6516,7 +6516,7 @@
     <ShirtNumber>28</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.69</Height>
+    <Height>1,69</Height>
     <Weight>61</Weight>
     <BirthDate>28/07/1993</BirthDate>
     <BirthPlace>Saint-Raphaël</BirthPlace>
@@ -6533,7 +6533,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>84</Weight>
     <BirthDate>29/03/1990</BirthDate>
     <BirthPlace>Briey</BirthPlace>
@@ -6550,7 +6550,7 @@
     <ShirtNumber>31</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>80</Weight>
     <BirthDate>07/02/1992</BirthDate>
     <BirthPlace>Gwediawayé</BirthPlace>
@@ -6567,7 +6567,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>77</Weight>
     <BirthDate>22/04/1980</BirthDate>
     <BirthPlace>Rasny-sous-Bois</BirthPlace>
@@ -6584,7 +6584,7 @@
     <ShirtNumber>2</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>79</Weight>
     <BirthDate>22/09/1984</BirthDate>
     <BirthPlace>Rio de Janeiro</BirthPlace>
@@ -6601,7 +6601,7 @@
     <ShirtNumber>4</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>72</Weight>
     <BirthDate>14/01/1986</BirthDate>
     <BirthPlace>Tourcoing</BirthPlace>
@@ -6618,7 +6618,7 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>67</Weight>
     <BirthDate>14/05/1994</BirthDate>
     <BirthPlace>São Paulo</BirthPlace>
@@ -6635,7 +6635,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>76</Weight>
     <BirthDate>03/04/1979</BirthDate>
     <BirthPlace>Colombes</BirthPlace>
@@ -6652,7 +6652,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>66</Weight>
     <BirthDate>13/08/1992</BirthDate>
     <BirthPlace>São Paulo</BirthPlace>
@@ -6669,7 +6669,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>ITA</Nationality>
     <Poste>M</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>77</Weight>
     <BirthDate>28/08/1982</BirthDate>
     <BirthPlace>São Bernardo do Campo</BirthPlace>
@@ -6686,7 +6686,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>URU</Nationality>
     <Poste>F</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>71</Weight>
     <BirthDate>14/02/1987</BirthDate>
     <BirthPlace>Montevideo</BirthPlace>
@@ -6703,7 +6703,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>SWE</Nationality>
     <Poste>F</Poste>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>84</Weight>
     <BirthDate>03/10/1981</BirthDate>
     <BirthPlace>Malmö</BirthPlace>
@@ -6720,7 +6720,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>70</Weight>
     <BirthDate>09/04/1987</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -6737,7 +6737,7 @@
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>70</Weight>
     <BirthDate>01/05/1993</BirthDate>
     <BirthPlace>Saint-Denis</BirthPlace>
@@ -6754,7 +6754,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>80</Weight>
     <BirthDate>03/07/1995</BirthDate>
     <BirthPlace>Cayenne</BirthPlace>
@@ -6771,7 +6771,7 @@
     <ShirtNumber>17</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>73</Weight>
     <BirthDate>27/08/1981</BirthDate>
     <BirthPlace>Vila Velha</BirthPlace>
@@ -6788,7 +6788,7 @@
     <ShirtNumber>19</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>D</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>75</Weight>
     <BirthDate>24/12/1992</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -6805,7 +6805,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>71</Weight>
     <BirthDate>11/09/1987</BirthDate>
     <BirthPlace>Sens</BirthPlace>
@@ -6822,7 +6822,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>75</Weight>
     <BirthDate>20/07/1993</BirthDate>
     <BirthPlace>Meaux</BirthPlace>
@@ -6839,7 +6839,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>F</Poste>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>75</Weight>
     <BirthDate>03/05/1985</BirthDate>
     <BirthPlace>Villa Gobernador Gálvez</BirthPlace>
@@ -6856,7 +6856,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>NED</Nationality>
     <Poste>D</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>68</Weight>
     <BirthDate>03/02/1988</BirthDate>
     <BirthPlace>Amsterdam</BirthPlace>
@@ -6873,7 +6873,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>ITA</Nationality>
     <Poste>M</Poste>
-    <Height>1.65</Height>
+    <Height>1,65</Height>
     <Weight>60</Weight>
     <BirthDate>05/11/1992</BirthDate>
     <BirthPlace>Pescara</BirthPlace>
@@ -6890,7 +6890,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>71</Weight>
     <BirthDate>03/04/1995</BirthDate>
     <BirthPlace>Saint-Maurice</BirthPlace>
@@ -6907,7 +6907,7 @@
     <ShirtNumber>27</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>M</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>75</Weight>
     <BirthDate>20/06/1989</BirthDate>
     <BirthPlace>Córdoba</BirthPlace>
@@ -6924,7 +6924,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>ITA</Nationality>
     <Poste>G</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>80</Weight>
     <BirthDate>12/01/1987</BirthDate>
     <BirthPlace>Nuoro</BirthPlace>
@@ -6941,7 +6941,7 @@
     <ShirtNumber>32</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>84</Weight>
     <BirthDate>22/04/1987</BirthDate>
     <BirthPlace>São Paulo</BirthPlace>
@@ -6958,7 +6958,7 @@
     <ShirtNumber>40</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.95</Height>
+    <Height>1,95</Height>
     <Weight>95</Weight>
     <BirthDate>22/06/1993</BirthDate>
     <BirthPlace>Poissy</BirthPlace>
@@ -6975,7 +6975,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.93</Height>
+    <Height>1,93</Height>
     <Weight>85</Weight>
     <BirthDate>22/01/1995</BirthDate>
     <BirthPlace>Metz</BirthPlace>
@@ -6992,7 +6992,7 @@
     <ShirtNumber>2</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>D</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>75</Weight>
     <BirthDate>07/03/1985</BirthDate>
     <BirthPlace>Gonesse</BirthPlace>
@@ -7009,7 +7009,7 @@
     <ShirtNumber>3</ShirtNumber>
     <Nationality>ITA</Nationality>
     <Poste>D</Poste>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>60</Weight>
     <BirthDate>19/09/1981</BirthDate>
     <BirthPlace>Nogent-sur-Marne</BirthPlace>
@@ -7026,7 +7026,7 @@
     <ShirtNumber>4</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>73</Weight>
     <BirthDate>09/06/1987</BirthDate>
     <BirthPlace>Montreuil</BirthPlace>
@@ -7043,7 +7043,7 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>74</Weight>
     <BirthDate>01/07/1984</BirthDate>
     <BirthPlace>Laval</BirthPlace>
@@ -7060,7 +7060,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>70</Weight>
     <BirthDate>21/02/1985</BirthDate>
     <BirthPlace>Dieppe</BirthPlace>
@@ -7077,7 +7077,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>CPV</Nationality>
     <Poste>F</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>70</Weight>
     <BirthDate>31/03/1987</BirthDate>
     <BirthPlace>Alfortville</BirthPlace>
@@ -7094,7 +7094,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>78</Weight>
     <BirthDate>04/11/1988</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -7111,7 +7111,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>ISR</Nationality>
     <Poste>F</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>73</Weight>
     <BirthDate>17/02/1987</BirthDate>
     <BirthPlace>Tel Aviv</BirthPlace>
@@ -7128,7 +7128,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>80</Weight>
     <BirthDate>27/12/1988</BirthDate>
     <BirthPlace>Saint-Mandé</BirthPlace>
@@ -7145,7 +7145,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>72</Weight>
     <BirthDate>09/03/1988</BirthDate>
     <BirthPlace>Americana</BirthPlace>
@@ -7162,7 +7162,7 @@
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>77</Weight>
     <BirthDate>08/01/1991</BirthDate>
     <BirthPlace>Istres</BirthPlace>
@@ -7179,7 +7179,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>CMR</Nationality>
     <Poste>F</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>76</Weight>
     <BirthDate>12/11/1988</BirthDate>
     <BirthPlace>Douala</BirthPlace>
@@ -7196,7 +7196,7 @@
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>78</Weight>
     <BirthDate>26/05/1991</BirthDate>
     <BirthPlace>Meaux</BirthPlace>
@@ -7213,7 +7213,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>TOG</Nationality>
     <Poste>G</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>86</Weight>
     <BirthDate>07/07/1978</BirthDate>
     <BirthPlace>Lomé</BirthPlace>
@@ -7230,7 +7230,7 @@
     <ShirtNumber>17</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>M</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>76</Weight>
     <BirthDate>14/01/1990</BirthDate>
     <BirthPlace>Roskilde</BirthPlace>
@@ -7247,7 +7247,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>72</Weight>
     <BirthDate>22/02/1989</BirthDate>
     <BirthPlace>Lorient</BirthPlace>
@@ -7264,7 +7264,7 @@
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>75</Weight>
     <BirthDate>18/12/1990</BirthDate>
     <BirthPlace>Mulhouse</BirthPlace>
@@ -7281,7 +7281,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>73</Weight>
     <BirthDate>01/02/1992</BirthDate>
     <BirthPlace>Strasbourg</BirthPlace>
@@ -7298,7 +7298,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>GNB</Nationality>
     <Poste>M</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>69</Weight>
     <BirthDate>28/12/1986</BirthDate>
     <BirthPlace>Biombo</BirthPlace>
@@ -7315,7 +7315,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>69</Weight>
     <BirthDate>23/04/1981</BirthDate>
     <BirthPlace>Colombes</BirthPlace>
@@ -7332,7 +7332,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>ALG</Nationality>
     <Poste>D</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>78</Weight>
     <BirthDate>22/10/1991</BirthDate>
     <BirthPlace>Châlons-en-Champagne</BirthPlace>
@@ -7349,7 +7349,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>79</Weight>
     <BirthDate>01/04/1989</BirthDate>
     <BirthPlace>Gennevilliers</BirthPlace>
@@ -7366,7 +7366,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>82</Weight>
     <BirthDate>11/06/1987</BirthDate>
     <BirthPlace>Strasbourg</BirthPlace>
@@ -7383,7 +7383,7 @@
     <ShirtNumber>26</ShirtNumber>
     <Nationality>COD</Nationality>
     <Poste>D</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>69</Weight>
     <BirthDate>20/03/1994</BirthDate>
     <BirthPlace></BirthPlace>
@@ -7400,7 +7400,7 @@
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>74</Weight>
     <BirthDate>05/06/1989</BirthDate>
     <BirthPlace>Montreuil</BirthPlace>
@@ -7417,11 +7417,11 @@
     <ShirtNumber>28</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>73</Weight>
     <BirthDate>29/01/1994</BirthDate>
     <BirthPlace>Paris</BirthPlace>
-    <PreviousClub>Paris St-Germain</PreviousClub>
+    <PreviousClub>Paris-Saint-Germain Football Club-Germain</PreviousClub>
     <ActualClub>Stade de Reims</ActualClub>
     <Stats>50</Stats>
     <FormState>100</FormState>
@@ -7434,7 +7434,7 @@
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>84</Weight>
     <BirthDate>12/08/1995</BirthDate>
     <BirthPlace></BirthPlace>
@@ -7451,7 +7451,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>HAI</Nationality>
     <Poste>G</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>84</Weight>
     <BirthDate>29/01/1988</BirthDate>
     <BirthPlace>Montfermeil</BirthPlace>
@@ -7468,7 +7468,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>83</Weight>
     <BirthDate>03/07/1987</BirthDate>
     <BirthPlace>Caen</BirthPlace>
@@ -7485,7 +7485,7 @@
     <ShirtNumber>3</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>75</Weight>
     <BirthDate>23/07/1988</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -7502,7 +7502,7 @@
     <ShirtNumber>4</ShirtNumber>
     <Nationality>MOZ</Nationality>
     <Poste>D</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>75</Weight>
     <BirthDate>08/09/1985</BirthDate>
     <BirthPlace>Maputo</BirthPlace>
@@ -7519,7 +7519,7 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>CMR</Nationality>
     <Poste>D</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>86</Weight>
     <BirthDate>03/07/1989</BirthDate>
     <BirthPlace>Metz</BirthPlace>
@@ -7536,7 +7536,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>SUI</Nationality>
     <Poste>M</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>70</Weight>
     <BirthDate>02/09/1986</BirthDate>
     <BirthPlace>Praia</BirthPlace>
@@ -7553,7 +7553,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>75</Weight>
     <BirthDate>29/07/1992</BirthDate>
     <BirthPlace>Douala</BirthPlace>
@@ -7570,7 +7570,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>69</Weight>
     <BirthDate>01/01/1993</BirthDate>
     <BirthPlace>Meulan-en-Yvelines</BirthPlace>
@@ -7587,7 +7587,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>SWE</Nationality>
     <Poste>F</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>74</Weight>
     <BirthDate>03/07/1986</BirthDate>
     <BirthPlace>Degerfors</BirthPlace>
@@ -7604,7 +7604,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>POL</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>78</Weight>
     <BirthDate>08/06/1988</BirthDate>
     <BirthPlace>Szczecin</BirthPlace>
@@ -7621,7 +7621,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>AUT</Nationality>
     <Poste>F</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>75</Weight>
     <BirthDate>15/05/1989</BirthDate>
     <BirthPlace>Eisenstadt</BirthPlace>
@@ -7638,7 +7638,7 @@
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>67</Weight>
     <BirthDate>13/08/1994</BirthDate>
     <BirthPlace>Noisy-le-Grand</BirthPlace>
@@ -7655,7 +7655,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>75</Weight>
     <BirthDate>14/08/1989</BirthDate>
     <BirthPlace>Pikine</BirthPlace>
@@ -7672,7 +7672,7 @@
     <ShirtNumber>15</ShirtNumber>
     <Nationality>CMR</Nationality>
     <Poste>M</Poste>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>69</Weight>
     <BirthDate>29/05/1983</BirthDate>
     <BirthPlace>Yaoundé</BirthPlace>
@@ -7689,7 +7689,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>76</Weight>
     <BirthDate>16/04/1981</BirthDate>
     <BirthPlace>Gien</BirthPlace>
@@ -7706,7 +7706,7 @@
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.76</Height>
+    <Height>1,76</Height>
     <Weight>64</Weight>
     <BirthDate>19/08/1990</BirthDate>
     <BirthPlace>Domont</BirthPlace>
@@ -7723,7 +7723,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>72</Weight>
     <BirthDate>16/06/1990</BirthDate>
     <BirthPlace>Novo Hamburgo</BirthPlace>
@@ -7740,7 +7740,7 @@
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>66</Weight>
     <BirthDate>19/01/1994</BirthDate>
     <BirthPlace>Evry</BirthPlace>
@@ -7757,7 +7757,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>66</Weight>
     <BirthDate>13/07/1993</BirthDate>
     <BirthPlace>Asnières-sur-Seine</BirthPlace>
@@ -7774,7 +7774,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>68</Weight>
     <BirthDate>03/08/1990</BirthDate>
     <BirthPlace>Nice</BirthPlace>
@@ -7791,11 +7791,11 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>82</Weight>
     <BirthDate>01/08/1980</BirthDate>
     <BirthPlace>Saint-Etienne</BirthPlace>
-    <PreviousClub>Paris St-Germain</PreviousClub>
+    <PreviousClub>Paris-Saint-Germain Football Club-Germain</PreviousClub>
     <ActualClub>Stade Rennais Football Club</ActualClub>
     <Stats>50</Stats>
     <FormState>100</FormState>
@@ -7808,7 +7808,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>NOR</Nationality>
     <Poste>M</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>79</Weight>
     <BirthDate>18/07/1990</BirthDate>
     <BirthPlace>Bodø</BirthPlace>
@@ -7825,7 +7825,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>BIH</Nationality>
     <Poste>M</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>73</Weight>
     <BirthDate>20/11/1993</BirthDate>
     <BirthPlace>Belfort</BirthPlace>
@@ -7842,7 +7842,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.72</Height>
+    <Height>1,72</Height>
     <Weight>66</Weight>
     <BirthDate>29/04/1996</BirthDate>
     <BirthPlace>Baghdad</BirthPlace>
@@ -7859,7 +7859,7 @@
     <ShirtNumber>27</ShirtNumber>
     <Nationality>CTA</Nationality>
     <Poste>F</Poste>
-    <Height>1.92</Height>
+    <Height>1,92</Height>
     <Weight>80</Weight>
     <BirthDate>16/04/1987</BirthDate>
     <BirthPlace>Bria</BirthPlace>
@@ -7876,7 +7876,7 @@
     <ShirtNumber>28</ShirtNumber>
     <Nationality>MKD</Nationality>
     <Poste>D</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>78</Weight>
     <BirthDate>10/02/1995</BirthDate>
     <BirthPlace>Skopje</BirthPlace>
@@ -7893,7 +7893,7 @@
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>72</Weight>
     <BirthDate>03/07/1986</BirthDate>
     <BirthPlace>Douarnenez</BirthPlace>
@@ -7910,7 +7910,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>80</Weight>
     <BirthDate>01/09/1992</BirthDate>
     <BirthPlace>Sète</BirthPlace>
@@ -7927,7 +7927,7 @@
     <ShirtNumber>2</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>77</Weight>
     <BirthDate>28/10/1989</BirthDate>
     <BirthPlace>Saint Brieuc</BirthPlace>
@@ -7944,11 +7944,11 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.74</Height>
+    <Height>1,74</Height>
     <Weight>61</Weight>
     <BirthDate>26/08/1984</BirthDate>
     <BirthPlace>Béziers</BirthPlace>
-    <PreviousClub>Paris St-Germain</PreviousClub>
+    <PreviousClub>Paris-Saint-Germain Football Club-Germain</PreviousClub>
     <ActualClub>Association Sportive de St-Etienne</ActualClub>
     <Stats>50</Stats>
     <FormState>100</FormState>
@@ -7961,7 +7961,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>F</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>70</Weight>
     <BirthDate>30/11/1987</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -7978,7 +7978,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>75</Weight>
     <BirthDate>06/04/1987</BirthDate>
     <BirthPlace>Thionville</BirthPlace>
@@ -7995,7 +7995,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>TUR</Nationality>
     <Poste>F</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>85</Weight>
     <BirthDate>25/02/1987</BirthDate>
     <BirthPlace>Saint-Claude</BirthPlace>
@@ -8012,7 +8012,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>74</Weight>
     <BirthDate>29/09/1984</BirthDate>
     <BirthPlace>Aubenas</BirthPlace>
@@ -8029,7 +8029,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>74</Weight>
     <BirthDate>18/07/1989</BirthDate>
     <BirthPlace>Martigues</BirthPlace>
@@ -8046,7 +8046,7 @@
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>67</Weight>
     <BirthDate>12/03/1997</BirthDate>
     <BirthPlace>Châtenay-Malabry</BirthPlace>
@@ -8063,7 +8063,7 @@
     <ShirtNumber>13</ShirtNumber>
     <Nationality>NED</Nationality>
     <Poste>F</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>69</Weight>
     <BirthDate>27/01/1989</BirthDate>
     <BirthPlace>Amersfoort</BirthPlace>
@@ -8080,7 +8080,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>89</Weight>
     <BirthDate>27/09/1986</BirthDate>
     <BirthPlace>Bayonne</BirthPlace>
@@ -8097,7 +8097,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>67</Weight>
     <BirthDate>16/03/1987</BirthDate>
     <BirthPlace>Fougères</BirthPlace>
@@ -8114,7 +8114,7 @@
     <ShirtNumber>19</ShirtNumber>
     <Nationality>GUI</Nationality>
     <Poste>D</Poste>
-    <Height>1.88</Height>
+    <Height>1,88</Height>
     <Weight>87</Weight>
     <BirthDate>19/08/1990</BirthDate>
     <BirthPlace>Conakry</BirthPlace>
@@ -8131,7 +8131,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>73</Weight>
     <BirthDate>07/02/1983</BirthDate>
     <BirthPlace>Soissons</BirthPlace>
@@ -8148,7 +8148,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.77</Height>
+    <Height>1,77</Height>
     <Weight>67</Weight>
     <BirthDate>29/03/1987</BirthDate>
     <BirthPlace>Lure</BirthPlace>
@@ -8165,7 +8165,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>73</Weight>
     <BirthDate>19/08/1988</BirthDate>
     <BirthPlace>Bourgoin-Jallieu</BirthPlace>
@@ -8182,7 +8182,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>82</Weight>
     <BirthDate>15/05/1988</BirthDate>
     <BirthPlace>Bordeaux</BirthPlace>
@@ -8199,7 +8199,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>76</Weight>
     <BirthDate>07/08/1985</BirthDate>
     <BirthPlace>Saint-Etienne</BirthPlace>
@@ -8216,7 +8216,7 @@
     <ShirtNumber>26</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>90</Weight>
     <BirthDate>30/11/1985</BirthDate>
     <BirthPlace>Dakar</BirthPlace>
@@ -8233,7 +8233,7 @@
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.78</Height>
+    <Height>1,78</Height>
     <Weight>70</Weight>
     <BirthDate>30/01/1989</BirthDate>
     <BirthPlace>Thiais</BirthPlace>
@@ -8250,7 +8250,7 @@
     <ShirtNumber>28</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>75</Weight>
     <BirthDate>28/08/1992</BirthDate>
     <BirthPlace>Abidjan</BirthPlace>
@@ -8267,7 +8267,7 @@
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>77</Weight>
     <BirthDate>18/04/1983</BirthDate>
     <BirthPlace>Bourg en Bresse</BirthPlace>
@@ -8284,7 +8284,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>80</Weight>
     <BirthDate>13/01/1986</BirthDate>
     <BirthPlace>Valence</BirthPlace>
@@ -8301,7 +8301,7 @@
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>74</Weight>
     <BirthDate>07/03/1992</BirthDate>
     <BirthPlace>St Pierre</BirthPlace>
@@ -8318,7 +8318,7 @@
     <ShirtNumber>2</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>79</Weight>
     <BirthDate>31/10/1994</BirthDate>
     <BirthPlace>Aubagne</BirthPlace>
@@ -8335,7 +8335,7 @@
     <ShirtNumber>4</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>M</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>79</Weight>
     <BirthDate>06/08/1989</BirthDate>
     <BirthPlace>Vernon</BirthPlace>
@@ -8352,7 +8352,7 @@
     <ShirtNumber>5</ShirtNumber>
     <Nationality>GUI</Nationality>
     <Poste>D</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>70</Weight>
     <BirthDate>01/01/1994</BirthDate>
     <BirthPlace>Conakry</BirthPlace>
@@ -8369,7 +8369,7 @@
     <ShirtNumber>6</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>85</Weight>
     <BirthDate>02/04/1990</BirthDate>
     <BirthPlace>Rio de Janeiro</BirthPlace>
@@ -8386,7 +8386,7 @@
     <ShirtNumber>7</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>D</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>66</Weight>
     <BirthDate>11/10/1992</BirthDate>
     <BirthPlace>Toulouse</BirthPlace>
@@ -8403,7 +8403,7 @@
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.75</Height>
+    <Height>1,75</Height>
     <Weight>65</Weight>
     <BirthDate>24/07/1983</BirthDate>
     <BirthPlace>Paimpol</BirthPlace>
@@ -8420,7 +8420,7 @@
     <ShirtNumber>9</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>F</Poste>
-    <Height>1.79</Height>
+    <Height>1,79</Height>
     <Weight>77</Weight>
     <BirthDate>05/06/1991</BirthDate>
     <BirthPlace>Esbjerg</BirthPlace>
@@ -8437,7 +8437,7 @@
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>68</Weight>
     <BirthDate>12/08/1990</BirthDate>
     <BirthPlace>Sarcelles</BirthPlace>
@@ -8454,7 +8454,7 @@
     <ShirtNumber>11</ShirtNumber>
     <Nationality>SRB</Nationality>
     <Poste>F</Poste>
-    <Height>1.90</Height>
+    <Height>1,90</Height>
     <Weight>83</Weight>
     <BirthDate>21/05/1992</BirthDate>
     <BirthPlace>Niš</BirthPlace>
@@ -8471,7 +8471,7 @@
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>71</Weight>
     <BirthDate>16/11/1992</BirthDate>
     <BirthPlace>Champigny-sur-Marne</BirthPlace>
@@ -8488,7 +8488,7 @@
     <ShirtNumber>13</ShirtNumber>
     <Nationality>POL</Nationality>
     <Poste>M</Poste>
-    <Height>1.81</Height>
+    <Height>1,81</Height>
     <Weight>71</Weight>
     <BirthDate>06/07/1992</BirthDate>
     <BirthPlace>Szyd?owiec</BirthPlace>
@@ -8505,7 +8505,7 @@
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>72</Weight>
     <BirthDate>07/10/1980</BirthDate>
     <BirthPlace>Bordeaux</BirthPlace>
@@ -8522,7 +8522,7 @@
     <ShirtNumber>15</ShirtNumber>
     <Nationality>SRB</Nationality>
     <Poste>D</Poste>
-    <Height>1.86</Height>
+    <Height>1,86</Height>
     <Weight>76</Weight>
     <BirthDate>13/02/1993</BirthDate>
     <BirthPlace>Belgrade</BirthPlace>
@@ -8539,7 +8539,7 @@
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>80</Weight>
     <BirthDate>03/06/1991</BirthDate>
     <BirthPlace>Saint-Affrique</BirthPlace>
@@ -8556,7 +8556,7 @@
     <ShirtNumber>17</ShirtNumber>
     <Nationality>MAR</Nationality>
     <Poste>M</Poste>
-    <Height>1.66</Height>
+    <Height>1,66</Height>
     <Weight>67</Weight>
     <BirthDate>22/08/1991</BirthDate>
     <BirthPlace>Sète</BirthPlace>
@@ -8573,7 +8573,7 @@
     <ShirtNumber>18</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>M</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>79</Weight>
     <BirthDate>26/04/1988</BirthDate>
     <BirthPlace>Santiago del Estero</BirthPlace>
@@ -8590,7 +8590,7 @@
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
-    <Height>1.80</Height>
+    <Height>1,80</Height>
     <Weight>72</Weight>
     <BirthDate>16/12/1992</BirthDate>
     <BirthPlace>Sarcelles</BirthPlace>
@@ -8607,7 +8607,7 @@
     <ShirtNumber>21</ShirtNumber>
     <Nationality>COL</Nationality>
     <Poste>M</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>82</Weight>
     <BirthDate>06/01/1985</BirthDate>
     <BirthPlace>Santa Fe de Bogota</BirthPlace>
@@ -8624,7 +8624,7 @@
     <ShirtNumber>22</ShirtNumber>
     <Nationality>SRB</Nationality>
     <Poste>D</Poste>
-    <Height>1.87</Height>
+    <Height>1,87</Height>
     <Weight>78</Weight>
     <BirthDate>16/03/1986</BirthDate>
     <BirthPlace>Kruševac</BirthPlace>
@@ -8641,7 +8641,7 @@
     <ShirtNumber>23</ShirtNumber>
     <Nationality>COD</Nationality>
     <Poste>D</Poste>
-    <Height>1.84</Height>
+    <Height>1,84</Height>
     <Weight>70</Weight>
     <BirthDate>10/01/1993</BirthDate>
     <BirthPlace>Meaux</BirthPlace>
@@ -8658,7 +8658,7 @@
     <ShirtNumber>24</ShirtNumber>
     <Nationality>SRB</Nationality>
     <Poste>D</Poste>
-    <Height>1.83</Height>
+    <Height>1,83</Height>
     <Weight>81</Weight>
     <BirthDate>20/04/1985</BirthDate>
     <BirthPlace>Belgrade</BirthPlace>
@@ -8675,7 +8675,7 @@
     <ShirtNumber>25</ShirtNumber>
     <Nationality>ROU</Nationality>
     <Poste>D</Poste>
-    <Height>1.85</Height>
+    <Height>1,85</Height>
     <Weight>76</Weight>
     <BirthDate>07/09/1986</BirthDate>
     <BirthPlace>Vaslui</BirthPlace>
@@ -8692,7 +8692,7 @@
     <ShirtNumber>26</ShirtNumber>
     <Nationality>BFA</Nationality>
     <Poste>F</Poste>
-    <Height>1.70</Height>
+    <Height>1,70</Height>
     <Weight>65</Weight>
     <BirthDate>31/12/1994</BirthDate>
     <BirthPlace>Cinsense</BirthPlace>
@@ -8709,7 +8709,7 @@
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>76</Weight>
     <BirthDate>21/06/1992</BirthDate>
     <BirthPlace>Paris</BirthPlace>
@@ -8726,7 +8726,7 @@
     <ShirtNumber>28</ShirtNumber>
     <Nationality>ROU</Nationality>
     <Poste>M</Poste>
-    <Height>1.73</Height>
+    <Height>1,73</Height>
     <Weight>70</Weight>
     <BirthDate>16/11/1984</BirthDate>
     <BirthPlace>Suceava</BirthPlace>
@@ -8743,7 +8743,7 @@
     <ShirtNumber>29</ShirtNumber>
     <Nationality>SUI</Nationality>
     <Poste>D</Poste>
-    <Height>1.82</Height>
+    <Height>1,82</Height>
     <Weight>76</Weight>
     <BirthDate>21/06/1990</BirthDate>
     <BirthPlace>Geneva</BirthPlace>
@@ -8760,7 +8760,7 @@
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
-    <Height>1.89</Height>
+    <Height>1,89</Height>
     <Weight>83</Weight>
     <BirthDate>19/08/1991</BirthDate>
     <BirthPlace>Martigues</BirthPlace>

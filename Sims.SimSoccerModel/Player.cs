@@ -26,6 +26,7 @@ namespace Sims.SimSoccerModel
         bool _injury;
         int _mental;
         int _financialValue;
+        string _actualTeamTag;
 
         public Player( PlayerList owner, string name )
         {
@@ -173,6 +174,12 @@ namespace Sims.SimSoccerModel
         {
             get { return _financialValue; }
             set { _financialValue = value; }
+        }
+
+        public string ActualTeamTag
+        {
+            get { return _actualTeamTag; }
+            set { _actualTeamTag = value; }
         }
     }
 }

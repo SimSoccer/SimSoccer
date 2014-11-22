@@ -17,7 +17,7 @@ namespace CreatePlayerListConsole
 
             PlayerList pl = new PlayerList( g, doc.Root.Element( "Players" ) );
 
-            Console.WriteLine( pl.Players[0].Name );
+            Console.WriteLine( pl.Players[0].Id );
             Console.Read();
         }
     }
