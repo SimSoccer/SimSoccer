@@ -17,7 +17,8 @@ namespace CreatePlayerListConsole
 
             PlayerList pl = new PlayerList( g, doc.Root.Element( "Players" ) );
 
-            Console.WriteLine( pl.Players[0].Id );
+            Console.WriteLine( "La taille de " + pl.Players[0].Name + " est de : " + pl.Players[0].Height );
+
             Console.Read();
         }
     }

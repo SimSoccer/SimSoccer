@@ -16,5 +16,10 @@ namespace Sims.SimSoccerModel
             _teamList = new TeamList( this );
             _playerList = new PlayerList( this );
         }
+
+        public IEnumerable<Player> Players
+        {
+            get { return _playerList.Players; }
+        }
     }
 }

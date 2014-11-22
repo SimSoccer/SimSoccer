@@ -55,12 +55,5 @@ namespace Sims.SimSoccerModel
             _players.Add( player );
             return player;
         }
-
-        public PlayerList CreatePlayerList()
-        {
-            XDocument doc = XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Players2.xml" );
-            PlayerList _players = new PlayerList( _game, doc.Root.Element( "Player" ) );
-            return _players;
-        }
     }
 }
