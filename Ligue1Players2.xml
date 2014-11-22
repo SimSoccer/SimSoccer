@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<Game>
 <Players>
-  <Player Id="1" Name="Alphonse Aréola">
+  <Player Id="0" Name="Alphonse Aréola">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -15,8 +16,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="2" Name="Romain Achilli">
+  <Player Id="1" Name="Romain Achilli">
     <ShirtNumber>2</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -31,8 +33,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="3" Name="Hervin Ongenda">
+  <Player Id="2" Name="Hervin Ongenda">
     <ShirtNumber>3</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -47,8 +50,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="4" Name="Florian Marange">
+  <Player Id="3" Name="Florian Marange">
     <ShirtNumber>4</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -63,8 +67,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="5" Name="Sébastien Squillaci">
+  <Player Id="4" Name="Sébastien Squillaci">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -79,8 +84,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="6" Name="N'Dri Romaric">
+  <Player Id="5" Name="N'Dri Romaric">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>M</Poste>
@@ -95,8 +101,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="7" Name="Floyd Ayité">
+  <Player Id="6" Name="Floyd Ayité">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>TOG</Nationality>
     <Poste>M</Poste>
@@ -111,8 +118,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="8" Name="El-Hajdi Ba">
+  <Player Id="7" Name="El-Hajdi Ba">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -127,8 +135,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="9" Name="Djibril Cissé">
+  <Player Id="8" Name="Djibril Cissé">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -143,8 +152,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="10" Name="Ryad Boudebouz">
+  <Player Id="9" Name="Ryad Boudebouz">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>ALG</Nationality>
     <Poste>M</Poste>
@@ -159,8 +169,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="11" Name="Gadji Celi Junior Tallo">
+  <Player Id="10" Name="Gadji Celi Junior Tallo">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>F</Poste>
@@ -175,8 +186,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="12" Name="Christophe Vincent">
+  <Player Id="11" Name="Christophe Vincent">
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -191,8 +203,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="13" Name="Abdoulaye Keita">
+  <Player Id="12" Name="Abdoulaye Keita">
     <ShirtNumber>13</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>M</Poste>
@@ -207,8 +220,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="14" Name="Famoussa Koné">
+  <Player Id="13" Name="Famoussa Koné">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>F</Poste>
@@ -223,8 +237,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="15" Name="Julian Palmieri">
+  <Player Id="14" Name="Julian Palmieri">
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -239,8 +254,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="16" Name="Jean-Louis Leca">
+  <Player Id="15" Name="Jean-Louis Leca">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -255,8 +271,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="17" Name="Mathieu Peybernes">
+  <Player Id="16" Name="Mathieu Peybernes">
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -271,8 +288,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="18" Name="Yannick Cahuzac">
+  <Player Id="17" Name="Yannick Cahuzac">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -287,8 +305,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="19" Name="Benjamin Mokulu">
+  <Player Id="18" Name="Benjamin Mokulu">
     <ShirtNumber>19</ShirtNumber>
     <Nationality>BEL</Nationality>
     <Poste>F</Poste>
@@ -303,8 +322,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="20" Name="François Modestó">
+  <Player Id="19" Name="François Modestó">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -319,13 +339,14 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="21" Name="Luka Kikabidze">
+  <Player Id="20" Name="Luka Kikabidze">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>GEO</Nationality>
     <Poste>M</Poste>
-    <Height></Height>
-    <Weight></Weight>
+    <Weight>1.75</Weight>
+    <Weight>75</Weight>
     <BirthDate>21/01/1995</BirthDate>
     <BirthPlace>Tbilisi</BirthPlace>
     <PreviousClub>Lokomotivi Tbilisi</PreviousClub>
@@ -335,8 +356,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="22" Name="Christopher Maboulou">
+  <Player Id="21" Name="Christopher Maboulou">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -351,8 +373,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="23" Name="Drissa Diakité">
+  <Player Id="22" Name="Drissa Diakité">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>D</Poste>
@@ -367,8 +390,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="24" Name="Joao Rodríguez">
+  <Player Id="23" Name="Joao Rodríguez">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>COL</Nationality>
     <Poste>F</Poste>
@@ -383,13 +407,14 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="25" Name="François Kamano">
+  <Player Id="24" Name="François Kamano">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>GUI</Nationality>
     <Poste>F</Poste>
-    <Height></Height>
-    <Weight></Weight>
+    <Weight>1.75</Weight>
+    <Weight>75</Weight>
     <BirthDate>01/05/1996</BirthDate>
     <BirthPlace></BirthPlace>
     <PreviousClub>Satellite FC</PreviousClub>
@@ -399,8 +424,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="26" Name="Brandão">
+  <Player Id="25" Name="Brandão">
     <ShirtNumber>26</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>F</Poste>
@@ -415,8 +441,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="27" Name="Guillaume Gillet">
+  <Player Id="26" Name="Guillaume Gillet">
     <ShirtNumber>27</ShirtNumber>
     <Nationality>BEL</Nationality>
     <Poste>M</Poste>
@@ -431,8 +458,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="28" Name="Juan Pablo Pino">
+  <Player Id="27" Name="Juan Pablo Pino">
     <ShirtNumber>28</ShirtNumber>
     <Nationality>COL</Nationality>
     <Poste>M</Poste>
@@ -447,8 +475,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="29" Name="Gilles Cioni">
+  <Player Id="28" Name="Gilles Cioni">
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -463,8 +492,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="30" Name="Thomas Vincensini">
+  <Player Id="29" Name="Thomas Vincensini">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -479,8 +509,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SCB</ActualTeamTag>
   </Player>
-  <Player Id="31" Name="Ažbe Jug">
+  <Player Id="30" Name="Ažbe Jug">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>SVN</Nationality>
     <Poste>G</Poste>
@@ -495,8 +526,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="32" Name="Mariano">
+  <Player Id="31" Name="Mariano">
     <ShirtNumber>2</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
@@ -511,8 +543,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="33" Name="Diego Contento">
+  <Player Id="32" Name="Diego Contento">
     <ShirtNumber>3</ShirtNumber>
     <Nationality>ITA</Nationality>
     <Poste>D</Poste>
@@ -527,8 +560,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="34" Name="Tiago Ilori">
+  <Player Id="33" Name="Tiago Ilori">
     <ShirtNumber>4</ShirtNumber>
     <Nationality>POR</Nationality>
     <Poste>D</Poste>
@@ -543,8 +577,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="35" Name="Nicolas Pallois">
+  <Player Id="34" Name="Nicolas Pallois">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -559,8 +594,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="36" Name="Ludovic Sané">
+  <Player Id="35" Name="Ludovic Sané">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
@@ -575,8 +611,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="37" Name="Abdou Traoré">
+  <Player Id="36" Name="Abdou Traoré">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>M</Poste>
@@ -591,8 +628,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="38" Name="Grégory Sertic">
+  <Player Id="37" Name="Grégory Sertic">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -607,8 +645,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="39" Name="Diego Rolán">
+  <Player Id="38" Name="Diego Rolán">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>URU</Nationality>
     <Poste>F</Poste>
@@ -623,8 +662,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="40" Name="Henri Saivet">
+  <Player Id="39" Name="Henri Saivet">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -639,8 +679,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="41" Name="Emiliano Sala">
+  <Player Id="40" Name="Emiliano Sala">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>F</Poste>
@@ -655,8 +696,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="42" Name="Thomas Touré">
+  <Player Id="41" Name="Thomas Touré">
     <ShirtNumber>13</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -671,8 +713,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="43" Name="Cheikh Diabaté">
+  <Player Id="42" Name="Cheikh Diabaté">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>F</Poste>
@@ -687,8 +730,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="44" Name="Younès Kaabouni">
+  <Player Id="43" Name="Younès Kaabouni">
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -703,8 +747,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="45" Name="Cédric Carrasso">
+  <Player Id="44" Name="Cédric Carrasso">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -719,8 +764,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="46" Name="André Biyogo Poko">
+  <Player Id="45" Name="André Biyogo Poko">
     <ShirtNumber>17</ShirtNumber>
     <Nationality>GAB</Nationality>
     <Poste>M</Poste>
@@ -735,8 +781,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="47" Name="Jaroslav Plašil">
+  <Player Id="46" Name="Jaroslav Plašil">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>CZE</Nationality>
     <Poste>M</Poste>
@@ -751,8 +798,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="48" Name="Nicolas Maurice-Belay">
+  <Player Id="47" Name="Nicolas Maurice-Belay">
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -767,8 +815,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="49" Name="Jussiê">
+  <Player Id="48" Name="Jussiê">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>F</Poste>
@@ -783,8 +832,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="50" Name="Julien Faubert">
+  <Player Id="49" Name="Julien Faubert">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -799,8 +849,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="51" Name="Wahbi Khazri">
+  <Player Id="50" Name="Wahbi Khazri">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>TUN</Nationality>
     <Poste>M</Poste>
@@ -815,8 +866,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="52" Name="Théo Pellenard">
+  <Player Id="51" Name="Théo Pellenard">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -831,8 +883,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="53" Name="Clément Badin">
+  <Player Id="52" Name="Clément Badin">
     <ShirtNumber>26</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -847,8 +900,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="54" Name="Marc Planus">
+  <Player Id="53" Name="Marc Planus">
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -863,8 +917,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="55" Name="Maxime Poundjé">
+  <Player Id="54" Name="Maxime Poundjé">
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -879,8 +934,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="56" Name="Jérôme Prior">
+  <Player Id="55" Name="Jérôme Prior">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -895,8 +951,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCB</ActualTeamTag>
   </Player>
-  <Player Id="57" Name="Rémy Vercoutre">
+  <Player Id="56" Name="Rémy Vercoutre">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -911,8 +968,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="58" Name="Nicolas Seube">
+  <Player Id="57" Name="Nicolas Seube">
     <ShirtNumber>2</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -927,8 +985,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="59" Name="Alaeddine Yahia">
+  <Player Id="58" Name="Alaeddine Yahia">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>TUN</Nationality>
     <Poste>D</Poste>
@@ -943,8 +1002,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="61" Name="Mathieu Duhamel">
+  <Player Id="59" Name="Mathieu Duhamel">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -959,8 +1019,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="62" Name="Sloan Privat">
+  <Player Id="60" Name="Sloan Privat">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -975,8 +1036,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="63" Name="Lenny Nangis">
+  <Player Id="61" Name="Lenny Nangis">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -991,8 +1053,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="64" Name="Bengadli-Fodé Koita">
+  <Player Id="62" Name="Bengadli-Fodé Koita">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -1007,8 +1070,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="65" Name="Dennis Appiah">
+  <Player Id="63" Name="Dennis Appiah">
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -1023,8 +1087,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="66" Name="Jean-Jacques Pierre">
+  <Player Id="64" Name="Jean-Jacques Pierre">
     <ShirtNumber>13</ShirtNumber>
     <Nationality>HAI</Nationality>
     <Poste>D</Poste>
@@ -1039,8 +1104,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="67" Name="Emmanuel Imorou">
+  <Player Id="65" Name="Emmanuel Imorou">
     <ShirtNumber>15</ShirtNumber>
     <Nationality>BEN</Nationality>
     <Poste>D</Poste>
@@ -1055,8 +1121,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="68" Name="Damien Perquis">
+  <Player Id="66" Name="Damien Perquis">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -1071,8 +1138,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="69" Name="Ngolo Kanté">
+  <Player Id="67" Name="Ngolo Kanté">
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -1087,8 +1155,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="70" Name="Jordan Adéoti">
+  <Player Id="68" Name="Jordan Adéoti">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>BEN</Nationality>
     <Poste>M</Poste>
@@ -1103,8 +1172,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="71" Name="Felipe Saad">
+  <Player Id="69" Name="Felipe Saad">
     <ShirtNumber>19</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
@@ -1119,8 +1189,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="72" Name="Hervé Bazile">
+  <Player Id="70" Name="Hervé Bazile">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -1135,8 +1206,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="73" Name="José Saez">
+  <Player Id="71" Name="José Saez">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -1151,8 +1223,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="74" Name="Alexandre Raineau">
+  <Player Id="72" Name="Alexandre Raineau">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -1167,8 +1240,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="75" Name="Jean Calvé">
+  <Player Id="73" Name="Jean Calvé">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -1183,8 +1257,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="76" Name="Florian Raspentino">
+  <Player Id="74" Name="Florian Raspentino">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -1199,8 +1274,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="77" Name="Julien Féret">
+  <Player Id="75" Name="Julien Féret">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -1215,8 +1291,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="78" Name="Jonathan Beaulieu">
+  <Player Id="76" Name="Jonathan Beaulieu">
     <ShirtNumber>26</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -1231,8 +1308,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="79" Name="Thomas Lemar">
+  <Player Id="77" Name="Thomas Lemar">
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -1247,8 +1325,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="80" Name="Damien Da Silva">
+  <Player Id="78" Name="Damien Da Silva">
     <ShirtNumber>28</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -1263,8 +1342,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="81" Name="Yrondu Musavu-King">
+  <Player Id="79" Name="Yrondu Musavu-King">
     <ShirtNumber>29</ShirtNumber>
     <Nationality>GAB</Nationality>
     <Poste>D</Poste>
@@ -1279,8 +1359,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="82" Name="Paul Reulet">
+  <Player Id="80" Name="Paul Reulet">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -1295,8 +1376,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SMC</ActualTeamTag>
   </Player>
-  <Player Id="83" Name="Johann Durand">
+  <Player Id="81" Name="Johann Durand">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -1311,8 +1393,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="84" Name="Kassim Abdallah">
+  <Player Id="82" Name="Kassim Abdallah">
     <ShirtNumber>2</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -1327,8 +1410,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="85" Name="Miloš Ninkovi?">
+  <Player Id="83" Name="Miloš Ninkovi?">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>SRB</Nationality>
     <Poste>M</Poste>
@@ -1343,8 +1427,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="86" Name="Djakaridja Koné">
+  <Player Id="84" Name="Djakaridja Koné">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>BFA</Nationality>
     <Poste>M</Poste>
@@ -1359,8 +1444,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="87" Name="Adrien Thomasson">
+  <Player Id="85" Name="Adrien Thomasson">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -1375,8 +1461,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="88" Name="Yeltsin Tejeda">
+  <Player Id="86" Name="Yeltsin Tejeda">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>CRC</Nationality>
     <Poste>M</Poste>
@@ -1391,8 +1478,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="89" Name="Gianni Bruno">
+  <Player Id="87" Name="Gianni Bruno">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>BEL</Nationality>
     <Poste>F</Poste>
@@ -1407,8 +1495,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="90" Name="Nicolas Benezet">
+  <Player Id="88" Name="Nicolas Benezet">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -1423,8 +1512,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="91" Name="Fabien Camus">
+  <Player Id="89" Name="Fabien Camus">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -1439,8 +1529,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="92" Name="Gaël Givet">
+  <Player Id="90" Name="Gaël Givet">
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -1455,8 +1546,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="93" Name="Cédric Barbosa">
+  <Player Id="91" Name="Cédric Barbosa">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -1471,8 +1563,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="94" Name="Aldo Angoula">
+  <Player Id="92" Name="Aldo Angoula">
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -1487,8 +1580,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="95" Name="Daniel Wass">
+  <Player Id="93" Name="Daniel Wass">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>D</Poste>
@@ -1503,8 +1597,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="96" Name="Youssouf Sabaly">
+  <Player Id="94" Name="Youssouf Sabaly">
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -1519,8 +1614,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="97" Name="Modou Sougou">
+  <Player Id="95" Name="Modou Sougou">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>F</Poste>
@@ -1535,8 +1631,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="98" Name="Cédric Mongongu">
+  <Player Id="96" Name="Cédric Mongongu">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>COD</Nationality>
     <Poste>D</Poste>
@@ -1551,8 +1648,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="99" Name="Cédric Cambon">
+  <Player Id="97" Name="Cédric Cambon">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -1567,8 +1665,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="100" Name="Nicki Bille Nielsen">
+  <Player Id="98" Name="Nicki Bille Nielsen">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>F</Poste>
@@ -1583,8 +1682,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="101" Name="Olivier Sorlin">
+  <Player Id="99" Name="Olivier Sorlin">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -1599,8 +1699,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="102" Name="Jonathan Mensah">
+  <Player Id="100" Name="Jonathan Mensah">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>GHA</Nationality>
     <Poste>D</Poste>
@@ -1615,8 +1716,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="103" Name="Jesper Juelsgaard">
+  <Player Id="101" Name="Jesper Juelsgaard">
     <ShirtNumber>26</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>D</Poste>
@@ -1631,8 +1733,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="104" Name="Clarck N'Sikulu">
+  <Player Id="102" Name="Clarck N'Sikulu">
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -1647,8 +1750,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="105" Name="Najib Baouia">
+  <Player Id="103" Name="Najib Baouia">
     <ShirtNumber>28</ShirtNumber>
     <Nationality>ALG</Nationality>
     <Poste>F</Poste>
@@ -1663,8 +1767,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="106" Name="Jesper Hansen">
+  <Player Id="104" Name="Jesper Hansen">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>G</Poste>
@@ -1679,8 +1784,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ETG</ActualTeamTag>
   </Player>
-  <Player Id="107" Name="Jonas Lössl">
+  <Player Id="105" Name="Jonas Lössl">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>G</Poste>
@@ -1695,8 +1801,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="108" Name="Lars Jacobsen">
+  <Player Id="106" Name="Lars Jacobsen">
     <ShirtNumber>2</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>D</Poste>
@@ -1711,8 +1818,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="109" Name="Angoua Brou Benjamin">
+  <Player Id="107" Name="Angoua Brou Benjamin">
     <ShirtNumber>3</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>D</Poste>
@@ -1727,8 +1835,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="110" Name="Baïssama Sankoh">
+  <Player Id="108" Name="Baïssama Sankoh">
     <ShirtNumber>4</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -1743,8 +1852,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="111" Name="Moustapha Diallo">
+  <Player Id="109" Name="Moustapha Diallo">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>M</Poste>
@@ -1759,8 +1869,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="112" Name="Maxime Baca">
+  <Player Id="110" Name="Maxime Baca">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -1775,8 +1886,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="113" Name="Dorian Levêque">
+  <Player Id="111" Name="Dorian Levêque">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -1791,8 +1903,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="114" Name="Ronnie Schwartz">
+  <Player Id="112" Name="Ronnie Schwartz">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>F</Poste>
@@ -1807,8 +1920,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="115" Name="Younousse Sankharé">
+  <Player Id="113" Name="Younousse Sankharé">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -1823,8 +1937,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="116" Name="Claudio Beauvue">
+  <Player Id="114" Name="Claudio Beauvue">
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -1839,8 +1954,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="117" Name="Christophe Mandanne">
+  <Player Id="115" Name="Christophe Mandanne">
     <ShirtNumber>13</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -1855,8 +1971,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="118" Name="Ladislas Douniama">
+  <Player Id="116" Name="Ladislas Douniama">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>CGO</Nationality>
     <Poste>F</Poste>
@@ -1871,8 +1988,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="119" Name="Jérémy Sorbon">
+  <Player Id="117" Name="Jérémy Sorbon">
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -1887,8 +2005,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="120" Name="Hugo Guichard">
+  <Player Id="118" Name="Hugo Guichard">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -1903,8 +2022,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="121" Name="Rachid Alioui">
+  <Player Id="119" Name="Rachid Alioui">
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -1919,8 +2039,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="122" Name="Lionel Mathis">
+  <Player Id="120" Name="Lionel Mathis">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -1935,8 +2056,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="123" Name="Laurent Dos Santos">
+  <Player Id="121" Name="Laurent Dos Santos">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -1951,8 +2073,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="124" Name="Sylvain Marveaux">
+  <Player Id="122" Name="Sylvain Marveaux">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -1967,8 +2090,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="125" Name="Julien Cardy">
+  <Player Id="123" Name="Julien Cardy">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -1983,8 +2107,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="126" Name="Jérémy Pied">
+  <Player Id="124" Name="Jérémy Pied">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -1999,8 +2124,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="127" Name="Sambou Yatabaré">
+  <Player Id="125" Name="Sambou Yatabaré">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>M</Poste>
@@ -2015,8 +2141,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="128" Name="Reynald Lemaître">
+  <Player Id="126" Name="Reynald Lemaître">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -2031,8 +2158,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="129" Name="Thibault Giresse">
+  <Player Id="127" Name="Thibault Giresse">
     <ShirtNumber>26</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -2047,8 +2175,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="130" Name="Christophe Kerbrat">
+  <Player Id="128" Name="Christophe Kerbrat">
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -2063,8 +2192,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="131" Name="Mamadou Samassa">
+  <Player Id="129" Name="Mamadou Samassa">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>G</Poste>
@@ -2079,8 +2209,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>EAG</ActualTeamTag>
   </Player>
-  <Player Id="132" Name="Rudy Riou">
+  <Player Id="130" Name="Rudy Riou">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -2095,8 +2226,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="133" Name="Ahmed Kantari">
+  <Player Id="131" Name="Ahmed Kantari">
     <ShirtNumber>4</ShirtNumber>
     <Nationality>MAR</Nationality>
     <Poste>D</Poste>
@@ -2111,8 +2243,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="134" Name="Jérôme Lemoigne">
+  <Player Id="132" Name="Jérôme Lemoigne">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -2127,8 +2260,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="135" Name="Yoann Touzghar">
+  <Player Id="133" Name="Yoann Touzghar">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -2143,8 +2277,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="136" Name="Adamo Coulibaly">
+  <Player Id="134" Name="Adamo Coulibaly">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -2159,8 +2294,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="137" Name="Pablo Chavarría">
+  <Player Id="135" Name="Pablo Chavarría">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>F</Poste>
@@ -2175,8 +2311,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="138" Name="Deme N'Diaye">
+  <Player Id="136" Name="Deme N'Diaye">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>M</Poste>
@@ -2191,8 +2328,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="139" Name="Patrick Fradj">
+  <Player Id="137" Name="Patrick Fradj">
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -2207,8 +2345,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="140" Name="Pierrick Valdivia">
+  <Player Id="138" Name="Pierrick Valdivia">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -2223,8 +2362,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="141" Name="Baptiste Guillaume">
+  <Player Id="139" Name="Baptiste Guillaume">
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -2239,8 +2379,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="142" Name="Lalaina Nomenjanahary">
+  <Player Id="140" Name="Lalaina Nomenjanahary">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>MDA</Nationality>
     <Poste>M</Poste>
@@ -2255,8 +2396,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="143" Name="Alharbi El Jadeyaoui">
+  <Player Id="141" Name="Alharbi El Jadeyaoui">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -2271,8 +2413,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="144" Name="Loïck Landré">
+  <Player Id="142" Name="Loïck Landré">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -2287,8 +2430,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="145" Name="Wylan Cyprien">
+  <Player Id="143" Name="Wylan Cyprien">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -2303,8 +2447,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="146" Name="Ludovic Baal">
+  <Player Id="144" Name="Ludovic Baal">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -2319,8 +2464,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="147" Name="Jean-Philippe Gbamin">
+  <Player Id="145" Name="Jean-Philippe Gbamin">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -2335,8 +2481,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="148" Name="Benjamin Boulenger">
+  <Player Id="146" Name="Benjamin Boulenger">
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -2351,8 +2498,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="149" Name="Benjamin Bourigeaud">
+  <Player Id="147" Name="Benjamin Bourigeaud">
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -2367,8 +2515,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>RCL</ActualTeamTag>
   </Player>
-  <Player Id="150" Name="Vincent Enyeama">
+  <Player Id="148" Name="Vincent Enyeama">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>NGA</Nationality>
     <Poste>G</Poste>
@@ -2383,8 +2532,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="151" Name="Sébastien Corchia">
+  <Player Id="149" Name="Sébastien Corchia">
     <ShirtNumber>2</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -2399,8 +2549,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="152" Name="Florent Balmont">
+  <Player Id="150" Name="Florent Balmont">
     <ShirtNumber>4</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -2415,8 +2566,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="153" Name="Idrissa Gueye">
+  <Player Id="151" Name="Idrissa Gueye">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>M</Poste>
@@ -2431,8 +2583,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="154" Name="Jonathan Delaplace">
+  <Player Id="152" Name="Jonathan Delaplace">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -2447,8 +2600,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="155" Name="Ronny Rodelin">
+  <Player Id="153" Name="Ronny Rodelin">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -2463,8 +2617,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="156" Name="Marvin Martin">
+  <Player Id="154" Name="Marvin Martin">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -2479,8 +2634,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="157" Name="Michael Frey">
+  <Player Id="155" Name="Michael Frey">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>SUI</Nationality>
     <Poste>F</Poste>
@@ -2495,8 +2651,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="158" Name="Souahilo Meïté">
+  <Player Id="156" Name="Souahilo Meïté">
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -2511,8 +2668,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="159" Name="Adama Soumaoro">
+  <Player Id="157" Name="Adama Soumaoro">
     <ShirtNumber>13</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>D</Poste>
@@ -2527,8 +2685,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="160" Name="Simon Kjær">
+  <Player Id="158" Name="Simon Kjær">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>D</Poste>
@@ -2543,8 +2702,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="161" Name="Djibril Sidibé">
+  <Player Id="159" Name="Djibril Sidibé">
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -2559,8 +2719,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="162" Name="Steeve Elana">
+  <Player Id="160" Name="Steeve Elana">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -2575,8 +2736,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="163" Name="Marcos Lopes">
+  <Player Id="161" Name="Marcos Lopes">
     <ShirtNumber>17</ShirtNumber>
     <Nationality>POR</Nationality>
     <Poste>M</Poste>
@@ -2591,8 +2753,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="164" Name="Franck Béria">
+  <Player Id="162" Name="Franck Béria">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -2607,8 +2770,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="165" Name="Ryan Mendes">
+  <Player Id="163" Name="Ryan Mendes">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>CPV</Nationality>
     <Poste>F</Poste>
@@ -2623,8 +2787,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="166" Name="David Rozehnal">
+  <Player Id="164" Name="David Rozehnal">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>CZE</Nationality>
     <Poste>D</Poste>
@@ -2639,8 +2804,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="167" Name="Pape N'Diaye Souaré">
+  <Player Id="165" Name="Pape N'Diaye Souaré">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
@@ -2655,8 +2821,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="168" Name="Rio Antonio Mavuba">
+  <Player Id="166" Name="Rio Antonio Mavuba">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -2671,8 +2838,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="169" Name="Marko Baša">
+  <Player Id="167" Name="Marko Baša">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>SRB</Nationality>
     <Poste>D</Poste>
@@ -2687,8 +2855,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="170" Name="Nolan Roux">
+  <Player Id="168" Name="Nolan Roux">
     <ShirtNumber>26</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -2703,8 +2872,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="171" Name="Divock Origi">
+  <Player Id="169" Name="Divock Origi">
     <ShirtNumber>27</ShirtNumber>
     <Nationality>BEL</Nationality>
     <Poste>F</Poste>
@@ -2719,8 +2889,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="172" Name="Jean Butez">
+  <Player Id="170" Name="Jean Butez">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -2735,8 +2906,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>LOSC</ActualTeamTag>
   </Player>
-  <Player Id="173" Name="Lamine Koné">
+  <Player Id="171" Name="Lamine Koné">
     <ShirtNumber>2</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -2751,8 +2923,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="174" Name="Pedrinho">
+  <Player Id="172" Name="Pedrinho">
     <ShirtNumber>3</ShirtNumber>
     <Nationality>POR</Nationality>
     <Poste>D</Poste>
@@ -2767,8 +2940,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="175" Name="Vincent Le Goff">
+  <Player Id="173" Name="Vincent Le Goff">
     <ShirtNumber>4</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -2783,8 +2957,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="176" Name="Mehdi Mostefa Sbaa">
+  <Player Id="174" Name="Mehdi Mostefa Sbaa">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>ALG</Nationality>
     <Poste>M</Poste>
@@ -2799,8 +2974,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="177" Name="François Bellugou">
+  <Player Id="175" Name="François Bellugou">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -2815,8 +2991,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="178" Name="Sadio Diallo">
+  <Player Id="176" Name="Sadio Diallo">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>GUI</Nationality>
     <Poste>F</Poste>
@@ -2831,8 +3008,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="179" Name="Yann Jouffre">
+  <Player Id="177" Name="Yann Jouffre">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -2847,8 +3025,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="180" Name="Jordan Ayew">
+  <Player Id="178" Name="Jordan Ayew">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>GHA</Nationality>
     <Poste>F</Poste>
@@ -2863,8 +3042,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="181" Name="Mathieu Coutadeur">
+  <Player Id="179" Name="Mathieu Coutadeur">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -2879,8 +3059,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="182" Name="Pierre Lavenant">
+  <Player Id="180" Name="Pierre Lavenant">
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -2895,8 +3076,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="183" Name="Rafidine Abdullah">
+  <Player Id="181" Name="Rafidine Abdullah">
     <ShirtNumber>13</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -2911,8 +3093,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="184" Name="Raphaël Guerreiro">
+  <Player Id="182" Name="Raphaël Guerreiro">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -2927,8 +3110,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="185" Name="Fabien Robert">
+  <Player Id="183" Name="Fabien Robert">
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -2943,8 +3127,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="186" Name="Fabien Audard">
+  <Player Id="184" Name="Fabien Audard">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -2959,8 +3144,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="187" Name="Walid Mesloub">
+  <Player Id="185" Name="Walid Mesloub">
     <ShirtNumber>17</ShirtNumber>
     <Nationality>ALG</Nationality>
     <Poste>M</Poste>
@@ -2975,8 +3161,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="188" Name="Gilles Sunu">
+  <Player Id="186" Name="Gilles Sunu">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -2991,8 +3178,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="189" Name="Bryan Pelé">
+  <Player Id="187" Name="Bryan Pelé">
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3007,8 +3195,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="190" Name="Julien Quercia">
+  <Player Id="188" Name="Julien Quercia">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -3023,8 +3212,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="191" Name="Alain Traoré">
+  <Player Id="189" Name="Alain Traoré">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>BFA</Nationality>
     <Poste>M</Poste>
@@ -3039,8 +3229,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="192" Name="Benjamin Jeannot">
+  <Player Id="190" Name="Benjamin Jeannot">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -3055,8 +3246,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="193" Name="Mathias Autret">
+  <Player Id="191" Name="Mathias Autret">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3071,8 +3263,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="194" Name="Wesley Lautoa">
+  <Player Id="192" Name="Wesley Lautoa">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -3087,8 +3280,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="195" Name="Lamine Gassama">
+  <Player Id="193" Name="Lamine Gassama">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
@@ -3103,8 +3297,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="196" Name="Yohann Wachter">
+  <Player Id="194" Name="Yohann Wachter">
     <ShirtNumber>26</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -3119,8 +3314,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="197" Name="Enzo Reale">
+  <Player Id="195" Name="Enzo Reale">
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3135,8 +3331,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="198" Name="Maxime Barthelme">
+  <Player Id="196" Name="Maxime Barthelme">
     <ShirtNumber>28</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3151,8 +3348,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="199" Name="Cheick Touré">
+  <Player Id="197" Name="Cheick Touré">
     <ShirtNumber>29</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>D</Poste>
@@ -3167,8 +3365,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="200" Name="Florent Chaigneau">
+  <Player Id="198" Name="Florent Chaigneau">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -3183,8 +3382,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="201" Name="Valentin Lavigne">
+  <Player Id="199" Name="Valentin Lavigne">
     <ShirtNumber>31</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -3199,8 +3399,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCL</ActualTeamTag>
   </Player>
-  <Player Id="202" Name="Anthony Lopes">
+  <Player Id="200" Name="Anthony Lopes">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>POR</Nationality>
     <Poste>G</Poste>
@@ -3215,8 +3416,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="203" Name="Mehdi Zeffane">
+  <Player Id="201" Name="Mehdi Zeffane">
     <ShirtNumber>2</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -3231,8 +3433,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="204" Name="Henri Bedimo Nsame">
+  <Player Id="202" Name="Henri Bedimo Nsame">
     <ShirtNumber>3</ShirtNumber>
     <Nationality>CMR</Nationality>
     <Poste>D</Poste>
@@ -3247,8 +3450,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="205" Name="Bakari Koné">
+  <Player Id="203" Name="Bakari Koné">
     <ShirtNumber>4</ShirtNumber>
     <Nationality>BFA</Nationality>
     <Poste>D</Poste>
@@ -3263,8 +3467,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="206" Name="Milan Biševac">
+  <Player Id="204" Name="Milan Biševac">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>SRB</Nationality>
     <Poste>D</Poste>
@@ -3279,8 +3484,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="207" Name="Gueïda Fofana">
+  <Player Id="205" Name="Gueïda Fofana">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3295,8 +3501,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="208" Name="Clément Grenier">
+  <Player Id="206" Name="Clément Grenier">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3311,8 +3518,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="209" Name="Yoann Gourcuff">
+  <Player Id="207" Name="Yoann Gourcuff">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3327,8 +3535,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="210" Name="Alexandre Lacazette">
+  <Player Id="208" Name="Alexandre Lacazette">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -3343,8 +3552,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="211" Name="Rachid Ghezzal">
+  <Player Id="209" Name="Rachid Ghezzal">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3359,8 +3569,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="212" Name="Jordan Ferri">
+  <Player Id="210" Name="Jordan Ferri">
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3375,8 +3586,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="213" Name="Christophe Jallet">
+  <Player Id="211" Name="Christophe Jallet">
     <ShirtNumber>13</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -3391,8 +3603,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="214" Name="Mouhamadou Dabo">
+  <Player Id="212" Name="Mouhamadou Dabo">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
@@ -3407,8 +3620,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="215" Name="Jérémy Frick">
+  <Player Id="213" Name="Jérémy Frick">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>SUI</Nationality>
     <Poste>G</Poste>
@@ -3423,8 +3637,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="216" Name="Steed Malbranque">
+  <Player Id="214" Name="Steed Malbranque">
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3439,8 +3654,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="217" Name="Nabil Fekir">
+  <Player Id="215" Name="Nabil Fekir">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3455,8 +3671,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="218" Name="Mohamed Yattara">
+  <Player Id="216" Name="Mohamed Yattara">
     <ShirtNumber>19</ShirtNumber>
     <Nationality>GUI</Nationality>
     <Poste>F</Poste>
@@ -3471,8 +3688,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="219" Name="Clinton N'Jie">
+  <Player Id="217" Name="Clinton N'Jie">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>CMR</Nationality>
     <Poste>F</Poste>
@@ -3487,8 +3705,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="220" Name="Maxime Gonalons">
+  <Player Id="218" Name="Maxime Gonalons">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3503,8 +3722,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="221" Name="Lindsay Rose">
+  <Player Id="219" Name="Lindsay Rose">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -3519,8 +3739,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="222" Name="Samuel Umtiti">
+  <Player Id="220" Name="Samuel Umtiti">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -3535,8 +3756,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="223" Name="Corentin Tolisso">
+  <Player Id="221" Name="Corentin Tolisso">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3551,8 +3773,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="224" Name="Yassine Benzia">
+  <Player Id="222" Name="Yassine Benzia">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -3567,8 +3790,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="225" Name="Gaël Danic">
+  <Player Id="223" Name="Gaël Danic">
     <ShirtNumber>26</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3583,8 +3807,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="226" Name="Arnold Mvuemba">
+  <Player Id="224" Name="Arnold Mvuemba">
     <ShirtNumber>28</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3599,8 +3824,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="227" Name="Fares Bahlouli">
+  <Player Id="225" Name="Fares Bahlouli">
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3615,8 +3841,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="228" Name="Mathieu Gorgelin">
+  <Player Id="226" Name="Mathieu Gorgelin">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -3631,8 +3858,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OL</ActualTeamTag>
   </Player>
-  <Player Id="229" Name="Nicolas Nkoulou">
+  <Player Id="227" Name="Nicolas Nkoulou">
     <ShirtNumber>3</ShirtNumber>
     <Nationality>CMR</Nationality>
     <Poste>D</Poste>
@@ -3647,8 +3875,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="230" Name="Dória">
+  <Player Id="228" Name="Dória">
     <ShirtNumber>4</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
@@ -3663,8 +3892,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="231" Name="Stéphane Sparagna">
+  <Player Id="229" Name="Stéphane Sparagna">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -3679,8 +3909,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="232" Name="Momar Bangoura">
+  <Player Id="230" Name="Momar Bangoura">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3695,8 +3926,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="233" Name="Benoît Cheyrou">
+  <Player Id="231" Name="Benoît Cheyrou">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3711,8 +3943,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="234" Name="Mario Lemina">
+  <Player Id="232" Name="Mario Lemina">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3727,8 +3960,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="235" Name="André-Pierre Gignac">
+  <Player Id="233" Name="André-Pierre Gignac">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -3743,8 +3977,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="236" Name="André Ayew">
+  <Player Id="234" Name="André Ayew">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>GHA</Nationality>
     <Poste>F</Poste>
@@ -3759,8 +3994,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="237" Name="Romain Alessandrini">
+  <Player Id="235" Name="Romain Alessandrini">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3775,8 +4011,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="238" Name="Florian Thauvin">
+  <Player Id="236" Name="Florian Thauvin">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -3791,8 +4028,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="239" Name="Jérémy Morel">
+  <Player Id="237" Name="Jérémy Morel">
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -3807,8 +4045,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="240" Name="Brice Samba">
+  <Player Id="238" Name="Brice Samba">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>CGO</Nationality>
     <Poste>G</Poste>
@@ -3823,8 +4062,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="241" Name="Dimitri Payet">
+  <Player Id="239" Name="Dimitri Payet">
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -3839,8 +4079,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="242" Name="Alaixys Romao">
+  <Player Id="240" Name="Alaixys Romao">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>TOG</Nationality>
     <Poste>M</Poste>
@@ -3855,8 +4096,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="243" Name="Michy Batshuayi">
+  <Player Id="241" Name="Michy Batshuayi">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>BEL</Nationality>
     <Poste>F</Poste>
@@ -3871,8 +4113,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="244" Name="Benjamin Mendy">
+  <Player Id="242" Name="Benjamin Mendy">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -3887,8 +4130,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="245" Name="Rod Fanni">
+  <Player Id="243" Name="Rod Fanni">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -3903,8 +4147,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="246" Name="Gianelli Imbula">
+  <Player Id="244" Name="Gianelli Imbula">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>CGO</Nationality>
     <Poste>M</Poste>
@@ -3919,8 +4164,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="247" Name="Brice Dja Djedje">
+  <Player Id="245" Name="Brice Dja Djedje">
     <ShirtNumber>26</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>D</Poste>
@@ -3935,8 +4181,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="248" Name="Abdelaziz Barrada">
+  <Player Id="246" Name="Abdelaziz Barrada">
     <ShirtNumber>27</ShirtNumber>
     <Nationality>MAR</Nationality>
     <Poste>M</Poste>
@@ -3951,8 +4198,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="249" Name="Jérémie Porsan-Clemente">
+  <Player Id="247" Name="Jérémie Porsan-Clemente">
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -3967,8 +4215,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="250" Name="Steve Mandanda">
+  <Player Id="248" Name="Steve Mandanda">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -3983,8 +4232,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OM</ActualTeamTag>
   </Player>
-  <Player Id="251" Name="Johann Carrasso">
+  <Player Id="249" Name="Johann Carrasso">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -3999,8 +4249,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="252" Name="Jonathan Rivierez">
+  <Player Id="250" Name="Jonathan Rivierez">
     <ShirtNumber>3</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -4015,8 +4266,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="253" Name="Sylvain Marchal">
+  <Player Id="251" Name="Sylvain Marchal">
     <ShirtNumber>4</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -4031,8 +4283,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="254" Name="Guido Milan">
+  <Player Id="252" Name="Guido Milan">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>D</Poste>
@@ -4047,8 +4300,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="255" Name="Romain Rocchi">
+  <Player Id="253" Name="Romain Rocchi">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -4063,8 +4317,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="256" Name="Cheick Doukouré">
+  <Player Id="254" Name="Cheick Doukouré">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -4079,8 +4334,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="257" Name="Juan Manuel Falcón">
+  <Player Id="255" Name="Juan Manuel Falcón">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>VEN</Nationality>
     <Poste>F</Poste>
@@ -4095,8 +4351,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="258" Name="Bouna Sarr">
+  <Player Id="256" Name="Bouna Sarr">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -4111,8 +4368,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="259" Name="Federico Andrada">
+  <Player Id="257" Name="Federico Andrada">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>F</Poste>
@@ -4127,8 +4385,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="260" Name="Kwamé Nsor">
+  <Player Id="258" Name="Kwamé Nsor">
     <ShirtNumber>12</ShirtNumber>
     <Nationality>GHA</Nationality>
     <Poste>F</Poste>
@@ -4143,8 +4402,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="261" Name="Florent Malouda">
+  <Player Id="259" Name="Florent Malouda">
     <ShirtNumber>13</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -4159,8 +4419,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="262" Name="Fadil Sido">
+  <Player Id="260" Name="Fadil Sido">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>BFA</Nationality>
     <Poste>M</Poste>
@@ -4175,8 +4436,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="263" Name="Romain Métanire">
+  <Player Id="261" Name="Romain Métanire">
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -4191,8 +4453,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="264" Name="Anthony Mfa Mezui">
+  <Player Id="262" Name="Anthony Mfa Mezui">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>GAB</Nationality>
     <Poste>G</Poste>
@@ -4207,8 +4470,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="265" Name="Maxwel Cornet">
+  <Player Id="263" Name="Maxwel Cornet">
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -4223,8 +4487,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="266" Name="Jérémy Choplin">
+  <Player Id="264" Name="Jérémy Choplin">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -4239,8 +4504,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="267" Name="Thibaut Vion">
+  <Player Id="265" Name="Thibaut Vion">
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -4255,8 +4521,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="268" Name="Modibo Maïga">
+  <Player Id="266" Name="Modibo Maïga">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>F</Poste>
@@ -4271,8 +4538,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="269" Name="Ahmed Kashi">
+  <Player Id="267" Name="Ahmed Kashi">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -4287,8 +4555,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="270" Name="Kévin Lejeune">
+  <Player Id="268" Name="Kévin Lejeune">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -4303,8 +4572,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="271" Name="Yeni Atito Ngbakoto">
+  <Player Id="269" Name="Yeni Atito Ngbakoto">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -4319,8 +4589,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="272" Name="Gaétan Bussmann">
+  <Player Id="270" Name="Gaétan Bussmann">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -4335,8 +4606,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="273" Name="Guirane N'Daw">
+  <Player Id="271" Name="Guirane N'Daw">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>M</Poste>
@@ -4351,8 +4623,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="274" Name="Chris Philipps">
+  <Player Id="272" Name="Chris Philipps">
     <ShirtNumber>26</ShirtNumber>
     <Nationality>LUX</Nationality>
     <Poste>D</Poste>
@@ -4367,8 +4640,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="275" Name="José Luis Palomino">
+  <Player Id="273" Name="José Luis Palomino">
     <ShirtNumber>27</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>D</Poste>
@@ -4383,8 +4657,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="276" Name="Mayoro N'Doye-Baye">
+  <Player Id="274" Name="Mayoro N'Doye-Baye">
     <ShirtNumber>28</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>M</Poste>
@@ -4399,8 +4674,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="277" Name="Sergey Krivets">
+  <Player Id="275" Name="Sergey Krivets">
     <ShirtNumber>29</ShirtNumber>
     <Nationality>BLR</Nationality>
     <Poste>M</Poste>
@@ -4415,8 +4691,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="278" Name="David Oberhauser">
+  <Player Id="276" Name="David Oberhauser">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -4431,8 +4708,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCM</ActualTeamTag>
   </Player>
-  <Player Id="279" Name="Danijel Subaši?">
+  <Player Id="277" Name="Danijel Subaši?">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>CRO</Nationality>
     <Poste>G</Poste>
@@ -4447,8 +4725,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="280" Name="Fabinho">
+  <Player Id="278" Name="Fabinho">
     <ShirtNumber>2</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
@@ -4463,8 +4742,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="281" Name="Layvin Kurzawa">
+  <Player Id="279" Name="Layvin Kurzawa">
     <ShirtNumber>3</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -4479,8 +4759,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="282" Name="Borja López">
+  <Player Id="280" Name="Borja López">
     <ShirtNumber>4</ShirtNumber>
     <Nationality>ESP</Nationality>
     <Poste>D</Poste>
@@ -4495,8 +4776,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="283" Name="Aymen Abdennour">
+  <Player Id="281" Name="Aymen Abdennour">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>TUN</Nationality>
     <Poste>D</Poste>
@@ -4511,8 +4793,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="284" Name="Ricardo Carvalho">
+  <Player Id="282" Name="Ricardo Carvalho">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>POR</Nationality>
     <Poste>D</Poste>
@@ -4527,8 +4810,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="285" Name="Nabil Dirar">
+  <Player Id="283" Name="Nabil Dirar">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>MAR</Nationality>
     <Poste>M</Poste>
@@ -4543,8 +4827,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="286" Name="João Moutinho">
+  <Player Id="284" Name="João Moutinho">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>POR</Nationality>
     <Poste>M</Poste>
@@ -4559,8 +4844,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="287" Name="Dimitar Berbatov">
+  <Player Id="285" Name="Dimitar Berbatov">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>BUL</Nationality>
     <Poste>F</Poste>
@@ -4575,8 +4861,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="288" Name="Lucas Ocampos">
+  <Player Id="286" Name="Lucas Ocampos">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>M</Poste>
@@ -4591,8 +4878,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="289" Name="Wallace">
+  <Player Id="287" Name="Wallace">
     <ShirtNumber>13</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
@@ -4607,8 +4895,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="290" Name="Tiemoué Bakayoko">
+  <Player Id="288" Name="Tiemoué Bakayoko">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -4623,8 +4912,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="291" Name="Bernardo Silva">
+  <Player Id="289" Name="Bernardo Silva">
     <ShirtNumber>15</ShirtNumber>
     <Nationality>POR</Nationality>
     <Poste>M</Poste>
@@ -4639,8 +4929,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="292" Name="Maarten Stekelenburg">
+  <Player Id="290" Name="Maarten Stekelenburg">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>NED</Nationality>
     <Poste>G</Poste>
@@ -4655,8 +4946,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="293" Name="Yannick Ferreira Carrasco">
+  <Player Id="291" Name="Yannick Ferreira Carrasco">
     <ShirtNumber>17</ShirtNumber>
     <Nationality>BEL</Nationality>
     <Poste>M</Poste>
@@ -4671,8 +4963,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="294" Name="Valère Germain">
+  <Player Id="292" Name="Valère Germain">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -4687,8 +4980,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="295" Name="Lacina Traoré">
+  <Player Id="293" Name="Lacina Traoré">
     <ShirtNumber>19</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>F</Poste>
@@ -4703,8 +4997,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="296" Name="Elderson Uwa Echiejile">
+  <Player Id="294" Name="Elderson Uwa Echiejile">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>NGA</Nationality>
     <Poste>D</Poste>
@@ -4719,8 +5014,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="297" Name="Geoffrey Kondogbia">
+  <Player Id="295" Name="Geoffrey Kondogbia">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -4735,8 +5031,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="298" Name="Anthony Martial">
+  <Player Id="296" Name="Anthony Martial">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -4751,8 +5048,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="299" Name="Andrea Raggi">
+  <Player Id="297" Name="Andrea Raggi">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>ITA</Nationality>
     <Poste>D</Poste>
@@ -4767,8 +5065,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="300" Name="Jérémy Toulalan">
+  <Player Id="298" Name="Jérémy Toulalan">
     <ShirtNumber>28</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -4783,8 +5082,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="301" Name="Dylan Bahamboula">
+  <Player Id="299" Name="Dylan Bahamboula">
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -4799,8 +5099,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="302" Name="Seydou Sy">
+  <Player Id="300" Name="Seydou Sy">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>G</Poste>
@@ -4815,8 +5116,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="303" Name="Abdou Diallo">
+  <Player Id="301" Name="Abdou Diallo">
     <ShirtNumber>34</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -4831,8 +5133,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="304" Name="Aboud Aziz Thiam">
+  <Player Id="302" Name="Aboud Aziz Thiam">
     <ShirtNumber>37</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -4847,8 +5150,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="305" Name="Almary Touré">
+  <Player Id="303" Name="Almary Touré">
     <ShirtNumber>38</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>D</Poste>
@@ -4863,8 +5167,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="306" Name="Marc-Aurèle Caillard">
+  <Player Id="304" Name="Marc-Aurèle Caillard">
     <ShirtNumber>40</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -4879,8 +5184,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASM</ActualTeamTag>
   </Player>
-  <Player Id="307" Name="Laurent Pionnier">
+  <Player Id="305" Name="Laurent Pionnier">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -4895,8 +5201,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="308" Name="Daniel Congré">
+  <Player Id="306" Name="Daniel Congré">
     <ShirtNumber>3</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -4911,8 +5218,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="309" Name="Hilton">
+  <Player Id="307" Name="Hilton">
     <ShirtNumber>4</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
@@ -4927,8 +5235,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="310" Name="Siaka Tiéné">
+  <Player Id="308" Name="Siaka Tiéné">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>D</Poste>
@@ -4943,8 +5252,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="311" Name="Joris Marveaux">
+  <Player Id="309" Name="Joris Marveaux">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -4959,8 +5269,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="312" Name="Anthony Mounier">
+  <Player Id="310" Name="Anthony Mounier">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -4975,8 +5286,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="313" Name="Jonas Martin">
+  <Player Id="311" Name="Jonas Martin">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -4991,8 +5303,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="314" Name="Kévin Bérigaud">
+  <Player Id="312" Name="Kévin Bérigaud">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -5007,8 +5320,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="315" Name="Lucas Barrios">
+  <Player Id="313" Name="Lucas Barrios">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>PAR</Nationality>
     <Poste>F</Poste>
@@ -5023,8 +5337,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="316" Name="Victor Hugo Montaño">
+  <Player Id="314" Name="Victor Hugo Montaño">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>COL</Nationality>
     <Poste>F</Poste>
@@ -5039,8 +5354,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="317" Name="Dylan Gissi">
+  <Player Id="315" Name="Dylan Gissi">
     <ShirtNumber>13</ShirtNumber>
     <Nationality>SUI</Nationality>
     <Poste>D</Poste>
@@ -5055,8 +5371,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="318" Name="Bryan Dabo">
+  <Player Id="316" Name="Bryan Dabo">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -5071,8 +5388,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="319" Name="Geoffrey Jourdren">
+  <Player Id="317" Name="Geoffrey Jourdren">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -5087,8 +5405,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="320" Name="Paul Lasne">
+  <Player Id="318" Name="Paul Lasne">
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -5103,8 +5422,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="321" Name="Karim Aït-Fana">
+  <Player Id="319" Name="Karim Aït-Fana">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>MAR</Nationality>
     <Poste>F</Poste>
@@ -5119,8 +5439,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="322" Name="Souleymane Camara">
+  <Player Id="320" Name="Souleymane Camara">
     <ShirtNumber>19</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>F</Poste>
@@ -5135,8 +5456,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="323" Name="Morgan Sanson">
+  <Player Id="321" Name="Morgan Sanson">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -5151,8 +5473,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="324" Name="Abdelhamid El Kaoutari">
+  <Player Id="322" Name="Abdelhamid El Kaoutari">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>MAR</Nationality>
     <Poste>D</Poste>
@@ -5167,8 +5490,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="325" Name="Jamel Saihi">
+  <Player Id="323" Name="Jamel Saihi">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>TUN</Nationality>
     <Poste>M</Poste>
@@ -5183,8 +5507,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="326" Name="Jean Deza">
+  <Player Id="324" Name="Jean Deza">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>PER</Nationality>
     <Poste>F</Poste>
@@ -5199,8 +5524,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="327" Name="Mathieu Deplagne">
+  <Player Id="325" Name="Mathieu Deplagne">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -5215,8 +5541,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="328" Name="Yassine Jebbour">
+  <Player Id="326" Name="Yassine Jebbour">
     <ShirtNumber>26</ShirtNumber>
     <Nationality>MAR</Nationality>
     <Poste>D</Poste>
@@ -5231,8 +5558,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="329" Name="Steve Mounié">
+  <Player Id="327" Name="Steve Mounié">
     <ShirtNumber>27</ShirtNumber>
     <Nationality>BEN</Nationality>
     <Poste>F</Poste>
@@ -5247,8 +5575,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="330" Name="Djamel Bakar">
+  <Player Id="328" Name="Djamel Bakar">
     <ShirtNumber>28</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -5263,8 +5592,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="331" Name="Gianni Seraf">
+  <Player Id="329" Name="Gianni Seraf">
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -5279,8 +5609,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="332" Name="Jonathan Ligali">
+  <Player Id="330" Name="Jonathan Ligali">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -5295,8 +5626,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="333" Name="Quentin Cornette">
+  <Player Id="331" Name="Quentin Cornette">
     <ShirtNumber>31</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -5311,8 +5643,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="334" Name="Nicolas Saint-Ruf">
+  <Player Id="332" Name="Nicolas Saint-Ruf">
     <ShirtNumber>32</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -5327,8 +5660,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>MHSC</ActualTeamTag>
   </Player>
-  <Player Id="335" Name="Rémy Riou">
+  <Player Id="333" Name="Rémy Riou">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -5343,8 +5677,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="336" Name="Kian Hansen">
+  <Player Id="334" Name="Kian Hansen">
     <ShirtNumber>2</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>D</Poste>
@@ -5359,8 +5694,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="337" Name="Papy Mison Djilobodji">
+  <Player Id="335" Name="Papy Mison Djilobodji">
     <ShirtNumber>3</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
@@ -5375,8 +5711,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="338" Name="Oswaldo Vizcarrondo">
+  <Player Id="336" Name="Oswaldo Vizcarrondo">
     <ShirtNumber>4</ShirtNumber>
     <Nationality>VEN</Nationality>
     <Poste>D</Poste>
@@ -5391,8 +5728,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="339" Name="Olivier Veigneau">
+  <Player Id="337" Name="Olivier Veigneau">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -5407,8 +5745,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="340" Name="Rémi Gomis">
+  <Player Id="338" Name="Rémi Gomis">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>M</Poste>
@@ -5423,8 +5762,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="341" Name="Alejandro Bedoya">
+  <Player Id="339" Name="Alejandro Bedoya">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>USA</Nationality>
     <Poste>M</Poste>
@@ -5439,8 +5779,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="342" Name="Vincent Bessat">
+  <Player Id="340" Name="Vincent Bessat">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -5455,8 +5796,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="343" Name="Itay Shechter">
+  <Player Id="341" Name="Itay Shechter">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>ISR</Nationality>
     <Poste>F</Poste>
@@ -5471,8 +5813,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="344" Name="Fernando Aristeguieta">
+  <Player Id="342" Name="Fernando Aristeguieta">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>VEN</Nationality>
     <Poste>F</Poste>
@@ -5487,8 +5830,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="345" Name="Ismaël Bangoura">
+  <Player Id="343" Name="Ismaël Bangoura">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>GUI</Nationality>
     <Poste>F</Poste>
@@ -5503,8 +5847,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="346" Name="Birama Touré">
+  <Player Id="344" Name="Birama Touré">
     <ShirtNumber>12</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>M</Poste>
@@ -5519,8 +5864,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="347" Name="Serge Gakpé">
+  <Player Id="345" Name="Serge Gakpé">
     <ShirtNumber>13</ShirtNumber>
     <Nationality>TOG</Nationality>
     <Poste>M</Poste>
@@ -5535,8 +5881,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="348" Name="Georges-Kevin Nkoudou">
+  <Player Id="346" Name="Georges-Kevin Nkoudou">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -5551,8 +5898,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="349" Name="Léo Dubois">
+  <Player Id="347" Name="Léo Dubois">
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -5567,8 +5915,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="350" Name="Erwin Zelazny">
+  <Player Id="348" Name="Erwin Zelazny">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -5583,8 +5932,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="351" Name="Lucas Deaux">
+  <Player Id="349" Name="Lucas Deaux">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -5599,8 +5949,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="352" Name="Abdoulaye Touré">
+  <Player Id="350" Name="Abdoulaye Touré">
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -5615,8 +5966,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="353" Name="Amine Oudrhiri">
+  <Player Id="351" Name="Amine Oudrhiri">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -5631,8 +5983,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="354" Name="Johan Audel">
+  <Player Id="352" Name="Johan Audel">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -5647,8 +6000,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="355" Name="Issa Cissokho">
+  <Player Id="353" Name="Issa Cissokho">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -5663,8 +6017,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="356" Name="Yacine Bammou">
+  <Player Id="354" Name="Yacine Bammou">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -5679,8 +6034,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="357" Name="Chaker Alhadhur">
+  <Player Id="355" Name="Chaker Alhadhur">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>COM</Nationality>
     <Poste>D</Poste>
@@ -5695,8 +6051,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="358" Name="Jordan Veretout">
+  <Player Id="356" Name="Jordan Veretout">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -5711,8 +6068,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="359" Name="Koffi Djidji">
+  <Player Id="357" Name="Koffi Djidji">
     <ShirtNumber>26</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -5727,8 +6085,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="360" Name="Valentin Rongier">
+  <Player Id="358" Name="Valentin Rongier">
     <ShirtNumber>28</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -5743,8 +6102,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="361" Name="Maxime Dupé">
+  <Player Id="359" Name="Maxime Dupé">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -5759,8 +6119,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>FCN</ActualTeamTag>
   </Player>
-  <Player Id="362" Name="Mouez Hassan">
+  <Player Id="360" Name="Mouez Hassan">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -5775,8 +6136,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="363" Name="Carlos Eduardo">
+  <Player Id="361" Name="Carlos Eduardo">
     <ShirtNumber>3</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>M</Poste>
@@ -5791,8 +6153,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="364" Name="Kevin Gomis">
+  <Player Id="362" Name="Kevin Gomis">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -5807,8 +6170,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="365" Name="Didier Digard">
+  <Player Id="363" Name="Didier Digard">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -5823,8 +6187,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="366" Name="Julien Vercauteren">
+  <Player Id="364" Name="Julien Vercauteren">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>BEL</Nationality>
     <Poste>M</Poste>
@@ -5839,8 +6204,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="367" Name="Mahamane Traoré">
+  <Player Id="365" Name="Mahamane Traoré">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>M</Poste>
@@ -5855,8 +6221,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="368" Name="Xavier Pentecôte">
+  <Player Id="366" Name="Xavier Pentecôte">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -5871,8 +6238,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="369" Name="Valentin Eysseric">
+  <Player Id="367" Name="Valentin Eysseric">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -5887,8 +6255,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="370" Name="Eric Bauthéac">
+  <Player Id="368" Name="Eric Bauthéac">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -5903,8 +6272,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="371" Name="Darío Cvitanich">
+  <Player Id="369" Name="Darío Cvitanich">
     <ShirtNumber>12</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>F</Poste>
@@ -5919,8 +6289,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="372" Name="Niklas Hult">
+  <Player Id="370" Name="Niklas Hult">
     <ShirtNumber>13</ShirtNumber>
     <Nationality>SWE</Nationality>
     <Poste>M</Poste>
@@ -5935,8 +6306,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="373" Name="Alassane Pléa">
+  <Player Id="371" Name="Alassane Pléa">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -5951,8 +6323,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="374" Name="Grégoire Puel">
+  <Player Id="372" Name="Grégoire Puel">
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -5967,8 +6340,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="375" Name="Simon Pouplin">
+  <Player Id="373" Name="Simon Pouplin">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -5983,8 +6357,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="376" Name="Neal Maupay">
+  <Player Id="374" Name="Neal Maupay">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -5999,8 +6374,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="377" Name="Jordan Amavi">
+  <Player Id="375" Name="Jordan Amavi">
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -6015,8 +6391,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="378" Name="Souleymane Diawara">
+  <Player Id="376" Name="Souleymane Diawara">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
@@ -6031,8 +6408,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="379" Name="Lloyd Palun">
+  <Player Id="377" Name="Lloyd Palun">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>GAB</Nationality>
     <Poste>D</Poste>
@@ -6047,8 +6425,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="380" Name="Nampalys Mendy">
+  <Player Id="378" Name="Nampalys Mendy">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -6063,8 +6442,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="381" Name="Alexy Bosetti">
+  <Player Id="379" Name="Alexy Bosetti">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -6079,8 +6459,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="382" Name="Mathieu Bodmer">
+  <Player Id="380" Name="Mathieu Bodmer">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -6095,8 +6476,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="383" Name="Romain Genevois">
+  <Player Id="381" Name="Romain Genevois">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>HAI</Nationality>
     <Poste>D</Poste>
@@ -6111,8 +6493,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="384" Name="Bryan Constant">
+  <Player Id="382" Name="Bryan Constant">
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -6127,8 +6510,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="385" Name="Fabien Dao Castellana">
+  <Player Id="383" Name="Fabien Dao Castellana">
     <ShirtNumber>28</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -6143,8 +6527,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="386" Name="Joris Delle">
+  <Player Id="384" Name="Joris Delle">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -6159,8 +6544,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="387" Name="Moussa M'Bow">
+  <Player Id="385" Name="Moussa M'Bow">
     <ShirtNumber>31</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
@@ -6175,8 +6561,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>OGCN</ActualTeamTag>
   </Player>
-  <Player Id="388" Name="Nicolas Douchez">
+  <Player Id="386" Name="Nicolas Douchez">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -6191,8 +6578,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="389" Name="Thiago Silva">
+  <Player Id="387" Name="Thiago Silva">
     <ShirtNumber>2</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
@@ -6207,8 +6595,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="390" Name="Yohan Cabaye">
+  <Player Id="388" Name="Yohan Cabaye">
     <ShirtNumber>4</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -6223,8 +6612,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="391" Name="Marquinhos">
+  <Player Id="389" Name="Marquinhos">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
@@ -6239,8 +6629,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="392" Name="Zoumana Camara">
+  <Player Id="390" Name="Zoumana Camara">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -6255,8 +6646,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="393" Name="Lucas">
+  <Player Id="391" Name="Lucas">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>M</Poste>
@@ -6271,8 +6663,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="394" Name="Thiago Motta">
+  <Player Id="392" Name="Thiago Motta">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>ITA</Nationality>
     <Poste>M</Poste>
@@ -6287,8 +6680,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="395" Name="Edinson Cavani">
+  <Player Id="393" Name="Edinson Cavani">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>URU</Nationality>
     <Poste>F</Poste>
@@ -6303,8 +6697,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="396" Name="Zlatan Ibrahimovi?">
+  <Player Id="394" Name="Zlatan Ibrahimovi?">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>SWE</Nationality>
     <Poste>F</Poste>
@@ -6319,8 +6714,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="397" Name="Blaise Matuidi">
+  <Player Id="395" Name="Blaise Matuidi">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -6335,8 +6731,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="398" Name="Jean-Christophe Bahebeck">
+  <Player Id="396" Name="Jean-Christophe Bahebeck">
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -6351,8 +6748,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="399" Name="Mike Maignan">
+  <Player Id="397" Name="Mike Maignan">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -6367,8 +6765,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="400" Name="Maxwell">
+  <Player Id="398" Name="Maxwell">
     <ShirtNumber>17</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
@@ -6383,8 +6782,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="401" Name="Serge Aurier">
+  <Player Id="399" Name="Serge Aurier">
     <ShirtNumber>19</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>D</Poste>
@@ -6399,8 +6799,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="402" Name="Clément Chantôme">
+  <Player Id="400" Name="Clément Chantôme">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -6415,8 +6816,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="403" Name="Lucas Digne">
+  <Player Id="401" Name="Lucas Digne">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -6431,8 +6833,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="404" Name="Ezequiel Lavezzi">
+  <Player Id="402" Name="Ezequiel Lavezzi">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>F</Poste>
@@ -6447,8 +6850,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="405" Name="Gregory van der Wiel">
+  <Player Id="403" Name="Gregory van der Wiel">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>NED</Nationality>
     <Poste>D</Poste>
@@ -6463,8 +6867,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="406" Name="Marco Verratti">
+  <Player Id="404" Name="Marco Verratti">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>ITA</Nationality>
     <Poste>M</Poste>
@@ -6479,8 +6884,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="407" Name="Adrien Rabiot">
+  <Player Id="405" Name="Adrien Rabiot">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -6495,8 +6901,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="408" Name="Javier Pastore">
+  <Player Id="406" Name="Javier Pastore">
     <ShirtNumber>27</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>M</Poste>
@@ -6511,8 +6918,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="409" Name="Salvatore Sirigu">
+  <Player Id="407" Name="Salvatore Sirigu">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>ITA</Nationality>
     <Poste>G</Poste>
@@ -6527,8 +6935,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="410" Name="David Luiz">
+  <Player Id="408" Name="David Luiz">
     <ShirtNumber>32</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
@@ -6543,8 +6952,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="411" Name="Mory Diaw">
+  <Player Id="409" Name="Mory Diaw">
     <ShirtNumber>40</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -6559,8 +6969,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>PSG</ActualTeamTag>
   </Player>
-  <Player Id="412" Name="Sacha Bastien">
+  <Player Id="410" Name="Sacha Bastien">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -6575,8 +6986,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="413" Name="Mohamed Fofana">
+  <Player Id="411" Name="Mohamed Fofana">
     <ShirtNumber>2</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>D</Poste>
@@ -6591,8 +7003,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="414" Name="Franck Signorino">
+  <Player Id="412" Name="Franck Signorino">
     <ShirtNumber>3</ShirtNumber>
     <Nationality>ITA</Nationality>
     <Poste>D</Poste>
@@ -6607,8 +7020,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="415" Name="Valentin Roberge">
+  <Player Id="413" Name="Valentin Roberge">
     <ShirtNumber>4</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -6623,8 +7037,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="416" Name="Grégory Bourillon">
+  <Player Id="414" Name="Grégory Bourillon">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -6639,8 +7054,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="417" Name="Antoine Devaux">
+  <Player Id="415" Name="Antoine Devaux">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -6655,8 +7071,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="418" Name="Odaïr Fortes">
+  <Player Id="416" Name="Odaïr Fortes">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>CPV</Nationality>
     <Poste>F</Poste>
@@ -6671,8 +7088,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="419" Name="Prince Oniangue">
+  <Player Id="417" Name="Prince Oniangue">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -6687,8 +7105,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="420" Name="Eliran Atar">
+  <Player Id="418" Name="Eliran Atar">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>ISR</Nationality>
     <Poste>F</Poste>
@@ -6703,8 +7122,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="421" Name="Gaëtan Charbonnier">
+  <Player Id="419" Name="Gaëtan Charbonnier">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -6719,8 +7139,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="422" Name="Diego">
+  <Player Id="420" Name="Diego">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>F</Poste>
@@ -6735,8 +7156,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="423" Name="Nicolas De Préville">
+  <Player Id="421" Name="Nicolas De Préville">
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -6751,8 +7173,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="424" Name="Benjamin Moukandjo">
+  <Player Id="422" Name="Benjamin Moukandjo">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>CMR</Nationality>
     <Poste>F</Poste>
@@ -6767,8 +7190,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="425" Name="Chris Mavinga">
+  <Player Id="423" Name="Chris Mavinga">
     <ShirtNumber>15</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -6783,8 +7207,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="426" Name="Kossi Agassa">
+  <Player Id="424" Name="Kossi Agassa">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>TOG</Nationality>
     <Poste>G</Poste>
@@ -6799,8 +7224,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="427" Name="Mads Albæk">
+  <Player Id="425" Name="Mads Albæk">
     <ShirtNumber>17</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>M</Poste>
@@ -6815,8 +7241,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="428" Name="Gaëtan Courtet">
+  <Player Id="426" Name="Gaëtan Courtet">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -6831,8 +7258,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="429" Name="Alexi Peuget">
+  <Player Id="427" Name="Alexi Peuget">
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -6847,8 +7275,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="430" Name="Yann Benedick">
+  <Player Id="428" Name="Yann Benedick">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -6863,8 +7292,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="431" Name="Bocundji Ca">
+  <Player Id="429" Name="Bocundji Ca">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>GNB</Nationality>
     <Poste>M</Poste>
@@ -6879,8 +7309,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="432" Name="Mickaël Tacalfred">
+  <Player Id="430" Name="Mickaël Tacalfred">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -6895,8 +7326,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="433" Name="Aïssa Mandi">
+  <Player Id="431" Name="Aïssa Mandi">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>ALG</Nationality>
     <Poste>D</Poste>
@@ -6911,8 +7343,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="434" Name="David N'Gog">
+  <Player Id="432" Name="David N'Gog">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -6927,8 +7360,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="435" Name="Anthony Weber">
+  <Player Id="433" Name="Anthony Weber">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -6943,8 +7377,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="436" Name="Omenuke Mfulu">
+  <Player Id="434" Name="Omenuke Mfulu">
     <ShirtNumber>26</ShirtNumber>
     <Nationality>COD</Nationality>
     <Poste>D</Poste>
@@ -6959,8 +7394,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="437" Name="Christopher Glombard">
+  <Player Id="435" Name="Christopher Glombard">
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -6975,8 +7411,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="438" Name="Antoine Conte">
+  <Player Id="436" Name="Antoine Conte">
     <ShirtNumber>28</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -6991,8 +7428,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="439" Name="Grejohn Kiey">
+  <Player Id="437" Name="Grejohn Kiey">
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -7007,8 +7445,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="440" Name="Johnny Placide">
+  <Player Id="438" Name="Johnny Placide">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>HAI</Nationality>
     <Poste>G</Poste>
@@ -7023,8 +7462,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SDR</ActualTeamTag>
   </Player>
-  <Player Id="441" Name="Benoît Costil">
+  <Player Id="439" Name="Benoît Costil">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -7039,8 +7479,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="442" Name="Cheikh M'Bengué">
+  <Player Id="440" Name="Cheikh M'Bengué">
     <ShirtNumber>3</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
@@ -7055,8 +7496,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="443" Name="Mexer">
+  <Player Id="441" Name="Mexer">
     <ShirtNumber>4</ShirtNumber>
     <Nationality>MOZ</Nationality>
     <Poste>D</Poste>
@@ -7071,8 +7513,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="444" Name="Jean-Armel Kana-Biyik">
+  <Player Id="442" Name="Jean-Armel Kana-Biyik">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>CMR</Nationality>
     <Poste>D</Poste>
@@ -7087,8 +7530,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="445" Name="Gelson Fernandes">
+  <Player Id="443" Name="Gelson Fernandes">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>SUI</Nationality>
     <Poste>M</Poste>
@@ -7103,8 +7547,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="446" Name="Paul-Georges Ntep">
+  <Player Id="444" Name="Paul-Georges Ntep">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -7119,8 +7564,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="447" Name="Abdoulaye Doucouré">
+  <Player Id="445" Name="Abdoulaye Doucouré">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -7135,8 +7581,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="448" Name="Ola Toivonen">
+  <Player Id="446" Name="Ola Toivonen">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>SWE</Nationality>
     <Poste>F</Poste>
@@ -7151,8 +7598,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="449" Name="Kamil Grosicki">
+  <Player Id="447" Name="Kamil Grosicki">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>POL</Nationality>
     <Poste>M</Poste>
@@ -7167,8 +7615,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="450" Name="Philipp Hosiner">
+  <Player Id="448" Name="Philipp Hosiner">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>AUT</Nationality>
     <Poste>F</Poste>
@@ -7183,8 +7632,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="451" Name="Steven Moreira">
+  <Player Id="449" Name="Steven Moreira">
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -7199,8 +7649,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="452" Name="Fallou Diagné">
+  <Player Id="450" Name="Fallou Diagné">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
@@ -7215,8 +7666,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="453" Name="Jean II Makoun">
+  <Player Id="451" Name="Jean II Makoun">
     <ShirtNumber>15</ShirtNumber>
     <Nationality>CMR</Nationality>
     <Poste>M</Poste>
@@ -7231,8 +7683,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="454" Name="Olivier Sorin">
+  <Player Id="452" Name="Olivier Sorin">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -7247,8 +7700,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="455" Name="Vincent Pajot">
+  <Player Id="453" Name="Vincent Pajot">
     <ShirtNumber>17</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -7263,8 +7717,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="456" Name="Pedro Henrique">
+  <Player Id="454" Name="Pedro Henrique">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>M</Poste>
@@ -7279,8 +7734,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="457" Name="Adrien Hunou">
+  <Player Id="455" Name="Adrien Hunou">
     <ShirtNumber>19</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -7295,8 +7751,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="458" Name="Axel Ngando">
+  <Player Id="456" Name="Axel Ngando">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -7311,8 +7768,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="459" Name="Benjamin André">
+  <Player Id="457" Name="Benjamin André">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -7327,8 +7785,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="460" Name="Sylvain Armand">
+  <Player Id="458" Name="Sylvain Armand">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -7343,8 +7802,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="461" Name="Anders Konradsen">
+  <Player Id="459" Name="Anders Konradsen">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>NOR</Nationality>
     <Poste>M</Poste>
@@ -7359,8 +7819,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="462" Name="Sanjin Prci?">
+  <Player Id="460" Name="Sanjin Prci?">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>BIH</Nationality>
     <Poste>M</Poste>
@@ -7375,8 +7836,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="463" Name="Zana Allée">
+  <Player Id="461" Name="Zana Allée">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -7391,8 +7853,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="464" Name="Mahamadou Habib Habibou">
+  <Player Id="462" Name="Mahamadou Habib Habibou">
     <ShirtNumber>27</ShirtNumber>
     <Nationality>CTA</Nationality>
     <Poste>F</Poste>
@@ -7407,8 +7870,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="465" Name="Gjoko Zajkov">
+  <Player Id="463" Name="Gjoko Zajkov">
     <ShirtNumber>28</ShirtNumber>
     <Nationality>MKD</Nationality>
     <Poste>D</Poste>
@@ -7423,8 +7887,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="466" Name="Romain Danzé">
+  <Player Id="464" Name="Romain Danzé">
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -7439,8 +7904,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>SRFC</ActualTeamTag>
   </Player>
-  <Player Id="467" Name="Baptiste Valette">
+  <Player Id="465" Name="Baptiste Valette">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -7455,8 +7921,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="468" Name="Kévin Theophile Catherine">
+  <Player Id="466" Name="Kévin Theophile Catherine">
     <ShirtNumber>2</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -7471,8 +7938,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="469" Name="Jérémy Clément">
+  <Player Id="467" Name="Jérémy Clément">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -7487,8 +7955,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="470" Name="Max Gradel">
+  <Player Id="468" Name="Max Gradel">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>F</Poste>
@@ -7503,8 +7972,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="471" Name="Benjamin Corgnet">
+  <Player Id="469" Name="Benjamin Corgnet">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -7519,8 +7989,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="472" Name="Mevlüt Erdinç">
+  <Player Id="470" Name="Mevlüt Erdinç">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>TUR</Nationality>
     <Poste>F</Poste>
@@ -7535,8 +8006,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="473" Name="Renaud Cohade">
+  <Player Id="471" Name="Renaud Cohade">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -7551,8 +8023,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="474" Name="Yohan Mollo">
+  <Player Id="472" Name="Yohan Mollo">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -7567,8 +8040,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="475" Name="Allan Saint-Maximin">
+  <Player Id="473" Name="Allan Saint-Maximin">
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -7583,8 +8057,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="476" Name="Ricky van Wolfswinkel">
+  <Player Id="474" Name="Ricky van Wolfswinkel">
     <ShirtNumber>13</ShirtNumber>
     <Nationality>NED</Nationality>
     <Poste>F</Poste>
@@ -7599,8 +8074,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="477" Name="Stéphane Ruffier">
+  <Player Id="475" Name="Stéphane Ruffier">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -7615,8 +8091,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="478" Name="Fabien Lemoine">
+  <Player Id="476" Name="Fabien Lemoine">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -7631,8 +8108,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="479" Name="Florentin Pogba">
+  <Player Id="477" Name="Florentin Pogba">
     <ShirtNumber>19</ShirtNumber>
     <Nationality>GUI</Nationality>
     <Poste>D</Poste>
@@ -7647,8 +8125,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="480" Name="Jonathan Brison">
+  <Player Id="478" Name="Jonathan Brison">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -7663,8 +8142,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="481" Name="Romain Hamouma">
+  <Player Id="479" Name="Romain Hamouma">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -7679,8 +8159,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="482" Name="Kévin Monnet-Paquet">
+  <Player Id="480" Name="Kévin Monnet-Paquet">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -7695,8 +8176,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="483" Name="Paul Baysse">
+  <Player Id="481" Name="Paul Baysse">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -7711,8 +8193,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="484" Name="Loïc Perrin">
+  <Player Id="482" Name="Loïc Perrin">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -7727,8 +8210,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="485" Name="Moustapha Bayal Sall">
+  <Player Id="483" Name="Moustapha Bayal Sall">
     <ShirtNumber>26</ShirtNumber>
     <Nationality>SEN</Nationality>
     <Poste>D</Poste>
@@ -7743,8 +8227,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="486" Name="Franck Tabanou">
+  <Player Id="484" Name="Franck Tabanou">
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -7759,8 +8244,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="487" Name="Ismaël Diomande">
+  <Player Id="485" Name="Ismaël Diomande">
     <ShirtNumber>28</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>M</Poste>
@@ -7775,8 +8261,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="488" Name="François Clerc">
+  <Player Id="486" Name="François Clerc">
     <ShirtNumber>29</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -7791,8 +8278,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>ASSE</ActualTeamTag>
   </Player>
-  <Player Id="489" Name="Jessy Moulin">
+  <Player Id="487" Name="Jessy Moulin">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -7807,8 +8295,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="490" Name="Zacharie Boucher">
+  <Player Id="488" Name="Zacharie Boucher">
     <ShirtNumber>1</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -7823,8 +8312,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="491" Name="Maxime Spano">
+  <Player Id="489" Name="Maxime Spano">
     <ShirtNumber>2</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -7839,8 +8329,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="492" Name="Tongo Doumbia">
+  <Player Id="490" Name="Tongo Doumbia">
     <ShirtNumber>4</ShirtNumber>
     <Nationality>MLI</Nationality>
     <Poste>M</Poste>
@@ -7855,8 +8346,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="493" Name="Issiaga Sylla">
+  <Player Id="491" Name="Issiaga Sylla">
     <ShirtNumber>5</ShirtNumber>
     <Nationality>GUI</Nationality>
     <Poste>D</Poste>
@@ -7871,8 +8363,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="494" Name="William Matheus">
+  <Player Id="492" Name="William Matheus">
     <ShirtNumber>6</ShirtNumber>
     <Nationality>BRA</Nationality>
     <Poste>D</Poste>
@@ -7887,8 +8380,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="495" Name="Jean-Daniel Akpa Akpro">
+  <Player Id="493" Name="Jean-Daniel Akpa Akpro">
     <ShirtNumber>7</ShirtNumber>
     <Nationality>CIV</Nationality>
     <Poste>D</Poste>
@@ -7903,8 +8397,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="496" Name="Etienne Didot">
+  <Player Id="494" Name="Etienne Didot">
     <ShirtNumber>8</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -7919,8 +8414,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="497" Name="Martin Braithwaite">
+  <Player Id="495" Name="Martin Braithwaite">
     <ShirtNumber>9</ShirtNumber>
     <Nationality>DEN</Nationality>
     <Poste>F</Poste>
@@ -7935,8 +8431,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="498" Name="Wissam Ben Yedder">
+  <Player Id="496" Name="Wissam Ben Yedder">
     <ShirtNumber>10</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -7951,8 +8448,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="499" Name="Aleksandar Peši?">
+  <Player Id="497" Name="Aleksandar Peši?">
     <ShirtNumber>11</ShirtNumber>
     <Nationality>SRB</Nationality>
     <Poste>F</Poste>
@@ -7967,8 +8465,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="500" Name="Florian David">
+  <Player Id="498" Name="Florian David">
     <ShirtNumber>12</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -7983,8 +8482,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="501" Name="Dominik Furman">
+  <Player Id="499" Name="Dominik Furman">
     <ShirtNumber>13</ShirtNumber>
     <Nationality>POL</Nationality>
     <Poste>M</Poste>
@@ -7999,8 +8499,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="502" Name="François Sirieix">
+  <Player Id="500" Name="François Sirieix">
     <ShirtNumber>14</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>M</Poste>
@@ -8015,8 +8516,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="503" Name="Uroš Spaji?">
+  <Player Id="501" Name="Uroš Spaji?">
     <ShirtNumber>15</ShirtNumber>
     <Nationality>SRB</Nationality>
     <Poste>D</Poste>
@@ -8031,8 +8533,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="504" Name="Marc Vidal">
+  <Player Id="502" Name="Marc Vidal">
     <ShirtNumber>16</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -8047,8 +8550,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="505" Name="Adrien Regattin">
+  <Player Id="503" Name="Adrien Regattin">
     <ShirtNumber>17</ShirtNumber>
     <Nationality>MAR</Nationality>
     <Poste>M</Poste>
@@ -8063,8 +8567,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="506" Name="Óscar Trejo">
+  <Player Id="504" Name="Óscar Trejo">
     <ShirtNumber>18</ShirtNumber>
     <Nationality>ARG</Nationality>
     <Poste>M</Poste>
@@ -8079,8 +8584,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="507" Name="Steeve Yago">
+  <Player Id="505" Name="Steeve Yago">
     <ShirtNumber>20</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>D</Poste>
@@ -8095,8 +8601,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="508" Name="Abel Aguilar">
+  <Player Id="506" Name="Abel Aguilar">
     <ShirtNumber>21</ShirtNumber>
     <Nationality>COL</Nationality>
     <Poste>M</Poste>
@@ -8111,8 +8618,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="509" Name="Dušan Veškovac">
+  <Player Id="507" Name="Dušan Veškovac">
     <ShirtNumber>22</ShirtNumber>
     <Nationality>SRB</Nationality>
     <Poste>D</Poste>
@@ -8127,8 +8635,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="510" Name="Marcel Tisserand">
+  <Player Id="508" Name="Marcel Tisserand">
     <ShirtNumber>23</ShirtNumber>
     <Nationality>COD</Nationality>
     <Poste>D</Poste>
@@ -8143,8 +8652,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="511" Name="Pavle Ninkov">
+  <Player Id="509" Name="Pavle Ninkov">
     <ShirtNumber>24</ShirtNumber>
     <Nationality>SRB</Nationality>
     <Poste>D</Poste>
@@ -8159,8 +8669,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="512" Name="Drago? Grigore">
+  <Player Id="510" Name="Drago? Grigore">
     <ShirtNumber>25</ShirtNumber>
     <Nationality>ROU</Nationality>
     <Poste>D</Poste>
@@ -8175,8 +8686,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="513" Name="Sana Zaniou">
+  <Player Id="511" Name="Sana Zaniou">
     <ShirtNumber>26</ShirtNumber>
     <Nationality>BFA</Nationality>
     <Poste>F</Poste>
@@ -8191,8 +8703,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="514" Name="Amadou Soukouna">
+  <Player Id="512" Name="Amadou Soukouna">
     <ShirtNumber>27</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>F</Poste>
@@ -8207,8 +8720,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="515" Name="Mihai Roman">
+  <Player Id="513" Name="Mihai Roman">
     <ShirtNumber>28</ShirtNumber>
     <Nationality>ROU</Nationality>
     <Poste>M</Poste>
@@ -8223,8 +8737,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="516" Name="François Moubandje">
+  <Player Id="514" Name="François Moubandje">
     <ShirtNumber>29</ShirtNumber>
     <Nationality>SUI</Nationality>
     <Poste>D</Poste>
@@ -8239,8 +8754,9 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
-  <Player Id="517" Name="Ali Ahamada">
+  <Player Id="515" Name="Ali Ahamada">
     <ShirtNumber>30</ShirtNumber>
     <Nationality>FRA</Nationality>
     <Poste>G</Poste>
@@ -8255,5 +8771,7 @@
     <Injury>false</Injury>
     <Mental>100</Mental>
     <FinancialValue>10000</FinancialValue>
+    <ActualTeamTag>TFC</ActualTeamTag>
   </Player>
 </Players>
+</Game>

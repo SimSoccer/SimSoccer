@@ -12,6 +12,7 @@ namespace Sims.SimSoccerModel
         readonly string _name;
         readonly TeamList _owner;
         readonly List<Player> _players;
+        readonly Game _game;
         string _teamTag;
         string _town;
         string _stadium, _logo, _manager;
@@ -23,6 +24,7 @@ namespace Sims.SimSoccerModel
             _owner = owner;
             _name = name;
             _players = new List<Player>();
+            _game = new Game();
         }
 
         public Game Game

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace CreatePlayerListConsole
 {
@@ -12,14 +13,11 @@ namespace CreatePlayerListConsole
         static void Main( string[] args )
         {
             Game g = new Game();
-            PlayerList pl = new PlayerList( g );
-            pl.CreatePlayerList();
+            XDocument doc = XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Players2.xml" );
 
-            var r = pl.Players
-                .Where( a => a.ActualClub.Contains( "Sporting Club de Bastia" ) )
-                .Select( a => a.Name );
+            PlayerList pl = new PlayerList( g, doc.Root.Element( "Players" ) );
 
-            Console.WriteLine( r );
+            Console.WriteLine( pl.Players[0].Name );
             Console.Read();
         }
     }
