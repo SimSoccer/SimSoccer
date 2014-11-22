@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Sims.SimSoccerModel
 {
-    class TeamList
+    public class TeamList
     {
         readonly Game _game;
         readonly List<Team> _teams;

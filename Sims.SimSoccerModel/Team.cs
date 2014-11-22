@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Sims.SimSoccerModel
 {
-    class Team
+    public class Team
     {
         readonly string _name;
         readonly TeamList _owner;
@@ -15,9 +15,13 @@ namespace Sims.SimSoccerModel
         readonly Game _game;
         string _teamTag;
         string _town;
-        string _stadium, _logo, _manager;
+        string _stadium;
+        string _logo;
+        string _manager;
         int _leagueRanking;
         int _level;
+        IEnumerable<string> _playerID;
+        
 
         internal Team( TeamList owner, string name )
         {
@@ -34,6 +38,8 @@ namespace Sims.SimSoccerModel
 
         internal Team( TeamList owner, XElement e )
         {
+            XDocument doc = XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Players2.xml" );
+            PlayerList _pl = new PlayerList( _game, doc.Root.Element( "Players" ) );
             _owner = owner;
             _name = e.Attribute( "Name" ).Value;
             TeamTag = e.Element( "TeamTag" ).Value;
@@ -43,6 +49,7 @@ namespace Sims.SimSoccerModel
             Manager = e.Element( "Manager" ).Value;
             LeagueRanking = int.Parse( e.Element( "LeagueRanking" ).Value );
             Level = int.Parse( e.Element( "Level" ).Value );
+            PlayerID = _pl.Players.Where( p => p.ActualTeamTag == _teamTag ).Select( p => p.Name );
             // Players
         }
 
@@ -108,6 +115,12 @@ namespace Sims.SimSoccerModel
         {
             get { return _level; }
             set { _level = value; }
+        }
+
+        public IEnumerable<string> PlayerID
+        {
+            get { return _playerID; }
+            set { _playerID = value; }
         }
     }
 }
