@@ -33,7 +33,9 @@
             this.previous = new System.Windows.Forms.Button();
             this.Logo = new System.Windows.Forms.PictureBox();
             this.teamName = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelName = new System.Windows.Forms.Label();
+            this.labelStadium = new System.Windows.Forms.Label();
+            this.teamStadium = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,17 +68,30 @@
             this.teamName.Name = "teamName";
             this.teamName.TextChanged += new System.EventHandler(this.teamName_TextChanged);
             // 
-            // label1
+            // labelName
             // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
+            resources.ApplyResources(this.labelName, "labelName");
+            this.labelName.Name = "labelName";
+            // 
+            // labelStadium
+            // 
+            resources.ApplyResources(this.labelStadium, "labelStadium");
+            this.labelStadium.Name = "labelStadium";
+            // 
+            // teamStadium
+            // 
+            resources.ApplyResources(this.teamStadium, "teamStadium");
+            this.teamStadium.Name = "teamStadium";
+            this.teamStadium.TextChanged += new System.EventHandler(this.teamStadium_TextChanged);
             // 
             // SelectTeamForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.teamStadium);
+            this.Controls.Add(this.labelStadium);
+            this.Controls.Add(this.labelName);
             this.Controls.Add(this.teamName);
             this.Controls.Add(this.Logo);
             this.Controls.Add(this.previous);
@@ -95,7 +110,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button previous;
         private System.Windows.Forms.PictureBox Logo;
-        protected System.Windows.Forms.TextBox teamName;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelName;
+        private System.Windows.Forms.Label labelStadium;
+        private System.Windows.Forms.TextBox teamStadium;
+        private System.Windows.Forms.TextBox teamName;
     }
 }

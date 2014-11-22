@@ -11,7 +11,7 @@ namespace SIMS.TeamsManagement
     {
         readonly string _name;
         readonly TeamList _owner;
-        readonly List<Player> _players;
+       // readonly List<Player> _players;
         string _teamTag;
         string _town;
         string _stadium, _logo, _manager;
@@ -22,7 +22,7 @@ namespace SIMS.TeamsManagement
         {
             _owner = owner;
             _name = name;
-            _players = new List<Player>();
+        //    _players = new List<Player>();
         }
 
         public Game Game
@@ -55,10 +55,10 @@ namespace SIMS.TeamsManagement
                         new XElement( "Logo", Logo ),
                         new XElement( "Manager", Manager ),
                         new XElement( "LeagueRanking", LeagueRanking ),
-                        new XElement( "Level", Level ),
-                        new XElement( "Players", 
+                        new XElement( "Level", Level ));
+                      /*  new XElement( "Players", 
                             new XElement( "Player", 
-                                new XAttribute( "Id", _players.Select( p => Game.PlayerList.Players.IndexOf( p ) ) ))));
+                                new XAttribute( "Id", _players.Select( p => Game.PlayerList.Players.IndexOf( p ) ) ))));*/
         }
 
         public string Name

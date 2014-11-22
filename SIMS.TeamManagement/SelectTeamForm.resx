@@ -121,7 +121,7 @@
   <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AACE2SURBVHhe7Z0HfBRl+se5O/2fnoJYEEVEagAJNfSewu6m
+        YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAACE2SURBVHhe7Z0HfBRl+se5O/2fnoJYEEVEagAJNfSewu6m
         EhACGAwBEiDUNFog9CKd0KRJFRQRBdFTFLw7FfEUPe6klySkk0Jvd+f5/J9n5n1n35mdbQmBJMz7+fw+
         szu7O1u+v6dM3UqlMH7HpsZ4yMcjqN+jDENU+FF/TJWaPm9F1+7xdkotvw0znmuT3A3nPo56lMkwQgUd
         v3uqaczTbQbs2Tdo7i8wZkUqRC06C91HfHW7tvntTU/WD38Vn/N/qD+ijIxQEUeTntumjVx2DmLfyoLw
@@ -296,12 +296,12 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="previous.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AACB7SURBVHhe7Z0HeBVl1sf5vk9WEXtD0UVqaAktEEKAQNpN
+        YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAACB7SURBVHhe7Z0HeBVl1sf5vk9WEXtD0UVqaAktEEKAQNpN
         LyDVYAglQKhp9A4JSO+IgFRBEFEQXUXB3VVR174rvSQhHRJ63eb5znln3sk7c2funRRjEuZ9nv8z997c
         IvP7n/85M7dYw1rWslblXv+D+j/Ufaiasuj6/6Lob9aqpovgEuQ/oB5EPYJ6VFZtFN1ORrBMUM0WB0+V
         XgtFwOug/oh6HvUc6gkUmeB+FN3XWtVk8bgnsA+jnkK9iGqMavOs18T4RpFbXmvcY8fS57wmeuNtdD9q
@@ -471,7 +471,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;previous.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="Logo.Location" type="System.Drawing.Point, System.Drawing">
     <value>631, 165</value>
@@ -495,16 +495,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Logo.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="teamName.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="teamName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
   </data>
   <data name="teamName.Location" type="System.Drawing.Point, System.Drawing">
     <value>631, 461</value>
   </data>
   <data name="teamName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>323, 20</value>
+    <value>323, 27</value>
   </data>
   <data name="teamName.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -522,36 +525,87 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;teamName.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="labelName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="labelName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="labelName.Location" type="System.Drawing.Point, System.Drawing">
     <value>780, 435</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="labelName.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 13</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+  <data name="labelName.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
+  <data name="labelName.Text" xml:space="preserve">
     <value>Nom:</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+  <data name="&gt;&gt;labelName.Name" xml:space="preserve">
+    <value>labelName</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+  <data name="&gt;&gt;labelName.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;labelName.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;labelName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelStadium.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelStadium.Location" type="System.Drawing.Point, System.Drawing">
+    <value>783, 505</value>
+  </data>
+  <data name="labelStadium.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="labelStadium.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelStadium.Text" xml:space="preserve">
+    <value>Stade:</value>
+  </data>
+  <data name="&gt;&gt;labelStadium.Name" xml:space="preserve">
+    <value>labelStadium</value>
+  </data>
+  <data name="&gt;&gt;labelStadium.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelStadium.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelStadium.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="teamStadium.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 538</value>
+  </data>
+  <data name="teamStadium.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 20</value>
+  </data>
+  <data name="teamStadium.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="teamStadium.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;teamStadium.Name" xml:space="preserve">
+    <value>teamStadium</value>
+  </data>
+  <data name="&gt;&gt;teamStadium.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;teamStadium.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;teamStadium.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
