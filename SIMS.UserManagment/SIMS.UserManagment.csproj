@@ -50,6 +50,13 @@
     <Compile Include="Formulaire.Designer.cs">
       <DependentUpon>Formulaire.cs</DependentUpon>
     </Compile>
+    <Compile Include="Game.cs" />
+    <Compile Include="LoadGameControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LoadGameControl.Designer.cs">
+      <DependentUpon>LoadGameControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StartForm.cs">
@@ -67,6 +74,9 @@
     <EmbeddedResource Include="Formulaire.resx">
       <DependentUpon>Formulaire.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoadGameControl.resx">
+      <DependentUpon>LoadGameControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -82,6 +92,12 @@
     <EmbeddedResource Include="UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Properties\DataSources\FormInscription.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\SIMS.UserManagment.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\SIMS.UserManagment.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\StartForm.datasource" />
+    <None Include="Properties\DataSources\UserControl1.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
