@@ -34,8 +34,8 @@ namespace SIMS.TeamsManagement
        
         private void Next_Click( object sender, EventArgs e )
         {
-           
-           if( i == 9)
+
+            if( i == (_teamList.Teams.Count) - 1 )
             {
                 i = 0;
             }
@@ -49,9 +49,9 @@ namespace SIMS.TeamsManagement
 
         private void Previous_Click( object sender, EventArgs e )
         {
-            if( i ==  0)
+            if( i == 0)
             {
-                i = 9;
+                i = (_teamList.Teams.Count) - 1;
             }
             else
             {
