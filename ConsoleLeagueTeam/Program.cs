@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SoccerSimulator
+namespace ConsoleLeagueTeam
 {
-    public class SoccerSimulator
+    class Program
     {
+        static void Main(string[] args)
+        {
+        }
     }
 }
