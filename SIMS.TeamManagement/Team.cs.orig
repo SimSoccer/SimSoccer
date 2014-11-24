@@ -55,8 +55,13 @@ namespace SIMS.TeamsManagement
                         new XElement( "Logo", Logo ),
                         new XElement( "Manager", Manager ),
                         new XElement( "LeagueRanking", LeagueRanking ),
-s                        new XElement( "Level", Level ));
+<<<<<<< HEAD
+                        new XElement( "Level", Level ) );
+                       /* new XElement( "Players", 
+=======
+                        new XElement( "Level", Level ));
                       /*  new XElement( "Players", 
+>>>>>>> SimSoccer/tf_winform_team
                             new XElement( "Player", 
                                 new XAttribute( "Id", _players.Select( p => Game.PlayerList.Players.IndexOf( p ) ) ))));*/
         }

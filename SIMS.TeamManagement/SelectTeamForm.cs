@@ -8,46 +8,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace SIMS.TeamsManagement
 {
     public partial class SelectTeamForm : Form
     {
-
-        /*public Team Read_Dictionnay(){
-        
-        TeamListReader team = new TeamListReader();
-        team.CreateTeamsList();
-       
-        Team currentTeam = null;
-
-        currentTeam = team.Teams[i];
-        
-        return currentTeam;
-        }*/
-
-
-        
-        
-
+        readonly Game _game;
+        readonly TeamList _teamList;
    
-        int i = 1;
+        int i = 0;
 
         public SelectTeamForm()
         {
             
             InitializeComponent();
-          
+            
+            _game = new Game();
+
+            XDocument doc = XDocument.Load( @"C:\Users\famille\Documents\GitHub\SimSoccer\Ligue1Teams.xml" );
+             _teamList = new TeamList( _game, doc.Root.Element( "Teams" ) );
             
         }
 
-      
+       
         private void Next_Click( object sender, EventArgs e )
         {
-           
-         /*   if( i == team.Teams.count)
+
+            if( i == (_teamList.Teams.Count) - 1 )
             {
-                i = 1;
+                i = 0;
             }
             else
             {
@@ -55,20 +45,20 @@ namespace SIMS.TeamsManagement
             }
             
             pictureBox1_Click( this, EventArgs.Empty );
-        */}
+        }
 
         private void Previous_Click( object sender, EventArgs e )
         {
-           /* if( i ==  0)
+            if( i == 0)
             {
-                i = 9;
+                i = (_teamList.Teams.Count) - 1;
             }
             else
             {
                 i--;
             }
             pictureBox1_Click( this, EventArgs.Empty );
-            */
+            
         }
 
         private void SelectTeamForm_Load( object sender, EventArgs e )
@@ -78,7 +68,7 @@ namespace SIMS.TeamsManagement
 
         private void pictureBox1_Click( object sender, EventArgs e )
         {
-            using( FileStream fs = new FileStream( @"C:\Users\famille\Pictures\Sans titre.png", FileMode.Open ) )
+            using( FileStream fs = new FileStream(_teamList.Teams[i].Logo, FileMode.Open ) )
             {
                 Logo.Image = Image.FromStream( fs );
                 teamName_TextChanged( this, EventArgs.Empty );
@@ -89,10 +79,13 @@ namespace SIMS.TeamsManagement
 
         private void teamName_TextChanged( object sender, EventArgs e )
         {
-            
-            //teamName.Text = currentTeam
-            
+            teamName.Text = _teamList.Teams[i].Name;
+            teamStadium_TextChanged( this, EventArgs.Empty );
+        }
 
+        private void teamStadium_TextChanged( object sender, EventArgs e )
+        {
+            teamStadium.Text = _teamList.Teams[i].Stadium;
         }
 
         
