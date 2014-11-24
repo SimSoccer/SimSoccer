@@ -14,12 +14,12 @@ namespace SIMS.TeamsManagement
         public void check_if_there_is_teams_in_teamslist()
         {
             // Arrange
-            TeamsList test = new TeamsList();
+            //TeamListReader test = new TeamListReader();
             bool container = false;
 
             // Act
-            test.CreateTeamsList();
-            if( test.Name.ContainsKey( 5 ) )
+          //  test.CreateTeamsList();
+            //if( test.Teams.ContainsKey( 5 ) )
             {
                 // This is in the Dictionary.
                 container = true;
