@@ -6,23 +6,25 @@ using System.Threading.Tasks;
 
 namespace DrawGame
 {
-    public class Journee
+    class Journee
     {
-        List<Journee> day;
+        int numero_;
+        List<Match> matchs_;
 
-        public Journee()
+        public Journee(int numero)
         {
-            day = new List<Journee>();
+            numero_ = numero;
         }
 
-        public List<Journee> DayContent
+        public List<Match> Matchs
         {
-            get { return day; }
+            get { return matchs_; }
+            set { matchs_ = value; }
         }
 
-        public int DayCount
+        public override string ToString()
         {
-            get { return day.Count(); }
+            return "journee " + numero_.ToString();
         }
     }
 }

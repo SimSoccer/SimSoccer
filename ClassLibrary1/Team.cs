@@ -6,40 +6,23 @@ using System.Threading.Tasks;
 
 namespace DrawGame
 {
-    public class Team
+    class Team
     {
-        string _team;
-        string _stade;
-        int _scoreTeam;
+        String nom_;
 
-        List<Team> opponent = new List<Team>();
-
-        public Team(string team, int scoreTeam, string stade)
+        public String Nom
         {
-            _team = team;
-            _scoreTeam = scoreTeam;
-            _stade = stade;
+            get { return nom_; }
         }
 
-        public string NameTeam
+        public Team(String nom)
         {
-            get { return _team; }
-            set { _team = value; }
+            nom_ = nom;
         }
 
-        public void Remove(Team team)
+        public override string ToString()
         {
-            opponent.Remove(team);
-        }
-
-        public List<Team> Oponent
-        {
-            get { return opponent; }
-        }
-
-        public int TotalOponent
-        {
-            get { return opponent.Count(); }
+            return nom_;
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormWinForm", "FormWinForm\FormWinForm.csproj", "{76530549-747E-4A33-93C6-CCA67F84A38E}"
 EndProject
@@ -21,10 +21,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.PlayerManagement", "SIMS.PlayerManagement\SIMS.PlayerManagement.csproj", "{6A41FB06-D0EA-4E54-A96B-6591D253F6AF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.UserManagement", "SIMS.UserManagement\SIMS.UserManagement.csproj", "{62C5F69A-8308-469C-B2DA-296212FAC4B3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.TestsDrawGame", "SIMS.TestsDrawGame\SIMS.TestsDrawGame.csproj", "{034E64EC-72B2-46C1-9FB5-0DAD5206418D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDrawGame", "TestDrawGame\TestDrawGame.csproj", "{C9F6256E-36E1-4C44-AE47-73A60B55E4AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,14 +56,6 @@ Global
 		{62C5F69A-8308-469C-B2DA-296212FAC4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62C5F69A-8308-469C-B2DA-296212FAC4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62C5F69A-8308-469C-B2DA-296212FAC4B3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{034E64EC-72B2-46C1-9FB5-0DAD5206418D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{034E64EC-72B2-46C1-9FB5-0DAD5206418D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{034E64EC-72B2-46C1-9FB5-0DAD5206418D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{034E64EC-72B2-46C1-9FB5-0DAD5206418D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C9F6256E-36E1-4C44-AE47-73A60B55E4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C9F6256E-36E1-4C44-AE47-73A60B55E4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C9F6256E-36E1-4C44-AE47-73A60B55E4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C9F6256E-36E1-4C44-AE47-73A60B55E4AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

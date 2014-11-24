@@ -6,68 +6,87 @@ using System.Threading.Tasks;
 
 namespace DrawGame
 {
-    public class LeagueTeam
+    class Ligue
     {
-        /// <summary>
-        /// fields
-        /// </summary>
-        List<Team> _teamLeague;
-        Random r = new Random();
-        int tirageFirstTeam;
-        List<Match> matchs = new List<Match>();
+        Calendrier calendrier_;
+        List<Team> equipes_;
 
-        public LeagueTeam()
+        public Calendrier Calendar
         {
-            _teamLeague = new List<Team>();
+            get { return calendrier_; }
         }
 
-        public List<Team> NameLeague
+        public Ligue()
         {
-            get { return _teamLeague; }
+            equipes_ = new List<Team>();
         }
 
-        public int TotalLeague
+        public void fillCalendar()
         {
-            get { return _teamLeague.Count(); }
-        }
-        public List<Match> ListMatch
-        {
-            get { return matchs; }
-        }
-        public int TotalMatch
-        {
-            get { return matchs.Count(); }
-        }
+            Random r = new Random();
+            calendrier_ = new Calendrier(equipes_.Count);
+            List<int> indicesEquipes = Enumerable.Range(0, 20).OrderBy(x => r.Next()).ToList();
 
-        public Team CreateTeam(string team, int scoreTeam, string stade)
-        {
-            Team t = new Team(team, scoreTeam, stade);
-            _teamLeague.Add(t);
-            return t;
-        }
-
-        /// <summary>
-        /// Function witch return a list of matchs and who put the matchs in the journey
-        /// </summary>
-        /// <returns>List of matchs</returns>
-        public List<Match> CreateDayAller()
-        {
-            while (TotalMatch <= TotalLeague / 2)
+            for (int i = 0; i < (equipes_.Count - 1) * 2; i++)
             {
-                tirageFirstTeam = r.Next(0, TotalLeague);
-                int tirageSecondTeam = r.Next(0, TotalLeague);
-                if (!_teamLeague[tirageFirstTeam].Oponent.Contains(_teamLeague[tirageSecondTeam]) && tirageFirstTeam != tirageSecondTeam)
+                if (i < equipes_.Count - 1)
                 {
-                    Match m = new Match(_teamLeague[tirageFirstTeam], _teamLeague[tirageSecondTeam]);
-                    matchs.Add(m);
+                    calendrier_.Journees[i].Matchs = JourneeAller((i % 2 == 0), indicesEquipes);
+                    indicesEquipes = permutations(indicesEquipes);
                 }
                 else
-                {
-                    tirageSecondTeam = r.Next(0, TotalLeague);
-                    Match m = new Match(_teamLeague[tirageFirstTeam], _teamLeague[tirageSecondTeam]);
-                    matchs.Add(m);
-                }
+                    calendrier_.Journees[i].Matchs = JourneeRetour(i);
             }
+        }
+
+        public void CreateTeam(string nom)
+        {
+            Team equipe = new Team(nom);
+            equipes_.Add(equipe);
+        }
+
+        public List<Match> JourneeAller(bool FirstDom, List<int> indicesEquipes)
+        {
+            List<Match> matchs = new List<Match>();
+
+            if (FirstDom)
+                matchs.Add(new Match(equipes_[indicesEquipes[0]], equipes_[indicesEquipes[equipes_.Count / 2]]));
+            else
+                matchs.Add(new Match(equipes_[indicesEquipes[equipes_.Count / 2]], equipes_[indicesEquipes[0]]));
+
+            for (int i = 1; i < equipes_.Count / 2; i++)
+                if (i % 2 != 0)
+                    matchs.Add(new Match(equipes_[indicesEquipes[i + equipes_.Count / 2]], equipes_[indicesEquipes[i]]));
+                else
+                    matchs.Add(new Match(equipes_[indicesEquipes[i]], equipes_[indicesEquipes[i + equipes_.Count / 2]]));
+            return matchs;
+        }
+
+        public List<int> permutations(List<int> indicesEquipes)
+        {
+            List<int> newIndices = new List<int>(equipes_.Count);
+
+            for (int i = 0; i < indicesEquipes.Count; i++)
+            {
+                if (i == 0) newIndices.Add(indicesEquipes[i]);
+                if (i == 1) newIndices.Add(indicesEquipes[equipes_.Count / 2]);
+                if ((i > 1) && (i < (equipes_.Count / 2))) newIndices.Add(indicesEquipes[i - 1]);
+                if ((i >= (equipes_.Count / 2)) && (i < (equipes_.Count - 1))) newIndices.Add(indicesEquipes[i + 1]);
+                if (i == (equipes_.Count - 1)) newIndices.Add(indicesEquipes[i - (equipes_.Count / 2)]);
+            }
+
+            return newIndices;
+        }
+
+        public List<Match> JourneeRetour(int numJournee)
+        {
+            List<Match> matchs = new List<Match>();
+
+            Journee journee = calendrier_.Journees[numJournee - (equipes_.Count - 1)];
+
+            foreach (Match m in journee.Matchs)
+                matchs.Add(new Match(m.Exterieur, m.Domicile));
+
             return matchs;
         }
     }

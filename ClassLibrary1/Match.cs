@@ -6,18 +6,30 @@ using System.Threading.Tasks;
 
 namespace DrawGame
 {
-    public class Match
+    class Match
     {
-        Team _team1;
-        Team _team2;
+        Team domicile_;
+        Team exterieur_;
 
-        public Match(Team team1, Team team2)
+        public Team Domicile
         {
-            _team1 = team1;
-            _team2 = team2;
+            get { return domicile_; }
+        }
 
-            _team1.Oponent.Add(_team2);
-            _team2.Oponent.Add(_team1);
+        public Team Exterieur
+        {
+            get { return exterieur_; }
+        }
+
+        public Match(Team domicile, Team exterieur)
+        {
+            domicile_ = domicile;
+            exterieur_ = exterieur;
+        }
+
+        public override string ToString()
+        {
+            return domicile_.ToString() + " - " + exterieur_.ToString();
         }
     }
 }
