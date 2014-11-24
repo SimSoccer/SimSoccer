@@ -7,7 +7,7 @@
 			<TeamTag>SCB</TeamTag>
 			<Town>Bastia</Town>
 			<Stadium>Armand-Cesari</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\SCB.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\SCB.png</Logo>
 			<Manager>Ghislain PRINTANT</Manager>
 			<LeagueRanking>1</LeagueRanking>
 			<Level>50</Level>
@@ -16,7 +16,7 @@
 			<TeamTag>FCB</TeamTag>
 			<Town>Bordeaux</Town>
 			<Stadium>Jacques Chaban-Delmas</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\FCB.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\FCB.png</Logo>
 			<Manager>Willy SAGNOL</Manager>
 			<LeagueRanking>2</LeagueRanking>
 			<Level>50</Level>
@@ -25,7 +25,7 @@
 			<TeamTag>SMC</TeamTag>
 			<Town>Cean</Town>
 			<Stadium>Michel-d'Ornano</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\SMC.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\SMC.png</Logo>
 			<Manager>Patrice GARANDE</Manager>
 			<LeagueRanking>3</LeagueRanking>
 			<Level>50</Level>
@@ -34,7 +34,7 @@
 			<TeamTag>ETG</TeamTag>
 			<Town>Evian</Town>
 			<Stadium>Parc des Sports</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\ETG.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\ETG.png</Logo>
 			<Manager>Pascal DUPRAZ</Manager>
 			<LeagueRanking>4</LeagueRanking>
 			<Level>50</Level>
@@ -43,7 +43,7 @@
 			<TeamTag>EAG</TeamTag>
 			<Town>Guingamp</Town>
 			<Stadium>Stade du Roudourou</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\EAG.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\EAG.png</Logo>
 			<Manager>Jocelyn GOURVENNEC</Manager>
 			<LeagueRanking>5</LeagueRanking>
 			<Level>50</Level>
@@ -52,7 +52,7 @@
 			<TeamTag>RCL</TeamTag>
 			<Town>Lens</Town>
 			<Stadium>Bollaert-Delelis</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\RCL.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\RCL.png</Logo>
 			<Manager>Antoine KOMBOUARE</Manager>
 			<LeagueRanking>6</LeagueRanking>
 			<Level>50</Level>
@@ -61,7 +61,7 @@
 			<TeamTag>LOSC</TeamTag>
 			<Town>Lille</Town>
 			<Stadium>Stade Pierre-Mauroy</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\LOSC.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\LOSC.png</Logo>
 			<Manager>René GIRARD</Manager>
 			<LeagueRanking>7</LeagueRanking>
 			<Level>50</Level>
@@ -70,7 +70,7 @@
 			<TeamTag>FCL</TeamTag>
 			<Town>Lorient</Town>
 			<Stadium>Yves-Allainmat</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\FCL.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\FCL.png</Logo>
 			<Manager>Sylvain RIPOLL</Manager>
 			<LeagueRanking>8</LeagueRanking>
 			<Level>50</Level>
@@ -79,7 +79,7 @@
 			<TeamTag>OL</TeamTag>
 			<Town>Lyon</Town>
 			<Stadium>Gerland</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\OL.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\OL.png</Logo>
 			<Manager>Hubert FOURNIER</Manager>
 			<LeagueRanking>9</LeagueRanking>
 			<Level>50</Level>
@@ -88,7 +88,7 @@
 			<TeamTag>OM</TeamTag>
 			<Town>Marseille</Town>
 			<Stadium>Velodrome</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\OM.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\OM.png</Logo>
 			<Manager>Marcelo BIELSA</Manager>
 			<LeagueRanking>10</LeagueRanking>
 			<Level>50</Level>
@@ -97,7 +97,7 @@
 			<TeamTag>FCM</TeamTag>
 			<Town>Metz</Town>
 			<Stadium>Saint-Symphorien</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\FCM.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\FCM.png</Logo>
 			<Manager>Albert CARTIER</Manager>
 			<LeagueRanking>11</LeagueRanking>
 			<Level>50</Level>
@@ -106,7 +106,7 @@
 			<TeamTag>ASM</TeamTag>
 			<Town>Monaco</Town>
 			<Stadium>Louis II</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\ASM.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\ASM.png</Logo>
 			<Manager>Leonardo JARDIM</Manager>
 			<LeagueRanking>12</LeagueRanking>
 			<Level>50</Level>
@@ -115,7 +115,7 @@
 			<TeamTag>MHSC</TeamTag>
 			<Town>Montpellier</Town>
 			<Stadium>La Mosson</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\MHSC.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\MHSC.png</Logo>
 			<Manager>Rolland COURBIS</Manager>
 			<LeagueRanking>13</LeagueRanking>
 			<Level>50</Level>
@@ -124,7 +124,7 @@
 			<TeamTag>FCN</TeamTag>
 			<Town>Nantes</Town>
 			<Stadium>La Beaujoire</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\FCN.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\FCN.png</Logo>
 			<Manager>Michel DER ZAKARIAN</Manager>
 			<LeagueRanking>14</LeagueRanking>
 			<Level>50</Level>
@@ -133,7 +133,7 @@
 			<TeamTag>OGCN</TeamTag>
 			<Town>Nice</Town>
 			<Stadium>Allianz Riviera</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\OGCN.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\OGCN.png</Logo>
 			<Manager>Claude PUEL</Manager>
 			<LeagueRanking>15</LeagueRanking>
 			<Level>50</Level>
@@ -142,7 +142,7 @@
 			<TeamTag>PSG</TeamTag>
 			<Town>Paris</Town>
 			<Stadium>Parc des Princes</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\PSG.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\PSG.png</Logo>
 			<Manager>Laurent BLANC</Manager>
 			<LeagueRanking>16</LeagueRanking>
 			<Level>50</Level>
@@ -151,7 +151,7 @@
 			<TeamTag>SDR</TeamTag>
 			<Town>Reims</Town>
 			<Stadium>Auguste-Delaune</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\SDR.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\SDR.png</Logo>
 			<Manager>Jean-Luc VASSEUR</Manager>
 			<LeagueRanking>17</LeagueRanking>
 			<Level>50</Level>
@@ -160,7 +160,7 @@
 			<TeamTag>SRFC</TeamTag>
 			<Town>Rennes</Town>
 			<Stadium>Stade de la Route de Lorient</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\SRFC.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\SRFC.png</Logo>
 			<Manager>Philippe MONTANIER</Manager>
 			<LeagueRanking>18</LeagueRanking>
 			<Level>50</Level>
@@ -169,7 +169,7 @@
 			<TeamTag>ASSE</TeamTag>
 			<Town>Saint-Etiennes</Town>
 			<Stadium>Geoffroy-Guichard</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\ASSE.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\ASSE.png</Logo>
 			<Manager>Christophe GALTIER</Manager>
 			<LeagueRanking>19</LeagueRanking>
 			<Level>50</Level>
@@ -178,7 +178,7 @@
 			<TeamTag>TFC</TeamTag>
 			<Town>Toulouse</Town>
 			<Stadium>Stadium Municipal</Stadium>
-			<Logo>C:\Users\famille\Documents\GitHub\SimSoccer\images\TFC.png</Logo>
+			<Logo>C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\images\TFC.png</Logo>
 			<Manager>Alain CASANOVA</Manager>
 			<LeagueRanking>20</LeagueRanking>
 			<Level>50</Level>
