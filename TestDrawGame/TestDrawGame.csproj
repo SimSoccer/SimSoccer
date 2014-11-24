@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4E58BA04-8DF2-434F-860C-06F374EBA689}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <ProjectGuid>{C9F6256E-36E1-4C44-AE47-73A60B55E4AE}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DrawGame</RootNamespace>
-    <AssemblyName>ClassLibrary1</AssemblyName>
+    <RootNamespace>TestDrawGame</RootNamespace>
+    <AssemblyName>TestDrawGame</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -29,20 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CK.Core">
-      <HintPath>..\packages\CK.Core.4.0.1\lib\net45\CK.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,28 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calendar.cs" />
-    <Compile Include="CalendarDisplay.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CalendarDisplay.Designer.cs">
-      <DependentUpon>CalendarDisplay.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Journee.cs" />
-    <Compile Include="LeagueTeam.cs" />
-    <Compile Include="Match.cs" />
-    <Compile Include="program.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Team.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
-    <None Include="packages.config" />
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CalendarDisplay.resx">
-      <DependentUpon>CalendarDisplay.cs</DependentUpon>
-    </EmbeddedResource>
+    <ProjectReference Include="..\ClassLibrary1\DrawGame.csproj">
+      <Project>{4e58ba04-8df2-434f-860c-06f374eba689}</Project>
+      <Name>DrawGame</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SIMS.TestsDrawGame\SIMS.TestsDrawGame.csproj">
+      <Project>{034e64ec-72b2-46c1-9fb5-0dad5206418d}</Project>
+      <Name>SIMS.TestsDrawGame</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

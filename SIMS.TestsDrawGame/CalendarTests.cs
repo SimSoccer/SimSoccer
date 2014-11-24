@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SoccerSimulator
+namespace SIMS.TestsDrawGame
 {
-    public class SoccerSimulator
+    class CalendarTests
     {
     }
 }

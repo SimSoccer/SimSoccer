@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SoccerSimulator
+namespace SIMS
 {
     public class SoccerSimulator
     {
+<<<<<<< HEAD
+=======
+        //readonly Dictionary<string, Player> _player;
+>>>>>>> lf_draw_game
     }
 }

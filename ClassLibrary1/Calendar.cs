@@ -6,31 +6,23 @@ using System.Threading.Tasks;
 
 namespace DrawGame
 {
-    public class Calendar
+    class Calendrier
     {
-        string _Competition;
-        string Place;
-        Team[] oppenent;
-        Team[] _teamPlayer;
-        DateTime _date;
-        DateTime _hour;
+        int nbEquipes_;
+        List<Journee> journees_;
 
-        public Calendar(Team teamPlayer)
+        public List<Journee> Journees
         {
-            ///
-        }
-        public void SeeCalendar()
-        {
-            /// program in progress...
-        }
-        public void OrganizeGame()
-        {
-            /// program in progress...
+            get { return journees_; }
         }
 
-        public string Comptetion
+        public Calendrier(int nbEquipes)
         {
-            get { return _Competition; }
+            nbEquipes_ = nbEquipes;
+            journees_ = new List<Journee>();
+
+            for (int i = 1; i <= (nbEquipes_ - 1) * 2; i++)
+                journees_.Add(new Journee(i));
         }
     }
 }

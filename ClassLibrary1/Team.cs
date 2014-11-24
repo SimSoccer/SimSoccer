@@ -6,23 +6,23 @@ using System.Threading.Tasks;
 
 namespace DrawGame
 {
-    public class Team
+    class Team
     {
+        String nom_;
 
-        string _nameTeam;
-
-        public Team(string name)
+        public String Nom
         {
-            _nameTeam = name;
+            get { return nom_; }
         }
 
-        public  string TeamPlayer(string TeamChoice)
+        public Team(String nom)
         {
-            return  _nameTeam = TeamChoice;
+            nom_ = nom;
         }
-        public string Name
+
+        public override string ToString()
         {
-            get {return _nameTeam;}
+            return nom_;
         }
     }
 }
