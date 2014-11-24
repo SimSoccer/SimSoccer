@@ -50,16 +50,7 @@ namespace SIMS.SimSoccerForm
 
         private void Previous_Click( object sender, EventArgs e )
         {
-            if( i == 0)
-            {
-                i = (_teamList.Teams.Count) - 1;
-            }
-            else
-            {
-                i--;
-            }
-            pictureBox1_Click( this, EventArgs.Empty );
-            
+
         }
 
         private void SelectTeamForm_Load( object sender, EventArgs e )
