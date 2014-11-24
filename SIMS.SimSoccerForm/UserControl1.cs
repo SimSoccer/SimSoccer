@@ -18,7 +18,7 @@ namespace SIMS.SimSoccerForm
     
     public partial class UserControl1 : UserControl 
     {
-        readonly Game _game;
+        //readonly Game _game;
         public UserControl1()
         {
             InitializeComponent();
@@ -51,7 +51,7 @@ namespace SIMS.SimSoccerForm
         {
 
             Game game = new Game( userName, userPassword );
-    
+            game.ToXML();
         }
     }
 }

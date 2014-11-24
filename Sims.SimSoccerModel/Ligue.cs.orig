@@ -43,9 +43,14 @@ namespace Sims.SimSoccerModel
 
         /*public void CreateTeam( string nom )
         {
+<<<<<<< HEAD
             /*Team equipe = new Team( nom );
             equipes_.Add( equipe );*/
+=======
+            Game g = new Game();
+            XDocument doc2 = XDocument.Load( @"C:\Users\Guenole\Desktop\SimSoccer2\Ligue1Teams.xml" );
             TeamList tl = new TeamList( g, doc2.Root.Element( "Teams" ) );
+>>>>>>> local_fg_create_player_list_in_team_class
         }
         */
         public List<Match> JourneeAller( bool FirstDom, List<int> indicesEquipes )
