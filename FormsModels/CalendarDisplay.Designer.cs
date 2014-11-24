@@ -1,4 +1,4 @@
-﻿namespace DrawGame
+﻿namespace FormsModels
 {
     partial class CalendarDisplay
     {
@@ -73,4 +73,3 @@
         private System.Windows.Forms.TextBox TMatchs;
     }
 }
-
