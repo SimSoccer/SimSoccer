@@ -45,9 +45,9 @@ namespace Sims.SimSoccerModel
         {
             XDocument doc = XDocument.Load(@".\..\..\..\Ligue1Teams.xml");
             _tl = new TeamList(_game, doc.Root.Element("Teams"));
-            TeamList tl = new TeamList( g, doc2.Root.Element( "Teams" ) );
+            TeamList tl = new TeamList( _game, doc.Root.Element( "Teams" ) );
         }
-        */
+
         public List<Match> JourneeAller(bool FirstDom, List<int> indicesEquipes)
         {
             List<Match> matchs = new List<Match>();
