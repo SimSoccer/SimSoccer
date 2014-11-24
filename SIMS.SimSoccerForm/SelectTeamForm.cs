@@ -29,6 +29,7 @@ namespace SIMS.SimSoccerForm
 
             XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
              _teamList = new TeamList( _game, doc.Root.Element( "Teams" ) );
+             pictureBox1_Click( this, EventArgs.Empty );
             
         }
 
@@ -50,6 +51,16 @@ namespace SIMS.SimSoccerForm
 
         private void Previous_Click( object sender, EventArgs e )
         {
+            if( i == 0 )
+            {
+                i = (_teamList.Teams.Count) - 1;
+            }
+            else
+            {
+                i--;
+            }
+
+            pictureBox1_Click( this, EventArgs.Empty );
 
         }
 
@@ -57,16 +68,14 @@ namespace SIMS.SimSoccerForm
         {
 
         }
-
+        
         private void pictureBox1_Click( object sender, EventArgs e )
         {
             using( FileStream fs = new FileStream(_teamList.Teams[i].Logo, FileMode.Open ) )
             {
                 Logo.Image = Image.FromStream( fs );
                 teamName_TextChanged( this, EventArgs.Empty );
-            }
-            
-            
+            }           
         }
 
         private void teamName_TextChanged( object sender, EventArgs e )
@@ -82,6 +91,8 @@ namespace SIMS.SimSoccerForm
 
         private void buttoSelect_Click( object sender, EventArgs e )
         {
+            _game.ChoosenTeam = _teamList.Teams[i].Name;
+
 
         }
 
