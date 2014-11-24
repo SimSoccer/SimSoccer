@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sims.SimSoccerModel", "Sims
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatePlayerListConsole", "CreatePlayerListConsole\CreatePlayerListConsole.csproj", "{71EDFCD4-BC0A-49A6-A0AA-7AC87941C8EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.SimSoccerForm", "SIMS.SimSoccerForm\SIMS.SimSoccerForm.csproj", "{F35DB5D3-204B-41E6-B22C-89F2B071D010}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,6 +130,16 @@ Global
 		{71EDFCD4-BC0A-49A6-A0AA-7AC87941C8EA}.Release|ARM.ActiveCfg = Release|Any CPU
 		{71EDFCD4-BC0A-49A6-A0AA-7AC87941C8EA}.Release|x64.ActiveCfg = Release|Any CPU
 		{71EDFCD4-BC0A-49A6-A0AA-7AC87941C8EA}.Release|x86.ActiveCfg = Release|Any CPU
+		{F35DB5D3-204B-41E6-B22C-89F2B071D010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35DB5D3-204B-41E6-B22C-89F2B071D010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35DB5D3-204B-41E6-B22C-89F2B071D010}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F35DB5D3-204B-41E6-B22C-89F2B071D010}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F35DB5D3-204B-41E6-B22C-89F2B071D010}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F35DB5D3-204B-41E6-B22C-89F2B071D010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35DB5D3-204B-41E6-B22C-89F2B071D010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35DB5D3-204B-41E6-B22C-89F2B071D010}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F35DB5D3-204B-41E6-B22C-89F2B071D010}.Release|x64.ActiveCfg = Release|Any CPU
+		{F35DB5D3-204B-41E6-B22C-89F2B071D010}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
