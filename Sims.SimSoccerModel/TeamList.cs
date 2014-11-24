@@ -1,12 +1,11 @@
-﻿using SIMS;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace SIMS.TeamsManagement
+namespace Sims.SimSoccerModel
 {
     public class TeamList
     {
@@ -35,12 +34,12 @@ namespace SIMS.TeamsManagement
 
         public XElement ToXml()
         {
-            return new XElement( "Teams", _teams.Select( (t,idx) => t.ToXml( idx ) ) );
+            return new XElement( "Teams", _teams.Select( ( t, idx ) => t.ToXml( idx ) ) );
         }
 
-        public IReadOnlyList<Team> Teams 
-        { 
-            get { return _teams; } 
+        public IReadOnlyList<Team> Teams
+        {
+            get { return _teams; }
         }
         public void RemoveTeam( Team t )
         {

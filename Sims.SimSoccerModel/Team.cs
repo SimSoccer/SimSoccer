@@ -5,24 +5,30 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace SIMS.TeamsManagement
+namespace Sims.SimSoccerModel
 {
     public class Team
     {
         readonly string _name;
         readonly TeamList _owner;
         readonly List<Player> _players;
+        readonly Game _game;
         string _teamTag;
         string _town;
-        string _stadium, _logo, _manager;
-        int _leagueRanking; 
+        string _stadium;
+        string _logo;
+        string _manager;
+        int _leagueRanking;
         int _level;
+        IEnumerable<string> _playerID;
+        
 
         internal Team( TeamList owner, string name )
         {
             _owner = owner;
             _name = name;
             _players = new List<Player>();
+            _game = new Game();
         }
 
         public Game Game
@@ -32,6 +38,8 @@ namespace SIMS.TeamsManagement
 
         internal Team( TeamList owner, XElement e )
         {
+            XDocument doc = XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Players2.xml" );
+            PlayerList _pl = new PlayerList( _game, doc.Root.Element( "Players" ) );
             _owner = owner;
             _name = e.Attribute( "Name" ).Value;
             TeamTag = e.Element( "TeamTag" ).Value;
@@ -41,7 +49,7 @@ namespace SIMS.TeamsManagement
             Manager = e.Element( "Manager" ).Value;
             LeagueRanking = int.Parse( e.Element( "LeagueRanking" ).Value );
             Level = int.Parse( e.Element( "Level" ).Value );
-            // Players
+            PlayerID = _pl.Players.Where( p => p.ActualTeamTag == _teamTag ).Select( p => p.Name );
         }
 
         public XElement ToXml( int id )
@@ -56,9 +64,9 @@ namespace SIMS.TeamsManagement
                         new XElement( "Manager", Manager ),
                         new XElement( "LeagueRanking", LeagueRanking ),
                         new XElement( "Level", Level ) );
-                       /* new XElement( "Players", 
-                            new XElement( "Player", 
-                                new XAttribute( "Id", _players.Select( p => Game.PlayerList.Players.IndexOf( p ) ) ))));*/
+                        /*new XElement( "Players",
+                            new XElement( "Player",
+                                new XAttribute( "Id", _players.Select( p => Game.PlayerList.Players.IndexOf( p ) ) ) ) ) );*/
         }
 
         public string Name
@@ -106,6 +114,12 @@ namespace SIMS.TeamsManagement
         {
             get { return _level; }
             set { _level = value; }
+        }
+
+        public IEnumerable<string> PlayerID
+        {
+            get { return _playerID; }
+            set { _playerID = value; }
         }
     }
 }

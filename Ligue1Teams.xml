@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<Game>
 <Teams>
-  <Team>
-    <Id>1</Id>
-    <Name>Sporting Club de Bastia</Name>
+  <Team Id="0" Name="Sporting Club de Bastia">
     <TeamTag>SCB</TeamTag>
     <Town>Bastia</Town>
     <Stadium>Armand-Cesari</Stadium>
@@ -11,9 +10,7 @@
     <LeagueRanking>1</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>2</Id>
-    <Name>Football Club des Girondins de Bordeaux</Name>
+  <Team Id="1" Name="Football Club des Girondins de Bordeaux">
     <TeamTag>FCB</TeamTag>
     <Town>Bordeaux</Town>
     <Stadium>Jacques Chaban-Delmas</Stadium>
@@ -22,9 +19,7 @@
     <LeagueRanking>2</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>3</Id>
-    <Name>Stade Malherbe de Caen</Name>
+  <Team Id="2" Name="Stade Malherbe de Caen">
     <TeamTag>SMC</TeamTag>
     <Town>Cean</Town>
     <Stadium>Michel-d'Ornano</Stadium>
@@ -33,9 +28,7 @@
     <LeagueRanking>3</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>4</Id>
-    <Name>Evian Thonon Gaillard Football Club</Name>
+  <Team Id="3" Name="Evian Thonon Gaillard Football Club">
     <TeamTag>ETG</TeamTag>
     <Town>Evian</Town>
     <Stadium>Parc des Sports</Stadium>
@@ -44,9 +37,7 @@
     <LeagueRanking>4</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>5</Id>
-    <Name>En Avant Guingamp</Name>
+  <Team Id="4" Name="En Avant Guingamp">
     <TeamTag>EAG</TeamTag>
     <Town>Guingamp</Town>
     <Stadium>Stade du Roudourou</Stadium>
@@ -55,9 +46,7 @@
     <LeagueRanking>5</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>6</Id>
-    <Name>Racing Club de Lens</Name>
+  <Team Id="5" Name="Racing Club de Lens">
     <TeamTag>RCL</TeamTag>
     <Town>Lens</Town>
     <Stadium>Bollaert-Delelis</Stadium>
@@ -66,9 +55,7 @@
     <LeagueRanking>6</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>7</Id>
-    <Name>Lille Olympique Sporting Club </Name>
+  <Team Id="6" Name="Lille Olympique Sporting Club ">
     <TeamTag>LOSC</TeamTag>
     <Town>Lille</Town>
     <Stadium>Stade Pierre-Mauroy</Stadium>
@@ -77,9 +64,7 @@
     <LeagueRanking>7</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>8</Id>
-    <Name>Football Club Lorient-Bretagne Sud</Name>
+  <Team Id="7" Name="Football Club Lorient-Bretagne Sud">
     <TeamTag>FCL</TeamTag>
     <Town>Lorient</Town>
     <Stadium>Yves-Allainmat</Stadium>
@@ -88,9 +73,7 @@
     <LeagueRanking>8</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>9</Id>
-    <Name>Olympique Lyonnais</Name>
+  <Team Id="8" Name="Olympique Lyonnais">
     <TeamTag>OL</TeamTag>
     <Town>Lyon</Town>
     <Stadium>Gerland</Stadium>
@@ -99,9 +82,7 @@
     <LeagueRanking>9</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>10</Id>
-    <Name>Olympique de Marseille</Name>
+  <Team Id="9" Name="Olympique de Marseille">
     <TeamTag>OM</TeamTag>
     <Town>Marseille</Town>
     <Stadium>Velodrome</Stadium>
@@ -110,9 +91,7 @@
     <LeagueRanking>10</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>11</Id>
-    <Name>Football Club de Metz</Name>
+  <Team Id="10" Name="Football Club de Metz">
     <TeamTag>FCM</TeamTag>
     <Town>Metz</Town>
     <Stadium>Saint-Symphorien</Stadium>
@@ -121,9 +100,7 @@
     <LeagueRanking>11</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>12</Id>
-    <Name>Association sportive de Monaco FC</Name>
+  <Team Id="11" Name="Association sportive de Monaco FC">
     <TeamTag>ASM</TeamTag>
     <Town>Monaco</Town>
     <Stadium>Louis II</Stadium>
@@ -132,9 +109,7 @@
     <LeagueRanking>12</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>13</Id>
-    <Name>Montpellier-Herault Sports Club</Name>
+  <Team Id="12" Name="Montpellier-Herault Sports Club">
     <TeamTag>MHSC</TeamTag>
     <Town>Montpellier</Town>
     <Stadium>La Mosson</Stadium>
@@ -143,9 +118,7 @@
     <LeagueRanking>13</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>14</Id>
-    <Name>Football Club de Nantes</Name>
+  <Team Id="13" Name="Football Club de Nantes">
     <TeamTag>FCN</TeamTag>
     <Town>Nantes</Town>
     <Stadium>La Beaujoire</Stadium>
@@ -154,9 +127,7 @@
     <LeagueRanking>14</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>15</Id>
-    <Name>Olympique Gymnaste Club Nice Côte d'Azur</Name>
+  <Team Id="14" Name="Olympique Gymnaste Club Nice Côte d'Azur">
     <TeamTag>OGCN</TeamTag>
     <Town>Nice</Town>
     <Stadium>Allianz Riviera</Stadium>
@@ -165,9 +136,7 @@
     <LeagueRanking>15</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>16</Id>
-    <Name>Paris-Saint-Germain Football Club</Name>
+  <Team Id="15" Name="Paris-Saint-Germain Football Club">
     <TeamTag>PSG</TeamTag>
     <Town>Paris</Town>
     <Stadium>Parc des Princes</Stadium>
@@ -176,9 +145,7 @@
     <LeagueRanking>16</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>17</Id>
-    <Name>Stade de Reims</Name>
+  <Team Id="16" Name="Stade de Reims">
     <TeamTag>SDR</TeamTag>
     <Town>Reims</Town>
     <Stadium>Auguste-Delaune</Stadium>
@@ -187,9 +154,7 @@
     <LeagueRanking>17</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>18</Id>
-    <Name>Stade Rennais Football Club</Name>
+  <Team Id="17" Name="Stade Rennais Football Club">
     <TeamTag>SRFC</TeamTag>
     <Town>Rennes</Town>
     <Stadium>Stade de la Route de Lorient</Stadium>
@@ -198,9 +163,7 @@
     <LeagueRanking>18</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>19</Id>
-    <Name>Association Sportive de St-Etienne</Name>
+  <Team Id="18" Name="Association Sportive de St-Etienne">
     <TeamTag>ASSE</TeamTag>
     <Town>Saint-Etiennes</Town>
     <Stadium>Geoffroy-Guichard</Stadium>
@@ -209,9 +172,7 @@
     <LeagueRanking>19</LeagueRanking>
     <Level>50</Level>
   </Team>
-  <Team>
-    <Id>20</Id>
-    <Name>Toulouse Football Club</Name>
+  <Team Id="29" Name="Toulouse Football Club">
     <TeamTag>TFC</TeamTag>
     <Town>Toulouse</Town>
     <Stadium>Stadium Municipal</Stadium>
@@ -221,3 +182,4 @@
     <Level>50</Level>
   </Team>
 </Teams>
+</Game>

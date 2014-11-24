@@ -43,12 +43,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SIMS.PlayerManagement\SIMS.PlayersManagement.csproj">
-      <Project>{6a41fb06-d0ea-4e54-a96b-6591d253f6af}</Project>
-      <Name>SIMS.PlayersManagement</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
