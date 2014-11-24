@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Sims.SimSoccerModel
 {
@@ -36,6 +37,17 @@ namespace Sims.SimSoccerModel
         {
             _userName = userName;
             _userPassword = userPassword;
+        }
+        public void ToXML()
+        {
+            _choosenTeam ="teamTest";
+            XDocument doc = new XDocument(
+                new XElement("Game",
+                    new XElement("Save", _userName),
+                    new XElement("Password", _userPassword),
+                    new XElement("Team", _choosenTeam)));
+
+            doc.Save( @".\..\..\..\SaveOf" + _userName + ".xml" );
         }
     }
 }
