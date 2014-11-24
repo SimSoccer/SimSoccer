@@ -50,7 +50,6 @@ namespace Sims.SimSoccerModel
             LeagueRanking = int.Parse( e.Element( "LeagueRanking" ).Value );
             Level = int.Parse( e.Element( "Level" ).Value );
             PlayerID = _pl.Players.Where( p => p.ActualTeamTag == _teamTag ).Select( p => p.Name );
-            // Players
         }
 
         public XElement ToXml( int id )
