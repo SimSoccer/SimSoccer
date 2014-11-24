@@ -8,23 +8,23 @@ namespace DrawGame
 {
     class Journee
     {
-        int numero_;
-        List<Match> matchs_;
+        int _numero;
+        List<Match> _matchs;
 
         public Journee(int numero)
         {
-            numero_ = numero;
+            _numero = numero;
         }
 
         public List<Match> Matchs
         {
-            get { return matchs_; }
-            set { matchs_ = value; }
+            get { return _matchs; }
+            set { _matchs = value; }
         }
 
         public override string ToString()
         {
-            return "journee " + numero_.ToString();
+            return "journee " + _numero.ToString();
         }
     }
 }

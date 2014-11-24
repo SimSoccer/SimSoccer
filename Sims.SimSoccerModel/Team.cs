@@ -22,7 +22,6 @@ namespace Sims.SimSoccerModel
         int _level;
         IEnumerable<string> _playerID;
         
-
         internal Team( TeamList owner, string name )
         {
             _owner = owner;
@@ -38,8 +37,8 @@ namespace Sims.SimSoccerModel
 
         internal Team( TeamList owner, XElement e )
         {
-            XDocument doc = XDocument.Load( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Players2.xml" );
-            PlayerList _pl = new PlayerList( _game, doc.Root.Element( "Players" ) );
+            /*XDocument doc = XDocument.Load( @"C.\..\..\..\Ligue1Teams.xml" );
+            PlayerList _pl = new PlayerList( _game, doc.Root.Element( "Players" ) );*/
             _owner = owner;
             _name = e.Attribute( "Name" ).Value;
             TeamTag = e.Element( "TeamTag" ).Value;
@@ -49,7 +48,7 @@ namespace Sims.SimSoccerModel
             Manager = e.Element( "Manager" ).Value;
             LeagueRanking = int.Parse( e.Element( "LeagueRanking" ).Value );
             Level = int.Parse( e.Element( "Level" ).Value );
-            PlayerID = _pl.Players.Where( p => p.ActualTeamTag == _teamTag ).Select( p => p.Name );
+            //PlayerID = _pl.Players.Where( p => p.ActualTeamTag == _teamTag ).Select( p => p.Name );
         }
 
         public XElement ToXml( int id )
