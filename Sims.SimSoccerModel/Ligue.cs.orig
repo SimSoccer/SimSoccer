@@ -41,8 +41,13 @@ namespace Sims.SimSoccerModel
 
         /*public void CreateTeam( string nom )
         {
+<<<<<<< HEAD
             /*Team equipe = new Team( nom );
             equipes_.Add( equipe );*/
+=======
+            Team equipe = new Team( );
+            equipes_.Add( equipe );
+>>>>>>> 121e36257c0b9b2f35d4ceb3549b627bca690017
         }
         */
         public List<Match> JourneeAller( bool FirstDom, List<int> indicesEquipes )

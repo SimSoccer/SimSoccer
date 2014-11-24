@@ -27,7 +27,7 @@ namespace SIMS.SimSoccerForm
             
             _game = new Game();
 
-            XDocument doc = XDocument.Load( @"C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\Ligue1Teams.xml" );
+            XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
              _teamList = new TeamList( _game, doc.Root.Element( "Teams" ) );
             
         }
@@ -50,16 +50,7 @@ namespace SIMS.SimSoccerForm
 
         private void Previous_Click( object sender, EventArgs e )
         {
-            if( i == 0)
-            {
-                i = (_teamList.Teams.Count) - 1;
-            }
-            else
-            {
-                i--;
-            }
-            pictureBox1_Click( this, EventArgs.Empty );
-            
+
         }
 
         private void SelectTeamForm_Load( object sender, EventArgs e )
@@ -87,6 +78,11 @@ namespace SIMS.SimSoccerForm
         private void teamStadium_TextChanged( object sender, EventArgs e )
         {
             teamStadium.Text = _teamList.Teams[i].Stadium;
+        }
+
+        private void buttoSelect_Click( object sender, EventArgs e )
+        {
+
         }
 
         
