@@ -44,7 +44,7 @@ namespace Sims.SimSoccerModel
         /*public void CreateTeam( string nom )
         {
             /*Team equipe = new Team( nom );
-            equipes_.Add( equipe );*/
+            equipes_.Add( equipe );
             TeamList tl = new TeamList( g, doc2.Root.Element( "Teams" ) );
         }
         */
