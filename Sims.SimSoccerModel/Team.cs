@@ -20,7 +20,7 @@ namespace Sims.SimSoccerModel
         string _manager;
         int _leagueRanking;
         int _level;
-        IEnumerable<string> _teamPlayers;
+        List<string> _teamPlayers;
         
 
         internal Team( TeamList owner, string name )
@@ -54,8 +54,6 @@ namespace Sims.SimSoccerModel
                 }
             }
 
-            IEnumerable<string> iTeamPlayers = teamPlayers;
-
             _owner = owner;
             _name = e.Attribute( "Name" ).Value;
             TeamTag = e.Element( "TeamTag" ).Value;
@@ -65,7 +63,7 @@ namespace Sims.SimSoccerModel
             Manager = e.Element( "Manager" ).Value;
             LeagueRanking = int.Parse( e.Element( "LeagueRanking" ).Value );
             Level = int.Parse( e.Element( "Level" ).Value );
-            TeamPlayers = iTeamPlayers;
+            TeamPlayers = teamPlayers;
         }
 
         public XElement ToXml( int id )
@@ -132,7 +130,7 @@ namespace Sims.SimSoccerModel
             set { _level = value; }
         }
 
-        public IEnumerable<string> TeamPlayers
+        public List<string> TeamPlayers
         {
             get { return _teamPlayers; }
             set { _teamPlayers = value; }
