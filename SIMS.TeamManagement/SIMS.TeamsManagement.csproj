@@ -85,12 +85,6 @@
       <DependentUpon>SelectTeamForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SIMS.UserManagement\SIMS.UserManagement.csproj">
-      <Project>{62c5f69a-8308-469c-b2da-296212fac4b3}</Project>
-      <Name>SIMS.UserManagement</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

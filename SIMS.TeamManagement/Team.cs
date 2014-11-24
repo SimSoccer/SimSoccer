@@ -55,7 +55,7 @@ namespace SIMS.TeamsManagement
                         new XElement( "Logo", Logo ),
                         new XElement( "Manager", Manager ),
                         new XElement( "LeagueRanking", LeagueRanking ),
-s                        new XElement( "Level", Level ));
+                         new XElement( "Level", Level ));
                       /*  new XElement( "Players", 
                             new XElement( "Player", 
                                 new XAttribute( "Id", _players.Select( p => Game.PlayerList.Players.IndexOf( p ) ) ))));*/

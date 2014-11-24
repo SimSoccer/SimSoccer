@@ -26,7 +26,7 @@ namespace SIMS.TeamsManagement
             
             _game = new Game();
 
-            XDocument doc = XDocument.Load( @"C:\Users\famille\Documents\GitHub\SimSoccer\Ligue1Teams.xml" );
+            XDocument doc = XDocument.Load( @"C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\Ligue1Teams.xml" );
              _teamList = new TeamList( _game, doc.Root.Element( "Teams" ) );
             
         }
