@@ -16,5 +16,12 @@ namespace Sims.SimSoccerModel
             _teamList = new TeamList( this );
             _playerList = new PlayerList( this );
         }
+
+        public TeamList CreateTeam() 
+        {
+            var t = 0;
+            TeamList tl = new TeamList(this);
+            return tl;
+        }
     }
 }
