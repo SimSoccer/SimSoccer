@@ -25,6 +25,7 @@ namespace SIMS.SimSoccerForm
             
             InitializeComponent();
             
+            
             _game = new Game();
 
             XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
@@ -66,7 +67,7 @@ namespace SIMS.SimSoccerForm
 
         private void SelectTeamForm_Load( object sender, EventArgs e )
         {
-
+            
         }
         
         private void pictureBox1_Click( object sender, EventArgs e )
@@ -92,8 +93,13 @@ namespace SIMS.SimSoccerForm
         private void buttoSelect_Click( object sender, EventArgs e )
         {
             _game.ChoosenTeam = _teamList.Teams[i].Name;
-
-
+            this.Close();
+            
+        }
+        
+        private void PlayersBox_TextChanged( object sender, EventArgs e )
+        {
+             PlayersBox.Text =  this._teamList.Teams[i].Name;
         }
 
         

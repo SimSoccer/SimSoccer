@@ -37,6 +37,7 @@
             this.labelStadium = new System.Windows.Forms.Label();
             this.teamStadium = new System.Windows.Forms.TextBox();
             this.buttoSelect = new System.Windows.Forms.Button();
+            this.PlayersBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -92,11 +93,18 @@
             this.buttoSelect.UseVisualStyleBackColor = true;
             this.buttoSelect.Click += new System.EventHandler(this.buttoSelect_Click);
             // 
+            // PlayersBox
+            // 
+            resources.ApplyResources(this.PlayersBox, "PlayersBox");
+            this.PlayersBox.Name = "PlayersBox";
+            this.PlayersBox.TextChanged += new System.EventHandler(this.PlayersBox_TextChanged);
+            // 
             // SelectTeamForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.PlayersBox);
             this.Controls.Add(this.buttoSelect);
             this.Controls.Add(this.teamStadium);
             this.Controls.Add(this.labelStadium);
@@ -124,5 +132,6 @@
         private System.Windows.Forms.TextBox teamStadium;
         private System.Windows.Forms.TextBox teamName;
         private System.Windows.Forms.Button buttoSelect;
+        private System.Windows.Forms.TextBox PlayersBox;
     }
 }
