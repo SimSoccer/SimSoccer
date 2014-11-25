@@ -3,22 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormWinForm", "FormWinForm\FormWinForm.csproj", "{76530549-747E-4A33-93C6-CCA67F84A38E}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BC841E7C-2832-4235-8C45-D05238A589D1}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawGame", "ClassLibrary1\DrawGame.csproj", "{4E58BA04-8DF2-434F-860C-06F374EBA689}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateXMLPlayers", "ConvertCSVToXML\CreateXMLPlayers.csproj", "{78EE69DF-780A-4035-B08F-E655EA8BBFEB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.SimulatorAction", "SoccerSimulator\SIMS.SimulatorAction.csproj", "{B2677D9F-1EA7-4983-87BE-B8B0A1A500F7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.TeamsManagement", "SIMS.TeamManagement\SIMS.TeamsManagement.csproj", "{960C95D7-E5FA-4511-9D14-703A2937C241}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS.UserManagment", "SIMS.UserManagment\SIMS.UserManagment.csproj", "{96148A78-EBC2-4DBB-8743-BE13B2930A0B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateXMLTeams", "CreateXMLTeams\CreateXMLTeams.csproj", "{4E9DE5E7-CF10-4C85-8B50-FA5C2E761A8D}"
 EndProject
@@ -40,26 +32,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{76530549-747E-4A33-93C6-CCA67F84A38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76530549-747E-4A33-93C6-CCA67F84A38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76530549-747E-4A33-93C6-CCA67F84A38E}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{76530549-747E-4A33-93C6-CCA67F84A38E}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{76530549-747E-4A33-93C6-CCA67F84A38E}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{76530549-747E-4A33-93C6-CCA67F84A38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76530549-747E-4A33-93C6-CCA67F84A38E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76530549-747E-4A33-93C6-CCA67F84A38E}.Release|ARM.ActiveCfg = Release|Any CPU
-		{76530549-747E-4A33-93C6-CCA67F84A38E}.Release|x64.ActiveCfg = Release|Any CPU
-		{76530549-747E-4A33-93C6-CCA67F84A38E}.Release|x86.ActiveCfg = Release|Any CPU
-		{4E58BA04-8DF2-434F-860C-06F374EBA689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E58BA04-8DF2-434F-860C-06F374EBA689}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E58BA04-8DF2-434F-860C-06F374EBA689}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{4E58BA04-8DF2-434F-860C-06F374EBA689}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{4E58BA04-8DF2-434F-860C-06F374EBA689}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{4E58BA04-8DF2-434F-860C-06F374EBA689}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E58BA04-8DF2-434F-860C-06F374EBA689}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4E58BA04-8DF2-434F-860C-06F374EBA689}.Release|ARM.ActiveCfg = Release|Any CPU
-		{4E58BA04-8DF2-434F-860C-06F374EBA689}.Release|x64.ActiveCfg = Release|Any CPU
-		{4E58BA04-8DF2-434F-860C-06F374EBA689}.Release|x86.ActiveCfg = Release|Any CPU
 		{78EE69DF-780A-4035-B08F-E655EA8BBFEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{78EE69DF-780A-4035-B08F-E655EA8BBFEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78EE69DF-780A-4035-B08F-E655EA8BBFEB}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -80,26 +52,6 @@ Global
 		{B2677D9F-1EA7-4983-87BE-B8B0A1A500F7}.Release|ARM.ActiveCfg = Release|Any CPU
 		{B2677D9F-1EA7-4983-87BE-B8B0A1A500F7}.Release|x64.ActiveCfg = Release|Any CPU
 		{B2677D9F-1EA7-4983-87BE-B8B0A1A500F7}.Release|x86.ActiveCfg = Release|Any CPU
-		{960C95D7-E5FA-4511-9D14-703A2937C241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{960C95D7-E5FA-4511-9D14-703A2937C241}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{960C95D7-E5FA-4511-9D14-703A2937C241}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{960C95D7-E5FA-4511-9D14-703A2937C241}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{960C95D7-E5FA-4511-9D14-703A2937C241}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{960C95D7-E5FA-4511-9D14-703A2937C241}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{960C95D7-E5FA-4511-9D14-703A2937C241}.Release|Any CPU.Build.0 = Release|Any CPU
-		{960C95D7-E5FA-4511-9D14-703A2937C241}.Release|ARM.ActiveCfg = Release|Any CPU
-		{960C95D7-E5FA-4511-9D14-703A2937C241}.Release|x64.ActiveCfg = Release|Any CPU
-		{960C95D7-E5FA-4511-9D14-703A2937C241}.Release|x86.ActiveCfg = Release|Any CPU
-		{96148A78-EBC2-4DBB-8743-BE13B2930A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96148A78-EBC2-4DBB-8743-BE13B2930A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96148A78-EBC2-4DBB-8743-BE13B2930A0B}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{96148A78-EBC2-4DBB-8743-BE13B2930A0B}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{96148A78-EBC2-4DBB-8743-BE13B2930A0B}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{96148A78-EBC2-4DBB-8743-BE13B2930A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96148A78-EBC2-4DBB-8743-BE13B2930A0B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{96148A78-EBC2-4DBB-8743-BE13B2930A0B}.Release|ARM.ActiveCfg = Release|Any CPU
-		{96148A78-EBC2-4DBB-8743-BE13B2930A0B}.Release|x64.ActiveCfg = Release|Any CPU
-		{96148A78-EBC2-4DBB-8743-BE13B2930A0B}.Release|x86.ActiveCfg = Release|Any CPU
 		{4E9DE5E7-CF10-4C85-8B50-FA5C2E761A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4E9DE5E7-CF10-4C85-8B50-FA5C2E761A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E9DE5E7-CF10-4C85-8B50-FA5C2E761A8D}.Debug|ARM.ActiveCfg = Debug|Any CPU
