@@ -93,6 +93,12 @@ namespace SIMS.SimSoccerForm
 
         private void buttoSelect_Click( object sender, EventArgs e )
         {
+           /* UserControl1 aa = new UserControl1();
+            aa.UserName = this._game.UserName;
+            aa.UserPassword = this._game.UserPassword;
+            Game game = new Game( teamName.Text, aa.UserName, aa.UserPassword );
+            game.ToXML( teamName.Text, _game );*/
+
             _game.ChoosenTeam = _teamList.Teams[i].Name;
             this.Close();
             
