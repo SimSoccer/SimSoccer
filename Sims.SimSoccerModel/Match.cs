@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sims.SimSoccerModel
 {
-    class Match
+     public class Match
     {
         Team domicile_;
         Team exterieur_;
@@ -29,7 +29,7 @@ namespace Sims.SimSoccerModel
 
         public override string ToString()
         {
-            return domicile_.ToString() + " - " + exterieur_.ToString();
+            return domicile_.TeamTag.ToString() + " - " + exterieur_.TeamTag.ToString();
         }
     }
 }

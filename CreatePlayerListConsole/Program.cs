@@ -52,7 +52,10 @@ namespace CreatePlayerListConsole
                 }
                 Console.WriteLine( "______________________" + Environment.NewLine );
             }
-            
+
+            DateTime today = DateTime.Now;
+
+            Console.WriteLine( "Date d'aujoud'hui : " + today.Day );
             //Console.WriteLine( tl.Teams[15].TeamPlayers );
 
             Console.Read();

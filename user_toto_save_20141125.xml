@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Game>
+  <Profil Id="0">
+    <Save>toto</Save>
+    <Password>tata</Password>
+    <Team>teamTest</Team>
+  </Profil>
+</Game>
