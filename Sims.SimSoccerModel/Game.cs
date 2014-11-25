@@ -69,7 +69,7 @@ namespace Sims.SimSoccerModel
                     new XElement( "UserNumber",
                         new XElement( "Number", i + 1 ) ) ) );
                 un.Save( @".\..\..\..\UserNumber.xml" );
-                _id = i;
+                _id = i + 1;
             }
 
             _choosenTeam = "teamTest";
