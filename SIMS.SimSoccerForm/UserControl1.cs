@@ -50,18 +50,7 @@ namespace SIMS.SimSoccerForm
         
         public void Inscription(string userName, string userPassword )
         {
-            string un = @".\..\..\..\UserNumber.xml";
-            int id;
-            if( File.Exists( un ) == false )
-                id = 0;
-            else
-            {
-                XDocument doc = XDocument.Load( @".\..\..\..\UserNumber.xml" );
-                id = int.Parse( doc.Root.Element( "UserNumber" ).Value ) + 1 ;
-            }
-            
-            Game game = new Game( id, userName, userPassword );
-
+            Game game = new Game( userName, userPassword );
             game.GameToXml();
         }
        
