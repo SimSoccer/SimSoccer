@@ -11,6 +11,7 @@ using System.Runtime.Serialization;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using Sims.SimSoccerModel;
+using System.Xml.Linq;
 
 namespace SIMS.SimSoccerForm
 {
@@ -47,10 +48,19 @@ namespace SIMS.SimSoccerForm
             }
         }
         
-        public void Inscription( string userName, string userPassword )
+        public void Inscription(string userName, string userPassword )
         {
-
-            Game game = new Game( userName, userPassword );
+            string un = @".\..\..\..\UserNumber.xml";
+            int id;
+            if( File.Exists( un ) == false )
+                id = 0;
+            else
+            {
+                XDocument doc = XDocument.Load( @".\..\..\..\UserNumber.xml" );
+                id = int.Parse( doc.Root.Element( "UserNumber" ).Value ) + 1 ;
+            }
+            
+            Game game = new Game( id, userName, userPassword );
             game.ToXML();
         }
     }
