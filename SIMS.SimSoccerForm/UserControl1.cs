@@ -61,8 +61,8 @@ namespace SIMS.SimSoccerForm
             }
             
             Game game = new Game( id, userName, userPassword );
-           
-            game.ToXML();
+
+            game.GameToXml();
         }
        
     }

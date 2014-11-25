@@ -24,14 +24,10 @@ namespace SIMS.SimSoccerForm
         {
             
             InitializeComponent();
-            
-            
-            _game = new Game();
 
             XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
              _teamList = new TeamList( _game, doc.Root.Element( "Teams" ) );
              pictureBox1_Click( this, EventArgs.Empty );
-            
         }
 
        

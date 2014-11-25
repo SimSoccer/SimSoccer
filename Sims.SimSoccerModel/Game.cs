@@ -16,8 +16,16 @@ namespace Sims.SimSoccerModel
         string _userPassword;
         string _choosenTeam;
         int _id;
-        
 
+        public PlayerList PlayerList
+        {
+            get { return _playerList; }
+        }
+
+        public TeamList TeamList
+        {
+            get { return _teamList; }
+        }
         public string UserName
         {
             get { return _userName; }
@@ -38,9 +46,12 @@ namespace Sims.SimSoccerModel
         }
         public Game()
         {
-            _teamList = new TeamList( this );
-            _playerList = new PlayerList( this );
+            XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
+            XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
+            _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
+            _playerList = new PlayerList( this, doc.Root.Element("Players") );
         }
+
         public Game( int id, string userName, string userPassword )
         {
             _userName = userName;
@@ -52,6 +63,24 @@ namespace Sims.SimSoccerModel
             _choosenTeam = choosenTeam;
             _userName = userName;
             _userPassword = userPassword;
+        }
+
+        public void GameToXml()
+        {
+            
+            Game game = new Game();
+            XElement e = game.PlayerList.ToXml();
+            XDocument gameSave = new XDocument(
+                new XElement("Game",
+                    new XElement("Profil",
+                        new XAttribute("ID", _id),
+                        new XElement("UserName", _userName),
+                        new XElement("Password", _userPassword)),
+                    game.PlayerList.ToXml(),
+                    game.TeamList.ToXml()));
+
+            DateTime today = DateTime.Now;
+            gameSave.Save( @".\..\..\..\user_" + _userName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }
 
        

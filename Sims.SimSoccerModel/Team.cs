@@ -35,7 +35,7 @@ namespace Sims.SimSoccerModel
             get { return _owner.Game; }
         }
 
-        internal Team( TeamList owner, XElement e )
+        public Team( TeamList owner, XElement e )
         {
             XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
             PlayerList _pl = new PlayerList( _game, doc.Root.Element( "Players" ) );

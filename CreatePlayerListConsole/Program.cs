@@ -14,11 +14,10 @@ namespace CreatePlayerListConsole
         {
             
             Game g = new Game();
-            XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
-            XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
+            Console.WriteLine( g.PlayerList.Players[1].Name );
 
-            PlayerList pl = new PlayerList( g, doc.Root.Element( "Players" ) );
-            TeamList tl = new TeamList( g, doc2.Root.Element( "Teams" ) );
+            g.GameToXml();
+            //Console.WriteLine( pl.Players[1].Name );
 
             /*
             Console.WriteLine( "La taille de " + pl.Players[0].Name + " est de : " + pl.Players[0].Height );
@@ -42,7 +41,7 @@ namespace CreatePlayerListConsole
                 Console.WriteLine( teamPlayers[t] );
             }*/
 
-            int t;
+            /*int t;
             for( t = 0; t < tl.Teams.Count; t++ )
             {
                 Console.WriteLine( "______________________" + Environment.NewLine + tl.Teams[t].Name );
@@ -56,7 +55,7 @@ namespace CreatePlayerListConsole
             DateTime today = DateTime.Now;
 
             Console.WriteLine( "Date d'aujoud'hui : " + today.Day );
-            //Console.WriteLine( tl.Teams[15].TeamPlayers );
+            //Console.WriteLine( tl.Teams[15].TeamPlayers );*/
 
             Console.Read();
         }
