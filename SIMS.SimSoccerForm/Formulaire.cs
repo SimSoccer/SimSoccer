@@ -31,26 +31,10 @@ namespace SIMS.SimSoccerForm
                 userControl1.Inscription( userControl1.UserName, userControl1.UserPassword );
                 SelectTeamForm ST = new SelectTeamForm();
                 ST.Show();
+                this.Close();
             }
             
-        }
-        
-
-        private void btLire_Click( object sender, EventArgs e )
-        {
-            SelectTeamForm ST = new SelectTeamForm();
-            ST.Show();
-        }
-
-        private void btLogin_Click( object sender, EventArgs e )
-        {
-            
-        }
-
-        
-
-
-        
+        }       
         
     }
 }
