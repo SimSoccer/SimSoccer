@@ -49,9 +49,11 @@ namespace SIMS.SimSoccerForm
         
         public void Inscription( string userName, string userPassword )
         {
-
+            
             Game game = new Game( userName, userPassword );
+           
             game.ToXML();
         }
+       
     }
 }
