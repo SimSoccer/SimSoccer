@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalendarDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalendarDisplay.Designer.cs">
+      <DependentUpon>CalendarDisplay.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulaire.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CalendarDisplay.resx">
+      <DependentUpon>CalendarDisplay.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formulaire.resx">
       <DependentUpon>Formulaire.cs</DependentUpon>
     </EmbeddedResource>

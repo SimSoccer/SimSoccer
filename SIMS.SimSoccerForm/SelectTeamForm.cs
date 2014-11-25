@@ -99,7 +99,8 @@ namespace SIMS.SimSoccerForm
             Game game = new Game( teamName.Text, aa.UserName, aa.UserPassword );
             game.ToXML( teamName.Text, _game );
 
-            
+            CalendarDisplay CD = new CalendarDisplay();
+            CD.Show();
             this.Close();
             
         }
