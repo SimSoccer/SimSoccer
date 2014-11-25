@@ -88,10 +88,17 @@ namespace SIMS.SimSoccerForm
         private void teamStadium_TextChanged( object sender, EventArgs e )
         {
             teamStadium.Text = _teamList.Teams[i].Stadium;
+            PlayersBox_TextChanged( this, EventArgs.Empty );
         }
 
         private void buttoSelect_Click( object sender, EventArgs e )
         {
+           /* UserControl1 aa = new UserControl1();
+            aa.UserName = this._game.UserName;
+            aa.UserPassword = this._game.UserPassword;
+            Game game = new Game( teamName.Text, aa.UserName, aa.UserPassword );
+            game.ToXML( teamName.Text, _game );*/
+
             _game.ChoosenTeam = _teamList.Teams[i].Name;
             this.Close();
             
@@ -99,7 +106,13 @@ namespace SIMS.SimSoccerForm
         
         private void PlayersBox_TextChanged( object sender, EventArgs e )
         {
-             PlayersBox.Text =  this._teamList.Teams[i].Name;
+            string Players = "";
+            for( int cmpt = 0; cmpt < _teamList.Teams[i].TeamPlayers.Count; cmpt++ )
+            {
+                Players += _teamList.Teams[i].TeamPlayers[cmpt] + "\r\n";
+            }
+             
+            PlayersBox.Text = Players;
         }
 
         

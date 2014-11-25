@@ -97,6 +97,7 @@
             // 
             resources.ApplyResources(this.PlayersBox, "PlayersBox");
             this.PlayersBox.Name = "PlayersBox";
+            this.PlayersBox.ReadOnly = true;
             this.PlayersBox.TextChanged += new System.EventHandler(this.PlayersBox_TextChanged);
             // 
             // SelectTeamForm
