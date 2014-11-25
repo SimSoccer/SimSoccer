@@ -14,9 +14,34 @@ namespace CreatePlayerListConsole
         {
             
             Game g = new Game();
-            Console.WriteLine( g.PlayerList.Players[1].Name );
+           // Console.WriteLine( g.PlayerList.Players[1].Name );
+           // Console.WriteLine( "1 : " + g.TeamList.Teams[15].TeamPlayers );
+            TeamList tl = g.TeamList;
+           // Console.WriteLine( "2 : " + tl.Teams[15].TeamPlayers );
+            PlayerList pl = g.PlayerList;
 
-            g.GameToXml();
+
+
+            string ttt = g.TeamList.Teams[15].TeamTag;
+            /*int i;
+
+           
+           for( i = 0; i <  g.PlayerList.Players.Count; i++ )
+            {
+                if( g.PlayerList.Players[i].ActualTeamTag == ttt )
+                {
+                    Console.WriteLine( g.PlayerList.Players[i].Name );
+                }
+            }*/
+            List<string> t = g.PlayerList.Players.Where( p => p.ActualTeamTag == ttt ).Select( p => p.Name ).ToList();
+
+            Console.WriteLine( g.TeamList.Teams[15].TeamPlayers );
+           /*foreach( string s in g.PlayerList.Players.Where( p => p.ActualTeamTag == ttt ).Select( p => p.Name ) )
+           {
+               Console.WriteLine( s );
+               t = s;
+           }*/
+
             //Console.WriteLine( pl.Players[1].Name );
 
             /*
