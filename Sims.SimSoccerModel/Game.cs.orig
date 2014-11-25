@@ -15,8 +15,11 @@ namespace Sims.SimSoccerModel
         string _userName;
         string _userPassword;
         string _choosenTeam;
-        int _id;
+<<<<<<< HEAD
         
+=======
+        int _id;
+>>>>>>> 9a226c3b9bcd69c2e4b79db34fe18e6b375d3e52
 
         public string UserName
         {
@@ -93,7 +96,11 @@ namespace Sims.SimSoccerModel
             doc.Save( @".\..\..\..\user_" + _userName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }
 
-            doc.Save( @".\..\..\..\SaveOf" + _userName + ".xml" );
+        public TeamList CreateTeam() 
+        {
+            var t = 0;
+            TeamList tl = new TeamList(this);
+            return tl;
         }
         public void ToXML( string ChoosenTeam, Game game)
         {
@@ -106,6 +113,7 @@ namespace Sims.SimSoccerModel
                     new XElement( "Team", _choosenTeam ) ) );
           
             
+            doc.Save( @".\..\..\..\SaveOf" + _userName + ".xml" );
         }
     }
 }

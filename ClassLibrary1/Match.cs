@@ -8,28 +8,28 @@ namespace DrawGame
 {
     class Match
     {
-        Team domicile_;
-        Team exterieur_;
+        Team _domicile;
+        Team _exterieur;
 
         public Team Domicile
         {
-            get { return domicile_; }
+            get { return _domicile; }
         }
 
         public Team Exterieur
         {
-            get { return exterieur_; }
+            get { return _exterieur; }
         }
 
         public Match(Team domicile, Team exterieur)
         {
-            domicile_ = domicile;
-            exterieur_ = exterieur;
+            _domicile = domicile;
+            _exterieur = exterieur;
         }
 
         public override string ToString()
         {
-            return domicile_.ToString() + " - " + exterieur_.ToString();
+            return _domicile.ToString() + " - " + _exterieur.ToString();
         }
     }
 }

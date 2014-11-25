@@ -56,6 +56,7 @@ namespace Sims.SimSoccerModel
             Injury = bool.Parse( e.Element( "Injury" ).Value );
             Mental = int.Parse( e.Element( "Mental" ).Value );
             FinancialValue = int.Parse( e.Element( "FinancialValue" ).Value );
+            ActualTeamTag = e.Element( "ActualTeamTag" ).Value;
         }
 
         public XElement ToXml( int id )
