@@ -78,7 +78,7 @@ namespace Sims.SimSoccerModel
                     new XElement( "UserNumber",
                         new XElement( "Number", i + 1 ) ) ) );
                 un.Save( @".\..\..\..\UserNumber.xml" );
-                _id = i;
+                _id = i + 1;
             }
 
             _choosenTeam = "teamTest";
@@ -93,8 +93,6 @@ namespace Sims.SimSoccerModel
             doc.Save( @".\..\..\..\user_" + _userName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }
 
-            doc.Save( @".\..\..\..\SaveOf" + _userName + ".xml" );
-        }
         public void ToXML( string ChoosenTeam, Game game)
         {
             _choosenTeam = ChoosenTeam;
@@ -104,8 +102,7 @@ namespace Sims.SimSoccerModel
                     new XElement( "Save", _userName ),
                     new XElement( "Password", _userPassword ),
                     new XElement( "Team", _choosenTeam ) ) );
-          
-            
+          doc.Save( @".\..\..\..\SaveOf" + _userName + ".xml" );
         }
     }
 }
