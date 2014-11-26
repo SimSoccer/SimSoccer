@@ -12,6 +12,7 @@ namespace Sims.SimSoccerModel
     {
         readonly TeamList _teamList;
         readonly PlayerList _playerList;
+        readonly Calendar _calendar;
         string _userName;
         string _userPassword;
         string _choosenTeam;
@@ -51,6 +52,10 @@ namespace Sims.SimSoccerModel
         {
             _userName = userName;
             _userPassword = userPassword;
+            XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
+            XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
+            _playerList = new PlayerList( this, doc.Root.Element( "Players" ) );
+            _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
         }
         public Game( string choosenTeam , string userName , string userPassword)
         {
@@ -59,7 +64,7 @@ namespace Sims.SimSoccerModel
             _userPassword = userPassword;
         }
 
-        public void GameToXml()
+        public void GameToXml(Game game)
         {
             int i;
             string saveNameUserId;
@@ -92,9 +97,7 @@ namespace Sims.SimSoccerModel
                     saveNameUserId = i.ToString();
                     
             }
-            
-            Game game = new Game();
-            XElement e = game.PlayerList.ToXml();
+
             XDocument gameSave = new XDocument(
                 new XElement("Game",
                     new XElement("Profil",

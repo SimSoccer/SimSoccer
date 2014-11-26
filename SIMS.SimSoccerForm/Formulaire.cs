@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sims.SimSoccerModel;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,7 +13,9 @@ namespace SIMS.SimSoccerForm
 {
     public partial class FormInscription : Form
     {
-        
+        readonly Game _game;
+        readonly TeamList _teamList;
+        readonly PlayerList _playerList;
         public FormInscription()
         {
             InitializeComponent();
@@ -29,12 +32,8 @@ namespace SIMS.SimSoccerForm
             else
             {
                 userControl1.Inscription( userControl1.UserName, userControl1.UserPassword );
-                SelectTeamForm ST = new SelectTeamForm();
-                ST.Show();
-                this.Close();
+                this.Hide();
             }
-            
-        }       
-        
+        }
     }
 }

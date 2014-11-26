@@ -16,25 +16,21 @@ namespace SIMS.SimSoccerForm
     public partial class SelectTeamForm : Form
     {
         readonly Game _game;
-        readonly TeamList _teamList;
    
         int i = 0;
 
-        public SelectTeamForm()
+        public SelectTeamForm(Game game)
         {
             
             InitializeComponent();
-
-            XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
-             _teamList = new TeamList( _game, doc.Root.Element( "Teams" ) );
-             pictureBox1_Click( this, EventArgs.Empty );
+            _game = game;
+            pictureBox1_Click( this, EventArgs.Empty );
         }
-
        
         private void Next_Click( object sender, EventArgs e )
         {
 
-            if( i == (_teamList.Teams.Count) - 1 )
+            if( i == (_game.TeamList.Teams.Count) - 1 )
             {
                 i = 0;
             }
@@ -50,7 +46,7 @@ namespace SIMS.SimSoccerForm
         {
             if( i == 0 )
             {
-                i = (_teamList.Teams.Count) - 1;
+                i = (_game.TeamList.Teams.Count) - 1;
             }
             else
             {
@@ -68,7 +64,7 @@ namespace SIMS.SimSoccerForm
         
         private void pictureBox1_Click( object sender, EventArgs e )
         {
-            using( FileStream fs = new FileStream(_teamList.Teams[i].Logo, FileMode.Open ) )
+            using( FileStream fs = new FileStream(_game.TeamList.Teams[i].Logo, FileMode.Open ) )
             {
                 Logo.Image = Image.FromStream( fs );
                 teamName_TextChanged( this, EventArgs.Empty );
@@ -77,41 +73,32 @@ namespace SIMS.SimSoccerForm
 
         private void teamName_TextChanged( object sender, EventArgs e )
         {
-            teamName.Text = _teamList.Teams[i].Name;
+            teamName.Text = _game.TeamList.Teams[i].Name;
             teamStadium_TextChanged( this, EventArgs.Empty );
         }
 
         private void teamStadium_TextChanged( object sender, EventArgs e )
         {
-            teamStadium.Text = _teamList.Teams[i].Stadium;
+            teamStadium.Text = _game.TeamList.Teams[i].Stadium;
             PlayersBox_TextChanged( this, EventArgs.Empty );
         }
 
         private void buttoSelect_Click( object sender, EventArgs e )
         {
-            UserControl1 aa = new UserControl1();
-            aa.UserName = this._game.UserName;
-            aa.UserPassword = this._game.UserPassword;
-            Game game = new Game( teamName.Text, aa.UserName, aa.UserPassword );
-            game.ToXML( teamName.Text, _game );
-
-            CalendarDisplay CD = new CalendarDisplay();
+            CalendarDisplay CD = new CalendarDisplay(_game);
             CD.Show();
             this.Close();
-            
         }
         
         private void PlayersBox_TextChanged( object sender, EventArgs e )
         {
             string Players = "";
-            for( int cmpt = 0; cmpt < _teamList.Teams[i].TeamPlayers.Count; cmpt++ )
+            for( int cmpt = 0; cmpt < _game.TeamList.Teams[i].TeamPlayers.Count; cmpt++ )
             {
-                Players += _teamList.Teams[i].TeamPlayers[cmpt] + "\r\n";
+                Players += _game.TeamList.Teams[i].TeamPlayers[cmpt].Name + "\r\n";
             }
              
             PlayersBox.Text = Players;
         }
-
-        
     }
 }

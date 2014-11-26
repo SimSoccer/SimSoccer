@@ -12,17 +12,15 @@ namespace CreatePlayerListConsole
     {
         static void Main( string[] args )
         {
-            
             Game g = new Game();
-           // Console.WriteLine( g.PlayerList.Players[1].Name );
-           // Console.WriteLine( "1 : " + g.TeamList.Teams[15].TeamPlayers );
             TeamList tl = g.TeamList;
-           // Console.WriteLine( "2 : " + tl.Teams[15].TeamPlayers );
             PlayerList pl = g.PlayerList;
 
+            string ttt = g.TeamList.Teams[15].TeamTag; 
+            List<string> t = g.PlayerList.Players.Where( p => p.ActualTeamTag == ttt ).Select( p => p.Name ).ToList();
+            Console.WriteLine( t[1] );
+            Console.WriteLine( g.TeamList.Teams[15].TeamPlayers );
 
-
-            string ttt = g.TeamList.Teams[15].TeamTag;
             /*int i;
 
            
@@ -33,9 +31,8 @@ namespace CreatePlayerListConsole
                     Console.WriteLine( g.PlayerList.Players[i].Name );
                 }
             }*/
-            List<string> t = g.PlayerList.Players.Where( p => p.ActualTeamTag == ttt ).Select( p => p.Name ).ToList();
-
-            Console.WriteLine( g.TeamList.Teams[15].TeamPlayers );
+            
+            //Console.WriteLine( g.TeamList.Teams[15].TeamPlayers );
            /*foreach( string s in g.PlayerList.Players.Where( p => p.ActualTeamTag == ttt ).Select( p => p.Name ) )
            {
                Console.WriteLine( s );

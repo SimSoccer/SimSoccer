@@ -16,10 +16,9 @@ using System.Xml.Linq;
 namespace SIMS.SimSoccerForm
 {
     
-    
     public partial class UserControl1 : UserControl 
     {
-        //readonly Game _game;
+        readonly Game _game;
         public UserControl1()
         {
             InitializeComponent();
@@ -47,12 +46,12 @@ namespace SIMS.SimSoccerForm
                 txtPassword.Text = value;
             }
         }
-        
-        public void Inscription(string userName, string userPassword )
+        public void Inscription( string userName, string userPassword )
         {
-            Game game = new Game( userName, userPassword );
-            game.GameToXml();
+            Game _game = new Game( userName, userPassword );
+            _game.GameToXml(_game);
+            SelectTeamForm ST = new SelectTeamForm( _game );
+            ST.Show();
         }
-       
     }
 }

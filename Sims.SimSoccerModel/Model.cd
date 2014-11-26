@@ -3,7 +3,7 @@
   <Class Name="Sims.SimSoccerModel.Game">
     <Position X="0.5" Y="1" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAgAAAAAAAACAAAAAgAAEAAAAAAAQIBAIICCAQ=</HashCode>
+      <HashCode>AAAAAAAgAAAAAAAACAAAAAgAAEAAAAAAAQIBEIICCAQ=</HashCode>
       <FileName>Game.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -60,17 +60,13 @@
       <Field Name="_owner" Hidden="true" />
       <Field Name="_players" Hidden="true" />
       <Field Name="_stadium" Hidden="true" />
-      <Field Name="_teamPlayers" Hidden="true" />
       <Field Name="_teamTag" Hidden="true" />
       <Field Name="_town" Hidden="true" />
     </Members>
     <TypeIdentifier>
-      <HashCode>AAAAoQAAAggAAAAAAACCAQQAALgABICFAAAAAAAABIU=</HashCode>
+      <HashCode>AAAAoQAAAggAAAAAAACCAQQAAJgABICFAAAAAAAABIU=</HashCode>
       <FileName>Team.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Game" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="Sims.SimSoccerModel.TeamList">
     <Position X="9" Y="0.5" Width="1.5" />
