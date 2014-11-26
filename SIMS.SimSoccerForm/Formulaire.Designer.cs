@@ -67,7 +67,6 @@
             this.ResumeLayout(false);
 
         }
-
         #endregion
 
         private UserControl1 userControl1;

@@ -61,10 +61,9 @@
             this.Controls.Add(this.Cjournee);
             this.Name = "CalendarDisplay";
             this.Text = "Calendar";
-            this.Load += new System.EventHandler(this.Calendar_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CalendarDisplay_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion

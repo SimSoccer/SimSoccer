@@ -28,7 +28,7 @@ namespace Sims.SimSoccerModel
         int _financialValue;
         string _actualTeamTag;
 
-        public Player( PlayerList owner, string name )
+        internal Player( PlayerList owner, string name )
         {
             _owner = owner;
             _name = name;
@@ -39,7 +39,7 @@ namespace Sims.SimSoccerModel
             get { return _owner.Game; }
         }
 
-        internal Player( PlayerList owner, XElement e )
+        public Player( PlayerList owner, XElement e )
         {
             _name = e.Attribute( "Name" ).Value;
             ShirtNumber = int.Parse( e.Element( "ShirtNumber" ).Value );
@@ -76,7 +76,8 @@ namespace Sims.SimSoccerModel
             new XElement( "FormState", FormState ),
             new XElement( "Injury", Injury ),
             new XElement( "Mental", Mental ),
-            new XElement( "FinancialValue", FinancialValue ) );
+            new XElement( "FinancialValue", FinancialValue ),
+            new XElement( "ActualTeamTag", ActualTeamTag ) );
         }
 
         public int Id

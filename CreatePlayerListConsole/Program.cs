@@ -12,13 +12,34 @@ namespace CreatePlayerListConsole
     {
         static void Main( string[] args )
         {
-            
             Game g = new Game();
-            XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
-            XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
+            TeamList tl = g.TeamList;
+            PlayerList pl = g.PlayerList;
 
-            PlayerList pl = new PlayerList( g, doc.Root.Element( "Players" ) );
-            TeamList tl = new TeamList( g, doc2.Root.Element( "Teams" ) );
+            string ttt = g.TeamList.Teams[15].TeamTag; 
+            List<string> t = g.PlayerList.Players.Where( p => p.ActualTeamTag == ttt ).Select( p => p.Name ).ToList();
+            Console.WriteLine( t[1] );
+            Console.WriteLine( g.TeamList.Teams[15].TeamPlayers );
+
+            /*int i;
+
+           
+           for( i = 0; i <  g.PlayerList.Players.Count; i++ )
+            {
+                if( g.PlayerList.Players[i].ActualTeamTag == ttt )
+                {
+                    Console.WriteLine( g.PlayerList.Players[i].Name );
+                }
+            }*/
+            
+            //Console.WriteLine( g.TeamList.Teams[15].TeamPlayers );
+           /*foreach( string s in g.PlayerList.Players.Where( p => p.ActualTeamTag == ttt ).Select( p => p.Name ) )
+           {
+               Console.WriteLine( s );
+               t = s;
+           }*/
+
+            //Console.WriteLine( pl.Players[1].Name );
 
             /*
             Console.WriteLine( "La taille de " + pl.Players[0].Name + " est de : " + pl.Players[0].Height );
@@ -42,7 +63,7 @@ namespace CreatePlayerListConsole
                 Console.WriteLine( teamPlayers[t] );
             }*/
 
-            int t;
+            /*int t;
             for( t = 0; t < tl.Teams.Count; t++ )
             {
                 Console.WriteLine( "______________________" + Environment.NewLine + tl.Teams[t].Name );
@@ -56,7 +77,7 @@ namespace CreatePlayerListConsole
             DateTime today = DateTime.Now;
 
             Console.WriteLine( "Date d'aujoud'hui : " + today.Day );
-            //Console.WriteLine( tl.Teams[15].TeamPlayers );
+            //Console.WriteLine( tl.Teams[15].TeamPlayers );*/
 
             Console.Read();
         }

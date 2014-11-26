@@ -14,7 +14,7 @@ namespace SIMS.SimSoccerForm
 {
     public partial class CalendarDisplay : Form
     {
-        public CalendarDisplay()
+        public CalendarDisplay(Game game)
         {
             InitializeComponent();
 
@@ -43,8 +43,9 @@ namespace SIMS.SimSoccerForm
             }
         }
 
-        private void Calendar_Load( object sender, EventArgs e )
+        private void CalendarDisplay_FormClosing( object sender, FormClosingEventArgs e )
         {
+            System.Windows.Forms.Application.Exit();
         }
     }
 }
