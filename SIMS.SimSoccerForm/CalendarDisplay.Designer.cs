@@ -1,4 +1,4 @@
-﻿namespace DrawGame
+﻿namespace SIMS.SimSoccerForm
 {
     partial class CalendarDisplay
     {

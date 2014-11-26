@@ -25,10 +25,12 @@ namespace SIMS.SimSoccerForm
             
             InitializeComponent();
             
+            
             _game = new Game();
 
-            XDocument doc = XDocument.Load( @"C:\Users\famille\Desktop\in'tech info\Semestre 3\programmation\SimSoccer\Ligue1Teams.xml" );
+            XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
              _teamList = new TeamList( _game, doc.Root.Element( "Teams" ) );
+             pictureBox1_Click( this, EventArgs.Empty );
             
         }
 
@@ -50,7 +52,7 @@ namespace SIMS.SimSoccerForm
 
         private void Previous_Click( object sender, EventArgs e )
         {
-            if( i == 0)
+            if( i == 0 )
             {
                 i = (_teamList.Teams.Count) - 1;
             }
@@ -58,24 +60,23 @@ namespace SIMS.SimSoccerForm
             {
                 i--;
             }
+
             pictureBox1_Click( this, EventArgs.Empty );
-            
+
         }
 
         private void SelectTeamForm_Load( object sender, EventArgs e )
         {
-
+            
         }
-
+        
         private void pictureBox1_Click( object sender, EventArgs e )
         {
             using( FileStream fs = new FileStream(_teamList.Teams[i].Logo, FileMode.Open ) )
             {
                 Logo.Image = Image.FromStream( fs );
                 teamName_TextChanged( this, EventArgs.Empty );
-            }
-            
-            
+            }           
         }
 
         private void teamName_TextChanged( object sender, EventArgs e )
@@ -87,6 +88,32 @@ namespace SIMS.SimSoccerForm
         private void teamStadium_TextChanged( object sender, EventArgs e )
         {
             teamStadium.Text = _teamList.Teams[i].Stadium;
+            PlayersBox_TextChanged( this, EventArgs.Empty );
+        }
+
+        private void buttoSelect_Click( object sender, EventArgs e )
+        {
+            UserControl1 aa = new UserControl1();
+            aa.UserName = this._game.UserName;
+            aa.UserPassword = this._game.UserPassword;
+            Game game = new Game( teamName.Text, aa.UserName, aa.UserPassword );
+            game.ToXML( teamName.Text, _game );
+
+            CalendarDisplay CD = new CalendarDisplay();
+            CD.Show();
+            this.Close();
+            
+        }
+        
+        private void PlayersBox_TextChanged( object sender, EventArgs e )
+        {
+            string Players = "";
+            for( int cmpt = 0; cmpt < _teamList.Teams[i].TeamPlayers.Count; cmpt++ )
+            {
+                Players += _teamList.Teams[i].TeamPlayers[cmpt] + "\r\n";
+            }
+             
+            PlayersBox.Text = Players;
         }
 
         

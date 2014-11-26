@@ -19,7 +19,7 @@ namespace SIMS.SimSoccerForm
             
 
         }
-
+        
         private void btValider_Click( object sender, EventArgs e )
         {
             if( userControl1.UserName.Length == 0 || userControl1.UserPassword.Length == 0)
@@ -29,26 +29,12 @@ namespace SIMS.SimSoccerForm
             else
             {
                 userControl1.Inscription( userControl1.UserName, userControl1.UserPassword );
+                SelectTeamForm ST = new SelectTeamForm();
+                ST.Show();
+                this.Close();
             }
             
-        }
-        
-
-        private void btLire_Click( object sender, EventArgs e )
-        {
-            SelectTeamForm ST = new SelectTeamForm();
-            ST.Show();
-        }
-
-        private void btLogin_Click( object sender, EventArgs e )
-        {
-            
-        }
-
-        
-
-
-        
+        }       
         
     }
 }

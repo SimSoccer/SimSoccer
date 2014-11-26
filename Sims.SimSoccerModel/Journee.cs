@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sims.SimSoccerModel
 {
-    class Journee
+    public class Journee
     {
         int numero_;
         List<Match> matchs_;

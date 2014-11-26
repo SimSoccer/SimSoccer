@@ -121,7 +121,7 @@
   <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAACE2SURBVHhe7Z0HfBRl+se5O/2fnoJYEEVEagAJNfSewu6m
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAACE2SURBVHhe7Z0HfBRl+se5O/2fnoJYEEVEagAJNfSewu6m
         EhACGAwBEiDUNFog9CKd0KRJFRQRBdFTFLw7FfEUPe6klySkk0Jvd+f5/J9n5n1n35mdbQmBJMz7+fw+
         szu7O1u+v6dM3UqlMH7HpsZ4yMcjqN+jDENU+FF/TJWaPm9F1+7xdkotvw0znmuT3A3nPo56lMkwQgUd
         v3uqaczTbQbs2Tdo7i8wZkUqRC06C91HfHW7tvntTU/WD38Vn/N/qD+ijIxQEUeTntumjVx2DmLfyoLw
@@ -296,12 +296,12 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="previous.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAACB7SURBVHhe7Z0HeBVl1sf5vk9WEXtD0UVqaAktEEKAQNpN
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAACB7SURBVHhe7Z0HeBVl1sf5vk9WEXtD0UVqaAktEEKAQNpN
         LyDVYAglQKhp9A4JSO+IgFRBEFEQXUXB3VVR174rvSQhHRJ63eb5znln3sk7c2funRRjEuZ9nv8z997c
         IvP7n/85M7dYw1rWslblXv+D+j/Ufaiasuj6/6Lob9aqpovgEuQ/oB5EPYJ6VFZtFN1ORrBMUM0WB0+V
         XgtFwOug/oh6HvUc6gkUmeB+FN3XWtVk8bgnsA+jnkK9iGqMavOs18T4RpFbXmvcY8fS57wmeuNtdD9q
@@ -471,7 +471,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;previous.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="Logo.Location" type="System.Drawing.Point, System.Drawing">
     <value>631, 165</value>
@@ -495,7 +495,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Logo.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="teamName.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -525,7 +525,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;teamName.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="labelName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -534,16 +534,16 @@
     <value>Off</value>
   </data>
   <data name="labelName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>780, 435</value>
+    <value>783, 430</value>
   </data>
   <data name="labelName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 13</value>
+    <value>38, 13</value>
   </data>
   <data name="labelName.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="labelName.Text" xml:space="preserve">
-    <value>Nom:</value>
+    <value>Name:</value>
   </data>
   <data name="&gt;&gt;labelName.Name" xml:space="preserve">
     <value>labelName</value>
@@ -555,7 +555,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelName.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="labelStadium.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -564,13 +564,13 @@
     <value>783, 505</value>
   </data>
   <data name="labelStadium.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 13</value>
+    <value>48, 13</value>
   </data>
   <data name="labelStadium.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
   <data name="labelStadium.Text" xml:space="preserve">
-    <value>Stade:</value>
+    <value>Stadium:</value>
   </data>
   <data name="&gt;&gt;labelStadium.Name" xml:space="preserve">
     <value>labelStadium</value>
@@ -582,7 +582,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelStadium.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="teamStadium.Location" type="System.Drawing.Point, System.Drawing">
     <value>632, 538</value>
@@ -606,6 +606,60 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;teamStadium.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttoSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 628</value>
+  </data>
+  <data name="buttoSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 29</value>
+  </data>
+  <data name="buttoSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="buttoSelect.Text" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="&gt;&gt;buttoSelect.Name" xml:space="preserve">
+    <value>buttoSelect</value>
+  </data>
+  <data name="&gt;&gt;buttoSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttoSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttoSelect.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PlayersBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1065, 392</value>
+  </data>
+  <data name="PlayersBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PlayersBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="PlayersBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 251</value>
+  </data>
+  <data name="PlayersBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="PlayersBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;PlayersBox.Name" xml:space="preserve">
+    <value>PlayersBox</value>
+  </data>
+  <data name="&gt;&gt;PlayersBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlayersBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PlayersBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

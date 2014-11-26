@@ -8,21 +8,21 @@ namespace DrawGame
 {
     class Calendrier
     {
-        int nbEquipes_;
-        List<Journee> journees_;
+        int _nbEquipes;
+        List<Journee> _journees;
 
         public List<Journee> Journees
         {
-            get { return journees_; }
+            get { return _journees; }
         }
 
         public Calendrier(int nbEquipes)
         {
-            nbEquipes_ = nbEquipes;
-            journees_ = new List<Journee>();
+            _nbEquipes = nbEquipes;
+            _journees = new List<Journee>();
 
-            for (int i = 1; i <= (nbEquipes_ - 1) * 2; i++)
-                journees_.Add(new Journee(i));
+            for (int i = 1; i <= (_nbEquipes - 1) * 2; i++)
+                _journees.Add(new Journee(i));
         }
     }
 }

@@ -8,21 +8,21 @@ namespace DrawGame
 {
     class Team
     {
-        String nom_;
+        String _nom;
 
         public String Nom
         {
-            get { return nom_; }
+            get { return _nom; }
         }
 
         public Team(String nom)
         {
-            nom_ = nom;
+            _nom = nom;
         }
 
         public override string ToString()
         {
-            return nom_;
+            return _nom;
         }
     }
 }
