@@ -104,8 +104,9 @@ namespace Sims.SimSoccerModel
                         new XAttribute("ID", i),
                         new XElement("UserName", _userName),
                         new XElement("Password", _userPassword)),
-                    game.PlayerList.ToXml(),
-                    game.TeamList.ToXml()));
+                    game.TeamList.ToXml(),
+                    new XElement("FreePlayers",
+                        new XElement("TheFreePlayer"))));
 
             DateTime today = DateTime.Now;
             gameSave.Save( @".\..\..\..\user" + saveNameUserId + "_" + _userName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
