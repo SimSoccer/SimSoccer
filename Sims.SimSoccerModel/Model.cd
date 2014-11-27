@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Sims.SimSoccerModel.Game">
+    <Position X="0.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAACAAAAAgAAEAAAAAAAQIBEIICCAQ=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PlayerList" />
+      <Property Name="TeamList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sims.SimSoccerModel.Player">
+    <Position X="3.5" Y="1.75" Width="2" />
+    <Members>
+      <Field Name="_actualClub" Hidden="true" />
+      <Field Name="_actualTeamTag" Hidden="true" />
+      <Field Name="_birthDate" Hidden="true" />
+      <Field Name="_birthPlace" Hidden="true" />
+      <Field Name="_financialValue" Hidden="true" />
+      <Field Name="_formState" Hidden="true" />
+      <Field Name="_height" Hidden="true" />
+      <Field Name="_id" Hidden="true" />
+      <Field Name="_injury" Hidden="true" />
+      <Field Name="_mental" Hidden="true" />
+      <Field Name="_name" Hidden="true" />
+      <Field Name="_nationality" Hidden="true" />
+      <Field Name="_owner" Hidden="true" />
+      <Field Name="_poste" Hidden="true" />
+      <Field Name="_previousClub" Hidden="true" />
+      <Field Name="_shirtNumber" Hidden="true" />
+      <Field Name="_stats" Hidden="true" />
+      <Field Name="_weight" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CDgDoAgARACYIAUECABECAQgACgQEAQGgAAAoBAACAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Game" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sims.SimSoccerModel.PlayerList">
+    <Position X="6.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAABAAAAAAABggAAAEAAAAAAAAAAQ=</HashCode>
+      <FileName>PlayerList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sims.SimSoccerModel.Team">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <Members>
+      <Field Name="_game" Hidden="true" />
+      <Field Name="_leagueRanking" Hidden="true" />
+      <Field Name="_level" Hidden="true" />
+      <Field Name="_logo" Hidden="true" />
+      <Field Name="_manager" Hidden="true" />
+      <Field Name="_name" Hidden="true" />
+      <Field Name="_owner" Hidden="true" />
+      <Field Name="_players" Hidden="true" />
+      <Field Name="_stadium" Hidden="true" />
+      <Field Name="_teamTag" Hidden="true" />
+      <Field Name="_town" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAoQAAAggAAAAAAACCAQQAAJgABICFAAAAAAAABIU=</HashCode>
+      <FileName>Team.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sims.SimSoccerModel.TeamList">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACgAAAAAAAAAAAAAAAAEAAAgAAAAEAAAAEAAAAAQ=</HashCode>
+      <FileName>TeamList.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Game" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
