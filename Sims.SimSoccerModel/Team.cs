@@ -21,12 +21,18 @@ namespace Sims.SimSoccerModel
         int _leagueRanking;
         int _level;
         string _playerName;
+        List<Team> _opponent;
         
         internal Team( TeamList owner, string name )
         {
             _owner = owner;
             _name = name;
             _players = new List<Player>();
+        }
+
+        public List<Team> Opponent
+        {
+            get { return _opponent; }
         }
 
         public TeamList TeamList
@@ -50,6 +56,7 @@ namespace Sims.SimSoccerModel
             int i;
             int j;
             _players = new List<Player>();
+            _opponent = new List<Team>();
 
             string tt = e.Element( "TeamTag" ).Value;
             _owner = owner;
