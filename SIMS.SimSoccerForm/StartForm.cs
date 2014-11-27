@@ -24,6 +24,7 @@ namespace SIMS.SimSoccerForm
             FormInscription uc = new FormInscription();
 
             uc.Show();
+            this.Hide();
             
         }
     }

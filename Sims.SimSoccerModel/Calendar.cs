@@ -9,20 +9,54 @@ namespace Sims.SimSoccerModel
      public class Calendar
     {
             int nbEquipes_;
-            List<Journee> journees_;
+        List<Journee> _journees;
+        Game _game;
+        Ligue _owner;
 
-            public List<Journee> Journees
+        public List<Journee> Journees
+        {
+            get { return _journees; }
+        }
+
+
+        public Calendar(int nbEquipes, int year, Ligue owner)
+        {
+            _owner = owner;
+            nbEquipes_ = nbEquipes;
+            _journees = new List<Journee>();
+            DateTime dt = new DateTime(year, 8, 7);
+            DateTime Saturday = dt;
+
+            switch (dt.DayOfWeek)
             {
-                get { return journees_; }
+                case DayOfWeek.Saturday: Saturday = dt;
+                    break;
+                case DayOfWeek.Sunday: Saturday = dt.AddDays(-1);
+                    break;
+                case DayOfWeek.Friday: Saturday = dt.AddDays(1);
+                    break;
+                case DayOfWeek.Tuesday: Saturday = dt.AddDays(4);
+                    break;
+                case DayOfWeek.Wednesday: Saturday = dt.AddDays(3);
+                    break;
+                case DayOfWeek.Thursday: Saturday = dt.AddDays(2);
+                    break;
+                case DayOfWeek.Monday: Saturday = dt.AddDays(5);
+                    break;
             }
 
-            public Calendar( int nbEquipes )
-            {
-                nbEquipes_ = nbEquipes;
-                journees_ = new List<Journee>();
+            for (int i = 1; i <= (nbEquipes_ - 1) * 2; i++)
+                _journees.Add(new Journee(i, Saturday, this));
+        }
 
-                for( int i = 1; i <= ( nbEquipes_ - 1 ) * 2; i++ )
-                    journees_.Add( new Journee( i ) );
-            }
+        public Game Game
+        {
+            get { return _owner.Game; }
+        }
+
+        public Ligue Ligue
+        {
+            get { return _owner; }
+        }
     }
 }

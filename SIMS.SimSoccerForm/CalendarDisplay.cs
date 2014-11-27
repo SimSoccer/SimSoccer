@@ -14,16 +14,16 @@ namespace SIMS.SimSoccerForm
 {
     public partial class CalendarDisplay : Form
     {
-        public CalendarDisplay()
+        readonly Game _game;
+        public CalendarDisplay(Game game)
         {
             InitializeComponent();
+            _game = game;
 
-            Ligue ligue1 = new Ligue();
+            _game.Ligue.fillCalendar();
 
-            ligue1.CreateTeam();
-            ligue1.fillCalendar();
-
-            foreach( Journee j in ligue1.Calendar.Journees )
+            
+            foreach( Journee j in _game.Ligue.Calendar.Journees )
                 Cjournee.Items.Add( j );
 
             Cjournee.SelectedIndex = 0;
@@ -43,8 +43,9 @@ namespace SIMS.SimSoccerForm
             }
         }
 
-        private void Calendar_Load( object sender, EventArgs e )
+        private void CalendarDisplay_FormClosing( object sender, FormClosingEventArgs e )
         {
+            System.Windows.Forms.Application.Exit();
         }
     }
 }

@@ -10,72 +10,74 @@ namespace Sims.SimSoccerModel
     public class Ligue
     {
         Calendar calendrier_;
-        TeamList _tl;
-        Game _game = new Game();
+        Game _game;
+        int _year;
 
         public Calendar Calendar
         {
             get { return calendrier_; }
         }
 
-        public Ligue()
+        public Ligue(Game game,int year)
         {
-            _tl = new TeamList(_game);
-        }  
+            _game = game;
+            _year = year;
+        }
+
+        public Game Game
+        {
+            get { return _game; }
+        }
 
         public void fillCalendar()
         {
             Random r = new Random();
-            calendrier_ = new Calendar(_tl.Teams.Count);
+            calendrier_ = new Calendar(_game.TeamList.Teams.Count, _year, this);
             List<int> indicesEquipes = Enumerable.Range(0, 20).OrderBy(x => r.Next()).ToList();
 
-            for (int i = 0; i < (_tl.Teams.Count - 1) * 2; i++)
+            for (int i = 0; i < (_game.TeamList.Teams.Count - 1) * 2; i++)
             {
-                if (i < _tl.Teams.Count - 1)
+                if (i < _game.TeamList.Teams.Count - 1)
                 {
-                    calendrier_.Journees[i].Matchs = JourneeAller((i % 2 == 0), indicesEquipes);
+                    _game.Ligue.Calendar.Journees[i].Matchs = JourneeAller(r, (i % 2 == 0), indicesEquipes);
+                    _game.Ligue.Calendar.Journees[i].initHoraires();
                     indicesEquipes = permutations(indicesEquipes);
                 }
                 else
-                    calendrier_.Journees[i].Matchs = JourneeRetour(i);
+                    _game.Ligue.Calendar.Journees[i].Matchs = JourneeRetour(i);
+                    _game.Ligue.Calendar.Journees[i].initHoraires();
             }
         }
 
-        public void CreateTeam()
-        {
-            XDocument doc = XDocument.Load(@".\..\..\..\Ligue1Teams.xml");
-            _tl = new TeamList(_game, doc.Root.Element("Teams"));
-            TeamList tl = new TeamList( _game, doc.Root.Element( "Teams" ) );
-        }
-
-        public List<Match> JourneeAller(bool FirstDom, List<int> indicesEquipes)
+        public List<Match> JourneeAller(Random r, bool FirstDom, List<int> indicesEquipes)
         {
             List<Match> matchs = new List<Match>();
 
-            if (FirstDom)
-                matchs.Add(new Match(_tl.Teams[indicesEquipes[0]], _tl.Teams[indicesEquipes[_tl.Teams.Count / 2]]));
-            else
-                matchs.Add(new Match(_tl.Teams[indicesEquipes[_tl.Teams.Count / 2]], _tl.Teams[indicesEquipes[0]]));
-
-            for (int i = 1; i < _tl.Teams.Count / 2; i++)
+            for (int i = 1; i < _game.TeamList.Teams.Count / 2; i++)
                 if (i % 2 != 0)
-                    matchs.Add(new Match(_tl.Teams[indicesEquipes[i + _tl.Teams.Count / 2]], _tl.Teams[indicesEquipes[i]]));
+                    matchs.Add(new Match(_game.TeamList.Teams[indicesEquipes[i + _game.TeamList.Teams.Count / 2]], _game.TeamList.Teams[indicesEquipes[i]]));
                 else
-                    matchs.Add(new Match(_tl.Teams[indicesEquipes[i]], _tl.Teams[indicesEquipes[i + _tl.Teams.Count / 2]]));
+                    matchs.Add(new Match(_game.TeamList.Teams[indicesEquipes[i]], _game.TeamList.Teams[indicesEquipes[i + _game.TeamList.Teams.Count / 2]]));
+
+            if (FirstDom)
+                matchs.Insert(r.Next(0, _game.TeamList.Teams.Count / 2), new Match(_game.TeamList.Teams[indicesEquipes[0]], _game.TeamList.Teams[indicesEquipes[_game.TeamList.Teams.Count / 2]]));
+            else
+                matchs.Insert(r.Next(0, _game.TeamList.Teams.Count / 2), new Match(_game.TeamList.Teams[indicesEquipes[_game.TeamList.Teams.Count / 2]], _game.TeamList.Teams[indicesEquipes[0]]));
+
             return matchs;
         }
 
         public List<int> permutations(List<int> indicesEquipes)
         {
-            List<int> newIndices = new List<int>(_tl.Teams.Count);
+            List<int> newIndices = new List<int>(_game.TeamList.Teams.Count);
 
             for (int i = 0; i < indicesEquipes.Count; i++)
             {
                 if (i == 0) newIndices.Add(indicesEquipes[i]);
-                if (i == 1) newIndices.Add(indicesEquipes[_tl.Teams.Count / 2]);
-                if ((i > 1) && (i < (_tl.Teams.Count / 2))) newIndices.Add(indicesEquipes[i - 1]);
-                if ((i >= (_tl.Teams.Count / 2)) && (i < (_tl.Teams.Count - 1))) newIndices.Add(indicesEquipes[i + 1]);
-                if (i == (_tl.Teams.Count - 1)) newIndices.Add(indicesEquipes[i - (_tl.Teams.Count / 2)]);
+                if (i == 1) newIndices.Add(indicesEquipes[_game.TeamList.Teams.Count / 2]);
+                if ((i > 1) && (i < (_game.TeamList.Teams.Count / 2))) newIndices.Add(indicesEquipes[i - 1]);
+                if ((i >= (_game.TeamList.Teams.Count / 2)) && (i < (_game.TeamList.Teams.Count - 1))) newIndices.Add(indicesEquipes[i + 1]);
+                if (i == (_game.TeamList.Teams.Count - 1)) newIndices.Add(indicesEquipes[i - (_game.TeamList.Teams.Count / 2)]);
             }
 
             return newIndices;
@@ -85,7 +87,7 @@ namespace Sims.SimSoccerModel
         {
             List<Match> matchs = new List<Match>();
 
-            Journee journee = calendrier_.Journees[numJournee - (_tl.Teams.Count - 1)];
+            Journee journee = calendrier_.Journees[numJournee - (_game.TeamList.Teams.Count - 1)];
 
             foreach (Match m in journee.Matchs)
                 matchs.Add(new Match(m.Exterieur, m.Domicile));

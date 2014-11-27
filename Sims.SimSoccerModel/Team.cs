@@ -11,7 +11,7 @@ namespace Sims.SimSoccerModel
     {
         readonly string _name;
         readonly TeamList _owner;
-        readonly List<Player> _players;
+        List<Player> _players;
         readonly Game _game;
         string _teamTag;
         string _town;
@@ -20,14 +20,24 @@ namespace Sims.SimSoccerModel
         string _manager;
         int _leagueRanking;
         int _level;
-        List<string> _teamPlayers;
+        string _playerName;
+        List<Team> _opponent;
         
         internal Team( TeamList owner, string name )
         {
             _owner = owner;
             _name = name;
             _players = new List<Player>();
-            _game = new Game();
+        }
+
+        public List<Team> Opponent
+        {
+            get { return _opponent; }
+        }
+
+        public TeamList TeamList
+        {
+            get { return _owner; }
         }
 
         public Game Game
@@ -35,21 +45,30 @@ namespace Sims.SimSoccerModel
             get { return _owner.Game; }
         }
 
-        internal Team( TeamList owner, XElement e )
+        public List<Player> TeamPlayers
         {
-            XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
-            PlayerList _pl = new PlayerList( _game, doc.Root.Element( "Players" ) );
+            get { return _players; }
+            set { _players = value; }
+        }
 
+        public Team( TeamList owner, XElement e )
+        {
             int i;
-            List<string> teamPlayers = new List<string>();
+            int j;
+            _players = new List<Player>();
+            _opponent = new List<Team>();
 
             string tt = e.Element( "TeamTag" ).Value;
-
-            for( i = 0; i < _pl.Players.Count; i++ )
+            _owner = owner;
+            for( i = 0; i < _owner.Game.PlayerList.Players.Count; i++ )
             {
-                if( _pl.Players[i].ActualTeamTag == tt )
+                if( _owner.Game.PlayerList.Players[i].ActualTeamTag == tt )
                 {
-                    teamPlayers.Add( _pl.Players[i].Name );
+                    _players.Add( _owner.Game.PlayerList.Players[i] );
+                    for( j = 0; j < _players.Count; j++ )
+                    {
+                        _playerName = _players[j].Name;
+                    }
                 }
             }
 
@@ -62,11 +81,32 @@ namespace Sims.SimSoccerModel
             Manager = e.Element( "Manager" ).Value;
             LeagueRanking = int.Parse( e.Element( "LeagueRanking" ).Value );
             Level = int.Parse( e.Element( "Level" ).Value );
-            TeamPlayers = teamPlayers;
+            TeamPlayers = _players;
+
+            XElement xml = new XElement( "Players",
+                from p in _players
+                select new XElement( "Player",
+                    new XAttribute( "Id", p.Id ),
+                    new XAttribute( "Name", p.Name ),
+                    new XElement( "ShirtNumber", p.ShirtNumber ),
+                    new XElement( "Nationality", p.Nationality ),
+                    new XElement( "Post", p.Poste ),
+                    new XElement( "Height", p.Height ),
+                    new XElement( "BirthDate", p.BirthDate ),
+                    new XElement( "BirthPlace", p.BirthPlace ),
+                    new XElement( "PreviousClub", p.PreviousClub ),
+                    new XElement( "ActualClub", p.ActualClub ),
+                    new XElement( "Stats", p.Stats ),
+                    new XElement( "FormState", p.FormState ),
+                    new XElement( "Injury", p.Injury ),
+                    new XElement( "Mental", p.Mental ),
+                    new XElement( "FinancialValue", p.FinancialValue ),
+                    new XElement( "ActualTeamTag", p.ActualTeamTag ) ));
         }
 
         public XElement ToXml( int id )
         {
+
             return new XElement( "Team",
                         new XAttribute( "Id", id ),
                         new XAttribute( "Name", Name ),
@@ -76,10 +116,26 @@ namespace Sims.SimSoccerModel
                         new XElement( "Logo", Logo ),
                         new XElement( "Manager", Manager ),
                         new XElement( "LeagueRanking", LeagueRanking ),
-                        new XElement( "Level", Level ) );
-                        /*new XElement( "Players",
-                            new XElement( "Player",
-                                new XAttribute( "Id", _players.Select( p => Game.PlayerList.Players.IndexOf( p ) ) ) ) ) );*/
+                        new XElement( "Level", Level ),
+                        new XElement( "Players",
+                            from p in TeamPlayers
+                            select new XElement( "Player",
+                                new XAttribute( "Id", p.Id ),
+                                new XAttribute( "Name", p.Name ),
+                                new XElement( "ShirtNumber", p.ShirtNumber ),
+                                new XElement( "Nationality", p.Nationality ),
+                                new XElement( "Post", p.Poste ),
+                                new XElement( "Height", p.Height ),
+                                new XElement( "BirthDate", p.BirthDate ),
+                                new XElement( "BirthPlace", p.BirthPlace ),
+                                new XElement( "PreviousClub", p.PreviousClub ),
+                                new XElement( "ActualClub", p.ActualClub ),
+                                new XElement( "Stats", p.Stats ),
+                                new XElement( "FormState", p.FormState ),
+                                new XElement( "Injury", p.Injury ),
+                                new XElement( "Mental", p.Mental ),
+                                new XElement( "FinancialValue", p.FinancialValue ),
+                                new XElement( "ActualTeamTag", p.ActualTeamTag ) ) ) );
         }
 
         public string Name
@@ -129,10 +185,12 @@ namespace Sims.SimSoccerModel
             set { _level = value; }
         }
 
-        public List<string> TeamPlayers
+        public string PlayerName
         {
-            get { return _teamPlayers; }
-            set { _teamPlayers = value; }
+            get { return _playerName; }
+            set { _playerName = value; }
         }
+
+        
     }
 }
