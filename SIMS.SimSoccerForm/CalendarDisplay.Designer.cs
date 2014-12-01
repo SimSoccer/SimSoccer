@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalendarDisplay));
             this.Cjournee = new System.Windows.Forms.ComboBox();
             this.TMatchs = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -43,27 +44,31 @@
             // 
             // TMatchs
             // 
-            this.TMatchs.BackColor = System.Drawing.SystemColors.GrayText;
-            this.TMatchs.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.TMatchs.BackColor = System.Drawing.Color.AliceBlue;
+            this.TMatchs.ForeColor = System.Drawing.Color.Black;
             this.TMatchs.Location = new System.Drawing.Point(12, 56);
             this.TMatchs.Multiline = true;
             this.TMatchs.Name = "TMatchs";
             this.TMatchs.ReadOnly = true;
-            this.TMatchs.Size = new System.Drawing.Size(260, 194);
+            this.TMatchs.Size = new System.Drawing.Size(280, 190);
             this.TMatchs.TabIndex = 1;
+            this.TMatchs.TextChanged += new System.EventHandler(this.TMatchs_TextChanged);
             // 
             // CalendarDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(584, 262);
             this.Controls.Add(this.TMatchs);
             this.Controls.Add(this.Cjournee);
             this.Name = "CalendarDisplay";
             this.Text = "Calendar";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CalendarDisplay_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion
