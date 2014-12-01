@@ -47,5 +47,11 @@ namespace SIMS.SimSoccerForm
         {
             System.Windows.Forms.Application.Exit();
         }
+
+        private void TMatchs_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
