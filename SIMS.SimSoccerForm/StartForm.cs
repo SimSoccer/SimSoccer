@@ -27,5 +27,12 @@ namespace SIMS.SimSoccerForm
             this.Hide();
             
         }
+
+        private void btGoToLoadGameForm_Click( object sender, EventArgs e )
+        {
+            LoadGameForm LG = new LoadGameForm();
+            LG.Show();
+            this.Hide();
+        }
     }
 }
