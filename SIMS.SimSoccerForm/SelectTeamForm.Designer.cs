@@ -43,8 +43,8 @@
             // 
             // button1
             // 
-            resources.ApplyResources(this.button1, "button1");
             this.button1.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Next_Click);
@@ -52,8 +52,8 @@
             // 
             // previous
             // 
-            resources.ApplyResources(this.previous, "previous");
             this.previous.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.previous, "previous");
             this.previous.Name = "previous";
             this.previous.UseVisualStyleBackColor = false;
             this.previous.Click += new System.EventHandler(this.Previous_Click);
