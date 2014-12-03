@@ -40,13 +40,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calendar.cs" />
+    <Compile Include="Field.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Journee.cs" />
     <Compile Include="Ligue.cs" />
     <Compile Include="Match.cs" />
     <Compile Include="Player.cs" />
+    <Compile Include="PlayerAgent.cs" />
     <Compile Include="PlayerList.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Size.cs" />
     <Compile Include="Team.cs" />
     <Compile Include="TeamList.cs" />
   </ItemGroup>

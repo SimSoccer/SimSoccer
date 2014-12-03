@@ -22,6 +22,7 @@ namespace Sims.SimSoccerModel
         int _level;
         string _playerName;
         List<Team> _opponent;
+        readonly PlayerAgent _agent;
         
         internal Team( TeamList owner, string name )
         {
@@ -33,6 +34,11 @@ namespace Sims.SimSoccerModel
         public List<Team> Opponent
         {
             get { return _opponent; }
+        }
+
+        public PlayerAgent PlayerAgent
+        {
+            get { return _agent; }
         }
 
         public TeamList TeamList
