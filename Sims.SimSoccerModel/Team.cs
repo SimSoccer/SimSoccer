@@ -23,12 +23,18 @@ namespace Sims.SimSoccerModel
         string _playerName;
         List<Team> _opponent;
         readonly PlayerAgent _agent;
+        List<Player> _teamType;
+        List<Player> _remplacents;
+        List<Player> _reserve;
         
         internal Team( TeamList owner, string name )
         {
             _owner = owner;
             _name = name;
             _players = new List<Player>();
+            _teamType = new List<Player>();
+            _remplacents = new List<Player>();
+            _reserve = new List<Player>();
         }
 
         public List<Team> Opponent

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tactics>
+  <Tactics Formation="4-3-3">
+    <AD>(35,93,5)</AD>
+    <AG>(65,85)</AG>
+    <MDF>(5,85)</MDF>
+    <MC>(35,33)</MC>
+    <MO>(35,55)</MO>
+    <LG>null</LG>
+    <LD>(10,18)</LD>
+    <DCG>(60,18)</DCG>
+    <DCD>(22,18)</DCD>
+    <GB>(48,18)</GB>
+    <MLD>(35,3)</MLD>
+    <MLG>(30,57)</MLG>
+  </Tactics>
+  <Tactics Formation="4-4-2">
+    <AD>(35,93,5)</AD>
+    <AG>null</AG>
+    <MDF>null</MDF>
+    <MC>(35,33)</MC>
+    <MO>(35,55)</MO>
+    <LG>null</LG>
+    <LD>(10,18)</LD>
+    <DCG>(60,18)</DCG>
+    <DCD>(22,18)</DCD>
+    <GB>(48,18)</GB>
+    <MLD>(35,3)</MLD>
+    <MLG>null</MLG>
+  </Tactics>
+  <Tactics Formation="4-2-3-1">
+    <AD>(35,93,5)</AD>
+    <AG>(65,85)</AG>
+    <MDF>(5,85)</MDF>
+    <MC>(35,33)</MC>
+    <MO>(35,55)</MO>
+    <LG>(35,84)</LG>
+    <LD>(10,18)</LD>
+    <DCG>(60,18)</DCG>
+    <DCD>(22,18)</DCD>
+    <GB>(48,18)</GB>
+    <MLD>(35,3)</MLD>
+    <MLG></MLG>
+  </Tactics>
+  <Tactics Formation="5-3-2">
+    <AD>(35,93,5)</AD>
+    <AG>null</AG>
+    <MDF>null</MDF>
+    <MC>null</MC>
+    <MO>(35,55)</MO>
+    <LG>null</LG>
+    <LD>null</LD>
+    <DCG>null</DCG>
+    <DCD>(22,18)</DCD>
+    <GB>(48,18)</GB>
+    <MLD>(35,3)</MLD>
+    <MLG>(10,57)</MLG>
+  </Tactics>
+  <Tactics Formation="3-5-2">
+    <AD>(35,93,5)</AD>
+    <AG>null</AG>
+    <MDF>null</MDF>
+    <MC>(35,33)</MC>
+    <MO>(35,55)</MO>
+    <LG>null</LG>
+    <LD>null</LD>
+    <DCG>null</DCG>
+    <DCD>(22,18)</DCD>
+    <GB>(48,18)</GB>
+    <MLD>(35,3)</MLD>
+    <MLG>(10,60)</MLG>
+  </Tactics>
+  <Tactics Formation="5-4-1">
+    <AD>(35,93,5)</AD>
+    <AG>null</AG>
+    <MDF>null</MDF>
+    <MC>null</MC>
+    <MO>(35,55)</MO>
+    <LG>null</LG>
+    <LD>(10,25)</LD>
+    <DCG>(60,25)</DCG>
+    <DCD>(22,18)</DCD>
+    <GB>(48,18)</GB>
+    <MLD>(35,3)</MLD>
+    <MLG>(10,60)</MLG>
+  </Tactics>
+  <Tactics Formation="4-4-2_Losange">
+    <AD>(35,93,5)</AD>
+    <AG>null</AG>
+    <MDF>null</MDF>
+    <MC>(35,33)</MC>
+    <MO>null</MO>
+    <LG>(35,84)</LG>
+    <LD>(10,18)</LD>
+    <DCG>(60,18)</DCG>
+    <DCD>(22,18)</DCD>
+    <GB>(48,18)</GB>
+    <MLD>(35,3)</MLD>
+    <MLG>(30,55)</MLG>
+  </Tactics>
+</Tactics>
