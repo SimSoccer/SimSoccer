@@ -43,16 +43,17 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.button1, "button1");
+            this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Next_Click);
+            this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button1_KeyDown);
             // 
             // previous
             // 
-            this.previous.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.previous, "previous");
+            this.previous.BackColor = System.Drawing.Color.Transparent;
             this.previous.Name = "previous";
             this.previous.UseVisualStyleBackColor = false;
             this.previous.Click += new System.EventHandler(this.Previous_Click);
@@ -114,6 +115,7 @@
             this.Controls.Add(this.Logo);
             this.Controls.Add(this.previous);
             this.Controls.Add(this.button1);
+            this.KeyPreview = true;
             this.Name = "SelectTeamForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.SelectTeamForm_Load);
