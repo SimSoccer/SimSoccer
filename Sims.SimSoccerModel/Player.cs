@@ -10,7 +10,7 @@ namespace Sims.SimSoccerModel
     public class Player
     {
         readonly PlayerList _owner;
-        readonly int _id;
+        int _id;
         int _shirtNumber;
         readonly string _name;
         readonly string _nationality;
@@ -41,6 +41,7 @@ namespace Sims.SimSoccerModel
 
         public Player( PlayerList owner, XElement e )
         {
+            _id = int.Parse( e.Attribute( "Id" ).Value );
             _name = e.Attribute( "Name" ).Value;
             ShirtNumber = int.Parse( e.Element( "ShirtNumber" ).Value );
             _nationality = e.Element( "Nationality" ).Value;
