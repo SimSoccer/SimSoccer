@@ -55,14 +55,14 @@ namespace Sims.SimSoccerModel
 
             for (int i = 1; i < _game.TeamList.Teams.Count / 2; i++)
                 if (i % 2 != 0)
-                    matchs.Add(new Match(_game.TeamList.Teams[indicesEquipes[i + _game.TeamList.Teams.Count / 2]], _game.TeamList.Teams[indicesEquipes[i]]));
+                    matchs.Add(new Match(_game.TeamList.Teams[indicesEquipes[i + _game.TeamList.Teams.Count / 2]], _game.TeamList.Teams[indicesEquipes[i]], _game));
                 else
-                    matchs.Add(new Match(_game.TeamList.Teams[indicesEquipes[i]], _game.TeamList.Teams[indicesEquipes[i + _game.TeamList.Teams.Count / 2]]));
+                    matchs.Add(new Match(_game.TeamList.Teams[indicesEquipes[i]], _game.TeamList.Teams[indicesEquipes[i + _game.TeamList.Teams.Count / 2]], _game));
 
             if (FirstDom)
-                matchs.Insert(r.Next(0, _game.TeamList.Teams.Count / 2), new Match(_game.TeamList.Teams[indicesEquipes[0]], _game.TeamList.Teams[indicesEquipes[_game.TeamList.Teams.Count / 2]]));
+                matchs.Insert(r.Next(0, _game.TeamList.Teams.Count / 2), new Match(_game.TeamList.Teams[indicesEquipes[0]], _game.TeamList.Teams[indicesEquipes[_game.TeamList.Teams.Count / 2]], _game));
             else
-                matchs.Insert(r.Next(0, _game.TeamList.Teams.Count / 2), new Match(_game.TeamList.Teams[indicesEquipes[_game.TeamList.Teams.Count / 2]], _game.TeamList.Teams[indicesEquipes[0]]));
+                matchs.Insert(r.Next(0, _game.TeamList.Teams.Count / 2), new Match(_game.TeamList.Teams[indicesEquipes[_game.TeamList.Teams.Count / 2]], _game.TeamList.Teams[indicesEquipes[0]], _game));
 
             return matchs;
         }
@@ -90,7 +90,7 @@ namespace Sims.SimSoccerModel
             Journee journee = calendrier_.Journees[numJournee - (_game.TeamList.Teams.Count - 1)];
 
             foreach (Match m in journee.Matchs)
-                matchs.Add(new Match(m.Exterieur, m.Domicile));
+                matchs.Add(new Match(m.Exterieur, m.Domicile, _game));
 
             return matchs;
         }

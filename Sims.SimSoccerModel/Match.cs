@@ -11,7 +11,13 @@ namespace Sims.SimSoccerModel
         Team domicile_;
         Team exterieur_;
         DateTime horaire_;
+        readonly Game _game;
 
+        public Game Game
+        {
+            get { return _game; }
+        }
+        
         public Team Domicile
         {
             get { return domicile_; }
@@ -30,8 +36,9 @@ namespace Sims.SimSoccerModel
             set { horaire_ = value; }
         }
 
-        public Match(Team dom, Team ext)
+        public Match(Team dom, Team ext, Game game)
         {
+            _game = game;
             domicile_ = dom;
             exterieur_ = ext;
             domicile_.Opponent.Add(exterieur_);
@@ -41,6 +48,32 @@ namespace Sims.SimSoccerModel
         public override string ToString()
         {
             return domicile_.TeamTag.ToString() + " - " + exterieur_.TeamTag.ToString() + " le " + horaire_.ToString();
+        }
+
+        public string PlayMatch(Team Home, Team Ext)
+        {
+            Random rnd = new Random();
+
+            int tmp = Home.Level + Ext.Level;
+            int winRateH = (Home.Level / tmp) * 100;
+            int winRateE = 100 - winRateH;
+
+            int draw = rnd.Next(0, 100);
+            if(draw < winRateH)
+            {
+                Console.WriteLine("the winner is"+ Home.Name);
+                return Home.Name;
+
+            } 
+            else if(draw > winRateH)
+            {
+                Console.WriteLine("The winne is"+ Ext.Name);
+                return Ext.Name;
+            
+            }else {
+                Console.WriteLine("It's a Tie");
+                return "it's a Tie";
+            }          
         }
     }
 }

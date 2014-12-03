@@ -17,6 +17,7 @@ namespace Sims.SimSoccerModel
         string _userName;
         string _userPassword;
         string _choosenTeam;
+        readonly Match _match;
 
         public PlayerList PlayerList
         {
@@ -26,6 +27,11 @@ namespace Sims.SimSoccerModel
         public TeamList TeamList
         {
             get { return _teamList; }
+        }
+
+        public Match Match
+        {
+            get { return _match; }
         }
 
         public Ligue Ligue
