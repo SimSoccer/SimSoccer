@@ -9,13 +9,13 @@ namespace Sims.SimSoccerModel
 {
     public class Ligue
     {
-        Calendar calendrier_;
+        Calendar _calendar;
         Game _game;
         int _year;
 
         public Calendar Calendar
         {
-            get { return calendrier_; }
+            get { return _calendar; }
         }
 
         public Ligue(Game game,int year)
@@ -32,20 +32,20 @@ namespace Sims.SimSoccerModel
         public void fillCalendar()
         {
             Random r = new Random();
-            calendrier_ = new Calendar(_game.TeamList.Teams.Count, _year, this);
+            _calendar = new Calendar(_game.TeamList.Teams.Count, _year, this);
             List<int> indicesEquipes = Enumerable.Range(0, 20).OrderBy(x => r.Next()).ToList();
 
             for (int i = 0; i < (_game.TeamList.Teams.Count - 1) * 2; i++)
             {
                 if (i < _game.TeamList.Teams.Count - 1)
                 {
-                    _game.Ligue.Calendar.Journees[i].Matchs = JourneeAller(r, (i % 2 == 0), indicesEquipes);
-                    _game.Ligue.Calendar.Journees[i].initHoraires();
+                    _calendar.Journees[i].Matchs = JourneeAller(r, (i % 2 == 0), indicesEquipes);
+                    _calendar.Journees[i].initHoraires();
                     indicesEquipes = permutations(indicesEquipes);
                 }
                 else
-                    _game.Ligue.Calendar.Journees[i].Matchs = JourneeRetour(i);
-                    _game.Ligue.Calendar.Journees[i].initHoraires();
+                    _calendar.Journees[i].Matchs = JourneeRetour(i);
+                _calendar.Journees[i].initHoraires();
             }
         }
 
@@ -87,7 +87,7 @@ namespace Sims.SimSoccerModel
         {
             List<Match> matchs = new List<Match>();
 
-            Journee journee = calendrier_.Journees[numJournee - (_game.TeamList.Teams.Count - 1)];
+            Journee journee = _calendar.Journees[numJournee - (_game.TeamList.Teams.Count - 1)];
 
             foreach (Match m in journee.Matchs)
                 matchs.Add(new Match(m.Exterieur, m.Domicile));
