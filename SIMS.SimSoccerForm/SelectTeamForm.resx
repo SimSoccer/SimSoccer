@@ -120,10 +120,6 @@
   <metadata name="button1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -273,6 +269,7 @@
         Ky+/jQAAAABJRU5ErkJggg==
 </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
@@ -307,9 +304,6 @@
   <metadata name="previous.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="previous.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
   <data name="previous.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -488,9 +482,6 @@
   <metadata name="Logo.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="Logo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
   <data name="Logo.Location" type="System.Drawing.Point, System.Drawing">
     <value>631, 165</value>
   </data>
@@ -518,9 +509,6 @@
   <metadata name="teamName.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="teamName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
   <data name="teamName.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -550,9 +538,6 @@
   </data>
   <data name="&gt;&gt;teamName.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <data name="labelName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="labelName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -584,9 +569,6 @@
   <data name="&gt;&gt;labelName.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="labelStadium.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
   <data name="labelStadium.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -613,9 +595,6 @@
   </data>
   <data name="&gt;&gt;labelStadium.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="teamStadium.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="teamStadium.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -644,9 +623,6 @@
   <data name="&gt;&gt;teamStadium.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="buttoSelect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
   <data name="buttoSelect.Location" type="System.Drawing.Point, System.Drawing">
     <value>723, 628</value>
   </data>
@@ -670,9 +646,6 @@
   </data>
   <data name="&gt;&gt;buttoSelect.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="PlayersBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="PlayersBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>1065, 392</value>
