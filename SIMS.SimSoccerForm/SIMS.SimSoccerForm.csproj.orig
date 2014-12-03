@@ -101,9 +101,12 @@
     <EmbeddedResource Include="Formulaire.resx">
       <DependentUpon>Formulaire.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+=======
     <EmbeddedResource Include="LoadGameForm.resx">
       <DependentUpon>LoadGameForm.cs</DependentUpon>
     </EmbeddedResource>
+>>>>>>> 366e4674ccdcd998e6af6c216d88cc6d88f34bc0
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

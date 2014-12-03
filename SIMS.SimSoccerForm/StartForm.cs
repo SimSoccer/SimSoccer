@@ -13,7 +13,7 @@ namespace SIMS.SimSoccerForm
 {
     public partial class StartForm : Form
     {
-        
+        readonly Game _game;
         public StartForm()
         {
             InitializeComponent();
@@ -26,6 +26,13 @@ namespace SIMS.SimSoccerForm
             uc.Show();
             this.Hide();
             
+        }
+
+        private void btGoToLoadGameForm_Click( object sender, EventArgs e )
+        {
+            LoadGameForm LG = new LoadGameForm(_game);
+            LG.Show();
+            this.Hide();
         }
     }
 }

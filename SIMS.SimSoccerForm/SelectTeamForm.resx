@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="button1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -298,6 +301,9 @@
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <metadata name="previous.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="previous.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -473,6 +479,9 @@
   <data name="&gt;&gt;previous.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <metadata name="Logo.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="Logo.Location" type="System.Drawing.Point, System.Drawing">
     <value>631, 165</value>
   </data>
@@ -497,6 +506,9 @@
   <data name="&gt;&gt;Logo.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <metadata name="teamName.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="teamName.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -583,6 +595,9 @@
   </data>
   <data name="&gt;&gt;labelStadium.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="teamStadium.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="teamStadium.Location" type="System.Drawing.Point, System.Drawing">
     <value>632, 538</value>

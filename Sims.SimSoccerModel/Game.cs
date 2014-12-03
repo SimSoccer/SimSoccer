@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 using System.Xml.Linq;
 
 namespace Sims.SimSoccerModel
@@ -109,25 +110,31 @@ namespace Sims.SimSoccerModel
                     new XElement("Profil",
                         new XAttribute("ID", i),
                         new XElement("UserName", _userName),
-                        new XElement("Password", _userPassword)),
+                        new XElement("Password", _userPassword),
+                        new XElement("ChosenTeam", "")),
                     game.TeamList.ToXml(),
                     new XElement("FreePlayers",
                         new XElement("TheFreePlayer"))));
 
             DateTime today = DateTime.Now;
-            gameSave.Save( @".\..\..\..\user" + saveNameUserId + "_" + _userName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            gameSave.Save( @".\..\..\..\user_" + _userName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }
 
         public void ToXML( string ChoosenTeam, Game game)
         {
             _choosenTeam = ChoosenTeam;
-            
-            XDocument doc = new XDocument(
-                new XElement( "Game",
-                    new XElement( "Save", _userName ),
-                    new XElement( "Password", _userPassword ),
-                    new XElement( "Team", _choosenTeam ) ) );
-          doc.Save( @".\..\..\..\SaveOf" + _userName + ".xml" );
+
+
+            DateTime today = DateTime.Now;
+
+            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var target = doc
+                 .Elements( "Profil" )
+                 .Single();
+
+            target.Element( "ChosenTeam" ).Value = _choosenTeam;
+
+            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }
     }
 }
