@@ -100,5 +100,17 @@ namespace SIMS.SimSoccerForm
              
             PlayersBox.Text = Players;
         }
+
+        private void button1_KeyDown( object sender, KeyEventArgs e )
+        {
+            if( e.KeyCode == Keys.Right || e.KeyCode == Keys.D)
+            {
+                Next_Click( this, EventArgs.Empty );
+            
+            } else if(e.KeyCode == Keys.Left || e.KeyCode == Keys.Q)
+            {
+                Previous_Click(this, EventArgs.Empty);
+            }
+        }
     }
 }
