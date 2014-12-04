@@ -28,9 +28,7 @@ namespace Sims.SimSoccerModel
         int _mental;
         int _financialValue;
         string _actualTeamTag;
-        Point _position;
-        List<positionPlayer> _positionPlayer;
-        
+        Point _position;        
         #endregion
 
         internal Player( PlayerList owner, string name )
@@ -102,7 +100,6 @@ namespace Sims.SimSoccerModel
             get { return _name; }
         }
 
-        public Point Position { get; set; }
 
         public string Nationality
         {

@@ -18,7 +18,6 @@ namespace Sims.SimSoccerModel
         {
             _x = x;
             _y = y;
-
         }
 
         public Point Move( float deltaX, float deltaY )
