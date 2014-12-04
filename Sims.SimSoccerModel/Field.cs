@@ -10,11 +10,13 @@ namespace Sims.SimSoccerModel
     {
         Size _size;
         Point _middleField;
+        Size _goalKeeperField;
+
 
         public Field()
         {
-            _size = new Size( 68, 105 );
-            _middleField = new Point( 34, 52 );
+            _size = new Size( 70, 110 );
+            _middleField = new Point( 35, 55 );
         }
 
         public Point MiddleField
