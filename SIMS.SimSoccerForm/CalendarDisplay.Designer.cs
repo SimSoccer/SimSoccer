@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalendarDisplay));
             this.Cjournee = new System.Windows.Forms.ComboBox();
             this.TMatchs = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -58,15 +57,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(584, 262);
+            this.ClientSize = new System.Drawing.Size(327, 275);
             this.Controls.Add(this.TMatchs);
             this.Controls.Add(this.Cjournee);
             this.Name = "CalendarDisplay";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calendar";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CalendarDisplay_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

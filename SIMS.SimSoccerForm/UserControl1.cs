@@ -22,6 +22,7 @@ namespace SIMS.SimSoccerForm
         public UserControl1()
         {
             InitializeComponent();
+            txtPassword.PasswordChar = '*';
         }
 
         public string UserName
