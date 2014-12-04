@@ -86,8 +86,9 @@ namespace SIMS.SimSoccerForm
         private void buttoSelect_Click( object sender, EventArgs e )
         {
             _game.ToXML( _game.TeamList.Teams[i].Name, _game );
-            CalendarDisplay CD = new CalendarDisplay(_game);
-            CD.Show();
+            LobbyForm LF = new LobbyForm( _game );
+            LF.Show();
+            
             this.Close();
         }
         

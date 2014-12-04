@@ -17,6 +17,7 @@ namespace Sims.SimSoccerModel
         string _userName;
         string _userPassword;
         string _choosenTeam;
+        private   XElement xElement;
 
         public PlayerList PlayerList
         {
@@ -53,7 +54,11 @@ namespace Sims.SimSoccerModel
             _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
             _playerList = new PlayerList( this, doc.Root.Element("Players") );
         }
-
+        public Game( string userName )
+        {
+            _userName = userName;
+            XDocument doc = XDocument.Load( @".\..\..\..\user_" + userName + "*" );
+        }
         public Game( string userName, string userPassword )
         {
             _userName = userName;
@@ -64,12 +69,22 @@ namespace Sims.SimSoccerModel
             _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
             _ligue = new Ligue(this,2014);
         }
-        public Game( string choosenTeam , string userName , string userPassword)
+
+        public Game( XElement e )
         {
-            _choosenTeam = choosenTeam;
-            _userName = userName;
-            _userPassword = userPassword;
+            // TODO: Complete member initialization
+            this.xElement = e;
+            _userName = e.Element( "UserName" ).Value;
+            _userPassword = e.Element( "Password" ).Value;
+            XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
+            XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
+            _playerList = new PlayerList( this, doc.Root.Element( "Players" ) );
+            _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
+            _ligue = new Ligue( this, 2014 );
+            
         }
+
+        
 
         public void GameToXml(Game game)
         {
