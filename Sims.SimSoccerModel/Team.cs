@@ -9,10 +9,10 @@ namespace Sims.SimSoccerModel
 {
     public class Team
     {
+        #region attribute
         readonly string _name;
         readonly TeamList _owner;
         List<Player> _players;
-        readonly Game _game;
         string _teamTag;
         string _town;
         string _stadium;
@@ -26,7 +26,9 @@ namespace Sims.SimSoccerModel
         List<Player> _teamType;
         List<Player> _remplacents;
         List<Player> _reserve;
-        
+        #endregion
+
+        #region ontructor
         internal Team( TeamList owner, string name )
         {
             _owner = owner;
@@ -36,6 +38,7 @@ namespace Sims.SimSoccerModel
             _remplacents = new List<Player>();
             _reserve = new List<Player>();
         }
+        #endregion
 
         public List<Team> Opponent
         {
@@ -202,7 +205,6 @@ namespace Sims.SimSoccerModel
             get { return _playerName; }
             set { _playerName = value; }
         }
-
         
     }
 }

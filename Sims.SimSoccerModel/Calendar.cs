@@ -10,7 +10,6 @@ namespace Sims.SimSoccerModel
     {
         int nbEquipes_;
         List<Journee> _journees;
-        Game _game;
         Ligue _owner;
 
         public List<Journee> Journees

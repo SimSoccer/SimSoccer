@@ -9,6 +9,7 @@ namespace Sims.SimSoccerModel
 {
     public class Player
     {
+        #region attribute
         readonly PlayerList _owner;
         int _id;
         int _shirtNumber;
@@ -27,6 +28,10 @@ namespace Sims.SimSoccerModel
         int _mental;
         int _financialValue;
         string _actualTeamTag;
+        Point _position;
+        List<positionPlayer> _positionPlayer;
+        
+        #endregion
 
         internal Player( PlayerList owner, string name )
         {
@@ -96,6 +101,8 @@ namespace Sims.SimSoccerModel
         {
             get { return _name; }
         }
+
+        public Point Position { get; set; }
 
         public string Nationality
         {

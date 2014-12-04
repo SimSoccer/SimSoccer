@@ -11,7 +11,6 @@ namespace Sims.SimSoccerModel
         int numero_;
         DateTime dayOfWeekEnd_;
         List<Match> matchs_;
-        Game _game;
         Calendar _owner;
 
         public int Numero
