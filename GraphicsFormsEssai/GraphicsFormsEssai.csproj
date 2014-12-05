@@ -77,6 +77,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sims.SimSoccerModel\Sims.SimSoccerModel.csproj">
+      <Project>{71a587e4-5ea9-4b94-ae98-a7f14fd555bb}</Project>
+      <Name>Sims.SimSoccerModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

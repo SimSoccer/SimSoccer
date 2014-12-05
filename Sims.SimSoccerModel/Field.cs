@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sims.SimSoccerModel
 {
-    class Field
+    public class Field
     {
         Size _size;
         Point _middleField;
@@ -15,8 +15,8 @@ namespace Sims.SimSoccerModel
 
         public Field()
         {
-            _size = new Size( 70, 110 );
-            _middleField = new Point( 35, 55 );
+            _size = new Size( 700, 1100 );
+            _middleField = new Point( 350, 550 );
         }
 
         public Point MiddleField
