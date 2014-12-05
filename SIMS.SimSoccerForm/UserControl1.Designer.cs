@@ -49,18 +49,18 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(10, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 13);
+            this.label2.Size = new System.Drawing.Size(84, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "User Name";
+            this.label2.Text = "Nom d\'utilisateur";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(10, 77);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 13);
+            this.label3.Size = new System.Drawing.Size(71, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "User Password";
+            this.label3.Text = "Mot de passe";
             // 
             // txtName
             // 

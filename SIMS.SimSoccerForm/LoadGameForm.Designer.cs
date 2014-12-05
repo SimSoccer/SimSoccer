@@ -40,7 +40,7 @@
             this.btLoadGame.Name = "btLoadGame";
             this.btLoadGame.Size = new System.Drawing.Size(75, 23);
             this.btLoadGame.TabIndex = 0;
-            this.btLoadGame.Text = "Load";
+            this.btLoadGame.Text = "Charger";
             this.btLoadGame.UseVisualStyleBackColor = true;
             this.btLoadGame.Click += new System.EventHandler(this.btLoadGame_Click);
             // 
@@ -72,7 +72,7 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btLoadGame);
             this.Name = "LoadGameForm";
-            this.Text = "LoadGameForm";
+            this.Text = "Charger une partie";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 

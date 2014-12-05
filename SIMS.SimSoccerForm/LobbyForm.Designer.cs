@@ -48,7 +48,7 @@
             this.btGoToCalendar.Name = "btGoToCalendar";
             this.btGoToCalendar.Size = new System.Drawing.Size(75, 23);
             this.btGoToCalendar.TabIndex = 1;
-            this.btGoToCalendar.Text = "Calendar";
+            this.btGoToCalendar.Text = "Calendrier";
             this.btGoToCalendar.UseVisualStyleBackColor = true;
             this.btGoToCalendar.Click += new System.EventHandler(this.btGoToCalendar_Click);
             // 
@@ -62,7 +62,7 @@
             this.Controls.Add(this.btGoToCalendar);
             this.Controls.Add(this.txtUsernameLobby);
             this.Name = "LobbyForm";
-            this.Text = "LobbyForm";
+            this.Text = "SimSoccer";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
