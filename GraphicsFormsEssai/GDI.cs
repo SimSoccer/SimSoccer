@@ -15,6 +15,7 @@ namespace GraphicsFormsEssai
     public partial class GDI : Form
     {
         Game _game = new Game( "Toto", "Tata" );
+        ListBox playerList = new ListBox();
         public GDI()
         {
             InitializeComponent();
@@ -24,8 +25,21 @@ namespace GraphicsFormsEssai
             {
                 string players = _game.TeamList.Teams[15].TeamPlayers[i].Name;
                 int shirtNumber = _game.TeamList.Teams[15].TeamPlayers[i].ShirtNumber;
-                 listBox1.Items.Add( shirtNumber + " " + Environment.NewLine  + players );
+                listBox1.Items.Add( shirtNumber + " " + Environment.NewLine  + players );
+                playerList.Items.Add( shirtNumber + " " + Environment.NewLine + players );
             }
+
+            Field f = new Field();
+            listBox1.Items.Add( f.Boxes.Count );
+
+           /*for( int t = 0; t < f.Points.Count; t++ )
+                listBox1.Items.Add( f.Points[t].X + ", " + f.Points[t].Y );*/
+
+            listBox1.Items.Add( f.Points.Count );
+            listBox1.Items.Add( f.Points[1].X + ", " + f.Points[8].Y );
+
+
+                
         }
 
         private void GDI_Load( object sender, EventArgs e )
@@ -55,7 +69,7 @@ namespace GraphicsFormsEssai
                     Button b = ( Button )c;
                     b.Enabled = true;
                 }
-            }  
+            }
         }
 
         private void tmrAppTimer_Tick( object sender, EventArgs e )
@@ -83,6 +97,8 @@ namespace GraphicsFormsEssai
                 b.Enabled = true;
             else if( b.Text == text )
                 b.Enabled = false;
+
+            listBox1.Items.Remove( text );
         }
 
         private void listBox1_DragDrop( object sender, DragEventArgs e )

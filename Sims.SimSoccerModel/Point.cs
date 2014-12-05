@@ -11,8 +11,10 @@ namespace Sims.SimSoccerModel
     /// </summary>
     public struct Point
     {
-        public readonly float _x;
-        public readonly float _y;
+        //public readonly 
+            float _x;
+        //public readonly 
+            float _y;
 
         public Point( float x, float y )
         {
@@ -29,6 +31,18 @@ namespace Sims.SimSoccerModel
         public double Distance( Point other )
         {
             return Math.Sqrt( Math.Pow( _x - other._x, 2 ) + Math.Pow( _y - other._y, 2 ) );
+        }
+
+        public float X
+        {
+            get { return _x; }
+            set { _x = value; }
+        }
+
+        public float Y
+        {
+            get { return _y; }
+            set { _y = value; }
         }
     }
 }

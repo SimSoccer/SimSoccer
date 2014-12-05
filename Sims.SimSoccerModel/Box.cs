@@ -11,6 +11,7 @@ namespace Sims.SimSoccerModel
         Field _field;
         int _x;
         int _y;
+        Point _location;
 
         public Box( Field field, int x, int y )
         {
@@ -19,6 +20,9 @@ namespace Sims.SimSoccerModel
             _y = y;
         }
 
-
+        public Point Location
+        {
+            get { return _location; }
+        }
     }
 }
