@@ -39,7 +39,7 @@
             this.btConnexion.Name = "btConnexion";
             this.btConnexion.Size = new System.Drawing.Size(75, 23);
             this.btConnexion.TabIndex = 0;
-            this.btConnexion.Text = "Connexion";
+            this.btConnexion.Text = "Connection";
             this.btConnexion.UseVisualStyleBackColor = true;
             this.btConnexion.Click += new System.EventHandler(this.btConnexion_Click);
             // 
@@ -54,11 +54,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(34, 92);
+            this.label1.Location = new System.Drawing.Point(16, 95);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 13);
+            this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Password";
+            this.label1.Text = "Mot de passe :";
             // 
             // CheckPasswordForm
             // 
@@ -70,7 +70,7 @@
             this.Controls.Add(this.btConnexion);
             this.Name = "CheckPasswordForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CheckPasswordForm";
+            this.Text = "Connection";
             this.Load += new System.EventHandler(this.CheckPasswordForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

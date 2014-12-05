@@ -63,7 +63,7 @@
             this.Controls.Add(this.Cjournee);
             this.Name = "CalendarDisplay";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Calendar";
+            this.Text = "Calendrier";
             this.ResumeLayout(false);
             this.PerformLayout();
 
