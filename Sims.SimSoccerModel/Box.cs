@@ -13,6 +13,11 @@ namespace Sims.SimSoccerModel
         int _y;
         Point _location;
 
+        public Field Field
+        {
+            get { return _field; }
+        }
+
         public Box( Field field, int x, int y )
         {
             _field = field;
