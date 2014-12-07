@@ -12,7 +12,6 @@ namespace Sims.SimSoccerModel
     public class Game
     {
         readonly TeamList _teamList;
-        Tactic _tactic;
         readonly PlayerList _playerList;
         readonly Ligue _ligue;
         string _userName;
@@ -54,7 +53,6 @@ namespace Sims.SimSoccerModel
             XDocument doc3 = XDocument.Load(@".\..\..\..\Tactics.xml");
             _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
             _playerList = new PlayerList( this, doc.Root.Element("Players") );
-            _tactic = new Tactic(this, doc3.Root.Element( "Tactics" ) );
         }
 
         public Game( string userName, string userPassword )
@@ -66,7 +64,6 @@ namespace Sims.SimSoccerModel
             XDocument doc3 = XDocument.Load(@".\..\..\..\Tactics.xml");
             _playerList = new PlayerList( this, doc.Root.Element( "Players" ) );
             _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
-            _tactic = new Tactic(this, doc3.Root.Element( "Tactics" ) );
             _ligue = new Ligue(this,2014);
         }
         public Game( string choosenTeam , string userName , string userPassword)
