@@ -49,10 +49,12 @@ namespace Sims.SimSoccerModel
         public List<Player> TeamType
         {
             get { return _teamType; }
+            set { _teamType = value; }
         }
         public List<Player> Remplacent
         {
             get { return _remplacents; }
+            set { _remplacents = value; }
         }
         public Game Game
         {
@@ -61,6 +63,7 @@ namespace Sims.SimSoccerModel
         public List<Player> Reserve
         {
             get { return _reserve; }
+            set { _reserve = value; }
         }
 
         public PlayerAgent PlayerAgent
@@ -100,6 +103,7 @@ namespace Sims.SimSoccerModel
 
                     _players.Add(_owner.Game.PlayerList.Players[i]);
                     _teamType.Add(_owner.Game.PlayerList.Players[i]);
+                    
                     for (j = 0; j < _players.Count; j++)
                     {
                         _playerName = _players[j].Name;
@@ -117,7 +121,7 @@ namespace Sims.SimSoccerModel
                         _playerName = _players[j].Name;
                     }
                 }
-                else
+                else if (_owner.Game.PlayerList.Players[i].ActualTeamTag == tt && _owner.Game.PlayerList.Players[i].Status == "Reserviste")
                 {
                     /*if (_players.Count <= 0) throw new IndexOutOfRangeException();*/
                     _players.Add(_owner.Game.PlayerList.Players[i]);
@@ -137,7 +141,9 @@ namespace Sims.SimSoccerModel
             Manager = e.Element("Manager").Value;
             LeagueRanking = int.Parse(e.Element("LeagueRanking").Value);
             Level = int.Parse(e.Element("Level").Value);
-            TeamPlayers = _players;
+            TeamType = _teamType;
+            Remplacent = _remplacents;
+            Reserve = _reserve;
 
             XElement xml = new XElement("Players",
                 from p in _players
@@ -175,7 +181,8 @@ namespace Sims.SimSoccerModel
                         new XElement("LeagueRanking", LeagueRanking),
                         new XElement("Level", Level),
                         new XElement("Players",
-                            from p in TeamPlayers
+                            new XElement("Titulaire",
+                            from p in TeamType
                             select new XElement("Player",
                                 new XAttribute("Id", p.Id),
                                 new XAttribute("Name", p.Name),
@@ -193,7 +200,47 @@ namespace Sims.SimSoccerModel
                                 new XElement("Mental", p.Mental),
                                 new XElement("FinancialValue", p.FinancialValue),
                                 new XElement("ActualTeamTag", p.ActualTeamTag),
-                                new XElement("Status", p.Status))));
+                                new XElement("Status", p.Status))),
+                                new XElement ("Remplacants",
+                                from r in Remplacent
+                                    select new XElement("Player",
+                                new XAttribute("Id", r.Id),
+                                new XAttribute("Name", r.Name),
+                                new XElement("ShirtNumber", r.ShirtNumber),
+                                new XElement("Nationality", r.Nationality),
+                                new XElement("Post", r.Poste),
+                                new XElement("Height", r.Height),
+                                new XElement("BirthDate", r.BirthDate),
+                                new XElement("BirthPlace", r.BirthPlace),
+                                new XElement("PreviousClub", r.PreviousClub),
+                                new XElement("ActualClub", r.ActualClub),
+                                new XElement("Stats", r.Stats),
+                                new XElement("FormState", r.FormState),
+                                new XElement("Injury", r.Injury),
+                                new XElement("Mental", r.Mental),
+                                new XElement("FinancialValue", r.FinancialValue),
+                                new XElement("ActualTeamTag", r.ActualTeamTag),
+                                new XElement("Status", r.Status))),
+                                new XElement("Reservistes",
+                                from res in Reserve
+                                    select new XElement("Player",
+                                new XAttribute("Id", res.Id),
+                                new XAttribute("Name", res.Name),
+                                new XElement("ShirtNumber", res.ShirtNumber),
+                                new XElement("Nationality", res.Nationality),
+                                new XElement("Post", res.Poste),
+                                new XElement("Height", res.Height),
+                                new XElement("BirthDate", res.BirthDate),
+                                new XElement("BirthPlace", res.BirthPlace),
+                                new XElement("PreviousClub", res.PreviousClub),
+                                new XElement("ActualClub", res.ActualClub),
+                                new XElement("Stats", res.Stats),
+                                new XElement("FormState", res.FormState),
+                                new XElement("Injury", res.Injury),
+                                new XElement("Mental", res.Mental),
+                                new XElement("FinancialValue", res.FinancialValue),
+                                new XElement("ActualTeamTag", res.ActualTeamTag),
+                                new XElement("Status", res.Status)))));
         }
 
         public string Name
