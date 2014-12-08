@@ -26,6 +26,7 @@ namespace Sims.SimSoccerModel
         List<Player> _teamType;
         List<Player> _remplacents;
         List<Player> _reserve;
+        readonly Game _game;
         #endregion
 
         #region contructor
@@ -45,6 +46,23 @@ namespace Sims.SimSoccerModel
             get { return _opponent; }
         }
 
+        public List<Player> TeamType
+        {
+            get { return _teamType; }
+        }
+        public List<Player> Remplacent
+        {
+            get { return _remplacents; }
+        }
+        public Game Game
+        {
+           get {return _game;}
+        }
+        public List<Player> Reserve
+        {
+            get { return _reserve; }
+        }
+
         public PlayerAgent PlayerAgent
         {
             get { return _agent; }
@@ -53,11 +71,6 @@ namespace Sims.SimSoccerModel
         public TeamList TeamList
         {
             get { return _owner; }
-        }
-
-        public Game Game
-        {
-            get { return _owner.Game; }
         }
 
         public List<Player> TeamPlayers
@@ -75,16 +88,15 @@ namespace Sims.SimSoccerModel
             _teamType = new List<Player>();
             _remplacents = new List<Player>();
             _reserve = new List<Player>();
-
             _owner = owner;
-
             string tt = e.Element("TeamTag").Value;
+
             for (i = 0; i < _owner.Game.PlayerList.Players.Count; i++)
             {
                 if (_owner.Game.PlayerList.Players[i].ActualTeamTag == tt && _owner.Game.PlayerList.Players[i].Status == "Titulaire")
                 {
-                    if (_teamType.Count <= 0 || _teamType.Count > 11) throw new IndexOutOfRangeException();
-                    if (_players.Count <= 0) throw new IndexOutOfRangeException();
+                    /*if (_teamType.Count <= 0 || _teamType.Count > 11) throw new IndexOutOfRangeException();*/
+                    //if (_players.Count <= 0) throw new IndexOutOfRangeException();
 
                     _players.Add(_owner.Game.PlayerList.Players[i]);
                     _teamType.Add(_owner.Game.PlayerList.Players[i]);
@@ -93,10 +105,10 @@ namespace Sims.SimSoccerModel
                         _playerName = _players[j].Name;
                     }
                 }
-                else if  (_owner.Game.PlayerList.Players[i].ActualTeamTag == tt && _owner.Game.PlayerList.Players[i].Status == "Remplacent")
+                else if (_owner.Game.PlayerList.Players[i].ActualTeamTag == tt && _owner.Game.PlayerList.Players[i].Status == "Remplacent")
                 {
-                    if (_remplacents.Count <= 0 || _remplacents.Count > 7) throw new IndexOutOfRangeException();
-                    if (_players.Count <= 0) throw new IndexOutOfRangeException();
+                    /*if (_remplacents.Count <= 0 || _remplacents.Count > 7) throw new IndexOutOfRangeException();
+                    if (_players.Count <= 0) throw new IndexOutOfRangeException();*/
 
                     _players.Add(_owner.Game.PlayerList.Players[i]);
                     _remplacents.Add(_owner.Game.PlayerList.Players[i]);
@@ -107,7 +119,7 @@ namespace Sims.SimSoccerModel
                 }
                 else
                 {
-                    if (_players.Count <= 0) throw new IndexOutOfRangeException();
+                    /*if (_players.Count <= 0) throw new IndexOutOfRangeException();*/
                     _players.Add(_owner.Game.PlayerList.Players[i]);
                     _reserve.Add(_owner.Game.PlayerList.Players[i]);
                     for (j = 0; j < _players.Count; j++)
