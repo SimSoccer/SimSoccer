@@ -22,11 +22,11 @@ namespace Sims.SimSoccerModel
             _boxes = new List<Box>();
             _points = new List<Point>();
 
-            for( int i = 0; i < 96; i++ )
+            /*for( int i = 0; i < 96; i++ )
             {
                 Box box = new Box( this, 100, 100 );
                 _boxes.Add( box );
-            }
+            }*/
 
             int resultX;
             int resultY;
@@ -34,18 +34,17 @@ namespace Sims.SimSoccerModel
             _y = 0;
 
             Point point = new Point( _x, _y );
-            for( _x = 1; _x <= 12; _x++ )
+            for( _x = 0; _x < 12; _x++ )
             {
-                resultX = _x * 50;
-                point.X = ( _x * 50 ) + resultX - 50;
-                for( _y = 1; _y <= 8; _y++ )
+                point.X = _x * 100;
+                for( _y = 0; _y < 8; _y++ )
                 {
-                    resultY = _y * 50;
-                    point.Y = ( _y * 50 ) + resultY - 50;
+                    point.Y = _y * 100;
+                    Box box = new Box( this, X, Y, point.X, point.Y );
                     _points.Add( point );
+                    _boxes.Add( box );
                 }
             }
-           
         }
 
         public Point MiddleField
@@ -61,6 +60,16 @@ namespace Sims.SimSoccerModel
         public List<Point> Points
         {
             get { return _points; }
+        }
+
+        public float X
+        {
+            get { return this.FieldSize.Width; }
+        }
+
+        public float Y
+        {
+            get { return this.FieldSize.Heigth; }
         }
 
         public Size FieldSize

@@ -9,25 +9,38 @@ namespace Sims.SimSoccerModel
     public class Box
     {
         Field _field;
-        int _x;
-        int _y;
-        Point _location;
+        public float _xField;
+        public float _yField;
+        public float _x;
+        public float _y;
+        public Size _size;
+        Point _position;
 
         public Field Field
         {
             get { return _field; }
         }
 
-        public Box( Field field, int x, int y )
+        public Box( Field field, float xField, float yField, float x, float y )
         {
             _field = field;
+            _yField = yField;
+            _xField = xField;
             _x = x;
             _y = y;
+            _size = new Size( 100, 100 );
+            _position = new Point( ( _x / 2 ), ( _y / 2 ) );
         }
 
-        public Point Location
+        public float Area
         {
-            get { return _location; }
+            get { return this._size.Heigth * this._size.Width; }
         }
+
+        public Point Position
+        {
+            get { return _position; }
+        }
+
     }
 }
