@@ -9,45 +9,54 @@ namespace Sims.SimSoccerModel
     public class Field
     {
         Size _size;
-        Point _middleField;
+        Points _middleField;
         List<Box> _boxes;
-        List<Point> _points;
-        int _x;
-        int _y;
+        List<Points> _boxPoints;
+        List<Points> _allPoints;
+        float _x;
+        float _y;
+        float _allX;
+        float _allY;
 
         public Field()
         {
-            _size = new Size( 1200, 800 );
-            _middleField = new Point( 600, 400 );
+            _size = new Size( 1000, 600 );
+            _middleField = new Points( 500, 300 );
             _boxes = new List<Box>();
-            _points = new List<Point>();
+            _boxPoints = new List<Points>();
+            _allPoints = new List<Points>();
 
-            /*for( int i = 0; i < 96; i++ )
+
+            
+            for( _allX = 0; _allX < 1000; _allX++ )
             {
-                Box box = new Box( this, 100, 100 );
-                _boxes.Add( box );
-            }*/
+                for( _allY = 0; _allY < 600; _allY++ )
+                {
+                    Points allPoints = new Points( _allX, _allY );
+                    _allPoints.Add( allPoints );
+                }
+            }
 
-            int resultX;
-            int resultY;
             _x = 0;
             _y = 0;
 
-            Point point = new Point( _x, _y );
-            for( _x = 0; _x < 12; _x++ )
+            Points boxPoints = new Points( _x, _y );
+            for( _x = 0; _x < 10; _x++ )
             {
-                point.X = _x * 100;
-                for( _y = 0; _y < 8; _y++ )
+                boxPoints.X = _x * 100;
+                for( _y = 0; _y < 6; _y++ )
                 {
-                    point.Y = _y * 100;
-                    Box box = new Box( this, X, Y, point.X, point.Y );
-                    _points.Add( point );
+                    boxPoints.Y = _y * 100;
+                    Box box = new Box( this, X, Y, boxPoints.X, boxPoints.Y );
+                    _boxPoints.Add( boxPoints );
                     _boxes.Add( box );
                 }
             }
+
+
         }
 
-        public Point MiddleField
+        public Points MiddleField
         {
             get { return _middleField; }
         }
@@ -57,9 +66,14 @@ namespace Sims.SimSoccerModel
             get { return _boxes; }
         }
 
-        public List<Point> Points
+        public List<Points> BoxPoints
         {
-            get { return _points; }
+            get { return _boxPoints; }
+        }
+
+        public List<Points> AllPoints
+        {
+            get { return _allPoints; }
         }
 
         public float X

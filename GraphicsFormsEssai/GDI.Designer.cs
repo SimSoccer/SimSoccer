@@ -136,6 +136,7 @@
             this.menuStrip1.Size = new System.Drawing.Size(1354, 24);
             this.menuStrip1.TabIndex = 7;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.Visible = false;
             // 
             // menuToolStripMenuItem
             // 
@@ -222,12 +223,10 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(135, 596);
+            this.listBox1.Location = new System.Drawing.Point(1091, 0);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(735, 95);
+            this.listBox1.Size = new System.Drawing.Size(264, 693);
             this.listBox1.TabIndex = 12;
-            this.listBox1.Click += new System.EventHandler(this.listBox1_Click);
-            this.listBox1.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox1_DragDrop);
             // 
             // GDI
             // 

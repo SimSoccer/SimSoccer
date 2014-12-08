@@ -14,7 +14,7 @@ namespace Sims.SimSoccerModel
         public float _x;
         public float _y;
         public Size _size;
-        Point _position;
+        Points _position;
 
         public Field Field
         {
@@ -29,7 +29,7 @@ namespace Sims.SimSoccerModel
             _x = x;
             _y = y;
             _size = new Size( 100, 100 );
-            _position = new Point( ( _x / 2 ), ( _y / 2 ) );
+            _position = new Points( ( _x / 2 ), ( _y / 2 ) );
         }
 
         public float Area
@@ -37,7 +37,7 @@ namespace Sims.SimSoccerModel
             get { return this._size.Heigth * this._size.Width; }
         }
 
-        public Point Position
+        public Points Position
         {
             get { return _position; }
         }

@@ -9,26 +9,26 @@ namespace Sims.SimSoccerModel
     /// <summary>
     /// Coordinates are in meters
     /// </summary>
-    public struct Point
+    public struct Points
     {
         //public readonly 
             float _x;
         //public readonly 
             float _y;
 
-        public Point( float x, float y )
+        public Points( float x, float y )
         {
             _x = x;
             _y = y;
 
         }
 
-        public Point Move( float deltaX, float deltaY )
+        public Points Move( float deltaX, float deltaY )
         {
-            return new Point(_x + deltaX, _y + deltaY);
+            return new Points(_x + deltaX, _y + deltaY);
         }
 
-        public double Distance( Point other )
+        public double Distance( Points other )
         {
             return Math.Sqrt( Math.Pow( _x - other._x, 2 ) + Math.Pow( _y - other._y, 2 ) );
         }

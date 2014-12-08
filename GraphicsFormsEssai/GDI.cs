@@ -31,19 +31,9 @@ namespace GraphicsFormsEssai
 
             Field f = new Field();
             listBox1.Items.Add( f.Boxes.Count );
-            listBox1.Items.Add( f.Points.Count );
-            for( int t = 0; t < f.Boxes.Count; t++ )
-                listBox1.Items.Add( f.Boxes[t]._xField + ", " + f.Boxes[t]._yField + ", " + f.Boxes[t]._x + ", " + f.Boxes[t]._y +
-                    Environment.NewLine + " || Position : " + f.Boxes[t].Position.X + ", " + f.Boxes[t].Position.Y);
+            listBox1.Items.Add( f.BoxPoints.Count );
+            listBox1.Items.Add( f.AllPoints.Count );
 
-           /*for( int t = 0; t < f.Points.Count; t++ )
-                listBox1.Items.Add( f.Points[t].X + ", " + f.Points[t].Y );*/
-
-            listBox1.Items.Add( f.Points.Count );
-            //listBox1.Items.Add( f.Points[1].X + ", " + f.Points[8].Y );
-
-
-                
         }
 
         private void GDI_Load( object sender, EventArgs e )
@@ -54,22 +44,16 @@ namespace GraphicsFormsEssai
 
         private void GDI_Paint( object sender, PaintEventArgs e )
         {
-            /*Pen whitePen = new Pen( Color.White, 5 );
-            e.Graphics.FillRectangle( Brushes.DarkGreen, 120, 3, 1100, 700 );
-            e.Graphics.DrawRectangle( whitePen, 120, 3, 1100, 700 );
-            e.Graphics.DrawRectangle( whitePen, new Rectangle( 120, 260, 55, 150 ) );
-            e.Graphics.DrawRectangle( whitePen, 1055, 150, 165, 403 );
-            e.Graphics.DrawRectangle( whitePen, new Rectangle( 1164, 260, 55, 150 ) );
-            e.Graphics.DrawRectangle( whitePen, 120, 150, 165, 403 );
-            e.Graphics.DrawEllipse( whitePen, 570, 235, 200, 200 );*/
-
              Field f = new Field();
              e.Graphics.FillRectangle( Brushes.DarkGreen, 0, 0, f.FieldSize.Width, f.FieldSize.Heigth );
 
-                    foreach(Box c in f.Boxes) 
-                    {
-                        e.Graphics.DrawRectangle( Pens.WhiteSmoke, c._x, c._y, c._size.Width, c._size.Heigth );
-                    }
+             for( int t = 0; t < f.AllPoints.Count; t++ )
+                 e.Graphics.DrawRectangle( Pens.Black, f.AllPoints[t].X, f.AllPoints[t].Y, 1,1 );
+
+             foreach( Box c in f.Boxes )
+             {
+                 e.Graphics.DrawRectangle( Pens.WhiteSmoke, c._x, c._y, c._size.Width, c._size.Heigth );
+             }
         }
 
         private void restartFormationToolStripMenuItem_Click( object sender, EventArgs e )
@@ -112,16 +96,5 @@ namespace GraphicsFormsEssai
 
             listBox1.Items.Remove( text );
         }
-
-        private void listBox1_DragDrop( object sender, DragEventArgs e )
-        {
-
-        }
-
-        private void listBox1_Click( object sender, EventArgs e )
-        {
-            
-        }
-
     }
 }
