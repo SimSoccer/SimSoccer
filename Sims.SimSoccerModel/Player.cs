@@ -23,6 +23,7 @@ namespace Sims.SimSoccerModel
         string _previousClub;
         string _actualClub;
         int _stats;
+        string _status;
         int _formState;
         bool _injury;
         int _mental;
@@ -61,6 +62,7 @@ namespace Sims.SimSoccerModel
             Mental = int.Parse( e.Element( "Mental" ).Value );
             FinancialValue = int.Parse( e.Element( "FinancialValue" ).Value );
             ActualTeamTag = e.Element( "ActualTeamTag" ).Value;
+            _status = e.Element( "Status" ).Value;
         }
 
         public XElement ToXml( int id )
@@ -81,7 +83,8 @@ namespace Sims.SimSoccerModel
             new XElement( "Injury", Injury ),
             new XElement( "Mental", Mental ),
             new XElement( "FinancialValue", FinancialValue ),
-            new XElement( "ActualTeamTag", ActualTeamTag ) );
+            new XElement( "ActualTeamTag", ActualTeamTag ),
+            new XElement( "Status",Status ) );
         }
 
         public int Id
@@ -129,6 +132,11 @@ namespace Sims.SimSoccerModel
             get { return _birthDate; }
         }
 
+        public string Status
+        {
+            get { return _status; }
+            set { _status = value; }
+        }
         public string BirthPlace
         {
             get { return _birthPlace; }

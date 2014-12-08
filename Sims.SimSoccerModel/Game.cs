@@ -52,7 +52,7 @@ namespace Sims.SimSoccerModel
             XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
             XDocument doc3 = XDocument.Load(@".\..\..\..\Tactics.xml");
             _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
-            _playerList = new PlayerList( this, doc.Root.Element("Players") );
+            _playerList = new PlayerList( this, doc.Root.Element("Player") );
         }
 
         public Game( string userName, string userPassword )

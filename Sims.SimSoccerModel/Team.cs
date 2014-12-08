@@ -28,7 +28,7 @@ namespace Sims.SimSoccerModel
         List<Player> _reserve;
         #endregion
 
-        #region ontructor
+        #region contructor
         internal Team( TeamList owner, string name )
         {
             _owner = owner;
@@ -116,7 +116,8 @@ namespace Sims.SimSoccerModel
                     new XElement( "Injury", p.Injury ),
                     new XElement( "Mental", p.Mental ),
                     new XElement( "FinancialValue", p.FinancialValue ),
-                    new XElement( "ActualTeamTag", p.ActualTeamTag ) ));
+                    new XElement( "ActualTeamTag", p.ActualTeamTag ),
+                    new XElement("Status",p.Status) ) );
         }
 
         public XElement ToXml( int id )
@@ -150,7 +151,8 @@ namespace Sims.SimSoccerModel
                                 new XElement( "Injury", p.Injury ),
                                 new XElement( "Mental", p.Mental ),
                                 new XElement( "FinancialValue", p.FinancialValue ),
-                                new XElement( "ActualTeamTag", p.ActualTeamTag ) ) ) );
+                                new XElement( "ActualTeamTag", p.ActualTeamTag ),
+                                new XElement( "Status",p.Status) ) ) );
         }
 
         public string Name
