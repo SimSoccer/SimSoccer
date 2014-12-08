@@ -29,10 +29,10 @@ namespace Sims.SimSoccerModel
         int _mental;
         int _financialValue;
         string _actualTeamTag;
-        Point _position;        
+        Point _position;
         #endregion
 
-        internal Player( PlayerList owner, string name )
+        internal Player(PlayerList owner, string name)
         {
             _owner = owner;
             _name = name;
@@ -43,48 +43,48 @@ namespace Sims.SimSoccerModel
             get { return _owner.Game; }
         }
 
-        public Player( PlayerList owner, XElement e )
+        public Player(PlayerList owner, XElement e)
         {
-            _id = int.Parse( e.Attribute( "Id" ).Value );
-            _name = e.Attribute( "Name" ).Value;
-            ShirtNumber = int.Parse( e.Element( "ShirtNumber" ).Value );
-            _nationality = e.Element( "Nationality" ).Value;
-            Poste = e.Element( "Poste" ).Value;
-            Height = float.Parse( e.Element( "Height" ).Value );
-            Weight = int.Parse( e.Element( "Weight" ).Value );
-            _birthDate = e.Element( "BirthDate" ).Value;
-            _birthPlace = e.Element( "BirthPlace" ).Value;
-            PreviousClub = e.Element( "PreviousClub" ).Value;
-            ActualClub = e.Element( "ActualClub" ).Value;
-            Stats = int.Parse( e.Element( "Stats" ).Value );
-            FormState = int.Parse( e.Element( "FormState" ).Value );
-            Injury = bool.Parse( e.Element( "Injury" ).Value );
-            Mental = int.Parse( e.Element( "Mental" ).Value );
-            FinancialValue = int.Parse( e.Element( "FinancialValue" ).Value );
-            ActualTeamTag = e.Element( "ActualTeamTag" ).Value;
-            _status = e.Element( "Status" ).Value;
+            _id = int.Parse(e.Attribute("Id").Value);
+            _name = e.Attribute("Name").Value;
+            ShirtNumber = int.Parse(e.Element("ShirtNumber").Value);
+            _nationality = e.Element("Nationality").Value;
+            Poste = e.Element("Poste").Value;
+            Height = float.Parse(e.Element("Height").Value);
+            Weight = int.Parse(e.Element("Weight").Value);
+            _birthDate = e.Element("BirthDate").Value;
+            _birthPlace = e.Element("BirthPlace").Value;
+            PreviousClub = e.Element("PreviousClub").Value;
+            ActualClub = e.Element("ActualClub").Value;
+            Stats = int.Parse(e.Element("Stats").Value);
+            FormState = int.Parse(e.Element("FormState").Value);
+            Injury = bool.Parse(e.Element("Injury").Value);
+            Mental = int.Parse(e.Element("Mental").Value);
+            FinancialValue = int.Parse(e.Element("FinancialValue").Value);
+            ActualTeamTag = e.Element("ActualTeamTag").Value;
+            _status = e.Element("Status").Value;
         }
 
-        public XElement ToXml( int id )
+        public XElement ToXml(int id)
         {
-            return new XElement( "Player",
-            new XAttribute( "Id", id ),
-            new XAttribute( "Name", Name ),
-            new XElement( "ShirtNumber", ShirtNumber ),
-            new XElement( "Nationality", Nationality ),
-            new XElement( "Post", Poste ),
-            new XElement( "Height", Height ),
-            new XElement( "BirthDate", BirthDate ),
-            new XElement( "BirthPlace", BirthPlace ),
-            new XElement( "PreviousClub", PreviousClub ),
-            new XElement( "ActualClub", ActualClub ),
-            new XElement( "Stats", Stats ),
-            new XElement( "FormState", FormState ),
-            new XElement( "Injury", Injury ),
-            new XElement( "Mental", Mental ),
-            new XElement( "FinancialValue", FinancialValue ),
-            new XElement( "ActualTeamTag", ActualTeamTag ),
-            new XElement( "Status",Status ) );
+            return new XElement("Player",
+            new XAttribute("Id", id),
+            new XAttribute("Name", Name),
+            new XElement("ShirtNumber", ShirtNumber),
+            new XElement("Nationality", Nationality),
+            new XElement("Post", Poste),
+            new XElement("Height", Height),
+            new XElement("BirthDate", BirthDate),
+            new XElement("BirthPlace", BirthPlace),
+            new XElement("PreviousClub", PreviousClub),
+            new XElement("ActualClub", ActualClub),
+            new XElement("Stats", Stats),
+            new XElement("FormState", FormState),
+            new XElement("Injury", Injury),
+            new XElement("Mental", Mental),
+            new XElement("FinancialValue", FinancialValue),
+            new XElement("ActualTeamTag", ActualTeamTag),
+            new XElement("Status", Status));
         }
 
         public int Id
@@ -171,7 +171,7 @@ namespace Sims.SimSoccerModel
         /// </summary>
         public void IsInjuried()
         {
-            if( _formState < 50 ) _injury = true;
+            if (_formState < 50) _injury = true;
         }
         public bool Injury
         {
