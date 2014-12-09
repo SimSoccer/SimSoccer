@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 using Sims.SimSoccerModel;
 
 namespace SIMS.SimSoccerForm
@@ -15,11 +16,12 @@ namespace SIMS.SimSoccerForm
     public partial class LoadGameForm : Form
     {
         readonly Game _game;
-       // List<string> _items = new List<string>();
+      
+      
         public LoadGameForm(Game game)
         {
             InitializeComponent();
-
+            
             _game = game;
 
 
@@ -33,6 +35,7 @@ namespace SIMS.SimSoccerForm
                 listBox1.Items.Add( files[i] );
             
             listBox1.DataSource = _game;
+
             
                        
         }
@@ -46,7 +49,24 @@ namespace SIMS.SimSoccerForm
 
         private void btLoadGame_Click( object sender, EventArgs e )
         {
+            if( listBox1.Items.Count == 0 )
+            {
+                MessageBox.Show( "Il n'y a pas de partie à charger" );
+            }
+            else if( listBox1.SelectedItems.Count == 0 ) 
+            {
+                MessageBox.Show( "Veuillez choisir une partie à charger" );
+            }
+            else
+            {
+                XDocument doc = XDocument.Load( @".\..\..\..\" + listBox1.SelectedItem );
 
+                Game _game = new Game( doc.Root.Element( "Profil" ) );
+
+                CheckPasswordForm CPF = new CheckPasswordForm( _game );
+                CPF.Show();
+            }
+            
         }
 
 

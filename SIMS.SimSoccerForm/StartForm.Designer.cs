@@ -65,7 +65,7 @@
             this.Controls.Add(this.btGoToLoadGameForm);
             this.Controls.Add(this.btGoToInscrForm);
             this.Name = "StartForm";
-            this.Text = "StartForm";
+            this.Text = "Accueil";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 

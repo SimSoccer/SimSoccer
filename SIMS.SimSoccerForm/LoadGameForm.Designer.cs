@@ -40,7 +40,7 @@
             this.btLoadGame.Name = "btLoadGame";
             this.btLoadGame.Size = new System.Drawing.Size(75, 23);
             this.btLoadGame.TabIndex = 0;
-            this.btLoadGame.Text = "Load";
+            this.btLoadGame.Text = "Charger";
             this.btLoadGame.UseVisualStyleBackColor = true;
             this.btLoadGame.Click += new System.EventHandler(this.btLoadGame_Click);
             // 
@@ -48,7 +48,7 @@
             // 
             this.listBox1.Location = new System.Drawing.Point(23, 36);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 95);
+            this.listBox1.Size = new System.Drawing.Size(142, 147);
             this.listBox1.TabIndex = 0;
             // 
             // btBackToStartForm
@@ -72,7 +72,7 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btLoadGame);
             this.Name = "LoadGameForm";
-            this.Text = "LoadGameForm";
+            this.Text = "Charger une partie";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
