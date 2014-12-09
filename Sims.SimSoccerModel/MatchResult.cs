@@ -36,11 +36,13 @@ namespace Sims.SimSoccerModel
 
         public string Winner
         {
+            set { _winner = value; }
             get { return _winner; }
         }
 
         public string Looser
         {
+            set { _looser = value; }
             get { return _looser; }
         }
 

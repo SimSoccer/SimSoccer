@@ -11,28 +11,10 @@ namespace Sims.SimSoccerModel
         Team _dom;
         Team _ext;
         DateTime horaire_;
-        readonly Game _game;
-        string _score;
-        string _winner;
-        string _looser;
+        readonly Game _game;      
         MatchResult _result;
         
-        public string Score
-        {
-            get { return _score; }
-        }
-
-        public string Winner
-        {
-            get { return _winner; }
-        }
-
-        public string Looser
-        {
-            get { return _looser; }
-        }
-
-
+       
         public Game Game
         {
             get { return _game; }
@@ -58,7 +40,6 @@ namespace Sims.SimSoccerModel
 
         public Match(Team dom, Team ext)
         {
-            
             _game = dom.Game;
             if( _game != ext.Game ) throw new ArgumentException("Teams must be in the same Game");
             _dom = dom; 

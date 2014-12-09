@@ -12,7 +12,7 @@ namespace SIMS.SimSoccer.Tests
     public class PlayMatchTests
     {
         [Test]
-        public void result_match_were_the_winner_is_supposed_to_be_the_host()
+        public void result_match_where_the_winner_is_supposed_to_be_the_host()
         {
             Game g = new Game("test", "1234");
             Team t1 = g.TeamList.CreateTeam("Team1");

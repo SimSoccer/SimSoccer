@@ -13,7 +13,7 @@ namespace SIMS.SimSoccerForm
 {
     public partial class LoadGameForm : Form
     {
-        readonly Game _game;
+        
         List<string> _items = new List<string>();
         public LoadGameForm()
         {
