@@ -44,16 +44,27 @@ namespace GraphicsFormsEssai
 
         private void GDI_Paint( object sender, PaintEventArgs e )
         {
+            //Brushes the whole field in Green
              Field f = new Field();
              e.Graphics.FillRectangle( Brushes.DarkGreen, 0, 0, f.FieldSize.Width, f.FieldSize.Heigth );
 
-             for( int t = 0; t < f.AllPoints.Count; t++ )
-                 e.Graphics.DrawRectangle( Pens.Black, f.AllPoints[t].X, f.AllPoints[t].Y, 1,1 );
+            //Show Points on field
 
-             foreach( Box c in f.Boxes )
+             /*for( int t = 0; t < f.AllPoints.Count; t++ )
+                 e.Graphics.DrawRectangle( Pens.Black, f.AllPoints[t].X, f.AllPoints[t].Y, 1,1 );*/
+            
+             // Show the field's boxes.
+             foreach( Box p in f.Boxes )
              {
-                 e.Graphics.DrawRectangle( Pens.WhiteSmoke, c._x, c._y, c._size.Width, c._size.Heigth );
+                 e.Graphics.DrawRectangle( Pens.WhiteSmoke, p._x, p._y, p._size.Width, p._size.Heigth );
              }
+
+             foreach( Points c in f.BoxCenterPoint )
+             {
+                 e.Graphics.DrawRectangle( Pens.WhiteSmoke, c.X, c.Y, 1, 1 );
+             }
+             listBox1.Items.Add( f.BoxPoints[2].X + ", " + f.BoxPoints[2].Y );
+             listBox1.Items.Add( f.BoxCenterPoint[2].X + ", " + f.BoxCenterPoint[2].Y );
         }
 
         private void restartFormationToolStripMenuItem_Click( object sender, EventArgs e )

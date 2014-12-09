@@ -13,6 +13,7 @@ namespace Sims.SimSoccerModel
         List<Box> _boxes;
         List<Points> _boxPoints;
         List<Points> _allPoints;
+        List<Points> _boxCenterPoint;
         float _x;
         float _y;
         float _allX;
@@ -25,7 +26,7 @@ namespace Sims.SimSoccerModel
             _boxes = new List<Box>();
             _boxPoints = new List<Points>();
             _allPoints = new List<Points>();
-
+            _boxCenterPoint = new List<Points>();
 
             
             for( _allX = 0; _allX < 1000; _allX++ )
@@ -50,6 +51,23 @@ namespace Sims.SimSoccerModel
                     Box box = new Box( this, X, Y, boxPoints.X, boxPoints.Y );
                     _boxPoints.Add( boxPoints );
                     _boxes.Add( box );
+                }
+            }
+
+            int centerX = 0;
+            int centerY = 0;
+            int resultX;
+            int resultY;
+            Points boxCenterPoint = new Points( centerX, centerY );
+            for( centerX = 1; centerX <= 10; centerX++ )
+            {
+                resultX = centerX * 50;
+                boxCenterPoint.X = ( centerX * 50 ) + resultX - 50;
+                for( centerY = 0; centerY <= 6; centerY++ )
+                {
+                    resultY = centerY * 50;
+                    boxCenterPoint.Y = ( centerY * 50 ) + resultY - 50;
+                    _boxCenterPoint.Add( boxCenterPoint );
                 }
             }
 
@@ -89,6 +107,11 @@ namespace Sims.SimSoccerModel
         public Size FieldSize
         {
             get { return _size; }
+        }
+
+        public List<Points> BoxCenterPoint
+        {
+            get { return _boxCenterPoint; }
         }
     }
 }
