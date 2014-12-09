@@ -98,8 +98,8 @@ namespace Sims.SimSoccerModel
             {
                 if (_owner.Game.PlayerList.Players[i].ActualTeamTag == tt && _owner.Game.PlayerList.Players[i].Status == "Titulaire")
                 {
-                    /*if (_teamType.Count <= 0 || _teamType.Count > 11) throw new IndexOutOfRangeException();*/
-                    //if (_players.Count <= 0) throw new IndexOutOfRangeException();
+                    if (_teamType.Count < 0 || _teamType.Count > 11) throw new IndexOutOfRangeException();
+                    if (_players.Count < 0) throw new IndexOutOfRangeException();
 
                     _players.Add(_owner.Game.PlayerList.Players[i]);
                     _teamType.Add(_owner.Game.PlayerList.Players[i]);
@@ -111,8 +111,8 @@ namespace Sims.SimSoccerModel
                 }
                 if (_owner.Game.PlayerList.Players[i].ActualTeamTag == tt && _owner.Game.PlayerList.Players[i].Status == "Remplacent")
                 {
-                    /*if (_remplacents.Count <= 0 || _remplacents.Count > 7) throw new IndexOutOfRangeException();
-                    if (_players.Count <= 0) throw new IndexOutOfRangeException();*/
+                    if (_remplacents.Count < 0 || _remplacents.Count > 7) throw new IndexOutOfRangeException();
+                    if (_players.Count < 0) throw new IndexOutOfRangeException();
 
                     _players.Add(_owner.Game.PlayerList.Players[i]);
                     _remplacents.Add(_owner.Game.PlayerList.Players[i]);
@@ -123,7 +123,7 @@ namespace Sims.SimSoccerModel
                 }
                 if (_owner.Game.PlayerList.Players[i].ActualTeamTag == tt && _owner.Game.PlayerList.Players[i].Status == "Reserviste")
                 {
-                    /*if (_players.Count <= 0) throw new IndexOutOfRangeException();*/
+                    if (_players.Count < 0) throw new IndexOutOfRangeException();
                     _players.Add(_owner.Game.PlayerList.Players[i]);
                     _reserve.Add(_owner.Game.PlayerList.Players[i]);
                     for (j = 0; j < _players.Count; j++)

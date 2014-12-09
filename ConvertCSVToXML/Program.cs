@@ -39,8 +39,8 @@ namespace ConvertCSVToXML
 24,François Kamano,25,GUI,AT,1.75,75,01/05/1996,,Satellite FC,Sporting Club de Bastia,50,100,false,100,10000,SCB,Titulaire
 25,Brandão,26,BRA,AT,1.89,78,16/06/1980,São Paulo,St-Etienne,Sporting Club de Bastia,50,100,false,100,10000,SCB,Reserviste
 26,Guillaume Gillet,27,BEL,MDF,1.86,77,09/03/1985,Liège,Anderlecht,Sporting Club de Bastia,50,100,false,100,10000,SCB,Titulaire
-27,Juan Pablo Pino,28,COL,AD,1.76,72,30/03/1987,Cartagena,Olympiakos,Sporting Club de Bastia,50,100,false,100,10000,SCB,Reserviste
-28,Gilles Cioni,29,FRA,DLD,1.65,65,14/06/1984,Bastia,Paris FC,Sporting Club de Bastia,50,100,false,100,10000,SCB,Titulaire
+27,Juan Pablo Pino,28,COL,AD,1.76,72,30/03/1987,Cartagena,Olympiakos,Sporting Club de Bastia,50,100,false,100,10000,SCB,Remplacent
+28,Gilles Cioni,29,FRA,DLD,1.65,65,14/06/1984,Bastia,Paris FC,Sporting Club de Bastia,50,100,false,100,10000,SCB,Reserviste
 29,Thomas Vincensini,30,FRA,GB,1.90,73,12/09/1993,Bastia,None,Sporting Club de Bastia,50,100,false,100,10000,SCB,Reserviste
 30,Ažbe Jug,1,SVN,GB,1.92,91,03/03/1992,Maribor,Interblock,Football Club des Girondins de Bordeaux,50,100,false,100,10000,FCB,Reserviste
 31,Mariano,2,BRA,DLD,1.77,70,23/06/1986,São João,Fluminense,Football Club des Girondins de Bordeaux,50,100,false,100,10000,FCB,Titulaire
@@ -90,7 +90,7 @@ namespace ConvertCSVToXML
 75,Julien Féret,25,FRA,MO,1.87,74,05/07/1982,Saint Brieuc,Rennes,Stade Malherbe de Caen,50,100,false,100,10000,SMC,Titulaire
 76,Jonathan Beaulieu,26,FRA,MC,1.80,65,11/03/1993,Meudon,None,Stade Malherbe de Caen,50,100,false,100,10000,SMC,Reserviste
 77,Thomas Lemar,27,FRA,MO,1.63,46,12/11/1995,Baie-Mahault,None,Stade Malherbe de Caen,50,100,false,100,10000,SMC,Titulaire
-78,Damien Da Silva,28,FRA,DLD,1.84,77,17/05/1988,Talence,Clermont,Stade Malherbe de Caen,50,100,false,100,10000,SMC,Reserviste
+78,Damien Da Silva,28,FRA,DLD,1.84,77,17/05/1988,Talence,Clermont,Stade Malherbe de Caen,50,100,false,100,10000,SMC,Titulaire
 79,Yrondu Musavu-King,29,GAB,DLG,1.86,83,08/01/1992,Libreville,None,Stade Malherbe de Caen,50,100,false,100,10000,SMC,Reserviste
 80,Paul Reulet,30,FRA,GB,1.81,64,14/01/1994,Caen,None,Stade Malherbe de Caen,50,100,false,100,10000,SMC,Reserviste
 81,Johann Durand,1,FRA,GB,1.82,71,17/06/1981,Evian,Gaillard,Evian Thonon Gaillard Football Club,50,100,false,100,10000,ETG,Reserviste
@@ -295,7 +295,7 @@ namespace ConvertCSVToXML
 280,Borja López,4,ESP,DLD,1.92,83,02/02/1994,Gijón,Sporting Gijón,Association Sportive de Monaco FC,50,100,false,100,10000,ASM,Reserviste
 281,Aymen Abdennour,5,TUN,DCG,1.87,84,06/08/1989,Sousse,Toulouse,Association Sportive de Monaco FC,50,100,false,100,10000,ASM,Titulaire
 282,Ricardo Carvalho,6,POR,DCD,1.83,76,18/05/1978,Amarante,Real Madrid,Association Sportive de Monaco FC,50,100,false,100,10000,ASM,Titulaire
-283,Nabil Dirar,7,MAR,MDF,1.82,79,25/02/1986,Casablanca,Club Brugge,Association Sportive de Monaco FC,50,100,false,100,10000,ASM,Reserviste
+283,Nabil Dirar,7,MAR,MDF,1.82,79,25/02/1986,Casablanca,Club Brugge,Association Sportive de Monaco FC,50,100,false,100,10000,ASM,Remplacent
 284,João Moutinho,8,POR,MC,1.70,61,08/09/1986,Portimão,FC Porto,Association Sportive de Monaco FC,50,100,false,100,10000,ASM,Titulaire
 285,Dimitar Berbatov,10,BUL,AT,1.88,79,30/01/1981,Blagoevgrad,Fulham,Association Sportive de Monaco FC,50,100,false,100,10000,ASM,Titulaire
 286,Lucas Ocampos,11,ARG,MO,1.87,82,11/07/1994,Quilmes,River Plate,Association Sportive de Monaco FC,50,100,false,100,10000,ASM,Titulaire
@@ -313,7 +313,7 @@ namespace ConvertCSVToXML
 298,Jérémy Toulalan,28,FRA,MDF,1.83,77,10/09/1983,Nantes,Málaga,Association Sportive de Monaco FC,50,100,false,100,10000,ASM,Titulaire
 299,Dylan Bahamboula,29,FRA,MC,1.85,65,22/05/1995,,None,Association Sportive de Monaco FC,50,100,false,100,10000,ASM,Reserviste
 300,Seydou Sy,30,SEN,GB,1.92,80,12/12/1995,Dakar,None,Association Sportive de Monaco FC,50,100,false,100,10000,ASM,Reserviste
-301,Abdou Diallo,34,FRA,DCD,1.83,72,04/05/1996,Tours,None,Association Sportive de Monaco FC,50,100,false,100,10000,ASM,Reserviste
+301,Abdou Diallo,34,FRA,DCD,1.83,72,04/05/1996,Tours,None,Association Sportive de Monaco FC,50,100,false,100,10000,ASM,Remplacent
 302,Aboud Aziz Thiam,37,FRA,MC,1.80,62,15/01/1997,,None,Association Sportive de Monaco FC,50,100,false,100,10000,ASM,Reserviste
 303,Almary Touré,38,MLI,DCG,1.82,72,28/04/1996,,None,Association Sportive de Monaco FC,50,100,false,100,10000,ASM,Reserviste
 304,Marc-Aurèle Caillard,40,FRA,GB,1.91,79,12/05/1994,Melun,None,Association Sportive de Monaco FC,50,100,false,100,10000,ASM,Reserviste
@@ -326,7 +326,7 @@ namespace ConvertCSVToXML
 311,Jonas Martin,8,FRA,MC,1.82,70,09/04/1990,Besançon,None,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Titulaire
 312,Kévin Bérigaud,9,FRA,AT,1.78,69,03/03/1984,Thonon-les-Bains,Évian TG,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Remplacent
 313,Lucas Barrios,10,PAR,AT,1.87,87,13/11/1984,San Fernando,Spartak Moscow,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Titulaire
-314,Victor Hugo Montaño,11,COL,AT,1.77,76,01/05/1984,Cali,Rennes,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Remplacent
+314,Victor Hugo Montaño,11,COL,AT,1.77,76,01/05/1984,Cali,Rennes,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Titulaire
 315,Dylan Gissi,13,SUI,DCG,1.92,79,27/04/1991,Geneva,Olimpo (BB),Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Reserviste
 316,Bryan Dabo,14,FRA,MDF,1.85,75,18/02/1992,Marseille,None,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Reserviste
 317,Geoffrey Jourdren,16,FRA,GB,1.81,73,04/02/1986,Paris,None,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Titulaire
@@ -337,14 +337,14 @@ namespace ConvertCSVToXML
 322,Abdelhamid El Kaoutari,21,MAR,DCD,1.80,73,17/03/1990,Montpellier,None,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Titulaire
 323,Jamel Saihi,23,TUN,MC,1.81,73,27/01/1987,Montpellier,None,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Remplacent
 324,Jean Deza,24,PER,AT,1.81,71,09/06/1993,Callao,Universidad San Martín,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Reserviste
-325,Mathieu Deplagne,25,FRA,DLD,1.80,66,01/10/1991,Montpellier,None,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Titulaire
+325,Mathieu Deplagne,25,FRA,DLD,1.80,66,01/10/1991,Montpellier,None,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Reserviste
 326,Yassine Jebbour,26,MAR,DLD,1.80,70,24/08/1991,Poitiers,Rennes,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Remplacent
 327,Steve Mounié,27,BEN,AT,1.90,80,29/09/1994,Parakou,None,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Reserviste
 328,Djamel Bakar,28,FRA,AD,1.71,67,06/04/1989,Marseille,Nancy,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Reserviste
 329,Gianni Seraf,29,FRA,MDF,1.69,65,05/07/1994,Thiais,None,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Reserviste
 330,Jonathan Ligali,30,FRA,GB,1.83,82,28/05/1991,Montpellier,None,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Reserviste
 331,Quentin Cornette,31,FRA,AT,1.72,75,17/01/1994,La Ciotat,None,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Reserviste
-332,Nicolas Saint-Ruf,32,FRA,DCD,1.87,81,24/10/1992,Rouen,Lens,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Remplacent
+332,Nicolas Saint-Ruf,32,FRA,DCD,1.87,81,24/10/1992,Rouen,Lens,Montpellier-Herault Sports Club,50,100,false,100,10000,MHSC,Reserviste
 333,Rémy Riou,1,FRA,GB,1.91,81,06/08/1987,Lyon,Toulouse,Football Club de Nantes,50,100,false,100,10000,FCN,Titulaire
 334,Kian Hansen,2,DEN,MDF,1.84,74,03/03/1989,Grindsted,Esbjerg,Football Club de Nantes,50,100,false,100,10000,FCN,Titulaire
 335,Papy Mison Djilobodji,3,SEN,DCG,1.93,82,01/12/1988,Kaolack,Sénart-Moissy,Football Club de Nantes,50,100,false,100,10000,FCN,Titulaire
@@ -392,7 +392,7 @@ namespace ConvertCSVToXML
 377,Lloyd Palun,21,GAB,DLD,1.84,73,28/11/1988,Arles,Trinité FC,Olympique Gymnaste Club Nice Côte d'Azur,50,100,false,100,10000,OGCN,Titulaire
 378,Nampalys Mendy,22,FRA,MC,1.68,68,23/06/1992,La Seyne-sur-Mer,Monaco,Olympique Gymnaste Club Nice Côte d'Azur,50,100,false,100,10000,OGCN,Titulaire
 379,Alexy Bosetti,23,FRA,AD,1.72,66,23/04/1993,Nice,None,Olympique Gymnaste Club Nice Côte d'Azur,50,100,false,100,10000,OGCN,Titulaire
-380,Mathieu Bodmer,24,FRA,MC,1.90,91,22/11/1982,Evreux,Paris St-Germain,Olympique Gymnaste Club Nice Côte d'Azur,50,100,false,100,10000,OGCN,Reserviste
+380,Mathieu Bodmer,24,FRA,MC,1.90,91,22/11/1982,Evreux,Paris St-Germain,Olympique Gymnaste Club Nice Côte d'Azur,50,100,false,100,10000,OGCN,Titulaire
 381,Romain Genevois,25,HAI,DCD,1.80,66,28/10/1987,L'Estère,Tours,Olympique Gymnaste Club Nice Côte d'Azur,50,100,false,100,10000,OGCN,Titulaire
 382,Bryan Constant,27,FRA,AG,1.72,65,27/03/1994,Fréjus,None,Olympique Gymnaste Club Nice Côte d'Azur,50,100,false,100,10000,OGCN,Reserviste
 383,Fabien Dao Castellana,28,FRA,MO,1.69,61,28/07/1993,Saint-Raphaël,None,Olympique Gymnaste Club Nice Côte d'Azur,50,100,false,100,10000,OGCN,Reserviste
@@ -408,7 +408,7 @@ namespace ConvertCSVToXML
 393,Edinson Cavani,9,URU,AT,1.84,71,14/02/1987,Montevideo,Napoli,Paris-Saint-Germain Football Club,50,100,false,100,10000,PSG,Titulaire
 394,Zlatan Ibrahimovic,10,SWE,AT,1.92,84,03/10/1981,Malmö,Milan,Paris-Saint-Germain Football Club,50,100,false,100,10000,PSG,Titulaire
 395,Blaise Matuidi,14,FRA,MDF,1.75,70,09/04/1987,Toulouse,St-Etienne,Paris-Saint-Germain Football Club,50,100,false,100,10000,PSG,Titulaire
-396,Jean-Christophe Bahebeck,15,FRA,AG,1.82,70,01/05/1993,Saint-Denis,None,Paris-Saint-Germain Football Club,50,100,false,100,10000,PSG,Remplacent
+396,Jean-Christophe Bahebeck,15,FRA,AG,1.82,70,01/05/1993,Saint-Denis,None,Paris-Saint-Germain Football Club,50,100,false,100,10000,PSG,Reserviste
 397,Mike Maignan,16,FRA,GB,1.87,80,03/07/1995,Cayenne,None,Paris-Saint-Germain Football Club,50,100,false,100,10000,PSG,Reserviste
 398,Maxwell,17,BRA,DLG,1.75,73,27/08/1981,Vila Velha,Barcelona,Paris-Saint-Germain Football Club,50,100,false,100,10000,PSG,Titulaire
 399,Serge Aurier,19,CIV,DLD,1.75,75,24/12/1992,Abidjan,Toulouse,Paris-Saint-Germain Football Club,50,100,false,100,10000,PSG,Remplacent
@@ -417,7 +417,7 @@ namespace ConvertCSVToXML
 402,Ezequiel Lavezzi,22,ARG,AG,1.73,75,03/05/1985,Villa Gobernador Gálvez,Napoli,Paris-Saint-Germain Football Club,50,100,false,100,10000,PSG,Remplacent
 403,Gregory van der Wiel,23,NED,DLD,1.81,68,03/02/1988,Amsterdam,Ajax,Paris-Saint-Germain Football Club,50,100,false,100,10000,PSG,Titulaire
 404,Marco Verratti,24,ITA,MC,1.65,60,05/11/1992,Pescara,Pescara,Paris-Saint-Germain Football Club,50,100,false,100,10000,PSG,Titulaire
-405,Adrien Rabiot,25,FRA,MC,1.88,71,03/04/1995,Saint-Maurice,None,Paris-Saint-Germain Football Club,50,100,false,100,10000,PSG,Remplacent
+405,Adrien Rabiot,25,FRA,MC,1.88,71,03/04/1995,Saint-Maurice,None,Paris-Saint-Germain Football Club,50,100,false,100,10000,PSG,Reserviste
 406,Javier Pastore,27,ARG,MO,1.87,75,20/06/1989,Córdoba,Palermo,Paris-Saint-Germain Football Club,50,100,false,100,10000,PSG,Remplacent
 407,Salvatore Sirigu,30,ITA,GB,1.90,80,12/01/1987,Nuoro,Palermo,Paris-Saint-Germain Football Club,50,100,false,100,10000,PSG,Titulaire
 408,David Luiz,32,BRA,DCD,1.89,84,22/04/1987,São Paulo,Chelsea,Paris-Saint-Germain Football Club,50,100,false,100,10000,PSG,Titulaire
@@ -445,12 +445,12 @@ namespace ConvertCSVToXML
 430,Mickaël Tacalfred,22,FRA,DCD,1.75,69,23/04/1981,Colombes,Dijon,Stade de Reims,50,100,false,100,10000,SDR,Titulaire
 431,Aïssa Mandi,23,ALG,DLG,1.86,78,22/10/1991,Châlons-en-Champagne,None,Stade de Reims,50,100,false,100,10000,SDR,Titulaire
 432,David N'Gog,24,FRA,AT,1.90,79,01/04/1989,Gennevilliers,Swansea C,Stade de Reims,50,100,false,100,10000,SDR,Titulaire
-433,Anthony Weber,25,FRA,DCG,1.90,82,11/06/1987,Strasbourg,Paris FC,Stade de Reims,50,100,false,100,10000,SDR,Remplacent
+433,Anthony Weber,25,FRA,DCG,1.90,82,11/06/1987,Strasbourg,Paris FC,Stade de Reims,50,100,false,100,10000,SDR,Reserviste
 434,Omenuke Mfulu,26,COD,DCD,1.82,69,20/03/1994,,Lille,Stade de Reims,50,100,false,100,10000,SDR,Reserviste
 435,Christopher Glombard,27,FRA,DLD,1.78,74,05/06/1989,Montreuil,Bordeaux,Stade de Reims,50,100,false,100,10000,SDR,Reserviste
-436,Antoine Conte,28,FRA,DCG,1.79,73,29/01/1994,Paris,Paris St-Germain,Stade de Reims,50,100,false,100,10000,SDR,Titulaire
-437,Grejohn Kiey,29,FRA,AG,1.87,84,12/08/1995,,None,Stade de Reims,50,100,false,100,10000,SDR,Remplacent
-438,Johnny Placide,30,HAI,GB,1.81,84,29/01/1988,Montfermeil,Le Havre,Stade de Reims,50,100,false,100,10000,SDR,Titulaire
+436,Antoine Conte,28,FRA,DCG,1.79,73,29/01/1994,Paris,Paris St-Germain,Stade de Reims,50,100,false,100,10000,SDR,Reserviste
+437,Grejohn Kiey,29,FRA,AG,1.87,84,12/08/1995,,None,Stade de Reims,50,100,false,100,10000,SDR,Reserviste
+438,Johnny Placide,30,HAI,GB,1.81,84,29/01/1988,Montfermeil,Le Havre,Stade de Reims,50,100,false,100,10000,SDR,Reserviste
 439,Benoît Costil,1,FRA,GB,1.87,83,03/07/1987,Caen,Sedan,Stade Rennais Football Club,50,100,false,100,10000,SRFC,Titulaire
 440,Cheikh M'Bengué,3,SEN,DLG,1.83,75,23/07/1988,Toulouse,Toulouse,Stade Rennais Football Club,50,100,false,100,10000,SRFC,Reserviste
 441,Mexer,4,MOZ,DCD,1.81,75,08/09/1985,Maputo,Nacional [POR],Stade Rennais Football Club,50,100,false,100,10000,SRFC,Titulaire
@@ -496,9 +496,9 @@ namespace ConvertCSVToXML
 481,Paul Baysse,23,FRA,DLG,1.84,82,15/05/1988,Bordeaux,Brest,Association Sportive de St-Etienne,50,100,false,100,10000,ASSE,Titulaire
 482,Loïc Perrin,24,FRA,DCG,1.80,76,07/08/1985,Saint-Etienne,None,Association Sportive de St-Etienne,50,100,false,100,10000,ASSE,Remplacent
 483,Moustapha Bayal Sall,26,SEN,DCD,1.90,90,30/11/1985,Dakar,US Gorée,Association Sportive de St-Etienne,50,100,false,100,10000,ASSE,Reserviste
-484,Franck Tabanou,27,FRA,MLG,1.78,70,30/01/1989,Thiais,Toulouse,Association Sportive de St-Etienne,50,100,false,100,10000,ASSE,Remplacent
+484,Franck Tabanou,27,FRA,MLG,1.78,70,30/01/1989,Thiais,Toulouse,Association Sportive de St-Etienne,50,100,false,100,10000,ASSE,Titulaire
 485,Ismaël Diomande,28,CIV,MC,1.80,75,28/08/1992,Abidjan,None,Association Sportive de St-Etienne,50,100,false,100,10000,ASSE,Reserviste
-486,François Clerc,29,FRA,DLD,1.86,77,18/04/1983,Bourg en Bresse,Nice,Association Sportive de St-Etienne,50,100,false,100,10000,ASSE,Reserviste
+486,François Clerc,29,FRA,DLD,1.86,77,18/04/1983,Bourg en Bresse,Nice,Association Sportive de St-Etienne,50,100,false,100,10000,ASSE,Remplacent
 487,Jessy Moulin,30,FRA,GB,1.84,80,13/01/1986,Valence,None,Association Sportive de St-Etienne,50,100,false,100,10000,TFC,Reserviste
 488,Zacharie Boucher,1,FRA,GB,1.80,74,07/03/1992,St Pierre,Le Havre,Toulouse Football Club,50,100,false,100,10000,TFC,Remplacent
 489,Maxime Spano,2,FRA,DLG,1.84,79,31/10/1994,Aubagne,ES Pennoise,Toulouse Football Club,50,100,false,100,10000,TFC,Reserviste
@@ -520,15 +520,14 @@ namespace ConvertCSVToXML
 505,Steeve Yago,20,FRA,DCG,1.80,72,16/12/1992,Sarcelles,None,Toulouse Football Club,50,100,false,100,10000,TFC,Titulaire
 506,Abel Aguilar,21,COL,MC,1.85,82,06/01/1985,Santa Fe de Bogota,Hércules,Toulouse Football Club,50,100,false,100,10000,TFC,Titulaire
 507,Dušan Veškovac,22,SRB,DCG,1.87,78,16/03/1986,Kruševac,Young Boys,Toulouse Football Club,50,100,false,100,10000,TFC,Reserviste
-508,Marcel Tisserand,23,COD,DLD,1.84,70,10/01/1993,Meaux,Monaco,Toulouse Football Club,50,100,false,100,10000,TFC,Remplacent
+508,Marcel Tisserand,23,COD,DLD,1.84,70,10/01/1993,Meaux,Monaco,Toulouse Football Club,50,100,false,100,10000,TFC,Reserviste
 509,Pavle Ninkov,24,SRB,DLD,1.83,81,20/04/1985,Belgrade,Crvena Zvezda,Toulouse Football Club,50,100,false,100,10000,TFC,Titulaire
 510,Drago? Grigore,25,ROU,DCG,1.85,76,07/09/1986,Vaslui,Dinamo Bucure?ti,Toulouse Football Club,50,100,false,100,10000,TFC,Titulaire
 511,Sana Zaniou,26,BFA,AT,1.70,65,31/12/1994,Cinsense,AS Sonabel,Toulouse Football Club,50,100,false,100,10000,TFC,Reserviste
-512,Amadou Soukouna,27,FRA,AD,1.82,76,21/06/1992,Paris,None,Toulouse Football Club,50,100,false,100,10000,TFC,Remplacent
+512,Amadou Soukouna,27,FRA,AD,1.82,76,21/06/1992,Paris,None,Toulouse Football Club,50,100,false,100,10000,TFC,Reserviste
 513,Mihai Roman,28,ROU,MC,1.73,70,16/11/1984,Suceava,Rapid Bucure?ti,Toulouse Football Club,50,100,false,100,10000,TFC,Reserviste
 514,François Moubandje,29,SUI,DLG,1.82,76,21/06/1990,Geneva,Servette,Toulouse Football Club,50,100,false,100,10000,TFC,Titulaire
-515,Ali Ahamada,30,FRA,GB,1.89,83,19/08/1991,Martigues,None,Toulouse Football Club,50,100,false,100,10000,TFC,Titulaire
-";
+515,Ali Ahamada,30,FRA,GB,1.89,83,19/08/1991,Martigues,None,Toulouse Football Club,50,100,false,100,10000,TFC,Titulaire";
             File.WriteAllText( "cust.csv", csvString );
 
             // Read into an array of strings,
