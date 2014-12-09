@@ -109,7 +109,7 @@ namespace Sims.SimSoccerModel
                         _playerName = _players[j].Name;
                     }
                 }
-                else if (_owner.Game.PlayerList.Players[i].ActualTeamTag == tt && _owner.Game.PlayerList.Players[i].Status == "Remplacent")
+                if (_owner.Game.PlayerList.Players[i].ActualTeamTag == tt && _owner.Game.PlayerList.Players[i].Status == "Remplacent")
                 {
                     /*if (_remplacents.Count <= 0 || _remplacents.Count > 7) throw new IndexOutOfRangeException();
                     if (_players.Count <= 0) throw new IndexOutOfRangeException();*/
@@ -121,7 +121,7 @@ namespace Sims.SimSoccerModel
                         _playerName = _players[j].Name;
                     }
                 }
-                else if (_owner.Game.PlayerList.Players[i].ActualTeamTag == tt && _owner.Game.PlayerList.Players[i].Status == "Reserviste")
+                if (_owner.Game.PlayerList.Players[i].ActualTeamTag == tt && _owner.Game.PlayerList.Players[i].Status == "Reserviste")
                 {
                     /*if (_players.Count <= 0) throw new IndexOutOfRangeException();*/
                     _players.Add(_owner.Game.PlayerList.Players[i]);
