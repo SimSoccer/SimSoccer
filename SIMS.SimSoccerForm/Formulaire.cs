@@ -13,9 +13,9 @@ namespace SIMS.SimSoccerForm
 {
     public partial class FormInscription : Form
     {
-        readonly Game _game;
+        /*readonly Game _game;
         readonly TeamList _teamList;
-        readonly PlayerList _playerList;
+        readonly PlayerList _playerList;*/
         public FormInscription()
         {
             InitializeComponent();

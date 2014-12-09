@@ -30,6 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CK.Core">
+      <HintPath>..\packages\CK.Core.4.0.1\lib\net45\CK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Calendar.cs" />
     <Compile Include="Field.cs" />
+    <Compile Include="Formation.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Journee.cs" />
     <Compile Include="Ligue.cs" />
@@ -49,13 +56,16 @@
     <Compile Include="PlayerAgent.cs" />
     <Compile Include="PlayerList.cs" />
     <Compile Include="Point.cs" />
+    <Compile Include="positionPlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Size.cs" />
+    <Compile Include="Tactic.cs" />
     <Compile Include="Team.cs" />
     <Compile Include="TeamList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Model.cd" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
