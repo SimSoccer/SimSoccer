@@ -85,10 +85,13 @@ namespace SIMS.SimSoccerForm
 
         private void buttoSelect_Click( object sender, EventArgs e )
         {
-            _game.ToXML( _game.TeamList.Teams[i].Name, _game );
+            /*_game.ToXML( _game.TeamList.Teams[i].Name, _game );
             CalendarDisplay CD = new CalendarDisplay(_game);
             CD.Show();
             this.Close();
+            */
+            
+
         }
         
         private void PlayersBox_TextChanged( object sender, EventArgs e )

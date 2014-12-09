@@ -10,7 +10,7 @@ namespace Sims.SimSoccerModel
     {
             int nbEquipes_;
         List<Journee> _journees;
-        Game _game;
+        readonly Game _game;
         Ligue _owner;
 
         public List<Journee> Journees
@@ -21,6 +21,7 @@ namespace Sims.SimSoccerModel
 
         public Calendar(int nbEquipes, int year, Ligue owner)
         {
+            _game = owner.Game;
             _owner = owner;
             nbEquipes_ = nbEquipes;
             _journees = new List<Journee>();

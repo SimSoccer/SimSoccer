@@ -22,23 +22,20 @@ namespace Sims.SimSoccerModel
         int _level;
         string _playerName;
         List<Team> _opponent;
-        readonly PlayerAgent _agent;
+        
         
         internal Team( TeamList owner, string name )
         {
+            _game = owner.Game;
             _owner = owner;
             _name = name;
             _players = new List<Player>();
+            _opponent = new List<Team>();
         }
 
         public List<Team> Opponent
         {
             get { return _opponent; }
-        }
-
-        public PlayerAgent PlayerAgent
-        {
-            get { return _agent; }
         }
 
         public TeamList TeamList
