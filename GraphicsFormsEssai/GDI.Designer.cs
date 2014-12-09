@@ -35,16 +35,16 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.restartFormationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -57,7 +57,6 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Gardien";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button_click);
             // 
             // button2
@@ -126,6 +125,50 @@
             this.button7.Visible = false;
             this.button7.Click += new System.EventHandler(this.button_click);
             // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(620, 450);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(103, 69);
+            this.button8.TabIndex = 8;
+            this.button8.Text = "Milieu Droit";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Visible = false;
+            this.button8.Click += new System.EventHandler(this.button_click);
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(767, 309);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(103, 69);
+            this.button9.TabIndex = 9;
+            this.button9.Text = "Milieu Offensif";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Visible = false;
+            this.button9.Click += new System.EventHandler(this.button_click);
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(936, 199);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(103, 69);
+            this.button10.TabIndex = 10;
+            this.button10.Text = "Attaquant Gauche";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Visible = false;
+            this.button10.Click += new System.EventHandler(this.button_click);
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(931, 398);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(103, 69);
+            this.button11.TabIndex = 11;
+            this.button11.Text = "Attaquant Droit";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Visible = false;
+            this.button11.Click += new System.EventHandler(this.button_click);
+            // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -175,50 +218,6 @@
             this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem1.Text = "About";
             this.aboutToolStripMenuItem1.Click += new System.EventHandler(this.aboutToolStripMenuItem1_Click);
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(620, 450);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(103, 69);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "Milieu Droit";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Visible = false;
-            this.button8.Click += new System.EventHandler(this.button_click);
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(767, 309);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(103, 69);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "Milieu Offensif";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Visible = false;
-            this.button9.Click += new System.EventHandler(this.button_click);
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(936, 199);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(103, 69);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "Attaquant Gauche";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Visible = false;
-            this.button10.Click += new System.EventHandler(this.button_click);
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(931, 398);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(103, 69);
-            this.button11.TabIndex = 11;
-            this.button11.Text = "Attaquant Droit";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Visible = false;
-            this.button11.Click += new System.EventHandler(this.button_click);
             // 
             // listBox1
             // 
@@ -270,15 +269,15 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.ToolStripMenuItem restartFormationToolStripMenuItem;
     }

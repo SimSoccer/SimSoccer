@@ -55,6 +55,7 @@
     <Compile Include="Size.cs" />
     <Compile Include="Team.cs" />
     <Compile Include="TeamList.cs" />
+    <Compile Include="Zones.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Model.cd" />
