@@ -8,10 +8,30 @@ namespace Sims.SimSoccerModel
 {
     public class Match
     {
-        Team domicile_;
-        Team exterieur_;
+        Team _dom;
+        Team _ext;
         DateTime horaire_;
         readonly Game _game;
+        string _score;
+        string _winner;
+        string _looser;
+        MatchResult _result;
+        
+        public string Score
+        {
+            get { return _score; }
+        }
+
+        public string Winner
+        {
+            get { return _winner; }
+        }
+
+        public string Looser
+        {
+            get { return _looser; }
+        }
+
 
         public Game Game
         {
@@ -20,14 +40,14 @@ namespace Sims.SimSoccerModel
         
         public Team Domicile
         {
-            get { return domicile_; }
-            set { domicile_ = value; }
+            get { return _dom; }
+            set { _dom = value; }
         }
 
         public Team Exterieur
         {
-            get { return exterieur_; }
-            set { exterieur_ = value; }
+            get { return _ext; }
+            set { _ext = value; }
         }
 
         public DateTime Horaire
@@ -36,44 +56,68 @@ namespace Sims.SimSoccerModel
             set { horaire_ = value; }
         }
 
-        public Match(Team dom, Team ext, Game game)
+        public Match(Team dom, Team ext)
         {
-            _game = game;
-            domicile_ = dom;
-            exterieur_ = ext;
-            domicile_.Opponent.Add(exterieur_);
-            exterieur_.Opponent.Add(domicile_);
+            
+            _game = dom.Game;
+            if( _game != ext.Game ) throw new ArgumentException("Teams must be in the same Game");
+            _dom = dom; 
+            _ext = ext;
+            _dom.Opponent.Add(_ext);
+            _ext.Opponent.Add(_dom);
         }
 
         public override string ToString()
         {
-            return domicile_.TeamTag.ToString() + " - " + exterieur_.TeamTag.ToString() + " le " + horaire_.ToString();
+            return _dom.TeamTag.ToString() + " - " + _ext.TeamTag.ToString() + " le " + horaire_.ToString();
         }
 
-        public string PlayMatch(Team Home, Team Ext)
+        /// <summary>
+        /// Gets the result. Null if <see cref="PlayMatch"/> has not been called yet.
+        /// </summary>
+        public MatchResult Result
         {
-            Random rnd = new Random();
+            get { return _result; }
+        }
 
-            int tmp = Home.Level + Ext.Level;
-            int winRateH = (Home.Level / tmp) * 100;
-            int winRateE = 100 - winRateH;
 
-            int draw = rnd.Next(0, 100);
-            if(draw < winRateH)
-            {
-                Console.WriteLine("the winner is"+ Home.Name);
-                return Home.Name;
 
-            } 
-            else if(draw > winRateH)
-            {
-                Console.WriteLine("The winne is"+ Ext.Name);
-                return Ext.Name;
+        /// <summary>
+        /// Plays the match. Must be called only once.
+        /// </summary>
+        /// <returns></returns>
+        //public MatchResult PlayMatch()
+        public void PlayMatch()
+        {
+            if( _result != null ) throw new InvalidOperationException( "PlayMatch must be called only once!" );
+            _result = new MatchResult( _dom, _ext );
             
-            }else {
-                Console.WriteLine("It's a Tie");
-                return "it's a Tie";
-            }          
+
+            int tmp = _dom.Level + _ext.Level;
+            int winRateH = (_dom.Level*100)/tmp;
+            _result.ScoreD = 0;
+            _result.ScoreE = 0;
+
+            int nbGoal = _game.Rnd.Next( 0, 8 );
+
+
+            for( int i = 0; i < nbGoal; i++ )
+            {            
+                int draw = _game.Rnd.Next(0, 100);
+                if(draw < winRateH)
+                {
+                    _result.ScoreD++;
+                } 
+                else if(draw > winRateH)
+                {
+                    _result.ScoreE++;   
+                }            
+            }
+           
+            _result.Result();
+            
+
+
         }
     }
 }

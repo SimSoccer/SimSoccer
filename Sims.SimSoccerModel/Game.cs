@@ -18,6 +18,13 @@ namespace Sims.SimSoccerModel
         string _userPassword;
         string _choosenTeam;
         readonly Match _match;
+        readonly Random _rnd;
+
+        public Random Rnd
+        {
+            get { return _rnd; }
+        }
+        
 
         public PlayerList PlayerList
         {
@@ -69,6 +76,7 @@ namespace Sims.SimSoccerModel
             _playerList = new PlayerList( this, doc.Root.Element( "Players" ) );
             _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
             _ligue = new Ligue(this,2014);
+            _rnd = new Random();
         }
         public Game( string choosenTeam , string userName , string userPassword)
         {

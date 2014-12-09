@@ -29,6 +29,7 @@ namespace Sims.SimSoccerModel
             _owner = owner;
             _name = name;
             _players = new List<Player>();
+            _opponent = new List<Team>();
         }
 
         public List<Team> Opponent

@@ -45,6 +45,7 @@
     <Compile Include="Journee.cs" />
     <Compile Include="Ligue.cs" />
     <Compile Include="Match.cs" />
+    <Compile Include="MatchResult.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PlayerAgent.cs" />
     <Compile Include="PlayerList.cs" />
