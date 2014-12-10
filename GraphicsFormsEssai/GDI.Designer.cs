@@ -51,13 +51,18 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(107, 309);
+            this.button1.AllowDrop = true;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button1.Location = new System.Drawing.Point(0, 275);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 69);
+            this.button1.Size = new System.Drawing.Size(100, 50);
             this.button1.TabIndex = 0;
             this.button1.Text = "Gardien";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button_click);
+            this.button1.DragDrop += new System.Windows.Forms.DragEventHandler(this.button1_DragDrop);
+            this.button1.DragEnter += new System.Windows.Forms.DragEventHandler(this.button1_DragEnter);
+            this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button1_KeyDown);
             // 
             // button2
             // 
@@ -67,8 +72,8 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Defenseur Droit";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Visible = false;
             this.button2.Click += new System.EventHandler(this.button_click);
+            this.button2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button1_KeyDown);
             // 
             // button3
             // 
@@ -221,11 +226,13 @@
             // 
             // listBox1
             // 
+            this.listBox1.AllowDrop = true;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(1091, 0);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(264, 693);
             this.listBox1.TabIndex = 12;
+            this.listBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.listBox1_MouseMove);
             // 
             // GDI
             // 

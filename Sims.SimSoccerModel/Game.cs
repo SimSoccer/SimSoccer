@@ -18,12 +18,17 @@ namespace Sims.SimSoccerModel
         string _userPassword;
         string _choosenTeam;
         private   XElement xElement;
+        readonly Field _field;
 
         public PlayerList PlayerList
         {
             get { return _playerList; }
         }
 
+        public Field Field
+        {
+            get { return _field; }
+        }
         public TeamList TeamList
         {
             get { return _teamList; }
@@ -68,6 +73,8 @@ namespace Sims.SimSoccerModel
             _playerList = new PlayerList( this, doc.Root.Element( "Players" ) );
             _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
             _ligue = new Ligue(this,2014);
+            _field = new Field();
+
         }
 
         public Game( XElement e )

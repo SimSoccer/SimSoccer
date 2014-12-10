@@ -18,6 +18,7 @@ namespace Sims.SimSoccerModel
         float _y;
         float _allX;
         float _allY;
+        readonly Zones _zones;
 
         public Field()
         {
@@ -27,6 +28,7 @@ namespace Sims.SimSoccerModel
             _boxPoints = new List<Points>();
             _allPoints = new List<Points>();
             _boxCenterPoint = new List<Points>();
+            _zones = new Zones(this);
 
             
             for( _allX = 0; _allX < 1000; _allX++ )
@@ -112,6 +114,11 @@ namespace Sims.SimSoccerModel
         public List<Points> BoxCenterPoint
         {
             get { return _boxCenterPoint; }
+        }
+
+        public Zones Zones
+        {
+            get { return _zones; }
         }
     }
 }
