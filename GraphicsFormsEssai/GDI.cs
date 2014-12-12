@@ -468,9 +468,31 @@ namespace GraphicsFormsEssai
                     break;
                 case "5-3-2":
                     listBox1.Items.Add( "Formation 5-3-2" );
+                    button1.Location = new Point( 0, 275 );
+                    button2.Location = new Point( 250, 500 );
+                    button3.Location = new Point( 150, 375 );
+                    button4.Location = new Point( 150, 175 );
+                    button5.Location = new Point( 250, 50 );
+                    button6.Location = new Point( 150, 275 );
+                    button7.Location = new Point( 500, 125 );
+                    button8.Location = new Point( 500, 425 );
+                    button9.Location = new Point( 400, 275 );
+                    button10.Location = new Point( 800, 175 );
+                    button11.Location = new Point( 800, 375 );
                     break;
                 case "5-4-1":
                     listBox1.Items.Add( "Formation 5-4-1" );
+                    button1.Location = new Point( 0, 275 );
+                    button2.Location = new Point( 250, 500 );
+                    button3.Location = new Point( 150, 375 );
+                    button4.Location = new Point( 150, 175 );
+                    button5.Location = new Point( 250, 50 );
+                    button6.Location = new Point( 150, 275 );
+                    button7.Location = new Point( 550, 100 );
+                    button8.Location = new Point( 400, 350 );
+                    button9.Location = new Point( 400, 200 );
+                    button10.Location = new Point( 550, 450 );
+                    button11.Location = new Point( 800, 275 );
                     break;
                 case "3-5-2":
                     listBox1.Items.Add( "Formation 3-5-2" );
