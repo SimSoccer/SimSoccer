@@ -29,7 +29,11 @@ namespace Sims.SimSoccerModel
         int _mental;
         int _financialValue;
         string _actualTeamTag;
+<<<<<<< HEAD
+        //Point _position;
+=======
         Points _position;
+>>>>>>> local_guenole_features
         #endregion
 
         internal Player(PlayerList owner, string name)
