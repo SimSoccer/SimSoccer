@@ -13,8 +13,7 @@ namespace Sims.SimSoccerModel
         public List<Points> _throwIn2;
         public List<Points> _behindGoalLine1;
         public List<Points> _behindGoalLine2;
-        public Segment _segment1;
-        public Segment _segment2;
+        public List<Points> _goalZone;
 
         public Field Field
         {
@@ -27,8 +26,7 @@ namespace Sims.SimSoccerModel
             _throwIn2 = new List<Points>();
             _behindGoalLine1 = new List<Points>();
             _behindGoalLine2 = new List<Points>();
-            _segment1 = new Segment( 1000, 1000 );
-            _segment2 = new Segment( 1000, 1000 );
+            _goalZone = new List<Points>();
 
             int _X = 0;
             int _Y = 0;

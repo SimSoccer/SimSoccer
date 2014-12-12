@@ -72,8 +72,6 @@ namespace Sims.SimSoccerModel
                     _boxCenterPoint.Add( boxCenterPoint );
                 }
             }
-
-
         }
 
         public Points MiddleField
