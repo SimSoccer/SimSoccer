@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Game>
   <UserNumber>
+<<<<<<< HEAD
     <Number>1</Number>
+=======
+    <Number>5</Number>
+>>>>>>> local_dev
   </UserNumber>
 </Game>

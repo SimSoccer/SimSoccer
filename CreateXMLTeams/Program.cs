@@ -50,7 +50,7 @@ namespace CreateXMLTeams
                     new XElement( "Manager", fields[6] ),
                     new XElement( "LeagueRanking", fields[7] ),
                     new XElement( "Level", fields[8] ) ) );
-            cust.Save( @"C:\Users\Guenole\Documents\GitHub\RealSimSoccer\SimSoccer\Ligue1Teams.xml" );
+            cust.Save( @"C:\Users\Guenole\Desktop\SimSoccer\Ligue1Teams.xml" );
         }
     }
 }
