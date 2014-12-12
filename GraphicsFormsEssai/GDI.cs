@@ -25,6 +25,8 @@ namespace GraphicsFormsEssai
         {
             InitializeComponent();
             int c;
+            listBox1.Items.Add( "Joueurs non utilisés : " );
+            listBox2.Items.Add( "Joueurs utilisés : " );
             for( int i = 0; i < _game.TeamList.Teams[8].TeamPlayers.Count; i++ )
             {
                 string players = _game.TeamList.Teams[8].TeamPlayers[i].Name;
@@ -134,31 +136,16 @@ namespace GraphicsFormsEssai
             if( b.Text == "" )
                 b.Enabled = true;
             else if( b.Text == text )
+            {
                 b.Enabled = false;
-
-            listBox1.Items.Remove( text );
-        }
-
-        private void listBox1_MouseMove( object sender, MouseEventArgs e )
-        {
-            /* Point p = new Point( e.X, e.Y );
-             int index;
-             index = listBox1.IndexFromPoint( p );
-             if( e.Button == MouseButtons.Left )
-                 listBox1.DoDragDrop( listBox1.Items[index].ToString, DragDropEffects.All );*/
-        }
-
-        private void button1_DragDrop( object sender, DragEventArgs e )
-        {
-        }
-
-        private void button1_DragEnter( object sender, DragEventArgs e )
-        {
-            e.Effect = DragDropEffects.All;
+                listBox2.Items.Add( text );
+                b.BackColor = Color.SaddleBrown;
+            }
         }
 
         private void button_KeyDown( object sender, KeyEventArgs key )
         {
+            #region Move Buttons
             // Button 1 Move
             if( key.KeyCode == Keys.Z && button1.Enabled == true )
             {
@@ -389,6 +376,7 @@ namespace GraphicsFormsEssai
             {
                 button11.Top += 50;
             }
+            #endregion
         }
 
         private void button12_Click( object sender, EventArgs e )
@@ -416,8 +404,8 @@ namespace GraphicsFormsEssai
 
         private void comboBox1_SelectedIndexChanged( object sender, EventArgs e )
         {
-            string a = comboBox1.SelectedItem.ToString();
-            string caseSwitch = a;
+            string formation = comboBox1.SelectedItem.ToString();
+            string caseSwitch = formation;
             
 
             switch( caseSwitch )
@@ -443,9 +431,9 @@ namespace GraphicsFormsEssai
                     button3.Location = new Point( 150, 375 );
                     button4.Location = new Point( 150, 175 );
                     button5.Location = new Point( 150, 75 );
-                    button6.Location = new Point( 400, 195 );
+                    button6.Location = new Point( 400, 200 );
                     button7.Location = new Point( 500, 95 );
-                    button8.Location = new Point( 400, 355 );
+                    button8.Location = new Point( 400, 350 );
                     button9.Location = new Point( 500, 455 );
                     button10.Location = new Point( 800, 175 );
                     button11.Location = new Point( 800, 375 );
@@ -466,6 +454,17 @@ namespace GraphicsFormsEssai
                     break;
                 case "4-2-3-1":
                     listBox1.Items.Add( "Formation 4-2-3-1" );
+                    button1.Location = new Point( 0, 275 );
+                    button2.Location = new Point( 150, 475 );
+                    button3.Location = new Point( 150, 375 );
+                    button4.Location = new Point( 150, 175 );
+                    button5.Location = new Point( 150, 75 );
+                    button6.Location = new Point( 350, 175 );
+                    button7.Location = new Point( 350, 375 );
+                    button8.Location = new Point( 600, 450 );
+                    button9.Location = new Point( 600, 275 );
+                    button10.Location = new Point( 600, 100 );
+                    button11.Location = new Point( 800, 275 );
                     break;
                 case "5-3-2":
                     listBox1.Items.Add( "Formation 5-3-2" );
@@ -480,6 +479,90 @@ namespace GraphicsFormsEssai
                     break;
             }
             //sc++;
+        }
+
+        private void listBox1_SelectedIndexChanged( object sender, EventArgs e )
+        {
+            string a = listBox1.SelectedItem.ToString();
+            string caseSwitch = a;
+
+            if( a == button1.Text )
+            {
+                button1.Enabled = true;
+                listBox2.Items.Remove( a );
+                button1.BackColor = Color.Transparent;
+                button1.Text = "Gardien";
+            }
+            if( a == button2.Text )
+            {
+                button2.Enabled = true;
+                listBox2.Items.Remove( a );
+                button2.BackColor = Color.Transparent;
+                button2.Text = "";
+            }
+            if( a == button3.Text )
+            {
+                button3.Enabled = true;
+                listBox2.Items.Remove( a );
+                button3.BackColor = Color.Transparent;
+                button3.Text = "";
+            }
+            if( a == button4.Text )
+            {
+                button4.Enabled = true;
+                listBox2.Items.Remove( a );
+                button4.BackColor = Color.Transparent;
+                button4.Text = "";
+            }
+            if( a == button5.Text )
+            {
+                button5.Enabled = true;
+                listBox2.Items.Remove( a );
+                button5.BackColor = Color.Transparent;
+                button5.Text = "";
+            }
+            if( a == button6.Text )
+            {
+                button6.Enabled = true;
+                listBox2.Items.Remove( a );
+                button6.BackColor = Color.Transparent;
+                button6.Text = "";
+            }
+            if( a == button7.Text )
+            {
+                button7.Enabled = true;
+                listBox2.Items.Remove( a );
+                button7.BackColor = Color.Transparent;
+                button7.Text = "";
+            }
+            if( a == button8.Text )
+            {
+                button8.Enabled = true;
+                listBox2.Items.Remove( a );
+                button8.BackColor = Color.Transparent;
+                button8.Text = "";
+            }
+            if( a == button9.Text )
+            {
+                button9.Enabled = true;
+                listBox2.Items.Remove( a );
+                button9.BackColor = Color.Transparent;
+                button9.Text = "";
+            }
+            if( a == button10.Text )
+            {
+                button10.Enabled = true;
+                listBox2.Items.Remove( a );
+                button10.BackColor = Color.Transparent;
+                button10.Text = "";
+            }
+            if( a == button11.Text )
+            {
+                button11.Enabled = true;
+                listBox2.Items.Remove( a );
+                button11.BackColor = Color.Transparent;
+                button11.Text = "";
+            }
         }
     }
 }
