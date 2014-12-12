@@ -57,8 +57,12 @@
     <Compile Include="Player.cs" />
     <Compile Include="PlayerAgent.cs" />
     <Compile Include="PlayerList.cs" />
+<<<<<<< HEAD
     <Compile Include="Points.cs" />
+=======
+    <Compile Include="Point.cs" />
     <Compile Include="positionPlayer.cs" />
+>>>>>>> local_dev
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Segment.cs" />
     <Compile Include="Size.cs" />

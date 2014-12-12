@@ -50,6 +50,7 @@
             this.txtCheckPassword.PasswordChar = '*';
             this.txtCheckPassword.Size = new System.Drawing.Size(100, 20);
             this.txtCheckPassword.TabIndex = 1;
+            this.txtCheckPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCheckPassword_KeyDown);
             // 
             // label1
             // 
@@ -69,9 +70,11 @@
             this.Controls.Add(this.txtCheckPassword);
             this.Controls.Add(this.btConnexion);
             this.Name = "CheckPasswordForm";
+            this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Connection";
             this.Load += new System.EventHandler(this.CheckPasswordForm_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CheckPasswordForm_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -33,5 +33,16 @@ namespace SIMS.SimSoccerForm
             CalendarDisplay CD = new CalendarDisplay(_game);
             CD.Show(); 
         }
+
+        private void exitToolStripMenuItem_Click( object sender, EventArgs e )
+        {
+            Application.Exit();
+        }
+
+        private void profilToolStripMenuItem_Click( object sender, EventArgs e )
+        {
+            UserProfilForm UPF = new UserProfilForm( _game );
+            UPF.Show();
+        }
     }
 }
