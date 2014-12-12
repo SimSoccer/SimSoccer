@@ -59,13 +59,22 @@ namespace SIMS.SimSoccerForm
             }
             else
             {
-                XDocument doc = XDocument.Load( @".\..\..\..\" + listBox1.SelectedItem );
+               // string nameFile = "" + listBox1.SelectedItem;
+               // string chemin = Path.GetFullPath( nameFile );
 
-                Game _game = new Game( doc.Root.Element( "Profil" ) );
+               // if( System.IO.File.Exists( chemin ) )
+                //{
+                  //  XDocument doc = XDocument.Load( nameFile );
 
-                CheckPasswordForm CPF = new CheckPasswordForm( _game );
-                CPF.Show();
-            }
+                    XDocument doc = XDocument.Load( @".\..\..\..\" + listBox1.SelectedItem );
+
+                    Game _game = new Game( doc.Root.Element( "Profil" ) );
+
+                    CheckPasswordForm CPF = new CheckPasswordForm( _game );
+                    CPF.Show();
+                }
+
+            
             
         }
 

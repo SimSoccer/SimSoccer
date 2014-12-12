@@ -99,6 +99,12 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserProfilForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserProfilForm.Designer.cs">
+      <DependentUpon>UserProfilForm.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sims.SimSoccerModel\Sims.SimSoccerModel.csproj">
@@ -137,6 +143,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserProfilForm.resx">
+      <DependentUpon>UserProfilForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

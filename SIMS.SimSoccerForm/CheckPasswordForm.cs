@@ -17,7 +17,7 @@ namespace SIMS.SimSoccerForm
         {
             _game = game;
             InitializeComponent();
-            
+            this.ActiveControl = txtCheckPassword;
         }
 
         private void btConnexion_Click( object sender, EventArgs e )
@@ -42,6 +42,22 @@ namespace SIMS.SimSoccerForm
         private void CheckPasswordForm_Load( object sender, EventArgs e )
         {
 
+        }
+
+        private void CheckPasswordForm_KeyDown( object sender, KeyEventArgs e )
+        {
+            if( e.KeyCode == Keys.Enter )
+            {
+                btConnexion_Click( this, EventArgs.Empty );
+            }
+        }
+
+        private void txtCheckPassword_KeyDown( object sender, KeyEventArgs e )
+        {
+            if( e.KeyCode == Keys.Enter )
+            {
+                btConnexion_Click( this, EventArgs.Empty );
+            }
         }
     }
 }
