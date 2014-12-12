@@ -56,6 +56,16 @@ namespace GraphicsFormsEssai
                 e.Graphics.DrawRectangle( Pens.WhiteSmoke, c.X, c.Y, 1, 1 );
             }
 
+            foreach( Points c in _game.Field.Zones.GoalZonePoints )
+            {
+                e.Graphics.DrawRectangle( Pens.Black, c.X, c.Y, 1, 1 );
+            }
+
+            /*for( int i = 0; i < _game.Field.Zones.GoalZonePoints.Count; i++ )
+            {
+                listBox1.Items.Add( _game.Field.Zones.GoalZonePoints[i].X + ", " + _game.Field.Zones.GoalZonePoints[i].Y );
+            }*/
+            
             e.Graphics.DrawLine( Pens.Red, _game.Field.Zones.ThrowIn1[0].X, _game.Field.Zones.ThrowIn1[0].Y, _game.Field.Zones.ThrowIn1[10].X, _game.Field.Zones.ThrowIn1[10].Y );
             e.Graphics.DrawLine( Pens.Red, _game.Field.Zones.ThrowIn2[0].X, _game.Field.Zones.ThrowIn2[0].Y, _game.Field.Zones.ThrowIn2[10].X, _game.Field.Zones.ThrowIn2[10].Y );
             e.Graphics.DrawLine( Pens.Red, _game.Field.Zones.BehingGoalLine1[0].X, _game.Field.Zones.BehingGoalLine1[0].Y, _game.Field.Zones.BehingGoalLine1[6].X, _game.Field.Zones.BehingGoalLine1[6].Y );

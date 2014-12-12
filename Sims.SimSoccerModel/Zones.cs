@@ -73,6 +73,16 @@ namespace Sims.SimSoccerModel
                 _secondBehindGoalLinePoints.X = _X;
                 _behindGoalLine2.Add( _secondBehindGoalLinePoints );
             }
+
+
+            for( int _x = 0; _x < 100; _x++ )
+            {
+                for( int _y = 0; _y < 600; _y++ )
+                {
+                    Points _goalZonePoints = new Points( _x, _y );
+                    _goalZone.Add( _goalZonePoints );
+                }
+            }
         }
 
         public List<Points> ThrowIn1
@@ -93,6 +103,11 @@ namespace Sims.SimSoccerModel
         public List<Points> BehingGoalLine2
         {
             get { return _behindGoalLine2; }
+        }
+
+        public List<Points> GoalZonePoints
+        {
+            get { return _goalZone; }
         }
     }
 }
