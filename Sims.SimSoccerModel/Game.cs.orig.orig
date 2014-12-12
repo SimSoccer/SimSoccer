@@ -20,21 +20,21 @@ namespace Sims.SimSoccerModel
         string _avatar;
         private   XElement xElement;
         readonly Field _field;
+<<<<<<< HEAD
 
         public PlayerList PlayerList
         {
             get { return _playerList; }
         }
 
-        public Field Field
+=======
+
+        public PlayerList PlayerList
         {
-            get { return _field; }
-        }
-        public TeamList TeamList
-        {
-            get { return _teamList; }
+            get { return _playerList; }
         }
 
+>>>>>>> local_dev
         public Field Field
         {
             get { return _field; }
@@ -89,10 +89,15 @@ namespace Sims.SimSoccerModel
             _playerList = new PlayerList( this, doc.Root.Element( "Players" ) );
             _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
             _ligue = new Ligue(this,2014);
+<<<<<<< HEAD
+<<<<<<< HEAD
             _avatar =  @".\..\..\..\avatar.jpg";
-
 =======
             _field = new Field();
+
+>>>>>>> local_dev
+=======
+            _avatar =  @".\..\..\..\avatar.jpg";
 
 >>>>>>> local_dev
         }
