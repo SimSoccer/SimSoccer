@@ -8,11 +8,11 @@ namespace Sims.SimSoccerModel
 {
     public class positionPlayer
     {
-        Point _position;
-        public positionPlayer(Point p)
+        Points _position;
+        public positionPlayer(Points p)
         {
             _position = p;
         }
-        public Point Position { get; set; }
+        public Points Position { get; set; }
     }
 }
