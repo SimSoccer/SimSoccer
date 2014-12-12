@@ -48,6 +48,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
+            this.button12 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -251,12 +252,24 @@
             this.listBox2.Size = new System.Drawing.Size(264, 238);
             this.listBox2.TabIndex = 15;
             // 
+            // button12
+            // 
+            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Location = new System.Drawing.Point(150, 618);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(100, 61);
+            this.button12.TabIndex = 16;
+            this.button12.Text = "Recommencer";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
             // GDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1354, 691);
+            this.Controls.Add(this.button12);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.listBox1);
@@ -308,5 +321,6 @@
         private System.Windows.Forms.ToolStripMenuItem restartFormationToolStripMenuItem;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.Button button12;
     }
 }

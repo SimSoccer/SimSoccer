@@ -17,14 +17,12 @@ namespace GraphicsFormsEssai
     {
         Game _game = new Game( "Toto", "Tata" );
         ListBox playerList = new ListBox();
-
-        Button b;
         Dictionary<string, Button> test = new Dictionary<string, Button>();
-        int c = 0;
+
         public GDI()
         {
             InitializeComponent();
-            int c;
+
             listBox1.Items.Add( "Joueurs non utilisés : " );
             listBox2.Items.Add( "Joueurs utilisés : " );
             for( int i = 0; i < _game.TeamList.Teams[8].TeamPlayers.Count; i++ )
@@ -48,7 +46,12 @@ namespace GraphicsFormsEssai
             this.DoubleBuffered = true;
             this.Paint += new PaintEventHandler( GDI_Paint );
         }
-
+        
+        /// <summary>
+        /// Draw the whole field in the form. Can show different points.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void GDI_Paint( object sender, PaintEventArgs e )
         {
             //Brushes the whole field in Green
@@ -66,6 +69,7 @@ namespace GraphicsFormsEssai
                 e.Graphics.DrawRectangle( Pens.WhiteSmoke, c.X, c.Y, 1, 1 );
             }
 
+            #region Show Different Zones
             // Here you will be able to screen the zones
 
             /*
@@ -93,6 +97,7 @@ namespace GraphicsFormsEssai
                 e.Graphics.DrawRectangle( Pens.Red, c.X, c.Y, 1, 1 );
             }
             */
+            #endregion
 
             e.Graphics.DrawLine( Pens.Red, _game.Field.Zones.ThrowIn1[0].X, _game.Field.Zones.ThrowIn1[0].Y, _game.Field.Zones.ThrowIn1[10].X, _game.Field.Zones.ThrowIn1[10].Y );
             e.Graphics.DrawLine( Pens.Red, _game.Field.Zones.ThrowIn2[0].X, _game.Field.Zones.ThrowIn2[0].Y, _game.Field.Zones.ThrowIn2[10].X, _game.Field.Zones.ThrowIn2[10].Y );
@@ -127,6 +132,11 @@ namespace GraphicsFormsEssai
             MessageBox.Show( "Made by Guénolé K.", "4-4-2 losange window" );
         }
 
+        /// <summary>
+        /// Add the selected player name in the chosen button.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button_click( object sender, EventArgs e )
         {
             Button b = ( Button )sender;
@@ -143,6 +153,11 @@ namespace GraphicsFormsEssai
             }
         }
 
+        /// <summary>
+        /// Move a button with Keys. 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="key"></param>
         private void button_KeyDown( object sender, KeyEventArgs key )
         {
             #region Move Buttons
@@ -379,39 +394,20 @@ namespace GraphicsFormsEssai
             #endregion
         }
 
-        private void button12_Click( object sender, EventArgs e )
-        {
-
-
-            /*case 2:
-                break;
-
-            case 3:
-                break;
-
-            case 4
-                break;
-
-            case 5:
-                break;
-
-            case 6:
-                break;
-            case 7:
-                Environment.Exit( 0 );
-                break;*/
-        }
-
+        /// <summary>
+        /// Chose a formation and change the buttons' position.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void comboBox1_SelectedIndexChanged( object sender, EventArgs e )
         {
+            #region Cases' Gestion
             string formation = comboBox1.SelectedItem.ToString();
             string caseSwitch = formation;
-            
 
             switch( caseSwitch )
             {
                 case "4-4-2 losange":
-                    listBox1.Items.Add( "Formation 4-4-2 losange" );
                     button1.Location = new Point( 0, 275 );
                     button2.Location = new Point( 150, 475 );
                     button3.Location = new Point( 150, 375 );
@@ -425,7 +421,6 @@ namespace GraphicsFormsEssai
                     button11.Location = new Point( 800, 375 );
                     break;
                 case "4-4-2":
-                    listBox1.Items.Add( "Formation 4-4-2" );
                     button1.Location = new Point( 0, 275 );
                     button2.Location = new Point( 150, 475 );
                     button3.Location = new Point( 150, 375 );
@@ -439,7 +434,6 @@ namespace GraphicsFormsEssai
                     button11.Location = new Point( 800, 375 );
                     break;
                 case "4-3-3":
-                    listBox1.Items.Add( "Formation 4-3-3" );
                     button1.Location = new Point( 0, 275 );
                     button2.Location = new Point( 150, 475 );
                     button3.Location = new Point( 150, 375 );
@@ -453,7 +447,6 @@ namespace GraphicsFormsEssai
                     button11.Location = new Point( 800, 275 );
                     break;
                 case "4-2-3-1":
-                    listBox1.Items.Add( "Formation 4-2-3-1" );
                     button1.Location = new Point( 0, 275 );
                     button2.Location = new Point( 150, 475 );
                     button3.Location = new Point( 150, 375 );
@@ -467,7 +460,6 @@ namespace GraphicsFormsEssai
                     button11.Location = new Point( 800, 275 );
                     break;
                 case "5-3-2":
-                    listBox1.Items.Add( "Formation 5-3-2" );
                     button1.Location = new Point( 0, 275 );
                     button2.Location = new Point( 250, 500 );
                     button3.Location = new Point( 150, 375 );
@@ -481,7 +473,6 @@ namespace GraphicsFormsEssai
                     button11.Location = new Point( 800, 375 );
                     break;
                 case "5-4-1":
-                    listBox1.Items.Add( "Formation 5-4-1" );
                     button1.Location = new Point( 0, 275 );
                     button2.Location = new Point( 250, 500 );
                     button3.Location = new Point( 150, 375 );
@@ -495,7 +486,6 @@ namespace GraphicsFormsEssai
                     button11.Location = new Point( 800, 275 );
                     break;
                 case "3-5-2":
-                    listBox1.Items.Add( "Formation 3-5-2" );
                     button1.Location = new Point( 0, 275 );
                     button2.Location = new Point( 450, 450 );
                     button3.Location = new Point( 150, 375 );
@@ -511,13 +501,18 @@ namespace GraphicsFormsEssai
                 default:
                     break;
             }
-            //sc++;
+            #endregion
         }
 
+        /// <summary>
+        /// Re-activate the button if user want to change the player's position.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void listBox1_SelectedIndexChanged( object sender, EventArgs e )
         {
+            #region Button's Management
             string a = listBox1.SelectedItem.ToString();
-            string caseSwitch = a;
 
             if( a == button1.Text )
             {
@@ -596,6 +591,11 @@ namespace GraphicsFormsEssai
                 button11.BackColor = Color.Transparent;
                 button11.Text = "";
             }
+            #endregion
+        }
+
+        private void button12_Click( object sender, EventArgs e )
+        {
         }
     }
 }
