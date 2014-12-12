@@ -81,7 +81,7 @@ namespace Sims.SimSoccerModel
             _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
             _ligue = new Ligue(this,2014);
             _avatar =  @".\..\..\..\avatar.jpg";
-
+            _field = new Field();
         }
 
         public Game( XElement e )
