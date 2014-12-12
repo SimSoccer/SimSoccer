@@ -17,12 +17,14 @@ namespace GraphicsFormsEssai
     {
         Game _game = new Game( "Toto", "Tata" );
         ListBox playerList = new ListBox();
-        int c;
+
         Button b;
         Dictionary<string, Button> test = new Dictionary<string, Button>();
+        int c = 0;
         public GDI()
         {
             InitializeComponent();
+            int c;
             for( int i = 0; i < _game.TeamList.Teams[8].TeamPlayers.Count; i++ )
             {
                 string players = _game.TeamList.Teams[8].TeamPlayers[i].Name;
@@ -387,6 +389,97 @@ namespace GraphicsFormsEssai
             {
                 button11.Top += 50;
             }
+        }
+
+        private void button12_Click( object sender, EventArgs e )
+        {
+
+
+            /*case 2:
+                break;
+
+            case 3:
+                break;
+
+            case 4
+                break;
+
+            case 5:
+                break;
+
+            case 6:
+                break;
+            case 7:
+                Environment.Exit( 0 );
+                break;*/
+        }
+
+        private void comboBox1_SelectedIndexChanged( object sender, EventArgs e )
+        {
+            string a = comboBox1.SelectedItem.ToString();
+            string caseSwitch = a;
+            
+
+            switch( caseSwitch )
+            {
+                case "4-4-2 losange":
+                    listBox1.Items.Add( "Formation 4-4-2 losange" );
+                    button1.Location = new Point( 0, 275 );
+                    button2.Location = new Point( 150, 475 );
+                    button3.Location = new Point( 150, 375 );
+                    button4.Location = new Point( 150, 175 );
+                    button5.Location = new Point( 150, 75 );
+                    button6.Location = new Point( 350, 275 );
+                    button7.Location = new Point( 500, 125 );
+                    button8.Location = new Point( 500, 425 );
+                    button9.Location = new Point( 650, 275 );
+                    button10.Location = new Point( 800, 175 );
+                    button11.Location = new Point( 800, 375 );
+                    break;
+                case "4-4-2":
+                    listBox1.Items.Add( "Formation 4-4-2" );
+                    button1.Location = new Point( 0, 275 );
+                    button2.Location = new Point( 150, 475 );
+                    button3.Location = new Point( 150, 375 );
+                    button4.Location = new Point( 150, 175 );
+                    button5.Location = new Point( 150, 75 );
+                    button6.Location = new Point( 400, 195 );
+                    button7.Location = new Point( 500, 95 );
+                    button8.Location = new Point( 400, 355 );
+                    button9.Location = new Point( 500, 455 );
+                    button10.Location = new Point( 800, 175 );
+                    button11.Location = new Point( 800, 375 );
+                    break;
+                case "4-3-3":
+                    listBox1.Items.Add( "Formation 4-3-3" );
+                    button1.Location = new Point( 0, 275 );
+                    button2.Location = new Point( 150, 475 );
+                    button3.Location = new Point( 150, 375 );
+                    button4.Location = new Point( 150, 175 );
+                    button5.Location = new Point( 150, 75 );
+                    button6.Location = new Point( 350, 275 );
+                    button7.Location = new Point( 500, 175 );
+                    button8.Location = new Point( 500, 375 );
+                    button9.Location = new Point( 700, 475 );
+                    button10.Location = new Point( 700, 75 );
+                    button11.Location = new Point( 800, 275 );
+                    break;
+                case "4-2-3-1":
+                    listBox1.Items.Add( "Formation 4-2-3-1" );
+                    break;
+                case "5-3-2":
+                    listBox1.Items.Add( "Formation 5-3-2" );
+                    break;
+                case "5-4-1":
+                    listBox1.Items.Add( "Formation 5-4-1" );
+                    break;
+                case "3-5-2":
+                    listBox1.Items.Add( "Formation 3-5-2" );
+                    break;
+                default:
+                    break;
+            }
+            //sc++;
         }
     }
 }
