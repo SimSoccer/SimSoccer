@@ -19,12 +19,17 @@ namespace Sims.SimSoccerModel
         string _choosenTeam;
         string _avatar;
         private   XElement xElement;
+        readonly Field _field;
 
         public PlayerList PlayerList
         {
             get { return _playerList; }
         }
 
+        public Field Field
+        {
+            get { return _field; }
+        }
         public TeamList TeamList
         {
             get { return _teamList; }
@@ -56,8 +61,9 @@ namespace Sims.SimSoccerModel
         {
             XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
             XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
+            XDocument doc3 = XDocument.Load(@".\..\..\..\Tactics.xml");
             _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
-            _playerList = new PlayerList( this, doc.Root.Element("Players") );
+            _playerList = new PlayerList( this, doc.Root.Element("Player") );
         }
         public Game( string userName )
         {
@@ -70,10 +76,12 @@ namespace Sims.SimSoccerModel
             _userPassword = userPassword;
             XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
             XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
+            XDocument doc3 = XDocument.Load(@".\..\..\..\Tactics.xml");
             _playerList = new PlayerList( this, doc.Root.Element( "Players" ) );
             _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
             _ligue = new Ligue(this,2014);
             _avatar =  @".\..\..\..\avatar.jpg";
+
         }
 
         public Game( XElement e )

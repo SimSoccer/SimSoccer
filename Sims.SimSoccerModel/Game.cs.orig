@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 using System.Xml.Linq;
 
 namespace Sims.SimSoccerModel
@@ -12,15 +13,32 @@ namespace Sims.SimSoccerModel
     {
         readonly TeamList _teamList;
         readonly PlayerList _playerList;
+        readonly Ligue _ligue;
         string _userName;
         string _userPassword;
         string _choosenTeam;
-<<<<<<< HEAD
-        
-=======
-        int _id;
->>>>>>> 9a226c3b9bcd69c2e4b79db34fe18e6b375d3e52
+        string _avatar;
+        private   XElement xElement;
+        readonly Field _field;
 
+        public PlayerList PlayerList
+        {
+            get { return _playerList; }
+        }
+
+        public Field Field
+        {
+            get { return _field; }
+        }
+        public TeamList TeamList
+        {
+            get { return _teamList; }
+        }
+
+        public Ligue Ligue
+        {
+            get { return _ligue; }
+        }
         public string UserName
         {
             get { return _userName; }
@@ -29,48 +47,80 @@ namespace Sims.SimSoccerModel
         {
             get { return _userPassword; }
         }
+        public string Avatar
+        {
+            get { return _avatar; }
+        }
         public string ChoosenTeam
         {
             get { return _choosenTeam; }
             set { _choosenTeam = value; }
         }
 
-        public int ID
-        {
-            get { return _id; }
-        }
         public Game()
         {
-            _teamList = new TeamList( this );
-            _playerList = new PlayerList( this );
+            XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
+            XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
+            XDocument doc3 = XDocument.Load(@".\..\..\..\Tactics.xml");
+            _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
+            _playerList = new PlayerList( this, doc.Root.Element("Player") );
         }
-        public Game( int id, string userName, string userPassword )
+        public Game( string userName )
+        {
+            _userName = userName;
+            XDocument doc = XDocument.Load( @".\..\..\..\user_" + userName + "*" );
+        }
+        public Game( string userName, string userPassword )
         {
             _userName = userName;
             _userPassword = userPassword;
-            _id = id;
-        }
-        public Game( string choosenTeam , string userName , string userPassword)
-        {
-            _choosenTeam = choosenTeam;
-            _userName = userName;
-            _userPassword = userPassword;
+            XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
+            XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
+            XDocument doc3 = XDocument.Load(@".\..\..\..\Tactics.xml");
+            _playerList = new PlayerList( this, doc.Root.Element( "Players" ) );
+            _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
+            _ligue = new Ligue(this,2014);
+<<<<<<< HEAD
+            _avatar =  @".\..\..\..\avatar.jpg";
+=======
+            _field = new Field();
+
+>>>>>>> local_dev
         }
 
-       
-        public void ToXML()
+        public Game( XElement e )
+        {
+            // TODO: Complete member initialization
+            this.xElement = e;
+            _userName = e.Element( "UserName" ).Value;
+            _userPassword = e.Element( "Password" ).Value;
+            _choosenTeam = e.Element( "ChosenTeam" ).Value;
+            _avatar = e.Element( "Avatar" ).Value;
+            XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
+            XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
+            _playerList = new PlayerList( this, doc.Root.Element( "Players" ) );
+            _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
+            _ligue = new Ligue( this, 2014 );
+            
+        }
+
+      
+
+        public void GameToXml(Game game)
         {
             int i;
+            string saveNameUserId;
             string userNumber = @".\..\..\..\UserNumber.xml";
-            if( File.Exists(userNumber) == false )
+            if( File.Exists( userNumber ) == false )
             {
                 i = 0;
                 XDocument un = new XDocument(
                 new XElement( "Game",
                     new XElement( "UserNumber",
-                        new XElement( "Number", i ) ) ) );
+                        new XElement( "Number", ++i) ) ) );
                 un.Save( @".\..\..\..\UserNumber.xml" );
-                _id = i;
+                i = 0;
+                saveNameUserId = i.ToString();
             }
             else
             {
@@ -81,39 +131,60 @@ namespace Sims.SimSoccerModel
                     new XElement( "UserNumber",
                         new XElement( "Number", i + 1 ) ) ) );
                 un.Save( @".\..\..\..\UserNumber.xml" );
-                _id = i;
+                if( i < 10 )
+                {
+                    saveNameUserId = "0" + i.ToString();
+                }
+                else
+                    saveNameUserId = i.ToString();
+                    
             }
 
-            _choosenTeam = "teamTest";
-            XDocument doc = new XDocument(
-                new XElement( "Game",
-                    new XElement( "Profil",
-                        new XAttribute( "Id", _id ),
-                        new XElement( "Save", _userName ),
-                        new XElement( "Password", _userPassword ),
-                        new XElement( "Team", _choosenTeam ) ) ) );
-            DateTime today = DateTime.Now;
-            doc.Save( @".\..\..\..\user_" + _userName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
-        }
+            XDocument gameSave = new XDocument(
+                new XElement("Game",
+                    new XElement("Profil",
+                        new XAttribute("ID", i),
+                        new XElement("UserName", _userName),
+                        new XElement("Password", _userPassword),
+                        new XElement("Avatar", _avatar),
+                        new XElement("ChosenTeam", "")),
+                    game.TeamList.ToXml(),
+                    new XElement("FreePlayers",
+                        new XElement("TheFreePlayer"))));
 
-        public TeamList CreateTeam() 
+            DateTime today = DateTime.Now;
+            gameSave.Save( @".\..\..\..\user_" + _userName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+        }
+        public void SaveAvatarToXML( string avatar, Game game )
         {
-            var t = 0;
-            TeamList tl = new TeamList(this);
-            return tl;
+            _avatar = avatar;
+            DateTime today = DateTime.Now;
+
+            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var target = doc
+                 .Elements( "Profil" )
+                 .Single();
+
+            target.Element( "Avatar" ).Value = _avatar;
+
+            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+
         }
         public void ToXML( string ChoosenTeam, Game game)
         {
             _choosenTeam = ChoosenTeam;
-            
-            XDocument doc = new XDocument(
-                new XElement( "Game",
-                    new XElement( "Save", _userName ),
-                    new XElement( "Password", _userPassword ),
-                    new XElement( "Team", _choosenTeam ) ) );
-          
-            
-            doc.Save( @".\..\..\..\SaveOf" + _userName + ".xml" );
+
+
+            DateTime today = DateTime.Now;
+
+            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var target = doc
+                 .Elements( "Profil" )
+                 .Single();
+
+            target.Element( "ChosenTeam" ).Value = _choosenTeam;
+
+            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }
     }
 }
