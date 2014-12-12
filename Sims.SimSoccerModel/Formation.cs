@@ -9,35 +9,35 @@ namespace Sims.SimSoccerModel
 {
     public class Formation
     {
-        float _ad;
-        float _mo;
-        float _dcd;
-        float _dcg;
-        float _dld;
-        float _dlg;
-        float _gb;
-        float _ag;
-        float _at;
-        float _mdf;
-        float _mc;
-        float _mlg;
-        float _mld;
+        Point _ad;
+        Point _mo;
+        Point _dcd;
+        Point _dcg;
+        Point _dld;
+        Point _dlg;
+        Point _gb;
+        Point _ag;
+        Point _at;
+        Point _mdf;
+        Point _mc;
+        Point _mlg;
+        Point _mld;
 
         public Formation(XElement e)
         {
-            _ad = float.Parse(e.Attribute("AD").Value);
-            _mo = float.Parse(e.Attribute("MO").Value);
-            _dcd = float.Parse(e.Attribute("DCD").Value);
-            _dcg = float.Parse(e.Attribute("DCG").Value);
-            _dlg = float.Parse(e.Attribute("DLG").Value);
-            _dld = float.Parse(e.Attribute("DLD").Value);
-            _gb = float.Parse(e.Attribute("GB").Value);
-            _at = float.Parse(e.Attribute("AT").Value);
-            _mdf = float.Parse(e.Attribute("MDF").Value);
-            _mc = float.Parse(e.Attribute("MC").Value);
-            _ag = float.Parse(e.Attribute("AG").Value);
-            _mld = float.Parse(e.Attribute("MLD").Value);
-            _mlg = float.Parse(e.Attribute("MLG").Value);
+            _ad = Point.Parse(e.Attribute("AD").Value);
+            _mo = Point.Parse(e.Attribute("MO").Value);
+            _dcd = Point.Parse(e.Attribute("DCD").Value);
+            _dcg = Point.Parse(e.Attribute("DCG").Value);
+            _dlg = Point.Parse(e.Attribute("DLG").Value);
+            _dld = Point.Parse(e.Attribute("DLD").Value);
+            _gb = Point.Parse(e.Attribute("GB").Value);
+            _at = Point.Parse(e.Attribute("AT").Value);
+            _mdf = Point.Parse(e.Attribute("MDF").Value);
+            _mc = Point.Parse(e.Attribute("MC").Value);
+            _ag = Point.Parse(e.Attribute("AG").Value);
+            _mld = Point.Parse(e.Attribute("MLD").Value);
+            _mlg = Point.Parse(e.Attribute("MLG").Value);
         }
 
     }
