@@ -31,6 +31,12 @@ namespace GraphicsFormsEssai
                 playerList.Items.Add( shirtNumber + " " + Environment.NewLine + players );
             }
 
+            listBox1.Items.Add( "" );
+            listBox1.Items.Add( "Zones : " );
+            listBox1.Items.Add( "Violet => Goalkipper's Zone" );
+            listBox1.Items.Add( "Blue => Defense players' Zone" );
+            listBox1.Items.Add( "Pink => Middlefield players' Zone" );
+            listBox1.Items.Add( "Red => Strikers' Zone" );
         }
 
         private void GDI_Load( object sender, EventArgs e )
@@ -56,16 +62,34 @@ namespace GraphicsFormsEssai
                 e.Graphics.DrawRectangle( Pens.WhiteSmoke, c.X, c.Y, 1, 1 );
             }
 
+            // Here you will be able to screen the zones
+
+            /*
+            // Here to show Goal Zone in the field
             foreach( Points c in _game.Field.Zones.GoalZonePoints )
             {
-                e.Graphics.DrawRectangle( Pens.Black, c.X, c.Y, 1, 1 );
+                e.Graphics.DrawRectangle( Pens.BlueViolet, c.X, c.Y, 1, 1 );
             }
 
-            /*for( int i = 0; i < _game.Field.Zones.GoalZonePoints.Count; i++ )
+            // Here to show Defense Zone in the field
+            foreach( Points c in _game.Field.Zones.DefenseZonePoints )
             {
-                listBox1.Items.Add( _game.Field.Zones.GoalZonePoints[i].X + ", " + _game.Field.Zones.GoalZonePoints[i].Y );
-            }*/
-            
+                e.Graphics.DrawRectangle( Pens.Blue, c.X, c.Y, 1, 1 );
+            }
+
+            // Here to show Middle Zone in the field
+            foreach( Points c in _game.Field.Zones.MiddleZonePoints )
+            {
+                e.Graphics.DrawRectangle( Pens.White, c.X, c.Y, 1, 1 );
+            }
+
+            // Here to show Strike Zone in the field
+            foreach( Points c in _game.Field.Zones.StrikeZonePoints )
+            {
+                e.Graphics.DrawRectangle( Pens.Red, c.X, c.Y, 1, 1 );
+            }
+            */
+
             e.Graphics.DrawLine( Pens.Red, _game.Field.Zones.ThrowIn1[0].X, _game.Field.Zones.ThrowIn1[0].Y, _game.Field.Zones.ThrowIn1[10].X, _game.Field.Zones.ThrowIn1[10].Y );
             e.Graphics.DrawLine( Pens.Red, _game.Field.Zones.ThrowIn2[0].X, _game.Field.Zones.ThrowIn2[0].Y, _game.Field.Zones.ThrowIn2[10].X, _game.Field.Zones.ThrowIn2[10].Y );
             e.Graphics.DrawLine( Pens.Red, _game.Field.Zones.BehingGoalLine1[0].X, _game.Field.Zones.BehingGoalLine1[0].Y, _game.Field.Zones.BehingGoalLine1[6].X, _game.Field.Zones.BehingGoalLine1[6].Y );
