@@ -23,12 +23,17 @@ namespace GraphicsFormsEssai
         {
             InitializeComponent();
 
-            listBox1.Items.Add( "Joueurs non utilisés : " );
-            listBox2.Items.Add( "Joueurs utilisés : " );
+            NewGDI( this );
+        }
+
+        private void NewGDI( GDI newone )
+        {
+            listBox1.Items.Add( "Joueurs de votre équipe : " );
+            listBox2.Items.Add( "Titulaires : " );
             for( int i = 0; i < _game.TeamList.Teams[8].TeamPlayers.Count; i++ )
             {
                 string players = _game.TeamList.Teams[8].TeamPlayers[i].Name;
-                int shirtNumber = _game.TeamList.Teams[8].TeamPlayers[i].ShirtNumber;
+                string shirtNumber = _game.TeamList.Teams[8].TeamPlayers[i].Poste;
                 listBox1.Items.Add( shirtNumber + " " + Environment.NewLine + players );
                 playerList.Items.Add( shirtNumber + " " + Environment.NewLine + players );
             }
@@ -39,6 +44,10 @@ namespace GraphicsFormsEssai
             listBox1.Items.Add( "Blue => Defense players' Zone" );
             listBox1.Items.Add( "Pink => Middlefield players' Zone" );
             listBox1.Items.Add( "Red => Strikers' Zone" );
+
+            button1.Text = "Gardien";
+            button12.Text = "Recommencer";
+            comboBox1.Text = "Formations";
         }
 
         private void GDI_Load( object sender, EventArgs e )
@@ -99,6 +108,7 @@ namespace GraphicsFormsEssai
             */
             #endregion
 
+            // Draw the throw in lines and the behind goal lines.
             e.Graphics.DrawLine( Pens.Red, _game.Field.Zones.ThrowIn1[0].X, _game.Field.Zones.ThrowIn1[0].Y, _game.Field.Zones.ThrowIn1[10].X, _game.Field.Zones.ThrowIn1[10].Y );
             e.Graphics.DrawLine( Pens.Red, _game.Field.Zones.ThrowIn2[0].X, _game.Field.Zones.ThrowIn2[0].Y, _game.Field.Zones.ThrowIn2[10].X, _game.Field.Zones.ThrowIn2[10].Y );
             e.Graphics.DrawLine( Pens.Red, _game.Field.Zones.BehingGoalLine1[0].X, _game.Field.Zones.BehingGoalLine1[0].Y, _game.Field.Zones.BehingGoalLine1[6].X, _game.Field.Zones.BehingGoalLine1[6].Y );
@@ -504,16 +514,12 @@ namespace GraphicsFormsEssai
             #endregion
         }
 
-        /// <summary>
-        /// Re-activate the button if user want to change the player's position.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void listBox1_SelectedIndexChanged( object sender, EventArgs e )
+
+        private void ManageListBox1WithButtonsPlayers()
         {
-            #region Button's Management
             string a = listBox1.SelectedItem.ToString();
 
+            #region Mange listBox1 names
             if( a == button1.Text )
             {
                 button1.Enabled = true;
@@ -594,8 +600,40 @@ namespace GraphicsFormsEssai
             #endregion
         }
 
+        /// <summary>
+        /// Re-activate the button if user want to change the player's position.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void listBox1_SelectedIndexChanged( object sender, EventArgs e )
+        {
+            ManageListBox1WithButtonsPlayers();
+        }
+
+        /// <summary>
+        /// Reset the GDI in its initial form.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button12_Click( object sender, EventArgs e )
         {
+            foreach( Control c in this.Controls )
+            {
+                if( c is Button )
+                {
+                    Button b = ( Button )c;
+                    b.Enabled = true;
+                    b.Text = "";
+                    b.BackColor = Color.White;
+                }
+                if( c is ListBox )
+                {
+                    ListBox l = ( ListBox )c;
+                    l.Items.Clear();
+                }
+            }
+            NewGDI( this );
         }
+
     }
 }
