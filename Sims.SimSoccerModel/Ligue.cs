@@ -33,7 +33,7 @@ namespace Sims.SimSoccerModel
         {
             Random r = new Random();
             _calendar = new Calendar(_game.TeamList.Teams.Count, _year, this);
-            List<int> indicesEquipes = Enumerable.Range(0, 20).OrderBy(x => r.Next()).ToList();
+            List<int> indicesEquipes = Enumerable.Range(0, 20).OrderBy(x => _game.Rnd.Next()).ToList();
 
             for (int i = 0; i < (_game.TeamList.Teams.Count - 1) * 2; i++)
             {

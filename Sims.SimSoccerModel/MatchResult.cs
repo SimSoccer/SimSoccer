@@ -77,20 +77,21 @@ namespace Sims.SimSoccerModel
             
             if( _scoreD == _scoreE )
             {
-               _textSummary =  "it's a tie betwen " + _dom.Name + " and " + _ext.Name;
+               _textSummary =  "it's a tie betwen " + _dom.Name + " and " + _ext.Name + "\nScore: " + ScoreD + " - " + ScoreE;
+
             }
              else if( _scoreD > _scoreE )
             {
                 _winner = _dom.Name;
                 _looser = _ext.Name;
-                _textSummary = _dom.Name + " won against " + _ext.Name;
+                _textSummary = _dom.Name + " won against " + _ext.Name + "\nScore: " + ScoreD + " - " + ScoreE;
                 
             }
             else if( _scoreD < _scoreE )
             {
                 _winner = _ext.Name;
                 _looser = _dom.Name;
-                _textSummary = _ext.Name + " won against " + _dom.Name;
+                _textSummary = _dom.Name + " loose against " + _ext.Name + "\nScore: " + ScoreD + " - " + ScoreE;
                 
             }
            
