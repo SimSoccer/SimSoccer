@@ -38,7 +38,6 @@ namespace GraphicsFormsEssai
                 playerList.Items.Add( shirtNumber + " " + Environment.NewLine + players );
             }
 
-            listBox1.Items.Add( "" );
             listBox1.Items.Add( "Zones : " );
             listBox1.Items.Add( "Violet => Goalkipper's Zone" );
             listBox1.Items.Add( "Blue => Defense players' Zone" );
@@ -149,18 +148,32 @@ namespace GraphicsFormsEssai
         /// <param name="e"></param>
         private void button_click( object sender, EventArgs e )
         {
+            int count = 0;
             Button b = ( Button )sender;
             string text = listBox1.GetItemText( listBox1.SelectedItem );
             b.Text = text;
 
-            if( b.Text == "" )
-                b.Enabled = true;
-            else if( b.Text == text )
+            foreach( Control but in Controls )
             {
-                b.Enabled = false;
-                listBox2.Items.Add( text );
-                b.BackColor = Color.SaddleBrown;
+                if(but is Button)
+                {
+                    if( but.Text == text )
+                        count++;
+                    if( count == 2 )
+                        throw new ArgumentException( "There is already a player in the field." );
+                    else if( count == 0 )
+                    {
+                        if( b.Text == "" )
+                            b.Enabled = true;
+                        else if( b.Text == text )
+                        {
+                            b.Enabled = false;
+                        }
+                    }
+                }
             }
+            listBox2.Items.Add( text );
+            b.BackColor = Color.SaddleBrown;
         }
 
         /// <summary>
