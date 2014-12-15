@@ -503,7 +503,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>SCB</ActualTeamTag>
-      <Status>Reserviste</Status>
+      <Status>Remplacent</Status>
     </Player>
     <Player Id="28" Name="Gilles Cioni">
       <ShirtNumber>29</ShirtNumber>
@@ -521,7 +521,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>SCB</ActualTeamTag>
-      <Status>Titulaire</Status>
+      <Status>Reserviste</Status>
     </Player>
     <Player Id="29" Name="Thomas Vincensini">
       <ShirtNumber>30</ShirtNumber>
@@ -1421,7 +1421,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>SMC</ActualTeamTag>
-      <Status>Reserviste</Status>
+      <Status>Titulaire</Status>
     </Player>
     <Player Id="79" Name="Yrondu Musavu-King">
       <ShirtNumber>29</ShirtNumber>
@@ -5111,7 +5111,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>ASM</ActualTeamTag>
-      <Status>Reserviste</Status>
+      <Status>Remplacent</Status>
     </Player>
     <Player Id="284" Name="João Moutinho">
       <ShirtNumber>8</ShirtNumber>
@@ -5435,7 +5435,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>ASM</ActualTeamTag>
-      <Status>Reserviste</Status>
+      <Status>Remplacent</Status>
     </Player>
     <Player Id="302" Name="Aboud Aziz Thiam">
       <ShirtNumber>37</ShirtNumber>
@@ -5669,7 +5669,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>MHSC</ActualTeamTag>
-      <Status>Remplacent</Status>
+      <Status>Titulaire</Status>
     </Player>
     <Player Id="315" Name="Dylan Gissi">
       <ShirtNumber>13</ShirtNumber>
@@ -5867,7 +5867,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>MHSC</ActualTeamTag>
-      <Status>Titulaire</Status>
+      <Status>Reserviste</Status>
     </Player>
     <Player Id="326" Name="Yassine Jebbour">
       <ShirtNumber>26</ShirtNumber>
@@ -5993,7 +5993,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>MHSC</ActualTeamTag>
-      <Status>Remplacent</Status>
+      <Status>Reserviste</Status>
     </Player>
     <Player Id="333" Name="Rémy Riou">
       <ShirtNumber>1</ShirtNumber>
@@ -6857,7 +6857,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>OGCN</ActualTeamTag>
-      <Status>Reserviste</Status>
+      <Status>Titulaire</Status>
     </Player>
     <Player Id="381" Name="Romain Genevois">
       <ShirtNumber>25</ShirtNumber>
@@ -7145,7 +7145,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>PSG</ActualTeamTag>
-      <Status>Remplacent</Status>
+      <Status>Reserviste</Status>
     </Player>
     <Player Id="397" Name="Mike Maignan">
       <ShirtNumber>16</ShirtNumber>
@@ -7307,7 +7307,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>PSG</ActualTeamTag>
-      <Status>Remplacent</Status>
+      <Status>Reserviste</Status>
     </Player>
     <Player Id="406" Name="Javier Pastore">
       <ShirtNumber>27</ShirtNumber>
@@ -7811,7 +7811,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>SDR</ActualTeamTag>
-      <Status>Remplacent</Status>
+      <Status>Reserviste</Status>
     </Player>
     <Player Id="434" Name="Omenuke Mfulu">
       <ShirtNumber>26</ShirtNumber>
@@ -7865,7 +7865,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>SDR</ActualTeamTag>
-      <Status>Titulaire</Status>
+      <Status>Reserviste</Status>
     </Player>
     <Player Id="437" Name="Grejohn Kiey">
       <ShirtNumber>29</ShirtNumber>
@@ -7883,7 +7883,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>SDR</ActualTeamTag>
-      <Status>Remplacent</Status>
+      <Status>Reserviste</Status>
     </Player>
     <Player Id="438" Name="Johnny Placide">
       <ShirtNumber>30</ShirtNumber>
@@ -7901,7 +7901,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>SDR</ActualTeamTag>
-      <Status>Titulaire</Status>
+      <Status>Reserviste</Status>
     </Player>
     <Player Id="439" Name="Benoît Costil">
       <ShirtNumber>1</ShirtNumber>
@@ -8729,7 +8729,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>ASSE</ActualTeamTag>
-      <Status>Remplacent</Status>
+      <Status>Titulaire</Status>
     </Player>
     <Player Id="485" Name="Ismaël Diomande">
       <ShirtNumber>28</ShirtNumber>
@@ -8765,7 +8765,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>ASSE</ActualTeamTag>
-      <Status>Reserviste</Status>
+      <Status>Remplacent</Status>
     </Player>
     <Player Id="487" Name="Jessy Moulin">
       <ShirtNumber>30</ShirtNumber>
@@ -9161,7 +9161,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>TFC</ActualTeamTag>
-      <Status>Remplacent</Status>
+      <Status>Reserviste</Status>
     </Player>
     <Player Id="509" Name="Pavle Ninkov">
       <ShirtNumber>24</ShirtNumber>
@@ -9233,7 +9233,7 @@
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
       <ActualTeamTag>TFC</ActualTeamTag>
-      <Status>Remplacent</Status>
+      <Status>Reserviste</Status>
     </Player>
     <Player Id="513" Name="Mihai Roman">
       <ShirtNumber>28</ShirtNumber>
