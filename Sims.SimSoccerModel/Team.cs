@@ -31,9 +31,11 @@ namespace Sims.SimSoccerModel
         #region contructor
         internal Team(TeamList owner, string name)
         {
+            _game = owner.Game;
             _owner = owner;
             _name = name;
             _players = new List<Player>();
+            _opponent = new List<Team>();
             _teamType = new List<Player>();
             _remplacents = new List<Player>();
             _reservist = new List<Player>();

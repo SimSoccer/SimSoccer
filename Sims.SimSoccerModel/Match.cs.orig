@@ -8,9 +8,19 @@ namespace Sims.SimSoccerModel
 {
     public class Match
     {
+<<<<<<< HEAD
         Team _home;
         Team _outside;
         DateTime _hour;
+
+        public Team Home
+        {
+            get { return _home; }
+            set { _home = value; }
+=======
+        Team _dom;
+        Team _ext;
+        DateTime horaire_;
         readonly Game _game;      
         MatchResult _result;
         
@@ -20,16 +30,22 @@ namespace Sims.SimSoccerModel
             get { return _game; }
         }
         
-        public Team Home
+        public Team Domicile
         {
-            get { return _home; }
-            set { _home = value; }
+            get { return _dom; }
+            set { _dom = value; }
+>>>>>>> local_dev
         }
 
         public Team Outside
         {
+<<<<<<< HEAD
             get { return _outside; }
             set { _outside = value; }
+=======
+            get { return _ext; }
+            set { _ext = value; }
+>>>>>>> local_dev
         }
 
         public DateTime Hour
@@ -40,16 +56,26 @@ namespace Sims.SimSoccerModel
 
         public Match(Team dom, Team ext)
         {
+<<<<<<< HEAD
+            _home = dom;
+            _outside = ext;
+            _home.Opponent.Add(_outside);
+            _outside.Opponent.Add(_home);
+=======
             _game = dom.Game;
             if( _game != ext.Game ) throw new ArgumentException("Teams must be in the same Game");
             _dom = dom; 
             _ext = ext;
             _dom.Opponent.Add(_ext);
             _ext.Opponent.Add(_dom);
+>>>>>>> local_dev
         }
 
         public override string ToString()
         {
+<<<<<<< HEAD
+            return _home.TeamTag.ToString() + " - " + _outside.TeamTag.ToString() + " le " + _hour.ToString();
+=======
             return _dom.TeamTag.ToString() + " - " + _ext.TeamTag.ToString() + " le " + horaire_.ToString();
         }
 
@@ -99,6 +125,7 @@ namespace Sims.SimSoccerModel
             
 
 
+>>>>>>> local_dev
         }
     }
 }

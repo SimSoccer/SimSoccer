@@ -8,9 +8,14 @@ namespace Sims.SimSoccerModel
 {
     public class Calendar
     {
+<<<<<<< HEAD
         int _nbTeams;
         List<MatchDay> _matchDay;
+=======
+        int nbEquipes_;
+        List<Journee> _journees;
         readonly Game _game;
+>>>>>>> local_dev
         Ligue _owner;
 
         public List<MatchDay> MatchDay

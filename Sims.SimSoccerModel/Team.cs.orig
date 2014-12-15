@@ -9,10 +9,10 @@ namespace Sims.SimSoccerModel
 {
     public class Team
     {
+        #region attribute
         readonly string _name;
         readonly TeamList _owner;
-        readonly List<Player> _players;
-        readonly Game _game;
+        List<Player> _players;
         string _teamTag;
         string _town;
         string _stadium;
@@ -20,75 +20,246 @@ namespace Sims.SimSoccerModel
         string _manager;
         int _leagueRanking;
         int _level;
-        List<string> _teamPlayers;
+        string _playerName;
+        List<Team> _opponent;
+<<<<<<< HEAD
+        
         
         internal Team( TeamList owner, string name )
+=======
+        List<Player> _teamType;
+        List<Player> _remplacents;
+        List<Player> _reservist;
+        readonly Game _game;
+        #endregion
+
+        #region contructor
+        internal Team(TeamList owner, string name)
+>>>>>>> SimSoccer/dev
         {
+            _game = owner.Game;
             _owner = owner;
             _name = name;
             _players = new List<Player>();
-            _game = new Game();
+<<<<<<< HEAD
+            _opponent = new List<Team>();
+=======
+            _teamType = new List<Player>();
+            _remplacents = new List<Player>();
+            _reservist = new List<Player>();
+>>>>>>> SimSoccer/dev
+        }
+        #endregion
+
+        public List<Team> Opponent
+        {
+            get { return _opponent; }
         }
 
+<<<<<<< HEAD
+        public TeamList TeamList
+=======
+        public List<Player> TeamType
+        {
+            get { return _teamType; }
+            set { _teamType = value; }
+        }
+        public List<Player> Remplacent
+>>>>>>> SimSoccer/dev
+        {
+            get { return _remplacents; }
+            set { _remplacents = value; }
+        }
         public Game Game
         {
-            get { return _owner.Game; }
+            get { return _game; }
+        }
+        public List<Player> Reserve
+        {
+            get { return _reservist; }
+            set { _reservist = value; }
         }
 
-        internal Team( TeamList owner, XElement e )
+        public TeamList TeamList
         {
-<<<<<<< HEAD
-            XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
-            PlayerList _pl = new PlayerList( _game, doc.Root.Element( "Players" ) );
+            get { return _owner; }
+        }
 
+        public List<Player> TeamPlayers
+        {
+            get { return _players; }
+            set { _players = value; }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="owner"></param>
+        /// <param name="e"></param>
+        public Team(TeamList owner, XElement e)
+        {
             int i;
-            List<string> teamPlayers = new List<string>();
+            int j;
+            _players = new List<Player>();
+            _opponent = new List<Team>();
+            _teamType = new List<Player>();
+            _remplacents = new List<Player>();
+            _reservist = new List<Player>();
+            _owner = owner;
+            string tt = e.Element("TeamTag").Value;
 
-            string tt = e.Element( "TeamTag" ).Value;
-
-            for( i = 0; i < _pl.Players.Count; i++ )
+            for (i = 0; i < _owner.Game.PlayerList.Players.Count; i++)
             {
-                if( _pl.Players[i].ActualTeamTag == tt )
+                /// Incumbant the players holder in a team and in its global player list
+                if (_owner.Game.PlayerList.Players[i].ActualTeamTag == tt && _owner.Game.PlayerList.Players[i].Status == "Titulaire")
                 {
-                    teamPlayers.Add( _pl.Players[i].Name );
+                    if (_teamType.Count < 0 || _teamType.Count > 11) throw new IndexOutOfRangeException();
+                    if (_players.Count < 0) throw new IndexOutOfRangeException();
+
+                    _players.Add(_owner.Game.PlayerList.Players[i]);
+                    _teamType.Add(_owner.Game.PlayerList.Players[i]);
+
+                    for (j = 0; j < _players.Count; j++)
+                    {
+                        _playerName = _players[j].Name;
+                    }
+                }
+
+                /// Incumbant the players remplacents in a team and in its global player list
+                if (_owner.Game.PlayerList.Players[i].ActualTeamTag == tt && _owner.Game.PlayerList.Players[i].Status == "Remplacent")
+                {
+                    if (_remplacents.Count < 0 || _remplacents.Count > 7) throw new IndexOutOfRangeException();
+                    if (_players.Count < 0) throw new IndexOutOfRangeException();
+
+                    _players.Add(_owner.Game.PlayerList.Players[i]);
+                    _remplacents.Add(_owner.Game.PlayerList.Players[i]);
+                    for (j = 0; j < _players.Count; j++)
+                    {
+                        _playerName = _players[j].Name;
+                    }
+                }
+
+                /// Incumbant the players reservist in a team and in its global player list
+                if (_owner.Game.PlayerList.Players[i].ActualTeamTag == tt && _owner.Game.PlayerList.Players[i].Status == "Reserviste")
+                {
+                    if (_players.Count < 0) throw new IndexOutOfRangeException();
+                    _players.Add(_owner.Game.PlayerList.Players[i]);
+                    _reservist.Add(_owner.Game.PlayerList.Players[i]);
+                    for (j = 0; j < _players.Count; j++)
+                    {
+                        _playerName = _players[j].Name;
+                    }
                 }
             }
 
-=======
-            /*XDocument doc = XDocument.Load( @"C.\..\..\..\Ligue1Teams.xml" );
-            PlayerList _pl = new PlayerList( _game, doc.Root.Element( "Players" ) );*/
->>>>>>> local_fl_manage_draw_game
-            _owner = owner;
-            _name = e.Attribute( "Name" ).Value;
-            TeamTag = e.Element( "TeamTag" ).Value;
-            Town = e.Element( "Town" ).Value;
-            Stadium = e.Element( "Stadium" ).Value;
-            Logo = e.Element( "Logo" ).Value;
-            Manager = e.Element( "Manager" ).Value;
-            LeagueRanking = int.Parse( e.Element( "LeagueRanking" ).Value );
-            Level = int.Parse( e.Element( "Level" ).Value );
-<<<<<<< HEAD
-            TeamPlayers = teamPlayers;
-=======
-            //PlayerID = _pl.Players.Where( p => p.ActualTeamTag == _teamTag ).Select( p => p.Name );
->>>>>>> local_fl_manage_draw_game
+            _name = e.Attribute("Name").Value;
+            TeamTag = e.Element("TeamTag").Value;
+            Town = e.Element("Town").Value;
+            Stadium = e.Element("Stadium").Value;
+            Logo = e.Element("Logo").Value;
+            Manager = e.Element("Manager").Value;
+            LeagueRanking = int.Parse(e.Element("LeagueRanking").Value);
+            Level = int.Parse(e.Element("Level").Value);
+            TeamType = _teamType;
+            Remplacent = _remplacents;
+            Reserve = _reservist;
+
+            XElement xml = new XElement("Players",
+                from p in _players
+                select new XElement("Player",
+                    new XAttribute("Id", p.Id),
+                    new XAttribute("Name", p.Name),
+                    new XElement("ShirtNumber", p.ShirtNumber),
+                    new XElement("Nationality", p.Nationality),
+                    new XElement("Post", p.Poste),
+                    new XElement("Height", p.Height),
+                    new XElement("BirthDate", p.BirthDate),
+                    new XElement("BirthPlace", p.BirthPlace),
+                    new XElement("PreviousClub", p.PreviousClub),
+                    new XElement("ActualClub", p.ActualClub),
+                    new XElement("Stats", p.Stats),
+                    new XElement("FormState", p.FormState),
+                    new XElement("Injury", p.Injury),
+                    new XElement("Mental", p.Mental),
+                    new XElement("FinancialValue", p.FinancialValue),
+                    new XElement("ActualTeamTag", p.ActualTeamTag),
+                    new XElement("Status", p.Status)));
         }
 
-        public XElement ToXml( int id )
+        public XElement ToXml(int id)
         {
-            return new XElement( "Team",
-                        new XAttribute( "Id", id ),
-                        new XAttribute( "Name", Name ),
-                        new XElement( "TeamTag", TeamTag ),
-                        new XElement( "Town", Town ),
-                        new XElement( "Stadium", Stadium ),
-                        new XElement( "Logo", Logo ),
-                        new XElement( "Manager", Manager ),
-                        new XElement( "LeagueRanking", LeagueRanking ),
-                        new XElement( "Level", Level ) );
-                        /*new XElement( "Players",
-                            new XElement( "Player",
-                                new XAttribute( "Id", _players.Select( p => Game.PlayerList.Players.IndexOf( p ) ) ) ) ) );*/
+
+            return new XElement("Team",
+                        new XAttribute("Id", id),
+                        new XAttribute("Name", Name),
+                        new XElement("TeamTag", TeamTag),
+                        new XElement("Town", Town),
+                        new XElement("Stadium", Stadium),
+                        new XElement("Logo", Logo),
+                        new XElement("Manager", Manager),
+                        new XElement("LeagueRanking", LeagueRanking),
+                        new XElement("Level", Level),
+                        new XElement("Players",
+                            new XElement("Titulaire",
+                            from p in TeamType
+                            select new XElement("Player",
+                                new XAttribute("Id", p.Id),
+                                new XAttribute("Name", p.Name),
+                                new XElement("ShirtNumber", p.ShirtNumber),
+                                new XElement("Nationality", p.Nationality),
+                                new XElement("Post", p.Poste),
+                                new XElement("Height", p.Height),
+                                new XElement("BirthDate", p.BirthDate),
+                                new XElement("BirthPlace", p.BirthPlace),
+                                new XElement("PreviousClub", p.PreviousClub),
+                                new XElement("ActualClub", p.ActualClub),
+                                new XElement("Stats", p.Stats),
+                                new XElement("FormState", p.FormState),
+                                new XElement("Injury", p.Injury),
+                                new XElement("Mental", p.Mental),
+                                new XElement("FinancialValue", p.FinancialValue),
+                                new XElement("ActualTeamTag", p.ActualTeamTag),
+                                new XElement("Status", p.Status))),
+                                new XElement("Remplacants",
+                                from r in Remplacent
+                                select new XElement("Player",
+                            new XAttribute("Id", r.Id),
+                            new XAttribute("Name", r.Name),
+                            new XElement("ShirtNumber", r.ShirtNumber),
+                            new XElement("Nationality", r.Nationality),
+                            new XElement("Post", r.Poste),
+                            new XElement("Height", r.Height),
+                            new XElement("BirthDate", r.BirthDate),
+                            new XElement("BirthPlace", r.BirthPlace),
+                            new XElement("PreviousClub", r.PreviousClub),
+                            new XElement("ActualClub", r.ActualClub),
+                            new XElement("Stats", r.Stats),
+                            new XElement("FormState", r.FormState),
+                            new XElement("Injury", r.Injury),
+                            new XElement("Mental", r.Mental),
+                            new XElement("FinancialValue", r.FinancialValue),
+                            new XElement("ActualTeamTag", r.ActualTeamTag),
+                            new XElement("Status", r.Status))),
+                                new XElement("Reservistes",
+                                from res in Reserve
+                                select new XElement("Player",
+                            new XAttribute("Id", res.Id),
+                            new XAttribute("Name", res.Name),
+                            new XElement("ShirtNumber", res.ShirtNumber),
+                            new XElement("Nationality", res.Nationality),
+                            new XElement("Post", res.Poste),
+                            new XElement("Height", res.Height),
+                            new XElement("BirthDate", res.BirthDate),
+                            new XElement("BirthPlace", res.BirthPlace),
+                            new XElement("PreviousClub", res.PreviousClub),
+                            new XElement("ActualClub", res.ActualClub),
+                            new XElement("Stats", res.Stats),
+                            new XElement("FormState", res.FormState),
+                            new XElement("Injury", res.Injury),
+                            new XElement("Mental", res.Mental),
+                            new XElement("FinancialValue", res.FinancialValue),
+                            new XElement("ActualTeamTag", res.ActualTeamTag),
+                            new XElement("Status", res.Status)))));
         }
 
         public string Name
@@ -138,10 +309,11 @@ namespace Sims.SimSoccerModel
             set { _level = value; }
         }
 
-        public List<string> TeamPlayers
+        public string PlayerName
         {
-            get { return _teamPlayers; }
-            set { _teamPlayers = value; }
+            get { return _playerName; }
+            set { _playerName = value; }
         }
+
     }
 }

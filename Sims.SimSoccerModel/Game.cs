@@ -11,6 +11,7 @@ namespace Sims.SimSoccerModel
 {
     public class Game
     {
+        public Match _match;
         readonly TeamList _teamList;
         readonly PlayerList _playerList;
         readonly Ligue _ligue;
@@ -21,6 +22,12 @@ namespace Sims.SimSoccerModel
         private XElement xElement;
         readonly Field _field;
         readonly FormationList _formation;
+        public Random Rnd
+        
+        {
+            get { return _rnd; }
+        }
+        
 
         public PlayerList PlayerList
         {
@@ -39,6 +46,11 @@ namespace Sims.SimSoccerModel
         public TeamList TeamList
         {
             get { return _teamList; }
+        }
+
+        public Match Match
+        {
+            get { return _match; }
         }
 
         public Ligue Ligue
@@ -89,6 +101,7 @@ namespace Sims.SimSoccerModel
             _teamList = new TeamList(this, doc2.Root.Element("Teams"));
             _formation = new FormationList(this, doc3.Root.Element("Tactics"));
             _ligue = new Ligue(this, 2014);
+            _rnd = new Random();
             _avatar = @".\..\..\..\avatar.jpg";
             _field = new Field();
         }
