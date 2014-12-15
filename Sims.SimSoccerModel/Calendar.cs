@@ -8,21 +8,21 @@ namespace Sims.SimSoccerModel
 {
     public class Calendar
     {
-        int _nbEquipes;
-        List<Journee> _journees;
+        int _nbTeams;
+        List<MatchDay> _matchDay;
         Ligue _owner;
 
-        public List<Journee> Journees
+        public List<MatchDay> MatchDay
         {
-            get { return _journees; }
+            get { return _matchDay; }
         }
 
 
         public Calendar(int nbEquipes, int year, Ligue owner)
         {
             _owner = owner;
-            _nbEquipes = nbEquipes;
-            _journees = new List<Journee>();
+            _nbTeams = nbEquipes;
+            _matchDay = new List<MatchDay>();
             DateTime dt = new DateTime(year, 8, 7);
             DateTime Saturday = dt;
 
@@ -44,8 +44,8 @@ namespace Sims.SimSoccerModel
                     break;
             }
 
-            for (int i = 1; i <= (_nbEquipes - 1) * 2; i++)
-                _journees.Add(new Journee(i, Saturday, this));
+            for (int i = 1; i <= (_nbTeams - 1) * 2; i++)
+                _matchDay.Add(new MatchDay(i, Saturday, this));
         }
 
         public Game Game

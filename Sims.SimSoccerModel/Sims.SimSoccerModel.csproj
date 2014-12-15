@@ -52,7 +52,7 @@
     <Compile Include="Formation.cs" />
     <Compile Include="FormationList.cs" />
     <Compile Include="Game.cs" />
-    <Compile Include="Journee.cs" />
+    <Compile Include="MatchDay.cs" />
     <Compile Include="Ligue.cs" />
     <Compile Include="Match.cs" />
     <Compile Include="Player.cs" />
