@@ -23,7 +23,7 @@ namespace SIMS.SimSoccerForm
             _game.Ligue.fillCalendar();
 
             
-            foreach( MatchDay j in _game.Ligue.Calendar.MatchDay )
+            foreach( MatchDay j in _game.Ligue.Calendar.MatchDay)
                 Cjournee.Items.Add( j );
 
             Cjournee.SelectedIndex = 0;
@@ -42,9 +42,6 @@ namespace SIMS.SimSoccerForm
                     TMatchs.Text += m.ToString() + "\r\n";
             }
         }
-
-        
-
         private void TMatchs_TextChanged(object sender, EventArgs e)
         {
 

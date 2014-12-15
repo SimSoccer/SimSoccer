@@ -42,15 +42,15 @@ namespace Sims.SimSoccerModel
         {
             _game = dom.Game;
             if( _game != ext.Game ) throw new ArgumentException("Teams must be in the same Game");
-            _dom = dom; 
-            _ext = ext;
-            _dom.Opponent.Add(_ext);
-            _ext.Opponent.Add(_dom);
+            _home = dom; 
+            _outside = ext;
+            _home.Opponent.Add(_outside);
+            _outside.Opponent.Add(_home);
         }
 
         public override string ToString()
         {
-            return _dom.TeamTag.ToString() + " - " + _ext.TeamTag.ToString() + " le " + horaire_.ToString();
+            return _home.TeamTag.ToString() + " - " + _outside.TeamTag.ToString() + " le " + _hour.ToString();
         }
 
         /// <summary>
@@ -71,11 +71,11 @@ namespace Sims.SimSoccerModel
         public void PlayMatch()
         {
             if( _result != null ) throw new InvalidOperationException( "PlayMatch must be called only once!" );
-            _result = new MatchResult( _dom, _ext );
+            _result = new MatchResult( _home, _outside );
             
 
-            int tmp = _dom.Level + _ext.Level;
-            int winRateH = (_dom.Level*100)/tmp;
+            int tmp = _home.Level + _outside.Level;
+            int winRateH = (_home.Level*100)/tmp;
             _result.ScoreD = 0;
             _result.ScoreE = 0;
 

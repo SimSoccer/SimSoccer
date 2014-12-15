@@ -22,6 +22,7 @@ namespace Sims.SimSoccerModel
         private XElement xElement;
         readonly Field _field;
         readonly FormationList _formation;
+        public Random _rnd;
         public Random Rnd
         
         {
