@@ -205,13 +205,11 @@ namespace Sims.SimSoccerModel
         {
             _choosenTeam = ChoosenTeam;
 
-
             DateTime today = DateTime.Now;
 
             var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
             var target = doc
                  .Elements("Profil")
-                 .Elements( "Profil" )
                  .Single();
 
             target.Element( "ChosenTeam" ).Value = _choosenTeam;
