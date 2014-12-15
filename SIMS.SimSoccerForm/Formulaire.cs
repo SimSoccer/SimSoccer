@@ -27,7 +27,20 @@ namespace SIMS.SimSoccerForm
         {
             if( userControl1.UserName.Length == 0 || userControl1.UserPassword.Length == 0)
             {
-                MessageBox.Show( "Please enter an UserName and an UserPassword." );
+                MessageBox.Show( "Veuillez entrer un nom d'utilisateur et un mot de passe." );
+                userControl1.UserName = "";
+                userControl1.UserPassword = "";
+            }
+            else if( userControl1.UserName.Length < 3 )
+            {
+                MessageBox.Show( "Nom d'utilisateur trop court. Minimum 3 caractères." );
+                userControl1.UserName = "";
+            }
+            else if( userControl1.UserPassword.Length < 6 )
+            {
+                MessageBox.Show( "Mot de passe trop court. Minimum 6 caractères." );
+                userControl1.UserPassword = "";
+                
             }
             else
             {

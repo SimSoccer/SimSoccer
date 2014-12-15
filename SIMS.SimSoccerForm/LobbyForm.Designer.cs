@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LobbyForm));
             this.txtUsernameLobby = new System.Windows.Forms.TextBox();
-            this.btGoToCalendar = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.calendrierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,16 +45,6 @@
             this.txtUsernameLobby.Size = new System.Drawing.Size(100, 20);
             this.txtUsernameLobby.TabIndex = 0;
             this.txtUsernameLobby.TextChanged += new System.EventHandler(this.txtUsernameLobby_TextChanged);
-            // 
-            // btGoToCalendar
-            // 
-            this.btGoToCalendar.Location = new System.Drawing.Point(81, 47);
-            this.btGoToCalendar.Name = "btGoToCalendar";
-            this.btGoToCalendar.Size = new System.Drawing.Size(75, 23);
-            this.btGoToCalendar.TabIndex = 1;
-            this.btGoToCalendar.Text = "Calendrier";
-            this.btGoToCalendar.UseVisualStyleBackColor = true;
-            this.btGoToCalendar.Click += new System.EventHandler(this.btGoToCalendar_Click);
             // 
             // menuStrip1
             // 
@@ -97,7 +86,6 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(415, 331);
-            this.Controls.Add(this.btGoToCalendar);
             this.Controls.Add(this.txtUsernameLobby);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -114,7 +102,6 @@
         #endregion
 
         private System.Windows.Forms.TextBox txtUsernameLobby;
-        private System.Windows.Forms.Button btGoToCalendar;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem calendrierToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;

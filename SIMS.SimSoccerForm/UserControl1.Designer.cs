@@ -34,6 +34,8 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.InscriptionBox = new System.Windows.Forms.GroupBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label4 = new System.Windows.Forms.Label();
             this.InscriptionBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,16 +80,34 @@
             // 
             // InscriptionBox
             // 
+            this.InscriptionBox.Controls.Add(this.label4);
+            this.InscriptionBox.Controls.Add(this.dateTimePicker1);
             this.InscriptionBox.Controls.Add(this.txtName);
             this.InscriptionBox.Controls.Add(this.txtPassword);
             this.InscriptionBox.Controls.Add(this.label2);
             this.InscriptionBox.Controls.Add(this.label3);
             this.InscriptionBox.Location = new System.Drawing.Point(16, 26);
             this.InscriptionBox.Name = "InscriptionBox";
-            this.InscriptionBox.Size = new System.Drawing.Size(228, 126);
+            this.InscriptionBox.Size = new System.Drawing.Size(304, 182);
             this.InscriptionBox.TabIndex = 5;
             this.InscriptionBox.TabStop = false;
             this.InscriptionBox.Text = "Inscription";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(112, 122);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(164, 20);
+            this.dateTimePicker1.TabIndex = 5;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(10, 122);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(96, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Date de naissance";
             // 
             // UserControl1
             // 
@@ -96,7 +116,7 @@
             this.Controls.Add(this.InscriptionBox);
             this.Controls.Add(this.label1);
             this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(295, 247);
+            this.Size = new System.Drawing.Size(360, 284);
             this.InscriptionBox.ResumeLayout(false);
             this.InscriptionBox.PerformLayout();
             this.ResumeLayout(false);
@@ -111,5 +131,7 @@
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.GroupBox InscriptionBox;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label4;
     }
 }

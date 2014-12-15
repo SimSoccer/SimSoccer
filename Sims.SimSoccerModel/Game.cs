@@ -17,6 +17,7 @@ namespace Sims.SimSoccerModel
         readonly Ligue _ligue;
         string _userName;
         string _userPassword;
+        string _birthDate;
         string _choosenTeam;
         string _avatar;
         private XElement xElement;
@@ -65,6 +66,11 @@ namespace Sims.SimSoccerModel
         public string UserPassword
         {
             get { return _userPassword; }
+        }
+
+        public string BirthDate
+        {
+            get { return _birthDate; }
         }
         public string Avatar
         {
@@ -115,6 +121,7 @@ namespace Sims.SimSoccerModel
             _userPassword = e.Element("Password").Value;
             _choosenTeam = e.Element("ChosenTeam").Value;
             _avatar = e.Element("Avatar").Value;
+            _birthDate = e.Element( "BirthDate" ).Value;
             XDocument doc = XDocument.Load(@".\..\..\..\Ligue1Players2.xml");
             XDocument doc2 = XDocument.Load(@".\..\..\..\Ligue1Teams.xml");
             XDocument doc3 = XDocument.Load(@".\..\..\..\Tactics.xml");
@@ -160,51 +167,55 @@ namespace Sims.SimSoccerModel
 
             }
 
+            DateTime today = DateTime.Now;
+
             XDocument gameSave = new XDocument(
                 new XElement("Game",
                     new XElement("Profil",
                         new XAttribute("ID", i),
                         new XElement("UserName", _userName),
                         new XElement("Password", _userPassword),
+                        new XElement("BirthDate", today),
                         new XElement("Avatar", _avatar),
                         new XElement("ChosenTeam", "")),
                     game.TeamList.ToXml(),
                     new XElement("FreePlayers",
                         new XElement("TheFreePlayer"))));
 
-            DateTime today = DateTime.Now;
-            gameSave.Save(@".\..\..\..\user_" + _userName + "_save_" + today.Year + today.Month + today.Day + ".xml");
+            _birthDate = today.ToShortDateString();
+            gameSave.Save( @".\..\..\..\user_" + _userName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }
-        public void SaveAvatarToXML(string avatar, Game game)
+        public void SaveProfilToXML(string birthDate, string avatar, Game game )
         {
             _avatar = avatar;
+            _birthDate = birthDate;
             DateTime today = DateTime.Now;
 
-            var doc = XElement.Load(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
+            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
             var target = doc
-                 .Elements("Profil")
+                 .Elements( "Profil" )
                  .Single();
 
-            target.Element("Avatar").Value = _avatar;
-
-            doc.Save(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
+            target.Element( "Avatar" ).Value = _avatar;
+            target.Element( "BirthDate" ).Value = _birthDate;
+            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
 
         }
-        public void ToXML(string ChoosenTeam, Game game)
+        public void ToXML( string ChoosenTeam, Game game)
         {
             _choosenTeam = ChoosenTeam;
 
-
             DateTime today = DateTime.Now;
 
-            var doc = XElement.Load(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
+            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
             var target = doc
                  .Elements("Profil")
                  .Single();
 
-            target.Element("ChosenTeam").Value = _choosenTeam;
+            target.Element( "ChosenTeam" ).Value = _choosenTeam;
 
             doc.Save(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
+            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }
     }
 }
