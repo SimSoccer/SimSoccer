@@ -178,6 +178,8 @@ namespace GraphicsFormsEssai
             {
                 if( b.Text == "" )
                     b.Enabled = true;
+                if(b.Text == "Joueur de votre équipe : ")
+                    b.Enabled = true;
                 else if( b.Text == text )
                 {
                     b.Enabled = false;
