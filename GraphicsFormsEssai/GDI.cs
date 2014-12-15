@@ -17,7 +17,6 @@ namespace GraphicsFormsEssai
     {
         Game _game = new Game( "Toto", "Tata" );
         ListBox playerList = new ListBox();
-        Dictionary<string, Button> test = new Dictionary<string, Button>();
 
         public GDI()
         {
@@ -31,10 +30,10 @@ namespace GraphicsFormsEssai
             #region Create New GDI
             listBox1.Items.Add( "Joueurs de votre équipe : " );
             listBox2.Items.Add( "Titulaires : " );
-            for( int i = 0; i < _game.TeamList.Teams[8].TeamPlayers.Count; i++ )
+            for( int i = 0; i < _game.TeamList.Teams[15].TeamPlayers.Count; i++ )
             {
-                string players = _game.TeamList.Teams[8].TeamPlayers[i].Name;
-                string shirtNumber = _game.TeamList.Teams[8].TeamPlayers[i].Poste;
+                string players = _game.TeamList.Teams[15].TeamPlayers[i].Name;
+                string shirtNumber = _game.TeamList.Teams[15].TeamPlayers[i].Poste;
                 listBox1.Items.Add( shirtNumber + " " + Environment.NewLine + players );
                 playerList.Items.Add( shirtNumber + " " + Environment.NewLine + players );
             }
@@ -82,7 +81,6 @@ namespace GraphicsFormsEssai
 
             #region Show Different Zones
             // Here you will be able to screen the zones
-
             /*
             // Here to show Goal Zone in the field
             foreach( Points c in _game.Field.Zones.GoalZonePoints )
