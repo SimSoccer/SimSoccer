@@ -160,7 +160,7 @@ namespace GraphicsFormsEssai
 
             foreach( Control but in Controls )
             {
-                if(but is Button)
+                if( but is Button )
                 {
                     if( but.Text == text )
                         count++;
@@ -170,7 +170,7 @@ namespace GraphicsFormsEssai
             if( count == 2 )
             {
                 MessageBox.Show( "Le joueur est déjà utilisé" + Environment.NewLine +
-                    "Choisissez maintenant un autre joueur.");
+                    "Choisissez maintenant un autre joueur." );
                 b.Enabled = true;
                 b.Text = "";
             }
@@ -178,8 +178,16 @@ namespace GraphicsFormsEssai
             {
                 if( b.Text == "" )
                     b.Enabled = true;
-                if(b.Text == "Joueur de votre équipe : ")
+                if( b.Text == "Joueurs de votre équipe : " )
+                {
                     b.Enabled = true;
+                    if( b == button1 )
+                    {
+                        b.Text = "Gardien";
+                    }
+                    else
+                        b.Text = "";
+                }
                 else if( b.Text == text )
                 {
                     b.Enabled = false;
