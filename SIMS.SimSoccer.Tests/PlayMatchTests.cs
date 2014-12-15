@@ -14,16 +14,15 @@ namespace SIMS.SimSoccer.Tests
         [Test]
         public void result_match_where_the_winner_is_supposed_to_be_the_host()
         {
-            Game g = new Game("test", "1234");
-            Team t1 = g.TeamList.CreateTeam("Team1");
+            Game g = new Game( "test", "1234" );
+            Team t1 = g.TeamList.CreateTeam( "Team1" );
             t1.Level = 99;
-            Team t2 = g.TeamList.CreateTeam("Team2");            
-            t2.Level = 1;       
-            Match m = new Match(t1, t2);
+            Team t2 = g.TeamList.CreateTeam( "Team2" );
+            t2.Level = 1;
+            Match m = new Match( t1, t2 );
             m.PlayMatch();
 
-            Assert.That(m.Result.Winner, Is.EqualTo(t1.Name));
-                   
+            Assert.That( m.Result.Winner, Is.EqualTo( t1.Name ) );
         }
 
         [Test]
@@ -38,5 +37,23 @@ namespace SIMS.SimSoccer.Tests
 
             Assert.Throws<ArgumentException>( () => new Match( t1, t2 ) );
         }
+
+        [Test]
+        public void result_matchs_for_a_journey()
+        {
+            Game g = new Game( "test", "12345" );
+            g.Ligue.fillCalendar();
+
+            for( int i = 0; i < g.Ligue.Calendar.Journees.Count; i++ )
+            {
+                Console.WriteLine( "Journée " + i  +"\n");
+                g.Ligue.Calendar.Journees[i].playJourney();
+            }
+
+
+        }
+
+
+
     }
 }

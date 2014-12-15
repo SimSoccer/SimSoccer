@@ -85,6 +85,7 @@ namespace Sims.SimSoccerModel
         /// <param name="e"></param>
         public Team(TeamList owner, XElement e)
         {
+            _game = owner.Game;
             int i;
             int j;
             _players = new List<Player>();

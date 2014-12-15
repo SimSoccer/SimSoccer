@@ -55,5 +55,15 @@ namespace Sims.SimSoccerModel
         {
             return "Journee " + _number;
         }
+
+        public void playJourney()
+        {
+            for( int i = 0; i < this.Matchs.Count; i++ )
+            {
+                this.Matchs[i].PlayMatch();
+                Console.WriteLine( this.Matchs[i].Result.TextSummary );
+            }
+        }
+
     }
 }
