@@ -28,6 +28,7 @@ namespace GraphicsFormsEssai
 
         private void NewGDI( GDI newone )
         {
+            #region Create New GDI
             listBox1.Items.Add( "Joueurs de votre équipe : " );
             listBox2.Items.Add( "Titulaires : " );
             for( int i = 0; i < _game.TeamList.Teams[8].TeamPlayers.Count; i++ )
@@ -47,6 +48,7 @@ namespace GraphicsFormsEssai
             button1.Text = "Gardien";
             button12.Text = "Recommencer";
             comboBox1.Text = "Formations";
+            #endregion
         }
 
         private void GDI_Load( object sender, EventArgs e )
@@ -62,6 +64,7 @@ namespace GraphicsFormsEssai
         /// <param name="e"></param>
         private void GDI_Paint( object sender, PaintEventArgs e )
         {
+            #region Manage Drawn Field
             //Brushes the whole field in Green
             //Field f = new Field();
             e.Graphics.FillRectangle( Brushes.DarkGreen, 0, 0, _game.Field.FieldSize.Width, _game.Field.FieldSize.Heigth );
@@ -112,6 +115,7 @@ namespace GraphicsFormsEssai
             e.Graphics.DrawLine( Pens.Red, _game.Field.Zones.ThrowIn2[0].X, _game.Field.Zones.ThrowIn2[0].Y, _game.Field.Zones.ThrowIn2[10].X, _game.Field.Zones.ThrowIn2[10].Y );
             e.Graphics.DrawLine( Pens.Red, _game.Field.Zones.BehingGoalLine1[0].X, _game.Field.Zones.BehingGoalLine1[0].Y, _game.Field.Zones.BehingGoalLine1[6].X, _game.Field.Zones.BehingGoalLine1[6].Y );
             e.Graphics.DrawLine( Pens.Red, _game.Field.Zones.BehingGoalLine2[0].X, _game.Field.Zones.BehingGoalLine2[0].Y, _game.Field.Zones.BehingGoalLine2[6].X, _game.Field.Zones.BehingGoalLine2[6].Y );
+            #endregion
         }
 
         private void restartFormationToolStripMenuItem_Click( object sender, EventArgs e )
@@ -148,6 +152,7 @@ namespace GraphicsFormsEssai
         /// <param name="e"></param>
         private void button_click( object sender, EventArgs e )
         {
+            #region Button Management
             int count = 0;
             Button b = ( Button )sender;
             string text = listBox1.GetItemText( listBox1.SelectedItem );
@@ -159,21 +164,28 @@ namespace GraphicsFormsEssai
                 {
                     if( but.Text == text )
                         count++;
-                    if( count == 2 )
-                        throw new ArgumentException( "There is already a player in the field." );
-                    else if( count == 0 )
-                    {
-                        if( b.Text == "" )
-                            b.Enabled = true;
-                        else if( b.Text == text )
-                        {
-                            b.Enabled = false;
-                        }
-                    }
                 }
             }
-            listBox2.Items.Add( text );
-            b.BackColor = Color.SaddleBrown;
+
+            if( count == 2 )
+            {
+                MessageBox.Show( "Le joueur est déjà utilisé" + Environment.NewLine +
+                    "Choisissez maintenant un autre joueur.");
+                b.Enabled = true;
+                b.Text = "";
+            }
+            else if( count == 1 )
+            {
+                if( b.Text == "" )
+                    b.Enabled = true;
+                else if( b.Text == text )
+                {
+                    b.Enabled = false;
+                    listBox2.Items.Add( text );
+                    b.BackColor = Color.Gold;
+                }
+            }
+            #endregion
         }
 
         /// <summary>
@@ -527,7 +539,9 @@ namespace GraphicsFormsEssai
             #endregion
         }
 
-
+        /// <summary>
+        /// Manage selected player in List Box And Button.
+        /// </summary>
         private void ManageListBox1WithButtonsPlayers()
         {
             string a = listBox1.SelectedItem.ToString();
@@ -630,6 +644,7 @@ namespace GraphicsFormsEssai
         /// <param name="e"></param>
         private void button12_Click( object sender, EventArgs e )
         {
+            #region Reset Button Management
             foreach( Control c in this.Controls )
             {
                 if( c is Button )
@@ -646,7 +661,7 @@ namespace GraphicsFormsEssai
                 }
             }
             NewGDI( this );
+            #endregion
         }
-
     }
 }
