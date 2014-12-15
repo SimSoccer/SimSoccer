@@ -45,7 +45,7 @@ namespace SIMS.SimSoccer.Tests
 
             for (int i = 0; i < g.Ligue.Calendar.MatchDay.Count; i++)
             {
-                Console.WriteLine("Journée " + i + "\n");
+                Console.WriteLine("\nJournée " + (i + 1) );
                 g.Ligue.Calendar.MatchDay[i].playJourney();
             }
         }
