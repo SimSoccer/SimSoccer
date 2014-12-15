@@ -8,7 +8,7 @@ namespace Sims.SimSoccerModel
 {
     public class Journee
     {
-        int _numero;
+        int numero_;
         DateTime dayOfWeekEnd_;
         List<Match> _matchs;
         Game _game;
@@ -16,17 +16,17 @@ namespace Sims.SimSoccerModel
 
         public int Numero
         {
-            get { return _numero; }
+            get { return numero_; }
         }
         public Game game
         {
-            get { return _game; }
+            get { return _owner.Ligue.Game; }
         }
 
         public List<Match> Matchs
         {
-            get { return _matchs; }
-            set { _matchs = value; }
+            get { return matchs_; }
+            set { matchs_ = value; }
         }
 
         public Journee(int numero, DateTime dayOfWeekEnd, Calendar owner)

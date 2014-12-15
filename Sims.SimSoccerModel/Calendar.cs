@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Sims.SimSoccerModel
 {
-     public class Calendar
+    public class Calendar
     {
-            int nbEquipes_;
+        int nbEquipes_;
         List<Journee> _journees;
         readonly Game _game;
         Ligue _owner;

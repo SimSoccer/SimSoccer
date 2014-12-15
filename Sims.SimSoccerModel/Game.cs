@@ -17,9 +17,9 @@ namespace Sims.SimSoccerModel
         string _userName;
         string _userPassword;
         string _choosenTeam;
-        readonly Match _match;
-        readonly Random _rnd;
-
+        string _avatar;
+        private   XElement xElement;
+        readonly Field _field;
         public Random Rnd
         {
             get { return _rnd; }
@@ -31,6 +31,10 @@ namespace Sims.SimSoccerModel
             get { return _playerList; }
         }
 
+        public Field Field
+        {
+            get { return _field; }
+        }
         public TeamList TeamList
         {
             get { return _teamList; }
@@ -53,6 +57,10 @@ namespace Sims.SimSoccerModel
         {
             get { return _userPassword; }
         }
+        public string Avatar
+        {
+            get { return _avatar; }
+        }
         public string ChoosenTeam
         {
             get { return _choosenTeam; }
@@ -63,27 +71,47 @@ namespace Sims.SimSoccerModel
         {
             XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
             XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
+            XDocument doc3 = XDocument.Load(@".\..\..\..\Tactics.xml");
             _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
-            _playerList = new PlayerList( this, doc.Root.Element("Players") );
+            _playerList = new PlayerList( this, doc.Root.Element("Player") );
         }
-
+        public Game( string userName )
+        {
+            _userName = userName;
+            XDocument doc = XDocument.Load( @".\..\..\..\user_" + userName + "*" );
+        }
         public Game( string userName, string userPassword )
         {
             _userName = userName;
             _userPassword = userPassword;
             XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
             XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
+            XDocument doc3 = XDocument.Load(@".\..\..\..\Tactics.xml");
             _playerList = new PlayerList( this, doc.Root.Element( "Players" ) );
             _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
             _ligue = new Ligue(this,2014);
             _rnd = new Random();
+            _avatar =  @".\..\..\..\avatar.jpg";
+            _field = new Field();
         }
-        public Game( string choosenTeam , string userName , string userPassword)
+
+        public Game( XElement e )
         {
-            _choosenTeam = choosenTeam;
-            _userName = userName;
-            _userPassword = userPassword;
+            // TODO: Complete member initialization
+            this.xElement = e;
+            _userName = e.Element( "UserName" ).Value;
+            _userPassword = e.Element( "Password" ).Value;
+            _choosenTeam = e.Element( "ChosenTeam" ).Value;
+            _avatar = e.Element( "Avatar" ).Value;
+            XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
+            XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
+            _playerList = new PlayerList( this, doc.Root.Element( "Players" ) );
+            _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
+            _ligue = new Ligue( this, 2014 );
+            
         }
+
+      
 
         public void GameToXml(Game game)
         {
@@ -125,6 +153,7 @@ namespace Sims.SimSoccerModel
                         new XAttribute("ID", i),
                         new XElement("UserName", _userName),
                         new XElement("Password", _userPassword),
+                        new XElement("Avatar", _avatar),
                         new XElement("ChosenTeam", "")),
                     game.TeamList.ToXml(),
                     new XElement("FreePlayers",
@@ -133,7 +162,21 @@ namespace Sims.SimSoccerModel
             DateTime today = DateTime.Now;
             gameSave.Save( @".\..\..\..\user_" + _userName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }
+        public void SaveAvatarToXML( string avatar, Game game )
+        {
+            _avatar = avatar;
+            DateTime today = DateTime.Now;
 
+            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var target = doc
+                 .Elements( "Profil" )
+                 .Single();
+
+            target.Element( "Avatar" ).Value = _avatar;
+
+            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+
+        }
         public void ToXML( string ChoosenTeam, Game game)
         {
             _choosenTeam = ChoosenTeam;

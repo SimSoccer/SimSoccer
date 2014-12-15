@@ -43,9 +43,12 @@ namespace SIMS.SimSoccerForm
             }
         }
 
-        private void CalendarDisplay_FormClosing( object sender, FormClosingEventArgs e )
+        
+
+        private void TMatchs_TextChanged(object sender, EventArgs e)
         {
-            System.Windows.Forms.Application.Exit();
+
         }
+
     }
 }

@@ -16,13 +16,17 @@ using System.Xml.Linq;
 namespace SIMS.SimSoccerForm
 {
     
-    
     public partial class UserControl1 : UserControl 
     {
+<<<<<<< HEAD
+      
+=======
         //readonly Game _game;
+>>>>>>> SimSoccer/dev
         public UserControl1()
         {
             InitializeComponent();
+            txtPassword.PasswordChar = '*';
         }
 
         public string UserName
@@ -47,28 +51,12 @@ namespace SIMS.SimSoccerForm
                 txtPassword.Text = value;
             }
         }
-        
-        public void Inscription(string userName, string userPassword )
+        public void Inscription( string userName, string userPassword )
         {
-<<<<<<< HEAD
-            
-            Game game = new Game( userName, userPassword );
-           
-=======
-            string un = @".\..\..\..\UserNumber.xml";
-            int id;
-            if( File.Exists( un ) == false )
-                id = 0;
-            else
-            {
-                XDocument doc = XDocument.Load( @".\..\..\..\UserNumber.xml" );
-                id = int.Parse( doc.Root.Element( "UserNumber" ).Value ) + 1 ;
-            }
-            
-            Game game = new Game( id, userName, userPassword );
->>>>>>> 9a226c3b9bcd69c2e4b79db34fe18e6b375d3e52
-            game.ToXML();
+            Game _game = new Game( userName, userPassword );
+            _game.GameToXml(_game);
+            SelectTeamForm ST = new SelectTeamForm( _game );
+            ST.Show();
         }
-       
     }
 }

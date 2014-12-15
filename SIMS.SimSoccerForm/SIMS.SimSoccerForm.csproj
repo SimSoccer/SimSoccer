@@ -33,6 +33,12 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CK.Core">
+      <HintPath>..\packages\CK.Core.4.0.1\lib\net45\CK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -50,6 +56,12 @@
     <Compile Include="CalendarDisplay.Designer.cs">
       <DependentUpon>CalendarDisplay.cs</DependentUpon>
     </Compile>
+    <Compile Include="CheckPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckPasswordForm.Designer.cs">
+      <DependentUpon>CheckPasswordForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulaire.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +73,12 @@
     </Compile>
     <Compile Include="LoadGameForm.Designer.cs">
       <DependentUpon>LoadGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LobbyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LobbyForm.Designer.cs">
+      <DependentUpon>LobbyForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,6 +105,12 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserProfilForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserProfilForm.Designer.cs">
+      <DependentUpon>UserProfilForm.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sims.SimSoccerModel\Sims.SimSoccerModel.csproj">
@@ -98,11 +122,17 @@
     <EmbeddedResource Include="CalendarDisplay.resx">
       <DependentUpon>CalendarDisplay.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CheckPasswordForm.resx">
+      <DependentUpon>CheckPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formulaire.resx">
       <DependentUpon>Formulaire.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoadGameForm.resx">
       <DependentUpon>LoadGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LobbyForm.resx">
+      <DependentUpon>LobbyForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -120,6 +150,12 @@
     <EmbeddedResource Include="UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserProfilForm.resx">
+      <DependentUpon>UserProfilForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
