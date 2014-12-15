@@ -51,6 +51,8 @@ namespace SIMS.SimSoccerForm
         {
             Game _game = new Game( userName, userPassword );
             _game.GameToXml(_game);
+            DateTime result = dateTimePicker1.Value;
+            _game.SaveProfilToXML( result.ToShortDateString(), _game.Avatar, _game );
             SelectTeamForm ST = new SelectTeamForm( _game );
             ST.Show();
         }
