@@ -8,39 +8,39 @@ namespace Sims.SimSoccerModel
 {
     public class Match
     {
-        Team domicile_;
-        Team exterieur_;
-        DateTime horaire_;
+        Team _domicile;
+        Team _exterieur;
+        DateTime _horaire;
 
         public Team Domicile
         {
-            get { return domicile_; }
-            set { domicile_ = value; }
+            get { return _domicile; }
+            set { _domicile = value; }
         }
 
         public Team Exterieur
         {
-            get { return exterieur_; }
-            set { exterieur_ = value; }
+            get { return _exterieur; }
+            set { _exterieur = value; }
         }
 
         public DateTime Horaire
         {
-            get { return horaire_; }
-            set { horaire_ = value; }
+            get { return _horaire; }
+            set { _horaire = value; }
         }
 
         public Match(Team dom, Team ext)
         {
-            domicile_ = dom;
-            exterieur_ = ext;
-            domicile_.Opponent.Add(exterieur_);
-            exterieur_.Opponent.Add(domicile_);
+            _domicile = dom;
+            _exterieur = ext;
+            _domicile.Opponent.Add(_exterieur);
+            _exterieur.Opponent.Add(_domicile);
         }
 
         public override string ToString()
         {
-            return domicile_.TeamTag.ToString() + " - " + exterieur_.TeamTag.ToString() + " le " + horaire_.ToString();
+            return _domicile.TeamTag.ToString() + " - " + _exterieur.TeamTag.ToString() + " le " + _horaire.ToString();
         }
     }
 }

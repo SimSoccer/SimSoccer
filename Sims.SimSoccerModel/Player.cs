@@ -29,7 +29,7 @@ namespace Sims.SimSoccerModel
         int _mental;
         int _financialValue;
         string _actualTeamTag;
-        //Point _position;
+        Points _position;
         #endregion
 
         internal Player(PlayerList owner, string name)
@@ -63,6 +63,7 @@ namespace Sims.SimSoccerModel
             FinancialValue = int.Parse(e.Element("FinancialValue").Value);
             ActualTeamTag = e.Element("ActualTeamTag").Value;
             _status = e.Element("Status").Value;
+            _position = new Points();
         }
 
         public XElement ToXml(int id)
@@ -92,6 +93,10 @@ namespace Sims.SimSoccerModel
             get { return _id; }
         }
 
+        public Points Position
+        {
+            get { return _position; }
+        }
         public int ShirtNumber
         {
             get { return _shirtNumber; }

@@ -50,6 +50,7 @@
     <Compile Include="Calendar.cs" />
     <Compile Include="Field.cs" />
     <Compile Include="Formation.cs" />
+    <Compile Include="FormationList.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Journee.cs" />
     <Compile Include="Ligue.cs" />
