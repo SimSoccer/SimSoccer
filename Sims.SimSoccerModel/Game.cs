@@ -11,6 +11,7 @@ namespace Sims.SimSoccerModel
 {
     public class Game
     {
+        public Match _match;
         readonly TeamList _teamList;
         readonly PlayerList _playerList;
         readonly Ligue _ligue;
@@ -20,7 +21,9 @@ namespace Sims.SimSoccerModel
         string _avatar;
         private   XElement xElement;
         readonly Field _field;
+        public Random _rnd;
         public Random Rnd
+        
         {
             get { return _rnd; }
         }
