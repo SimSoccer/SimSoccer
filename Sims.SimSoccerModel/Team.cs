@@ -26,6 +26,7 @@ namespace Sims.SimSoccerModel
         List<Player> _remplacents;
         List<Player> _reservist;
         readonly Game _game;
+        Tactic _taticTeam;
         #endregion
 
         #region contructor
@@ -67,6 +68,11 @@ namespace Sims.SimSoccerModel
             set { _reservist = value; }
         }
 
+        public Tactic Tactic
+        {
+            get { return _taticTeam; }
+        }
+
         public TeamList TeamList
         {
             get { return _owner; }
@@ -93,6 +99,7 @@ namespace Sims.SimSoccerModel
             _teamType = new List<Player>();
             _remplacents = new List<Player>();
             _reservist = new List<Player>();
+            _taticTeam = new Tactic();
             _owner = owner;
             string tt = e.Element("TeamTag").Value;
 

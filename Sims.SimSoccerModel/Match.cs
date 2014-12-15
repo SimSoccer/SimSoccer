@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,8 +13,7 @@ namespace Sims.SimSoccerModel
         DateTime _hour;
         readonly Game _game;      
         MatchResult _result;
-        
-       
+              
         public Game Game
         {
             get { return _game; }
