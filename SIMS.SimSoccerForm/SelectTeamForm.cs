@@ -102,6 +102,7 @@ namespace SIMS.SimSoccerForm
 
             PlayersBox.Text = Players;
             textBox1_TextChanged(this, EventArgs.Empty);
+            textBox2_TextChanged(this, EventArgs.Empty);
         }
 
         private void button1_KeyDown(object sender, KeyEventArgs e)
@@ -126,5 +127,16 @@ namespace SIMS.SimSoccerForm
             }
             textBox1.Text = Players2;
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            string formation = "";
+            for (int cmpt = 0; cmpt < _game.FormationList.Formation.Count; cmpt++)
+            {
+                formation += _game.FormationList.Formation[cmpt].Name + "\r\n";
+            }
+            textBox2.Text = formation;
+        }
+
     }
 }

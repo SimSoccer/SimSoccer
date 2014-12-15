@@ -66,36 +66,35 @@ namespace Sims.SimSoccerModel
         public MatchResult(Team dom, Team ext)
         {
             _game = dom.Game;
-            if( _game != ext.Game ) throw new ArgumentException();
-            _dom = dom; 
+            if (_game != ext.Game) throw new ArgumentException();
+            _dom = dom;
             _ext = ext;
-       
+
         }
 
         public void Result()
         {
-            
-            if( _scoreD == _scoreE )
+
+            if (_scoreD == _scoreE)
             {
-               _textSummary =  "it's a tie betwen " + _dom.Name + " and " + _ext.Name + "\nScore: " + ScoreD + " - " + ScoreE;
+                _textSummary = "it's a tie betwen " + _dom.Name + " and " + _ext.Name + "\nScore: " + ScoreD + " - " + ScoreE;
 
             }
-             else if( _scoreD > _scoreE )
+            else if (_scoreD > _scoreE)
             {
                 _winner = _dom.Name;
                 _looser = _ext.Name;
                 _textSummary = _dom.Name + " won against " + _ext.Name + "\nScore: " + ScoreD + " - " + ScoreE;
-                
+
             }
-            else if( _scoreD < _scoreE )
+            else if (_scoreD < _scoreE)
             {
                 _winner = _ext.Name;
                 _looser = _dom.Name;
                 _textSummary = _dom.Name + " loose against " + _ext.Name + "\nScore: " + ScoreD + " - " + ScoreE;
-                
-            }
-           
-        }
 
+            }
+
+        }
     }
 }
