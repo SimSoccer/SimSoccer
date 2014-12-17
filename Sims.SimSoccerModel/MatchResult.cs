@@ -17,19 +17,19 @@ namespace Sims.SimSoccerModel
         string _winner;
         string _looser;
         string _textSummary;
-        List<string> _scorerH;
-        List<string> _scorerO;
+        List<Player> _scorerH;
+        List<Player> _scorerO;
 
         public string TextSummary
         {
             get { return _textSummary; }
         }
-        public List<string> ScorerO
+        public List<Player> ScorerO
         {
             set { _scorerO = value; }
             get { return _scorerO; }
         }
-        public List<string> ScorerH
+        public List<Player> ScorerH
         {
             set { _scorerH = value; }
             get { return _scorerH; }
@@ -81,8 +81,8 @@ namespace Sims.SimSoccerModel
             if (_game != ext.Game) throw new ArgumentException();
             _dom = dom;
             _ext = ext;
-            ScorerH = new List<string>();
-            ScorerO = new List<string>();
+            ScorerH = new List<Player>();
+            ScorerO = new List<Player>();
 
         }
 

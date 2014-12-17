@@ -100,7 +100,7 @@ namespace Sims.SimSoccerModel
                             if( _home.TeamPlayers[G].Poste == "AT" || _home.TeamPlayers[G].Poste == "AG" || _home.TeamPlayers[G].Poste == "AD" )
                             {
                                 //Console.WriteLine( _home.TeamPlayers[G].Name + " Scored for " + _home.TeamTag );
-                                _result.ScorerH.Add( _home.TeamPlayers[G].Name );
+                                _result.ScorerH.Add( _home.TeamPlayers[G] );
                                 isFound = true;
 
                             }
@@ -124,7 +124,7 @@ namespace Sims.SimSoccerModel
                             if( _outside.TeamPlayers[G].Poste == "AT" || _outside.TeamPlayers[G].Poste == "AG" || _outside.TeamPlayers[G].Poste == "AD" )
                             {
                                 //Console.WriteLine( _outside.TeamPlayers[G].Name + " Scored for " + _outside.TeamTag );
-                                _result.ScorerO.Add( _outside.TeamPlayers[G].Name );
+                                _result.ScorerO.Add( _outside.TeamPlayers[G]);
                                 isFound = true;
 
                             }

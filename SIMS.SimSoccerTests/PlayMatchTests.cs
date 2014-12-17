@@ -55,9 +55,15 @@ namespace SIMS.SimSoccer.Tests
         {
             Game g = new Game( "test", "1234" );
             g.Ligue.fillCalendar();
+           
             Match M1 = new Match( g.TeamList.Teams[15], g.TeamList.Teams[8] );
             M1.PlayMatch(true);
             Console.WriteLine(M1.Result.TextSummary);
+
+            foreach( Player p in M1.Result.ScorerH )
+            {
+                Assert.That( p.ActualTeamTag, Is.EqualTo(g.TeamList.Teams[15].TeamTag) );
+            }
 
             
 
