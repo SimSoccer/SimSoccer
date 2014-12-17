@@ -15,11 +15,11 @@ namespace SIMS.SimSoccer.Tests
         {
             Game g = new Game("test", "1234");
             Team t1 = g.TeamList.CreateTeam("Team1");
-            t1.Level = 99;
+            t1.Level = 100;
             Team t2 = g.TeamList.CreateTeam("Team2");
-            t2.Level = 1;
+            t2.Level = 0;
             Match m = new Match(t1, t2);
-            m.PlayMatch();
+            m.PlayMatch(false);
 
             Assert.That(m.Result.Winner, Is.EqualTo(t1.Name));
         }
@@ -42,12 +42,25 @@ namespace SIMS.SimSoccer.Tests
         {
             Game g = new Game("test", "12345");
             g.Ligue.fillCalendar();
-
+            g.ChoosenTeam = "Paris-Saint-Germain Football Club";
             for (int i = 0; i < g.Ligue.Calendar.MatchDay.Count; i++)
             {
                 Console.WriteLine("\nJournée " + (i + 1) );
                 g.Ligue.Calendar.MatchDay[i].playJourney();
             }
+        }
+
+        [Test]
+        public void result_of_my_own_match()
+        {
+            Game g = new Game( "test", "1234" );
+            g.Ligue.fillCalendar();
+            Match M1 = new Match( g.TeamList.Teams[15], g.TeamList.Teams[8] );
+            M1.PlayMatch(true);
+            Console.WriteLine(M1.Result.TextSummary);
+
+            
+
         }
     }
 }

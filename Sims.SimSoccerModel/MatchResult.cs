@@ -12,26 +12,38 @@ namespace Sims.SimSoccerModel
         Team _dom;
         Team _ext;
         readonly Game _game;
-        int _scoreD;
-        int _scoreE;
+        int _scoreH;
+        int _scoreO;
         string _winner;
         string _looser;
         string _textSummary;
+        List<string> _scorerH;
+        List<string> _scorerO;
 
         public string TextSummary
         {
             get { return _textSummary; }
         }
-        public int ScoreD
+        public List<string> ScorerO
         {
-            set { _scoreD = value; }
-            get { return _scoreD; }
+            set { _scorerO = value; }
+            get { return _scorerO; }
+        }
+        public List<string> ScorerH
+        {
+            set { _scorerH = value; }
+            get { return _scorerH; }
+        }
+        public int ScoreH
+        {
+            set { _scoreH = value; }
+            get { return _scoreH; }
         }
 
-        public int ScoreE
+        public int ScoreO
         {
-            set { _scoreE = value; }
-            get { return _scoreE; }
+            set { _scoreO = value; }
+            get { return _scoreO; }
         }
 
         public string Winner
@@ -69,29 +81,31 @@ namespace Sims.SimSoccerModel
             if (_game != ext.Game) throw new ArgumentException();
             _dom = dom;
             _ext = ext;
+            ScorerH = new List<string>();
+            ScorerO = new List<string>();
 
         }
 
         public void Result()
         {
 
-            if (_scoreD == _scoreE)
+            if (_scoreH == _scoreO)
             {
-                _textSummary = "it's a tie betwen " + _dom.Name + " and " + _ext.Name + "\nScore: " + ScoreD + " - " + ScoreE;
+                _textSummary = "it's a tie betwen " + _dom.Name + " and " + _ext.Name + "\nScore: " + ScoreH + " - " + ScoreO;
 
             }
-            else if (_scoreD > _scoreE)
+            else if (_scoreH > _scoreO)
             {
                 _winner = _dom.Name;
                 _looser = _ext.Name;
-                _textSummary = _dom.Name + " won against " + _ext.Name + "\nScore: " + ScoreD + " - " + ScoreE;
+                _textSummary = _dom.Name + " won against " + _ext.Name + "\nScore: " + ScoreH + " - " + ScoreO;
 
             }
-            else if (_scoreD < _scoreE)
+            else if (_scoreH < _scoreO)
             {
                 _winner = _ext.Name;
                 _looser = _dom.Name;
-                _textSummary = _dom.Name + " loose against " + _ext.Name + "\nScore: " + ScoreD + " - " + ScoreE;
+                _textSummary = _dom.Name + " loose against " + _ext.Name + "\nScore: " + ScoreH + " - " + ScoreO;
 
             }
 
