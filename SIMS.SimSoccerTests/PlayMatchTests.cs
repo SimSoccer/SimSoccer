@@ -64,9 +64,35 @@ namespace SIMS.SimSoccer.Tests
             {
                 Assert.That( p.ActualTeamTag, Is.EqualTo(g.TeamList.Teams[15].TeamTag) );
             }
+        }
 
+         [Test]
+        public void test_Gauss()
+        {
+            List<int> result = new List<int>();
+            for( int i = 0; i < 9; i++ )
+            {
+                result.Add( 0 );
+            }
+                
+            Game g = new Game( "test", "1234" );
             
+            
+             int j = 0;
+             do
+             {
+                 int tmp = g.RndGauss(-1, 2);
+                 result[tmp]++;
+                 j++;
 
+             } while( j < 10000 );
+
+            for( int i = 0; i < 9 ; i++ )
+            {
+                Console.WriteLine( "\n" + i + " : " + (result[i] * 100) / 10000 + "%" );
+            }
+            
+            
         }
     }
 }

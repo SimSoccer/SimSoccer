@@ -80,9 +80,8 @@ namespace Sims.SimSoccerModel
             _result.ScoreH = 0;
             _result.ScoreO = 0;
 
-            int nbGoal = _game.Rnd.Next( 0, 8 );
-
-
+            int nbGoal = _game.RndGauss(-1, 2);
+           
             for( int i = 0; i < nbGoal; i++ )
             {
                 int draw = _game.Rnd.Next( 0, 100 );

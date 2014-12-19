@@ -23,13 +23,14 @@ namespace Sims.SimSoccerModel
         readonly Field _field;
         readonly FormationList _formation;
         public Random _rnd;
+    
+
         public Random Rnd
-        
         {
             get { return _rnd; }
         }
-        
 
+        
         public PlayerList PlayerList
         {
             get { return _playerList; }
@@ -205,6 +206,25 @@ namespace Sims.SimSoccerModel
             target.Element("ChosenTeam").Value = _choosenTeam;
 
             doc.Save(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
+        }
+
+        public int RndGauss(int nb1, int nb2)
+        {
+           
+            double nbGoal1 = Rnd.NextDouble();
+            double nbGoal2 = Rnd.NextDouble();
+
+            double randStdNormal = Math.Sqrt( -2.0 * Math.Log( nbGoal1 ) ) * Math.Sin( 2.0 * Math.PI * nbGoal2 );
+            double RandNbGoal = nb1 + nb2 * randStdNormal;
+            RandNbGoal += 4;
+
+            int nbGoal = Convert.ToInt32( RandNbGoal );
+
+            if( nbGoal < 0 ) nbGoal = 0;
+            else if( nbGoal > 8 ) nbGoal = 8;
+
+            return nbGoal;
+
         }
     }
 }

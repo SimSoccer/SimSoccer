@@ -91,6 +91,8 @@ namespace Sims.SimSoccerModel
 
             if (_scoreH == _scoreO)
             {
+                _winner = _dom.Name;
+                _looser = _winner;
                 _textSummary = "it's a tie betwen " + _dom.Name + " and " + _ext.Name + "\nScore: " + ScoreH + " - " + ScoreO;
 
             }
