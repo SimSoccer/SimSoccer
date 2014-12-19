@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
+using System.Drawing;
 
 namespace Sims.SimSoccerModel
 {
@@ -20,6 +21,13 @@ namespace Sims.SimSoccerModel
         string _avatar;
         private   XElement xElement;
         readonly Field _field;
+        Graphics _graphic;
+
+        public Graphics Graphic
+        {
+            get { return _graphic; }
+            set { _graphic = value; }
+        }
 
         public PlayerList PlayerList
         {
@@ -39,18 +47,22 @@ namespace Sims.SimSoccerModel
         {
             get { return _ligue; }
         }
+
         public string UserName
         {
             get { return _userName; }
         }
+
         public string UserPassword
         {
             get { return _userPassword; }
         }
+
         public string Avatar
         {
             get { return _avatar; }
         }
+
         public string ChoosenTeam
         {
             get { return _choosenTeam; }
@@ -65,11 +77,13 @@ namespace Sims.SimSoccerModel
             _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
             _playerList = new PlayerList( this, doc.Root.Element("Player") );
         }
+
         public Game( string userName )
         {
             _userName = userName;
             XDocument doc = XDocument.Load( @".\..\..\..\user_" + userName + "*" );
         }
+
         public Game( string userName, string userPassword )
         {
             _userName = userName;
@@ -99,8 +113,6 @@ namespace Sims.SimSoccerModel
             _ligue = new Ligue( this, 2014 );
             
         }
-
-      
 
         public void GameToXml(Game game)
         {

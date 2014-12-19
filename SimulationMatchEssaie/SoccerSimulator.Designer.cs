@@ -34,9 +34,9 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(1222, 132);
+            this.listBox1.Location = new System.Drawing.Point(1184, 15);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 95);
+            this.listBox1.Size = new System.Drawing.Size(158, 407);
             this.listBox1.TabIndex = 0;
             // 
             // SoccerSimulator
@@ -49,6 +49,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.SoccerSimulator_Load);
+            this.Click += new System.EventHandler(this.SoccerSimulator_Click);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.SoccerSimulator_Paint);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SoccerSimulator_MouseClick);
             this.ResumeLayout(false);
 
         }

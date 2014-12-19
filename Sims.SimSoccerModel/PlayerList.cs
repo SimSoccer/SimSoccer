@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using System.Drawing;
 
 namespace Sims.SimSoccerModel
 {
@@ -16,6 +17,7 @@ namespace Sims.SimSoccerModel
         {
             _game = game;
             _players = new List<Player>();
+
         }
 
         public Game Game
@@ -28,7 +30,7 @@ namespace Sims.SimSoccerModel
             _game = game;
             _players = e.Elements( "Player" )
                 .OrderBy( eT => int.Parse( eT.Attribute( "Id" ).Value ) )
-                .Select( eT => new Player( this, eT ) )
+                .Select( eT => new Player( this, eT  ) )
                 .ToList();
         }
         public XElement ToXml()

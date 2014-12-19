@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using System.Drawing;
 
 namespace Sims.SimSoccerModel
 {
@@ -30,20 +31,33 @@ namespace Sims.SimSoccerModel
         int _financialValue;
         string _actualTeamTag;
         Points _position;
+        Image _image;
         #endregion
+        Game _game;
+        public Rectangle _player;
+        public Points _playerPosition;
+        public Rectangle _ball;
+        public Points _ballPosition;
+        public int _count = 0;
+        public int _i = 0;
 
+        public Game TheGame
+        {
+            get { return _game; }
+        }
         internal Player(PlayerList owner, string name)
         {
             _owner = owner;
             _name = name;
         }
 
+
         public Game Game
         {
             get { return _owner.Game; }
         }
 
-        public Player(PlayerList owner, XElement e)
+        public Player(PlayerList owner, XElement e )
         {
             _id = int.Parse(e.Attribute("Id").Value);
             _name = e.Attribute("Name").Value;
@@ -63,6 +77,68 @@ namespace Sims.SimSoccerModel
             FinancialValue = int.Parse(e.Element("FinancialValue").Value);
             ActualTeamTag = e.Element("ActualTeamTag").Value;
             _status = e.Element("Status").Value;
+        }
+
+        public Player( XDocument d, Image i )
+        {
+            _id = int.Parse( d.Root.Element("Players").Element("Player").Attribute( "Id" ).Value );
+            _name = d.Root.Element("Players").Element("Player").Attribute( "Name" ).Value;
+            ShirtNumber = int.Parse( d.Root.Element("Players").Element("Player").Element( "ShirtNumber" ).Value );
+            _nationality = d.Root.Element("Players").Element("Player").Element( "Nationality" ).Value;
+            Poste = d.Root.Element("Players").Element("Player").Element( "Poste" ).Value;
+            Height = float.Parse( d.Root.Element("Players").Element("Player").Element( "Height" ).Value );
+            Weight = int.Parse( d.Root.Element("Players").Element("Player").Element( "Weight" ).Value );
+            _birthDate = d.Root.Element("Players").Element("Player").Element( "BirthDate" ).Value;
+            _birthPlace = d.Root.Element("Players").Element("Player").Element( "BirthPlace" ).Value;
+            PreviousClub = d.Root.Element("Players").Element("Player").Element( "PreviousClub" ).Value;
+            ActualClub = d.Root.Element("Players").Element("Player").Element( "ActualClub" ).Value;
+            Stats = int.Parse( d.Root.Element("Players").Element("Player").Element( "Stats" ).Value );
+            FormState = int.Parse( d.Root.Element("Players").Element("Player").Element( "FormState" ).Value );
+            Injury = bool.Parse( d.Root.Element("Players").Element("Player").Element( "Injury" ).Value );
+            Mental = int.Parse( d.Root.Element("Players").Element("Player").Element( "Mental" ).Value );
+            FinancialValue = int.Parse( d.Root.Element("Players").Element("Player").Element( "FinancialValue" ).Value );
+            ActualTeamTag = d.Root.Element("Players").Element("Player").Element( "ActualTeamTag" ).Value;
+            _status = d.Root.Element("Players").Element("Player").Element( "Status" ).Value;
+            _image = i;
+        }
+
+        public void DrawPlayer( Game game, Image t, Point p, Point ball, int i, int count)
+        {
+            _i = i;
+            _count = count;
+            _game = game;
+            System.Drawing.Size size = new System.Drawing.Size(35,70);
+            System.Drawing.Size sizeBall = new System.Drawing.Size(35,70);
+            _player = new Rectangle( p, size );
+            _ball = new Rectangle(ball, sizeBall);
+            _playerPosition = new Points( ( float )p.X, ( float )p.Y );
+            _ballPosition = new Points((float)ball.X, (float)ball.Y);
+
+            if( _i == 0 )
+                t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerOne.png" );
+            else if( _i == 1 )
+                t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveRight1.png" );
+            else if( _i == 2 )
+                t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveRight2.png" );
+            else if( _i == 3 )
+                t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Shoot.png" );
+            else if( _i == 4 )
+                t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p5shoot.png" );
+            else if( _i == 5 )
+                t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Stand.png" );
+            else throw new InvalidOperationException( "Le nombre a été dépassé : " + _i );
+
+            _game.Graphic.DrawImage(t, _player);
+            
+        }
+
+        public double Move(Points objectif)
+        {
+            Points playerPoint = _playerPosition;
+            Points _objectif = objectif;
+
+            double distance = playerPoint.Distance( _objectif );
+            return distance;
         }
 
         public XElement ToXml(int id)
@@ -85,6 +161,12 @@ namespace Sims.SimSoccerModel
             new XElement("FinancialValue", FinancialValue),
             new XElement("ActualTeamTag", ActualTeamTag),
             new XElement("Status", Status));
+        }
+
+        public Image Image
+        {
+            get { return _image; }
+            set { _image = value; }
         }
 
         public int Id
@@ -195,6 +277,23 @@ namespace Sims.SimSoccerModel
         {
             get { return _actualTeamTag; }
             set { _actualTeamTag = value; }
+        }
+
+        public Points PlayerPosition
+        {
+            get { return _playerPosition; }
+            set { _playerPosition = value; }
+        }
+        public float PlayerPositionX
+        {
+            get { return this.PlayerPosition.X; }
+            set { _playerPosition.X = value; }
+        }
+
+        public float PlayerPositionY
+        {
+            get { return this.PlayerPosition.Y; }
+            set { _playerPosition.Y = value; }
         }
     }
 }
