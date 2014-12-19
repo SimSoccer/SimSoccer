@@ -53,7 +53,7 @@ namespace SIMS.SimSoccer.Tests
         [Test]
         public void result_of_my_own_match()
         {
-            Game g = new Game( "test", "1234" );
+            Game g = new Game( "test", "1234", "blabla", "blabla" );
             g.Ligue.fillCalendar();
            
             Match M1 = new Match( g.TeamList.Teams[15], g.TeamList.Teams[8] );
@@ -75,7 +75,7 @@ namespace SIMS.SimSoccer.Tests
                 result.Add( 0 );
             }
                 
-            Game g = new Game( "test", "1234" );
+            Game g = new Game( "test", "1234", "blabla", "lala" );
             
             
              int j = 0;
