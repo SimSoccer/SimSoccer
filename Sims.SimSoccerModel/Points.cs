@@ -11,10 +11,8 @@ namespace Sims.SimSoccerModel
     /// </summary>
     public struct Points
     {
-        //public readonly 
-            float _x;
-        //public readonly 
-            float _y;
+        float _x;
+        float _y;
 
         public Points( float x, float y )
         {
@@ -40,26 +38,12 @@ namespace Sims.SimSoccerModel
             return vector;
         }
 
-        public Points VectorLess( Points other )
+        public Points Difference( Points other )
         {
             Points vector = new Points();
             vector.X = other.X - this.X;
             vector.Y = other.Y - this.Y;
             return vector;
-        }
-
-        public float NormalizeX( Points other )
-        {
-            double distance = Distance( other );
-            float xNormalized = (( this.X + other.X ) / ( float )distance) + 5;
-            return xNormalized;
-        }
-
-        public float NormalizeY( Points other )
-        {
-            double distance = ( Distance( other ) );
-            float yNormalized = (( this.Y + other.Y ) / ( float )distance) + 5;
-            return yNormalized;
         }
 
         public double Lenght( Points other )

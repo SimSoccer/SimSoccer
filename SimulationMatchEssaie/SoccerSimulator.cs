@@ -36,6 +36,9 @@ namespace SimulationMatchEssaie
         #endregion
         Point _playerPoints;
         Point _ballPoints;
+        List<Points> trajectoir;
+        float x;
+        float y;
 
         public SoccerSimulator()
         {
@@ -54,8 +57,13 @@ namespace SimulationMatchEssaie
             fRec = new Rectangle( rectPoint, fieldSize );
             _playerPoints = new Point( 400, 230 );
             _ballPoints = new Point( 485, 230 );
-
+            trajectoir = new List<Points>();
             listBox1.Items.Add( theone.Name);
+        }
+
+        private void CreateTrajectoirPoints()
+        {
+             
         }
 
         private void SoccerSimulator_Load( object sender, EventArgs e )
@@ -118,15 +126,16 @@ namespace SimulationMatchEssaie
             _game.Graphic.DrawImage( ball, rball );
 
             Points vector = theone.PlayerPosition.Vector( theball );
-            Points vectorLess = theone.PlayerPosition.VectorLess( theball );
-            float xNormalized = theone.PlayerPosition.NormalizeX( theball );
-            float yNormalized = theone.PlayerPosition.NormalizeY( theball );
+            Points vectorLess = theone.PlayerPosition.Difference( theball );
+            float xNormalized = theone.PlayerPosition.NormalisationX( theball );
+            float yNormalized = theone.PlayerPosition.NormalisationY( theball );
             listBox1.Items.Add( "Vector :" + vector.X + ", " + vector.Y );
             listBox1.Items.Add( "VectorLess :" + vectorLess.X + ", " + vectorLess.Y );
             double vectorLenght = theone.PlayerPosition.Lenght( theball );
             listBox1.Items.Add( "Vector Lenght :" + vectorLenght );
             listBox1.Items.Add( "The Ball Points : " + theball.X + ", " + theball.Y );
             listBox1.Items.Add( "The Player Points : " + theone.PlayerPosition.X + ", " + theone.PlayerPosition.Y );
+            listBox1.Items.Add( "X normalized is equal to : " + xNormalized );
             Graphics g = e.Graphics;
         }
 
