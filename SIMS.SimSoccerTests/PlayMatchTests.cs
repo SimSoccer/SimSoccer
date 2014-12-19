@@ -15,11 +15,11 @@ namespace SIMS.SimSoccer.Tests
         {
             Game g = new Game( "test", "1234", "blabla", "lala" );
             Team t1 = g.TeamList.CreateTeam("Team1");
-            t1.Level = 99;
+            t1.Level = 100;
             Team t2 = g.TeamList.CreateTeam("Team2");
-            t2.Level = 1;
+            t2.Level = 0;
             Match m = new Match(t1, t2);
-            m.PlayMatch();
+            m.PlayMatch(false);
 
             Assert.That(m.Result.Winner, Is.EqualTo(t1.Name));
         }
@@ -42,12 +42,57 @@ namespace SIMS.SimSoccer.Tests
         {
             Game g = new Game( "test", "1234", "blabla", "lala" );
             g.Ligue.fillCalendar();
-
+            g.ChoosenTeam = "Paris-Saint-Germain Football Club";
             for (int i = 0; i < g.Ligue.Calendar.MatchDay.Count; i++)
             {
                 Console.WriteLine("\nJournée " + (i + 1) );
                 g.Ligue.Calendar.MatchDay[i].playJourney();
             }
+        }
+
+        [Test]
+        public void result_of_my_own_match()
+        {
+            Game g = new Game( "test", "1234", "blabla", "blabla" );
+            g.Ligue.fillCalendar();
+           
+            Match M1 = new Match( g.TeamList.Teams[15], g.TeamList.Teams[8] );
+            M1.PlayMatch(true);
+            Console.WriteLine(M1.Result.TextSummary);
+
+            foreach( Player p in M1.Result.ScorerH )
+            {
+                Assert.That( p.ActualTeamTag, Is.EqualTo(g.TeamList.Teams[15].TeamTag) );
+            }
+        }
+
+         [Test]
+        public void test_Gauss()
+        {
+            List<int> result = new List<int>();
+            for( int i = 0; i < 9; i++ )
+            {
+                result.Add( 0 );
+            }
+                
+            Game g = new Game( "test", "1234", "blabla", "lala" );
+            
+            
+             int j = 0;
+             do
+             {
+                 int tmp = g.RndGauss(-1, 2);
+                 result[tmp]++;
+                 j++;
+
+             } while( j < 10000 );
+
+            for( int i = 0; i < 9 ; i++ )
+            {
+                Console.WriteLine( "\n" + i + " : " + (result[i] * 100) / 10000 + "%" );
+            }
+            
+            
         }
     }
 }
