@@ -15,7 +15,7 @@ namespace SIMS.SimSoccerTests
 
         public void Create_a_team_correctly()
         {
-            Game g = new Game("test","1234");
+            Game g = new Game( "test", "1234", "blabla", "lala" );
         }
     }
 }

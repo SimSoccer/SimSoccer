@@ -15,7 +15,7 @@ namespace GraphicsFormsEssai
 {
     public partial class GDI : Form
     {
-        Game _game = new Game("Toto", "Tata");
+        Game _game = new Game( "test", "1234", "blabla", "lala" );
         ListBox playerList = new ListBox();
         int c;
         Button b;

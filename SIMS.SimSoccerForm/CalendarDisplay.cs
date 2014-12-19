@@ -15,11 +15,12 @@ namespace SIMS.SimSoccerForm
     public partial class CalendarDisplay : Form
     {
         readonly Game _game;
-        public CalendarDisplay(Game game)
+        LobbyForm _lobby;
+        public CalendarDisplay(Game game, LobbyForm lobby)
         {
             InitializeComponent();
             _game = game;
-
+            _lobby = lobby;
             _game.Ligue.fillCalendar();
 
             
@@ -45,6 +46,11 @@ namespace SIMS.SimSoccerForm
         private void TMatchs_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void CalendarDisplay_FormClosing( object sender, FormClosingEventArgs e )
+        {
+            _lobby.cmptCalendar = 0;
         }
 
     }
