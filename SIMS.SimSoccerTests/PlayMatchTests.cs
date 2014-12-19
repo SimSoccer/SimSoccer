@@ -13,7 +13,7 @@ namespace SIMS.SimSoccer.Tests
         [Test]
         public void result_match_where_the_winner_is_supposed_to_be_the_host()
         {
-            Game g = new Game("test", "1234");
+            Game g = new Game( "test", "1234", "blabla", "lala" );
             Team t1 = g.TeamList.CreateTeam("Team1");
             t1.Level = 100;
             Team t2 = g.TeamList.CreateTeam("Team2");
@@ -27,10 +27,10 @@ namespace SIMS.SimSoccer.Tests
         [Test]
         public void result_match_with_teams_that_not_in_the_same_game()
         {
-            Game g = new Game("test", "1234");
+            Game g = new Game("test", "1234", "blabla", "lala");
             Team t1 = g.TeamList.CreateTeam("Team1");
             t1.Level = 99;
-            Game g2 = new Game("test2", "1234");
+            Game g2 = new Game( "test", "1234", "blabla", "lala" );
             Team t2 = g2.TeamList.CreateTeam("Team2");
             t2.Level = 1;
 
@@ -40,7 +40,7 @@ namespace SIMS.SimSoccer.Tests
         [Test]
         public void result_matchs_for_a_journey()
         {
-            Game g = new Game("test", "12345");
+            Game g = new Game( "test", "1234", "blabla", "lala" );
             g.Ligue.fillCalendar();
             g.ChoosenTeam = "Paris-Saint-Germain Football Club";
             for (int i = 0; i < g.Ligue.Calendar.MatchDay.Count; i++)

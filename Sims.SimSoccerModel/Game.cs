@@ -17,6 +17,9 @@ namespace Sims.SimSoccerModel
         readonly Ligue _ligue;
         string _userName;
         string _userPassword;
+        string _lastName;
+        string _firstName;
+        string _birthDate;
         string _choosenTeam;
         string _avatar;
         private XElement xElement;
@@ -63,9 +66,22 @@ namespace Sims.SimSoccerModel
         {
             get { return _userName; }
         }
+        public string LastName
+        {
+            get { return _lastName; }
+        }
+        public string FirstName
+        {
+            get { return _firstName; }
+        }
         public string UserPassword
         {
             get { return _userPassword; }
+        }
+
+        public string BirthDate
+        {
+            get { return _birthDate; }
         }
         public string Avatar
         {
@@ -92,10 +108,12 @@ namespace Sims.SimSoccerModel
             _userName = userName;
             XDocument doc = XDocument.Load(@".\..\..\..\user_" + userName + "*");
         }
-        public Game(string userName, string userPassword)
+        public Game(string userName, string userPassword, string lastName, string firstName)
         {
             _userName = userName;
             _userPassword = userPassword;
+            _lastName = lastName;
+            _firstName = firstName;
             XDocument doc = XDocument.Load(@".\..\..\..\Ligue1Players2.xml");
             XDocument doc2 = XDocument.Load(@".\..\..\..\Ligue1Teams.xml");
             XDocument doc3 = XDocument.Load(@".\..\..\..\Tactics.xml");
@@ -114,8 +132,11 @@ namespace Sims.SimSoccerModel
             this.xElement = e;
             _userName = e.Element("UserName").Value;
             _userPassword = e.Element("Password").Value;
+            _lastName = e.Element( "LastName" ).Value;
+            _firstName = e.Element( "FirstName" ).Value;
             _choosenTeam = e.Element("ChosenTeam").Value;
             _avatar = e.Element("Avatar").Value;
+            _birthDate = e.Element( "BirthDate" ).Value;
             XDocument doc = XDocument.Load(@".\..\..\..\Ligue1Players2.xml");
             XDocument doc2 = XDocument.Load(@".\..\..\..\Ligue1Teams.xml");
             XDocument doc3 = XDocument.Load(@".\..\..\..\Tactics.xml");
@@ -161,51 +182,57 @@ namespace Sims.SimSoccerModel
 
             }
 
+            DateTime today = DateTime.Now;
+
             XDocument gameSave = new XDocument(
                 new XElement("Game",
                     new XElement("Profil",
                         new XAttribute("ID", i),
                         new XElement("UserName", _userName),
                         new XElement("Password", _userPassword),
+                        new XElement("LastName", _lastName),
+                        new XElement("FirstName", _firstName),
+                        new XElement("BirthDate", today),
                         new XElement("Avatar", _avatar),
                         new XElement("ChosenTeam", "")),
                     game.TeamList.ToXml(),
                     new XElement("FreePlayers",
                         new XElement("TheFreePlayer"))));
 
-            DateTime today = DateTime.Now;
-            gameSave.Save(@".\..\..\..\user_" + _userName + "_save_" + today.Year + today.Month + today.Day + ".xml");
+            _birthDate = today.ToShortDateString();
+            gameSave.Save( @".\..\..\..\user_" + _userName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }
-        public void SaveAvatarToXML(string avatar, Game game)
+        public void SaveProfilToXML(string birthDate, string avatar, Game game )
         {
             _avatar = avatar;
+            _birthDate = birthDate;
             DateTime today = DateTime.Now;
 
-            var doc = XElement.Load(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
+            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
             var target = doc
-                 .Elements("Profil")
+                 .Elements( "Profil" )
                  .Single();
 
-            target.Element("Avatar").Value = _avatar;
-
-            doc.Save(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
+            target.Element( "Avatar" ).Value = _avatar;
+            target.Element( "BirthDate" ).Value = _birthDate;
+            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
 
         }
-        public void ToXML(string ChoosenTeam, Game game)
+        public void ToXML( string ChoosenTeam, Game game)
         {
             _choosenTeam = ChoosenTeam;
 
-
             DateTime today = DateTime.Now;
 
-            var doc = XElement.Load(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
+            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
             var target = doc
                  .Elements("Profil")
                  .Single();
 
-            target.Element("ChosenTeam").Value = _choosenTeam;
+            target.Element( "ChosenTeam" ).Value = _choosenTeam;
 
             doc.Save(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
+            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }
 
         public int RndGauss(int nb1, int nb2)

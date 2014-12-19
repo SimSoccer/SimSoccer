@@ -34,6 +34,12 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.InscriptionBox = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textFirstName = new System.Windows.Forms.TextBox();
+            this.textLastName = new System.Windows.Forms.TextBox();
             this.InscriptionBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,9 +55,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(10, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 13);
+            this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Nom d\'utilisateur";
+            this.label2.Text = "Pseudo";
             // 
             // label3
             // 
@@ -78,16 +84,70 @@
             // 
             // InscriptionBox
             // 
+            this.InscriptionBox.Controls.Add(this.textLastName);
+            this.InscriptionBox.Controls.Add(this.textFirstName);
+            this.InscriptionBox.Controls.Add(this.label6);
+            this.InscriptionBox.Controls.Add(this.label5);
+            this.InscriptionBox.Controls.Add(this.label4);
+            this.InscriptionBox.Controls.Add(this.dateTimePicker1);
             this.InscriptionBox.Controls.Add(this.txtName);
             this.InscriptionBox.Controls.Add(this.txtPassword);
             this.InscriptionBox.Controls.Add(this.label2);
             this.InscriptionBox.Controls.Add(this.label3);
             this.InscriptionBox.Location = new System.Drawing.Point(16, 26);
             this.InscriptionBox.Name = "InscriptionBox";
-            this.InscriptionBox.Size = new System.Drawing.Size(228, 126);
+            this.InscriptionBox.Size = new System.Drawing.Size(327, 247);
             this.InscriptionBox.TabIndex = 5;
             this.InscriptionBox.TabStop = false;
             this.InscriptionBox.Text = "Inscription";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(10, 195);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(96, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Date de naissance";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(112, 189);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(164, 20);
+            this.dateTimePicker1.TabIndex = 5;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(13, 119);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(29, 13);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Nom";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(13, 150);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(43, 13);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Prénom";
+            // 
+            // textFirstName
+            // 
+            this.textFirstName.Location = new System.Drawing.Point(110, 150);
+            this.textFirstName.Name = "textFirstName";
+            this.textFirstName.Size = new System.Drawing.Size(100, 20);
+            this.textFirstName.TabIndex = 9;
+            // 
+            // textLastName
+            // 
+            this.textLastName.Location = new System.Drawing.Point(110, 112);
+            this.textLastName.Name = "textLastName";
+            this.textLastName.Size = new System.Drawing.Size(100, 20);
+            this.textLastName.TabIndex = 10;
             // 
             // UserControl1
             // 
@@ -96,7 +156,7 @@
             this.Controls.Add(this.InscriptionBox);
             this.Controls.Add(this.label1);
             this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(295, 247);
+            this.Size = new System.Drawing.Size(360, 284);
             this.InscriptionBox.ResumeLayout(false);
             this.InscriptionBox.PerformLayout();
             this.ResumeLayout(false);
@@ -111,5 +171,11 @@
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.GroupBox InscriptionBox;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textLastName;
+        private System.Windows.Forms.TextBox textFirstName;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
     }
 }

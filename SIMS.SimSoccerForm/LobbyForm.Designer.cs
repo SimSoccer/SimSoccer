@@ -30,82 +30,84 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LobbyForm));
             this.txtUsernameLobby = new System.Windows.Forms.TextBox();
-            this.btGoToCalendar = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.calendrierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.profilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.btOpenProfile = new System.Windows.Forms.Button();
+            this.btOpenCalendar = new System.Windows.Forms.Button();
+            this.btExit = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.btExit)).BeginInit();
             this.SuspendLayout();
             // 
             // txtUsernameLobby
             // 
             this.txtUsernameLobby.Enabled = false;
-            this.txtUsernameLobby.Location = new System.Drawing.Point(245, 47);
+            this.txtUsernameLobby.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsernameLobby.Location = new System.Drawing.Point(626, 27);
             this.txtUsernameLobby.Name = "txtUsernameLobby";
-            this.txtUsernameLobby.Size = new System.Drawing.Size(100, 20);
+            this.txtUsernameLobby.Size = new System.Drawing.Size(222, 38);
             this.txtUsernameLobby.TabIndex = 0;
             this.txtUsernameLobby.TextChanged += new System.EventHandler(this.txtUsernameLobby_TextChanged);
             // 
-            // btGoToCalendar
+            // btOpenProfile
             // 
-            this.btGoToCalendar.Location = new System.Drawing.Point(81, 47);
-            this.btGoToCalendar.Name = "btGoToCalendar";
-            this.btGoToCalendar.Size = new System.Drawing.Size(75, 23);
-            this.btGoToCalendar.TabIndex = 1;
-            this.btGoToCalendar.Text = "Calendrier";
-            this.btGoToCalendar.UseVisualStyleBackColor = true;
-            this.btGoToCalendar.Click += new System.EventHandler(this.btGoToCalendar_Click);
+            this.btOpenProfile.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btOpenProfile.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btOpenProfile.BackgroundImage")));
+            this.btOpenProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btOpenProfile.Font = new System.Drawing.Font("Impact", 50F);
+            this.btOpenProfile.ForeColor = System.Drawing.Color.White;
+            this.btOpenProfile.Location = new System.Drawing.Point(0, 95);
+            this.btOpenProfile.Name = "btOpenProfile";
+            this.btOpenProfile.Size = new System.Drawing.Size(848, 163);
+            this.btOpenProfile.TabIndex = 3;
+            this.btOpenProfile.Text = "PROFIL";
+            this.btOpenProfile.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btOpenProfile.UseVisualStyleBackColor = false;
+            this.btOpenProfile.Click += new System.EventHandler(this.btOpenProfile_Click);
             // 
-            // menuStrip1
+            // btOpenCalendar
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.calendrierToolStripMenuItem,
-            this.exitToolStripMenuItem,
-            this.profilToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(415, 24);
-            this.menuStrip1.TabIndex = 2;
-            this.menuStrip1.Text = "menuStrip1";
+            this.btOpenCalendar.AutoSize = true;
+            this.btOpenCalendar.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btOpenCalendar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btOpenCalendar.BackgroundImage")));
+            this.btOpenCalendar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btOpenCalendar.Font = new System.Drawing.Font("Impact", 50F);
+            this.btOpenCalendar.ForeColor = System.Drawing.Color.White;
+            this.btOpenCalendar.Location = new System.Drawing.Point(0, 276);
+            this.btOpenCalendar.Name = "btOpenCalendar";
+            this.btOpenCalendar.Size = new System.Drawing.Size(848, 163);
+            this.btOpenCalendar.TabIndex = 4;
+            this.btOpenCalendar.Text = "CALENDRIER";
+            this.btOpenCalendar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btOpenCalendar.UseVisualStyleBackColor = false;
+            this.btOpenCalendar.Click += new System.EventHandler(this.btOpenCalendar_Click);
             // 
-            // calendrierToolStripMenuItem
+            // btExit
             // 
-            this.calendrierToolStripMenuItem.Name = "calendrierToolStripMenuItem";
-            this.calendrierToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
-            this.calendrierToolStripMenuItem.Text = "Calendrier";
-            this.calendrierToolStripMenuItem.Click += new System.EventHandler(this.btGoToCalendar_Click);
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
-            // 
-            // profilToolStripMenuItem
-            // 
-            this.profilToolStripMenuItem.Name = "profilToolStripMenuItem";
-            this.profilToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
-            this.profilToolStripMenuItem.Text = "Profil";
-            this.profilToolStripMenuItem.Click += new System.EventHandler(this.profilToolStripMenuItem_Click);
+            this.btExit.BackColor = System.Drawing.Color.Transparent;
+            this.btExit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btExit.BackgroundImage")));
+            this.btExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btExit.Location = new System.Drawing.Point(1100, 600);
+            this.btExit.Name = "btExit";
+            this.btExit.Size = new System.Drawing.Size(235, 129);
+            this.btExit.TabIndex = 5;
+            this.btExit.TabStop = false;
+            this.btExit.Click += new System.EventHandler(this.btExit_Click);
             // 
             // LobbyForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(415, 331);
-            this.Controls.Add(this.btGoToCalendar);
+            this.ClientSize = new System.Drawing.Size(848, 742);
+            this.Controls.Add(this.btExit);
+            this.Controls.Add(this.btOpenCalendar);
+            this.Controls.Add(this.btOpenProfile);
             this.Controls.Add(this.txtUsernameLobby);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "LobbyForm";
             this.Text = "SimSoccer";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btExit)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -114,10 +116,8 @@
         #endregion
 
         private System.Windows.Forms.TextBox txtUsernameLobby;
-        private System.Windows.Forms.Button btGoToCalendar;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem calendrierToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem profilToolStripMenuItem;
+        private System.Windows.Forms.Button btOpenProfile;
+        private System.Windows.Forms.Button btOpenCalendar;
+        private System.Windows.Forms.PictureBox btExit;
     }
 }

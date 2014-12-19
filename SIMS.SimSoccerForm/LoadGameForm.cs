@@ -69,7 +69,7 @@ namespace SIMS.SimSoccerForm
                     XDocument doc = XDocument.Load( @".\..\..\..\" + listBox1.SelectedItem );
 
                     Game _game = new Game( doc.Root.Element( "Profil" ) );
-
+                    
                     CheckPasswordForm CPF = new CheckPasswordForm( _game );
                     CPF.Show();
                 }
