@@ -68,37 +68,73 @@ namespace Sims.SimSoccerModel
         /// </summary>
         /// <returns></returns>
         //public MatchResult PlayMatch()
-        public void PlayMatch()
+        
+        public void PlayMatch(bool detail)
         {
             if( _result != null ) throw new InvalidOperationException( "PlayMatch must be called only once!" );
             _result = new MatchResult( _home, _outside );
-            
+
 
             int tmp = _home.Level + _outside.Level;
-            int winRateH = (_home.Level*100)/tmp;
-            _result.ScoreD = 0;
-            _result.ScoreE = 0;
+            int winRateH = (_home.Level * 100) / tmp;
+            _result.ScoreH = 0;
+            _result.ScoreO = 0;
 
-            int nbGoal = _game.Rnd.Next( 0, 8 );
-
-
-            for( int i = 0; i < nbGoal; i++ )
-            {            
-                int draw = _game.Rnd.Next(0, 100);
-                if(draw < winRateH)
-                {
-                    _result.ScoreD++;
-                } 
-                else if(draw > winRateH)
-                {
-                    _result.ScoreE++;   
-                }            
-            }
+            int nbGoal = _game.RndGauss(-1, 2);
            
+            for( int i = 0; i < nbGoal; i++ )
+            {
+                int draw = _game.Rnd.Next( 0, 100 );
+
+                if( draw < winRateH )
+                {
+                    if( detail == true )
+                    {
+                        bool isFound = false;
+
+                        do
+                        {
+
+                            int G = _game.Rnd.Next( 0, _home.TeamPlayers.Count );
+                            if( _home.TeamPlayers[G].Poste == "AT" || _home.TeamPlayers[G].Poste == "AG" || _home.TeamPlayers[G].Poste == "AD" )
+                            {
+                                //Console.WriteLine( _home.TeamPlayers[G].Name + " Scored for " + _home.TeamTag );
+                                _result.ScorerH.Add( _home.TeamPlayers[G] );
+                                isFound = true;
+
+                            }
+                        } while( isFound == false );
+                    }
+
+                    _result.ScoreH++;
+                
+                }
+                else if( draw > winRateH )
+                {
+                    if( detail == true )
+                    {
+
+                        bool isFound = false;
+
+                        do
+                        {
+
+                            int G = _game.Rnd.Next( 0, _outside.TeamPlayers.Count );
+                            if( _outside.TeamPlayers[G].Poste == "AT" || _outside.TeamPlayers[G].Poste == "AG" || _outside.TeamPlayers[G].Poste == "AD" )
+                            {
+                                //Console.WriteLine( _outside.TeamPlayers[G].Name + " Scored for " + _outside.TeamTag );
+                                _result.ScorerO.Add( _outside.TeamPlayers[G]);
+                                isFound = true;
+
+                            }
+                        } while( isFound == false );
+                    }
+
+                    _result.ScoreO++;
+                }
+            }
+
             _result.Result();
-            
-
-
         }
     }
 }
