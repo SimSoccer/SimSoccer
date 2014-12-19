@@ -25,7 +25,11 @@ namespace SIMS.SimSoccerForm
             textBox1_TextChanged( this, EventArgs.Empty );
             pictureBox1_Click( this, EventArgs.Empty );
             textBox2_TextChanged( this, EventArgs.Empty );
+            textLastName_TextChanged( this, EventArgs.Empty );
+            textFirstName_TextChanged( this, EventArgs.Empty );
         }
+
+        
 
         private void FirstNameText_TextChanged( object sender, EventArgs e )
         {
@@ -35,7 +39,7 @@ namespace SIMS.SimSoccerForm
         private void textBox1_TextChanged( object sender, EventArgs e )
         {
             textBox1.Text = "" + _game.ChoosenTeam;
-            textBox1.Width = (_game.ChoosenTeam.Length)*6;
+            textBox1.Width = (_game.ChoosenTeam.Length)*7;
         }
 
         private void pictureBox1_Click( object sender, EventArgs e )
@@ -82,7 +86,8 @@ namespace SIMS.SimSoccerForm
            
             
             _lobby.cmptProfil = 0;
-            _game.SaveProfilToXML (_game.BirthDate,_game.Avatar, _game );
+            _game.SaveProfilToXML(_game.BirthDate,_game.Avatar, _game );
+
             this.Close();
         }
 
@@ -100,6 +105,16 @@ namespace SIMS.SimSoccerForm
             int differenceInYears = ts.Days;
             int iYear = (int)(differenceInYears / ApproxDaysPerYear);
             textBox2.Text = ""+iYear;
+        }
+
+        private void textLastName_TextChanged( object sender, EventArgs e )
+        {
+            textLastName.Text = "" + _game.LastName;
+        }
+
+        private void textFirstName_TextChanged( object sender, EventArgs e )
+        {
+            textFirstName.Text = "" + _game.FirstName;
         }
 
       

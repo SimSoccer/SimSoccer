@@ -17,6 +17,8 @@ namespace Sims.SimSoccerModel
         readonly Ligue _ligue;
         string _userName;
         string _userPassword;
+        string _lastName;
+        string _firstName;
         string _birthDate;
         string _choosenTeam;
         string _avatar;
@@ -63,6 +65,14 @@ namespace Sims.SimSoccerModel
         {
             get { return _userName; }
         }
+        public string LastName
+        {
+            get { return _lastName; }
+        }
+        public string FirstName
+        {
+            get { return _firstName; }
+        }
         public string UserPassword
         {
             get { return _userPassword; }
@@ -97,10 +107,12 @@ namespace Sims.SimSoccerModel
             _userName = userName;
             XDocument doc = XDocument.Load(@".\..\..\..\user_" + userName + "*");
         }
-        public Game(string userName, string userPassword)
+        public Game(string userName, string userPassword, string lastName, string firstName)
         {
             _userName = userName;
             _userPassword = userPassword;
+            _lastName = lastName;
+            _firstName = firstName;
             XDocument doc = XDocument.Load(@".\..\..\..\Ligue1Players2.xml");
             XDocument doc2 = XDocument.Load(@".\..\..\..\Ligue1Teams.xml");
             XDocument doc3 = XDocument.Load(@".\..\..\..\Tactics.xml");
@@ -119,6 +131,8 @@ namespace Sims.SimSoccerModel
             this.xElement = e;
             _userName = e.Element("UserName").Value;
             _userPassword = e.Element("Password").Value;
+            _lastName = e.Element( "LastName" ).Value;
+            _firstName = e.Element( "FirstName" ).Value;
             _choosenTeam = e.Element("ChosenTeam").Value;
             _avatar = e.Element("Avatar").Value;
             _birthDate = e.Element( "BirthDate" ).Value;
@@ -175,6 +189,8 @@ namespace Sims.SimSoccerModel
                         new XAttribute("ID", i),
                         new XElement("UserName", _userName),
                         new XElement("Password", _userPassword),
+                        new XElement("LastName", _lastName),
+                        new XElement("FirstName", _firstName),
                         new XElement("BirthDate", today),
                         new XElement("Avatar", _avatar),
                         new XElement("ChosenTeam", "")),
