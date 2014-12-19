@@ -9,10 +9,19 @@ namespace Sims.SimSoccerModel
 {
     public class Formation
     {
+        #region Poste
         Points _ad;
+        Points _bu;
         Points _mo;
+        Points _mog;
+        Points _mod;
+        Points _mdfg;
+        Points _mdfd;
+        Points _atg;
+        Points _atd;
         Points _dcd;
         Points _dcg;
+        Points _dc;
         Points _dld;
         Points _dlg;
         Points _gb;
@@ -20,101 +29,125 @@ namespace Sims.SimSoccerModel
         Points _at;
         Points _mdf;
         Points _mc;
+        Points _mcg;
+        Points _mcd;
         Points _mlg;
         Points _mld;
+        #endregion
         string _name;
 
-        public Formation(FormationList fl, XElement e)
+        public string Name
         {
-            _name = e.Attribute("Formation").Value;
-            _at = new Points (float.Parse(e.Element("ATX").Value), float.Parse(e.Element("ATY").Value));
-            _ad = new Points(float.Parse(e.Element("ADX").Value), float.Parse(e.Element("ADY").Value));
-            _ag = new Points(float.Parse(e.Element("AGX").Value), float.Parse(e.Element("AGY").Value));
-            _mc = new Points(float.Parse(e.Element("MCX").Value), float.Parse(e.Element("MCY").Value));
-            _mdf = new Points(float.Parse(e.Element("MDFX").Value), float.Parse(e.Element("MDFY").Value));
-            _gb = new Points(float.Parse(e.Element("GBX").Value), float.Parse(e.Element("GBY").Value));
-            _dlg = new Points(float.Parse(e.Element("LGX").Value), float.Parse(e.Element("LGY").Value));
-            _dld = new Points(float.Parse(e.Element("LDX").Value), float.Parse(e.Element("LDY").Value));
-            _mo = new Points(float.Parse(e.Element("MOX").Value), float.Parse(e.Element("MOY").Value));
-            _mlg = new Points(float.Parse(e.Element("MLGX").Value), float.Parse(e.Element("MLGY").Value));
-            _mld = new Points(float.Parse(e.Element("MLDX").Value), float.Parse(e.Element("MLDY").Value));
+            get { return _name; }
         }
 
-        public Points AT
+        public Points Bu
         {
-            get { return _at; }
-            set { _at = value; }
-        }
-
-        public Points AD
-        {
-            get { return _ad; }
-            set { _ad = value; }
-        }
-
-        public Points AG
-        {
-            get { return _ag; }
-            set { _ag = value; }
-        }
-        public Points MC
-        {
-            get { return _mc; }
-            set { _mc = value; }
-        }
-        public Points MDF
-        {
-            get { return _mdf; }
-            set { _mdf = value; }
+            get { return _bu; }
         }
         public Points GB
         {
             get { return _gb; }
-            set { _gb = value; }
-        }
-        public Points MLG
-        {
-            get { return _mlg; }
-            set { _mlg = value; }
-        }
-        public Points MLD
-        {
-            get { return _mld; }
-            set { _mld = value; }
         }
 
-        public Points DG
+        public Points DC
         {
-            get { return _dlg; }
-            set { _dlg = value; }
-        }
-        public Points DD
-        {
-            get { return _dld; }
-            set { _dld = value; }
+            get { return _dc; }
         }
 
         public Points DCG
         {
             get { return _dcg; }
-            set { _dcg = value; }
         }
 
         public Points DCD
         {
             get { return _dcd; }
-            set { _dcd = value; }
         }
 
         public Points MO
         {
             get { return _mo; }
-            set { _mo = value; }
         }
 
-        public string Name
+        public Points MOD
         {
-            get { return _name; }
+            get { return _mod; }
+        }
+
+        public Points MOG
+        {
+            get { return _mog; }
+        }
+
+        public Points DLD
+        {
+            get { return _dld; }
+        }
+        public Points DLG
+        {
+            get { return _dlg; }
+        }
+        public Points MC
+        {
+            get { return _mc; }
+        }
+        public Points MCG
+        {
+            get { return _mcg; }
+        }
+        public Points MCD
+        {
+            get { return _mcd; }
+        }
+        public Points MDF
+        {
+            get { return _mdf; }
+        }
+        public Points MDFG
+        {
+            get { return _mdfg; }
+        }
+        public Points MDFD
+        {
+            get { return _mdfd; }
+        }
+        public Points AG
+        {
+            get { return _ag; ; }
+        }
+        public Points AD
+        {
+            get { return _ad; }
+        }
+        public Points ATG
+        {
+            get { return _atg; }
+        }
+        public Points ATD
+        {
+            get { return _atd; }
+        }
+        public Points MLG
+        {
+            get { return _mlg; }
+        }
+        public Points MLD
+        {
+            get { return _mld; }
+        }
+
+
+        public Formation(FormationList fl, XElement e)
+        {
+            _name = e.Attribute("Formation").Value;
+
+            e.Elements("Tactics").Elements("Tactic")
+                                .Where(eT => eT.Attribute("Formation").Value == _name)
+                                .Elements()
+                                .Select(eT => new { n = eT.Name, Pos = eT.Value.Split(',') })
+                                .Select(eT => new { N = eT.n, P = new Points(float.Parse(eT.Pos[0]), float.Parse(eT.Pos[1])) })
+                                .ToDictionary(eT => eT.N, eT => eT.P);
         }
     }
 }

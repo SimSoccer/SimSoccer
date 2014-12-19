@@ -13,13 +13,14 @@ namespace CreateTactics
 
         static void Main(string[] args)
         {
-            string csvString = @"4.3.3,35.0,93.5,5.0,85.0,65.0,85.0,35.0,33.0,35.0,55.0,,,10.0,18.0,60.0,18.0,22.0,18.0,48.0,18.0,35.0,3.0,30.0,57.0,38.0,57.0
-4.4.2,35.0,93.5,,,,,35.0,33.0,35.0,55.0,,,10.0,18.0,60.0,18.0,22.0,18.0,48.0,18.0,35.0,3.0,,,,
-4.2.3.1,35.0,93.5,5.0,85.0,65.0,85.0,35.0,33.0,35.0,55.0,35.0,84.0,10.0,18.0,60.0,18.0,22.0,18.0,48.0,18.0,35.0,3.0,,,,
-5.3.2,35.0,93.5,,,,,,,35.0,55.0,,,,,,,22.0,18.0,48.0,18.0,35.0,3.0,10.0,57.0,60.0,57.0
-3.5.2,35.0,93.5,,,,,35.0,33.0,35.0,55.0,,,,,,,22.0,18.0,48.0,18.0,35.0,3.0,10.0,60.0,60.0,60.0
-5.4.1,35.0,93.5,,,,,,,35.0,55.0,,,10.0,25.0,60.0,25.0,22.0,18.0,48.0,18.0,35.0,3v,10.0,60.0,60.0,60.0
-4.4.2 losange,35.0,93.5,,,,,35.0,33.0,,,35.0,84.0,10.0,18.0,60.0,18.0,22.0,18.0,48.0,18.0,35.0,3.0,30.0,55.0,40.0,55.0";
+            string csvString = @"4.3.3;800,300;0;0;750,100;750,500;0;0;350,300;500,200;0;0;500,400;600,400;600,200;0;200,100;200,500;200,200;200,400;0;30,300;550,100;550,500
+4.4.2;0;850,200;850,400;0;0;500,200;500,400;0;35,55;0;0;0;0;0;0;200,100;200,500;200,200;200,400;0;30,300;0;0
+4;2.3.1;800,300;0;0;0;0;350,225;350,375;0;35,55;0;0;0;650,450;650,150;650,300;200,100;200,500;200,200;200,400;0;30,300;0;0
+5.3.2;0;850,200;850,400;0;0;0;0;400,300;35,55;0;0;0;0;0;0;300,100;300,500;200,200;200,400;200,300;30,300;550,150;550,450
+3.5.2;0;850,200;850,400;0;0;0;0;0;500,200;0;0;500,400;0;0;650,300;300,100;300,500;200,200;200,400;200,300;30,300;500,100;500,500
+5.4.1;800,300;0;0;0;0;0;0;0;35,55;0;0;0;600,450;600,150;0;10,25;60,25;200,200;200,400;200,300;30,300;0;0
+4.4.2 losange;0;850,200;850,400;0;0;0;0;350,300;0;0;0;0;0;0;700,300;200,100;200,500;200,200;200,400;0;30,300;550,150;550,450
+";
 
             File.WriteAllText("Tactic.csv", csvString);
             // Read into an array of strings.
@@ -27,35 +28,31 @@ namespace CreateTactics
             XElement cust = new XElement("Game",
                  new XElement("Tactics",
                 from str in source
-                let fields = str.Split(',')
+                let fields = str.Split(';')
                 select new XElement("Tactic",
                     new XAttribute("Formation", fields[0]),
-                    new XElement("ATX", fields[1]),
-                    new XElement("ATY", fields[2]),
-                    new XElement("AGX", fields[3]),
-                    new XElement("AGY", fields[4]),
-                    new XElement("ADX", fields[5]),
-                    new XElement("ADY", fields[6]),
-                    new XElement("MDFX", fields[7]),
-                    new XElement("MDFY", fields[8]),
-                    new XElement("MCX", fields[9]),
-                    new XElement("MCY", fields[10]),
-                    new XElement("MOX", fields[11]),
-                    new XElement("MOY", fields[12]),
-                    new XElement("LGX", fields[13]),
-                    new XElement("LGY", fields[14]),
-                    new XElement("LDX", fields[15]),
-                    new XElement("LDY", fields[16]),
-                    new XElement("DCGX", fields[17]),
-                    new XElement("DCGY", fields[18]),
-                    new XElement("DCDX", fields[19]),
-                    new XElement("DCDY", fields[20]),
-                    new XElement("GBX", fields[21]),
-                    new XElement("GBY", fields[22]),
-                    new XElement("MLGX", fields[23]),
-                    new XElement("MLGY", fields[24]),
-                    new XElement("MLDX", fields[25]),
-                    new XElement("MLDY", fields[26]) ) ) );
+                    new XElement("BU", fields[1]),
+                    new XElement("ATG", fields[2]),
+                    new XElement("ATD", fields[3]),
+                    new XElement("AG", fields[4]),
+                    new XElement("AD", fields[5]),
+                    new XElement("MDFG", fields[6]),
+                    new XElement("MDFD", fields[7]),
+                    new XElement("MDF", fields[8]),
+                    new XElement("MCG", fields[9]),
+                    new XElement("MC", fields[10]),
+                    new XElement("MCD", fields[11]),
+                    new XElement("MOD", fields[12]),
+                    new XElement("MOG", fields[13]),
+                    new XElement("MOC", fields[14]),
+                    new XElement("DLG", fields[15]),
+                    new XElement("DLD", fields[16]),
+                    new XElement("DCG", fields[17]),
+                    new XElement("DCD", fields[18]),
+                    new XElement("DC", fields[19]),
+                    new XElement("GB", fields[20]),
+                    new XElement("MLG", fields[21]),
+                    new XElement("MLD", fields[22]))));
             cust.Save(@"C:\Users\user\Documents\SimSoccer\Tactics.xml");
         }
     }

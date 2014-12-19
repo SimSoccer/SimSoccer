@@ -21,12 +21,14 @@ namespace Sims.SimSoccerModel
         int _leagueRanking;
         int _level;
         string _playerName;
+        string _formation;
         List<Team> _opponent;
         List<Player> _teamType;
         List<Player> _remplacents;
         List<Player> _reservist;
         readonly Game _game;
         Tactic _taticTeam;
+        Dictionary<XName, Points> positionPlayers;
         #endregion
 
         #region contructor
@@ -40,6 +42,8 @@ namespace Sims.SimSoccerModel
             _teamType = new List<Player>();
             _remplacents = new List<Player>();
             _reservist = new List<Player>();
+            positionPlayers = new Dictionary<XName, Points>();
+
         }
         #endregion
 
@@ -52,6 +56,12 @@ namespace Sims.SimSoccerModel
         {
             get { return _teamType; }
             set { _teamType = value; }
+        }
+
+        public String Formation
+        {
+            get { return _formation; }
+            set { _formation = value; }
         }
         public List<Player> Remplacent
         {
@@ -99,14 +109,28 @@ namespace Sims.SimSoccerModel
             _teamType = new List<Player>();
             _remplacents = new List<Player>();
             _reservist = new List<Player>();
-            _taticTeam = new Tactic();
+            positionPlayers = new Dictionary<XName, Points>();
             _owner = owner;
             string tt = e.Element("TeamTag").Value;
 
-            for (i = 0; i < _owner.Game.PlayerList.Players.Count; i++)
+            /// Assign players a position
+            positionPlayers = e.Elements("Tactics").Elements("Tactic")
+                                  .Where(eT => eT.Attribute("Formation").Value == _formation)
+                                  .Elements()
+                                  .Select(eT => new { n = eT.Name, Pos = eT.Value.Split(',') })
+                                  .Select(eT => new { N = eT.n, P = new Points(float.Parse(eT.Pos[0]), float.Parse(eT.Pos[1])) })
+                                  .ToDictionary(eT => eT.N, eT => eT.P);
+
+            foreach (Player p in _teamType)
             {
-                /// Incumbant the players holder in a team and in its global player list
-                if (_owner.Game.PlayerList.Players[i].ActualTeamTag == tt && _owner.Game.PlayerList.Players[i].Status == "Titulaire")
+                p.Position = positionPlayers[p.Poste];
+            }
+
+            /// Incumbant the players holder in a team and in its global player list
+
+            for (i = 0; i < _game.PlayerList.Players.Count; i++)
+            {
+                if (_game.PlayerList.Players[i].ActualTeamTag == tt && _game.PlayerList.Players[i].Status == "Titulaire")
                 {
                     if (_teamType.Count < 0 || _teamType.Count > 11) throw new IndexOutOfRangeException();
                     if (_players.Count < 0) throw new IndexOutOfRangeException();
@@ -128,6 +152,7 @@ namespace Sims.SimSoccerModel
 
                     _players.Add(_owner.Game.PlayerList.Players[i]);
                     _remplacents.Add(_owner.Game.PlayerList.Players[i]);
+
                     for (j = 0; j < _players.Count; j++)
                     {
                         _playerName = _players[j].Name;
@@ -149,12 +174,14 @@ namespace Sims.SimSoccerModel
 
             _name = e.Attribute("Name").Value;
             TeamTag = e.Element("TeamTag").Value;
+            _formation = e.Element("Formation").Value;
             Town = e.Element("Town").Value;
             Stadium = e.Element("Stadium").Value;
             Logo = e.Element("Logo").Value;
             Manager = e.Element("Manager").Value;
             LeagueRanking = int.Parse(e.Element("LeagueRanking").Value);
             Level = int.Parse(e.Element("Level").Value);
+            _formation = e.Element("Formation").Value;
             TeamType = _teamType;
             Remplacent = _remplacents;
             Reserve = _reservist;
@@ -194,6 +221,7 @@ namespace Sims.SimSoccerModel
                         new XElement("Manager", Manager),
                         new XElement("LeagueRanking", LeagueRanking),
                         new XElement("Level", Level),
+                        new XElement("Formation", Formation),
                         new XElement("Players",
                             new XElement("Titulaire",
                             from p in TeamType
