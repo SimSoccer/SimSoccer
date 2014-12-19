@@ -44,7 +44,7 @@ namespace SIMS.SimSoccerForm
             }
             else
             {
-                userControl1.Inscription( userControl1.UserName, userControl1.UserPassword );
+                userControl1.Inscription( userControl1.UserName, userControl1.UserPassword , userControl1.LastName, userControl1.FirstName);
                 this.Hide();
             }
         }

@@ -35,7 +35,7 @@
             // 
             // btValider
             // 
-            this.btValider.Location = new System.Drawing.Point(389, 57);
+            this.btValider.Location = new System.Drawing.Point(428, 50);
             this.btValider.Name = "btValider";
             this.btValider.Size = new System.Drawing.Size(75, 23);
             this.btValider.TabIndex = 1;
@@ -45,9 +45,11 @@
             // 
             // userControl1
             // 
+            this.userControl1.FirstName = "";
+            this.userControl1.LastName = "";
             this.userControl1.Location = new System.Drawing.Point(39, 41);
             this.userControl1.Name = "userControl1";
-            this.userControl1.Size = new System.Drawing.Size(334, 225);
+            this.userControl1.Size = new System.Drawing.Size(362, 292);
             this.userControl1.TabIndex = 0;
             this.userControl1.UserName = "";
             this.userControl1.UserPassword = "";
@@ -58,7 +60,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(476, 359);
+            this.ClientSize = new System.Drawing.Size(526, 383);
             this.Controls.Add(this.btValider);
             this.Controls.Add(this.userControl1);
             this.Name = "FormInscription";

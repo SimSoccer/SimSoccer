@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalendarDisplay));
             this.Cjournee = new System.Windows.Forms.ComboBox();
             this.TMatchs = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -35,7 +36,7 @@
             // Cjournee
             // 
             this.Cjournee.FormattingEnabled = true;
-            this.Cjournee.Location = new System.Drawing.Point(12, 14);
+            this.Cjournee.Location = new System.Drawing.Point(117, 12);
             this.Cjournee.Name = "Cjournee";
             this.Cjournee.Size = new System.Drawing.Size(192, 21);
             this.Cjournee.TabIndex = 0;
@@ -45,11 +46,11 @@
             // 
             this.TMatchs.BackColor = System.Drawing.Color.AliceBlue;
             this.TMatchs.ForeColor = System.Drawing.Color.Black;
-            this.TMatchs.Location = new System.Drawing.Point(12, 56);
+            this.TMatchs.Location = new System.Drawing.Point(22, 114);
             this.TMatchs.Multiline = true;
             this.TMatchs.Name = "TMatchs";
             this.TMatchs.ReadOnly = true;
-            this.TMatchs.Size = new System.Drawing.Size(280, 190);
+            this.TMatchs.Size = new System.Drawing.Size(375, 284);
             this.TMatchs.TabIndex = 1;
             this.TMatchs.TextChanged += new System.EventHandler(this.TMatchs_TextChanged);
             // 
@@ -57,13 +58,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(327, 275);
+            this.ClientSize = new System.Drawing.Size(418, 506);
             this.Controls.Add(this.TMatchs);
             this.Controls.Add(this.Cjournee);
+            this.Location = new System.Drawing.Point(900, 100);
             this.Name = "CalendarDisplay";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Calendrier";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CalendarDisplay_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
