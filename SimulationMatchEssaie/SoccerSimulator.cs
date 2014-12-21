@@ -41,6 +41,7 @@ namespace SimulationMatchEssaie
         float b;
         Points difference;
         Points nextPoint;
+        Points intermediatePoint;
 
         public SoccerSimulator()
         {
@@ -57,7 +58,7 @@ namespace SimulationMatchEssaie
             Point rectPoint = new Point(0,0);
             System.Drawing.Size fieldSize = new System.Drawing.Size(1000,600);
             fRec = new Rectangle( rectPoint, fieldSize );
-            _playerPoints = new Point( 100, 100 );
+            _playerPoints = new Point( 550, 250 );
             _ballPoints = new Point( 485, 280 );
             trajectoir = new List<Points>();
             listBox1.Items.Add( theone.Name);
@@ -130,12 +131,18 @@ namespace SimulationMatchEssaie
             #endregion
             count = 1;
 
-            Points intermediatePoint = theone.PlayerPosition.PointToObjectif( theball );
+            intermediatePoint = theone.PlayerPosition.PointToObjectif( theball );
             listBox1.Items.Add( "Player : " + _playerPoints.X + "; " + _playerPoints.Y );
             listBox1.Items.Add( "Ballon : " + theball.X + "; " + theball.Y );
             listBox1.Items.Add( "Point intermediare : " + intermediatePoint.X + "; " + intermediatePoint.Y );
 
             if( _playerPoints.X == theball.X - 20 && _playerPoints.Y == theball.Y - 50 )
+            {
+                rball.X += 25;
+                theball.X = ( float )rball.X;
+                theball.Y = ( float )rball.Y;
+            }
+            else if( _playerPoints.X == theball.X && _playerPoints.Y == theball.Y - 50 )
             {
                 rball.X += 25;
                 theball.X = ( float )rball.X;
@@ -211,7 +218,9 @@ namespace SimulationMatchEssaie
             #endregion
 
             theone.Image = player;
-            theone.DrawPlayer( _game, player, _playerPoints, _ballPoints, i, count );
+            Points nextPoint = theone.PlayerPosition.PointToObjectif( theball );
+            listBox1.Items.Add( "Next Point : " + nextPoint.X + "; " + nextPoint.Y );
+            theone.DrawPlayer( _game, player, _playerPoints, theone.PlayerPosition, _ballPoints, nextPoint, i, count );
             _game.Graphic.DrawImage( ball, rball );
             //listBox1.Items.Add( "The Ball Points : " + theball.X + ", " + theball.Y );
             //listBox1.Items.Add( "The Player Points : " + theone.PlayerPosition.X + ", " + theone.PlayerPosition.Y );
