@@ -27,7 +27,6 @@ namespace Sims.SimSoccerModel
         List<Player> _remplacents;
         List<Player> _reservist;
         readonly Game _game;
-        Tactic _taticTeam;
         Dictionary<XName, Points> positionPlayers;
         #endregion
 
@@ -42,7 +41,6 @@ namespace Sims.SimSoccerModel
             _teamType = new List<Player>();
             _remplacents = new List<Player>();
             _reservist = new List<Player>();
-            positionPlayers = new Dictionary<XName, Points>();
 
         }
         #endregion
@@ -78,11 +76,6 @@ namespace Sims.SimSoccerModel
             set { _reservist = value; }
         }
 
-        public Tactic Tactic
-        {
-            get { return _taticTeam; }
-        }
-
         public TeamList TeamList
         {
             get { return _owner; }
@@ -94,11 +87,6 @@ namespace Sims.SimSoccerModel
             set { _players = value; }
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="owner"></param>
-        /// <param name="e"></param>
         public Team(TeamList owner, XElement e)
         {
             _game = owner.Game;
@@ -112,6 +100,7 @@ namespace Sims.SimSoccerModel
             positionPlayers = new Dictionary<XName, Points>();
             _owner = owner;
             string tt = e.Element("TeamTag").Value;
+            _formation = e.Element("Formation").Value;
 
             /// Assign players a position
             positionPlayers = e.Elements("Tactics").Elements("Tactic")
@@ -121,13 +110,12 @@ namespace Sims.SimSoccerModel
                                   .Select(eT => new { N = eT.n, P = new Points(float.Parse(eT.Pos[0]), float.Parse(eT.Pos[1])) })
                                   .ToDictionary(eT => eT.N, eT => eT.P);
 
-            foreach (Player p in _teamType)
+            foreach (Player p in TeamType)
             {
                 p.Position = positionPlayers[p.Poste];
             }
 
             /// Incumbant the players holder in a team and in its global player list
-
             for (i = 0; i < _game.PlayerList.Players.Count; i++)
             {
                 if (_game.PlayerList.Players[i].ActualTeamTag == tt && _game.PlayerList.Players[i].Status == "Titulaire")
@@ -173,18 +161,13 @@ namespace Sims.SimSoccerModel
             }
 
             _name = e.Attribute("Name").Value;
-            TeamTag = e.Element("TeamTag").Value;
-            _formation = e.Element("Formation").Value;
+            TeamTag = e.Element("TeamTag").Value;            
             Town = e.Element("Town").Value;
             Stadium = e.Element("Stadium").Value;
             Logo = e.Element("Logo").Value;
             Manager = e.Element("Manager").Value;
             LeagueRanking = int.Parse(e.Element("LeagueRanking").Value);
             Level = int.Parse(e.Element("Level").Value);
-            _formation = e.Element("Formation").Value;
-            TeamType = _teamType;
-            Remplacent = _remplacents;
-            Reserve = _reservist;
 
             XElement xml = new XElement("Players",
                 from p in _players
@@ -207,10 +190,8 @@ namespace Sims.SimSoccerModel
                     new XElement("ActualTeamTag", p.ActualTeamTag),
                     new XElement("Status", p.Status)));
         }
-
         public XElement ToXml(int id)
         {
-
             return new XElement("Team",
                         new XAttribute("Id", id),
                         new XAttribute("Name", Name),
@@ -284,7 +265,6 @@ namespace Sims.SimSoccerModel
                             new XElement("ActualTeamTag", res.ActualTeamTag),
                             new XElement("Status", res.Status)))));
         }
-
         public string Name
         {
             get { return _name; }
@@ -338,5 +318,9 @@ namespace Sims.SimSoccerModel
             set { _playerName = value; }
         }
 
+        public Dictionary<XName, Points> PositionPlayers
+        {
+            get { return positionPlayers; }
+        }
     }
 }

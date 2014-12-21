@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Game>
+	<Players>
+	</Players>
+	<Teams>
+		
+		<Team Id = "0" Name = "Paris-Saint-Germain Football Club">
+			<TeamTag>PSG</TeamTag>
+			<Town>Paris</Town>
+			<Stadium>Parc des Princes</Stadium>
+			<Logo>.\..\..\..\images\PSG.png</Logo>
+			<Manager>Laurent BLANC</Manager>
+			<LeagueRanking>16</LeagueRanking>
+			<Level>81</Level>
+			<Formation>4.3.3</Formation>
+		</Team>			
+		</Team>
+	</Teams>
+</Game>
