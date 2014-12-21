@@ -57,7 +57,7 @@ namespace Sims.SimSoccerModel
             get { return _owner.Game; }
         }
 
-        public Player(PlayerList owner, XElement e )
+        public Player(PlayerList owner, XElement e, Image i )
         {
             _id = int.Parse(e.Attribute("Id").Value);
             _name = e.Attribute("Name").Value;
@@ -77,6 +77,7 @@ namespace Sims.SimSoccerModel
             FinancialValue = int.Parse(e.Element("FinancialValue").Value);
             ActualTeamTag = e.Element("ActualTeamTag").Value;
             _status = e.Element("Status").Value;
+            _image = i;
         }
 
         public Player( XDocument d, Image i )

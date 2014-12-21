@@ -17,31 +17,24 @@ namespace SimulationMatchEssaie
 
         #region Attributes
         Game _game = new Game( "Toto", "Tata" );
-        Rectangle rPlayer;
         Rectangle rball;
         Timer t = new Timer();
         int i = 0;
         int ballon;
         int count = 0;
-        int countBall = 0;
         int iBall = 0;
         Image player;
         Image ball;
-        Point initialPlayerPoint;
         Points theball;
-        double distance;
         Player theone;
         Image field;
-        Rectangle fRec;
-        #endregion
         Point _playerPoints;
         Point _ballPoints;
-        List<Points> trajectoir;
-        float a;
-        float b;
-        Points difference;
-        Points nextPoint;
         Points intermediatePoint;
+        Points postePosition;
+        Points secondObjectif;
+        Points intermediatePoint2;
+        #endregion
 
         public SoccerSimulator()
         {
@@ -50,17 +43,17 @@ namespace SimulationMatchEssaie
             player = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
             field = Image.FromFile( @".\..\..\..\images\nefield.png" );
             XDocument doc = XDocument.Load( @".\..\..\..\testPlayer.xml" );
-            theone = new Player(doc, player);
+            //theone = new Player(doc, player);
+            theone = _game.TeamList.Teams[8].TeamPlayers[8];
 
-            //230 à remettre ensuite à 280.
+            //Position milieu de terrain pour le ballon visuellement.
             rball = new Rectangle( 485, 280, 17, 17 );
             theball = new Points( ( float )rball.X, ( float )rball.Y );
-            Point rectPoint = new Point(0,0);
+
             System.Drawing.Size fieldSize = new System.Drawing.Size(1000,600);
-            fRec = new Rectangle( rectPoint, fieldSize );
-            _playerPoints = new Point( 550, 250 );
+            _playerPoints = new Point( 650, 300 );
             _ballPoints = new Point( 485, 280 );
-            trajectoir = new List<Points>();
+            secondObjectif = new Points( 950, 250 );
             listBox1.Items.Add( theone.Name);
         }
         
@@ -76,78 +69,27 @@ namespace SimulationMatchEssaie
         void t_Tick( object sender, EventArgs e )
         {
             #region Manage Player With And Without The Ball
-            /*
-            if( count == 0 )
-            {
-                _playerPoints.X += 0;
-                count = 1;
-            }
-            else if( _playerPoints.X <= 770 && rball.X == ( _playerPoints.X + 20 ) )
-            {
-                if( count == 1 && i == 0 )
-                    i++;
 
-                i++;
-                iBall++;
-                if( i == 3 && count == 1 )
-                    i = 1;
-                if( iBall == 7 )
-                    iBall = 0;
-                rball.X += 25;
-                theball.X = ( float )rball.X;
-
-                count = 1;
-            }
-            else if( _playerPoints.X <= 770 && rball.X != ( _playerPoints.X + 20 ) )
-            {
-                if( count == 1 && i == 0 )
-                    i++;
-
-                i++;
-                iBall++;
-                if( i == 3 && count == 1 )
-                    i = 1;
-                if( iBall == 7 )
-                    iBall = 0;
-                _playerPoints.X += 5;
-                rball.X += 0;
-                theball.X = ( float )rball.X;
-                count = 1;
-                listBox1.Items.Add( theone.PlayerPosition.Distance( theball ) );
-            }
-            else
-            {
-                i = 2;
-                i = 3;
-                i++;
-                if( rball.X < 950 )
-                {
-                    _playerPoints.X += 0;
-                    rball.X += 5;
-                }
-            }
-             */
-
-            #endregion
             count = 1;
 
             intermediatePoint = theone.PlayerPosition.PointToObjectif( theball );
+            intermediatePoint2 = theone.PlayerPosition.PointToObjectif( secondObjectif );
             listBox1.Items.Add( "Player : " + _playerPoints.X + "; " + _playerPoints.Y );
             listBox1.Items.Add( "Ballon : " + theball.X + "; " + theball.Y );
             listBox1.Items.Add( "Point intermediare : " + intermediatePoint.X + "; " + intermediatePoint.Y );
 
-            if( _playerPoints.X == theball.X - 20 && _playerPoints.Y == theball.Y - 50 )
+            if( _playerPoints.X == theball.X - 20 && _playerPoints.Y == theball.Y - 50 && theball.X < 900 && theball.Y < 500 )
             {
                 rball.X += 25;
                 theball.X = ( float )rball.X;
                 theball.Y = ( float )rball.Y;
             }
-            else if( _playerPoints.X == theball.X && _playerPoints.Y == theball.Y - 50 )
+            else if( _playerPoints.X == theball.X && _playerPoints.Y == theball.Y - 50 && theball.X < 900 && theball.Y < 500 )
             {
                 rball.X += 25;
                 theball.X = ( float )rball.X;
                 theball.Y = ( float )rball.Y;
-            } 
+            }
             else if( _playerPoints.X != theball.X || _playerPoints.Y != theball.Y - 50 )
             {
                 i++;
@@ -160,30 +102,8 @@ namespace SimulationMatchEssaie
                 _playerPoints.Y = ( int )intermediatePoint.Y;
             }
 
-            /*
-            if( _playerPoints.X == theball.X - 20 && _playerPoints.Y == theball.Y - 50 )
-            {
-                rball.X += 25;
-                theball.X = ( float )rball.X;
-                theball.Y = ( float )rball.Y;
-            }
-            else if( _playerPoints.X != theball.X || _playerPoints.Y != theball.Y )
-            {
-                i++;
-                iBall++;
-                if( i == 3 && count == 1 )
-                    i = 1;
-                if( iBall == 7 )
-                    iBall = 0;
-                _playerPoints.X = ( int )nextPoint.X;
-                _playerPoints.Y = ( int )nextPoint.Y;
+            #endregion
 
-                nextPoint.X = ( float )_playerPoints.X;
-                nextPoint.Y = ( float )_playerPoints.Y;
-            }
-
-            listBox1.Items.Add( "Actual Player Position : " + theone.PlayerPosition.X + ", " + theone.PlayerPosition.Y );
-            listBox1.Items.Add( "Actual Player Position2 : " + _playerPoints.X + ", " + _playerPoints.Y );*/
             Invalidate();
         }
 
@@ -222,15 +142,7 @@ namespace SimulationMatchEssaie
             listBox1.Items.Add( "Next Point : " + nextPoint.X + "; " + nextPoint.Y );
             theone.DrawPlayer( _game, player, _playerPoints, theone.PlayerPosition, _ballPoints, nextPoint, i, count );
             _game.Graphic.DrawImage( ball, rball );
-            //listBox1.Items.Add( "The Ball Points : " + theball.X + ", " + theball.Y );
-            //listBox1.Items.Add( "The Player Points : " + theone.PlayerPosition.X + ", " + theone.PlayerPosition.Y );
             Graphics g = e.Graphics;
-            /*
-            nextPoint = CreateTrajectoirPoints();
-            listBox1.Items.Add( "NextPoint : " + nextPoint.X + ", " + nextPoint.Y );
-            difference = theone.PlayerPosition.Difference( nextPoint );
-            listBox1.Items.Add( "Difference : " + difference.X + ", " + difference.Y );
-             */
         }
 
         private void SoccerSimulator_MouseClick( object sender, MouseEventArgs e )

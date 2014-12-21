@@ -12,6 +12,7 @@ namespace Sims.SimSoccerModel
     {
         readonly Game _game;
         readonly List<Player> _players;
+        Image i;
 
         public PlayerList( Game game )
         {
@@ -27,10 +28,11 @@ namespace Sims.SimSoccerModel
 
         public PlayerList( Game game, XElement e )
         {
+            i = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
             _game = game;
             _players = e.Elements( "Player" )
                 .OrderBy( eT => int.Parse( eT.Attribute( "Id" ).Value ) )
-                .Select( eT => new Player( this, eT  ) )
+                .Select( eT => new Player( this, eT, i  ) )
                 .ToList();
         }
         public XElement ToXml()
