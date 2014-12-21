@@ -12,18 +12,18 @@
       <MDF>350,300</MDF>
       <MCG>500,200</MCG>
       <MC>0</MC>
-      <MCD>0</MCD>
-      <MOD>500,400</MOD>
-      <MOG>600,400</MOG>
-      <MOC>600,200</MOC>
-      <DLG>0</DLG>
-      <DLD>200,100</DLD>
-      <DCG>200,500</DCG>
-      <DCD>200,200</DCD>
-      <DC>200,400</DC>
-      <GB>0</GB>
-      <MLG>30,300</MLG>
-      <MLD>550,100</MLD>
+      <MCD>500,400</MCD>
+      <MOD>600,400</MOD>
+      <MOG>600,200</MOG>
+      <MO>0</MO>
+      <DLG>200,100</DLG>
+      <DLD>200,500</DLD>
+      <DCG>200,200</DCG>
+      <DCD>200,400</DCD>
+      <DC>0</DC>
+      <GB>30,300</GB>
+      <MLG>550,100</MLG>
+      <MLD>550,500</MLD>
     </Tactic>
     <Tactic Formation="4.4.2">
       <BU>0</BU>
@@ -39,39 +39,39 @@
       <MCD>0</MCD>
       <MOD>0</MOD>
       <MOG>0</MOG>
-      <MOC>0</MOC>
-      <DLG>0</DLG>
-      <DLD>200,100</DLD>
-      <DCG>200,500</DCG>
-      <DCD>200,200</DCD>
-      <DC>200,400</DC>
-      <GB>0</GB>
-      <MLG>30,300</MLG>
+      <MO>0</MO>
+      <DLG>200,100</DLG>
+      <DLD>200,500</DLD>
+      <DCG>200,200</DCG>
+      <DCD>200,400</DCD>
+      <DC>0</DC>
+      <GB>30,300</GB>
+      <MLG>0</MLG>
       <MLD>0</MLD>
     </Tactic>
-    <Tactic Formation="4">
-      <BU>2.3.1</BU>
-      <ATG>800,300</ATG>
+    <Tactic Formation="4.2.3.1">
+      <BU>800,300</BU>
+      <ATG>0</ATG>
       <ATD>0</ATD>
       <AG>0</AG>
       <AD>0</AD>
-      <MDFG>0</MDFG>
-      <MDFD>350,225</MDFD>
-      <MDF>350,375</MDF>
-      <MCG>0</MCG>
-      <MC>35,55</MC>
+      <MDFG>350,225</MDFG>
+      <MDFD>350,375</MDFD>
+      <MDF>0</MDF>
+      <MCG>35,55</MCG>
+      <MC>0</MC>
       <MCD>0</MCD>
-      <MOD>0</MOD>
-      <MOG>0</MOG>
-      <MOC>650,450</MOC>
-      <DLG>650,150</DLG>
-      <DLD>650,300</DLD>
-      <DCG>200,100</DCG>
-      <DCD>200,500</DCD>
-      <DC>200,200</DC>
-      <GB>200,400</GB>
+      <MOD>650,450</MOD>
+      <MOG>650,150</MOG>
+      <MO>650,300</MO>
+      <DLG>200,100</DLG>
+      <DLD>200,500</DLD>
+      <DCG>200,200</DCG>
+      <DCD>200,400</DCD>
+      <DC>0</DC>
+      <GB>30,300</GB>
       <MLG>0</MLG>
-      <MLD>30,300</MLD>
+      <MLD>0</MLD>
     </Tactic>
     <Tactic Formation="5.3.2">
       <BU>0</BU>
@@ -87,15 +87,15 @@
       <MCD>0</MCD>
       <MOD>0</MOD>
       <MOG>0</MOG>
-      <MOC>0</MOC>
-      <DLG>0</DLG>
-      <DLD>300,100</DLD>
-      <DCG>300,500</DCG>
-      <DCD>200,200</DCD>
-      <DC>200,400</DC>
-      <GB>200,300</GB>
-      <MLG>30,300</MLG>
-      <MLD>550,150</MLD>
+      <MO>0</MO>
+      <DLG>300,100</DLG>
+      <DLD>300,500</DLD>
+      <DCG>200,200</DCG>
+      <DCD>200,400</DCD>
+      <DC>200,300</DC>
+      <GB>30,300</GB>
+      <MLG>550,150</MLG>
+      <MLD>550,450</MLD>
     </Tactic>
     <Tactic Formation="3.5.2">
       <BU>0</BU>
@@ -108,18 +108,18 @@
       <MDF>0</MDF>
       <MCG>500,200</MCG>
       <MC>0</MC>
-      <MCD>0</MCD>
-      <MOD>500,400</MOD>
+      <MCD>500,400</MCD>
+      <MOD>0</MOD>
       <MOG>0</MOG>
-      <MOC>0</MOC>
-      <DLG>650,300</DLG>
-      <DLD>300,100</DLD>
-      <DCG>300,500</DCG>
-      <DCD>200,200</DCD>
-      <DC>200,400</DC>
-      <GB>200,300</GB>
-      <MLG>30,300</MLG>
-      <MLD>500,100</MLD>
+      <MO>650,300</MO>
+      <DLG>300,100</DLG>
+      <DLD>300,500</DLD>
+      <DCG>200,200</DCG>
+      <DCD>200,400</DCD>
+      <DC>200,300</DC>
+      <GB>30,300</GB>
+      <MLG>500,100</MLG>
+      <MLD>500,500</MLD>
     </Tactic>
     <Tactic Formation="5.4.1">
       <BU>800,300</BU>
@@ -133,16 +133,16 @@
       <MCG>35,55</MCG>
       <MC>0</MC>
       <MCD>0</MCD>
-      <MOD>0</MOD>
-      <MOG>600,450</MOG>
-      <MOC>600,150</MOC>
-      <DLG>0</DLG>
-      <DLD>10,25</DLD>
-      <DCG>60,25</DCG>
-      <DCD>200,200</DCD>
-      <DC>200,400</DC>
-      <GB>200,300</GB>
-      <MLG>30,300</MLG>
+      <MOD>600,450</MOD>
+      <MOG>600,150</MOG>
+      <MO>0</MO>
+      <DLG>10,25</DLG>
+      <DLD>60,25</DLD>
+      <DCG>200,200</DCG>
+      <DCD>200,400</DCD>
+      <DC>200,300</DC>
+      <GB>30,300</GB>
+      <MLG>0</MLG>
       <MLD>0</MLD>
     </Tactic>
     <Tactic Formation="4.4.2 losange">
@@ -159,15 +159,15 @@
       <MCD>0</MCD>
       <MOD>0</MOD>
       <MOG>0</MOG>
-      <MOC>0</MOC>
-      <DLG>700,300</DLG>
-      <DLD>200,100</DLD>
-      <DCG>200,500</DCG>
-      <DCD>200,200</DCD>
-      <DC>200,400</DC>
-      <GB>0</GB>
-      <MLG>30,300</MLG>
-      <MLD>550,150</MLD>
+      <MO>700,300</MO>
+      <DLG>200,100</DLG>
+      <DLD>200,500</DLD>
+      <DCG>200,200</DCG>
+      <DCD>200,400</DCD>
+      <DC>0</DC>
+      <GB>30,300</GB>
+      <MLG>550,150</MLG>
+      <MLD>550,450</MLD>
     </Tactic>
   </Tactics>
 </Game>

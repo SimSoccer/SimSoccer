@@ -22,7 +22,7 @@
     <Player Id="1" Name="Romain Achilli">
       <ShirtNumber>2</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,75</Height>
       <Weight>70</Weight>
       <BirthDate>15/02/1993</BirthDate>
@@ -40,7 +40,7 @@
     <Player Id="2" Name="Hervin Ongenda">
       <ShirtNumber>3</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,70</Height>
       <Weight>64</Weight>
       <BirthDate>24/06/1995</BirthDate>
@@ -148,7 +148,7 @@
     <Player Id="8" Name="Djibril Cissé">
       <ShirtNumber>9</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,82</Height>
       <Weight>78</Weight>
       <BirthDate>12/08/1981</BirthDate>
@@ -184,7 +184,7 @@
     <Player Id="10" Name="Gadji Celi Junior Tallo">
       <ShirtNumber>11</ShirtNumber>
       <Nationality>CIV</Nationality>
-      <Poste>ATT</Poste>
+      <Poste>BUT</Poste>
       <Height>1,87</Height>
       <Weight>77</Weight>
       <BirthDate>21/12/1992</BirthDate>
@@ -238,7 +238,7 @@
     <Player Id="13" Name="Famoussa Koné">
       <ShirtNumber>14</ShirtNumber>
       <Nationality>MLI</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,75</Height>
       <Weight>74</Weight>
       <BirthDate>03/05/1994</BirthDate>
@@ -289,7 +289,7 @@
       <ActualTeamTag>SCB</ActualTeamTag>
       <Status>Remplacent</Status>
     </Player>
-    <Player Id="16" Name="Mathieu Peybernes">
+    <Player Id="16" Name="MBUhieu Peybernes">
       <ShirtNumber>17</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>DCD</Poste>
@@ -328,7 +328,7 @@
     <Player Id="18" Name="Benjamin Mokulu">
       <ShirtNumber>19</ShirtNumber>
       <Nationality>BEL</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,85</Height>
       <Weight>83</Weight>
       <BirthDate>11/10/1989</BirthDate>
@@ -418,7 +418,7 @@
     <Player Id="23" Name="Joao Rodríguez">
       <ShirtNumber>24</ShirtNumber>
       <Nationality>COL</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,77</Height>
       <Weight>69</Weight>
       <BirthDate>12/05/1996</BirthDate>
@@ -436,12 +436,12 @@
     <Player Id="24" Name="François Kamano">
       <ShirtNumber>25</ShirtNumber>
       <Nationality>GUI</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,75</Height>
       <Weight>75</Weight>
       <BirthDate>01/05/1996</BirthDate>
       <BirthPlace></BirthPlace>
-      <PreviousClub>Satellite FC</PreviousClub>
+      <PreviousClub>SBUellite FC</PreviousClub>
       <ActualClub>Sporting Club de Bastia</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
@@ -454,7 +454,7 @@
     <Player Id="25" Name="Brandão">
       <ShirtNumber>26</ShirtNumber>
       <Nationality>BRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,89</Height>
       <Weight>78</Weight>
       <BirthDate>16/06/1980</BirthDate>
@@ -688,7 +688,7 @@
     <Player Id="38" Name="Diego Rolán">
       <ShirtNumber>9</ShirtNumber>
       <Nationality>URU</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,78</Height>
       <Weight>74</Weight>
       <BirthDate>24/03/1993</BirthDate>
@@ -724,7 +724,7 @@
     <Player Id="40" Name="Emiliano Sala">
       <ShirtNumber>11</ShirtNumber>
       <Nationality>ARG</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,87</Height>
       <Weight>75</Weight>
       <BirthDate>31/10/1990</BirthDate>
@@ -742,7 +742,7 @@
     <Player Id="41" Name="Thomas Touré">
       <ShirtNumber>13</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,75</Height>
       <Weight>75</Weight>
       <BirthDate>27/12/1993</BirthDate>
@@ -757,10 +757,10 @@
       <ActualTeamTag>FCB</ActualTeamTag>
       <Status>Reserviste</Status>
     </Player>
-    <Player Id="42" Name="Cheikh Diabaté">
+    <Player Id="42" Name="Cheikh DiabBUé">
       <ShirtNumber>14</ShirtNumber>
       <Nationality>MLI</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,94</Height>
       <Weight>84</Weight>
       <BirthDate>25/04/1988</BirthDate>
@@ -868,7 +868,7 @@
     <Player Id="48" Name="Jussiê">
       <ShirtNumber>20</ShirtNumber>
       <Nationality>BRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,80</Height>
       <Weight>76</Weight>
       <BirthDate>19/09/1983</BirthDate>
@@ -1063,10 +1063,10 @@
       <ActualTeamTag>SMC</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="59" Name="Mathieu Duhamel">
+    <Player Id="59" Name="MBUhieu Duhamel">
       <ShirtNumber>7</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,83</Height>
       <Weight>76</Weight>
       <BirthDate>12/07/1984</BirthDate>
@@ -1081,10 +1081,10 @@
       <ActualTeamTag>SMC</ActualTeamTag>
       <Status>Remplacent</Status>
     </Player>
-    <Player Id="60" Name="Sloan Privat">
+    <Player Id="60" Name="Sloan PrivBU">
       <ShirtNumber>9</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,86</Height>
       <Weight>83</Weight>
       <BirthDate>24/07/1989</BirthDate>
@@ -1120,7 +1120,7 @@
     <Player Id="62" Name="Bengadli-Fodé Koita">
       <ShirtNumber>11</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,86</Height>
       <Weight>86</Weight>
       <BirthDate>21/10/1990</BirthDate>
@@ -1369,7 +1369,7 @@
       <ActualTeamTag>SMC</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="76" Name="Jonathan Beaulieu">
+    <Player Id="76" Name="JonBUhan Beaulieu">
       <ShirtNumber>26</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>MC</Poste>
@@ -1570,7 +1570,7 @@
     <Player Id="87" Name="Gianni Bruno">
       <ShirtNumber>9</ShirtNumber>
       <Nationality>BEL</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,7</Height>
       <Weight>64</Weight>
       <BirthDate>19/08/1991</BirthDate>
@@ -1768,7 +1768,7 @@
     <Player Id="98" Name="Nicki Bille Nielsen">
       <ShirtNumber>23</ShirtNumber>
       <Nationality>DEN</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,84</Height>
       <Weight>76</Weight>
       <BirthDate>07/02/1988</BirthDate>
@@ -1801,7 +1801,7 @@
       <ActualTeamTag>ETG</ActualTeamTag>
       <Status>Remplacent</Status>
     </Player>
-    <Player Id="100" Name="Jonathan Mensah">
+    <Player Id="100" Name="JonBUhan Mensah">
       <ShirtNumber>25</ShirtNumber>
       <Nationality>GHA</Nationality>
       <Poste>DCD</Poste>
@@ -1858,7 +1858,7 @@
     <Player Id="103" Name="Najib Baouia">
       <ShirtNumber>28</ShirtNumber>
       <Nationality>ALG</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,65</Height>
       <Weight>65</Weight>
       <BirthDate>25/02/1992</BirthDate>
@@ -2020,7 +2020,7 @@
     <Player Id="112" Name="Ronnie Schwartz">
       <ShirtNumber>8</ShirtNumber>
       <Nationality>DEN</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,83</Height>
       <Weight>74</Weight>
       <BirthDate>29/08/1989</BirthDate>
@@ -2074,7 +2074,7 @@
     <Player Id="115" Name="Christophe Mandanne">
       <ShirtNumber>13</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,71</Height>
       <Weight>62</Weight>
       <BirthDate>07/02/1985</BirthDate>
@@ -2092,7 +2092,7 @@
     <Player Id="116" Name="Ladislas Douniama">
       <ShirtNumber>14</ShirtNumber>
       <Nationality>CGO</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,63</Height>
       <Weight>62</Weight>
       <BirthDate>24/05/1986</BirthDate>
@@ -2146,7 +2146,7 @@
     <Player Id="119" Name="Rachid Alioui">
       <ShirtNumber>17</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,86</Height>
       <Weight>81</Weight>
       <BirthDate>18/06/1992</BirthDate>
@@ -2161,7 +2161,7 @@
       <ActualTeamTag>EAG</ActualTeamTag>
       <Status>Reserviste</Status>
     </Player>
-    <Player Id="120" Name="Lionel Mathis">
+    <Player Id="120" Name="Lionel MBUhis">
       <ShirtNumber>18</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>MC</Poste>
@@ -2251,7 +2251,7 @@
       <ActualTeamTag>EAG</ActualTeamTag>
       <Status>Remplacent</Status>
     </Player>
-    <Player Id="125" Name="Sambou Yatabaré">
+    <Player Id="125" Name="Sambou YBUabaré">
       <ShirtNumber>24</ShirtNumber>
       <Nationality>MLI</Nationality>
       <Poste>MLG</Poste>
@@ -2305,7 +2305,7 @@
       <ActualTeamTag>EAG</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="128" Name="Christophe Kerbrat">
+    <Player Id="128" Name="Christophe KerbrBU">
       <ShirtNumber>29</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>DCG</Poste>
@@ -2398,7 +2398,7 @@
     <Player Id="133" Name="Yoann Touzghar">
       <ShirtNumber>7</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,79</Height>
       <Weight>75</Weight>
       <BirthDate>28/11/1986</BirthDate>
@@ -2467,7 +2467,7 @@
       <ActualTeamTag>RCL</ActualTeamTag>
       <Status>Remplacent</Status>
     </Player>
-    <Player Id="137" Name="Patrick Fradj">
+    <Player Id="137" Name="PBUrick Fradj">
       <ShirtNumber>15</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>DLD</Poste>
@@ -2737,7 +2737,7 @@
       <ActualTeamTag>LOSC</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="152" Name="Jonathan Delaplace">
+    <Player Id="152" Name="JonBUhan Delaplace">
       <ShirtNumber>6</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>DLG</Poste>
@@ -2758,7 +2758,7 @@
     <Player Id="153" Name="Ronny Rodelin">
       <ShirtNumber>9</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,92</Height>
       <Weight>70</Weight>
       <BirthDate>18/11/1989</BirthDate>
@@ -2794,7 +2794,7 @@
     <Player Id="155" Name="Michael Frey">
       <ShirtNumber>11</ShirtNumber>
       <Nationality>SUI</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,78</Height>
       <Weight>72</Weight>
       <BirthDate>19/07/1994</BirthDate>
@@ -2996,7 +2996,7 @@
       <Height>1,72</Height>
       <Weight>70</Weight>
       <BirthDate>08/03/1984</BirthDate>
-      <BirthPlace>Born At Sea</BirthPlace>
+      <BirthPlace>Born BU Sea</BirthPlace>
       <PreviousClub>Villarreal</PreviousClub>
       <ActualClub>Lille Olympique Sporting Club</ActualClub>
       <Stats>50</Stats>
@@ -3028,7 +3028,7 @@
     <Player Id="168" Name="Nolan Roux">
       <ShirtNumber>26</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,82</Height>
       <Weight>75</Weight>
       <BirthDate>01/03/1988</BirthDate>
@@ -3208,7 +3208,7 @@
     <Player Id="178" Name="Jordan Ayew">
       <ShirtNumber>9</ShirtNumber>
       <Nationality>GHA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,82</Height>
       <Weight>81</Weight>
       <BirthDate>11/09/1991</BirthDate>
@@ -3223,7 +3223,7 @@
       <ActualTeamTag>FCL</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="179" Name="Mathieu Coutadeur">
+    <Player Id="179" Name="MBUhieu Coutadeur">
       <ShirtNumber>10</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>MC</Poste>
@@ -3298,7 +3298,7 @@
     <Player Id="183" Name="Fabien Robert">
       <ShirtNumber>15</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,74</Height>
       <Weight>67</Weight>
       <BirthDate>06/01/1989</BirthDate>
@@ -3352,7 +3352,7 @@
     <Player Id="186" Name="Gilles Sunu">
       <ShirtNumber>18</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,80</Height>
       <Weight>70</Weight>
       <BirthDate>30/03/1991</BirthDate>
@@ -3388,7 +3388,7 @@
     <Player Id="188" Name="Julien Quercia">
       <ShirtNumber>20</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,68</Height>
       <Weight>65</Weight>
       <BirthDate>17/08/1986</BirthDate>
@@ -3424,7 +3424,7 @@
     <Player Id="190" Name="Benjamin Jeannot">
       <ShirtNumber>22</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,81</Height>
       <Weight>73</Weight>
       <BirthDate>22/01/1992</BirthDate>
@@ -3439,7 +3439,7 @@
       <ActualTeamTag>FCL</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="191" Name="Mathias Autret">
+    <Player Id="191" Name="MBUhias Autret">
       <ShirtNumber>23</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>MO</Poste>
@@ -3586,7 +3586,7 @@
     <Player Id="199" Name="Valentin Lavigne">
       <ShirtNumber>31</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,71</Height>
       <Weight>72</Weight>
       <BirthDate>04/06/1994</BirthDate>
@@ -3748,7 +3748,7 @@
     <Player Id="208" Name="Alexandre Lacazette">
       <ShirtNumber>10</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,74</Height>
       <Weight>69</Weight>
       <BirthDate>28/05/1991</BirthDate>
@@ -3889,10 +3889,10 @@
       <ActualTeamTag>OL</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="216" Name="Mohamed Yattara">
+    <Player Id="216" Name="Mohamed YBUtara">
       <ShirtNumber>19</ShirtNumber>
       <Nationality>GUI</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,85</Height>
       <Weight>76</Weight>
       <BirthDate>28/07/1993</BirthDate>
@@ -4000,7 +4000,7 @@
     <Player Id="222" Name="Yassine Benzia">
       <ShirtNumber>25</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,79</Height>
       <Weight>71</Weight>
       <BirthDate>08/09/1994</BirthDate>
@@ -4069,7 +4069,7 @@
       <ActualTeamTag>OL</ActualTeamTag>
       <Status>Reserviste</Status>
     </Player>
-    <Player Id="226" Name="Mathieu Gorgelin">
+    <Player Id="226" Name="MBUhieu Gorgelin">
       <ShirtNumber>30</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>GB</Poste>
@@ -4198,7 +4198,7 @@
     <Player Id="233" Name="André-Pierre Gignac">
       <ShirtNumber>9</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,87</Height>
       <Weight>84</Weight>
       <BirthDate>12/05/1985</BirthDate>
@@ -4339,10 +4339,10 @@
       <ActualTeamTag>OM</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="241" Name="Michy Batshuayi">
+    <Player Id="241" Name="Michy BBUshuayi">
       <ShirtNumber>22</ShirtNumber>
       <Nationality>BEL</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,80</Height>
       <Weight>78</Weight>
       <BirthDate>02/10/1993</BirthDate>
@@ -4450,7 +4450,7 @@
     <Player Id="247" Name="Jérémie Porsan-Clemente">
       <ShirtNumber>29</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,78</Height>
       <Weight>73</Weight>
       <BirthDate>16/12/1997</BirthDate>
@@ -4501,7 +4501,7 @@
       <ActualTeamTag>FCM</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="250" Name="Jonathan Rivierez">
+    <Player Id="250" Name="JonBUhan Rivierez">
       <ShirtNumber>3</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>DLD</Poste>
@@ -4545,7 +4545,7 @@
       <Weight>93</Weight>
       <BirthDate>03/07/1987</BirthDate>
       <BirthPlace>Haedo</BirthPlace>
-      <PreviousClub>Atlanta</PreviousClub>
+      <PreviousClub>BUlanta</PreviousClub>
       <ActualClub>Football Club de Metz</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
@@ -4594,7 +4594,7 @@
     <Player Id="255" Name="Juan Manuel Falcón">
       <ShirtNumber>9</ShirtNumber>
       <Nationality>VEN</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,79</Height>
       <Weight>81</Weight>
       <BirthDate>24/02/1989</BirthDate>
@@ -4630,12 +4630,12 @@
     <Player Id="257" Name="Federico Andrada">
       <ShirtNumber>11</ShirtNumber>
       <Nationality>ARG</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,79</Height>
       <Weight>74</Weight>
       <BirthDate>03/03/1994</BirthDate>
       <BirthPlace>Carapachay</BirthPlace>
-      <PreviousClub>River Plate</PreviousClub>
+      <PreviousClub>River PlBUe</PreviousClub>
       <ActualClub>Football Club de Metz</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
@@ -4648,7 +4648,7 @@
     <Player Id="258" Name="Kwamé Nsor">
       <ShirtNumber>12</ShirtNumber>
       <Nationality>GHA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,88</Height>
       <Weight>76</Weight>
       <BirthDate>01/08/1992</BirthDate>
@@ -4792,7 +4792,7 @@
     <Player Id="266" Name="Modibo Maïga">
       <ShirtNumber>20</ShirtNumber>
       <Nationality>MLI</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,85</Height>
       <Weight>76</Weight>
       <BirthDate>03/09/1986</BirthDate>
@@ -4843,7 +4843,7 @@
       <ActualTeamTag>FCM</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="269" Name="Yeni Atito Ngbakoto">
+    <Player Id="269" Name="Yeni BUito Ngbakoto">
       <ShirtNumber>23</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>MDF</Poste>
@@ -4959,7 +4959,7 @@
       <Weight>77</Weight>
       <BirthDate>08/06/1986</BirthDate>
       <BirthPlace>Grodno</BirthPlace>
-      <PreviousClub>BATE</PreviousClub>
+      <PreviousClub>BBUE</PreviousClub>
       <ActualClub>Football Club de Metz</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
@@ -4996,7 +4996,7 @@
       <BirthDate>27/10/1984</BirthDate>
       <BirthPlace>Zadar</BirthPlace>
       <PreviousClub>Hajduk Split</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5014,7 +5014,7 @@
       <BirthDate>23/10/1993</BirthDate>
       <BirthPlace>Campinas</BirthPlace>
       <PreviousClub>Rio Ave</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5032,7 +5032,7 @@
       <BirthDate>04/09/1992</BirthDate>
       <BirthPlace>Fréjuis</BirthPlace>
       <PreviousClub>None</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5050,7 +5050,7 @@
       <BirthDate>02/02/1994</BirthDate>
       <BirthPlace>Gijón</BirthPlace>
       <PreviousClub>Sporting Gijón</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5068,7 +5068,7 @@
       <BirthDate>06/08/1989</BirthDate>
       <BirthPlace>Sousse</BirthPlace>
       <PreviousClub>Toulouse</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5086,7 +5086,7 @@
       <BirthDate>18/05/1978</BirthDate>
       <BirthPlace>Amarante</BirthPlace>
       <PreviousClub>Real Madrid</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5104,7 +5104,7 @@
       <BirthDate>25/02/1986</BirthDate>
       <BirthPlace>Casablanca</BirthPlace>
       <PreviousClub>Club Brugge</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5122,7 +5122,7 @@
       <BirthDate>08/09/1986</BirthDate>
       <BirthPlace>Portimão</BirthPlace>
       <PreviousClub>FC Porto</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5131,16 +5131,16 @@
       <ActualTeamTag>ASM</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="285" Name="Dimitar Berbatov">
+    <Player Id="285" Name="Dimitar BerbBUov">
       <ShirtNumber>10</ShirtNumber>
       <Nationality>BUL</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,88</Height>
       <Weight>79</Weight>
       <BirthDate>30/01/1981</BirthDate>
       <BirthPlace>Blagoevgrad</BirthPlace>
       <PreviousClub>Fulham</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5157,8 +5157,8 @@
       <Weight>82</Weight>
       <BirthDate>11/07/1994</BirthDate>
       <BirthPlace>Quilmes</BirthPlace>
-      <PreviousClub>River Plate</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <PreviousClub>River PlBUe</PreviousClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5176,7 +5176,7 @@
       <BirthDate>14/10/1994</BirthDate>
       <BirthPlace>Rio de Janeiro</BirthPlace>
       <PreviousClub>Sporting Braga</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5194,7 +5194,7 @@
       <BirthDate>17/08/1994</BirthDate>
       <BirthPlace>Paris</BirthPlace>
       <PreviousClub>Rennes</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5212,7 +5212,7 @@
       <BirthDate>10/08/1994</BirthDate>
       <BirthPlace>Lisbon</BirthPlace>
       <PreviousClub>Benfica</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5230,7 +5230,7 @@
       <BirthDate>22/09/1982</BirthDate>
       <BirthPlace>Haarlem</BirthPlace>
       <PreviousClub>Fulham</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5248,7 +5248,7 @@
       <BirthDate>04/09/1993</BirthDate>
       <BirthPlace>Elsene</BirthPlace>
       <PreviousClub>None</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5260,13 +5260,13 @@
     <Player Id="292" Name="Valère Germain">
       <ShirtNumber>18</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,81</Height>
       <Weight>75</Weight>
       <BirthDate>17/04/1990</BirthDate>
       <BirthPlace>Marseille</BirthPlace>
       <PreviousClub>None</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5278,13 +5278,13 @@
     <Player Id="293" Name="Lacina Traoré">
       <ShirtNumber>19</ShirtNumber>
       <Nationality>CIV</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,86</Height>
       <Weight>75</Weight>
       <BirthDate>20/08/1990</BirthDate>
       <BirthPlace>Abidjan</BirthPlace>
       <PreviousClub>Anzhi Makhachkala</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5302,7 +5302,7 @@
       <BirthDate>20/01/1988</BirthDate>
       <BirthPlace>Cotonou</BirthPlace>
       <PreviousClub>Sporting Braga</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5320,7 +5320,7 @@
       <BirthDate>25/04/1993</BirthDate>
       <BirthPlace>Saint-Denis</BirthPlace>
       <PreviousClub>Sevilla</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5338,7 +5338,7 @@
       <BirthDate>05/12/1995</BirthDate>
       <BirthPlace>Massy</BirthPlace>
       <PreviousClub>Lyon</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5356,7 +5356,7 @@
       <BirthDate>24/06/1984</BirthDate>
       <BirthPlace>Carrara</BirthPlace>
       <PreviousClub>Bologna</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5374,7 +5374,7 @@
       <BirthDate>10/09/1983</BirthDate>
       <BirthPlace>Nantes</BirthPlace>
       <PreviousClub>Málaga</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5392,7 +5392,7 @@
       <BirthDate>22/05/1995</BirthDate>
       <BirthPlace></BirthPlace>
       <PreviousClub>None</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5410,7 +5410,7 @@
       <BirthDate>12/12/1995</BirthDate>
       <BirthPlace>Dakar</BirthPlace>
       <PreviousClub>None</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5428,7 +5428,7 @@
       <BirthDate>04/05/1996</BirthDate>
       <BirthPlace>Tours</BirthPlace>
       <PreviousClub>None</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5446,7 +5446,7 @@
       <BirthDate>15/01/1997</BirthDate>
       <BirthPlace></BirthPlace>
       <PreviousClub>None</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5464,7 +5464,7 @@
       <BirthDate>28/04/1996</BirthDate>
       <BirthPlace></BirthPlace>
       <PreviousClub>None</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5482,7 +5482,7 @@
       <BirthDate>12/05/1994</BirthDate>
       <BirthPlace>Melun</BirthPlace>
       <PreviousClub>None</PreviousClub>
-      <ActualClub>Association Sportive de Monaco FC</ActualClub>
+      <ActualClub>AssociBUion Sportive de Monaco FC</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -5620,7 +5620,7 @@
     <Player Id="312" Name="Kévin Bérigaud">
       <ShirtNumber>9</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,78</Height>
       <Weight>69</Weight>
       <BirthDate>03/03/1984</BirthDate>
@@ -5638,7 +5638,7 @@
     <Player Id="313" Name="Lucas Barrios">
       <ShirtNumber>10</ShirtNumber>
       <Nationality>PAR</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,87</Height>
       <Weight>87</Weight>
       <BirthDate>13/11/1984</BirthDate>
@@ -5656,7 +5656,7 @@
     <Player Id="314" Name="Victor Hugo Montaño">
       <ShirtNumber>11</ShirtNumber>
       <Nationality>COL</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,77</Height>
       <Weight>76</Weight>
       <BirthDate>01/05/1984</BirthDate>
@@ -5836,7 +5836,7 @@
     <Player Id="324" Name="Jean Deza">
       <ShirtNumber>24</ShirtNumber>
       <Nationality>PER</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,81</Height>
       <Weight>71</Weight>
       <BirthDate>09/06/1993</BirthDate>
@@ -5851,7 +5851,7 @@
       <ActualTeamTag>MHSC</ActualTeamTag>
       <Status>Reserviste</Status>
     </Player>
-    <Player Id="325" Name="Mathieu Deplagne">
+    <Player Id="325" Name="MBUhieu Deplagne">
       <ShirtNumber>25</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>DLD</Poste>
@@ -5890,7 +5890,7 @@
     <Player Id="327" Name="Steve Mounié">
       <ShirtNumber>27</ShirtNumber>
       <Nationality>BEN</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,90</Height>
       <Weight>80</Weight>
       <BirthDate>29/09/1994</BirthDate>
@@ -5941,7 +5941,7 @@
       <ActualTeamTag>MHSC</ActualTeamTag>
       <Status>Reserviste</Status>
     </Player>
-    <Player Id="330" Name="Jonathan Ligali">
+    <Player Id="330" Name="JonBUhan Ligali">
       <ShirtNumber>30</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>GB</Poste>
@@ -5962,11 +5962,11 @@
     <Player Id="331" Name="Quentin Cornette">
       <ShirtNumber>31</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,72</Height>
       <Weight>75</Weight>
       <BirthDate>17/01/1994</BirthDate>
-      <BirthPlace>La Ciotat</BirthPlace>
+      <BirthPlace>La CiotBU</BirthPlace>
       <PreviousClub>None</PreviousClub>
       <ActualClub>Montpellier-Herault Sports Club</ActualClub>
       <Stats>50</Stats>
@@ -6121,7 +6121,7 @@
       <ActualTeamTag>FCN</ActualTeamTag>
       <Status>Reserviste</Status>
     </Player>
-    <Player Id="340" Name="Vincent Bessat">
+    <Player Id="340" Name="Vincent BessBU">
       <ShirtNumber>8</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>M</Poste>
@@ -6142,11 +6142,11 @@
     <Player Id="341" Name="Itay Shechter">
       <ShirtNumber>9</ShirtNumber>
       <Nationality>ISR</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,80</Height>
       <Weight>77</Weight>
       <BirthDate>22/02/1987</BirthDate>
-      <BirthPlace>Ramat Yishai</BirthPlace>
+      <BirthPlace>RamBU Yishai</BirthPlace>
       <PreviousClub>Hapoel Tel Aviv</PreviousClub>
       <ActualClub>Football Club de Nantes</ActualClub>
       <Stats>50</Stats>
@@ -6178,7 +6178,7 @@
     <Player Id="343" Name="Ismaël Bangoura">
       <ShirtNumber>11</ShirtNumber>
       <Nationality>GUI</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,74</Height>
       <Weight>72</Weight>
       <BirthDate>02/01/1985</BirthDate>
@@ -6376,7 +6376,7 @@
     <Player Id="354" Name="Yacine Bammou">
       <ShirtNumber>23</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,88</Height>
       <Weight>78</Weight>
       <BirthDate>11/09/1991</BirthDate>
@@ -6560,7 +6560,7 @@
       <Height>1,70</Height>
       <Weight>66</Weight>
       <BirthDate>12/01/1993</BirthDate>
-      <BirthPlace>Sint-Agatha-Berchem</BirthPlace>
+      <BirthPlace>Sint-AgBUha-Berchem</BirthPlace>
       <PreviousClub>Lierse</PreviousClub>
       <ActualClub>Olympique Gymnaste Club Nice Côte d'Azur</ActualClub>
       <Stats>50</Stats>
@@ -6592,7 +6592,7 @@
     <Player Id="366" Name="Xavier Pentecôte">
       <ShirtNumber>9</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,80</Height>
       <Weight>77</Weight>
       <BirthDate>13/08/1986</BirthDate>
@@ -6646,7 +6646,7 @@
     <Player Id="369" Name="Darío Cvitanich">
       <ShirtNumber>12</ShirtNumber>
       <Nationality>ARG</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,75</Height>
       <Weight>67</Weight>
       <BirthDate>16/05/1984</BirthDate>
@@ -6736,7 +6736,7 @@
     <Player Id="374" Name="Neal Maupay">
       <ShirtNumber>18</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,71</Height>
       <Weight>69</Weight>
       <BirthDate>14/08/1996</BirthDate>
@@ -6841,7 +6841,7 @@
       <ActualTeamTag>OGCN</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="380" Name="Mathieu Bodmer">
+    <Player Id="380" Name="MBUhieu Bodmer">
       <ShirtNumber>24</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>MC</Poste>
@@ -7078,7 +7078,7 @@
     <Player Id="393" Name="Edinson Cavani">
       <ShirtNumber>9</ShirtNumber>
       <Nationality>URU</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,84</Height>
       <Weight>71</Weight>
       <BirthDate>14/02/1987</BirthDate>
@@ -7093,10 +7093,10 @@
       <ActualTeamTag>PSG</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="394" Name="Zlatan Ibrahimovic">
+    <Player Id="394" Name="ZlBUan Ibrahimovic">
       <ShirtNumber>10</ShirtNumber>
       <Nationality>SWE</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,92</Height>
       <Weight>84</Weight>
       <BirthDate>03/10/1981</BirthDate>
@@ -7111,7 +7111,7 @@
       <ActualTeamTag>PSG</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="395" Name="Blaise Matuidi">
+    <Player Id="395" Name="Blaise MBUuidi">
       <ShirtNumber>14</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>MDF</Poste>
@@ -7273,7 +7273,7 @@
       <ActualTeamTag>PSG</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="404" Name="Marco Verratti">
+    <Player Id="404" Name="Marco VerrBUti">
       <ShirtNumber>24</ShirtNumber>
       <Nationality>ITA</Nationality>
       <Poste>MC</Poste>
@@ -7327,7 +7327,7 @@
       <ActualTeamTag>PSG</ActualTeamTag>
       <Status>Remplacent</Status>
     </Player>
-    <Player Id="407" Name="Salvatore Sirigu">
+    <Player Id="407" Name="SalvBUore Sirigu">
       <ShirtNumber>30</ShirtNumber>
       <Nationality>ITA</Nationality>
       <Poste>GB</Poste>
@@ -7525,7 +7525,7 @@
       <ActualTeamTag>SDR</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="418" Name="Eliran Atar">
+    <Player Id="418" Name="Eliran BUar">
       <ShirtNumber>9</ShirtNumber>
       <Nationality>ISR</Nationality>
       <Poste>AD</Poste>
@@ -7546,7 +7546,7 @@
     <Player Id="419" Name="Gaëtan Charbonnier">
       <ShirtNumber>10</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,88</Height>
       <Weight>80</Weight>
       <BirthDate>27/12/1988</BirthDate>
@@ -7564,7 +7564,7 @@
     <Player Id="420" Name="Diego">
       <ShirtNumber>11</ShirtNumber>
       <Nationality>BRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,75</Height>
       <Weight>72</Weight>
       <BirthDate>09/03/1988</BirthDate>
@@ -7582,7 +7582,7 @@
     <Player Id="421" Name="Nicolas De Préville">
       <ShirtNumber>12</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,82</Height>
       <Weight>77</Weight>
       <BirthDate>08/01/1991</BirthDate>
@@ -7780,7 +7780,7 @@
     <Player Id="432" Name="David N'Gog">
       <ShirtNumber>24</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,90</Height>
       <Weight>79</Weight>
       <BirthDate>01/04/1989</BirthDate>
@@ -8032,7 +8032,7 @@
     <Player Id="446" Name="Ola Toivonen">
       <ShirtNumber>9</ShirtNumber>
       <Nationality>SWE</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,90</Height>
       <Weight>74</Weight>
       <BirthDate>03/07/1986</BirthDate>
@@ -8068,7 +8068,7 @@
     <Player Id="448" Name="Philipp Hosiner">
       <ShirtNumber>11</ShirtNumber>
       <Nationality>AUT</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,79</Height>
       <Weight>75</Weight>
       <BirthDate>15/05/1989</BirthDate>
@@ -8320,7 +8320,7 @@
     <Player Id="462" Name="Mahamadou Habib Habibou">
       <ShirtNumber>27</ShirtNumber>
       <Nationality>CTA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,92</Height>
       <Weight>80</Weight>
       <BirthDate>16/04/1987</BirthDate>
@@ -8380,7 +8380,7 @@
       <BirthDate>01/09/1992</BirthDate>
       <BirthPlace>Sète</BirthPlace>
       <PreviousClub>Montpellier</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8389,7 +8389,7 @@
       <ActualTeamTag>ASSE</ActualTeamTag>
       <Status>Reserviste</Status>
     </Player>
-    <Player Id="466" Name="Kévin Theophile Catherine">
+    <Player Id="466" Name="Kévin Theophile CBUherine">
       <ShirtNumber>2</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>DLD</Poste>
@@ -8398,7 +8398,7 @@
       <BirthDate>28/10/1989</BirthDate>
       <BirthPlace>Saint Brieuc</BirthPlace>
       <PreviousClub>Cardiff C</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8416,7 +8416,7 @@
       <BirthDate>26/08/1984</BirthDate>
       <BirthPlace>Béziers</BirthPlace>
       <PreviousClub>Paris St-Germain</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8434,7 +8434,7 @@
       <BirthDate>30/11/1987</BirthDate>
       <BirthPlace>Abidjan</BirthPlace>
       <PreviousClub>Leeds U</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8452,7 +8452,7 @@
       <BirthDate>06/04/1987</BirthDate>
       <BirthPlace>Thionville</BirthPlace>
       <PreviousClub>Lorient</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8464,13 +8464,13 @@
     <Player Id="470" Name="Mevlüt Erdinç">
       <ShirtNumber>9</ShirtNumber>
       <Nationality>TUR</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,81</Height>
       <Weight>85</Weight>
       <BirthDate>25/02/1987</BirthDate>
       <BirthPlace>Saint-Claude</BirthPlace>
       <PreviousClub>Rennes</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8488,7 +8488,7 @@
       <BirthDate>29/09/1984</BirthDate>
       <BirthPlace>Aubenas</BirthPlace>
       <PreviousClub>Valenciennes</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8506,7 +8506,7 @@
       <BirthDate>18/07/1989</BirthDate>
       <BirthPlace>Martigues</BirthPlace>
       <PreviousClub>Nancy</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8524,7 +8524,7 @@
       <BirthDate>12/03/1997</BirthDate>
       <BirthPlace>Châtenay-Malabry</BirthPlace>
       <PreviousClub>None</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8536,13 +8536,13 @@
     <Player Id="474" Name="Ricky van Wolfswinkel">
       <ShirtNumber>13</ShirtNumber>
       <Nationality>NED</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,85</Height>
       <Weight>69</Weight>
       <BirthDate>27/01/1989</BirthDate>
       <BirthPlace>Amersfoort</BirthPlace>
       <PreviousClub>Norwich C</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8560,7 +8560,7 @@
       <BirthDate>27/09/1986</BirthDate>
       <BirthPlace>Bayonne</BirthPlace>
       <PreviousClub>Monaco</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8578,7 +8578,7 @@
       <BirthDate>16/03/1987</BirthDate>
       <BirthPlace>Fougères</BirthPlace>
       <PreviousClub>Rennes</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8596,7 +8596,7 @@
       <BirthDate>19/08/1990</BirthDate>
       <BirthPlace>Conakry</BirthPlace>
       <PreviousClub>Sedan</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8605,7 +8605,7 @@
       <ActualTeamTag>ASSE</ActualTeamTag>
       <Status>Titulaire</Status>
     </Player>
-    <Player Id="478" Name="Jonathan Brison">
+    <Player Id="478" Name="JonBUhan Brison">
       <ShirtNumber>20</ShirtNumber>
       <Nationality>FRA</Nationality>
       <Poste>DLG</Poste>
@@ -8614,7 +8614,7 @@
       <BirthDate>07/02/1983</BirthDate>
       <BirthPlace>Soissons</BirthPlace>
       <PreviousClub>Nancy</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8632,7 +8632,7 @@
       <BirthDate>29/03/1987</BirthDate>
       <BirthPlace>Lure</BirthPlace>
       <PreviousClub>Caen</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8650,7 +8650,7 @@
       <BirthDate>19/08/1988</BirthDate>
       <BirthPlace>Bourgoin-Jallieu</BirthPlace>
       <PreviousClub>Lorient</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8668,7 +8668,7 @@
       <BirthDate>15/05/1988</BirthDate>
       <BirthPlace>Bordeaux</BirthPlace>
       <PreviousClub>Brest</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8686,7 +8686,7 @@
       <BirthDate>07/08/1985</BirthDate>
       <BirthPlace>Saint-Etienne</BirthPlace>
       <PreviousClub>None</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8704,7 +8704,7 @@
       <BirthDate>30/11/1985</BirthDate>
       <BirthPlace>Dakar</BirthPlace>
       <PreviousClub>US Gorée</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8722,7 +8722,7 @@
       <BirthDate>30/01/1989</BirthDate>
       <BirthPlace>Thiais</BirthPlace>
       <PreviousClub>Toulouse</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8740,7 +8740,7 @@
       <BirthDate>28/08/1992</BirthDate>
       <BirthPlace>Abidjan</BirthPlace>
       <PreviousClub>None</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8758,7 +8758,7 @@
       <BirthDate>18/04/1983</BirthDate>
       <BirthPlace>Bourg en Bresse</BirthPlace>
       <PreviousClub>Nice</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8776,7 +8776,7 @@
       <BirthDate>13/01/1986</BirthDate>
       <BirthPlace>Valence</BirthPlace>
       <PreviousClub>None</PreviousClub>
-      <ActualClub>Association Sportive de St-Etienne</ActualClub>
+      <ActualClub>AssociBUion Sportive de St-Etienne</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
@@ -8857,7 +8857,7 @@
       <ActualTeamTag>TFC</ActualTeamTag>
       <Status>Remplacent</Status>
     </Player>
-    <Player Id="492" Name="William Matheus">
+    <Player Id="492" Name="William MBUheus">
       <ShirtNumber>6</ShirtNumber>
       <Nationality>BRA</Nationality>
       <Poste>DCD</Poste>
@@ -8932,7 +8932,7 @@
     <Player Id="496" Name="Wissam Ben Yedder">
       <ShirtNumber>10</ShirtNumber>
       <Nationality>FRA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,70</Height>
       <Weight>68</Weight>
       <BirthDate>12/08/1990</BirthDate>
@@ -8950,7 +8950,7 @@
     <Player Id="497" Name="Aleksandar Pešic">
       <ShirtNumber>11</ShirtNumber>
       <Nationality>SRB</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,90</Height>
       <Weight>83</Weight>
       <BirthDate>21/05/1992</BirthDate>
@@ -9055,7 +9055,7 @@
       <ActualTeamTag>TFC</ActualTeamTag>
       <Status>Remplacent</Status>
     </Player>
-    <Player Id="503" Name="Adrien Regattin">
+    <Player Id="503" Name="Adrien RegBUtin">
       <ShirtNumber>17</ShirtNumber>
       <Nationality>MAR</Nationality>
       <Poste>AG</Poste>
@@ -9202,7 +9202,7 @@
     <Player Id="511" Name="Sana Zaniou">
       <ShirtNumber>26</ShirtNumber>
       <Nationality>BFA</Nationality>
-      <Poste>AT</Poste>
+      <Poste>BU</Poste>
       <Height>1,70</Height>
       <Weight>65</Weight>
       <BirthDate>31/12/1994</BirthDate>

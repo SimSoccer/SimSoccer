@@ -27,7 +27,6 @@ namespace Sims.SimSoccerModel
         List<Player> _remplacents;
         List<Player> _reservist;
         readonly Game _game;
-        Dictionary<XName, Points> positionPlayers;
         #endregion
 
         #region contructor
@@ -97,23 +96,10 @@ namespace Sims.SimSoccerModel
             _teamType = new List<Player>();
             _remplacents = new List<Player>();
             _reservist = new List<Player>();
-            positionPlayers = new Dictionary<XName, Points>();
             _owner = owner;
             string tt = e.Element("TeamTag").Value;
             _formation = e.Element("Formation").Value;
 
-            /// Assign players a position
-            positionPlayers = e.Elements("Tactics").Elements("Tactic")
-                                  .Where(eT => eT.Attribute("Formation").Value == _formation)
-                                  .Elements()
-                                  .Select(eT => new { n = eT.Name, Pos = eT.Value.Split(',') })
-                                  .Select(eT => new { N = eT.n, P = new Points(float.Parse(eT.Pos[0]), float.Parse(eT.Pos[1])) })
-                                  .ToDictionary(eT => eT.N, eT => eT.P);
-
-            foreach (Player p in TeamType)
-            {
-                p.Position = positionPlayers[p.Poste];
-            }
 
             /// Incumbant the players holder in a team and in its global player list
             for (i = 0; i < _game.PlayerList.Players.Count; i++)
@@ -161,7 +147,7 @@ namespace Sims.SimSoccerModel
             }
 
             _name = e.Attribute("Name").Value;
-            TeamTag = e.Element("TeamTag").Value;            
+            TeamTag = e.Element("TeamTag").Value;
             Town = e.Element("Town").Value;
             Stadium = e.Element("Stadium").Value;
             Logo = e.Element("Logo").Value;
@@ -316,11 +302,6 @@ namespace Sims.SimSoccerModel
         {
             get { return _playerName; }
             set { _playerName = value; }
-        }
-
-        public Dictionary<XName, Points> PositionPlayers
-        {
-            get { return positionPlayers; }
         }
     }
 }

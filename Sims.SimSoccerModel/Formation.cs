@@ -9,17 +9,28 @@ namespace Sims.SimSoccerModel
 {
     public class Formation
     {
-        
-        public Formation(FormationList fl, XElement e)
-        {
-           /* _name = e.Attribute("Formation").Value;
+        Game _game;
+       
+        Dictionary<XName, Points> positionPlayers;
 
-            e.Elements("Tactics").Elements("Tactic")
-                                .Where(eT => eT.Attribute("Formation").Value == _name)
+        public Formation(FormationList fl, XElement f)
+        {
+
+            positionPlayers = new Dictionary<XName, Points>();
+            f.Elements("Tactics").Elements("Tactic")
+                                .Where(eT => eT.Attribute("Formation").Value == _game.TeamList.Teams[2].Formation)
                                 .Elements()
                                 .Select(eT => new { n = eT.Name, Pos = eT.Value.Split(',') })
                                 .Select(eT => new { N = eT.n, P = new Points(float.Parse(eT.Pos[0]), float.Parse(eT.Pos[1])) })
-                                .ToDictionary(eT => eT.N, eT => eT.P);*/
+                                .ToDictionary(eT => eT.N, eT => eT.P);
+
+
+            
+                /*foreach (Player p in _game.TeamList.Teams[2].TeamType)
+                {
+                    p.Position = positionPlayers[p.Poste];
+                }*/
+
         }
     }
 }

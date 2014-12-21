@@ -125,6 +125,5 @@ namespace SIMS.SimSoccerForm
             }
             textBox1.Text = Players2;
         }
-
     }
 }

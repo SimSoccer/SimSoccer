@@ -24,11 +24,10 @@ namespace Sims.SimSoccerModel
         readonly FormationList _formation;
         public Random _rnd;
         public Random Rnd
-        
         {
             get { return _rnd; }
         }
-        
+
 
         public PlayerList PlayerList
         {
@@ -123,8 +122,6 @@ namespace Sims.SimSoccerModel
             _formation = new FormationList(this, doc3.Root.Element("Tactics"));
             _ligue = new Ligue(this, 2014);
         }
-
-
 
         public void GameToXml(Game game)
         {
