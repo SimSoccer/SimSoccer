@@ -129,7 +129,6 @@ namespace Sims.SimSoccerModel
             else throw new InvalidOperationException( "Le nombre a été dépassé : " + _i );
 
             _game.Graphic.DrawImage(t, _player);
-            
         }
 
         public double Move(Points objectif)

@@ -34,9 +34,9 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(1184, 15);
+            this.listBox1.Location = new System.Drawing.Point(1039, 15);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(158, 407);
+            this.listBox1.Size = new System.Drawing.Size(303, 407);
             this.listBox1.TabIndex = 0;
             // 
             // SoccerSimulator
