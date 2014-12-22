@@ -289,5 +289,24 @@ namespace Sims.SimSoccerModel
             return nbGoal;
 
         }
+
+        public void SaveProfilToXML( string birthDate, string avatar, Game _game, int journey )
+        {
+            _avatar = avatar;
+            _birthDate = birthDate;
+            _journey = journey;
+            DateTime today = DateTime.Now;
+
+            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var target = doc
+                 .Elements( "Profil" )
+                 .Single();
+
+            target.Element( "Avatar" ).Value = _avatar;
+            target.Element( "BirthDate" ).Value = _birthDate;
+            target.Element( "Journey" ).Value = _journey.ToString();
+            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+
+        }
     }
 }
