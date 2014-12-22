@@ -33,6 +33,7 @@ namespace Sims.SimSoccerModel
             get { return _rnd; }
         }
 
+
         
         public PlayerList PlayerList
         {
@@ -155,8 +156,6 @@ namespace Sims.SimSoccerModel
             _rnd = new Random();
             _ligue.fillCalendar();
         }
-
-
 
         public void GameToXml(Game game)
         {

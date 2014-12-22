@@ -96,6 +96,7 @@ namespace Sims.SimSoccerModel
         public Points Position
         {
             get { return _position; }
+            set { _position = value; }
         }
         public int ShirtNumber
         {

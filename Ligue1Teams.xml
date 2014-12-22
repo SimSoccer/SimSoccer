@@ -11,6 +11,7 @@
 			<Manager>Ghislain PRINTANT</Manager>
 			<LeagueRanking>1</LeagueRanking>
 			<Level>70</Level>
+			<Formation>4.4.2</Formation>
 		</Team>
 			<Team Id = "1"  Name = "Football Club des Girondins de Bordeaux">
 			<TeamTag>FCB</TeamTag>
@@ -20,6 +21,7 @@
 			<Manager>Willy SAGNOL</Manager>
 			<LeagueRanking>2</LeagueRanking>
 			<Level>73</Level>
+			<Formation>4.4.2</Formation>
 		</Team>
 		<Team Id = "2" Name = "Stade Malherbe de Caen">
 			<TeamTag>SMC</TeamTag>
@@ -29,6 +31,7 @@
 			<Manager>Patrice GARANDE</Manager>
 			<LeagueRanking>3</LeagueRanking>
 			<Level>67</Level>
+			<Formation>5.3.2</Formation>
 		</Team>
 		<Team Id = "3" Name = "Evian Thonon Gaillard Football Club">
 			<TeamTag>ETG</TeamTag>
@@ -38,6 +41,7 @@
 			<Manager>Pascal DUPRAZ</Manager>
 			<LeagueRanking>4</LeagueRanking>
 			<Level>68</Level>
+			<Formation>4.4.2</Formation>
 		</Team>
 		<Team Id = "4" Name = "En Avant Guingamp">
 			<TeamTag>EAG</TeamTag>
@@ -47,6 +51,7 @@
 			<Manager>Jocelyn GOURVENNEC</Manager>
 			<LeagueRanking>5</LeagueRanking>
 			<Level>70</Level>
+			<Formation>4.3.3</Formation>
 		</Team>
 		<Team Id = "5" Name = "Racing Club de Lens">
 			<TeamTag>RCL</TeamTag>
@@ -56,6 +61,7 @@
 			<Manager>Antoine KOMBOUARE</Manager>
 			<LeagueRanking>6</LeagueRanking>
 			<Level>66</Level>
+			<Formation>4.3.3</Formation>
 		</Team>
 		<Team Id = "6" Name = "Lille Olympique Sporting Club">
 			<TeamTag>LOSC</TeamTag>
@@ -65,6 +71,7 @@
 			<Manager>René GIRARD</Manager>
 			<LeagueRanking>7</LeagueRanking>
 			<Level>74</Level>
+			<Formation>4.3.3</Formation>
 		</Team>
 		<Team Id = "7" Name = "Football Club Lorient-Bretagne Sud">
 			<TeamTag>FCL</TeamTag>
@@ -74,6 +81,7 @@
 			<Manager>Sylvain RIPOLL</Manager>
 			<LeagueRanking>8</LeagueRanking>
 			<Level>69</Level>
+			<Formation>4.4.2</Formation>
 		 </Team>
 		 <Team Id = "8" Name = "Olympique Lyonnais">
 			<TeamTag>OL</TeamTag>
@@ -83,6 +91,7 @@
 			<Manager>Hubert FOURNIER</Manager>
 			<LeagueRanking>9</LeagueRanking>
 			<Level>74</Level>
+			<Formation>4.4.2 losange</Formation>
 		 </Team>
 		 <Team Id = "9" Name = "Olympique de Marseille">
 			<TeamTag>OM</TeamTag>
@@ -92,6 +101,7 @@
 			<Manager>Marcelo BIELSA</Manager>
 			<LeagueRanking>10</LeagueRanking>
 			<Level>75</Level>
+			<Formation>4.3.3</Formation>
 		 </Team>
 		 <Team Id = "10" Name = "Football Club de Metz">
 			<TeamTag>FCM</TeamTag>
@@ -101,6 +111,7 @@
 			<Manager>Albert CARTIER</Manager>
 			<LeagueRanking>11</LeagueRanking>
 			<Level>69</Level>
+			<Formation>4.2.3.1</Formation>
 		 </Team>
 		 <Team Id = "11" Name = "Association sportive de Monaco FC">
 			<TeamTag>ASM</TeamTag>
@@ -110,6 +121,7 @@
 			<Manager>Leonardo JARDIM</Manager>
 			<LeagueRanking>12</LeagueRanking>
 			<Level>76</Level>
+			<Formation>4.3.3</Formation>
 		</Team>
 		<Team Id = "12" Name = "Montpellier-Herault Sports Club">
 			<TeamTag>MHSC</TeamTag>
@@ -119,6 +131,7 @@
 			<Manager>Rolland COURBIS</Manager>
 			<LeagueRanking>13</LeagueRanking>
 			<Level>71</Level>
+			<Formation>4.2.3.1</Formation>
 		</Team>
 		<Team Id = "13" Name = "Football Club de Nantes">
 			<TeamTag>FCN</TeamTag>
@@ -128,6 +141,7 @@
 			<Manager>Michel DER ZAKARIAN</Manager>
 			<LeagueRanking>14</LeagueRanking>
 			<Level>71</Level>
+			<Formation>4.3.3</Formation>
 		</Team>
 		<Team Id = "14" Name = "Olympique Gymnaste Club Nice Côte d'Azur">
 			<TeamTag>OGCN</TeamTag>
@@ -137,6 +151,7 @@
 			<Manager>Claude PUEL</Manager>
 			<LeagueRanking>15</LeagueRanking>
 			<Level>72</Level>
+			<Formation>4.2.3.1</Formation>
 		</Team>
 		<Team Id = "15" Name = "Paris-Saint-Germain Football Club">
 			<TeamTag>PSG</TeamTag>
@@ -146,6 +161,7 @@
 			<Manager>Laurent BLANC</Manager>
 			<LeagueRanking>16</LeagueRanking>
 			<Level>81</Level>
+			<Formation>4.3.3</Formation>
 		</Team>
 		<Team Id = "16" Name = "Stade de Reims">
 			<TeamTag>SDR</TeamTag>
@@ -155,6 +171,7 @@
 			<Manager>Jean-Luc VASSEUR</Manager>
 			<LeagueRanking>17</LeagueRanking>
 			<Level>70</Level>
+			<Formation>4.2.3.1</Formation>
 		</Team>
 		<Team Id = "17" Name = "Stade Rennais Football Club">
 			<TeamTag>SRFC</TeamTag>
@@ -164,6 +181,7 @@
 			<Manager>Philippe MONTANIER</Manager>
 			<LeagueRanking>18</LeagueRanking>
 			<Level>73</Level>
+			<Formation>4.3.3</Formation>
 		</Team>
 		<Team Id = "18" Name = "Association Sportive de St-Etienne">
 			<TeamTag>ASSE</TeamTag>
@@ -173,6 +191,7 @@
 			<Manager>Christophe GALTIER</Manager>
 			<LeagueRanking>19</LeagueRanking>
 			<Level>75</Level>
+			<Formation>4.3.3</Formation>
 		</Team>
 		<Team Id = "19" Name = "Toulouse Football Club">
 			<TeamTag>TFC</TeamTag>
@@ -182,6 +201,7 @@
 			<Manager>Alain CASANOVA</Manager>
 			<LeagueRanking>20</LeagueRanking>
 			<Level>72</Level>
+			<Formation>5.3.2</Formation>			
 		</Team>
 	</Teams>
 </Game>
