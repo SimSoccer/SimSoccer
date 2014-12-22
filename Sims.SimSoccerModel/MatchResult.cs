@@ -93,21 +93,21 @@ namespace Sims.SimSoccerModel
             {
                 _winner = _dom.Name;
                 _looser = _winner;
-                _textSummary = "it's a tie betwen " + _dom.TeamTag + " and " + _ext.TeamTag + "\n Score: " + ScoreH + " - " + ScoreO;
+                _textSummary = "it's a tie betwen " + _dom.TeamTag + " and " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
 
             }
             else if (_scoreH > _scoreO)
             {
                 _winner = _dom.Name;
                 _looser = _ext.Name;
-                _textSummary = _dom.TeamTag + " won against " + _ext.TeamTag + "\n Score: " + ScoreH + " - " + ScoreO;
+                _textSummary = _dom.TeamTag + " won against " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
 
             }
             else if (_scoreH < _scoreO)
             {
                 _winner = _ext.Name;
                 _looser = _dom.Name;
-                _textSummary = _dom.TeamTag + " loose against " + _ext.TeamTag + "\n Score: " + ScoreH + " - " + ScoreO;
+                _textSummary = _dom.TeamTag + " loose against " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
 
             }
 
