@@ -25,7 +25,7 @@ namespace Sims.SimSoccerModel
             return new Points(_x + deltaX, _y + deltaY);
         }
 
-        public Points PointToObjectif( Points objectif )
+        public Points PointToObjectif( Points objectif)
         {
 
             Points vector = new Points( ( objectif.X - this.X ), ( objectif.Y - this.Y - 50 ) );

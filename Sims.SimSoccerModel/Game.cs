@@ -178,7 +178,7 @@ namespace Sims.SimSoccerModel
             doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
 
         }
-        public void ToXML( string ChoosenTeam, Game game)
+        public void ToXML( string ChoosenTeam, Game game )
         {
             _choosenTeam = ChoosenTeam;
 
@@ -191,6 +191,20 @@ namespace Sims.SimSoccerModel
                  .Single();
 
             target.Element( "ChosenTeam" ).Value = _choosenTeam;
+
+            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+        }
+        public void Transfer( Game game, Player p )
+        {
+            DateTime today = DateTime.Now;
+
+            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var target = doc
+                 .Elements( "Teams" ).Elements("Players")
+                 .Single();
+
+            target.Element( "Player" ).Value = _choosenTeam;
+            //target.Attribute( "Name" ).Value = p;
 
             doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }

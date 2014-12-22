@@ -34,6 +34,7 @@ namespace SimulationMatchEssaie
         Points postePosition;
         Points secondObjectif;
         Points intermediatePoint2;
+        Points nextBallPoint;
         #endregion
 
         public SoccerSimulator()
@@ -43,7 +44,6 @@ namespace SimulationMatchEssaie
             player = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
             field = Image.FromFile( @".\..\..\..\images\nefield.png" );
             XDocument doc = XDocument.Load( @".\..\..\..\testPlayer.xml" );
-            //theone = new Player(doc, player);
             theone = _game.TeamList.Teams[8].TeamPlayers[8];
 
             //Position milieu de terrain pour le ballon visuellement.
@@ -53,8 +53,9 @@ namespace SimulationMatchEssaie
             System.Drawing.Size fieldSize = new System.Drawing.Size(1000,600);
             _playerPoints = new Point( 650, 300 );
             _ballPoints = new Point( 485, 280 );
-            secondObjectif = new Points( 950, 250 );
+            secondObjectif = new Points( 855, 250 );
             listBox1.Items.Add( theone.Name);
+
         }
         
         private void SoccerSimulator_Load( object sender, EventArgs e )
@@ -73,24 +74,29 @@ namespace SimulationMatchEssaie
             count = 1;
 
             intermediatePoint = theone.PlayerPosition.PointToObjectif( theball );
-            intermediatePoint2 = theone.PlayerPosition.PointToObjectif( secondObjectif );
+            nextBallPoint = theone.PlayerPosition.PointToObjectif( secondObjectif );
+
+            listBox1.Items.Add( "NextBall Point : " + nextBallPoint.X + "; " + nextBallPoint.Y );
             listBox1.Items.Add( "Player : " + _playerPoints.X + "; " + _playerPoints.Y );
             listBox1.Items.Add( "Ballon : " + theball.X + "; " + theball.Y );
             listBox1.Items.Add( "Point intermediare : " + intermediatePoint.X + "; " + intermediatePoint.Y );
+            listBox1.Items.Add( "Second Objectif : " + secondObjectif.X + "; " + secondObjectif.Y );
 
-            if( _playerPoints.X == theball.X - 20 && _playerPoints.Y == theball.Y - 50 && theball.X < 900 && theball.Y < 500 )
+            if( _playerPoints.X == theball.X - 20 && _playerPoints.Y == theball.Y - 50 && rball.X != secondObjectif.X && rball.Y != secondObjectif.Y - 50 )
             {
-                rball.X += 25;
+                rball.X = ( int )nextBallPoint.X + 25;
+                rball.Y = ( int )nextBallPoint.Y + 50;
                 theball.X = ( float )rball.X;
                 theball.Y = ( float )rball.Y;
             }
-            else if( _playerPoints.X == theball.X && _playerPoints.Y == theball.Y - 50 && theball.X < 900 && theball.Y < 500 )
+            else if( _playerPoints.X == theball.X && _playerPoints.Y == theball.Y - 50 && rball.X != secondObjectif.X && rball.Y != secondObjectif.Y - 50 )
             {
-                rball.X += 25;
+                rball.X = ( int )nextBallPoint.X + 25;
+                rball.Y = ( int )nextBallPoint.Y + 50;
                 theball.X = ( float )rball.X;
                 theball.Y = ( float )rball.Y;
             }
-            else if( _playerPoints.X != theball.X || _playerPoints.Y != theball.Y - 50 )
+            else if( _playerPoints.X != theball.X || _playerPoints.Y != theball.Y - 50 && _playerPoints.X != secondObjectif.X && _playerPoints.Y != secondObjectif.Y && theball.X != secondObjectif.X && theball.Y != secondObjectif.Y - 50 )
             {
                 i++;
                 iBall++;
