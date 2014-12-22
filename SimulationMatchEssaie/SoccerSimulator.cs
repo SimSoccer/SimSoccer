@@ -44,7 +44,7 @@ namespace SimulationMatchEssaie
         {
             InitializeComponent();
 
-            docX = XDocument.Load( @".\..\..\..\user_guegue_save_20141222.xml" );
+            docX = XDocument.Load(@".\..\..\..\user_Lolo_save_20141222.xml");
             _game = new Game( docX.Root.Element( "Profil" ) );
 
             player = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );

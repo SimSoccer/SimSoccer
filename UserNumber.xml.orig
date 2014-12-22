@@ -2,9 +2,9 @@
 <Game>
   <UserNumber>
 <<<<<<< HEAD
-    <Number>3</Number>
-=======
     <Number>5</Number>
->>>>>>> local_dev
+=======
+    <Number>10</Number>
+>>>>>>> local_fl_manage_draw_game
   </UserNumber>
 </Game>

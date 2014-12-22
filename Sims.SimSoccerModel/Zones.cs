@@ -36,48 +36,48 @@ namespace Sims.SimSoccerModel
 
             int _X = 0;
             int _Y = 0;
-            Points _firstThrowInPoints = new Points( _X, _Y );
-            for( int _x = 0; _x <= 10; _x++ )
+            Points _firstThrowInPoints = new Points(_X, _Y);
+            for (int _x = 0; _x <= 10; _x++)
             {
-                    _X = _x * 100;
-                    _firstThrowInPoints.X = _X;
-                    int _y = 6;
-                    _Y = _y * 100;
-                    _firstThrowInPoints.Y = _Y;
-                    _throwIn1.Add( _firstThrowInPoints );
+                _X = _x * 100;
+                _firstThrowInPoints.X = _X;
+                int _y = 6;
+                _Y = _y * 100;
+                _firstThrowInPoints.Y = _Y;
+                _throwIn1.Add(_firstThrowInPoints);
             }
 
-            Points _secondThrowInPoints = new Points( _X, _Y );
-            for( int _x = 0; _x <= 10; _x++ )
+            Points _secondThrowInPoints = new Points(_X, _Y);
+            for (int _x = 0; _x <= 10; _x++)
             {
                 _X = _x * 100;
                 _secondThrowInPoints.X = _X;
                 int _y = 0;
                 _Y = _y * 100;
                 _secondThrowInPoints.Y = _Y;
-                _throwIn2.Add( _secondThrowInPoints );
+                _throwIn2.Add(_secondThrowInPoints);
             }
 
-            Points _firstBehindGoalLinePoints = new Points( _X, _Y );
-            for( int _y = 0; _y <= 6; _y++ )
+            Points _firstBehindGoalLinePoints = new Points(_X, _Y);
+            for (int _y = 0; _y <= 6; _y++)
             {
                 _Y = _y * 100;
                 _firstBehindGoalLinePoints.Y = _Y;
                 int _x = 0;
                 _X = _x * 100;
                 _firstBehindGoalLinePoints.X = _X;
-                _behindGoalLine1.Add( _firstBehindGoalLinePoints );
+                _behindGoalLine1.Add(_firstBehindGoalLinePoints);
             }
 
-            Points _secondBehindGoalLinePoints = new Points( _X, _Y );
-            for( int _y = 0; _y <= 6; _y++ )
+            Points _secondBehindGoalLinePoints = new Points(_X, _Y);
+            for (int _y = 0; _y <= 6; _y++)
             {
                 _Y = _y * 100;
                 _secondBehindGoalLinePoints.Y = _Y;
                 int _x = 10;
                 _X = _x * 100;
                 _secondBehindGoalLinePoints.X = _X;
-                _behindGoalLine2.Add( _secondBehindGoalLinePoints );
+                _behindGoalLine2.Add(_secondBehindGoalLinePoints);
             }
 
             for( int _x = 0; _x < 100; _x++ )
@@ -131,7 +131,7 @@ namespace Sims.SimSoccerModel
         {
             get { return _behindGoalLine1; }
         }
-        
+
         public List<Points> BehingGoalLine2
         {
             get { return _behindGoalLine2; }
