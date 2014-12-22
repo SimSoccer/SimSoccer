@@ -23,11 +23,7 @@ namespace SIMS.SimSoccerForm
             _game = game;
             InitializeComponent();
             txtUsernameLobby_TextChanged( this, EventArgs.Empty );
-<<<<<<< HEAD
             currentJourney_TextChanged( this, EventArgs.Empty );
-=======
-            
->>>>>>> SimSoccer/dev
         }
 
         private void txtUsernameLobby_TextChanged( object sender, EventArgs e )
@@ -37,7 +33,10 @@ namespace SIMS.SimSoccerForm
 
        
 
-        
+        private void exitToolStripMenuItem_Click( object sender, EventArgs e )
+        {
+            Application.Exit();
+        }
 
         
 
@@ -71,13 +70,15 @@ namespace SIMS.SimSoccerForm
 
         private void btExit_Click( object sender, EventArgs e )
         {
-           
-            
-            
+<<<<<<< HEAD
+            _game.SaveProfilToXML( _game.BirthDate, _game.Avatar, _game, _game.Journey );
+=======
+
+            _game.SaveProfilToXML( _game.BirthDate, _game.Avatar, _game , _game.Journey);
+>>>>>>> ba786d835483dfe55c4d287a53d1685ba707fc19
             Application.Exit();
         }
 
-<<<<<<< HEAD
         public void currentJourney_TextChanged( object sender, EventArgs e )
         {
             currentJourney.Text = "journée " + (_game.Journey + 1);
@@ -89,8 +90,5 @@ namespace SIMS.SimSoccerForm
             ShowResult SR = new ShowResult( _game, this );
             SR.Show();
         }
-=======
-        
->>>>>>> SimSoccer/dev
     }
 }

@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Game>
-  <Profil ID="3">
+  <Profil ID="4">
     <UserName>guegue</UserName>
     <Password>123456</Password>
     <LastName>Kikabou</LastName>
     <FirstName>Guénolé</FirstName>
-    <BirthDate>22/02/1991</BirthDate>
+    <BirthDate>22/12/2014</BirthDate>
     <Avatar>.\..\..\..\avatar.jpg</Avatar>
     <ChosenTeam>Olympique Lyonnais</ChosenTeam>
+    <Journey>4</Journey>
   </Profil>
   <Teams>
     <Team Id="0" Name="Sporting Club de Bastia">
