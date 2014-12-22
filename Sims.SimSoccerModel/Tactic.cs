@@ -9,9 +9,17 @@ namespace Sims.SimSoccerModel
 {
     public class Tactic
     {
-        List<Formation> _formation;
+        List<Formation> _formations;
 
+        public List<Formation> Formation
+        {
+            get { return _formations; }
+        }
 
+        public Tactic()
+        {
+            _formations = new List<Formation>();
+        }
 
         public void MovePlayer(Player p, List<Player> currentlyList, List<Player> listWanted)
         {

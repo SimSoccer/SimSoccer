@@ -15,15 +15,16 @@ namespace SIMS.SimSoccerForm
     public partial class CalendarDisplay : Form
     {
         readonly Game _game;
-        public CalendarDisplay(Game game)
+        LobbyForm _lobby;
+        public CalendarDisplay(Game game, LobbyForm lobby)
         {
             InitializeComponent();
             _game = game;
-
+            _lobby = lobby;
             _game.Ligue.fillCalendar();
 
             
-            foreach( Journee j in _game.Ligue.Calendar.Journees )
+            foreach( MatchDay j in _game.Ligue.Calendar.MatchDay)
                 Cjournee.Items.Add( j );
 
             Cjournee.SelectedIndex = 0;
@@ -33,7 +34,7 @@ namespace SIMS.SimSoccerForm
         {
             TMatchs.Text = string.Empty;
 
-            Journee j = Cjournee.Items[Cjournee.SelectedIndex] as Journee;
+            MatchDay j = Cjournee.Items[Cjournee.SelectedIndex] as MatchDay;
 
             if( j != null )
             {
@@ -42,12 +43,14 @@ namespace SIMS.SimSoccerForm
                     TMatchs.Text += m.ToString() + "\r\n";
             }
         }
-
-        
-
         private void TMatchs_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void CalendarDisplay_FormClosing( object sender, FormClosingEventArgs e )
+        {
+            _lobby.cmptCalendar = 0;
         }
 
     }

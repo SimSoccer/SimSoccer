@@ -25,12 +25,8 @@ namespace SIMS.SimSoccerForm
             if( txtCheckPassword.Text == _game.UserPassword )
             {
                 LobbyForm LB = new LobbyForm( _game );
-               
                 LB.Show();
-               
                 this.Close();
-                
-                
             }
             else
             {
