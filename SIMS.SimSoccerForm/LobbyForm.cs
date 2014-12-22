@@ -14,6 +14,8 @@ namespace SIMS.SimSoccerForm
     public partial class LobbyForm : Form
     {
         readonly Game _game;
+        
+        
         public int cmptCalendar = 0;
         public int cmptProfil = 0;
         public LobbyForm( Game game )
@@ -21,6 +23,7 @@ namespace SIMS.SimSoccerForm
             _game = game;
             InitializeComponent();
             txtUsernameLobby_TextChanged( this, EventArgs.Empty );
+            
         }
 
         private void txtUsernameLobby_TextChanged( object sender, EventArgs e )
@@ -30,10 +33,7 @@ namespace SIMS.SimSoccerForm
 
        
 
-        private void exitToolStripMenuItem_Click( object sender, EventArgs e )
-        {
-            Application.Exit();
-        }
+        
 
         
 
@@ -67,7 +67,12 @@ namespace SIMS.SimSoccerForm
 
         private void btExit_Click( object sender, EventArgs e )
         {
+           
+            
+            
             Application.Exit();
         }
+
+        
     }
 }
