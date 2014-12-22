@@ -119,6 +119,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GraphicsFormsEssai\GraphicsFormsEssai.csproj">
+      <Project>{f4fe3beb-ce59-4d3f-b173-e1219f837818}</Project>
+      <Name>GraphicsFormsEssai</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Sims.SimSoccerModel\Sims.SimSoccerModel.csproj">
       <Project>{71a587e4-5ea9-4b94-ae98-a7f14fd555bb}</Project>
       <Name>Sims.SimSoccerModel</Name>

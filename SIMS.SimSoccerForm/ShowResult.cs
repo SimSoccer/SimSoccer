@@ -23,6 +23,7 @@ namespace SIMS.SimSoccerForm
             _game = game;
             _lobby = lobby;
             ViewOtherScore_TextChanged( this, EventArgs.Empty );
+            
         }
 
         private void ViewOtherScore_TextChanged( object sender, EventArgs e )
