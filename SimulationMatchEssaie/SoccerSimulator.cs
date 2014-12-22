@@ -16,7 +16,10 @@ namespace SimulationMatchEssaie
     {
 
         #region Attributes
-        Game _game = new Game( "Toto", "Tata", "blabla", "lala" );
+        //Game _game = new Game( "Toto", "Tata", "blabla", "lala" );
+        XDocument docX;
+
+        Game _game;
         Rectangle rball;
         Timer t = new Timer();
         int i = 0;
@@ -33,18 +36,37 @@ namespace SimulationMatchEssaie
         Points intermediatePoint;
         Points secondObjectif;
         Points nextBallPoint;
-        Rectangle _ball;
+        List<Player> MyPlayers;
+        Team myTeam;
         #endregion
 
         public SoccerSimulator()
         {
             InitializeComponent();
 
-            System.Drawing.Size sizeBall = new System.Drawing.Size( 35, 70 );
-            //_ball = new Rectangle( ball, sizeBall );
+            docX = XDocument.Load( @".\..\..\..\user_guegue_save_20141222.xml" );
+            _game = new Game( docX.Root.Element( "Profil" ) );
+
             player = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
             field = Image.FromFile( @".\..\..\..\images\nefield.png" );
             XDocument doc = XDocument.Load( @".\..\..\..\testPlayer.xml" );
+            MyPlayers = new List<Player>();
+            int pl;
+
+            for(pl = 0; pl < _game.TeamList.Teams.Count; pl++) 
+            {
+                if( _game.TeamList.Teams[pl].Name == _game.ChoosenTeam )
+                {
+                    myTeam = _game.TeamList.Teams[pl];
+                    for(int j = 0; j < myTeam.TeamType.Count; j++)
+                    {
+                        Player newPlayer = myTeam.TeamType[j];
+                        MyPlayers.Add( newPlayer );
+                    }
+                }
+            }
+
+            listBox1.Items.Add( "Player 1 : " + MyPlayers[0].Name );
             theone = _game.TeamList.Teams[8].TeamPlayers[8];
 
             //Position milieu de terrain pour le ballon visuellement.

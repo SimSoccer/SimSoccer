@@ -156,7 +156,8 @@ namespace Sims.SimSoccerModel
             _playerList = new PlayerList(this, doc.Root.Element("Players"));
             _teamList = new TeamList(this, doc2.Root.Element("Teams"));
             _formation = new FormationList(this, doc3.Root.Element("Tactics"));
-            _ligue = new Ligue(this, 2014);
+            _ligue = new Ligue( this, 2014 );
+            _field = new Field();
         }
 
         public void GameToXml(Game game)
