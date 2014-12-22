@@ -21,6 +21,7 @@ namespace Sims.SimSoccerModel
         int _leagueRanking;
         int _level;
         string _playerName;
+        string _formation;
         List<Team> _opponent;
         List<Player> _teamType;
         List<Player> _remplacents;
@@ -39,6 +40,7 @@ namespace Sims.SimSoccerModel
             _teamType = new List<Player>();
             _remplacents = new List<Player>();
             _reservist = new List<Player>();
+
         }
         #endregion
 
@@ -51,6 +53,12 @@ namespace Sims.SimSoccerModel
         {
             get { return _teamType; }
             set { _teamType = value; }
+        }
+
+        public String Formation
+        {
+            get { return _formation; }
+            set { _formation = value; }
         }
         public List<Player> Remplacent
         {
@@ -78,11 +86,6 @@ namespace Sims.SimSoccerModel
             set { _players = value; }
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="owner"></param>
-        /// <param name="e"></param>
         public Team(TeamList owner, XElement e)
         {
             _game = owner.Game;
@@ -95,11 +98,13 @@ namespace Sims.SimSoccerModel
             _reservist = new List<Player>();
             _owner = owner;
             string tt = e.Element("TeamTag").Value;
+            _formation = e.Element("Formation").Value;
 
-            for (i = 0; i < _owner.Game.PlayerList.Players.Count; i++)
+
+            /// Incumbant the players holder in a team and in its global player list
+            for (i = 0; i < _game.PlayerList.Players.Count; i++)
             {
-                /// Incumbant the players holder in a team and in its global player list
-                if (_owner.Game.PlayerList.Players[i].ActualTeamTag == tt && _owner.Game.PlayerList.Players[i].Status == "Titulaire")
+                if (_game.PlayerList.Players[i].ActualTeamTag == tt && _game.PlayerList.Players[i].Status == "Titulaire")
                 {
                     if (_teamType.Count < 0 || _teamType.Count > 11) throw new IndexOutOfRangeException();
                     if (_players.Count < 0) throw new IndexOutOfRangeException();
@@ -121,6 +126,7 @@ namespace Sims.SimSoccerModel
 
                     _players.Add(_owner.Game.PlayerList.Players[i]);
                     _remplacents.Add(_owner.Game.PlayerList.Players[i]);
+
                     for (j = 0; j < _players.Count; j++)
                     {
                         _playerName = _players[j].Name;
@@ -148,9 +154,6 @@ namespace Sims.SimSoccerModel
             Manager = e.Element("Manager").Value;
             LeagueRanking = int.Parse(e.Element("LeagueRanking").Value);
             Level = int.Parse(e.Element("Level").Value);
-            TeamType = _teamType;
-            Remplacent = _remplacents;
-            Reserve = _reservist;
 
             XElement xml = new XElement("Players",
                 from p in _players
@@ -173,10 +176,8 @@ namespace Sims.SimSoccerModel
                     new XElement("ActualTeamTag", p.ActualTeamTag),
                     new XElement("Status", p.Status)));
         }
-
         public XElement ToXml(int id)
         {
-
             return new XElement("Team",
                         new XAttribute("Id", id),
                         new XAttribute("Name", Name),
@@ -187,6 +188,7 @@ namespace Sims.SimSoccerModel
                         new XElement("Manager", Manager),
                         new XElement("LeagueRanking", LeagueRanking),
                         new XElement("Level", Level),
+                        new XElement("Formation", Formation),
                         new XElement("Players",
                             new XElement("Titulaire",
                             from p in TeamType
@@ -249,7 +251,6 @@ namespace Sims.SimSoccerModel
                             new XElement("ActualTeamTag", res.ActualTeamTag),
                             new XElement("Status", res.Status)))));
         }
-
         public string Name
         {
             get { return _name; }
@@ -302,6 +303,5 @@ namespace Sims.SimSoccerModel
             get { return _playerName; }
             set { _playerName = value; }
         }
-
     }
 }
