@@ -23,7 +23,7 @@ namespace SIMS.SimSoccerForm
             _lobby = lobby;
             _game.Ligue.fillCalendar();
 
-
+            /// Show the Journey
             foreach (MatchDay j in _game.Ligue.Calendar.MatchDay)
                 Cjournee.Items.Add(j);
 
