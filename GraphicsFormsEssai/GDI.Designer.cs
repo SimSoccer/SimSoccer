@@ -46,22 +46,24 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.button12 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.AllowDrop = true;
+            this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.Cursor = System.Windows.Forms.Cursors.Default;
             this.button1.Location = new System.Drawing.Point(0, 275);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 50);
             this.button1.TabIndex = 0;
             this.button1.Text = "Gardien";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button_click);
-            this.button1.DragDrop += new System.Windows.Forms.DragEventHandler(this.button1_DragDrop);
-            this.button1.DragEnter += new System.Windows.Forms.DragEventHandler(this.button1_DragEnter);
             this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button_KeyDown);
             // 
             // button2
@@ -218,11 +220,48 @@
             // 
             this.listBox1.AllowDrop = true;
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(1091, 0);
+            this.listBox1.Location = new System.Drawing.Point(1089, 75);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(264, 693);
+            this.listBox1.Size = new System.Drawing.Size(264, 368);
             this.listBox1.TabIndex = 12;
-            this.listBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.listBox1_MouseMove);
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "4-4-2 losange",
+            "4-4-2",
+            "4-3-3",
+            "4-2-3-1",
+            "5-3-2",
+            "5-4-1",
+            "3-5-2"});
+            this.comboBox1.Location = new System.Drawing.Point(1189, 12);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 14;
+            this.comboBox1.Text = "Formations";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.Location = new System.Drawing.Point(1089, 454);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(264, 238);
+            this.listBox2.TabIndex = 15;
+            // 
+            // button12
+            // 
+            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Location = new System.Drawing.Point(150, 618);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(100, 61);
+            this.button12.TabIndex = 16;
+            this.button12.Text = "Recommencer";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // GDI
             // 
@@ -230,6 +269,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1354, 691);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.listBox2);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
@@ -277,5 +319,8 @@
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.ToolStripMenuItem restartFormationToolStripMenuItem;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.Button button12;
     }
 }

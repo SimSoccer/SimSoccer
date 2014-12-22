@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Game>
+	<Players>
+		<Player Id="0" Name="Alexandre Lacazette">
+			<ShirtNumber>10</ShirtNumber>
+			<Nationality>FRA</Nationality>
+			<Poste>AT</Poste>
+			<Height>1,74</Height>
+			<Weight>69</Weight>
+			<BirthDate>28/05/1991</BirthDate>
+			<BirthPlace>Lyon</BirthPlace>
+			<PreviousClub>Olypique Lyonnais</PreviousClub>
+			<ActualClub>Olympique Lyonnais</ActualClub>
+			<Stats>85</Stats>
+			<FormState>100</FormState>
+			<Injury>false</Injury>
+			<Mental>100</Mental>
+			<FinancialValue>10000</FinancialValue>
+			<ActualTeamTag>OL</ActualTeamTag>
+			<Status>Titulaire</Status>
+		</Player>
+	</Players>
+</Game>

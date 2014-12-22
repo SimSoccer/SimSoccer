@@ -31,14 +31,16 @@ namespace Sims.SimSoccerModel
                                     .Select(eT => new { N = eT.n, P = new Points(float.Parse(eT.Pos[0]), eT.Pos.Length > 1 ? float.Parse(eT.Pos[1]) : float.Parse(eT.Pos[0])) })
                                     .ToDictionary(eT => eT.N, eT => eT.P);
 
-                for (i = 0; i < _game.TeamList.Teams[i].TeamType.Count; i++)
+                for( int j = 0; j < _game.TeamList.Teams.Count; j++ )
                 {
-                    foreach (Player p in _game.TeamList.Teams[i].TeamType)
+                    for( i = 0; i < _game.TeamList.Teams[i].TeamType.Count; i++ )
                     {
-                        p.Position = positionPlayers[p.Poste];
+                        foreach( Player p in _game.TeamList.Teams[j].TeamType )
+                        {
+                            p.Position = positionPlayers[p.Poste];
+                        }
                     }
                 }
-
             }
         }
     }

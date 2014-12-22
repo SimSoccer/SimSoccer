@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
+using System.Drawing;
 
 namespace Sims.SimSoccerModel
 {
@@ -24,6 +25,13 @@ namespace Sims.SimSoccerModel
         string _avatar;
         private XElement xElement;
         readonly Field _field;
+        Graphics _graphic;
+
+        public Graphics Graphic
+        {
+            get { return _graphic; }
+            set { _graphic = value; }
+        }
         readonly FormationList _formation;
         public Random _rnd;
         int _journey;
@@ -93,6 +101,7 @@ namespace Sims.SimSoccerModel
         {
             get { return _avatar; }
         }
+
         public string ChoosenTeam
         {
             get { return _choosenTeam; }
@@ -109,12 +118,14 @@ namespace Sims.SimSoccerModel
             _formation = new FormationList(this, doc3.Root.Element("Tactics"));
 
         }
+
         public Game(string userName)
         {
             _userName = userName;
             XDocument doc = XDocument.Load(@".\..\..\..\user_" + userName + "*");
         }
-        public Game(string userName, string userPassword, string lastName, string firstName)
+
+        public Game( string userName, string userPassword, string lastName, string firstName )
         {
             _userName = userName;
             _userPassword = userPassword;
@@ -152,7 +163,8 @@ namespace Sims.SimSoccerModel
             _playerList = new PlayerList(this, doc.Root.Element("Players"));
             _teamList = new TeamList(this, doc2.Root.Element("Teams"));
             _formation = new FormationList(this, doc3.Root.Element("Tactics"));
-            _ligue = new Ligue(this, 2014);
+            _ligue = new Ligue( this, 2014 );
+            _field = new Field();
             _rnd = new Random();
             _ligue.fillCalendar();
         }
@@ -228,7 +240,7 @@ namespace Sims.SimSoccerModel
             doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
 
         }
-        public void ToXML( string ChoosenTeam, Game game)
+        public void ToXML( string ChoosenTeam, Game game )
         {
             _choosenTeam = ChoosenTeam;
 
@@ -240,6 +252,20 @@ namespace Sims.SimSoccerModel
                  .Single();
 
             target.Element( "ChosenTeam" ).Value = _choosenTeam;
+
+            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+        }
+        public void Transfer( Game game, Player p )
+        {
+            DateTime today = DateTime.Now;
+
+            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var target = doc
+                 .Elements( "Teams" ).Elements("Players")
+                 .Single();
+
+            target.Element( "Player" ).Value = _choosenTeam;
+            //target.Attribute( "Name" ).Value = p;
 
             doc.Save(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
             doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
