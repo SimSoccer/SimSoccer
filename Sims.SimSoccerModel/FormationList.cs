@@ -26,7 +26,7 @@ namespace Sims.SimSoccerModel
         {
             _game = game;
             _formations = f.Elements("Tactic")
-                .Select(eT => new Formation(this, eT))
+                .Select(eT => new Formation(game, this, eT))
                 .ToList();
         }
 

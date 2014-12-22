@@ -93,7 +93,7 @@ namespace SIMS.SimSoccerForm
 
         private void PlayersBox_TextChanged(object sender, EventArgs e)
         {
-            string Players = "";
+            string Players = string.Empty;
             for (int cmpt = 0; cmpt < _game.TeamList.Teams[i].TeamPlayers.Count; cmpt++)
             {
                 Players += _game.TeamList.Teams[i].TeamPlayers[cmpt].Name + "\r\n";
@@ -101,6 +101,7 @@ namespace SIMS.SimSoccerForm
 
             PlayersBox.Text = Players;
             textBox1_TextChanged(this, EventArgs.Empty);
+            textBox3_TextChanged(this, EventArgs.Empty);
         }
 
         private void button1_KeyDown(object sender, KeyEventArgs e)
@@ -118,12 +119,22 @@ namespace SIMS.SimSoccerForm
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            string Players2 = "";
+            string Players2 = string.Empty;
             for (int cmpt = 0; cmpt < _game.TeamList.Teams[i].TeamType.Count; cmpt++)
             {
                 Players2 += _game.TeamList.Teams[i].TeamType[cmpt].Name + "\r\n";
             }
             textBox1.Text = Players2;
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            string Players3 = string.Empty;
+            for (int cmpt = 0; cmpt < _game.TeamList.Teams[i].TeamType.Count; cmpt++)
+            {
+                Players3 += _game.TeamList.Teams[i].TeamType[cmpt].Position.X + "," + _game.TeamList.Teams[i].TeamType[cmpt].Position.Y + "\r\n";
+            }
+            textBox3.Text = Players3;
         }
     }
 }

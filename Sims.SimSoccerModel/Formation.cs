@@ -10,27 +10,36 @@ namespace Sims.SimSoccerModel
     public class Formation
     {
         Game _game;
-       
+        int i;
         Dictionary<XName, Points> positionPlayers;
 
-        public Formation(FormationList fl, XElement f)
+        /// <summary>
+        /// Assign players a position that the formation
+        /// of their team and their positions on the field
+        /// </summary>
+        /// <param name="game">The state of the game</param>
+        /// <param name="fl"></param>
+        /// <param name="f">Read the file tactic.xml</param>
+        public Formation(Game game, FormationList fl, XElement f)
         {
-
+            _game = game;
             positionPlayers = new Dictionary<XName, Points>();
-            f.Elements("Tactics").Elements("Tactic")
-                                .Where(eT => eT.Attribute("Formation").Value == _game.TeamList.Teams[2].Formation)
-                                .Elements()
-                                .Select(eT => new { n = eT.Name, Pos = eT.Value.Split(',') })
-                                .Select(eT => new { N = eT.n, P = new Points(float.Parse(eT.Pos[0]), float.Parse(eT.Pos[1])) })
-                                .ToDictionary(eT => eT.N, eT => eT.P);
+            if (f.Attribute("Formation").Value == _game.TeamList.Teams[i].Formation)
+            {
+                positionPlayers = f.Elements()
+                                    .Select(eT => new { n = eT.Name, Pos = eT.Value.Split(',') })
+                                    .Select(eT => new { N = eT.n, P = new Points(float.Parse(eT.Pos[0]), eT.Pos.Length > 1 ? float.Parse(eT.Pos[1]) : float.Parse(eT.Pos[0])) })
+                                    .ToDictionary(eT => eT.N, eT => eT.P);
 
-
-            
-                /*foreach (Player p in _game.TeamList.Teams[2].TeamType)
+                for (i = 0; i < _game.TeamList.Teams[i].TeamType.Count; i++)
                 {
-                    p.Position = positionPlayers[p.Poste];
-                }*/
+                    foreach (Player p in _game.TeamList.Teams[i].TeamType)
+                    {
+                        p.Position = positionPlayers[p.Poste];
+                    }
+                }
 
+            }
         }
     }
 }
