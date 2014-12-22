@@ -38,7 +38,7 @@ namespace SIMS.SimSoccer.Tests
         }
 
         [Test]
-        public void result_matchs_for_a_journey()
+        public void result_matchs_for_all_journey()
         {
             Game g = new Game( "test", "1234", "blabla", "lala" );
             g.Ligue.fillCalendar();
@@ -76,8 +76,7 @@ namespace SIMS.SimSoccer.Tests
             }
                 
             Game g = new Game( "test", "1234", "blabla", "lala" );
-            
-            
+                       
              int j = 0;
              do
              {

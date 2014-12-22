@@ -26,12 +26,13 @@ namespace Sims.SimSoccerModel
         readonly Field _field;
         readonly FormationList _formation;
         public Random _rnd;
-    
+        int _journey;
 
         public Random Rnd
         {
             get { return _rnd; }
         }
+
 
         
         public PlayerList PlayerList
@@ -61,6 +62,11 @@ namespace Sims.SimSoccerModel
         public Ligue Ligue
         {
             get { return _ligue; }
+        }
+        public int Journey
+        {
+            get { return _journey; }
+            set { _journey = value; }
         }
         public string UserName
         {
@@ -114,6 +120,7 @@ namespace Sims.SimSoccerModel
             _userPassword = userPassword;
             _lastName = lastName;
             _firstName = firstName;
+            _journey = 0;
             XDocument doc = XDocument.Load(@".\..\..\..\Ligue1Players2.xml");
             XDocument doc2 = XDocument.Load(@".\..\..\..\Ligue1Teams.xml");
             XDocument doc3 = XDocument.Load(@".\..\..\..\Tactics.xml");
@@ -124,6 +131,7 @@ namespace Sims.SimSoccerModel
             _rnd = new Random();
             _avatar = @".\..\..\..\avatar.jpg";
             _field = new Field();
+            _ligue.fillCalendar();
         }
 
         public Game(XElement e)
@@ -137,6 +145,7 @@ namespace Sims.SimSoccerModel
             _choosenTeam = e.Element("ChosenTeam").Value;
             _avatar = e.Element("Avatar").Value;
             _birthDate = e.Element( "BirthDate" ).Value;
+            _journey = Convert.ToInt32( e.Element( "Journey" ).Value );
             XDocument doc = XDocument.Load(@".\..\..\..\Ligue1Players2.xml");
             XDocument doc2 = XDocument.Load(@".\..\..\..\Ligue1Teams.xml");
             XDocument doc3 = XDocument.Load(@".\..\..\..\Tactics.xml");
@@ -144,9 +153,9 @@ namespace Sims.SimSoccerModel
             _teamList = new TeamList(this, doc2.Root.Element("Teams"));
             _formation = new FormationList(this, doc3.Root.Element("Tactics"));
             _ligue = new Ligue(this, 2014);
+            _rnd = new Random();
+            _ligue.fillCalendar();
         }
-
-
 
         public void GameToXml(Game game)
         {
@@ -194,7 +203,8 @@ namespace Sims.SimSoccerModel
                         new XElement("FirstName", _firstName),
                         new XElement("BirthDate", today),
                         new XElement("Avatar", _avatar),
-                        new XElement("ChosenTeam", "")),
+                        new XElement("ChosenTeam", ""),
+                        new XElement("Journey", _journey)),                        
                     game.TeamList.ToXml(),
                     new XElement("FreePlayers",
                         new XElement("TheFreePlayer"))));

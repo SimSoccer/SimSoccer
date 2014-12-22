@@ -22,11 +22,11 @@ namespace Sims.SimSoccerModel
         {
             get { return _game; }
         }
-        public FormationList(Game game, XElement e)
+        public FormationList(Game game, XElement f)
         {
             _game = game;
-            _formations = e.Elements("Tactic")
-                .Select(eT => new Formation(this, eT))
+            _formations = f.Elements("Tactic")
+                .Select(eT => new Formation(game, this, eT))
                 .ToList();
         }
 
