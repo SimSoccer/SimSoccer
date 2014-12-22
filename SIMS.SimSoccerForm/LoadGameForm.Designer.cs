@@ -46,6 +46,7 @@
             // 
             // listBox1
             // 
+            this.listBox1.BackColor = System.Drawing.SystemColors.Window;
             this.listBox1.Location = new System.Drawing.Point(23, 36);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(142, 147);
@@ -67,7 +68,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(598, 441);
             this.Controls.Add(this.btBackToStartForm);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btLoadGame);

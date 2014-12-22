@@ -47,10 +47,34 @@ namespace SIMS.SimSoccerForm
                 txtPassword.Text = value;
             }
         }
-        public void Inscription( string userName, string userPassword )
+        public string FirstName
         {
-            Game _game = new Game( userName, userPassword );
+            get
+            {
+                return textFirstName.Text;
+            }
+            set
+            {
+                textFirstName.Text = value;
+            }
+        }
+        public string LastName
+        {
+            get
+            {
+                return textLastName.Text;
+            }
+            set
+            {
+                textLastName.Text = value;
+            }
+        }
+        public void Inscription( string userName, string userPassword, string lastName, string firstName)
+        {
+            Game _game = new Game( userName, userPassword, lastName , firstName );
             _game.GameToXml(_game);
+            DateTime result = dateTimePicker1.Value;
+            _game.SaveProfilToXML( result.ToShortDateString(), _game.Avatar, _game );
             SelectTeamForm ST = new SelectTeamForm( _game );
             ST.Show();
         }

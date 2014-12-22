@@ -60,8 +60,15 @@ namespace Sims.SimSoccerModel
         {
             for( int i = 0; i < this.Matchs.Count; i++ )
             {
-                this.Matchs[i].PlayMatch();
-                Console.WriteLine( this.Matchs[i].Result.TextSummary );
+                if( this.Matchs[i].Home.Name == _owner.Game.ChoosenTeam || this.Matchs[i].Outside.Name == _owner.Game.ChoosenTeam )
+                {
+                    this.Matchs[i].PlayMatch(true);
+                    Console.WriteLine( this.Matchs[i].Result.TextSummary );
+                
+                } else {
+                    this.Matchs[i].PlayMatch(false);
+                    Console.WriteLine( this.Matchs[i].Result.TextSummary );
+                }            
             }
         }
 

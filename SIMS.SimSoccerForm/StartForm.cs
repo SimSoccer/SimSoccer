@@ -32,5 +32,20 @@ namespace SIMS.SimSoccerForm
             LG.Show();
             this.Hide();
         }
+
+        private void pictureBox1_Click( object sender, EventArgs e )
+        {
+            FormInscription uc = new FormInscription();
+
+            uc.Show();
+            this.Hide();
+        }
+
+        private void pictureBox2_Click( object sender, EventArgs e )
+        {
+            LoadGameForm LG = new LoadGameForm( _game );
+            LG.Show();
+            this.Hide();
+        }
     }
 }
