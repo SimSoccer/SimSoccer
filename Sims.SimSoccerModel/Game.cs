@@ -121,7 +121,7 @@ namespace Sims.SimSoccerModel
             XDocument doc = XDocument.Load(@".\..\..\..\user_" + userName + "*");
         }
 
-        public Game( string userName, string userPassword )
+        public Game( string userName, string userPassword, string lastName, string firstName )
         {
             _userName = userName;
             _userPassword = userPassword;

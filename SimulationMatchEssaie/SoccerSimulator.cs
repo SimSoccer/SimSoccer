@@ -16,7 +16,7 @@ namespace SimulationMatchEssaie
     {
 
         #region Attributes
-        Game _game = new Game( "Toto", "Tata" );
+        Game _game = new Game( "Toto", "Tata", "blabla", "lala" );
         Rectangle rball;
         Timer t = new Timer();
         int i = 0;
