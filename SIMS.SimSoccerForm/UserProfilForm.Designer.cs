@@ -245,7 +245,7 @@
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "UserProfilForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "UserProfilForm";
+            this.Text = "l";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.UserProfilForm_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

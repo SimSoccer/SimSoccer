@@ -97,7 +97,7 @@ namespace Sims.SimSoccerModel
                             int G = _game.Rnd.Next( 0, _home.TeamPlayers.Count );
                             if( _home.TeamPlayers[G].Poste == "BU" || _home.TeamPlayers[G].Poste == "ATG" || _home.TeamPlayers[G].Poste == "ATD" )
                             {
-                                Console.WriteLine( _home.TeamPlayers[G].Name + " Scored for " + _home.TeamTag );
+                             //   Console.WriteLine( _home.TeamPlayers[G].Name + " Scored for " + _home.TeamTag );
                                 _result.ScorerH.Add( _home.TeamPlayers[G] );
                                 isFound = true;
 
@@ -121,7 +121,7 @@ namespace Sims.SimSoccerModel
                             int G = _game.Rnd.Next( 0, _outside.TeamPlayers.Count );
                             if( _outside.TeamPlayers[G].Poste == "BU" || _outside.TeamPlayers[G].Poste == "ATG" || _outside.TeamPlayers[G].Poste == "ATD" )
                             {
-                                Console.WriteLine( _outside.TeamPlayers[G].Name + " Scored for " + _outside.TeamTag );
+                                //Console.WriteLine( _outside.TeamPlayers[G].Name + " Scored for " + _outside.TeamTag );
                                 _result.ScorerO.Add( _outside.TeamPlayers[G]);
                                 isFound = true;
 
