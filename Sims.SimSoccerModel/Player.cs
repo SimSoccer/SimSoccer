@@ -109,9 +109,7 @@ namespace Sims.SimSoccerModel
             _count = count;
             _game = game;
             System.Drawing.Size size = new System.Drawing.Size(35,70);
-            System.Drawing.Size sizeBall = new System.Drawing.Size(35,70);
             _player = new Rectangle( p, size );
-            _ball = new Rectangle(ball, sizeBall);
             _playerPosition = new Points( ( float )p.X, ( float )p.Y );
             _ballPosition = new Points((float)ball.X, (float)ball.Y);
 

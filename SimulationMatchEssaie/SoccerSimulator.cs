@@ -31,16 +31,17 @@ namespace SimulationMatchEssaie
         Point _playerPoints;
         Point _ballPoints;
         Points intermediatePoint;
-        Points postePosition;
         Points secondObjectif;
-        Points intermediatePoint2;
         Points nextBallPoint;
+        Rectangle _ball;
         #endregion
 
         public SoccerSimulator()
         {
             InitializeComponent();
 
+            System.Drawing.Size sizeBall = new System.Drawing.Size( 35, 70 );
+            //_ball = new Rectangle( ball, sizeBall );
             player = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
             field = Image.FromFile( @".\..\..\..\images\nefield.png" );
             XDocument doc = XDocument.Load( @".\..\..\..\testPlayer.xml" );
@@ -50,7 +51,6 @@ namespace SimulationMatchEssaie
             rball = new Rectangle( 485, 280, 17, 17 );
             theball = new Points( ( float )rball.X, ( float )rball.Y );
 
-            System.Drawing.Size fieldSize = new System.Drawing.Size(1000,600);
             _playerPoints = new Point( 450, 110 );
             _ballPoints = new Point( 485, 280 );
             secondObjectif = new Points( 900, 250 );
