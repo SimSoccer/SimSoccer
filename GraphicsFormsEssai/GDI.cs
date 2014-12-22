@@ -15,13 +15,15 @@ namespace GraphicsFormsEssai
 {
     public partial class GDI : Form
     {
-        Game _game = new Game( "test", "1234", "blabla", "lala" );
+       // Game _game = new Game( "test", "1234", "blabla", "lala" );
+        Game _game;
         ListBox playerList = new ListBox();
+        Team myTeam;
 
-        public GDI()
+        public GDI(Game game)
         {
             InitializeComponent();
-
+            _game = game;
             NewGDI( this );
         }
 
@@ -30,13 +32,22 @@ namespace GraphicsFormsEssai
             #region Create New GDI
             listBox1.Items.Add( "Joueurs de votre équipe : " );
             listBox2.Items.Add( "Titulaires : " );
-            for( int i = 0; i < _game.TeamList.Teams[15].TeamPlayers.Count; i++ )
+
+            for( int j = 0; j < _game.TeamList.Teams.Count; j++ )
             {
-                string players = _game.TeamList.Teams[15].TeamPlayers[i].Name;
-                string shirtNumber = _game.TeamList.Teams[15].TeamPlayers[i].Poste;
-                listBox1.Items.Add(shirtNumber + " " + Environment.NewLine + players);
-                playerList.Items.Add(shirtNumber + " " + Environment.NewLine + players);
+                if( _game.TeamList.Teams[j].Name == _game.ChoosenTeam )
+                {
+                    myTeam = _game.TeamList.Teams[j];
+                    for( int i = 0; i < myTeam.TeamPlayers.Count; i++ )
+                    {
+                        string players = myTeam.TeamPlayers[i].Name;
+                        string shirtNumber = myTeam.TeamPlayers[i].Poste;
+                        listBox1.Items.Add( shirtNumber + " " + Environment.NewLine + players );
+                        playerList.Items.Add( shirtNumber + " " + Environment.NewLine + players );
+                    }
+                }
             }
+               
 
             listBox1.Items.Add( "Zones : " );
             listBox1.Items.Add( "Violet => Goalkipper's Zone" );
