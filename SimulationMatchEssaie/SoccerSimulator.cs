@@ -51,9 +51,9 @@ namespace SimulationMatchEssaie
             theball = new Points( ( float )rball.X, ( float )rball.Y );
 
             System.Drawing.Size fieldSize = new System.Drawing.Size(1000,600);
-            _playerPoints = new Point( 650, 300 );
+            _playerPoints = new Point( 450, 110 );
             _ballPoints = new Point( 485, 280 );
-            secondObjectif = new Points( 855, 250 );
+            secondObjectif = new Points( 900, 250 );
             listBox1.Items.Add( theone.Name);
 
         }
