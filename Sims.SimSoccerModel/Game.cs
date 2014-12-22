@@ -33,6 +33,7 @@ namespace Sims.SimSoccerModel
             get { return _rnd; }
         }
 
+
         
         public PlayerList PlayerList
         {
@@ -145,8 +146,6 @@ namespace Sims.SimSoccerModel
             _formation = new FormationList(this, doc3.Root.Element("Tactics"));
             _ligue = new Ligue(this, 2014);
         }
-
-
 
         public void GameToXml(Game game)
         {

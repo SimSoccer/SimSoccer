@@ -60,7 +60,6 @@
     <Compile Include="PlayerAgent.cs" />
     <Compile Include="PlayerList.cs" />
     <Compile Include="Points.cs" />
-    <Compile Include="positionPlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Segment.cs" />
     <Compile Include="Size.cs" />
