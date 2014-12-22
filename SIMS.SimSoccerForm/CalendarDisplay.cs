@@ -21,13 +21,13 @@ namespace SIMS.SimSoccerForm
             InitializeComponent();
             _game = game;
             _lobby = lobby;
-            _game.Ligue.fillCalendar();
+            //_game.Ligue.fillCalendar();
 
             
             foreach( MatchDay j in _game.Ligue.Calendar.MatchDay)
                 Cjournee.Items.Add( j );
 
-            Cjournee.SelectedIndex = 0;
+            Cjournee.SelectedIndex = _game.Journey;
         }
 
         private void Cjournee_SelectedIndexChanged( object sender, EventArgs e )

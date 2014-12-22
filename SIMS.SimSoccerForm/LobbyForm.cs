@@ -21,6 +21,7 @@ namespace SIMS.SimSoccerForm
             _game = game;
             InitializeComponent();
             txtUsernameLobby_TextChanged( this, EventArgs.Empty );
+            currentJourney_TextChanged( this, EventArgs.Empty );
         }
 
         private void txtUsernameLobby_TextChanged( object sender, EventArgs e )
@@ -68,6 +69,18 @@ namespace SIMS.SimSoccerForm
         private void btExit_Click( object sender, EventArgs e )
         {
             Application.Exit();
+        }
+
+        public void currentJourney_TextChanged( object sender, EventArgs e )
+        {
+            currentJourney.Text = "journée " + (_game.Journey + 1);
+        }
+
+        private void playJourney_Click( object sender, EventArgs e )
+        {
+            _game.Ligue.Calendar.MatchDay[_game.Journey].playJourney();
+            ShowResult SR = new ShowResult( _game, this );
+            SR.Show();
         }
     }
 }
