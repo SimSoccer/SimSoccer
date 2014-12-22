@@ -306,7 +306,7 @@ namespace Sims.SimSoccerModel
             target.Element( "BirthDate" ).Value = _birthDate;
             target.Element( "Journey" ).Value = _journey.ToString();
             doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
-
+        }
         }
     }
 }
