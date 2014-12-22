@@ -15,7 +15,7 @@ namespace SIMS.SimSoccerTests
         [Test]
         public void My_dictionnary_is_not_empty()
         {
-            Game g = new Game("toto","zozo");
+           // Game g = new Game("toto","zozo");
 
         }
     }
