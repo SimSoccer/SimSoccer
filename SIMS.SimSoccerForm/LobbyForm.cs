@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using GraphicsFormsEssai;
 using Sims.SimSoccerModel;
 
 namespace SIMS.SimSoccerForm
@@ -85,6 +86,12 @@ namespace SIMS.SimSoccerForm
             _game.Ligue.Calendar.MatchDay[_game.Journey].playJourney();
             ShowResult SR = new ShowResult( _game, this );
             SR.Show();
+        }
+
+        private void btFormation_Click( object sender, EventArgs e )
+        {
+            GDI myGDI = new GDI(_game);
+            myGDI.Show();
         }
     }
 }
