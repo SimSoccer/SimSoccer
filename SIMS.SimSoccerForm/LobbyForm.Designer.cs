@@ -35,6 +35,7 @@
             this.btExit = new System.Windows.Forms.PictureBox();
             this.currentJourney = new System.Windows.Forms.TextBox();
             this.playJourney = new System.Windows.Forms.Button();
+            this.btFormation = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.btExit)).BeginInit();
             this.SuspendLayout();
             // 
@@ -112,6 +113,16 @@
             this.playJourney.UseVisualStyleBackColor = true;
             this.playJourney.Click += new System.EventHandler(this.playJourney_Click);
             // 
+            // btFormation
+            // 
+            this.btFormation.Location = new System.Drawing.Point(251, 494);
+            this.btFormation.Name = "btFormation";
+            this.btFormation.Size = new System.Drawing.Size(151, 49);
+            this.btFormation.TabIndex = 8;
+            this.btFormation.Text = "FORMATION";
+            this.btFormation.UseVisualStyleBackColor = true;
+            this.btFormation.Click += new System.EventHandler(this.btFormation_Click);
+            // 
             // LobbyForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -120,6 +131,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(848, 742);
+            this.Controls.Add(this.btFormation);
             this.Controls.Add(this.playJourney);
             this.Controls.Add(this.currentJourney);
             this.Controls.Add(this.btExit);
@@ -143,5 +155,6 @@
         private System.Windows.Forms.PictureBox btExit;
         private System.Windows.Forms.TextBox currentJourney;
         private System.Windows.Forms.Button playJourney;
+        private System.Windows.Forms.Button btFormation;
     }
 }
