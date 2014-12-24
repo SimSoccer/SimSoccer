@@ -307,5 +307,24 @@ namespace Sims.SimSoccerModel
             target.Element( "Journey" ).Value = _journey.ToString();
             doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }
+
+
+        public void SaveMyTeamToXML( string formation, Game game )
+        {
+            DateTime today = DateTime.Now;
+
+            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var target = doc
+                 .Elements( "Teams" ).Elements( "Team" ).Where( t => t.Attribute( "Name" ).Value == _choosenTeam )
+                 .Single();
+
+            target.Element( "Formation" ).Value = formation;
+
+            var target2 = doc
+                 .Elements( "Teams" ).Elements( "Team" ).Where( t => t.Attribute( "Name" ).Value == _choosenTeam ).Elements( "Players" ).Elements("Titulaire");
+
+            target2.Remove();
+            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+        }
     }
 }
