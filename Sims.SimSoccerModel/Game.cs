@@ -307,5 +307,31 @@ namespace Sims.SimSoccerModel
             target.Element( "Journey" ).Value = _journey.ToString();
             doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }
+
+
+        public void SaveMyTeamToXML( string formation, Game game )
+        {
+            DateTime today = DateTime.Now;
+
+            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var target = doc
+                 .Elements( "Teams" ).Elements( "Team" ).Where( t => t.Attribute( "Name" ).Value == _choosenTeam )
+                 .Single();
+
+            target.Element( "Formation" ).Value = formation;
+
+            // Summarry
+            // BY THE MOMENT IN COMMENT BY DEFAULT
+            // Here are lines to remove the "Titulaire" element in the player team
+            // Will have to save the actual element. Will have to save the new PlayerList.
+            // With new TeamType, Replacants and reservists playerList in the XML
+            // Summary
+            /*
+            var target2 = doc
+                 .Elements( "Teams" ).Elements( "Team" ).Where( t => t.Attribute( "Name" ).Value == _choosenTeam ).Elements( "Players" ).Elements("Titulaire");*/
+
+            target2.Remove();
+            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+        }
     }
 }

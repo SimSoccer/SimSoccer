@@ -49,6 +49,7 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -230,13 +231,13 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "4-4-2 losange",
-            "4-4-2",
-            "4-3-3",
-            "4-2-3-1",
-            "5-3-2",
-            "5-4-1",
-            "3-5-2"});
+            "4.4.2 losange",
+            "4.4.2",
+            "4.3.3",
+            "4.2.3.1",
+            "5.3.2",
+            "5.4.1",
+            "3.5.2"});
             this.comboBox1.Location = new System.Drawing.Point(1189, 12);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
@@ -263,12 +264,24 @@
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
+            // button13
+            // 
+            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Location = new System.Drawing.Point(350, 618);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(100, 61);
+            this.button13.TabIndex = 17;
+            this.button13.Text = "Sauvegarder";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
             // GDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1354, 691);
+            this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.comboBox1);
@@ -322,5 +335,6 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
     }
 }

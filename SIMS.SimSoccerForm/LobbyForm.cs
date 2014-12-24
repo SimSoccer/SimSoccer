@@ -90,7 +90,7 @@ namespace SIMS.SimSoccerForm
 
         private void btFormation_Click( object sender, EventArgs e )
         {
-            GDI myGDI = new GDI(_game);
+            GDI myGDI = new GDI( _game );
             myGDI.Show();
         }
     }

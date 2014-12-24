@@ -59,6 +59,115 @@ namespace GraphicsFormsEssai
             button12.Text = "Recommencer";
             comboBox1.Text = "Formations";
             #endregion
+
+            string formation = myTeam.Formation;
+            ManageComboBox(formation);
+
+            comboBox1.Text = formation;
+        }
+
+        private void ManageComboBox(string formation)
+        {
+            #region Cases' Gestion
+            string _formation = formation;
+
+            switch( _formation )
+            {
+                case "4.4.2 losange":
+                    button1.Location = new Point( 0, 275 );
+                    button2.Location = new Point( 150, 475 );
+                    button3.Location = new Point( 150, 375 );
+                    button4.Location = new Point( 150, 175 );
+                    button5.Location = new Point( 150, 75 );
+                    button6.Location = new Point( 350, 275 );
+                    button7.Location = new Point( 500, 125 );
+                    button8.Location = new Point( 500, 425 );
+                    button9.Location = new Point( 650, 275 );
+                    button10.Location = new Point( 800, 175 );
+                    button11.Location = new Point( 800, 375 );
+                    break;
+                case "4.4.2":
+                    button1.Location = new Point( 0, 275 );
+                    button2.Location = new Point( 150, 475 );
+                    button3.Location = new Point( 150, 375 );
+                    button4.Location = new Point( 150, 175 );
+                    button5.Location = new Point( 150, 75 );
+                    button6.Location = new Point( 400, 200 );
+                    button7.Location = new Point( 500, 95 );
+                    button8.Location = new Point( 400, 350 );
+                    button9.Location = new Point( 500, 455 );
+                    button10.Location = new Point( 800, 175 );
+                    button11.Location = new Point( 800, 375 );
+                    break;
+                case "4.3.3":
+                    button1.Location = new Point( 0, 275 );
+                    button2.Location = new Point( 150, 475 );
+                    button3.Location = new Point( 150, 375 );
+                    button4.Location = new Point( 150, 175 );
+                    button5.Location = new Point( 150, 75 );
+                    button6.Location = new Point( 350, 275 );
+                    button7.Location = new Point( 500, 175 );
+                    button8.Location = new Point( 500, 375 );
+                    button9.Location = new Point( 700, 475 );
+                    button10.Location = new Point( 700, 75 );
+                    button11.Location = new Point( 800, 275 );
+                    break;
+                case "4.2.3.1":
+                    button1.Location = new Point( 0, 275 );
+                    button2.Location = new Point( 150, 475 );
+                    button3.Location = new Point( 150, 375 );
+                    button4.Location = new Point( 150, 175 );
+                    button5.Location = new Point( 150, 75 );
+                    button6.Location = new Point( 350, 175 );
+                    button7.Location = new Point( 350, 375 );
+                    button8.Location = new Point( 600, 450 );
+                    button9.Location = new Point( 600, 275 );
+                    button10.Location = new Point( 600, 100 );
+                    button11.Location = new Point( 800, 275 );
+                    break;
+                case "5.3.2":
+                    button1.Location = new Point( 0, 275 );
+                    button2.Location = new Point( 250, 500 );
+                    button3.Location = new Point( 150, 375 );
+                    button4.Location = new Point( 150, 175 );
+                    button5.Location = new Point( 250, 50 );
+                    button6.Location = new Point( 150, 275 );
+                    button7.Location = new Point( 500, 125 );
+                    button8.Location = new Point( 500, 425 );
+                    button9.Location = new Point( 400, 275 );
+                    button10.Location = new Point( 800, 175 );
+                    button11.Location = new Point( 800, 375 );
+                    break;
+                case "5.4.1":
+                    button1.Location = new Point( 0, 275 );
+                    button2.Location = new Point( 250, 500 );
+                    button3.Location = new Point( 150, 375 );
+                    button4.Location = new Point( 150, 175 );
+                    button5.Location = new Point( 250, 50 );
+                    button6.Location = new Point( 150, 275 );
+                    button7.Location = new Point( 550, 100 );
+                    button8.Location = new Point( 400, 350 );
+                    button9.Location = new Point( 400, 200 );
+                    button10.Location = new Point( 550, 450 );
+                    button11.Location = new Point( 800, 275 );
+                    break;
+                case "3.5.2":
+                    button1.Location = new Point( 0, 275 );
+                    button2.Location = new Point( 450, 450 );
+                    button3.Location = new Point( 150, 375 );
+                    button4.Location = new Point( 150, 275 );
+                    button5.Location = new Point( 150, 175 );
+                    button6.Location = new Point( 450, 200 );
+                    button7.Location = new Point( 450, 100 );
+                    button8.Location = new Point( 450, 350 );
+                    button9.Location = new Point( 650, 275 );
+                    button10.Location = new Point( 800, 175 );
+                    button11.Location = new Point( 800, 375 );
+                    break;
+                default:
+                    break;
+            }
+            #endregion
         }
 
         private void GDI_Load(object sender, EventArgs e)
@@ -455,107 +564,8 @@ namespace GraphicsFormsEssai
         /// <param name="e"></param>
         private void comboBox1_SelectedIndexChanged( object sender, EventArgs e )
         {
-            #region Cases' Gestion
             string formation = comboBox1.SelectedItem.ToString();
-            string caseSwitch = formation;
-
-            switch( caseSwitch )
-            {
-                case "4-4-2 losange":
-                    button1.Location = new Point( 0, 275 );
-                    button2.Location = new Point( 150, 475 );
-                    button3.Location = new Point( 150, 375 );
-                    button4.Location = new Point( 150, 175 );
-                    button5.Location = new Point( 150, 75 );
-                    button6.Location = new Point( 350, 275 );
-                    button7.Location = new Point( 500, 125 );
-                    button8.Location = new Point( 500, 425 );
-                    button9.Location = new Point( 650, 275 );
-                    button10.Location = new Point( 800, 175 );
-                    button11.Location = new Point( 800, 375 );
-                    break;
-                case "4-4-2":
-                    button1.Location = new Point( 0, 275 );
-                    button2.Location = new Point( 150, 475 );
-                    button3.Location = new Point( 150, 375 );
-                    button4.Location = new Point( 150, 175 );
-                    button5.Location = new Point( 150, 75 );
-                    button6.Location = new Point( 400, 200 );
-                    button7.Location = new Point( 500, 95 );
-                    button8.Location = new Point( 400, 350 );
-                    button9.Location = new Point( 500, 455 );
-                    button10.Location = new Point( 800, 175 );
-                    button11.Location = new Point( 800, 375 );
-                    break;
-                case "4-3-3":
-                    button1.Location = new Point( 0, 275 );
-                    button2.Location = new Point( 150, 475 );
-                    button3.Location = new Point( 150, 375 );
-                    button4.Location = new Point( 150, 175 );
-                    button5.Location = new Point( 150, 75 );
-                    button6.Location = new Point( 350, 275 );
-                    button7.Location = new Point( 500, 175 );
-                    button8.Location = new Point( 500, 375 );
-                    button9.Location = new Point( 700, 475 );
-                    button10.Location = new Point( 700, 75 );
-                    button11.Location = new Point( 800, 275 );
-                    break;
-                case "4-2-3-1":
-                    button1.Location = new Point( 0, 275 );
-                    button2.Location = new Point( 150, 475 );
-                    button3.Location = new Point( 150, 375 );
-                    button4.Location = new Point( 150, 175 );
-                    button5.Location = new Point( 150, 75 );
-                    button6.Location = new Point( 350, 175 );
-                    button7.Location = new Point( 350, 375 );
-                    button8.Location = new Point( 600, 450 );
-                    button9.Location = new Point( 600, 275 );
-                    button10.Location = new Point( 600, 100 );
-                    button11.Location = new Point( 800, 275 );
-                    break;
-                case "5-3-2":
-                    button1.Location = new Point( 0, 275 );
-                    button2.Location = new Point( 250, 500 );
-                    button3.Location = new Point( 150, 375 );
-                    button4.Location = new Point( 150, 175 );
-                    button5.Location = new Point( 250, 50 );
-                    button6.Location = new Point( 150, 275 );
-                    button7.Location = new Point( 500, 125 );
-                    button8.Location = new Point( 500, 425 );
-                    button9.Location = new Point( 400, 275 );
-                    button10.Location = new Point( 800, 175 );
-                    button11.Location = new Point( 800, 375 );
-                    break;
-                case "5-4-1":
-                    button1.Location = new Point( 0, 275 );
-                    button2.Location = new Point( 250, 500 );
-                    button3.Location = new Point( 150, 375 );
-                    button4.Location = new Point( 150, 175 );
-                    button5.Location = new Point( 250, 50 );
-                    button6.Location = new Point( 150, 275 );
-                    button7.Location = new Point( 550, 100 );
-                    button8.Location = new Point( 400, 350 );
-                    button9.Location = new Point( 400, 200 );
-                    button10.Location = new Point( 550, 450 );
-                    button11.Location = new Point( 800, 275 );
-                    break;
-                case "3-5-2":
-                    button1.Location = new Point( 0, 275 );
-                    button2.Location = new Point( 450, 450 );
-                    button3.Location = new Point( 150, 375 );
-                    button4.Location = new Point( 150, 275 );
-                    button5.Location = new Point( 150, 175 );
-                    button6.Location = new Point( 450, 200 );
-                    button7.Location = new Point( 450, 100 );
-                    button8.Location = new Point( 450, 350 );
-                    button9.Location = new Point( 650, 275 );
-                    button10.Location = new Point( 800, 175 );
-                    button11.Location = new Point( 800, 375 );
-                    break;
-                default:
-                    break;
-            }
-            #endregion
+            ManageComboBox( formation );
         }
 
         /// <summary>
@@ -681,6 +691,13 @@ namespace GraphicsFormsEssai
             }
             NewGDI( this );
             #endregion
+        }
+
+        private void button13_Click( object sender, EventArgs e )
+        {
+            myTeam.Formation = comboBox1.Text;
+            listBox1.Items.Add( myTeam.Formation );
+            _game.SaveMyTeamToXML(myTeam.Formation, _game);
         }
     }
 }
