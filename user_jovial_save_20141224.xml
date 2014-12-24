@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Game>
-  <Profil ID="6">
+  <Profil ID="7">
     <UserName>jovial</UserName>
     <Password>123456</Password>
     <LastName>Lekoli-Kiba</LastName>
@@ -549,6 +549,195 @@
       <Level>73</Level>
       <Formation>4.4.2</Formation>
       <Players>
+        <Titulaire>
+          <Player Id="31" Name="Mariano">
+            <ShirtNumber>2</ShirtNumber>
+            <Nationality>BRA</Nationality>
+            <Post>DLD</Post>
+            <Height>1.77</Height>
+            <BirthDate>23/06/1986</BirthDate>
+            <BirthPlace>São João</BirthPlace>
+            <PreviousClub>Fluminense</PreviousClub>
+            <ActualClub>Football Club des Girondins de Bordeaux</ActualClub>
+            <Stats>50</Stats>
+            <FormState>100</FormState>
+            <Injury>false</Injury>
+            <Mental>100</Mental>
+            <FinancialValue>10000</FinancialValue>
+            <ActualTeamTag>FCB</ActualTeamTag>
+            <Status>Titulaire</Status>
+          </Player>
+          <Player Id="32" Name="Diego Contento">
+            <ShirtNumber>3</ShirtNumber>
+            <Nationality>ITA</Nationality>
+            <Post>DLG</Post>
+            <Height>1.76</Height>
+            <BirthDate>01/05/1990</BirthDate>
+            <BirthPlace>Munich</BirthPlace>
+            <PreviousClub>Bayern Munich</PreviousClub>
+            <ActualClub>Football Club des Girondins de Bordeaux</ActualClub>
+            <Stats>50</Stats>
+            <FormState>100</FormState>
+            <Injury>false</Injury>
+            <Mental>100</Mental>
+            <FinancialValue>10000</FinancialValue>
+            <ActualTeamTag>FCB</ActualTeamTag>
+            <Status>Titulaire</Status>
+          </Player>
+          <Player Id="34" Name="Nicolas Pallois">
+            <ShirtNumber>5</ShirtNumber>
+            <Nationality>FRA</Nationality>
+            <Post>DCD</Post>
+            <Height>1.9</Height>
+            <BirthDate>19/09/1987</BirthDate>
+            <BirthPlace>Elbeuf</BirthPlace>
+            <PreviousClub>Niort</PreviousClub>
+            <ActualClub>Football Club des Girondins de Bordeaux</ActualClub>
+            <Stats>50</Stats>
+            <FormState>100</FormState>
+            <Injury>false</Injury>
+            <Mental>100</Mental>
+            <FinancialValue>10000</FinancialValue>
+            <ActualTeamTag>FCB</ActualTeamTag>
+            <Status>Titulaire</Status>
+          </Player>
+          <Player Id="35" Name="Ludovic Sané">
+            <ShirtNumber>6</ShirtNumber>
+            <Nationality>SEN</Nationality>
+            <Post>DCG</Post>
+            <Height>1.92</Height>
+            <BirthDate>22/03/1987</BirthDate>
+            <BirthPlace>Villeneuve-sur-Lot</BirthPlace>
+            <PreviousClub>None</PreviousClub>
+            <ActualClub>Football Club des Girondins de Bordeaux</ActualClub>
+            <Stats>50</Stats>
+            <FormState>100</FormState>
+            <Injury>false</Injury>
+            <Mental>100</Mental>
+            <FinancialValue>10000</FinancialValue>
+            <ActualTeamTag>FCB</ActualTeamTag>
+            <Status>Titulaire</Status>
+          </Player>
+          <Player Id="36" Name="Abdou Traoré">
+            <ShirtNumber>7</ShirtNumber>
+            <Nationality>MLI</Nationality>
+            <Post>MC</Post>
+            <Height>1.79</Height>
+            <BirthDate>17/01/1988</BirthDate>
+            <BirthPlace>Bamako</BirthPlace>
+            <PreviousClub>None</PreviousClub>
+            <ActualClub>Football Club des Girondins de Bordeaux</ActualClub>
+            <Stats>50</Stats>
+            <FormState>100</FormState>
+            <Injury>false</Injury>
+            <Mental>100</Mental>
+            <FinancialValue>10000</FinancialValue>
+            <ActualTeamTag>FCB</ActualTeamTag>
+            <Status>Titulaire</Status>
+          </Player>
+          <Player Id="38" Name="Diego Rolán">
+            <ShirtNumber>9</ShirtNumber>
+            <Nationality>URU</Nationality>
+            <Post>BU</Post>
+            <Height>1.78</Height>
+            <BirthDate>24/03/1993</BirthDate>
+            <BirthPlace>Montevideo</BirthPlace>
+            <PreviousClub>Defensor Sporting</PreviousClub>
+            <ActualClub>Football Club des Girondins de Bordeaux</ActualClub>
+            <Stats>50</Stats>
+            <FormState>100</FormState>
+            <Injury>false</Injury>
+            <Mental>100</Mental>
+            <FinancialValue>10000</FinancialValue>
+            <ActualTeamTag>FCB</ActualTeamTag>
+            <Status>Titulaire</Status>
+          </Player>
+          <Player Id="42" Name="Cheikh DiabBUé">
+            <ShirtNumber>14</ShirtNumber>
+            <Nationality>MLI</Nationality>
+            <Post>BU</Post>
+            <Height>1.94</Height>
+            <BirthDate>25/04/1988</BirthDate>
+            <BirthPlace>Bamako</BirthPlace>
+            <PreviousClub>None</PreviousClub>
+            <ActualClub>Football Club des Girondins de Bordeaux</ActualClub>
+            <Stats>50</Stats>
+            <FormState>100</FormState>
+            <Injury>false</Injury>
+            <Mental>100</Mental>
+            <FinancialValue>10000</FinancialValue>
+            <ActualTeamTag>FCB</ActualTeamTag>
+            <Status>Titulaire</Status>
+          </Player>
+          <Player Id="44" Name="Cédric Carrasso">
+            <ShirtNumber>16</ShirtNumber>
+            <Nationality>FRA</Nationality>
+            <Post>GB</Post>
+            <Height>1.87</Height>
+            <BirthDate>30/12/1981</BirthDate>
+            <BirthPlace>Avignon</BirthPlace>
+            <PreviousClub>Toulouse</PreviousClub>
+            <ActualClub>Football Club des Girondins de Bordeaux</ActualClub>
+            <Stats>50</Stats>
+            <FormState>100</FormState>
+            <Injury>false</Injury>
+            <Mental>100</Mental>
+            <FinancialValue>10000</FinancialValue>
+            <ActualTeamTag>FCB</ActualTeamTag>
+            <Status>Titulaire</Status>
+          </Player>
+          <Player Id="46" Name="Jaroslav Plašil">
+            <ShirtNumber>18</ShirtNumber>
+            <Nationality>CZE</Nationality>
+            <Post>MC</Post>
+            <Height>1.83</Height>
+            <BirthDate>05/01/1982</BirthDate>
+            <BirthPlace>Opo?no</BirthPlace>
+            <PreviousClub>Osasuna</PreviousClub>
+            <ActualClub>Football Club des Girondins de Bordeaux</ActualClub>
+            <Stats>50</Stats>
+            <FormState>100</FormState>
+            <Injury>false</Injury>
+            <Mental>100</Mental>
+            <FinancialValue>10000</FinancialValue>
+            <ActualTeamTag>FCB</ActualTeamTag>
+            <Status>Titulaire</Status>
+          </Player>
+          <Player Id="47" Name="Nicolas Maurice-Belay">
+            <ShirtNumber>19</ShirtNumber>
+            <Nationality>FRA</Nationality>
+            <Post>AG</Post>
+            <Height>1.82</Height>
+            <BirthDate>19/04/1985</BirthDate>
+            <BirthPlace>Sucy-en-Brie</BirthPlace>
+            <PreviousClub>Sochaux</PreviousClub>
+            <ActualClub>Football Club des Girondins de Bordeaux</ActualClub>
+            <Stats>50</Stats>
+            <FormState>100</FormState>
+            <Injury>false</Injury>
+            <Mental>100</Mental>
+            <FinancialValue>10000</FinancialValue>
+            <ActualTeamTag>FCB</ActualTeamTag>
+            <Status>Titulaire</Status>
+          </Player>
+          <Player Id="50" Name="Wahbi Khazri">
+            <ShirtNumber>24</ShirtNumber>
+            <Nationality>TUN</Nationality>
+            <Post>AD</Post>
+            <Height>1.82</Height>
+            <BirthDate>08/02/1991</BirthDate>
+            <BirthPlace>Ajaccio</BirthPlace>
+            <PreviousClub>Bastia</PreviousClub>
+            <ActualClub>Football Club des Girondins de Bordeaux</ActualClub>
+            <Stats>50</Stats>
+            <FormState>100</FormState>
+            <Injury>false</Injury>
+            <Mental>100</Mental>
+            <FinancialValue>10000</FinancialValue>
+            <ActualTeamTag>FCB</ActualTeamTag>
+            <Status>Titulaire</Status>
+          </Player>
+        </Titulaire>
         <Remplacants>
           <Player Id="33" Name="Tiago Ilori">
             <ShirtNumber>4</ShirtNumber>
