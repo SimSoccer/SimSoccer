@@ -32,7 +32,6 @@ namespace Sims.SimSoccerModel
         string _actualTeamTag;
         Points _position;
         Image _image;
-        #endregion
         Game _game;
         public Rectangle _player;
         public Points _playerPosition;
@@ -40,6 +39,9 @@ namespace Sims.SimSoccerModel
         public Points _ballPosition;
         public int _count = 0;
         public int _i = 0;
+        bool _gotTheBall;
+        Points _finalObjectif;
+        #endregion
 
         public Game TheGame
         {
@@ -103,7 +105,7 @@ namespace Sims.SimSoccerModel
             _image = i;
         }
 
-        public void DrawPlayer( Game game, Image t, Point p, Points player, Point ball, Points nextPoint, int i, int count)
+        public void DrawPlayer( Game game, Image playerImage, Point p, Points player, Point ball, Points nextPoint, int i, int count)
         {
             _i = i;
             _count = count;
@@ -116,17 +118,17 @@ namespace Sims.SimSoccerModel
             if( nextPoint.X > player.X )
             {
                 if( _i == 0 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerOne.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerOne.png" );
                 else if( _i == 1 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveRight1.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveRight1.png" );
                 else if( _i == 2 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveRight2.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveRight2.png" );
                 else if( _i == 3 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Shoot.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Shoot.png" );
                 else if( _i == 4 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p5shoot.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p5shoot.png" );
                 else if( _i == 5 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Stand.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Stand.png" );
                 else throw new InvalidOperationException( "Le nombre a été dépassé : " + _i );
             }
             else if( nextPoint.X == player.X && nextPoint.Y > player.Y )
@@ -134,17 +136,17 @@ namespace Sims.SimSoccerModel
                 size = new System.Drawing.Size( 31, 70 );
                 _player = new Rectangle( p, size );
                 if( _i == 0 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerOne.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerOne.png" );
                 else if( _i == 1 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveDown1.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveDown1.png" );
                 else if( _i == 2 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveDown2.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveDown2.png" );
                 else if( _i == 3 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Shoot.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Shoot.png" );
                 else if( _i == 4 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p5shoot.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p5shoot.png" );
                 else if( _i == 5 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Stand.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Stand.png" );
                 else throw new InvalidOperationException( "Le nombre a été dépassé : " + _i );
             }
             else if( nextPoint.X == player.X && nextPoint.Y < player.Y )
@@ -152,38 +154,37 @@ namespace Sims.SimSoccerModel
                 size = new System.Drawing.Size( 31, 70 );
                 _player = new Rectangle( p, size );
                 if( _i == 0 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerOne.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerOne.png" );
                 else if( _i == 1 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveUp1.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveUp1.png" );
                 else if( _i == 2 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveUp2.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveUp2.png" );
                 else if( _i == 3 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Shoot.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Shoot.png" );
                 else if( _i == 4 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p5shoot.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p5shoot.png" );
                 else if( _i == 5 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Stand.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Stand.png" );
                 else throw new InvalidOperationException( "Le nombre a été dépassé : " + _i );
             }
             else if( nextPoint.X < player.X )
             {
                 if( _i == 0 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerOne.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerOne.png" );
                 else if( _i == 1 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveLeft1.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveLeft1.png" );
                 else if( _i == 2 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveLeft2.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveLeft2.png" );
                 else if( _i == 3 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Shoot.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Shoot.png" );
                 else if( _i == 4 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p5shoot.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p5shoot.png" );
                 else if( _i == 5 )
-                    t = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Stand.png" );
+                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Stand.png" );
                 else throw new InvalidOperationException( "Le nombre a été dépassé : " + _i );
             }
-            
 
-            _game.Graphic.DrawImage(t, _player);
+            _game.Graphic.DrawImage(playerImage, _player);
         }
 
         public double Move(Points objectif)
@@ -194,6 +195,78 @@ namespace Sims.SimSoccerModel
             double distance = playerPoint.Distance( _objectif );
             return distance;
         }
+
+        public Points PointToObjectif( Points ball, Points finalObjectif )
+        {
+            float x = this.PlayerPosition.X;
+            float y = this.PlayerPosition.Y;
+            _finalObjectif = finalObjectif;
+
+            if( this.PlayerPosition.X == ball.X && this.PlayerPosition.Y == ball.Y - 50 )
+                _gotTheBall = true;
+
+            Points vector = new Points( ( ball.X - x ), ( ball.Y - y - 50 ) );
+            Points myNewPoint = new Points();
+
+            
+            if( vector.Y == 0 && vector.X < 0 )
+            {
+                myNewPoint.X = x -= 5;
+                myNewPoint.Y = y;
+            }
+            else if( vector.X > 0 && vector.Y == 0 )
+            {
+                myNewPoint.Y = y;
+                myNewPoint.X = x += 5;
+            }
+            else if( vector.X < 0 && vector.Y == 0 )
+            {
+                myNewPoint.Y = y;
+                myNewPoint.X = x -= 5;
+            }
+            else if( vector.Y == 0 && vector.X > 0 )
+            {
+                myNewPoint.Y = y += 5;
+                myNewPoint.X = x;
+            }
+            else if( vector.X == 0 && vector.Y < 0 )
+            {
+                myNewPoint.Y = y -= 5;
+                myNewPoint.X = x;
+            }
+            else if( vector.X == 0 && vector.Y > 0 )
+            {
+                myNewPoint.Y = y += 5;
+                myNewPoint.X = x;
+            }
+            else if( vector.X == x && vector.Y < 0 )
+            {
+                myNewPoint.X = x += 0;
+                myNewPoint.Y = y -= 5;
+            }
+            else if( vector.Y < 0 && vector.X < 0 )
+            {
+                myNewPoint.X = x -= 5;
+                myNewPoint.Y = y -= 5;
+            }
+            else if( vector.Y < 0 && vector.X != 0 )
+            {
+                myNewPoint.Y = y -= 5;
+                myNewPoint.X = x += 5;
+            }
+            else if( vector.X < 0 && vector.Y != 0 )
+            {
+                myNewPoint.Y = y += 5;
+                myNewPoint.X = x -= 5;
+            }
+            else if( vector.X != 0 && vector.Y != 0 )
+            {
+                myNewPoint.X = x += 5;
+                myNewPoint.Y = y += 5;
+            }
+            return myNewPoint;
+        }
+
 
         public XElement ToXml(int id)
         {
@@ -243,7 +316,6 @@ namespace Sims.SimSoccerModel
         {
             get { return _name; }
         }
-
 
         public string Nationality
         {
@@ -354,5 +426,12 @@ namespace Sims.SimSoccerModel
             get { return this.PlayerPosition.Y; }
             set { _playerPosition.Y = value; }
         }
+
+        public bool GotTheBall
+        {
+            get { return _gotTheBall; }
+            set { _gotTheBall = value; }
+        }
+
     }
 }
