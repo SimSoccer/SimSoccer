@@ -326,11 +326,13 @@ namespace Sims.SimSoccerModel
             // Will have to save the actual element. Will have to save the new PlayerList.
             // With new TeamType, Replacants and reservists playerList in the XML
             // Summary
+
             /*
             var target2 = doc
-                 .Elements( "Teams" ).Elements( "Team" ).Where( t => t.Attribute( "Name" ).Value == _choosenTeam ).Elements( "Players" ).Elements("Titulaire");*/
+                 .Elements( "Teams" ).Elements( "Team" ).Where( t => t.Attribute( "Name" ).Value == _choosenTeam ).Elements( "Players" ).Elements("Titulaire");
 
-            target2.Remove();
+            target2.Remove();*/
+
             doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }
     }
