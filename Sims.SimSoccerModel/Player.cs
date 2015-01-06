@@ -41,6 +41,8 @@ namespace Sims.SimSoccerModel
         public int _i = 0;
         bool _gotTheBall;
         Points _finalObjectif;
+        Points _nextPosition;
+        Points _ballInGame;
         #endregion
 
         public Game TheGame
@@ -198,6 +200,7 @@ namespace Sims.SimSoccerModel
 
         public Points PointToObjectif( Points ball, Points finalObjectif )
         {
+            _ballInGame = ball;
             float x = this.PlayerPosition.X;
             float y = this.PlayerPosition.Y;
             _finalObjectif = finalObjectif;
@@ -206,65 +209,67 @@ namespace Sims.SimSoccerModel
                 _gotTheBall = true;
 
             Points vector = new Points( ( ball.X - x ), ( ball.Y - y - 50 ) );
-            Points myNewPoint = new Points();
+            _nextPosition = new Points();
 
-            
+            #region Movement Management
+
             if( vector.Y == 0 && vector.X < 0 )
             {
-                myNewPoint.X = x -= 5;
-                myNewPoint.Y = y;
+                _nextPosition.X = x -= 5;
+                _nextPosition.Y = y;
             }
             else if( vector.X > 0 && vector.Y == 0 )
             {
-                myNewPoint.Y = y;
-                myNewPoint.X = x += 5;
+                _nextPosition.Y = y;
+                _nextPosition.X = x += 5;
             }
             else if( vector.X < 0 && vector.Y == 0 )
             {
-                myNewPoint.Y = y;
-                myNewPoint.X = x -= 5;
+                _nextPosition.Y = y;
+                _nextPosition.X = x -= 5;
             }
             else if( vector.Y == 0 && vector.X > 0 )
             {
-                myNewPoint.Y = y += 5;
-                myNewPoint.X = x;
+                _nextPosition.Y = y += 5;
+                _nextPosition.X = x;
             }
             else if( vector.X == 0 && vector.Y < 0 )
             {
-                myNewPoint.Y = y -= 5;
-                myNewPoint.X = x;
+                _nextPosition.Y = y -= 5;
+                _nextPosition.X = x;
             }
             else if( vector.X == 0 && vector.Y > 0 )
             {
-                myNewPoint.Y = y += 5;
-                myNewPoint.X = x;
+                _nextPosition.Y = y += 5;
+                _nextPosition.X = x;
             }
             else if( vector.X == x && vector.Y < 0 )
             {
-                myNewPoint.X = x += 0;
-                myNewPoint.Y = y -= 5;
+                _nextPosition.X = x += 0;
+                _nextPosition.Y = y -= 5;
             }
             else if( vector.Y < 0 && vector.X < 0 )
             {
-                myNewPoint.X = x -= 5;
-                myNewPoint.Y = y -= 5;
+                _nextPosition.X = x -= 5;
+                _nextPosition.Y = y -= 5;
             }
             else if( vector.Y < 0 && vector.X != 0 )
             {
-                myNewPoint.Y = y -= 5;
-                myNewPoint.X = x += 5;
+                _nextPosition.Y = y -= 5;
+                _nextPosition.X = x += 5;
             }
             else if( vector.X < 0 && vector.Y != 0 )
             {
-                myNewPoint.Y = y += 5;
-                myNewPoint.X = x -= 5;
+                _nextPosition.Y = y += 5;
+                _nextPosition.X = x -= 5;
             }
             else if( vector.X != 0 && vector.Y != 0 )
             {
-                myNewPoint.X = x += 5;
-                myNewPoint.Y = y += 5;
+                _nextPosition.X = x += 5;
+                _nextPosition.Y = y += 5;
             }
-            return myNewPoint;
+            #endregion
+            return _nextPosition;
         }
 
 
@@ -431,6 +436,21 @@ namespace Sims.SimSoccerModel
         {
             get { return _gotTheBall; }
             set { _gotTheBall = value; }
+        }
+
+        public Points NextPosition
+        {
+            get { return _nextPosition; }
+        }
+
+        public Points FinalObjectif
+        {
+            get { return _finalObjectif; }
+        }
+
+        public Points BallInGame
+        {
+            get { return _ballInGame; }
         }
 
     }

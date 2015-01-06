@@ -44,6 +44,90 @@ namespace Sims.SimSoccerModel
             _game.Graphic.DrawImage( _ballImage, _ballRectangle );
         }
 
+        public Points NextPoint( Player playerOwner )
+        {
+            float x = this.BallPosition.X;
+            float y = this.BallPosition.Y;
+            float playerX = playerOwner.NextPosition.X;
+            float playerY = playerOwner.NextPosition.Y;
+            Points nextPoint = new Points();
+            Points vector = new Points( ( playerOwner.FinalObjectif.X - x ), ( playerOwner.FinalObjectif.Y - y + 50 ) );
+            
+            if( playerOwner.PlayerPosition.X == this._ballPosition.X && playerOwner.PlayerPosition.Y == this.BallPosition.Y - 50 )
+            {
+                if(vector.X > 0 && vector.Y > 0) 
+                {
+                    nextPoint.X += x + 25;
+                    nextPoint.Y += y;
+                }
+            }
+            else if( playerOwner.PlayerPosition.X == this._ballPosition.X - 20 && playerOwner.PlayerPosition.Y == this.BallPosition.Y - 50 )
+            {
+
+            }
+
+            #region Movement Management
+            /*
+            if( vector.Y == 0 && vector.X < 0 )
+            {
+                nextPoint.X = playerX -= 25;
+                nextPoint.Y = y;
+            }
+            else if( vector.X > 0 && vector.Y == 0 )
+            {
+                nextPoint.Y = y;
+                nextPoint.X = playerX += 25;
+            }
+            else if( vector.X < 0 && vector.Y == 0 )
+            {
+                nextPoint.Y = y;
+                nextPoint.X = playerX -= 25;
+            }
+            else if( vector.Y == 0 && vector.X > 0 )
+            {
+                nextPoint.Y = playerY += 50;
+                nextPoint.X = x;
+            }
+            else if( vector.X == 0 && vector.Y < 0 )
+            {
+                nextPoint.Y = playerY -= 50;
+                nextPoint.X = x;
+            }
+            else if( vector.X == 0 && vector.Y > 0 )
+            {
+                nextPoint.Y = playerY += 50;
+                nextPoint.X = x;
+            }
+            else if( vector.X == x && vector.Y < 0 )
+            {
+                nextPoint.X = playerX += 0;
+                nextPoint.Y = playerY -= 50;
+            }
+            else if( vector.Y < 0 && vector.X < 0 )
+            {
+                nextPoint.X = playerX -= 25;
+                nextPoint.Y = playerY -= 50;
+            }
+            else if( vector.Y < 0 && vector.X != 0 )
+            {
+                nextPoint.Y = playerY -= 50;
+                nextPoint.X = playerX += 25;
+            }
+            else if( vector.X < 0 && vector.Y != 0 )
+            {
+                nextPoint.Y = playerY += 50;
+                nextPoint.X = playerX -= 25;
+            }
+            else if( vector.X != 0 && vector.Y != 0 )
+            {
+                nextPoint.X = playerX += 25;
+                nextPoint.Y = playerY += 50;
+            }
+            */
+            #endregion
+            return nextPoint;
+        }
+
         public Image BallImage
         {
             get { return _ballImage; }

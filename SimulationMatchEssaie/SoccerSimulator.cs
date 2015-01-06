@@ -90,40 +90,31 @@ namespace SimulationMatchEssaie
 
             count = 1;
 
+                foreach( Player p in MyPlayers )
+                {
+                    if( p.GotTheBall == true )
+                    {
+                        _playerGotTheBall = p;
+                        _gameBall.IsOwned = true;
+                        _gameBall.PlayerOwner = p;
+                        Points _nextGameBallPosition = _gameBall.NextPoint( _gameBall.PlayerOwner );
+                        listBox1.Items.Add( "Game Ball Next Point = " + _nextGameBallPosition.X + ";" + _nextGameBallPosition.Y );
+                        _ballPoints.X = ( int )_nextGameBallPosition.X;
+                        _ballPoints.Y = ( int )_nextGameBallPosition.Y;
+                        theball.X = ( float )_ballPoints.X;
+                        theball.Y = ( float )_ballPoints.Y;
+                    }
+                }
+
             intermediatePoint = theone.PointToObjectif( _gameBall.BallPosition, secondObjectif );
-            nextBallPoint = theone.PointToObjectif( secondObjectif, secondObjectif );
 
             listBox1.Items.Add( "NextBall Point : " + nextBallPoint.X + "; " + nextBallPoint.Y );
             listBox1.Items.Add( "Player : " + _playerPoints.X + "; " + _playerPoints.Y );
             listBox1.Items.Add( "Ballon : " + theball.X + "; " + theball.Y );
-            listBox1.Items.Add( "Point intermediare : " + intermediatePoint.X + "; " + intermediatePoint.Y ); 
+            listBox1.Items.Add( "Point intermediare : " + intermediatePoint.X + "; " + intermediatePoint.Y );
             listBox1.Items.Add( "Second Objectif : " + secondObjectif.X + "; " + secondObjectif.Y );
-
-            foreach( Player p in MyPlayers )
-            {
-                if( p.GotTheBall == true )
-                {
-                    _playerGotTheBall = p;
-                    _gameBall.IsOwned = true;
-                    _gameBall.PlayerOwner = p;
-                }
-            }
-
-            if( _playerPoints.X == theball.X - 20 && _playerPoints.Y == _ballPoints.Y - 50 && _playerPoints.X < secondObjectif.X )
-            {
-                _ballPoints.X = ( int )nextBallPoint.X + 35;
-                _ballPoints.Y = ( int )nextBallPoint.Y + 50;
-                theball.X = ( float )_ballPoints.X;
-                theball.Y = ( float )_ballPoints.Y;
-            }
-            else if( _playerPoints.X == _ballPoints.X && _playerPoints.Y == _ballPoints.Y - 50 && _playerPoints.X < secondObjectif.X )
-            {
-                _ballPoints.X = ( int )nextBallPoint.X + 35;
-                _ballPoints.Y = ( int )nextBallPoint.Y + 50;
-                theball.X = ( float )_ballPoints.X;
-                theball.Y = ( float )_ballPoints.Y;
-            }
-            else if( _playerPoints.X != _ballPoints.X || _playerPoints.Y != _ballPoints.Y - 50 && _playerPoints.X != secondObjectif.X && _playerPoints.Y != secondObjectif.Y && _ballPoints.X != secondObjectif.X && _ballPoints.Y != secondObjectif.Y - 50 )
+            
+            if( _playerPoints.X != _gameBall.BallPosition.X || _playerPoints.Y != _gameBall.BallPosition.Y - 50 && _playerPoints.X != secondObjectif.X && _playerPoints.Y != secondObjectif.Y && _ballPoints.X != secondObjectif.X && _ballPoints.Y != secondObjectif.Y - 50 )
             {
                 i++;
                 iBall++;
@@ -172,10 +163,8 @@ namespace SimulationMatchEssaie
             #endregion
 
             theone.Image = player;
-            Points nextPoint = theone.PointToObjectif( _gameBall.BallPosition, secondObjectif );
-            listBox1.Items.Add( "Next Point : " + nextPoint.X + "; " + nextPoint.Y );
             listBox1.Items.Add( "Player Got the ball = " + theone.GotTheBall );
-            theone.DrawPlayer( _game, player, _playerPoints, theone.PlayerPosition, _ballPoints, nextPoint, i, count );
+            theone.DrawPlayer( _game, player, _playerPoints, theone.PlayerPosition, _ballPoints, intermediatePoint, i, count );
             _gameBall.DrawTheBall(_game, ball, iBall, _ballPoints );
             Graphics g = e.Graphics;
         }
@@ -188,8 +177,5 @@ namespace SimulationMatchEssaie
         {
             t.Stop();
         }
-
-        
-
     }
 }
