@@ -16,11 +16,8 @@ namespace SimulationMatchEssaie
     {
 
         #region Attributes
-        //Game _game = new Game( "Toto", "Tata", "blabla", "lala" );
         XDocument docX;
-
         Game _game;
-        Rectangle rball;
         Timer t = new Timer();
         int i = 0;
         int ballon;
@@ -38,6 +35,8 @@ namespace SimulationMatchEssaie
         Points nextBallPoint;
         List<Player> MyPlayers;
         Team myTeam;
+        Ball _gameBall;
+        Player _playerGotTheBall;
         #endregion
 
         public SoccerSimulator()
@@ -66,18 +65,14 @@ namespace SimulationMatchEssaie
                 }
             }
 
-            listBox1.Items.Add( "Player 1 : " + MyPlayers[0].Name );
             theone = _game.TeamList.Teams[8].TeamPlayers[8];
 
             //Position milieu de terrain pour le ballon visuellement.
-            rball = new Rectangle( 485, 280, 17, 17 );
-            theball = new Points( ( float )rball.X, ( float )rball.Y );
-
             _playerPoints = new Point( 450, 110 );
             _ballPoints = new Point( 485, 280 );
+            theball = new Points( ( float )_ballPoints.X, ( float )_ballPoints.Y );
             secondObjectif = new Points( 900, 250 );
             listBox1.Items.Add( theone.Name);
-
         }
         
         private void SoccerSimulator_Load( object sender, EventArgs e )
@@ -95,30 +90,31 @@ namespace SimulationMatchEssaie
 
             count = 1;
 
-            intermediatePoint = theone.PlayerPosition.PointToObjectif( theball );
-            nextBallPoint = theone.PlayerPosition.PointToObjectif( secondObjectif );
+                foreach( Player p in MyPlayers )
+                {
+                    if( p.GotTheBall == true )
+                    {
+                        _playerGotTheBall = p;
+                        _gameBall.IsOwned = true;
+                        _gameBall.PlayerOwner = p;
+                        Points _nextGameBallPosition = _gameBall.NextPoint( _gameBall.PlayerOwner );
+                        listBox1.Items.Add( "Game Ball Next Point = " + _nextGameBallPosition.X + ";" + _nextGameBallPosition.Y );
+                        _ballPoints.X = ( int )_nextGameBallPosition.X;
+                        _ballPoints.Y = ( int )_nextGameBallPosition.Y;
+                        theball.X = ( float )_ballPoints.X;
+                        theball.Y = ( float )_ballPoints.Y;
+                    }
+                }
+
+            intermediatePoint = theone.PointToObjectif( _gameBall.BallPosition, secondObjectif );
 
             listBox1.Items.Add( "NextBall Point : " + nextBallPoint.X + "; " + nextBallPoint.Y );
             listBox1.Items.Add( "Player : " + _playerPoints.X + "; " + _playerPoints.Y );
             listBox1.Items.Add( "Ballon : " + theball.X + "; " + theball.Y );
             listBox1.Items.Add( "Point intermediare : " + intermediatePoint.X + "; " + intermediatePoint.Y );
             listBox1.Items.Add( "Second Objectif : " + secondObjectif.X + "; " + secondObjectif.Y );
-
-            if( _playerPoints.X == theball.X - 20 && _playerPoints.Y == theball.Y - 50 && rball.X != secondObjectif.X && rball.Y != secondObjectif.Y - 50 )
-            {
-                rball.X = ( int )nextBallPoint.X + 25;
-                rball.Y = ( int )nextBallPoint.Y + 50;
-                theball.X = ( float )rball.X;
-                theball.Y = ( float )rball.Y;
-            }
-            else if( _playerPoints.X == theball.X && _playerPoints.Y == theball.Y - 50 && rball.X != secondObjectif.X && rball.Y != secondObjectif.Y - 50 )
-            {
-                rball.X = ( int )nextBallPoint.X + 25;
-                rball.Y = ( int )nextBallPoint.Y + 50;
-                theball.X = ( float )rball.X;
-                theball.Y = ( float )rball.Y;
-            }
-            else if( _playerPoints.X != theball.X || _playerPoints.Y != theball.Y - 50 && _playerPoints.X != secondObjectif.X && _playerPoints.Y != secondObjectif.Y && theball.X != secondObjectif.X && theball.Y != secondObjectif.Y - 50 )
+            
+            if( _playerPoints.X != _gameBall.BallPosition.X || _playerPoints.Y != _gameBall.BallPosition.Y - 50 && _playerPoints.X != secondObjectif.X && _playerPoints.Y != secondObjectif.Y && _ballPoints.X != secondObjectif.X && _ballPoints.Y != secondObjectif.Y - 50 )
             {
                 i++;
                 iBall++;
@@ -129,7 +125,6 @@ namespace SimulationMatchEssaie
                 _playerPoints.X = ( int )intermediatePoint.X;
                 _playerPoints.Y = ( int )intermediatePoint.Y;
             }
-
             #endregion
 
             Invalidate();
@@ -137,10 +132,11 @@ namespace SimulationMatchEssaie
 
         private void SoccerSimulator_Paint( object sender, PaintEventArgs e )
         {
+            _game.Graphic = e.Graphics;
+
             ballon = iBall + 1;
             ball = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\ball" + ballon + ".png" );
-
-            _game.Graphic = e.Graphics;
+            _gameBall = new Ball( theball, ball );
 
             #region Manage Drawn Field
             //Brushes the whole field in Green
@@ -158,6 +154,7 @@ namespace SimulationMatchEssaie
             {
                 _game.Graphic.DrawRectangle( Pens.WhiteSmoke, c.X, c.Y, 1, 1 );
             }*/
+
             // Draw the throw in lines and the behind goal lines.
             _game.Graphic.DrawLine( Pens.Red, _game.Field.Zones.ThrowIn1[0].X, _game.Field.Zones.ThrowIn1[0].Y, _game.Field.Zones.ThrowIn1[10].X, _game.Field.Zones.ThrowIn1[10].Y );
             _game.Graphic.DrawLine( Pens.Red, _game.Field.Zones.ThrowIn2[0].X, _game.Field.Zones.ThrowIn2[0].Y, _game.Field.Zones.ThrowIn2[10].X, _game.Field.Zones.ThrowIn2[10].Y );
@@ -166,10 +163,9 @@ namespace SimulationMatchEssaie
             #endregion
 
             theone.Image = player;
-            Points nextPoint = theone.PlayerPosition.PointToObjectif( theball );
-            listBox1.Items.Add( "Next Point : " + nextPoint.X + "; " + nextPoint.Y );
-            theone.DrawPlayer( _game, player, _playerPoints, theone.PlayerPosition, _ballPoints, nextPoint, i, count );
-            _game.Graphic.DrawImage( ball, rball );
+            listBox1.Items.Add( "Player Got the ball = " + theone.GotTheBall );
+            theone.DrawPlayer( _game, player, _playerPoints, theone.PlayerPosition, _ballPoints, intermediatePoint, i, count );
+            _gameBall.DrawTheBall(_game, ball, iBall, _ballPoints );
             Graphics g = e.Graphics;
         }
 
@@ -181,8 +177,5 @@ namespace SimulationMatchEssaie
         {
             t.Stop();
         }
-
-        
-
     }
 }
