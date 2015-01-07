@@ -57,8 +57,8 @@ namespace Sims.SimSoccerModel
             {
                 if(vector.X > 0 && vector.Y > 0) 
                 {
-                    nextPoint.X += x + 25;
-                    nextPoint.Y += y;
+                    nextPoint.X += x + 5;
+                    nextPoint.Y += y - 5;
                 }
             }
             else if( playerOwner.PlayerPosition.X == this._ballPosition.X - 20 && playerOwner.PlayerPosition.Y == this.BallPosition.Y - 50 )
