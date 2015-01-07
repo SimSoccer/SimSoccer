@@ -14,7 +14,7 @@ namespace Sims.SimSoccerModel
         readonly List<Player> _players;
         Image i;
 
-        public PlayerList( Game game )
+        public PlayerList(Game game)
         {
             _game = game;
             _players = new List<Player>();
@@ -26,18 +26,18 @@ namespace Sims.SimSoccerModel
             get { return _game; }
         }
 
-        public PlayerList( Game game, XElement e )
+        public PlayerList(Game game, XElement e)
         {
-            i = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
+            i = Image.FromFile(@".\..\..\..\images\PlayerOne.png");
             _game = game;
-            _players = e.Elements( "Player" )
-                .OrderBy( eT => int.Parse( eT.Attribute( "Id" ).Value ) )
-                .Select( eT => new Player( this, eT, i  ) )
+            _players = e.Elements("Player")
+                .OrderBy(eT => int.Parse(eT.Attribute("Id").Value))
+                .Select(eT => new Player(this, eT, i))
                 .ToList();
         }
         public XElement ToXml()
         {
-            return new XElement( "Players", _players.Select( ( t, idx ) => t.ToXml( idx ) ) );
+            return new XElement("Players", _players.Select((t, idx) => t.ToXml(idx)));
         }
 
         public IReadOnlyList<Player> Players
@@ -45,18 +45,18 @@ namespace Sims.SimSoccerModel
             get { return _players; }
         }
 
-        public void RemovePlayer( Player p )
+        public void RemovePlayer(Player p)
         {
-            int idx = _players.IndexOf( p );
-            if( idx < 0 ) throw new ArgumentException();
-            _players.RemoveAt( idx );
+            int idx = _players.IndexOf(p);
+            if (idx < 0) throw new ArgumentException();
+            _players.RemoveAt(idx);
         }
 
-        public Player CreatePlayer( string uniqueName )
+        public Player CreatePlayer(string uniqueName)
         {
-            if( _players.Any( t => t.Name == uniqueName ) ) throw new InvalidOperationException( "Name must be unique!" );
-            var player = new Player( this, uniqueName );
-            _players.Add( player );
+            if (_players.Any(t => t.Name == uniqueName)) throw new InvalidOperationException("Name must be unique!");
+            var player = new Player(this, uniqueName);
+            _players.Add(player);
             return player;
         }
     }

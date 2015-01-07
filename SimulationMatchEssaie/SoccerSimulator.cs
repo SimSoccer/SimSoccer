@@ -69,7 +69,7 @@ namespace SimulationMatchEssaie
 
             //Position milieu de terrain pour le ballon visuellement.
             _playerPoints = new Point( 450, 110 );
-            _ballPoints = new Point( 485, 280 );
+            _ballPoints = new Point( 120, 400 );
             theball = new Points( ( float )_ballPoints.X, ( float )_ballPoints.Y );
             secondObjectif = new Points( 100, 250 );
             listBox1.Items.Add( theone.Name);
@@ -145,7 +145,7 @@ namespace SimulationMatchEssaie
             // Show the field's boxes.
             foreach( Box p in _game.Field.Boxes )
             {
-                _game.Graphic.DrawRectangle( Pens.WhiteSmoke, p._x, p._y, p._size.Width, p._size.Heigth );
+                _game.Graphic.DrawRectangle( Pens.Silver, p._x, p._y, p._size.Width, p._size.Heigth );
             }
 
             /*

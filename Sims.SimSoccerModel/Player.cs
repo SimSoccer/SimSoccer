@@ -61,7 +61,7 @@ namespace Sims.SimSoccerModel
             get { return _owner.Game; }
         }
 
-        public Player(PlayerList owner, XElement e, Image i )
+        public Player(PlayerList owner, XElement e, Image i)
         {
             _id = int.Parse(e.Attribute("Id").Value);
             _name = e.Attribute("Name").Value;
@@ -84,106 +84,106 @@ namespace Sims.SimSoccerModel
             _image = i;
         }
 
-        public Player( XDocument d, Image i )
+        public Player(XDocument d, Image i)
         {
-            _id = int.Parse( d.Root.Element("Players").Element("Player").Attribute( "Id" ).Value );
-            _name = d.Root.Element("Players").Element("Player").Attribute( "Name" ).Value;
-            ShirtNumber = int.Parse( d.Root.Element("Players").Element("Player").Element( "ShirtNumber" ).Value );
-            _nationality = d.Root.Element("Players").Element("Player").Element( "Nationality" ).Value;
-            Poste = d.Root.Element("Players").Element("Player").Element( "Poste" ).Value;
-            Height = float.Parse( d.Root.Element("Players").Element("Player").Element( "Height" ).Value );
-            Weight = int.Parse( d.Root.Element("Players").Element("Player").Element( "Weight" ).Value );
-            _birthDate = d.Root.Element("Players").Element("Player").Element( "BirthDate" ).Value;
-            _birthPlace = d.Root.Element("Players").Element("Player").Element( "BirthPlace" ).Value;
-            PreviousClub = d.Root.Element("Players").Element("Player").Element( "PreviousClub" ).Value;
-            ActualClub = d.Root.Element("Players").Element("Player").Element( "ActualClub" ).Value;
-            Stats = int.Parse( d.Root.Element("Players").Element("Player").Element( "Stats" ).Value );
-            FormState = int.Parse( d.Root.Element("Players").Element("Player").Element( "FormState" ).Value );
-            Injury = bool.Parse( d.Root.Element("Players").Element("Player").Element( "Injury" ).Value );
-            Mental = int.Parse( d.Root.Element("Players").Element("Player").Element( "Mental" ).Value );
-            FinancialValue = int.Parse( d.Root.Element("Players").Element("Player").Element( "FinancialValue" ).Value );
-            ActualTeamTag = d.Root.Element("Players").Element("Player").Element( "ActualTeamTag" ).Value;
-            _status = d.Root.Element("Players").Element("Player").Element( "Status" ).Value;
+            _id = int.Parse(d.Root.Element("Players").Element("Player").Attribute("Id").Value);
+            _name = d.Root.Element("Players").Element("Player").Attribute("Name").Value;
+            ShirtNumber = int.Parse(d.Root.Element("Players").Element("Player").Element("ShirtNumber").Value);
+            _nationality = d.Root.Element("Players").Element("Player").Element("Nationality").Value;
+            Poste = d.Root.Element("Players").Element("Player").Element("Poste").Value;
+            Height = float.Parse(d.Root.Element("Players").Element("Player").Element("Height").Value);
+            Weight = int.Parse(d.Root.Element("Players").Element("Player").Element("Weight").Value);
+            _birthDate = d.Root.Element("Players").Element("Player").Element("BirthDate").Value;
+            _birthPlace = d.Root.Element("Players").Element("Player").Element("BirthPlace").Value;
+            PreviousClub = d.Root.Element("Players").Element("Player").Element("PreviousClub").Value;
+            ActualClub = d.Root.Element("Players").Element("Player").Element("ActualClub").Value;
+            Stats = int.Parse(d.Root.Element("Players").Element("Player").Element("Stats").Value);
+            FormState = int.Parse(d.Root.Element("Players").Element("Player").Element("FormState").Value);
+            Injury = bool.Parse(d.Root.Element("Players").Element("Player").Element("Injury").Value);
+            Mental = int.Parse(d.Root.Element("Players").Element("Player").Element("Mental").Value);
+            FinancialValue = int.Parse(d.Root.Element("Players").Element("Player").Element("FinancialValue").Value);
+            ActualTeamTag = d.Root.Element("Players").Element("Player").Element("ActualTeamTag").Value;
+            _status = d.Root.Element("Players").Element("Player").Element("Status").Value;
             _image = i;
         }
 
-        public void DrawPlayer( Game game, Image playerImage, Point p, Points player, Point ball, Points nextPoint, int i, int count)
+        public void DrawPlayer(Game game, Image playerImage, Point p, Points player, Point ball, Points nextPoint, int i, int count)
         {
             _i = i;
             _count = count;
             _game = game;
-            System.Drawing.Size size = new System.Drawing.Size(35,70);
-            _player = new Rectangle( p, size );
-            _playerPosition = new Points( ( float )p.X, ( float )p.Y );
+            System.Drawing.Size size = new System.Drawing.Size(35, 70);
+            _player = new Rectangle(p, size);
+            _playerPosition = new Points((float)p.X, (float)p.Y);
             _ballPosition = new Points((float)ball.X, (float)ball.Y);
 
-            if( nextPoint.X > player.X )
+            if (nextPoint.X > player.X)
             {
-                if( _i == 0 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
-                else if( _i == 1 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveRight1.png" );
-                else if( _i == 2 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveRight2.png" );
-                else if( _i == 3 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\p1Shoot.png" );
-                else if( _i == 4 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\p5shoot.png" );
-                else if( _i == 5 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\p1Stand.png" );
-                else throw new InvalidOperationException( "Le nombre a été dépassé : " + _i );
+                if (_i == 0)
+                    playerImage = Image.FromFile(@".\..\..\..\images\PlayerOne.png");
+                else if (_i == 1)
+                    playerImage = Image.FromFile(@".\..\..\..\images\PlayerMoveRight1.png");
+                else if (_i == 2)
+                    playerImage = Image.FromFile(@".\..\..\..\images\PlayerMoveRight2.png");
+                else if (_i == 3)
+                    playerImage = Image.FromFile(@".\..\..\..\images\p1Shoot.png");
+                else if (_i == 4)
+                    playerImage = Image.FromFile(@".\..\..\..\images\p5shoot.png");
+                else if (_i == 5)
+                    playerImage = Image.FromFile(@".\..\..\..\images\p1Stand.png");
+                else throw new InvalidOperationException("Le nombre a été dépassé : " + _i);
             }
-            else if( nextPoint.X == player.X && nextPoint.Y > player.Y )
+            else if (nextPoint.X == player.X && nextPoint.Y > player.Y)
             {
-                size = new System.Drawing.Size( 31, 70 );
-                _player = new Rectangle( p, size );
-                if( _i == 0 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
-                else if( _i == 1 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveDown1.png" );
-                else if( _i == 2 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveDown2.png" );
-                else if( _i == 3 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\p1Shoot.png" );
-                else if( _i == 4 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\p5shoot.png" );
-                else if( _i == 5 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\p1Stand.png" );
-                else throw new InvalidOperationException( "Le nombre a été dépassé : " + _i );
+                size = new System.Drawing.Size(31, 70);
+                _player = new Rectangle(p, size);
+                if (_i == 0)
+                    playerImage = Image.FromFile(@".\..\..\..\images\PlayerOne.png");
+                else if (_i == 1)
+                    playerImage = Image.FromFile(@".\..\..\..\images\PlayerMoveDown1.png");
+                else if (_i == 2)
+                    playerImage = Image.FromFile(@".\..\..\..\images\PlayerMoveDown2.png");
+                else if (_i == 3)
+                    playerImage = Image.FromFile(@".\..\..\..\images\p1Shoot.png");
+                else if (_i == 4)
+                    playerImage = Image.FromFile(@".\..\..\..\images\p5shoot.png");
+                else if (_i == 5)
+                    playerImage = Image.FromFile(@".\..\..\..\images\p1Stand.png");
+                else throw new InvalidOperationException("Le nombre a été dépassé : " + _i);
             }
-            else if( nextPoint.X == player.X && nextPoint.Y < player.Y )
+            else if (nextPoint.X == player.X && nextPoint.Y < player.Y)
             {
-                size = new System.Drawing.Size( 31, 70 );
-                _player = new Rectangle( p, size );
-                if( _i == 0 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
-                else if( _i == 1 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveUp1.png" );
-                else if( _i == 2 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveUp2.png" );
-                else if( _i == 3 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\p1Shoot.png" );
-                else if( _i == 4 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\p5shoot.png" );
-                else if( _i == 5 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\p1Stand.png" );
-                else throw new InvalidOperationException( "Le nombre a été dépassé : " + _i );
+                size = new System.Drawing.Size(31, 70);
+                _player = new Rectangle(p, size);
+                if (_i == 0)
+                    playerImage = Image.FromFile(@".\..\..\..\images\PlayerOne.png");
+                else if (_i == 1)
+                    playerImage = Image.FromFile(@".\..\..\..\images\PlayerMoveUp1.png");
+                else if (_i == 2)
+                    playerImage = Image.FromFile(@".\..\..\..\images\PlayerMoveUp2.png");
+                else if (_i == 3)
+                    playerImage = Image.FromFile(@".\..\..\..\images\p1Shoot.png");
+                else if (_i == 4)
+                    playerImage = Image.FromFile(@".\..\..\..\images\p5shoot.png");
+                else if (_i == 5)
+                    playerImage = Image.FromFile(@".\..\..\..\images\p1Stand.png");
+                else throw new InvalidOperationException("Le nombre a été dépassé : " + _i);
             }
-            else if( nextPoint.X < player.X )
+            else if (nextPoint.X < player.X)
             {
-                if( _i == 0 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
-                else if( _i == 1 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveLeft1.png" );
-                else if( _i == 2 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveLeft2.png" );
-                else if( _i == 3 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\p1Shoot.png" );
-                else if( _i == 4 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\p5shoot.png" );
-                else if( _i == 5 )
-                    playerImage = Image.FromFile( @".\..\..\..\images\p1Stand.png" );
-                else throw new InvalidOperationException( "Le nombre a été dépassé : " + _i );
+                if (_i == 0)
+                    playerImage = Image.FromFile(@".\..\..\..\images\PlayerOne.png");
+                else if (_i == 1)
+                    playerImage = Image.FromFile(@".\..\..\..\images\PlayerMoveLeft1.png");
+                else if (_i == 2)
+                    playerImage = Image.FromFile(@".\..\..\..\images\PlayerMoveLeft2.png");
+                else if (_i == 3)
+                    playerImage = Image.FromFile(@".\..\..\..\images\p1Shoot.png");
+                else if (_i == 4)
+                    playerImage = Image.FromFile(@".\..\..\..\images\p5shoot.png");
+                else if (_i == 5)
+                    playerImage = Image.FromFile(@".\..\..\..\images\p1Stand.png");
+                else throw new InvalidOperationException("Le nombre a été dépassé : " + _i);
             }
 
             _game.Graphic.DrawImage(playerImage, _player);
@@ -194,76 +194,76 @@ namespace Sims.SimSoccerModel
             Points playerPoint = _playerPosition;
             Points _objectif = objectif;
 
-            double distance = playerPoint.Distance( _objectif );
+            double distance = playerPoint.Distance(_objectif);
             return distance;
         }
 
-        public Points PointToObjectif( Points ball, Points finalObjectif )
+        public Points PointToObjectif(Points ball, Points finalObjectif)
         {
             _ballInGame = ball;
             float x = this.PlayerPosition.X;
             float y = this.PlayerPosition.Y;
             _finalObjectif = finalObjectif;
 
-            if( this.PlayerPosition.X == ball.X && this.PlayerPosition.Y == ball.Y - 50 )
+            if (this.PlayerPosition.X == ball.X && this.PlayerPosition.Y == ball.Y - 50)
                 _gotTheBall = true;
 
-            Points vector = new Points( ( ball.X - x ), ( ball.Y - y - 50 ) );
+            Points vector = new Points((ball.X - x), (ball.Y - y - 50));
             _nextPosition = new Points();
 
             #region Movement Management
 
-            if( vector.Y == 0 && vector.X < 0 )
+            if (vector.Y == 0 && vector.X < 0)
             {
                 _nextPosition.X = x -= 5;
                 _nextPosition.Y = y;
             }
-            else if( vector.X > 0 && vector.Y == 0 )
+            else if (vector.X > 0 && vector.Y == 0)
             {
                 _nextPosition.Y = y;
                 _nextPosition.X = x += 5;
             }
-            else if( vector.X < 0 && vector.Y == 0 )
+            else if (vector.X < 0 && vector.Y == 0)
             {
                 _nextPosition.Y = y;
                 _nextPosition.X = x -= 5;
             }
-            else if( vector.Y == 0 && vector.X > 0 )
+            else if (vector.Y == 0 && vector.X > 0)
             {
                 _nextPosition.Y = y += 5;
                 _nextPosition.X = x;
             }
-            else if( vector.X == 0 && vector.Y < 0 )
+            else if (vector.X == 0 && vector.Y < 0)
             {
                 _nextPosition.Y = y -= 5;
                 _nextPosition.X = x;
             }
-            else if( vector.X == 0 && vector.Y > 0 )
+            else if (vector.X == 0 && vector.Y > 0)
             {
                 _nextPosition.Y = y += 5;
                 _nextPosition.X = x;
             }
-            else if( vector.X == x && vector.Y < 0 )
+            else if (vector.X == x && vector.Y < 0)
             {
                 _nextPosition.X = x += 0;
                 _nextPosition.Y = y -= 5;
             }
-            else if( vector.Y < 0 && vector.X < 0 )
+            else if (vector.Y < 0 && vector.X < 0)
             {
                 _nextPosition.X = x -= 5;
                 _nextPosition.Y = y -= 5;
             }
-            else if( vector.Y < 0 && vector.X != 0 )
+            else if (vector.Y < 0 && vector.X != 0)
             {
                 _nextPosition.Y = y -= 5;
                 _nextPosition.X = x += 5;
             }
-            else if( vector.X < 0 && vector.Y != 0 )
+            else if (vector.X < 0 && vector.Y != 0)
             {
                 _nextPosition.Y = y += 5;
                 _nextPosition.X = x -= 5;
             }
-            else if( vector.X != 0 && vector.Y != 0 )
+            else if (vector.X != 0 && vector.Y != 0)
             {
                 _nextPosition.X = x += 5;
                 _nextPosition.Y = y += 5;
