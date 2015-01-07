@@ -52,19 +52,95 @@ namespace Sims.SimSoccerModel
             float playerY = playerOwner.NextPosition.Y;
             Points nextPoint = new Points();
             Points vector = new Points( ( playerOwner.FinalObjectif.X - x ), ( playerOwner.FinalObjectif.Y - y + 50 ) );
-            
+
             if( playerOwner.PlayerPosition.X == this._ballPosition.X && playerOwner.PlayerPosition.Y == this.BallPosition.Y - 50 )
             {
-                if(vector.X > 0 && vector.Y > 0) 
+                if( vector.X > 0 && vector.Y > 0 )
                 {
-                    nextPoint.X += x + 5;
-                    nextPoint.Y += y - 5;
+                    nextPoint.X += x + 25;
+                    nextPoint.Y += y - 25;
+                }
+                else if( vector.X > 0 && vector.Y < 0 )
+                {
+                    nextPoint.X += 25;
+                    nextPoint.Y -= 25;
+                }
+                else if( vector.X < 0 && vector.Y < 0 )
+                {
+                    nextPoint.X -= 25;
+                    nextPoint.Y -= 25;
+                }
+                else if( vector.X < 0 && vector.Y > 0 )
+                {
+                    nextPoint.X -= 25;
+                    nextPoint.Y += 25;
+                }
+                else if( vector.X == 0 && vector.Y < 0 )
+                {
+                    nextPoint.X += 0;
+                    nextPoint.Y -= 25;
+                }
+                else if( vector.X == 0 && vector.Y > 0 )
+                {
+                    nextPoint.X += 0;
+                    nextPoint.Y += 25;
+                }
+                else if( vector.X > 0 && vector.Y == 0 )
+                {
+                    nextPoint.X += 25;
+                    nextPoint.Y += 0;
+                }
+                else if( vector.X < 0 && vector.Y == 0 )
+                {
+                    nextPoint.X -= 25;
+                    nextPoint.Y += 25;
                 }
             }
             else if( playerOwner.PlayerPosition.X == this._ballPosition.X - 20 && playerOwner.PlayerPosition.Y == this.BallPosition.Y - 50 )
             {
-
+                if( vector.X > 0 && vector.Y > 0 )
+                {
+                    nextPoint.X += x + 25;
+                    nextPoint.Y += y - 25;
+                }
+                else if( vector.X > 0 && vector.Y < 0 )
+                {
+                    nextPoint.X += 25;
+                    nextPoint.Y += 25;
+                }
+                else if( vector.X < 0 && vector.Y < 0 )
+                {
+                    nextPoint.X -= 25;
+                    nextPoint.Y += 25;
+                }
+                else if( vector.X < 0 && vector.Y > 0 )
+                {
+                    nextPoint.X -= 25;
+                    nextPoint.Y -= 25;
+                }
+                else if( vector.X == 0 && vector.Y < 0 )
+                {
+                    nextPoint.X += 0;
+                    nextPoint.Y += 25;
+                }
+                else if( vector.X == 0 && vector.Y > 0 )
+                {
+                    nextPoint.X += 0;
+                    nextPoint.Y -= 25;
+                }
+                else if( vector.X > 0 && vector.Y == 0 )
+                {
+                    nextPoint.X += 25;
+                    nextPoint.Y += 0;
+                }
+                else if( vector.X < 0 && vector.Y == 0 )
+                {
+                    nextPoint.X -= 25;
+                    nextPoint.Y += 25;
+                }
             }
+            else
+                nextPoint = this.BallPosition;
 
             #region Movement Management
             /*
