@@ -109,7 +109,6 @@ namespace SimulationMatchEssaie
 
             intermediatePoint = theone.PointToObjectif( _gameBall.BallPosition, secondObjectif );
 
-            listBox1.Items.Add( "NextBall Point : " + nextBallPoint.X + "; " + nextBallPoint.Y );
             listBox1.Items.Add( "Player : " + _playerPoints.X + "; " + _playerPoints.Y );
             listBox1.Items.Add( "Ballon : " + theball.X + "; " + theball.Y );
             listBox1.Items.Add( "Point intermediare : " + intermediatePoint.X + "; " + intermediatePoint.Y );
@@ -167,7 +166,6 @@ namespace SimulationMatchEssaie
             listBox1.Items.Add( "Player Got the ball = " + theone.GotTheBall );
             theone.DrawPlayer( _game, player, _playerPoints, theone.PlayerPosition, _ballPoints, intermediatePoint, i, count );
             _gameBall.DrawTheBall(_game, ball, iBall, _ballPoints );
-            Graphics g = e.Graphics;
         }
 
         private void SoccerSimulator_MouseClick( object sender, MouseEventArgs e )
