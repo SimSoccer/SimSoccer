@@ -87,7 +87,6 @@ namespace SimulationMatchEssaie
         void t_Tick( object sender, EventArgs e )
         {
             #region Manage Player With And Without The Ball
-
             count = 1;
 
                 foreach( Player p in MyPlayers )
@@ -133,42 +132,50 @@ namespace SimulationMatchEssaie
 
         private void SoccerSimulator_Paint( object sender, PaintEventArgs e )
         {
-            _game.Graphic = e.Graphics;
-
-            ballon = iBall + 1;
-            ball = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\ball" + ballon + ".png" );
-            _gameBall = new Ball( theball, ball );
-
-            #region Manage Drawn Field
-            //Brushes the whole field in Green
-            //Field f = new Field();
-            _game.Graphic.FillRectangle( Brushes.DarkGreen, 0, 0, _game.Field.FieldSize.Width, _game.Field.FieldSize.Heigth );
-
-            // Show the field's boxes.
-            foreach( Box p in _game.Field.Boxes )
+            try
             {
-                _game.Graphic.DrawRectangle( Pens.WhiteSmoke, p._x, p._y, p._size.Width, p._size.Heigth );
+                _game.Graphic = e.Graphics;
+
+                ballon = iBall + 1;
+                ball = Image.FromFile(@".\..\..\..\images\ball" + ballon + ".png");
+                _gameBall = new Ball(theball, ball);
+
+                #region Manage Drawn Field
+                //Brushes the whole field in Green
+                //Field f = new Field();
+                _game.Graphic.FillRectangle(Brushes.DarkGreen, 0, 0, _game.Field.FieldSize.Width, _game.Field.FieldSize.Heigth);
+
+                // Show the field's boxes.
+                foreach (Box p in _game.Field.Boxes)
+                {
+                    _game.Graphic.DrawRectangle(Pens.WhiteSmoke, p._x, p._y, p._size.Width, p._size.Heigth);
+                }
+
+                /*
+                foreach( Points c in _game.Field.BoxCenterPoint )
+                {
+                    _game.Graphic.DrawRectangle( Pens.WhiteSmoke, c.X, c.Y, 1, 1 );
+                }*/
+
+                // Draw the throw in lines and the behind goal lines.
+                _game.Graphic.DrawLine(Pens.Red, _game.Field.Zones.ThrowIn1[0].X, _game.Field.Zones.ThrowIn1[0].Y, _game.Field.Zones.ThrowIn1[10].X, _game.Field.Zones.ThrowIn1[10].Y);
+                _game.Graphic.DrawLine(Pens.Red, _game.Field.Zones.ThrowIn2[0].X, _game.Field.Zones.ThrowIn2[0].Y, _game.Field.Zones.ThrowIn2[10].X, _game.Field.Zones.ThrowIn2[10].Y);
+                _game.Graphic.DrawLine(Pens.Red, _game.Field.Zones.BehingGoalLine1[0].X, _game.Field.Zones.BehingGoalLine1[0].Y, _game.Field.Zones.BehingGoalLine1[6].X, _game.Field.Zones.BehingGoalLine1[6].Y);
+                _game.Graphic.DrawLine(Pens.Red, _game.Field.Zones.BehingGoalLine2[0].X, _game.Field.Zones.BehingGoalLine2[0].Y, _game.Field.Zones.BehingGoalLine2[6].X, _game.Field.Zones.BehingGoalLine2[6].Y);
+                #endregion
+
+                theone.Image = player;
+                listBox1.Items.Add("Player Got the ball = " + theone.GotTheBall);
+                theone.DrawPlayer(_game, player, _playerPoints, theone.PlayerPosition, _ballPoints, intermediatePoint, i, count);
+                _gameBall.DrawTheBall(_game, ball, iBall, _ballPoints);
+                Graphics g = e.Graphics;
             }
-
-            /*
-            foreach( Points c in _game.Field.BoxCenterPoint )
+            catch (Exception a)
             {
-                _game.Graphic.DrawRectangle( Pens.WhiteSmoke, c.X, c.Y, 1, 1 );
-            }*/
-
-            // Draw the throw in lines and the behind goal lines.
-            _game.Graphic.DrawLine( Pens.Red, _game.Field.Zones.ThrowIn1[0].X, _game.Field.Zones.ThrowIn1[0].Y, _game.Field.Zones.ThrowIn1[10].X, _game.Field.Zones.ThrowIn1[10].Y );
-            _game.Graphic.DrawLine( Pens.Red, _game.Field.Zones.ThrowIn2[0].X, _game.Field.Zones.ThrowIn2[0].Y, _game.Field.Zones.ThrowIn2[10].X, _game.Field.Zones.ThrowIn2[10].Y );
-            _game.Graphic.DrawLine( Pens.Red, _game.Field.Zones.BehingGoalLine1[0].X, _game.Field.Zones.BehingGoalLine1[0].Y, _game.Field.Zones.BehingGoalLine1[6].X, _game.Field.Zones.BehingGoalLine1[6].Y );
-            _game.Graphic.DrawLine( Pens.Red, _game.Field.Zones.BehingGoalLine2[0].X, _game.Field.Zones.BehingGoalLine2[0].Y, _game.Field.Zones.BehingGoalLine2[6].X, _game.Field.Zones.BehingGoalLine2[6].Y );
-            #endregion
-
-            theone.Image = player;
-            listBox1.Items.Add( "Player Got the ball = " + theone.GotTheBall );
-            theone.DrawPlayer( _game, player, _playerPoints, theone.PlayerPosition, _ballPoints, intermediatePoint, i, count );
-            _gameBall.DrawTheBall(_game, ball, iBall, _ballPoints );
-            Graphics g = e.Graphics;
+                Console.WriteLine("Error message" + a.Message);
+            }
         }
+        
 
         private void SoccerSimulator_MouseClick( object sender, MouseEventArgs e )
         {

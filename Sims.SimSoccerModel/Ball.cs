@@ -38,7 +38,7 @@ namespace Sims.SimSoccerModel
             System.Drawing.Size ballSize = new System.Drawing.Size( 17, 17 );
             _ballRectangle = new Rectangle( ballPosition, ballSize );
             _ballCount = countBall + 1;
-            ballImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\ball" + _ballCount + ".png" );
+            ballImage = Image.FromFile( @".\..\..\..\images\ball" + _ballCount + ".png" );
             _ballImage = ballImage;
             _ballPosition = new Points((float)ballPosition.X, (float)ballPosition.Y);
             _game.Graphic.DrawImage( _ballImage, _ballRectangle );

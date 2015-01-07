@@ -120,17 +120,17 @@ namespace Sims.SimSoccerModel
             if( nextPoint.X > player.X )
             {
                 if( _i == 0 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerOne.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
                 else if( _i == 1 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveRight1.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveRight1.png" );
                 else if( _i == 2 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveRight2.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveRight2.png" );
                 else if( _i == 3 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Shoot.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\p1Shoot.png" );
                 else if( _i == 4 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p5shoot.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\p5shoot.png" );
                 else if( _i == 5 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Stand.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\p1Stand.png" );
                 else throw new InvalidOperationException( "Le nombre a été dépassé : " + _i );
             }
             else if( nextPoint.X == player.X && nextPoint.Y > player.Y )
@@ -138,17 +138,17 @@ namespace Sims.SimSoccerModel
                 size = new System.Drawing.Size( 31, 70 );
                 _player = new Rectangle( p, size );
                 if( _i == 0 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerOne.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
                 else if( _i == 1 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveDown1.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveDown1.png" );
                 else if( _i == 2 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveDown2.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveDown2.png" );
                 else if( _i == 3 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Shoot.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\p1Shoot.png" );
                 else if( _i == 4 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p5shoot.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\p5shoot.png" );
                 else if( _i == 5 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Stand.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\p1Stand.png" );
                 else throw new InvalidOperationException( "Le nombre a été dépassé : " + _i );
             }
             else if( nextPoint.X == player.X && nextPoint.Y < player.Y )
@@ -156,33 +156,33 @@ namespace Sims.SimSoccerModel
                 size = new System.Drawing.Size( 31, 70 );
                 _player = new Rectangle( p, size );
                 if( _i == 0 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerOne.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
                 else if( _i == 1 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveUp1.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveUp1.png" );
                 else if( _i == 2 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveUp2.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveUp2.png" );
                 else if( _i == 3 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Shoot.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\p1Shoot.png" );
                 else if( _i == 4 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p5shoot.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\p5shoot.png" );
                 else if( _i == 5 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Stand.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\p1Stand.png" );
                 else throw new InvalidOperationException( "Le nombre a été dépassé : " + _i );
             }
             else if( nextPoint.X < player.X )
             {
                 if( _i == 0 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerOne.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
                 else if( _i == 1 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveLeft1.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveLeft1.png" );
                 else if( _i == 2 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerMoveLeft2.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveLeft2.png" );
                 else if( _i == 3 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Shoot.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\p1Shoot.png" );
                 else if( _i == 4 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p5shoot.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\p5shoot.png" );
                 else if( _i == 5 )
-                    playerImage = Image.FromFile( @"C:\Users\Guenole\Desktop\SimSoccer2\images\p1Stand.png" );
+                    playerImage = Image.FromFile( @".\..\..\..\images\p1Stand.png" );
                 else throw new InvalidOperationException( "Le nombre a été dépassé : " + _i );
             }
 
