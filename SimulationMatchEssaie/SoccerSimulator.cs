@@ -87,9 +87,6 @@ namespace SimulationMatchEssaie
         void t_Tick( object sender, EventArgs e )
         {
             #region Manage Player With And Without The Ball
-            ballon = iBall + 1;
-            ball = Image.FromFile(@".\..\..\..\images\ball" + ballon + ".png");
-            _gameBall = new Ball(theball, ball);
             count = 1;
 
                 foreach( Player p in MyPlayers )
