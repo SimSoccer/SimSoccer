@@ -62,7 +62,10 @@ namespace SIMS.SimSoccerForm
 
                 XDocument doc = XDocument.Load(@".\..\..\..\" + listBox1.SelectedItem);
 
-                Game _game = new Game(doc.Root.Element("Profil"));
+                Game _game = new Game( doc.Root.Element( "Profil" ) );
+
+                DateTime today = DateTime.Now;
+                doc.Save( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
                     
                 CheckPasswordForm CPF = new CheckPasswordForm(_game);
                 CPF.Show();

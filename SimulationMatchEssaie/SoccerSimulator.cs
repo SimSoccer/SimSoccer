@@ -98,6 +98,7 @@ namespace SimulationMatchEssaie
                         _gameBall.IsOwned = true;
                         _gameBall.PlayerOwner = p;
                         Points _nextGameBallPosition = _gameBall.NextPoint( _gameBall.PlayerOwner );
+                        nextBallPoint = _nextGameBallPosition;
                         listBox1.Items.Add( "Game Ball Next Point = " + _nextGameBallPosition.X + ";" + _nextGameBallPosition.Y );
                         _ballPoints.X = ( int )_nextGameBallPosition.X;
                         _ballPoints.Y = ( int )_nextGameBallPosition.Y;
