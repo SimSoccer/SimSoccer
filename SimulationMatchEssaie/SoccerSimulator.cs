@@ -68,10 +68,10 @@ namespace SimulationMatchEssaie
             theone = _game.TeamList.Teams[8].TeamPlayers[8];
 
             //Position milieu de terrain pour le ballon visuellement.
-            _playerPoints = new Point( 450, 110 );
-            _ballPoints = new Point( 485, 280 );
+            _playerPoints = new Point( 450, 250 );
+            _ballPoints = new Point( 400, 200 );
             theball = new Points( ( float )_ballPoints.X, ( float )_ballPoints.Y );
-            secondObjectif = new Points( 100, 250 );
+            secondObjectif = new Points( 205, 130 );
             listBox1.Items.Add( theone.Name);
         }
         
@@ -103,6 +103,8 @@ namespace SimulationMatchEssaie
                         _ballPoints.Y = ( int )_nextGameBallPosition.Y;
                         theball.X = ( float )_ballPoints.X;
                         theball.Y = ( float )_ballPoints.Y;
+                        listBox1.Items.Add( "Diff X : " + _gameBall._diffX );
+                        listBox1.Items.Add( "Diff Y : " + _gameBall._diffY );
                     }
                 }
 
@@ -112,8 +114,8 @@ namespace SimulationMatchEssaie
             listBox1.Items.Add( "Ballon : " + theball.X + "; " + theball.Y );
             listBox1.Items.Add( "Point intermediare : " + intermediatePoint.X + "; " + intermediatePoint.Y );
             listBox1.Items.Add( "Second Objectif : " + secondObjectif.X + "; " + secondObjectif.Y );
-            
-            if( _playerPoints.X != _gameBall.BallPosition.X || _playerPoints.Y != _gameBall.BallPosition.Y - 50 && _playerPoints.X != secondObjectif.X && _playerPoints.Y != secondObjectif.Y && _ballPoints.X != secondObjectif.X && _ballPoints.Y != secondObjectif.Y - 50 )
+
+            if( intermediatePoint.X != 0 && intermediatePoint.Y != 0 )
             {
                 i++;
                 iBall++;
