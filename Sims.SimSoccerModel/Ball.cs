@@ -68,22 +68,22 @@ namespace Sims.SimSoccerModel
                 else if( vector.X < 0 && vector.Y < 0 )
                 {
                     nextPoint.X = ballX -= 25;
-                    nextPoint.Y = ballY += 5;
+                    nextPoint.Y = ballY -= 5;
                 }
                 else if( vector.X < 0 && vector.Y > 0 )
                 {
                     nextPoint.X = ballX -= 25;
-                    nextPoint.Y = ballY -= 5;
+                    nextPoint.Y = ballY += 5;
                 }
                 else if( vector.X == 0 && vector.Y < 0 )
                 {
                     nextPoint.X = ballX;
-                    nextPoint.Y = ballY += 5;
+                    nextPoint.Y = ballY -= 5;
                 }
                 else if( vector.X == 0 && vector.Y > 0 )
                 {
                     nextPoint.X = ballX;
-                    nextPoint.Y = ballY -= 5;
+                    nextPoint.Y = ballY += 5;
                 }
                 else if( vector.X > 0 && vector.Y == 0 )
                 {
@@ -96,49 +96,50 @@ namespace Sims.SimSoccerModel
                     nextPoint.Y = ballY;
                 }
             }
-            /*else if( playerOwner.PlayerPosition.X == this.BallPosition.X - 20 && playerOwner.PlayerPosition.Y == this.BallPosition.Y - 50 )
+            
+            else if( playerOwner.PlayerPosition.X == this.BallPosition.X - 20 && playerOwner.PlayerPosition.Y == this.BallPosition.Y - 50 )
             {
                 if( vector.X > 0 && vector.Y > 0 )
                 {
-                    nextPoint.X += ballX + 5;
-                    nextPoint.Y += ballY - 5;
+                    nextPoint.X = ballX += 25;
+                    nextPoint.Y = ballY += 5;
                 }
                 else if( vector.X > 0 && vector.Y < 0 )
                 {
-                    nextPoint.X += ballX + 5;
-                    nextPoint.Y += ballY + 5;
+                    nextPoint.X = ballX += 25;
+                    nextPoint.Y = ballY -= 5;
                 }
                 else if( vector.X < 0 && vector.Y < 0 )
                 {
-                    nextPoint.X += ballX - 5;
-                    nextPoint.Y += ballY + 5;
+                    nextPoint.X = ballX -= 25;
+                    nextPoint.Y = ballY -= 5;
                 }
                 else if( vector.X < 0 && vector.Y > 0 )
                 {
-                    nextPoint.X += ballX - 5;
-                    nextPoint.Y += ballY - 5;
+                    nextPoint.X = ballX -= 25;
+                    nextPoint.Y = ballY += 5;
                 }
                 else if( vector.X == 0 && vector.Y < 0 )
                 {
-                    nextPoint.X += ballX;
-                    nextPoint.Y += ballY + 5;
+                    nextPoint.X = ballX;
+                    nextPoint.Y = ballY -= 5;
                 }
                 else if( vector.X == 0 && vector.Y > 0 )
                 {
-                    nextPoint.X += ballX;
-                    nextPoint.Y += ballY - 5;
+                    nextPoint.X = ballX;
+                    nextPoint.Y = ballY += 5;
                 }
                 else if( vector.X > 0 && vector.Y == 0 )
                 {
-                    nextPoint.X += ballX + 5;
-                    nextPoint.Y += ballY;
+                    nextPoint.X = ballX += 25;
+                    nextPoint.Y = ballY;
                 }
                 else if( vector.X < 0 && vector.Y == 0 )
                 {
-                    nextPoint.X += ballX - 5;
-                    nextPoint.Y += ballY;
+                    nextPoint.X = ballX -= 25;
+                    nextPoint.Y = ballY;
                 }
-            }*/
+            }
             else
                 nextPoint = this.BallPosition;
 
