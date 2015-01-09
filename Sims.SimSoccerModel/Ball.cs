@@ -173,49 +173,110 @@ namespace Sims.SimSoccerModel
                 else
                     nextPoint = this.BallPosition;
             }
-            /*
-            else if( playerOwner.PlayerPosition.X == this.BallPosition.X - 20 && playerOwner.PlayerPosition.Y == this.BallPosition.Y - 50 )
+            /*else if( playerOwner.PlayerPosition.X == this.BallPosition.X - 20 && playerOwner.PlayerPosition.Y == this.BallPosition.Y - 50 )
             {
-                if( vector.X > 0 && vector.Y > 0 )
+                if( vector.X > 0 && vector.Y > 0 && _diffY > 15 && _diffX > 25 )
                 {
                     nextPoint.X = ballX += 25;
                     nextPoint.Y = ballY += 15;
                 }
-                else if( vector.X > 0 && vector.Y < 0 )
+                else if( vector.X > 0 && vector.Y > 0 && _diffY <= 15 && _diffX > 25 )
+                {
+                    nextPoint.X = ballX += 25;
+                    nextPoint.Y = ballY += _diffY;
+                }
+                else if( vector.X > 0 && vector.Y > 0 && _diffX <= 25 && _diffY > 15 )
+                {
+                    nextPoint.X = ballX += _diffX;
+                    nextPoint.Y = ballY += 15;
+                }
+                else if( vector.X > 0 && vector.Y < 0 && _diffY > 15 && _diffX > 25 )
                 {
                     nextPoint.X = ballX += 25;
                     nextPoint.Y = ballY -= 15;
                 }
-                else if( vector.X < 0 && vector.Y < 0 )
+                else if( vector.X > 0 && vector.Y < 0 && _diffY <= 15 && _diffX > 25 )
+                {
+                    nextPoint.X = ballX += 25;
+                    nextPoint.Y = ballY -= _diffY;
+                }
+                else if( vector.X > 0 && vector.Y < 0 && _diffX <= 25 && _diffY > 15 )
+                {
+                    nextPoint.X = ballX += _diffX;
+                    nextPoint.Y = ballY -= 15;
+                }
+                else if( vector.X < 0 && vector.Y < 0 && _diffY > 15 && _diffX > 25 )
                 {
                     nextPoint.X = ballX -= 25;
                     nextPoint.Y = ballY -= 15;
                 }
-                else if( vector.X < 0 && vector.Y > 0 )
+                else if( vector.X < 0 && vector.Y < 0 && _diffX <= 25 && _diffY > 15 )
+                {
+                    nextPoint.X = ballX -= _diffX;
+                    nextPoint.Y = ballY -= 15;
+                }
+                else if( vector.X < 0 && vector.Y < 0 && _diffY <= 15 && _diffX > 25 )
+                {
+                    nextPoint.X = ballX -= 25;
+                    nextPoint.Y = ballY -= _diffY;
+                }
+                else if( vector.X < 0 && vector.Y > 0 && _diffY > 15 && _diffX > 25 )
                 {
                     nextPoint.X = ballX -= 25;
                     nextPoint.Y = ballY += 15;
                 }
-                else if( vector.X == 0 && vector.Y < 0 )
+                else if( vector.X < 0 && vector.Y > 0 && _diffX <= 25 && _diffY > 15 )
+                {
+                    nextPoint.X = ballX -= _diffX;
+                    nextPoint.Y = ballY += 15;
+                }
+                else if( vector.X < 0 && vector.Y > 0 && _diffY <= 15 && _diffX > 25 )
+                {
+                    nextPoint.X = ballX -= 25;
+                    nextPoint.Y = ballY += _diffY;
+                }
+                else if( vector.X == 0 && vector.Y < 0 && _diffY > 15 )
                 {
                     nextPoint.X = ballX;
                     nextPoint.Y = ballY -= 15;
                 }
-                else if( vector.X == 0 && vector.Y > 0 )
+                else if( vector.X == 0 && vector.Y < 0 && _diffY <= 15)
+                {
+                    nextPoint.X = ballX;
+                    nextPoint.Y = ballY -= _diffY;
+                }
+                else if( vector.X == 0 && vector.Y > 0 && _diffY > 15 )
                 {
                     nextPoint.X = ballX;
                     nextPoint.Y = ballY += 15;
                 }
-                else if( vector.X > 0 && vector.Y == 0 )
+                else if( vector.X == 0 && vector.Y > 0 && _diffY <= 15 )
+                {
+                    nextPoint.X = ballX;
+                    nextPoint.Y = ballY += _diffY;
+                }
+                else if( vector.X > 0 && vector.Y == 0 && _diffX > 25)
                 {
                     nextPoint.X = ballX += 25;
                     nextPoint.Y = ballY;
                 }
-                else if( vector.X < 0 && vector.Y == 0 )
+                else if( vector.X > 0 && vector.Y == 0 && _diffX <= 25)
+                {
+                    nextPoint.X = ballX += _diffX;
+                    nextPoint.Y = ballY;
+                }
+                else if( vector.X < 0 && vector.Y == 0 && _diffX > 25 )
                 {
                     nextPoint.X = ballX -= 25;
                     nextPoint.Y = ballY;
                 }
+                else if( vector.X < 0 && vector.Y == 0 && _diffX <= 25 )
+                {
+                    nextPoint.X = ballX -= _diffX;
+                    nextPoint.Y = ballY;
+                }
+                else
+                    nextPoint = this.BallPosition;
             }*/
             else
                 nextPoint = this.BallPosition;
