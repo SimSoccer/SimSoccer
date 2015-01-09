@@ -68,10 +68,10 @@ namespace SimulationMatchEssaie
             theone = _game.TeamList.Teams[8].TeamPlayers[8];
 
             //Position milieu de terrain pour le ballon visuellement.
-            _playerPoints = new Point( 480, 250 );
-            _ballPoints = new Point( 485, 200 );
+            _playerPoints = new Point( 480, 400 );
+            _ballPoints = new Point( 485, 350 );
             theball = new Points( ( float )_ballPoints.X, ( float )_ballPoints.Y );
-            secondObjectif = new Points( 685, 355 );
+            secondObjectif = new Points( 585, 50 );
             listBox1.Items.Add( theone.Name);
         }
         

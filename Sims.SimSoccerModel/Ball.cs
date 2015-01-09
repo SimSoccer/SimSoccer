@@ -68,7 +68,17 @@ namespace Sims.SimSoccerModel
                 _diffY = playerOwner.FinalObjectif.Y - ( ballY - 50 );
 
             #region Movement Management
-            if( playerOwner.PlayerPosition.X == this._ballPosition.X && playerOwner.PlayerPosition.Y == this.BallPosition.Y - 50 )
+            if( 
+                playerOwner.PlayerPosition.X == this.BallPosition.X - 10 && playerOwner.PlayerPosition.Y == this.BallPosition.Y - 50
+                || playerOwner.PlayerPosition.X == this.BallPosition.X &&  this.BallPosition.Y == playerOwner.PlayerPosition.Y + 45
+                || playerOwner.PlayerPosition.X == this.BallPosition.X && playerOwner.PlayerPosition.Y == this.BallPosition.Y - 50
+                || playerOwner.PlayerPosition.X == this.BallPosition.X && playerOwner.PlayerPosition.Y == this.BallPosition.Y - 55
+                //|| playerOwner.PlayerPosition.X == this.BallPosition.X - 10 && playerOwner.PlayerPosition.Y == this.BallPosition.Y + 50
+                //|| playerOwner.PlayerPosition.X == this.BallPosition.X && playerOwner.PlayerPosition.Y == this.BallPosition.Y + 50
+                //|| playerOwner.PlayerPosition.X == this.BallPosition.X + 10 && playerOwner.PlayerPosition.Y == this.BallPosition.Y - 50
+                //|| playerOwner.PlayerPosition.X == this.BallPosition.X && playerOwner.PlayerPosition.Y == this.BallPosition.Y + 40
+                // || playerOwner.PlayerPosition.X == this.BallPosition.X && playerOwner.PlayerPosition.Y == this.BallPosition.Y + 50
+                )
             {
                 if( vector.X > 0 && vector.Y > 0 && _diffY > 15 && _diffX > 25 )
                 {
@@ -135,7 +145,7 @@ namespace Sims.SimSoccerModel
                     nextPoint.X = ballX;
                     nextPoint.Y = ballY -= 15;
                 }
-                else if( vector.X == 0 && vector.Y < 0 && _diffY <= 15)
+                else if( vector.X == 0 && vector.Y < 0 && _diffY <= 15 )
                 {
                     nextPoint.X = ballX;
                     nextPoint.Y = ballY -= _diffY;
@@ -150,12 +160,12 @@ namespace Sims.SimSoccerModel
                     nextPoint.X = ballX;
                     nextPoint.Y = ballY += _diffY;
                 }
-                else if( vector.X > 0 && vector.Y == 0 && _diffX > 25)
+                else if( vector.X > 0 && vector.Y == 0 && _diffX > 25 )
                 {
                     nextPoint.X = ballX += 25;
                     nextPoint.Y = ballY;
                 }
-                else if( vector.X > 0 && vector.Y == 0 && _diffX <= 25)
+                else if( vector.X > 0 && vector.Y == 0 && _diffX <= 25 )
                 {
                     nextPoint.X = ballX += _diffX;
                     nextPoint.Y = ballY;
@@ -172,8 +182,8 @@ namespace Sims.SimSoccerModel
                 }
                 else
                     nextPoint = this.BallPosition;
-            }
-            /*else if( playerOwner.PlayerPosition.X == this.BallPosition.X - 20 && playerOwner.PlayerPosition.Y == this.BallPosition.Y - 50 )
+            }/*
+            else if( playerOwner.PlayerPosition.X == this._ballPosition.X && playerOwner.PlayerPosition.Y == this.BallPosition.Y - 50 )
             {
                 if( vector.X > 0 && vector.Y > 0 && _diffY > 15 && _diffX > 25 )
                 {
