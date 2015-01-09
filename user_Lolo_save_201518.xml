@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Game>
-  <Profil ID="7">
-    <UserName>jovial</UserName>
-    <Password>123456</Password>
-    <LastName>Lekoli-Kiba</LastName>
-    <FirstName>Jovial</FirstName>
-    <BirthDate>24/12/2014</BirthDate>
+  <Profil ID="9">
+    <UserName>Lolo</UserName>
+    <Password>sonson</Password>
+    <LastName>DONNE</LastName>
+    <FirstName>Loic</FirstName>
+    <BirthDate>08/01/2015</BirthDate>
     <Avatar>.\..\..\..\avatar.jpg</Avatar>
-    <ChosenTeam>Football Club des Girondins de Bordeaux</ChosenTeam>
+    <ChosenTeam>Paris-Saint-Germain Football Club</ChosenTeam>
     <Journey>0</Journey>
   </Profil>
   <Teams>

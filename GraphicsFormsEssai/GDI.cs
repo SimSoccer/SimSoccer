@@ -15,7 +15,7 @@ namespace GraphicsFormsEssai
 {
     public partial class GDI : Form
     {
-       // Game _game = new Game( "test", "1234", "blabla", "lala" );
+        // Game _game = new Game( "test", "1234", "blabla", "lala" );
         Game _game;
         ListBox playerList = new ListBox();
         Team myTeam;
@@ -24,36 +24,36 @@ namespace GraphicsFormsEssai
         {
             InitializeComponent();
             _game = game;
-            NewGDI( this );
+            NewGDI(this);
         }
 
-        private void NewGDI( GDI newone )
+        private void NewGDI(GDI newone)
         {
             #region Create New GDI
-            listBox1.Items.Add( "Joueurs de votre équipe : " );
-            listBox2.Items.Add( "Titulaires : " );
+            listBox1.Items.Add("Joueurs de votre équipe : ");
+            listBox2.Items.Add("Titulaires : ");
 
-            for( int j = 0; j < _game.TeamList.Teams.Count; j++ )
+            for (int j = 0; j < _game.TeamList.Teams.Count; j++)
             {
-                if( _game.TeamList.Teams[j].Name == _game.ChoosenTeam )
+                if (_game.TeamList.Teams[j].Name == _game.ChoosenTeam)
                 {
                     myTeam = _game.TeamList.Teams[j];
-                    for( int i = 0; i < myTeam.TeamPlayers.Count; i++ )
+                    for (int i = 0; i < myTeam.TeamPlayers.Count; i++)
                     {
                         string players = myTeam.TeamPlayers[i].Name;
                         string shirtNumber = myTeam.TeamPlayers[i].Poste;
-                        listBox1.Items.Add( shirtNumber + " " + Environment.NewLine + players );
-                        playerList.Items.Add( shirtNumber + " " + Environment.NewLine + players );
+                        listBox1.Items.Add(shirtNumber + " " + Environment.NewLine + players);
+                        playerList.Items.Add(shirtNumber + " " + Environment.NewLine + players);
                     }
                 }
             }
-               
 
-            listBox1.Items.Add( "Zones : " );
-            listBox1.Items.Add( "Violet => Goalkipper's Zone" );
-            listBox1.Items.Add( "Blue => Defense players' Zone" );
-            listBox1.Items.Add( "Pink => Middlefield players' Zone" );
-            listBox1.Items.Add( "Red => Strikers' Zone" );
+
+            listBox1.Items.Add("Zones : ");
+            listBox1.Items.Add("Violet => Goalkipper's Zone");
+            listBox1.Items.Add("Blue => Defense players' Zone");
+            listBox1.Items.Add("Pink => Middlefield players' Zone");
+            listBox1.Items.Add("Red => Strikers' Zone");
 
             button1.Text = "Gardien";
             button12.Text = "Recommencer";
@@ -71,98 +71,98 @@ namespace GraphicsFormsEssai
             #region Cases' Gestion
             string _formation = formation;
 
-            switch( _formation )
+            switch (_formation)
             {
                 case "4.4.2 losange":
-                    button1.Location = new Point( 0, 275 );
-                    button2.Location = new Point( 150, 475 );
-                    button3.Location = new Point( 150, 375 );
-                    button4.Location = new Point( 150, 175 );
-                    button5.Location = new Point( 150, 75 );
-                    button6.Location = new Point( 350, 275 );
-                    button7.Location = new Point( 500, 125 );
-                    button8.Location = new Point( 500, 425 );
-                    button9.Location = new Point( 650, 275 );
-                    button10.Location = new Point( 800, 175 );
-                    button11.Location = new Point( 800, 375 );
+                    button1.Location = new Point(0, 275);
+                    button2.Location = new Point(150, 475);
+                    button3.Location = new Point(150, 375);
+                    button4.Location = new Point(150, 175);
+                    button5.Location = new Point(150, 75);
+                    button6.Location = new Point(350, 275);
+                    button7.Location = new Point(500, 125);
+                    button8.Location = new Point(500, 425);
+                    button9.Location = new Point(650, 275);
+                    button10.Location = new Point(800, 175);
+                    button11.Location = new Point(800, 375);
                     break;
                 case "4.4.2":
-                    button1.Location = new Point( 0, 275 );
-                    button2.Location = new Point( 150, 475 );
-                    button3.Location = new Point( 150, 375 );
-                    button4.Location = new Point( 150, 175 );
-                    button5.Location = new Point( 150, 75 );
-                    button6.Location = new Point( 400, 200 );
-                    button7.Location = new Point( 500, 95 );
-                    button8.Location = new Point( 400, 350 );
-                    button9.Location = new Point( 500, 455 );
-                    button10.Location = new Point( 800, 175 );
-                    button11.Location = new Point( 800, 375 );
+                    button1.Location = new Point(0, 275);
+                    button2.Location = new Point(150, 475);
+                    button3.Location = new Point(150, 375);
+                    button4.Location = new Point(150, 175);
+                    button5.Location = new Point(150, 75);
+                    button6.Location = new Point(400, 200);
+                    button7.Location = new Point(500, 95);
+                    button8.Location = new Point(400, 350);
+                    button9.Location = new Point(500, 455);
+                    button10.Location = new Point(800, 175);
+                    button11.Location = new Point(800, 375);
                     break;
                 case "4.3.3":
-                    button1.Location = new Point( 0, 275 );
-                    button2.Location = new Point( 150, 475 );
-                    button3.Location = new Point( 150, 375 );
-                    button4.Location = new Point( 150, 175 );
-                    button5.Location = new Point( 150, 75 );
-                    button6.Location = new Point( 350, 275 );
-                    button7.Location = new Point( 500, 175 );
-                    button8.Location = new Point( 500, 375 );
-                    button9.Location = new Point( 700, 475 );
-                    button10.Location = new Point( 700, 75 );
-                    button11.Location = new Point( 800, 275 );
+                    button1.Location = new Point(0, 275);
+                    button2.Location = new Point(150, 475);
+                    button3.Location = new Point(150, 375);
+                    button4.Location = new Point(150, 175);
+                    button5.Location = new Point(150, 75);
+                    button6.Location = new Point(350, 275);
+                    button7.Location = new Point(500, 175);
+                    button8.Location = new Point(500, 375);
+                    button9.Location = new Point(700, 475);
+                    button10.Location = new Point(700, 75);
+                    button11.Location = new Point(800, 275);
                     break;
                 case "4.2.3.1":
-                    button1.Location = new Point( 0, 275 );
-                    button2.Location = new Point( 150, 475 );
-                    button3.Location = new Point( 150, 375 );
-                    button4.Location = new Point( 150, 175 );
-                    button5.Location = new Point( 150, 75 );
-                    button6.Location = new Point( 350, 175 );
-                    button7.Location = new Point( 350, 375 );
-                    button8.Location = new Point( 600, 450 );
-                    button9.Location = new Point( 600, 275 );
-                    button10.Location = new Point( 600, 100 );
-                    button11.Location = new Point( 800, 275 );
+                    button1.Location = new Point(0, 275);
+                    button2.Location = new Point(150, 475);
+                    button3.Location = new Point(150, 375);
+                    button4.Location = new Point(150, 175);
+                    button5.Location = new Point(150, 75);
+                    button6.Location = new Point(350, 175);
+                    button7.Location = new Point(350, 375);
+                    button8.Location = new Point(600, 450);
+                    button9.Location = new Point(600, 275);
+                    button10.Location = new Point(600, 100);
+                    button11.Location = new Point(800, 275);
                     break;
                 case "5.3.2":
-                    button1.Location = new Point( 0, 275 );
-                    button2.Location = new Point( 250, 500 );
-                    button3.Location = new Point( 150, 375 );
-                    button4.Location = new Point( 150, 175 );
-                    button5.Location = new Point( 250, 50 );
-                    button6.Location = new Point( 150, 275 );
-                    button7.Location = new Point( 500, 125 );
-                    button8.Location = new Point( 500, 425 );
-                    button9.Location = new Point( 400, 275 );
-                    button10.Location = new Point( 800, 175 );
-                    button11.Location = new Point( 800, 375 );
+                    button1.Location = new Point(0, 275);
+                    button2.Location = new Point(250, 500);
+                    button3.Location = new Point(150, 375);
+                    button4.Location = new Point(150, 175);
+                    button5.Location = new Point(250, 50);
+                    button6.Location = new Point(150, 275);
+                    button7.Location = new Point(500, 125);
+                    button8.Location = new Point(500, 425);
+                    button9.Location = new Point(400, 275);
+                    button10.Location = new Point(800, 175);
+                    button11.Location = new Point(800, 375);
                     break;
                 case "5.4.1":
-                    button1.Location = new Point( 0, 275 );
-                    button2.Location = new Point( 250, 500 );
-                    button3.Location = new Point( 150, 375 );
-                    button4.Location = new Point( 150, 175 );
-                    button5.Location = new Point( 250, 50 );
-                    button6.Location = new Point( 150, 275 );
-                    button7.Location = new Point( 550, 100 );
-                    button8.Location = new Point( 400, 350 );
-                    button9.Location = new Point( 400, 200 );
-                    button10.Location = new Point( 550, 450 );
-                    button11.Location = new Point( 800, 275 );
+                    button1.Location = new Point(0, 275);
+                    button2.Location = new Point(250, 500);
+                    button3.Location = new Point(150, 375);
+                    button4.Location = new Point(150, 175);
+                    button5.Location = new Point(250, 50);
+                    button6.Location = new Point(150, 275);
+                    button7.Location = new Point(550, 100);
+                    button8.Location = new Point(400, 350);
+                    button9.Location = new Point(400, 200);
+                    button10.Location = new Point(550, 450);
+                    button11.Location = new Point(800, 275);
                     break;
                 case "3.5.2":
-                    button1.Location = new Point( 0, 275 );
-                    button2.Location = new Point( 450, 450 );
-                    button3.Location = new Point( 150, 375 );
-                    button4.Location = new Point( 150, 275 );
-                    button5.Location = new Point( 150, 175 );
-                    button6.Location = new Point( 450, 200 );
-                    button7.Location = new Point( 450, 100 );
-                    button8.Location = new Point( 450, 350 );
-                    button9.Location = new Point( 650, 275 );
-                    button10.Location = new Point( 800, 175 );
-                    button11.Location = new Point( 800, 375 );
+                    button1.Location = new Point(0, 275);
+                    button2.Location = new Point(450, 450);
+                    button3.Location = new Point(150, 375);
+                    button4.Location = new Point(150, 275);
+                    button5.Location = new Point(150, 175);
+                    button6.Location = new Point(450, 200);
+                    button7.Location = new Point(450, 100);
+                    button8.Location = new Point(450, 350);
+                    button9.Location = new Point(650, 275);
+                    button10.Location = new Point(800, 175);
+                    button11.Location = new Point(800, 375);
                     break;
                 default:
                     break;
@@ -175,7 +175,7 @@ namespace GraphicsFormsEssai
             this.DoubleBuffered = true;
             this.Paint += new PaintEventHandler(GDI_Paint);
         }
-        
+
         /// <summary>
         /// Draw the whole field in the form. Can show different points.
         /// </summary>
@@ -276,40 +276,40 @@ namespace GraphicsFormsEssai
             string text = listBox1.GetItemText(listBox1.SelectedItem);
             b.Text = text;
 
-            foreach( Control but in Controls )
+            foreach (Control but in Controls)
             {
-                if( but is Button )
+                if (but is Button)
                 {
-                    if( but.Text == text )
+                    if (but.Text == text)
                         count++;
                 }
             }
 
-            if( count == 2 )
+            if (count == 2)
             {
-                MessageBox.Show( "Le joueur est déjà utilisé" + Environment.NewLine +
-                    "Choisissez maintenant un autre joueur." );
+                MessageBox.Show("Le joueur est déjà utilisé" + Environment.NewLine +
+                    "Choisissez maintenant un autre joueur.");
                 b.Enabled = true;
                 b.Text = "";
             }
-            else if( count == 1 )
+            else if (count == 1)
             {
-                if( b.Text == "" )
+                if (b.Text == "")
                     b.Enabled = true;
-                if( b.Text == "Joueurs de votre équipe : " )
+                if (b.Text == "Joueurs de votre équipe : ")
                 {
                     b.Enabled = true;
-                    if( b == button1 )
+                    if (b == button1)
                     {
                         b.Text = "Gardien";
                     }
                     else
                         b.Text = "";
                 }
-                else if( b.Text == text )
+                else if (b.Text == text)
                 {
                     b.Enabled = false;
-                    listBox2.Items.Add( text );
+                    listBox2.Items.Add(text);
                     b.BackColor = Color.Gold;
                 }
             }
@@ -562,10 +562,10 @@ namespace GraphicsFormsEssai
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void comboBox1_SelectedIndexChanged( object sender, EventArgs e )
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             string formation = comboBox1.SelectedItem.ToString();
-            ManageComboBox( formation );
+            ManageComboBox(formation);
         }
 
         /// <summary>
@@ -576,80 +576,80 @@ namespace GraphicsFormsEssai
             string a = listBox1.SelectedItem.ToString();
 
             #region Mange listBox1 names
-            if( a == button1.Text )
+            if (a == button1.Text)
             {
                 button1.Enabled = true;
-                listBox2.Items.Remove( a );
+                listBox2.Items.Remove(a);
                 button1.BackColor = Color.Transparent;
                 button1.Text = "Gardien";
             }
-            if( a == button2.Text )
+            if (a == button2.Text)
             {
                 button2.Enabled = true;
-                listBox2.Items.Remove( a );
+                listBox2.Items.Remove(a);
                 button2.BackColor = Color.Transparent;
                 button2.Text = "";
             }
-            if( a == button3.Text )
+            if (a == button3.Text)
             {
                 button3.Enabled = true;
-                listBox2.Items.Remove( a );
+                listBox2.Items.Remove(a);
                 button3.BackColor = Color.Transparent;
                 button3.Text = "";
             }
-            if( a == button4.Text )
+            if (a == button4.Text)
             {
                 button4.Enabled = true;
-                listBox2.Items.Remove( a );
+                listBox2.Items.Remove(a);
                 button4.BackColor = Color.Transparent;
                 button4.Text = "";
             }
-            if( a == button5.Text )
+            if (a == button5.Text)
             {
                 button5.Enabled = true;
-                listBox2.Items.Remove( a );
+                listBox2.Items.Remove(a);
                 button5.BackColor = Color.Transparent;
                 button5.Text = "";
             }
-            if( a == button6.Text )
+            if (a == button6.Text)
             {
                 button6.Enabled = true;
-                listBox2.Items.Remove( a );
+                listBox2.Items.Remove(a);
                 button6.BackColor = Color.Transparent;
                 button6.Text = "";
             }
-            if( a == button7.Text )
+            if (a == button7.Text)
             {
                 button7.Enabled = true;
-                listBox2.Items.Remove( a );
+                listBox2.Items.Remove(a);
                 button7.BackColor = Color.Transparent;
                 button7.Text = "";
             }
-            if( a == button8.Text )
+            if (a == button8.Text)
             {
                 button8.Enabled = true;
-                listBox2.Items.Remove( a );
+                listBox2.Items.Remove(a);
                 button8.BackColor = Color.Transparent;
                 button8.Text = "";
             }
-            if( a == button9.Text )
+            if (a == button9.Text)
             {
                 button9.Enabled = true;
-                listBox2.Items.Remove( a );
+                listBox2.Items.Remove(a);
                 button9.BackColor = Color.Transparent;
                 button9.Text = "";
             }
-            if( a == button10.Text )
+            if (a == button10.Text)
             {
                 button10.Enabled = true;
-                listBox2.Items.Remove( a );
+                listBox2.Items.Remove(a);
                 button10.BackColor = Color.Transparent;
                 button10.Text = "";
             }
-            if( a == button11.Text )
+            if (a == button11.Text)
             {
                 button11.Enabled = true;
-                listBox2.Items.Remove( a );
+                listBox2.Items.Remove(a);
                 button11.BackColor = Color.Transparent;
                 button11.Text = "";
             }
@@ -661,7 +661,7 @@ namespace GraphicsFormsEssai
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void listBox1_SelectedIndexChanged( object sender, EventArgs e )
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             ManageListBox1WithButtonsPlayers();
         }
@@ -671,32 +671,32 @@ namespace GraphicsFormsEssai
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void button12_Click( object sender, EventArgs e )
+        private void button12_Click(object sender, EventArgs e)
         {
             #region Reset Button Management
-            foreach( Control c in this.Controls )
+            foreach (Control c in this.Controls)
             {
-                if( c is Button )
+                if (c is Button)
                 {
-                    Button b = ( Button )c;
+                    Button b = (Button)c;
                     b.Enabled = true;
                     b.Text = "";
                     b.BackColor = Color.White;
                 }
-                if( c is ListBox )
+                if (c is ListBox)
                 {
-                    ListBox l = ( ListBox )c;
+                    ListBox l = (ListBox)c;
                     l.Items.Clear();
                 }
             }
-            NewGDI( this );
+            NewGDI(this);
             #endregion
         }
 
-        private void button13_Click( object sender, EventArgs e )
+        private void button13_Click(object sender, EventArgs e)
         {
             myTeam.Formation = comboBox1.Text;
-            listBox1.Items.Add( myTeam.Formation );
+            listBox1.Items.Add(myTeam.Formation);
             _game.SaveMyTeamToXML(myTeam.Formation, _game);
         }
     }
