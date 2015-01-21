@@ -35,6 +35,7 @@ namespace Sims.SimSoccerModel
                 .Select( eT => new Player( this, eT, i  ) )
                 .ToList();
         }
+
         public XElement ToXml()
         {
             return new XElement( "Players", _players.Select( ( t, idx ) => t.ToXml( idx ) ) );
