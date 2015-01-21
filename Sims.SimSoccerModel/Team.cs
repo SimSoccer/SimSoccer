@@ -251,6 +251,11 @@ namespace Sims.SimSoccerModel
                             new XElement("ActualTeamTag", res.ActualTeamTag),
                             new XElement("Status", res.Status)))));
         }
+
+        public void TransferPlayer()
+        {
+
+        }
         public string Name
         {
             get { return _name; }

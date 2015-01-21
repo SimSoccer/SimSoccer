@@ -70,9 +70,8 @@
             this.Controls.Add(this.txtCheckPassword);
             this.Controls.Add(this.btConnexion);
             this.Name = "CheckPasswordForm";
-            this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Connection";
+            this.Text = "Connexion";
             this.Load += new System.EventHandler(this.CheckPasswordForm_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CheckPasswordForm_KeyDown);
             this.ResumeLayout(false);

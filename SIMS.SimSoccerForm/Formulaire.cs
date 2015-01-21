@@ -48,5 +48,12 @@ namespace SIMS.SimSoccerForm
                 this.Hide();
             }
         }
+
+        private void button1_Click( object sender, EventArgs e )
+        {
+            StartForm startForm = new StartForm();
+            startForm.Show();
+            this.Close();
+        }
     }
 }

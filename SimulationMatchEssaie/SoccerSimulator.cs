@@ -68,16 +68,16 @@ namespace SimulationMatchEssaie
             theone = _game.TeamList.Teams[8].TeamPlayers[8];
 
             //Position milieu de terrain pour le ballon visuellement.
-            _playerPoints = new Point( 450, 250 );
-            _ballPoints = new Point( 400, 200 );
+            _playerPoints = new Point( 480, 400 );
+            _ballPoints = new Point( 480, 350 );
             theball = new Points( ( float )_ballPoints.X, ( float )_ballPoints.Y );
-            secondObjectif = new Points( 205, 130 );
+            secondObjectif = new Points( 385, 450 );
+            theone.FinalObjectif = secondObjectif;
             listBox1.Items.Add( theone.Name);
         }
         
         private void SoccerSimulator_Load( object sender, EventArgs e )
         {
-
             t.Interval = 100;
             t.Tick += t_Tick;
             t.Start();
@@ -119,8 +119,8 @@ namespace SimulationMatchEssaie
             {
                 i++;
                 iBall++;
-                if( i == 3 && count == 1 )
-                    i = 1;
+                if( i == 2 && count == 1 )
+                    i = 0;
                 if( iBall == 7 )
                     iBall = 0;
                 _playerPoints.X = ( int )intermediatePoint.X;

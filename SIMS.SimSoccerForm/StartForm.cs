@@ -47,5 +47,15 @@ namespace SIMS.SimSoccerForm
             LG.Show();
             this.Hide();
         }
+
+        private void quitterLeJeuToolStripMenuItem_Click( object sender, EventArgs e )
+        {
+            Application.Exit();
+        }
+
+        private void qToolStripMenuItem_Click( object sender, EventArgs e )
+        {
+            MessageBox.Show( "Équipe composée de Guénolé Tout Seul. La Base", "About" );
+        }
     }
 }

@@ -17,7 +17,7 @@ namespace SIMS.SimSoccerForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault( false );
-            Application.Run( new StartForm() );
+            Application.Run( new StartPage() );
             //Application.Run( new FormInscription() );
         }
     }
