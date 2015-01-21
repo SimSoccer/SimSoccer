@@ -80,39 +80,39 @@ namespace Sims.SimSoccerModel
                 _behindGoalLine2.Add(_secondBehindGoalLinePoints);
             }
 
-            for( int _x = 0; _x < 100; _x++ )
+            for (int _x = 0; _x < 100; _x++)
             {
-                for( int _y = 0; _y < 600; _y++ )
+                for (int _y = 0; _y < 600; _y++)
                 {
-                    Points _goalZonePoints = new Points( _x, _y );
-                    _goalZone.Add( _goalZonePoints );
+                    Points _goalZonePoints = new Points(_x, _y);
+                    _goalZone.Add(_goalZonePoints);
                 }
             }
 
-            for( int _x = 100; _x < 300; _x++ )
+            for (int _x = 100; _x < 300; _x++)
             {
-                for( int _y = 0; _y < 600; _y++ )
+                for (int _y = 0; _y < 600; _y++)
                 {
-                    Points _defenseZonePoints = new Points( _x, _y );
-                    _defenseZone.Add( _defenseZonePoints );
+                    Points _defenseZonePoints = new Points(_x, _y);
+                    _defenseZone.Add(_defenseZonePoints);
                 }
             }
 
-            for( int _x = 300; _x < 750; _x++ )
+            for (int _x = 300; _x < 750; _x++)
             {
-                for( int _y = 0; _y < 600; _y++ )
+                for (int _y = 0; _y < 600; _y++)
                 {
-                    Points _middleZonePoints = new Points( _x, _y );
-                    _middleZone.Add( _middleZonePoints );
+                    Points _middleZonePoints = new Points(_x, _y);
+                    _middleZone.Add(_middleZonePoints);
                 }
             }
 
-            for( int _x = 750; _x < 1000; _x++ )
+            for (int _x = 750; _x < 1000; _x++)
             {
-                for( int _y = 0; _y < 600; _y++ )
+                for (int _y = 0; _y < 600; _y++)
                 {
-                    Points _strikeZonePoints = new Points( _x, _y );
-                    _strikeZone.Add( _strikeZonePoints );
+                    Points _strikeZonePoints = new Points(_x, _y);
+                    _strikeZone.Add(_strikeZonePoints);
                 }
             }
         }

@@ -93,5 +93,11 @@ namespace SIMS.SimSoccerForm
             GDI myGDI = new GDI( _game );
             myGDI.Show();
         }
+
+        private void transfertsToolStripMenuItem_Click( object sender, EventArgs e )
+        {
+            TransfertsInterface transfertInterface = new TransfertsInterface();
+            transfertInterface.Show();
+        }
     }
 }
