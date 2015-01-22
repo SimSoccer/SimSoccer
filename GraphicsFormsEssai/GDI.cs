@@ -44,6 +44,7 @@ namespace GraphicsFormsEssai
                         string shirtNumber = myTeam.TeamPlayers[i].Poste;
                         listBox1.Items.Add(shirtNumber + " " + Environment.NewLine + players);
                         playerList.Items.Add(shirtNumber + " " + Environment.NewLine + players);
+                        /// A finir string gardien = myTeam.TeamPlayers[i].Name;
                     }
                 }
             }
@@ -55,7 +56,6 @@ namespace GraphicsFormsEssai
             listBox1.Items.Add("Pink => Middlefield players' Zone");
             listBox1.Items.Add("Red => Strikers' Zone");
 
-            button1.Text = "Gardien";
             button12.Text = "Recommencer";
             comboBox1.Text = "Formations";
             #endregion
@@ -698,6 +698,7 @@ namespace GraphicsFormsEssai
             myTeam.Formation = comboBox1.Text;
             listBox1.Items.Add(myTeam.Formation);
             _game.SaveMyTeamToXML(myTeam.Formation, _game);
+            _game.SaveTheStatusOfThePlayersInMyTeam(myTeam.Formation, _game);
         }
     }
 }

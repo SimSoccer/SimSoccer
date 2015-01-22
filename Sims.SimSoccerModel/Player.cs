@@ -55,7 +55,6 @@ namespace Sims.SimSoccerModel
             _name = name;
         }
 
-
         public Game Game
         {
             get { return _owner.Game; }

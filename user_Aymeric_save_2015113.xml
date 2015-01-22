@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Game>
-  <Profil ID="8">
-    <UserName>guegue</UserName>
-    <Password>123456</Password>
-    <LastName>Kikabou</LastName>
-    <FirstName>Guénolé</FirstName>
-    <BirthDate>07/01/2015</BirthDate>
-    <Avatar>.\..\..\..\avatar.jpg</Avatar>
-    <ChosenTeam>Olympique Lyonnais</ChosenTeam>
+  <Profil ID="10">
+    <UserName>Aymeric</UserName>
+    <Password>sonson</Password>
+    <LastName>DONNE</LastName>
+    <FirstName>Loic</FirstName>
+    <BirthDate>13/01/2015</BirthDate>
+    <Avatar>C:\Users\user\Saved Games\Pictures\10665072_1561466367408127_8057202961293740328_n.jpg</Avatar>
+    <ChosenTeam>Association Sportive de St-Etienne</ChosenTeam>
     <Journey>0</Journey>
   </Profil>
   <Teams>
@@ -3562,7 +3562,7 @@
       <Manager>Hubert FOURNIER</Manager>
       <LeagueRanking>9</LeagueRanking>
       <Level>74</Level>
-      <Formation>3.5.2</Formation>
+      <Formation>4.4.2 losange</Formation>
       <Players>
         <Titulaire>
           <Player Id="200" Name="Anthony Lopes">
