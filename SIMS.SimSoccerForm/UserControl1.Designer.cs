@@ -34,12 +34,12 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.InscriptionBox = new System.Windows.Forms.GroupBox();
+            this.textLastName = new System.Windows.Forms.TextBox();
+            this.textFirstName = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textFirstName = new System.Windows.Forms.TextBox();
-            this.textLastName = new System.Windows.Forms.TextBox();
             this.InscriptionBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,14 +73,14 @@
             this.txtName.Location = new System.Drawing.Point(110, 41);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(100, 20);
-            this.txtName.TabIndex = 3;
+            this.txtName.TabIndex = 1;
             // 
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(110, 77);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(100, 20);
-            this.txtPassword.TabIndex = 4;
+            this.txtPassword.TabIndex = 2;
             // 
             // InscriptionBox
             // 
@@ -101,6 +101,38 @@
             this.InscriptionBox.TabStop = false;
             this.InscriptionBox.Text = "Inscription";
             // 
+            // textLastName
+            // 
+            this.textLastName.Location = new System.Drawing.Point(110, 112);
+            this.textLastName.Name = "textLastName";
+            this.textLastName.Size = new System.Drawing.Size(100, 20);
+            this.textLastName.TabIndex = 3;
+            // 
+            // textFirstName
+            // 
+            this.textFirstName.Location = new System.Drawing.Point(110, 150);
+            this.textFirstName.Name = "textFirstName";
+            this.textFirstName.Size = new System.Drawing.Size(100, 20);
+            this.textFirstName.TabIndex = 4;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(13, 150);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(43, 13);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Prénom";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(13, 119);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(29, 13);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Nom";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -116,38 +148,6 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(164, 20);
             this.dateTimePicker1.TabIndex = 5;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 119);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(29, 13);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Nom";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(13, 150);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(43, 13);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Prénom";
-            // 
-            // textFirstName
-            // 
-            this.textFirstName.Location = new System.Drawing.Point(110, 150);
-            this.textFirstName.Name = "textFirstName";
-            this.textFirstName.Size = new System.Drawing.Size(100, 20);
-            this.textFirstName.TabIndex = 9;
-            // 
-            // textLastName
-            // 
-            this.textLastName.Location = new System.Drawing.Point(110, 112);
-            this.textLastName.Name = "textLastName";
-            this.textLastName.Size = new System.Drawing.Size(100, 20);
-            this.textLastName.TabIndex = 10;
             // 
             // UserControl1
             // 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -250,6 +251,59 @@ namespace Sims.SimSoccerModel
                             new XElement("FinancialValue", res.FinancialValue),
                             new XElement("ActualTeamTag", res.ActualTeamTag),
                             new XElement("Status", res.Status)))));
+        }
+
+        public void TransferPlayer(string playerName, string teamName)
+        {
+            foreach( Team t in _game.TeamList.Teams )
+            {
+                if( t.Name == teamName )
+                {
+                    foreach( Player p in t.TeamPlayers )
+                    {
+                        if( playerName == p.Name )
+                        {
+                            DateTime today = DateTime.Now;
+                            string userDoc = @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml";
+                            if( File.Exists( userDoc ) )
+                            {
+                                XDocument doc = XDocument.Load( userDoc );
+                                var target = doc.Element( "Game" ).Element( "Teams" ).Elements( "Team" )
+                                                .Where( tP => tP.Attribute( "Name" ).Value == teamName )
+                                                .Select( tP => tP.Element( "Players" ) )
+                                                .Select( tP => tP.Elements() )
+                                                .Select( tP => tP.ElementAt( p.Id ) )
+                                                .Select( tP => tP.Element( "Player" ) )
+                                                .Where( tP => tP.Attribute( "Name" ).Value == playerName );
+
+                                var target2 = doc.Element( "Game" ).Element( "Teams" ).Elements( "Team" )
+                                    .Where( sT => sT.Attribute( "Name" ).Value == _game.ChoosenTeam )
+                                    .Select( sT => sT.Element( "Players" ) )
+                                    .Select( sT => sT.Element( "Reservistes" ) )
+                                    .Single();
+
+                                foreach( Team playerTeam in _game.TeamList.Teams )
+                                {
+                                    if( playerTeam.Name == _game.ChoosenTeam )
+                                    {
+                                        var teamTag = target.Select( tS => tS.Element( "ActualTeamTag" ) ).Single();
+                                        teamTag.Value = playerTeam.TeamTag;
+                                        var actualClub = target.Select( aC => aC.Element( "ActualClub" ) ).Single();
+                                        actualClub.Value = playerTeam.Name;
+                                        var previousClub = target.Select( pC => pC.Element( "PreviousClub" ) ).Single();
+                                        previousClub.Value = t.Name;
+                                    }
+                                }
+                                
+
+                                target2.Add( target );
+                                target.Remove();
+                                doc.Save( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+                            }
+                        }
+                    }
+                }
+            }
         }
         public string Name
         {

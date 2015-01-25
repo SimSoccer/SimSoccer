@@ -53,13 +53,6 @@ namespace SIMS.SimSoccerForm
             }
             else
             {
-                // string nameFile = "" + listBox1.SelectedItem;
-                // string chemin = Path.GetFullPath( nameFile );
-
-                // if( System.IO.File.Exists( chemin ) )
-                //{
-                //  XDocument doc = XDocument.Load( nameFile );
-
                 XDocument doc = XDocument.Load(@".\..\..\..\" + listBox1.SelectedItem);
 
                 Game _game = new Game( doc.Root.Element( "Profil" ) );
@@ -67,8 +60,35 @@ namespace SIMS.SimSoccerForm
                 DateTime today = DateTime.Now;
                 doc.Save( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
                     
-                CheckPasswordForm CPF = new CheckPasswordForm(_game);
+                CheckPasswordForm CPF = new CheckPasswordForm(_game, this);
                 CPF.Show();
+            }
+        }
+
+        private void listBox1_KeyDown( object sender, KeyEventArgs key )
+        {
+            if( key.KeyCode == Keys.Enter )
+            {
+                if( listBox1.Items.Count == 0 )
+                {
+                    MessageBox.Show( "Il n'y a pas de partie à charger" );
+                }
+                else if( listBox1.SelectedItems.Count == 0 )
+                {
+                    MessageBox.Show( "Veuillez choisir une partie à charger" );
+                }
+                else
+                {
+                    XDocument doc = XDocument.Load( @".\..\..\..\" + listBox1.SelectedItem );
+
+                    Game _game = new Game( doc.Root.Element( "Profil" ) );
+
+                    DateTime today = DateTime.Now;
+                    doc.Save( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+
+                    CheckPasswordForm CPF = new CheckPasswordForm( _game, this );
+                    CPF.Show();
+                }
             }
         }
     }

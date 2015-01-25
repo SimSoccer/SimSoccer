@@ -36,7 +36,8 @@
             // 
             // btLoadGame
             // 
-            this.btLoadGame.Location = new System.Drawing.Point(171, 69);
+            this.btLoadGame.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btLoadGame.Location = new System.Drawing.Point(386, 209);
             this.btLoadGame.Name = "btLoadGame";
             this.btLoadGame.Size = new System.Drawing.Size(75, 23);
             this.btLoadGame.TabIndex = 0;
@@ -46,15 +47,18 @@
             // 
             // listBox1
             // 
+            this.listBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.listBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.listBox1.Location = new System.Drawing.Point(23, 36);
+            this.listBox1.Location = new System.Drawing.Point(147, 173);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(142, 147);
+            this.listBox1.Size = new System.Drawing.Size(233, 147);
             this.listBox1.TabIndex = 0;
+            this.listBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.listBox1_KeyDown);
             // 
             // btBackToStartForm
             // 
-            this.btBackToStartForm.Location = new System.Drawing.Point(171, 164);
+            this.btBackToStartForm.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btBackToStartForm.Location = new System.Drawing.Point(386, 251);
             this.btBackToStartForm.Name = "btBackToStartForm";
             this.btBackToStartForm.Size = new System.Drawing.Size(75, 23);
             this.btBackToStartForm.TabIndex = 1;
@@ -72,6 +76,7 @@
             this.Controls.Add(this.btBackToStartForm);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btLoadGame);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "LoadGameForm";
             this.Text = "Charger une partie";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
