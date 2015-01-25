@@ -107,9 +107,9 @@
             // 
             this.playJourney.Location = new System.Drawing.Point(285, 27);
             this.playJourney.Name = "playJourney";
-            this.playJourney.Size = new System.Drawing.Size(75, 23);
+            this.playJourney.Size = new System.Drawing.Size(98, 23);
             this.playJourney.TabIndex = 7;
-            this.playJourney.Text = "Play journey";
+            this.playJourney.Text = "Jouer journée";
             this.playJourney.UseVisualStyleBackColor = true;
             this.playJourney.Click += new System.EventHandler(this.playJourney_Click);
             // 
