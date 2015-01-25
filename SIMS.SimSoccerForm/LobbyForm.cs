@@ -96,7 +96,7 @@ namespace SIMS.SimSoccerForm
 
         private void transfertsToolStripMenuItem_Click( object sender, EventArgs e )
         {
-            TransfertsInterface transfertInterface = new TransfertsInterface();
+            TransfertsInterface transfertInterface = new TransfertsInterface(_game);
             transfertInterface.Show();
         }
     }
