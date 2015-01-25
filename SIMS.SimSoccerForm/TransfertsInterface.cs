@@ -16,7 +16,7 @@ namespace SIMS.SimSoccerForm
     {
         readonly Game _game;
         readonly IReadOnlyCollection<Team> _teams;
-        Team _searchedTeam;
+        Team _selectedTeam;
         int i = 0;
         public TransfertsInterface(Game game)
         {
@@ -46,7 +46,7 @@ namespace SIMS.SimSoccerForm
                 i++;
             }
 
-            pictureBox2_Click( this, EventArgs.Empty );
+            pictureBox2_Click( this, EventArgs.Empty ); 
         }
 
         private void button1_Click( object sender, EventArgs e )
@@ -74,15 +74,12 @@ namespace SIMS.SimSoccerForm
         }
 
         private void textBox2_TextChanged( object sender, EventArgs e )
-        {
-            string Players = string.Empty;
-
-            for( int cmpt = 0; cmpt < _game.TeamList.Teams[i].TeamPlayers.Count; cmpt++ )
+        { 
+            listBox1.Items.Clear();
+            foreach( Player p in _game.TeamList.Teams[i].TeamPlayers )
             {
-                Players += _game.TeamList.Teams[i].TeamPlayers[cmpt].Name + "\r\n";
+                listBox1.Items.Add( p.Name );
             }
-
-            textBox2.Text = Players;
         }
 
         private void textBox3_TextChanged( object sender, EventArgs e )
@@ -90,6 +87,19 @@ namespace SIMS.SimSoccerForm
             string teamName = string.Empty;
             teamName = _game.TeamList.Teams[i].Name;
             textBox3.Text = teamName;
+            _selectedTeam = _game.TeamList.Teams[i];
+        }
+
+        private void button3_Click( object sender, EventArgs e )
+        {
+            if( listBox1.SelectedItem == null)
+                MessageBox.Show( "Veuillez sélectionner un joueur s'il vous plaît.", "Attention!" );
+            else
+            {
+                string playerName = listBox1.SelectedItem.ToString();
+                string teamName = textBox3.Text;
+                _selectedTeam.TransferPlayer( playerName, _selectedTeam.Name );
+            }
         }
 
     }
