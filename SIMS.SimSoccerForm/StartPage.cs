@@ -29,7 +29,7 @@ namespace SIMS.SimSoccerForm
             songs.Add( @".\..\..\..\Musics\Beyonc_-_Drunk_in_Love_Explicit_ft_.wav" );
             songs.Add( @".\..\..\..\Musics\drake-king-leon_hoodcelebritys.wav" );
             player1 = new SoundPlayer();
-            player1.SoundLocation = songs[m];   
+            player1.SoundLocation = songs[m];
         }
 
         private void StartPage_Load( object sender, EventArgs e )
