@@ -251,6 +251,14 @@ namespace Sims.SimSoccerModel
 
             target.Element("ChosenTeam").Value = _choosenTeam;
 
+            var target2 =
+            doc.Element( "Teams" ).Elements( "Team" )
+            .Where( t => t.Attribute( "Name" ).Value == _choosenTeam )
+            .Select( t => t.Element( "Manager" ) )
+            .Single();
+
+            target2.Value = _firstName + " " + _lastName;
+
             doc.Save(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
         }
         public void Transfer(Game game, Player p)

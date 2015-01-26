@@ -13,9 +13,11 @@ namespace SIMS.SimSoccerForm
     public partial class CheckPasswordForm : Form
     {
         readonly Game _game;
-        public CheckPasswordForm(Game game)
+        LoadGameForm _lgf;
+        public CheckPasswordForm(Game game, LoadGameForm lgf)
         {
             _game = game;
+            _lgf = lgf;
             InitializeComponent();
             this.ActiveControl = txtCheckPassword;
         }
@@ -27,6 +29,7 @@ namespace SIMS.SimSoccerForm
                 LobbyForm LB = new LobbyForm( _game );
                 LB.Show();
                 this.Close();
+                _lgf.Close();
             }
             else
             {

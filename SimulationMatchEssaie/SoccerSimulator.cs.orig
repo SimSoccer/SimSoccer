@@ -69,25 +69,25 @@ namespace SimulationMatchEssaie
             _theOne = _game.TeamList.Teams[8].TeamPlayers[8];
 
 <<<<<<< HEAD
-            //Position milieu de terrain pour le ballon visuellement.
-            _playerPoints = new Point( 450, 110 );
-            _ballPoints = new Point( 120, 400 );
-            theball = new Points( ( float )_ballPoints.X, ( float )_ballPoints.Y );
-            secondObjectif = new Points( 100, 250 );
-            listBox1.Items.Add( theone.Name);
-=======
             ///Position milieu de terrain pour le ballon visuellement.
             _playerPoints = new Point(450, 250);
             _ballPoints = new Point(400, 200);
             _theBall = new Points((float)_ballPoints.X, (float)_ballPoints.Y);
             _secondObjectif = new Points(205, 130);
             listBox1.Items.Add(_theOne.Name);
->>>>>>> local_ai_and_formation_dev
+=======
+            //Position milieu de terrain pour le ballon visuellement.
+            _playerPoints = new Point( 480, 400 );
+            _ballPoints = new Point( 480, 350 );
+            theball = new Points( ( float )_ballPoints.X, ( float )_ballPoints.Y );
+            secondObjectif = new Points( 385, 450 );
+            theone.FinalObjectif = secondObjectif;
+            listBox1.Items.Add( theone.Name);
+>>>>>>> local_guenole_ai_features
         }
 
         private void SoccerSimulator_Load(object sender, EventArgs e)
         {
-
             t.Interval = 100;
             t.Tick += t_Tick;
             t.Start();
@@ -128,6 +128,7 @@ namespace SimulationMatchEssaie
             if (_intermediatePoint.X != 0 && _intermediatePoint.Y != 0)
             {
                 i++;
+<<<<<<< HEAD
                 _iBall++;
                 if (i == 3 && count == 1)
                     i = 1;
@@ -135,6 +136,15 @@ namespace SimulationMatchEssaie
                     _iBall = 0;
                 _playerPoints.X = (int)_intermediatePoint.X;
                 _playerPoints.Y = (int)_intermediatePoint.Y;
+=======
+                iBall++;
+                if( i == 2 && count == 1 )
+                    i = 0;
+                if( iBall == 7 )
+                    iBall = 0;
+                _playerPoints.X = ( int )intermediatePoint.X;
+                _playerPoints.Y = ( int )intermediatePoint.Y;
+>>>>>>> local_guenole_ai_features
             }
             #endregion
 
@@ -157,11 +167,7 @@ namespace SimulationMatchEssaie
             // Show the field's boxes.
             foreach (Box p in _game.Field.Boxes)
             {
-<<<<<<< HEAD
-                _game.Graphic.DrawRectangle( Pens.Silver, p._x, p._y, p._size.Width, p._size.Heigth );
-=======
                 _game.Graphic.DrawRectangle(Pens.WhiteSmoke, p._x, p._y, p._size.Width, p._size.Heigth);
->>>>>>> local_ai_and_formation_dev
             }
 
             /*

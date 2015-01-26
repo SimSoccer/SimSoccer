@@ -106,6 +106,17 @@ namespace Sims.SimSoccerModel
             _image = i;
         }
 
+        /// <summary>
+        /// Draw the player in the form.
+        /// </summary>
+        /// <param name="game"></param>
+        /// <param name="playerImage"></param>
+        /// <param name="p"></param>
+        /// <param name="player"></param>
+        /// <param name="ball"></param>
+        /// <param name="nextPoint"></param>
+        /// <param name="i"></param>
+        /// <param name="count"></param>
         public void DrawPlayer(Game game, Image playerImage, Point p, Points player, Point ball, Points nextPoint, int i, int count)
         {
             _i = i;
@@ -119,9 +130,9 @@ namespace Sims.SimSoccerModel
             if (nextPoint.X > player.X)
             {
                 if (_i == 0)
-                    playerImage = Image.FromFile(@".\..\..\..\images\PlayerOne.png");
-                else if (_i == 1)
                     playerImage = Image.FromFile(@".\..\..\..\images\PlayerMoveRight1.png");
+                else if( _i == 1 )
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveRight2.png" );
                 else if (_i == 2)
                     playerImage = Image.FromFile(@".\..\..\..\images\PlayerMoveRight2.png");
                 else if (_i == 3)
@@ -137,9 +148,9 @@ namespace Sims.SimSoccerModel
                 size = new System.Drawing.Size(31, 70);
                 _player = new Rectangle(p, size);
                 if (_i == 0)
-                    playerImage = Image.FromFile(@".\..\..\..\images\PlayerOne.png");
-                else if (_i == 1)
                     playerImage = Image.FromFile(@".\..\..\..\images\PlayerMoveDown1.png");
+                else if( _i == 1 )
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveDown2.png" );
                 else if (_i == 2)
                     playerImage = Image.FromFile(@".\..\..\..\images\PlayerMoveDown2.png");
                 else if (_i == 3)
@@ -155,9 +166,9 @@ namespace Sims.SimSoccerModel
                 size = new System.Drawing.Size(31, 70);
                 _player = new Rectangle(p, size);
                 if (_i == 0)
-                    playerImage = Image.FromFile(@".\..\..\..\images\PlayerOne.png");
-                else if (_i == 1)
                     playerImage = Image.FromFile(@".\..\..\..\images\PlayerMoveUp1.png");
+                else if( _i == 1 )
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveUp2.png" );
                 else if (_i == 2)
                     playerImage = Image.FromFile(@".\..\..\..\images\PlayerMoveUp2.png");
                 else if (_i == 3)
@@ -171,9 +182,43 @@ namespace Sims.SimSoccerModel
             else if (nextPoint.X < player.X)
             {
                 if (_i == 0)
-                    playerImage = Image.FromFile(@".\..\..\..\images\PlayerOne.png");
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveLeft1.png" );
                 else if (_i == 1)
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveLeft2.png" );
+                else if( _i == 2 )
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveLeft2.png" );
+                else if( _i == 3 )
+                    playerImage = Image.FromFile( @".\..\..\..\images\p1Shoot.png" );
+                else if( _i == 4 )
+                    playerImage = Image.FromFile( @".\..\..\..\images\p5shoot.png" );
+                else if( _i == 5 )
+                    playerImage = Image.FromFile( @".\..\..\..\images\p1Stand.png" );
+                else throw new InvalidOperationException( "Le nombre a été dépassé : " + _i );
+            }
+            else if( nextPoint.X == 0 && nextPoint.Y == 0 && this.FinalObjectif.X - this.PlayerPosition.X > 0 && this.FinalObjectif.Y - this.PlayerPosition.Y > 0
+                || nextPoint.X == 0 && nextPoint.Y == 0 && this.FinalObjectif.X - this.PlayerPosition.X > 0 && this.FinalObjectif.Y - this.PlayerPosition.Y < 0 )
+            {
+                if( _i == 0 )
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveRight1.png" );
+                else if( _i == 1 )
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveRight2.png" );
+                else if( _i == 2 )
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveRight2.png" );
+                else if( _i == 3 )
+                    playerImage = Image.FromFile( @".\..\..\..\images\p1Shoot.png" );
+                else if( _i == 4 )
+                    playerImage = Image.FromFile( @".\..\..\..\images\p5shoot.png" );
+                else if( _i == 5 )
+                    playerImage = Image.FromFile( @".\..\..\..\images\p1Stand.png" );
+                else throw new InvalidOperationException( "Le nombre a été dépassé : " + _i );
+            }
+            else if( nextPoint.X == 0 && nextPoint.Y == 0 && this.FinalObjectif.X - this.PlayerPosition.X < 0 && this.FinalObjectif.Y - this.PlayerPosition.Y > 0
+                || nextPoint.X == 0 && nextPoint.Y == 0 && this.FinalObjectif.X - this.PlayerPosition.X < 0 && this.FinalObjectif.Y - this.PlayerPosition.Y < 0 )
+            {
+                if( _i == 0 )
                     playerImage = Image.FromFile(@".\..\..\..\images\PlayerMoveLeft1.png");
+                else if( _i == 1 )
+                    playerImage = Image.FromFile( @".\..\..\..\images\PlayerMoveLeft2.png" );
                 else if (_i == 2)
                     playerImage = Image.FromFile(@".\..\..\..\images\PlayerMoveLeft2.png");
                 else if (_i == 3)
@@ -184,7 +229,6 @@ namespace Sims.SimSoccerModel
                     playerImage = Image.FromFile(@".\..\..\..\images\p1Stand.png");
                 else throw new InvalidOperationException("Le nombre a été dépassé : " + _i);
             }
-
             _game.Graphic.DrawImage(playerImage, _player);
         }
 
@@ -271,7 +315,11 @@ namespace Sims.SimSoccerModel
             return _nextPosition;
         }
 
-
+        /// <summary>
+        /// Save a player's informations in a XML file
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public XElement ToXml(int id)
         {
             return new XElement("Player",
@@ -445,6 +493,7 @@ namespace Sims.SimSoccerModel
         public Points FinalObjectif
         {
             get { return _finalObjectif; }
+            set { _finalObjectif = value; }
         }
 
         public Points BallInGame

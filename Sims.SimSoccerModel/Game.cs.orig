@@ -41,8 +41,6 @@ namespace Sims.SimSoccerModel
             get { return _rnd; }
         }
 
-
-        
         public PlayerList PlayerList
         {
             get { return _playerList; }
@@ -125,7 +123,7 @@ namespace Sims.SimSoccerModel
             XDocument doc = XDocument.Load(@".\..\..\..\user_" + userName + "*");
         }
 
-        public Game( string userName, string userPassword, string lastName, string firstName )
+        public Game(string userName, string userPassword, string lastName, string firstName)
         {
             _userName = userName;
             _userPassword = userPassword;
@@ -151,19 +149,19 @@ namespace Sims.SimSoccerModel
             this.xElement = e;
             _userName = e.Element("UserName").Value;
             _userPassword = e.Element("Password").Value;
-            _lastName = e.Element( "LastName" ).Value;
-            _firstName = e.Element( "FirstName" ).Value;
+            _lastName = e.Element("LastName").Value;
+            _firstName = e.Element("FirstName").Value;
             _choosenTeam = e.Element("ChosenTeam").Value;
             _avatar = e.Element("Avatar").Value;
-            _birthDate = e.Element( "BirthDate" ).Value;
-            _journey = Convert.ToInt32( e.Element( "Journey" ).Value );
+            _birthDate = e.Element("BirthDate").Value;
+            _journey = Convert.ToInt32(e.Element("Journey").Value);
             XDocument doc = XDocument.Load(@".\..\..\..\Ligue1Players2.xml");
             XDocument doc2 = XDocument.Load(@".\..\..\..\Ligue1Teams.xml");
             XDocument doc3 = XDocument.Load(@".\..\..\..\Tactics.xml");
             _playerList = new PlayerList(this, doc.Root.Element("Players"));
             _teamList = new TeamList(this, doc2.Root.Element("Teams"));
             _formation = new FormationList(this, doc3.Root.Element("Tactics"));
-            _ligue = new Ligue( this, 2014 );
+            _ligue = new Ligue(this, 2014);
             _field = new Field();
             _rnd = new Random();
             _ligue.fillCalendar();
@@ -216,100 +214,160 @@ namespace Sims.SimSoccerModel
                         new XElement("BirthDate", today),
                         new XElement("Avatar", _avatar),
                         new XElement("ChosenTeam", ""),
-                        new XElement("Journey", _journey)),                        
+                        new XElement("Journey", _journey)),
                     game.TeamList.ToXml(),
                     new XElement("FreePlayers",
                         new XElement("TheFreePlayer"))));
 
             _birthDate = today.ToShortDateString();
-            gameSave.Save( @".\..\..\..\user_" + _userName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            gameSave.Save(@".\..\..\..\user_" + _userName + "_save_" + today.Year + today.Month + today.Day + ".xml");
         }
-        public void SaveProfilToXML(string birthDate, string avatar, Game game )
+        public void SaveProfilToXML(string birthDate, string avatar, Game game)
         {
             _avatar = avatar;
             _birthDate = birthDate;
             DateTime today = DateTime.Now;
 
-            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var doc = XElement.Load(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
             var target = doc
-                 .Elements( "Profil" )
+                 .Elements("Profil")
                  .Single();
 
-            target.Element( "Avatar" ).Value = _avatar;
-            target.Element( "BirthDate" ).Value = _birthDate;
-            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            target.Element("Avatar").Value = _avatar;
+            target.Element("BirthDate").Value = _birthDate;
+            doc.Save(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
 
         }
-        public void ToXML( string ChoosenTeam, Game game )
+        public void ToXML(string ChoosenTeam, Game game)
         {
             _choosenTeam = ChoosenTeam;
 
             DateTime today = DateTime.Now;
 
-            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var doc = XElement.Load(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
             var target = doc
                  .Elements("Profil")
                  .Single();
 
-            target.Element( "ChosenTeam" ).Value = _choosenTeam;
+            target.Element("ChosenTeam").Value = _choosenTeam;
+
+<<<<<<< HEAD
+            doc.Save(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
+=======
+            var target2 =
+            doc.Element( "Teams" ).Elements( "Team" )
+            .Where( t => t.Attribute( "Name" ).Value == _choosenTeam )
+            .Select( t => t.Element( "Manager" ) )
+            .Single();
+
+            target2.Value = _firstName + " " + _lastName;
 
             doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+>>>>>>> local_guenole_ai_features
         }
-        public void Transfer( Game game, Player p )
+        public void Transfer(Game game, Player p)
         {
             DateTime today = DateTime.Now;
 
-            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var doc = XElement.Load(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
             var target = doc
-                 .Elements( "Teams" ).Elements("Players")
+                 .Elements("Teams").Elements("Players")
                  .Single();
 
-            target.Element( "Player" ).Value = _choosenTeam;
+            target.Element("Player").Value = _choosenTeam;
             //target.Attribute( "Name" ).Value = p;
 
             doc.Save(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
-            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            doc.Save(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
         }
 
         public int RndGauss(int nb1, int nb2)
         {
-           
+
             double nbGoal1 = Rnd.NextDouble();
             double nbGoal2 = Rnd.NextDouble();
 
-            double randStdNormal = Math.Sqrt( -2.0 * Math.Log( nbGoal1 ) ) * Math.Sin( 2.0 * Math.PI * nbGoal2 );
+            double randStdNormal = Math.Sqrt(-2.0 * Math.Log(nbGoal1)) * Math.Sin(2.0 * Math.PI * nbGoal2);
             double RandNbGoal = nb1 + nb2 * randStdNormal;
             RandNbGoal += 4;
 
-            int nbGoal = Convert.ToInt32( RandNbGoal );
+            int nbGoal = Convert.ToInt32(RandNbGoal);
 
-            if( nbGoal < 0 ) nbGoal = 0;
-            else if( nbGoal > 8 ) nbGoal = 8;
+            if (nbGoal < 0) nbGoal = 0;
+            else if (nbGoal > 8) nbGoal = 8;
 
             return nbGoal;
 
         }
 
-        public void SaveProfilToXML( string birthDate, string avatar, Game _game, int journey )
+        public void SaveProfilToXML(string birthDate, string avatar, Game _game, int journey)
         {
             _avatar = avatar;
             _birthDate = birthDate;
             _journey = journey;
             DateTime today = DateTime.Now;
 
-            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var doc = XElement.Load(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
             var target = doc
-                 .Elements( "Profil" )
+                 .Elements("Profil")
                  .Single();
 
-            target.Element( "Avatar" ).Value = _avatar;
-            target.Element( "BirthDate" ).Value = _birthDate;
-            target.Element( "Journey" ).Value = _journey.ToString();
-            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
-<<<<<<< HEAD
+            target.Element("Avatar").Value = _avatar;
+            target.Element("BirthDate").Value = _birthDate;
+            target.Element("Journey").Value = _journey.ToString();
+            doc.Save(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
+        }
 
-=======
->>>>>>> ba786d835483dfe55c4d287a53d1685ba707fc19
+
+        public void SaveMyTeamToXML(string formation, Game game)
+        {
+            DateTime today = DateTime.Now;
+
+            var doc = XElement.Load(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
+            var target = doc
+                 .Elements("Teams").Elements("Team").Where(t => t.Attribute("Name").Value == _choosenTeam)
+                 .Single();
+
+            target.Element("Formation").Value = formation;
+
+            // Summarry
+            // BY THE MOMENT IN COMMENT BY DEFAULT
+            // Here are lines to remove the "Titulaire" element in the player team
+            // Will have to save the actual element. Will have to save the new PlayerList.
+            // With new TeamType, Replacants and reservists playerList in the XML
+            // Summary
+
+            /*
+            var target2 = doc
+                 .Elements( "Teams" ).Elements( "Team" ).Where( t => t.Attribute( "Name" ).Value == _choosenTeam ).Elements( "Players" ).Elements("Titulaire");
+
+            target2.Remove();*/
+
+            doc.Save(@".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml");
+        }
+
+        public void SaveTheStatusOfThePlayersInMyTeam(string formation, Game game)
+        {
+            DateTime _today = DateTime.Now;
+
+            var doc = XElement.Load(@".\..\..\..\user_" + UserName + "_save_" + _today.Year + _today.Month + _today.Day + ".xml");
+
+            var target = doc
+                .Element("Teams").Elements("Team").Elements("Players")
+                 .Where(t => t.Attribute("Name").Value == _choosenTeam)
+                 .Select(t => t.Element("Titulaire"));
+
+            var target2 = doc
+                .Element("Teams").Elements("Team").Elements("Players")
+                 .Where(t => t.Attribute("Name").Value == _choosenTeam)
+                 .Select(t => t.Element("Remplacent"));
+
+            var target3 = doc
+                .Element("Teams").Elements("Team").Elements("Players")
+                 .Where(t => t.Attribute("Name").Value == _choosenTeam)
+                 .Select(t => t.Element("Reserviste"));
+
+            target.Remove(); target2.Remove(); target3.Remove();
         }
     }
 }
