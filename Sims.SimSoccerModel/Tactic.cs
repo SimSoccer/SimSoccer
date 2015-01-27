@@ -20,15 +20,5 @@ namespace Sims.SimSoccerModel
         {
             _formations = new List<Formation>();
         }
-
-        public void MovePlayer(Player p, List<Player> currentlyList, List<Player> listWanted)
-        {
-            if (!currentlyList.Contains(p) || listWanted.Contains(p)) throw new InvalidOperationException();
-            else
-            {
-                currentlyList.Remove(p);
-                listWanted.Add(p);
-            }
-        }
     }
 }
