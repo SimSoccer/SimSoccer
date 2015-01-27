@@ -43,8 +43,8 @@ namespace SimulationMatchEssaie
         {
             InitializeComponent();
 
-            docX = XDocument.Load(@".\..\..\..\user_Lolo_save_20141222.xml");
-            _game = new Game(docX.Root.Element("Profil"));
+            docX = XDocument.Load( @".\..\..\..\user_rami_save_2015127.xml" );
+            _game = new Game(docX.Element("Game"));
 
             _player = Image.FromFile(@".\..\..\..\images\PlayerOne.png");
             _field = Image.FromFile(@".\..\..\..\images\nefield.png");
@@ -72,13 +72,13 @@ namespace SimulationMatchEssaie
             _playerPoints = new Point( 480, 400 );
             _ballPoints = new Point( 480, 350 );
             _theBall = new Points((float)_ballPoints.X, (float)_ballPoints.Y);
-            secondObjectif = new Points( 385, 450 );
-            theone.FinalObjectif = secondObjectif;
+            _secondObjectif = new Points( 385, 450 );
+            _theOne.FinalObjectif = _secondObjectif;
         }
 
         private void SoccerSimulator_Load(object sender, EventArgs e)
         {
-            t.Interval = 100;
+            t.Interval = 10;
             t.Tick += t_Tick;
             t.Start();
             this.DoubleBuffered = true;
