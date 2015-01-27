@@ -27,6 +27,7 @@ namespace Sims.SimSoccerModel
         private XElement xElement;
         readonly Field _field;
         Graphics _graphic;
+        int _season;
 
         public Graphics Graphic
         {
@@ -114,6 +115,11 @@ namespace Sims.SimSoccerModel
             set { _choosenTeam = value; }
         }
 
+        public int Season
+        {
+            get { return _season; }
+        }
+
         public Game()
         {
             XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
@@ -149,6 +155,7 @@ namespace Sims.SimSoccerModel
             _rnd = new Random();
             _avatar = @".\..\..\..\avatar.jpg";
             _field = new Field();
+            GameToXml( this );
             _ligue.fillCalendar();
         }
 
@@ -164,8 +171,6 @@ namespace Sims.SimSoccerModel
             _avatar = e.Element( "Profil" ).Element( "Avatar" ).Value;
             _birthDate = e.Element( "Profil" ).Element( "BirthDate" ).Value;
             _journey = Convert.ToInt32( e.Element( "Profil" ).Element( "Journey" ).Value );
-            /*XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
-            XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );*/
             XDocument doc3 = XDocument.Load( @".\..\..\..\Tactics.xml" );
             _playerList = new PlayerList( this, e.Element( "Players" ), 1 );
             _teamList = new TeamList( this, e.Element( "Teams" ) );
@@ -210,7 +215,7 @@ namespace Sims.SimSoccerModel
                     saveNameUserId = i.ToString();
 
             }
-
+            _season = 1;
             DateTime today = DateTime.Now;
 
             XDocument gameSave = new XDocument(
@@ -224,6 +229,9 @@ namespace Sims.SimSoccerModel
                         new XElement( "BirthDate", today ),
                         new XElement( "Avatar", _avatar ),
                         new XElement( "ChosenTeam", "" ),
+                        new XElement( "Season", _season ),
+                        new XElement( "Calendar",
+                            new XElement( "Days" ) ),
                         new XElement( "Journey", _journey ) ),
                     game.TeamList.ToXml(),
                     game.PlayerList.ToXml(),
