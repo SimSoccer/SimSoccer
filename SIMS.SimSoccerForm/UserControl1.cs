@@ -72,7 +72,7 @@ namespace SIMS.SimSoccerForm
         public void Inscription( string userName, string userPassword, string lastName, string firstName)
         {
             Game _game = new Game( userName, userPassword, lastName , firstName );
-            _game.GameToXml(_game);
+            //_game.GameToXml(_game);
             DateTime result = dateTimePicker1.Value;
             _game.SaveProfilToXML( result.ToShortDateString(), _game.Avatar, _game );
             SelectTeamForm ST = new SelectTeamForm( _game );
