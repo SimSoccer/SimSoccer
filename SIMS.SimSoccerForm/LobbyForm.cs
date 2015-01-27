@@ -72,7 +72,7 @@ namespace SIMS.SimSoccerForm
         private void btExit_Click( object sender, EventArgs e )
         {
 
-            _game.SaveProfilToXML( _game.BirthDate, _game.Avatar, _game , _game.Journey);
+            _game.SaveTheGame();
             Application.Exit();
         }
 

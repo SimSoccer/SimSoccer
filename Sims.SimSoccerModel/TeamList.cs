@@ -55,5 +55,9 @@ namespace Sims.SimSoccerModel
             _teams.Add(team);
             return team;
         }
+        public void AddTeamToList( Team t )
+        {
+            _teams.Add( t );
+        }
     }
 }
