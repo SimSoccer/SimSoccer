@@ -36,6 +36,16 @@ namespace Sims.SimSoccerModel
                 .ToList();
         }
 
+        public PlayerList( Game game, XElement e, int forNothing )
+        {
+            i = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
+            _game = game;
+            _players = e.Elements( "Player" )
+                .OrderBy( eT => int.Parse( eT.Attribute( "Id" ).Value ) )
+                .Select( eT => new Player( this, eT, i, 1 ) )
+                .ToList();
+        }
+
         public XElement ToXml()
         {
             return new XElement( "Players", _players.Select( ( t, idx ) => t.ToXml( idx ) ) );
@@ -59,6 +69,11 @@ namespace Sims.SimSoccerModel
             var player = new Player( this, uniqueName );
             _players.Add( player );
             return player;
+        }
+
+        public void AddPlayerToList(Player p)
+        {
+            _players.Add( p );
         }
     }
 }

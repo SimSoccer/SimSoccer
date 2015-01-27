@@ -105,5 +105,10 @@ namespace SIMS.SimSoccerForm
                 player1.Play();
             }
         }
+
+        private void stopToolStripMenuItem_Click( object sender, EventArgs e )
+        {
+            player1.Stop();
+        }
     }
 }

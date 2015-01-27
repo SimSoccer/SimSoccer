@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -28,6 +29,8 @@ namespace Sims.SimSoccerModel
         List<Player> _remplacents;
         List<Player> _reservist;
         readonly Game _game;
+        int _id;
+        int _budget;
         #endregion
 
         #region contructor
@@ -147,6 +150,7 @@ namespace Sims.SimSoccerModel
                 }
             }
 
+            _id = int.Parse(e.Attribute( "Id" ).Value);
             _name = e.Attribute("Name").Value;
             TeamTag = e.Element("TeamTag").Value;
             Town = e.Element("Town").Value;
@@ -155,6 +159,7 @@ namespace Sims.SimSoccerModel
             Manager = e.Element("Manager").Value;
             LeagueRanking = int.Parse(e.Element("LeagueRanking").Value);
             Level = int.Parse(e.Element("Level").Value);
+            _budget = int.Parse( e.Element( "Budget" ).Value );
 
             XElement xml = new XElement("Players",
                 from p in _players
@@ -188,7 +193,8 @@ namespace Sims.SimSoccerModel
                         new XElement("Logo", Logo),
                         new XElement("Manager", Manager),
                         new XElement("LeagueRanking", LeagueRanking),
-                        new XElement("Level", Level),
+                        new XElement( "Level", Level ),
+                        new XElement( "Budget", Budget ),
                         new XElement("Formation", Formation),
                         new XElement("Players",
                             new XElement("Titulaire",
@@ -255,6 +261,12 @@ namespace Sims.SimSoccerModel
 
         public void TransferPlayer(string playerName, string teamName)
         {
+            Player newPlayer = new Player(_game.PlayerList, "toto");
+            Player previousPlayer = new Player( _game.PlayerList, "tata" );
+            Team NewPreviousPlayer = new Team( _game.TeamList, "tata" );
+            Team previousPlayerTeam = new Team(_owner, "tonton");
+            Team newPlayerTeam = new Team( _owner, "titi" );
+            Team newNewPlayerTeam = new Team( _owner, "rheee" );
             foreach( Team t in _game.TeamList.Teams )
             {
                 if( t.Name == teamName )
@@ -271,15 +283,37 @@ namespace Sims.SimSoccerModel
                                 var target = doc.Element( "Game" ).Element( "Teams" ).Elements( "Team" )
                                                 .Where( tP => tP.Attribute( "Name" ).Value == teamName )
                                                 .Select( tP => tP.Element( "Players" ) )
-                                                .Select( tP => tP.Elements() )
-                                                .Select( tP => tP.ElementAt( p.Id ) )
-                                                .Select( tP => tP.Element( "Player" ) )
+                                                .Elements()
+                                                .Elements( "Player" )
                                                 .Where( tP => tP.Attribute( "Name" ).Value == playerName );
 
                                 var target2 = doc.Element( "Game" ).Element( "Teams" ).Elements( "Team" )
                                     .Where( sT => sT.Attribute( "Name" ).Value == _game.ChoosenTeam )
                                     .Select( sT => sT.Element( "Players" ) )
                                     .Select( sT => sT.Element( "Reservistes" ) )
+                                    .Single();
+
+                                var target3 = doc.Element( "Game" ).Element( "Players" ).Elements( "Player" )
+                                                .Where( tP => tP.Attribute( "Name" ).Value == playerName );
+
+                                var target4 = doc.Element( "Game" ).Element( "Teams" ).Elements( "Team" )
+                                    .Where( cT => cT.Attribute( "Name" ).Value == _game.ChoosenTeam )
+                                    .Single();
+                                newPlayerTeam = new Team( _owner, target4 );
+
+                                var target5 = doc.Element( "Game" ).Element( "Teams" ).Elements( "Team" )
+                                   .Where( cT => cT.Attribute( "Name" ).Value == teamName )
+                                   .Single();
+                                previousPlayerTeam = new Team( _owner, target5 );
+
+                                var target6 = doc.Element( "Game" ).Element( "Teams" ).Elements("Team")
+                                    .Where(cT => cT.Attribute("Name").Value == _game.ChoosenTeam)
+                                    .Select(cT => cT.Element("Budget"))
+                                    .Single();
+
+                                var target7 = doc.Element( "Game" ).Element( "Teams" ).Elements( "Team" )
+                                    .Where( cT => cT.Attribute( "Name" ).Value == teamName )
+                                    .Select( cT => cT.Element( "Budget" ) )
                                     .Single();
 
                                 foreach( Team playerTeam in _game.TeamList.Teams )
@@ -292,22 +326,68 @@ namespace Sims.SimSoccerModel
                                         actualClub.Value = playerTeam.Name;
                                         var previousClub = target.Select( pC => pC.Element( "PreviousClub" ) ).Single();
                                         previousClub.Value = t.Name;
+                                        var status = target.Select( tS => tS.Element( "Status" ) ).Single();
+                                        status.Value = "Reserviste";
+
+                                        var teamTag2 = target3.Select( tS => tS.Element( "ActualTeamTag" ) ).Single();
+                                        teamTag2.Value = playerTeam.TeamTag;
+                                        var actualClub2 = target3.Select( aC => aC.Element( "ActualClub" ) ).Single();
+                                        actualClub2.Value = playerTeam.Name;
+                                        var previousClub2 = target3.Select( pC => pC.Element( "PreviousClub" ) ).Single();
+                                        previousClub.Value = t.Name;
+                                        var status2 = target3.Select( tS => tS.Element( "Status" ) ).Single();
+                                        status2.Value = "Reserviste";
+
+                                        newPlayerTeam = playerTeam;
                                     }
                                 }
-                                
 
                                 target2.Add( target );
                                 target.Remove();
+                                previousPlayer = p;
+
+                                XElement tt = target3.Single();
+                                Image i = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
+                                newPlayer = new Player( _game.PlayerList, tt, i );
+                                int otherPlayerBudget = int.Parse(target6.Value) - newPlayer.FinancialValue;
+                                target6.Value = otherPlayerBudget.ToString();
+                                target7.Value = ( _budget + newPlayer.FinancialValue ).ToString();
                                 doc.Save( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+                                
+                                doc = XDocument.Load( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+                                target4 = doc.Element( "Game" ).Element( "Teams" ).Elements( "Team" )
+                                    .Where( cT => cT.Attribute( "Name" ).Value == _game.ChoosenTeam )
+                                    .Single();
+                                newNewPlayerTeam = new Team( _owner, target4 );
+
+                                target5 = doc.Element( "Game" ).Element( "Teams" ).Elements( "Team" )
+                                    .Where( cT => cT.Attribute( "Name" ).Value == teamName )
+                                    .Single();
+                                NewPreviousPlayer = new Team( _owner, target5 );
                             }
                         }
                     }
                 }
+                
             }
+            _game.PlayerList.AddPlayerToList( newPlayer );
+            _game.PlayerList.RemovePlayer( previousPlayer );
+            _game.TeamList.Teams[newPlayerTeam.Id].TeamPlayers.Add( newPlayer );
+
+            _game.TeamList.Teams[previousPlayerTeam.Id].TeamPlayers.Remove( previousPlayer );
+            _game.TeamList.AddTeamToList( NewPreviousPlayer );
+            _game.TeamList.RemoveTeam( this );
+            _game.TeamList.RemoveTeam( newPlayerTeam );
+            _game.TeamList.AddTeamToList( newNewPlayerTeam );
         }
         public string Name
         {
             get { return _name; }
+        }
+
+        public int Id
+        {
+            get { return _id; }
         }
 
         public string TeamTag
@@ -356,6 +436,11 @@ namespace Sims.SimSoccerModel
         {
             get { return _playerName; }
             set { _playerName = value; }
+        }
+
+        public int Budget
+        {
+            get { return _budget; }
         }
     }
 }

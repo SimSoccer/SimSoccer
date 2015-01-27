@@ -36,6 +36,7 @@
             this.musiqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.suivantToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.précédentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.stopToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,7 +72,8 @@
             // 
             this.musiqueToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.suivantToolStripMenuItem,
-            this.précédentToolStripMenuItem});
+            this.précédentToolStripMenuItem,
+            this.stopToolStripMenuItem});
             this.musiqueToolStripMenuItem.Name = "musiqueToolStripMenuItem";
             this.musiqueToolStripMenuItem.Size = new System.Drawing.Size(83, 20);
             this.musiqueToolStripMenuItem.Text = "MusicPlayer";
@@ -89,6 +91,13 @@
             this.précédentToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.précédentToolStripMenuItem.Text = "Précédent";
             this.précédentToolStripMenuItem.Click += new System.EventHandler(this.précédentToolStripMenuItem_Click);
+            // 
+            // stopToolStripMenuItem
+            // 
+            this.stopToolStripMenuItem.Name = "stopToolStripMenuItem";
+            this.stopToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.stopToolStripMenuItem.Text = "Stop";
+            this.stopToolStripMenuItem.Click += new System.EventHandler(this.stopToolStripMenuItem_Click);
             // 
             // StartPage
             // 
@@ -122,5 +131,6 @@
         private System.Windows.Forms.ToolStripMenuItem musiqueToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem suivantToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem précédentToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem stopToolStripMenuItem;
     }
 }
