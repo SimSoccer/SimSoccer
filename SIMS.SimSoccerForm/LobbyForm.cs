@@ -99,5 +99,11 @@ namespace SIMS.SimSoccerForm
             TransfertsInterface transfertInterface = new TransfertsInterface(_game);
             transfertInterface.Show();
         }
+
+        private void btOpenRanking_Click( object sender, EventArgs e )
+        {
+            RankingDisplay RD = new RankingDisplay(_game, this);
+            RD.Show();
+        }
     }
 }
