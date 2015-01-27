@@ -37,14 +37,16 @@ namespace SimulationMatchEssaie
         Team _myTeam;
         Ball _gameBall;
         Player _playerGotTheBall;
+        Random rndX = new Random();
+        Random rndY = new Random();
         #endregion
 
         public SoccerSimulator()
         {
             InitializeComponent();
 
-            docX = XDocument.Load( @".\..\..\..\user_Lolo_save_20141222.xml" );
-            _game = new Game(docX.Element("Game"));
+            docX = XDocument.Load( @".\..\..\..\user_guegue_save_2015127.xml" );
+            _game = new Game(docX.Element("Game"), 1);
 
             _player = Image.FromFile(@".\..\..\..\images\PlayerOne.png");
             _field = Image.FromFile(@".\..\..\..\images\nefield.png");
@@ -72,7 +74,7 @@ namespace SimulationMatchEssaie
             _playerPoints = new Point( 480, 400 );
             _ballPoints = new Point( 480, 350 );
             _theBall = new Points((float)_ballPoints.X, (float)_ballPoints.Y);
-            _secondObjectif = new Points( 385, 450 );
+            _secondObjectif = new Points( rndX.Next(0,1000), rndY.Next(0,200) );
             _theOne.FinalObjectif = _secondObjectif;
         }
 
@@ -89,13 +91,12 @@ namespace SimulationMatchEssaie
             #region Manage Player With And Without The Ball
             count = 1;
 
-            foreach (Player p in MyPlayers)
-            {
-                if (p.GotTheBall == true)
+           
+                if( _theOne.GotTheBall == true )
                 {
-                    _playerGotTheBall = p;
+                    _playerGotTheBall = _theOne;
                     _gameBall.IsOwned = true;
-                    _gameBall.PlayerOwner = p;
+                    _gameBall.PlayerOwner = _theOne;
                     Points _nextGameBallPosition = _gameBall.NextPoint(_gameBall.PlayerOwner);
                     _nextBallPoint = _nextGameBallPosition;
                     listBox1.Items.Add("Game Ball Next Point = " + _nextGameBallPosition.X + ";" + _nextGameBallPosition.Y);
@@ -104,9 +105,9 @@ namespace SimulationMatchEssaie
                     _theBall.X = (float)_ballPoints.X;
                     _theBall.Y = (float)_ballPoints.Y;
                     listBox1.Items.Add("Diff X : " + _gameBall._diffX);
-                    listBox1.Items.Add("Diff Y : " + _gameBall._diffY);
+                    listBox1.Items.Add( "Diff Y : " + _gameBall._diffY );
                 }
-            }
+            
 
             _intermediatePoint = _theOne.PointToObjectif(_gameBall.BallPosition, _secondObjectif);
 
@@ -115,17 +116,20 @@ namespace SimulationMatchEssaie
             listBox1.Items.Add("Point intermediare : " + _intermediatePoint.X + "; " + _intermediatePoint.Y);
             listBox1.Items.Add("Second Objectif : " + _secondObjectif.X + "; " + _secondObjectif.Y);
 
-            if (_intermediatePoint.X != 0 && _intermediatePoint.Y != 0)
+            if( _intermediatePoint.X != 0 && _intermediatePoint.Y != 0 )
             {
                 i++;
                 _iBall++;
                 if( i == 2 && count == 1 )
                     i = 0;
-                if (_iBall == 7)
+                if( _iBall == 7 )
                     _iBall = 0;
                 _playerPoints.X = (int)_intermediatePoint.X;
                 _playerPoints.Y = (int)_intermediatePoint.Y;
+
             }
+
+            _secondObjectif = new Points( rndX.Next( 0, 1000 ), rndY.Next( 0, 200 ) );            
             #endregion
 
             Invalidate();
