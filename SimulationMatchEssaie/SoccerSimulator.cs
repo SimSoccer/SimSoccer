@@ -74,13 +74,13 @@ namespace SimulationMatchEssaie
             _playerPoints = new Point( 480, 400 );
             _ballPoints = new Point( 480, 350 );
             _theBall = new Points((float)_ballPoints.X, (float)_ballPoints.Y);
-            _secondObjectif = new Points( rndX.Next(0,1000), rndY.Next(0,200) );
+            _secondObjectif = new Points( 385, 450 );
             _theOne.FinalObjectif = _secondObjectif;
         }
 
         private void SoccerSimulator_Load(object sender, EventArgs e)
         {
-            t.Interval = 100;
+            t.Interval = 10;
             t.Tick += t_Tick;
             t.Start();
             this.DoubleBuffered = true;

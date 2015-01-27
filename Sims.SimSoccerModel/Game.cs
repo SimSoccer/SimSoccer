@@ -16,6 +16,7 @@ namespace Sims.SimSoccerModel
         readonly TeamList _teamList;
         readonly PlayerList _playerList;
         readonly Ligue _ligue;
+        readonly Ranking _ranking;
         string _userName;
         string _userPassword;
         string _lastName;
@@ -66,6 +67,11 @@ namespace Sims.SimSoccerModel
         public Match Match
         {
             get { return _match; }
+        }
+
+        public Ranking Ranking
+        {
+            get { return _ranking; }
         }
 
         public Ligue Ligue
@@ -145,6 +151,7 @@ namespace Sims.SimSoccerModel
             _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
             _formation = new FormationList( this, doc3.Root.Element( "Tactics" ) );
             _ligue = new Ligue( this, 2014 );
+            _ranking = new Ranking( this );
             _rnd = new Random();
             _avatar = @".\..\..\..\avatar.jpg";
             _field = new Field();
@@ -171,6 +178,7 @@ namespace Sims.SimSoccerModel
             _ligue = new Ligue( this, 2014 );
             _field = new Field();
             _rnd = new Random();
+            _ranking = new Ranking( this );
             _ligue.fillCalendar();
         }
 
