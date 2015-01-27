@@ -45,6 +45,7 @@ namespace Sims.SimSoccerModel
             _outside = ext;
             _home.Opponent.Add(_outside);
             _outside.Opponent.Add(_home);
+
         }
 
         public override string ToString()

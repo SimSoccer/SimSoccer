@@ -41,11 +41,25 @@ namespace Sims.SimSoccerModel
                 {
                     _calendar.MatchDay[i].Matchs = MatchDayGo(r, (i % 2 == 0), indexTeams);
                     _calendar.MatchDay[i].initHoraires();
+                    foreach( Match m in _calendar.MatchDay[i].Matchs )
+                    {
+                        DateTime today = DateTime.Now;
+                        XDocument doc = XDocument.Load( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+                        doc.Root.Element( "Profil" ).Element( "Calendar" ).Element( "Days" ).Add( new XElement( "Day" + _calendar.MatchDay[i].Numero, m.Home.TeamTag + " - " + m.Outside.TeamTag + " le " + m.Hour ) );
+                        doc.Save( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+                    }
                     indexTeams = permutations(indexTeams);
                 }
                 else
                     _calendar.MatchDay[i].Matchs = MatchDayBack(i);
                 _calendar.MatchDay[i].initHoraires();
+                foreach( Match m in _calendar.MatchDay[i].Matchs )
+                {
+                    DateTime today = DateTime.Now;
+                    XDocument doc = XDocument.Load( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+                    doc.Root.Element( "Profil" ).Element( "Calendar" ).Element( "Days" ).Add( new XElement( "Day" + _calendar.MatchDay[i].Numero, m.Home.TeamTag + " - " + m.Outside.TeamTag + " le " + m.Hour ) );
+                    doc.Save( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+                }
             }
         }
 
