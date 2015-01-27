@@ -23,6 +23,7 @@ namespace Sims.SimSoccerModel
         int _level;
         string _playerName;
         string _formation;
+        int _leaguePoints;
         List<Team> _opponent;
         List<Player> _teamType;
         List<Player> _remplacents;
@@ -87,7 +88,7 @@ namespace Sims.SimSoccerModel
             set { _players = value; }
         }
 
-        public Team(TeamList owner, XElement e)
+             public Team(TeamList owner, XElement e)
         {
             _game = owner.Game;
             int i;
@@ -98,6 +99,7 @@ namespace Sims.SimSoccerModel
             _remplacents = new List<Player>();
             _reservist = new List<Player>();
             _owner = owner;
+            _leaguePoints = 0;
             string tt = e.Element("TeamTag").Value;
             _formation = e.Element("Formation").Value;
 
@@ -357,5 +359,12 @@ namespace Sims.SimSoccerModel
             get { return _playerName; }
             set { _playerName = value; }
         }
+
+        public int LeaguePoint
+        {
+            get { return _leaguePoints; }
+            set { _leaguePoints = value; }
+        }
+
     }
 }
