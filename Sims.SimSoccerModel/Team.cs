@@ -140,6 +140,7 @@ namespace Sims.SimSoccerModel
                     if (_players.Count < 0) throw new IndexOutOfRangeException();
                     _players.Add(_owner.Game.PlayerList.Players[i]);
                     _reservist.Add(_owner.Game.PlayerList.Players[i]);
+
                     for (j = 0; j < _players.Count; j++)
                     {
                         _playerName = _players[j].Name;
@@ -295,7 +296,6 @@ namespace Sims.SimSoccerModel
                                     }
                                 }
                                 
-
                                 target2.Add( target );
                                 target.Remove();
                                 doc.Save( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
