@@ -99,6 +99,11 @@ namespace SIMS.SimSoccerForm
                 string playerName = listBox1.SelectedItem.ToString();
                 string teamName = textBox3.Text;
                 _selectedTeam.TransferPlayer( playerName, _selectedTeam.Name );
+            } 
+            listBox1.Items.Clear();
+            foreach( Player p in _game.TeamList.Teams[i].TeamPlayers )
+            {
+                listBox1.Items.Add( p.Name );
             }
         }
 

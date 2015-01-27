@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.Drawing;
+using System.Globalization;
 
 namespace Sims.SimSoccerModel
 {
@@ -68,7 +69,7 @@ namespace Sims.SimSoccerModel
             ShirtNumber = int.Parse(e.Element("ShirtNumber").Value);
             _nationality = e.Element("Nationality").Value;
             Poste = e.Element("Poste").Value;
-            Height = float.Parse(e.Element("Height").Value);
+            Height = float.Parse( e.Element( "Height" ).Value, CultureInfo.InvariantCulture.NumberFormat );
             Weight = int.Parse(e.Element("Weight").Value);
             _birthDate = e.Element("BirthDate").Value;
             _birthPlace = e.Element("BirthPlace").Value;
@@ -81,6 +82,29 @@ namespace Sims.SimSoccerModel
             FinancialValue = int.Parse(e.Element("FinancialValue").Value);
             ActualTeamTag = e.Element("ActualTeamTag").Value;
             _status = e.Element("Status").Value;
+            _image = i;
+        }
+
+        public Player( PlayerList owner, XElement e, Image i, int forNothing )
+        {
+            _id = int.Parse( e.Attribute( "Id" ).Value );
+            _name = e.Attribute( "Name" ).Value;
+            ShirtNumber = int.Parse( e.Element( "ShirtNumber" ).Value );
+            _nationality = e.Element( "Nationality" ).Value;
+            Poste = e.Element( "Poste" ).Value;
+            Height = float.Parse( e.Element( "Height" ).Value, CultureInfo.InvariantCulture.NumberFormat );
+            Weight = int.Parse( e.Element( "Weight" ).Value );
+            _birthDate = e.Element( "BirthDate" ).Value;
+            _birthPlace = e.Element( "BirthPlace" ).Value;
+            PreviousClub = e.Element( "PreviousClub" ).Value;
+            ActualClub = e.Element( "ActualClub" ).Value;
+            Stats = int.Parse( e.Element( "Stats" ).Value );
+            FormState = int.Parse( e.Element( "FormState" ).Value );
+            Injury = bool.Parse( e.Element( "Injury" ).Value );
+            Mental = int.Parse( e.Element( "Mental" ).Value );
+            FinancialValue = int.Parse( e.Element( "FinancialValue" ).Value );
+            ActualTeamTag = e.Element( "ActualTeamTag" ).Value;
+            _status = e.Element( "Status" ).Value;
             _image = i;
         }
 
@@ -328,8 +352,9 @@ namespace Sims.SimSoccerModel
             new XAttribute("Name", Name),
             new XElement("ShirtNumber", ShirtNumber),
             new XElement("Nationality", Nationality),
-            new XElement("Post", Poste),
-            new XElement("Height", Height),
+            new XElement("Poste", Poste),
+            new XElement( "Height", Height ),
+            new XElement( "Weight", Weight ),
             new XElement("BirthDate", BirthDate),
             new XElement("BirthPlace", BirthPlace),
             new XElement("PreviousClub", PreviousClub),

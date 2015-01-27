@@ -149,19 +149,19 @@ namespace Sims.SimSoccerModel
         {
             // TODO: Complete member initialization
             this.xElement = e;
-            _userName = e.Element( "UserName" ).Value;
-            _userPassword = e.Element( "Password" ).Value;
-            _lastName = e.Element( "LastName" ).Value;
-            _firstName = e.Element( "FirstName" ).Value;
-            _choosenTeam = e.Element( "ChosenTeam" ).Value;
-            _avatar = e.Element( "Avatar" ).Value;
-            _birthDate = e.Element( "BirthDate" ).Value;
-            _journey = Convert.ToInt32( e.Element( "Journey" ).Value );
-            XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
-            XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
+            _userName = e.Element("Profil").Element( "UserName" ).Value;
+            _userPassword = e.Element( "Profil" ).Element( "Password" ).Value;
+            _lastName = e.Element( "Profil" ).Element( "LastName" ).Value;
+            _firstName = e.Element( "Profil" ).Element( "FirstName" ).Value;
+            _choosenTeam = e.Element( "Profil" ).Element( "ChosenTeam" ).Value;
+            _avatar = e.Element( "Profil" ).Element( "Avatar" ).Value;
+            _birthDate = e.Element( "Profil" ).Element( "BirthDate" ).Value;
+            _journey = Convert.ToInt32( e.Element( "Profil" ).Element( "Journey" ).Value );
+            /*XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
+            XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );*/
             XDocument doc3 = XDocument.Load( @".\..\..\..\Tactics.xml" );
-            _playerList = new PlayerList( this, doc.Root.Element( "Players" ) );
-            _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
+            _playerList = new PlayerList( this, e.Element( "Players" ), 1 );
+            _teamList = new TeamList( this, e.Element( "Teams" ) );
             _formation = new FormationList( this, doc3.Root.Element( "Tactics" ) );
             _ligue = new Ligue( this, 2014 );
             _field = new Field();
@@ -218,6 +218,7 @@ namespace Sims.SimSoccerModel
                         new XElement( "ChosenTeam", "" ),
                         new XElement( "Journey", _journey ) ),
                     game.TeamList.ToXml(),
+                    game.PlayerList.ToXml(),
                     new XElement( "FreePlayers",
                         new XElement( "TheFreePlayer" ) ) ) );
 
@@ -313,6 +314,14 @@ namespace Sims.SimSoccerModel
             target.Element( "Avatar" ).Value = _avatar;
             target.Element( "BirthDate" ).Value = _birthDate;
             target.Element( "Journey" ).Value = _journey.ToString();
+            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+        }
+
+        public void SaveTheGame()
+        {
+            DateTime today = DateTime.Now;
+
+            var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
             doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }
 
