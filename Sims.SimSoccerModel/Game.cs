@@ -345,21 +345,20 @@ namespace Sims.SimSoccerModel
         public void SaveTheStatusOfThePlayersInMyTeam(string formation, Game game)
         {
             DateTime _today = DateTime.Now;
-
-            var doc = XElement.Load(@".\..\..\..\user_" + UserName + "_save_" + _today.Year + _today.Month + _today.Day + ".xml");
+            var doc = XElement.Load(@".\..\..\..\user_" + game.UserName + "_save_" + _today.Year + _today.Month + _today.Day + ".xml");
 
             var target = doc
-                .Element("Teams").Elements("Team").Elements("Players")
+                .Elements("Teams").Elements("Team").Elements("Players")
                  .Where(t => t.Attribute("Name").Value == _choosenTeam)
                  .Select(t => t.Element("Titulaire"));
 
             var target2 = doc
-                .Element("Teams").Elements("Team").Elements("Players")
+                .Elements("Teams").Elements("Team").Elements("Players")
                  .Where(t => t.Attribute("Name").Value == _choosenTeam)
                  .Select(t => t.Element("Remplacent"));
 
             var target3 = doc
-                .Element("Teams").Elements("Team").Elements("Players")
+                .Elements("Teams").Elements("Team").Elements("Players")
                  .Where(t => t.Attribute("Name").Value == _choosenTeam)
                  .Select(t => t.Element("Reserviste"));
 

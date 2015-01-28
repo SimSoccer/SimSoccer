@@ -321,7 +321,7 @@ namespace GraphicsFormsEssai
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="key"></param>
-        private void button_KeyDown(object sender, KeyEventArgs key)
+        private void button_KeyDown(object sender, KeyEventArgs key) // pas intéressant pour moi loic 
         {
             #region Move Buttons
             // Button 1 Move
@@ -554,7 +554,7 @@ namespace GraphicsFormsEssai
             {
                 button11.Top += 50;
             }
-            #endregion
+            #endregion  
         }
 
         /// <summary>
@@ -654,7 +654,7 @@ namespace GraphicsFormsEssai
                 button11.Text = "";
             }
             #endregion
-        }
+        } // Pas intéressant pour moi ( loic)
 
         /// <summary>
         /// Re-activate the button if user want to change the player's position.
