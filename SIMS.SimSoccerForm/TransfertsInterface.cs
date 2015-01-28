@@ -101,7 +101,9 @@ namespace SIMS.SimSoccerForm
                 _selectedTeam.TransferPlayer( playerName, _selectedTeam.Name );
             } 
             listBox1.Items.Clear();
-            foreach( Player p in _game.TeamList.Teams[i].TeamPlayers )
+            Invalidate();
+            _game.TeamList.Teams.OrderBy( n => n.Id );
+            foreach( Player p in _game.TeamList.Teams[(i-1)].TeamPlayers )
             {
                 listBox1.Items.Add( p.Name );
             }

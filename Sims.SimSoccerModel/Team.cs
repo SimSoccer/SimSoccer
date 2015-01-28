@@ -374,12 +374,13 @@ namespace Sims.SimSoccerModel
             }
             _game.PlayerList.AddPlayerToList( newPlayer );
             _game.PlayerList.RemovePlayer( previousPlayer );
-            _game.TeamList.Teams[newPlayerTeam.Id].TeamPlayers.Add( newPlayer );
+            _game.TeamList.Teams[newNewPlayerTeam.Id].TeamPlayers.Add( newPlayer );
 
-            _game.TeamList.Teams[previousPlayerTeam.Id].TeamPlayers.Remove( previousPlayer );
-            _game.TeamList.AddTeamToList( NewPreviousPlayer );
-            _game.TeamList.RemoveTeam( this );
+            _game.TeamList.Teams[NewPreviousPlayer.Id].TeamPlayers.Remove( previousPlayer );
+            _game.TeamList.AddTeamToList( this );
+            //_game.TeamList.RemoveTeam( this );
             _game.TeamList.RemoveTeam( newPlayerTeam );
+            newNewPlayerTeam.TeamPlayers.Add( newPlayer );
             _game.TeamList.AddTeamToList( newNewPlayerTeam );
         }
         public string Name

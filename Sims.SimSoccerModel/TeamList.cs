@@ -30,7 +30,6 @@ namespace Sims.SimSoccerModel
                 .OrderBy(eT => int.Parse(eT.Attribute("Id").Value))
                 .Select(eT => new Team(this, eT))
                 .ToList();
-
         }
         public XElement ToXml()
         {
