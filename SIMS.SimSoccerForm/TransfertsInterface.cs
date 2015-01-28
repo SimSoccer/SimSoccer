@@ -17,11 +17,17 @@ namespace SIMS.SimSoccerForm
         readonly Game _game;
         readonly IReadOnlyCollection<Team> _teams;
         Team _selectedTeam;
+        Team _myTeam;
         int i = 0;
         public TransfertsInterface(Game game)
         {
             _game = game;
             _teams = _game.TeamList.Teams;
+
+            foreach( Team t in _teams )
+                if( t.Name == _game.ChoosenTeam )
+                    _myTeam = t;
+
             InitializeComponent();
             pictureBox2_Click( this, EventArgs.Empty );
         }
@@ -38,13 +44,11 @@ namespace SIMS.SimSoccerForm
         private void button2_Click( object sender, EventArgs e )
         {
             if( i == ( _game.TeamList.Teams.Count ) - 1 )
-            {
                 i = 0;
-            }
             else
-            {
                 i++;
-            }
+            if( _myTeam.Id == i )
+                i++;
 
             pictureBox2_Click( this, EventArgs.Empty ); 
         }
@@ -52,13 +56,11 @@ namespace SIMS.SimSoccerForm
         private void button1_Click( object sender, EventArgs e )
         {
             if( i == 0 )
-            {
                 i = ( _game.TeamList.Teams.Count ) - 1;
-            }
             else
-            {
                 i--;
-            }
+            if( _myTeam.Id == i )
+                i--;
 
             pictureBox2_Click( this, EventArgs.Empty );
         }
@@ -76,10 +78,8 @@ namespace SIMS.SimSoccerForm
         private void textBox2_TextChanged( object sender, EventArgs e )
         { 
             listBox1.Items.Clear();
-            foreach( Player p in _game.TeamList.Teams[i].TeamPlayers )
-            {
+            foreach( Player p in _game.TeamList.Teams[i].TeamPlayers 
                 listBox1.Items.Add( p.Name );
-            }
         }
 
         private void textBox3_TextChanged( object sender, EventArgs e )
@@ -100,14 +100,12 @@ namespace SIMS.SimSoccerForm
                 string teamName = textBox3.Text;
                 _selectedTeam.TransferPlayer( playerName, _selectedTeam.Name );
             } 
-            listBox1.Items.Clear();
-            Invalidate();
-            _game.TeamList.Teams.OrderBy( n => n.Id );
-            foreach( Player p in _game.TeamList.Teams[(i-1)].TeamPlayers )
-            {
-                listBox1.Items.Add( p.Name );
-            }
-        }
 
+            listBox1.Items.Clear();
+            _game.TeamList.Teams.OrderBy( n => n.Id );
+
+            foreach( Player p in _game.TeamList.Teams[i].TeamPlayers )
+                listBox1.Items.Add( p.Name );
+        }
     }
 }
