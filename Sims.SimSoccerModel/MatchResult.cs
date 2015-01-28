@@ -95,6 +95,9 @@ namespace Sims.SimSoccerModel
                 _looser = _winner;
                 _textSummary = "it's a tie betwen " + _dom.TeamTag + " and " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
 
+                _dom.LeaguePoint++;
+                _ext.LeaguePoint++;
+
             }
             else if (_scoreH > _scoreO)
             {
@@ -102,12 +105,15 @@ namespace Sims.SimSoccerModel
                 _looser = _ext.Name;
                 _textSummary = _dom.TeamTag + " won against " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
 
+                _dom.LeaguePoint += 3;
             }
             else if (_scoreH < _scoreO)
             {
                 _winner = _ext.Name;
                 _looser = _dom.Name;
                 _textSummary = _dom.TeamTag + " loose against " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
+
+                _ext.LeaguePoint += 3;
 
             }
 

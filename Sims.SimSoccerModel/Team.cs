@@ -24,6 +24,7 @@ namespace Sims.SimSoccerModel
         int _level;
         string _playerName;
         string _formation;
+        int _leaguePoints;
         List<Team> _opponent;
         List<Player> _teamType;
         List<Player> _remplacents;
@@ -90,7 +91,7 @@ namespace Sims.SimSoccerModel
             set { _players = value; }
         }
 
-        public Team(TeamList owner, XElement e)
+             public Team(TeamList owner, XElement e)
         {
             _game = owner.Game;
             int i;
@@ -101,6 +102,7 @@ namespace Sims.SimSoccerModel
             _remplacents = new List<Player>();
             _reservist = new List<Player>();
             _owner = owner;
+            _leaguePoints = 0;
             string tt = e.Element("TeamTag").Value;
             _formation = e.Element("Formation").Value;
 
@@ -372,12 +374,13 @@ namespace Sims.SimSoccerModel
             }
             _game.PlayerList.AddPlayerToList( newPlayer );
             _game.PlayerList.RemovePlayer( previousPlayer );
-            _game.TeamList.Teams[newPlayerTeam.Id].TeamPlayers.Add( newPlayer );
+            _game.TeamList.Teams[newNewPlayerTeam.Id].TeamPlayers.Add( newPlayer );
 
-            _game.TeamList.Teams[previousPlayerTeam.Id].TeamPlayers.Remove( previousPlayer );
-            _game.TeamList.AddTeamToList( NewPreviousPlayer );
-            _game.TeamList.RemoveTeam( this );
+            _game.TeamList.Teams[NewPreviousPlayer.Id].TeamPlayers.Remove( previousPlayer );
+            _game.TeamList.AddTeamToList( this );
+            //_game.TeamList.RemoveTeam( this );
             _game.TeamList.RemoveTeam( newPlayerTeam );
+            newNewPlayerTeam.TeamPlayers.Add( newPlayer );
             _game.TeamList.AddTeamToList( newNewPlayerTeam );
         }
         public string Name
@@ -442,5 +445,12 @@ namespace Sims.SimSoccerModel
         {
             get { return _budget; }
         }
+
+        public int LeaguePoint
+        {
+            get { return _leaguePoints; }
+            set { _leaguePoints = value; }
+        }
+
     }
 }

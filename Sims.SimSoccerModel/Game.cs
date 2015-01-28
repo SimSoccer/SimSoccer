@@ -16,6 +16,7 @@ namespace Sims.SimSoccerModel
         readonly TeamList _teamList;
         readonly PlayerList _playerList;
         readonly Ligue _ligue;
+        readonly Ranking _ranking;
         string _userName;
         string _userPassword;
         string _lastName;
@@ -66,6 +67,11 @@ namespace Sims.SimSoccerModel
         public Match Match
         {
             get { return _match; }
+        }
+
+        public Ranking Ranking
+        {
+            get { return _ranking; }
         }
 
         public Ligue Ligue
@@ -145,6 +151,7 @@ namespace Sims.SimSoccerModel
             _teamList = new TeamList( this, doc2.Root.Element( "Teams" ) );
             _formation = new FormationList( this, doc3.Root.Element( "Tactics" ) );
             _ligue = new Ligue( this, 2014 );
+            _ranking = new Ranking( this );
             _rnd = new Random();
             _avatar = @".\..\..\..\avatar.jpg";
             _field = new Field();
@@ -157,6 +164,29 @@ namespace Sims.SimSoccerModel
             // TODO: Complete member initialization
             this.xElement = e;
             _userName = e.Element("Profil").Element( "UserName" ).Value;
+            _userPassword = e.Element( "Profil" ).Element( "Password" ).Value;
+            _lastName = e.Element( "Profil" ).Element( "LastName" ).Value;
+            _firstName = e.Element( "Profil" ).Element( "FirstName" ).Value;
+            _choosenTeam = e.Element( "Profil" ).Element( "ChosenTeam" ).Value;
+            _avatar = e.Element( "Profil" ).Element( "Avatar" ).Value;
+            _birthDate = e.Element( "Profil" ).Element( "BirthDate" ).Value;
+            _journey = Convert.ToInt32( e.Element( "Profil" ).Element( "Journey" ).Value );
+            XDocument doc3 = XDocument.Load( @".\..\..\..\Tactics.xml" );
+            _playerList = new PlayerList( this, e.Element( "Players" ), 1 );
+            _teamList = new TeamList( this, e.Element( "Teams" ) );
+            _formation = new FormationList( this, doc3.Root.Element( "Tactics" ) );
+            _ligue = new Ligue( this, 2014 );
+            _field = new Field();
+            _rnd = new Random();
+            _ranking = new Ranking( this );
+            _ligue.fillCalendar();
+        }
+
+        public Game( XElement e, int i )
+        {
+            // TODO: Complete member initialization
+            this.xElement = e;
+            _userName = e.Element( "Profil" ).Element( "UserName" ).Value;
             _userPassword = e.Element( "Profil" ).Element( "Password" ).Value;
             _lastName = e.Element( "Profil" ).Element( "LastName" ).Value;
             _firstName = e.Element( "Profil" ).Element( "FirstName" ).Value;
