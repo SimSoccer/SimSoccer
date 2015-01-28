@@ -182,6 +182,28 @@ namespace Sims.SimSoccerModel
             _ligue.fillCalendar();
         }
 
+        public Game( XElement e, int i )
+        {
+            // TODO: Complete member initialization
+            this.xElement = e;
+            _userName = e.Element( "Profil" ).Element( "UserName" ).Value;
+            _userPassword = e.Element( "Profil" ).Element( "Password" ).Value;
+            _lastName = e.Element( "Profil" ).Element( "LastName" ).Value;
+            _firstName = e.Element( "Profil" ).Element( "FirstName" ).Value;
+            _choosenTeam = e.Element( "Profil" ).Element( "ChosenTeam" ).Value;
+            _avatar = e.Element( "Profil" ).Element( "Avatar" ).Value;
+            _birthDate = e.Element( "Profil" ).Element( "BirthDate" ).Value;
+            _journey = Convert.ToInt32( e.Element( "Profil" ).Element( "Journey" ).Value );
+            XDocument doc3 = XDocument.Load( @".\..\..\..\Tactics.xml" );
+            _playerList = new PlayerList( this, e.Element( "Players" ), 1 );
+            _teamList = new TeamList( this, e.Element( "Teams" ) );
+            _formation = new FormationList( this, doc3.Root.Element( "Tactics" ) );
+            _ligue = new Ligue( this, 2014 );
+            _field = new Field();
+            _rnd = new Random();
+            _ligue.fillCalendar();
+        }
+
         public void GameToXml( Game game )
         {
             int i;
