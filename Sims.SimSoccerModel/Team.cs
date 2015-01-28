@@ -261,14 +261,17 @@ namespace Sims.SimSoccerModel
                             new XElement("Status", res.Status)))));
         }
 
+        /// <summary>
+        /// Feature to move player from this team to another team
+        /// </summary>
+        /// <param name="playerName">Chosen player</param>
+        /// <param name="teamName"></param>
         public void TransferPlayer(string playerName, string teamName)
         {
             Player newPlayer = new Player(_game.PlayerList, "toto");
             Player previousPlayer = new Player( _game.PlayerList, "tata" );
-            Team NewPreviousPlayer = new Team( _game.TeamList, "tata" );
             Team previousPlayerTeam = new Team(_owner, "tonton");
             Team newPlayerTeam = new Team( _owner, "titi" );
-            Team newNewPlayerTeam = new Team( _owner, "rheee" );
             foreach( Team t in _game.TeamList.Teams )
             {
                 if( t.Name == teamName )
@@ -293,6 +296,11 @@ namespace Sims.SimSoccerModel
                                     .Where( sT => sT.Attribute( "Name" ).Value == _game.ChoosenTeam )
                                     .Select( sT => sT.Element( "Players" ) )
                                     .Select( sT => sT.Element( "Reservistes" ) )
+                                    .Single();
+
+                                var managerName = doc.Element( "Game" ).Element( "Teams" ).Elements( "Team" )
+                                    .Where( sT => sT.Attribute( "Name" ).Value == _game.ChoosenTeam )
+                                    .Select( sT => sT.Element( "Manager" ) )
                                     .Single();
 
                                 var target3 = doc.Element( "Game" ).Element( "Players" ).Elements( "Player" )
@@ -331,6 +339,8 @@ namespace Sims.SimSoccerModel
                                         var status = target.Select( tS => tS.Element( "Status" ) ).Single();
                                         status.Value = "Reserviste";
 
+                                        var manager = managerName.Value;
+
                                         var teamTag2 = target3.Select( tS => tS.Element( "ActualTeamTag" ) ).Single();
                                         teamTag2.Value = playerTeam.TeamTag;
                                         var actualClub2 = target3.Select( aC => aC.Element( "ActualClub" ) ).Single();
@@ -357,30 +367,17 @@ namespace Sims.SimSoccerModel
                                 doc.Save( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
                                 
                                 doc = XDocument.Load( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
-                                target4 = doc.Element( "Game" ).Element( "Teams" ).Elements( "Team" )
-                                    .Where( cT => cT.Attribute( "Name" ).Value == _game.ChoosenTeam )
-                                    .Single();
-                                newNewPlayerTeam = new Team( _owner, target4 );
-
-                                target5 = doc.Element( "Game" ).Element( "Teams" ).Elements( "Team" )
-                                    .Where( cT => cT.Attribute( "Name" ).Value == teamName )
-                                    .Single();
-                                NewPreviousPlayer = new Team( _owner, target5 );
                             }
                         }
                     }
                 }
-                
             }
             _game.PlayerList.AddPlayerToList( newPlayer );
             _game.PlayerList.RemovePlayer( previousPlayer );
             _game.TeamList.Teams[newPlayerTeam.Id].TeamPlayers.Add( newPlayer );
 
-            _game.TeamList.Teams[previousPlayerTeam.Id].TeamPlayers.Remove( previousPlayer );
-            _game.TeamList.AddTeamToList( NewPreviousPlayer );
-            _game.TeamList.RemoveTeam( this );
-            _game.TeamList.RemoveTeam( newPlayerTeam );
-            _game.TeamList.AddTeamToList( newNewPlayerTeam );
+            this.TeamPlayers.Remove( previousPlayer );
+            _game.TeamList.Teams.OrderBy( n => n.Id );
         }
         public string Name
         {

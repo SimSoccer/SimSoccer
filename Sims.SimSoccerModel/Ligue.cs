@@ -34,7 +34,10 @@ namespace Sims.SimSoccerModel
             Random r = new Random();
             _calendar = new Calendar(_game.TeamList.Teams.Count, _year, this);
             List<int> indexTeams = Enumerable.Range(0, 20).OrderBy(x => r.Next()).ToList();
-
+            DateTime today = DateTime.Now;
+            XDocument doc = XDocument.Load( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var target = doc.Root.Element( "Profil" ).Element( "Calendar" ).Element( "Days" );
+            
             for (int i = 0; i < (_game.TeamList.Teams.Count - 1) * 2; i++)
             {
                 if (i < _game.TeamList.Teams.Count - 1)
@@ -43,9 +46,7 @@ namespace Sims.SimSoccerModel
                     _calendar.MatchDay[i].initHoraires();
                     foreach( Match m in _calendar.MatchDay[i].Matchs )
                     {
-                        DateTime today = DateTime.Now;
-                        XDocument doc = XDocument.Load( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
-                        doc.Root.Element( "Profil" ).Element( "Calendar" ).Element( "Days" ).Add( new XElement( "Day" + _calendar.MatchDay[i].Numero, m.Home.TeamTag + " - " + m.Outside.TeamTag + " le " + m.Hour ) );
+                        target.Add( new XElement( "Day" + _calendar.MatchDay[i].Numero, m.Home.TeamTag + " - " + m.Outside.TeamTag + " le " + m.Hour ) );
                         doc.Save( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
                     }
                     indexTeams = permutations(indexTeams);
@@ -55,9 +56,7 @@ namespace Sims.SimSoccerModel
                 _calendar.MatchDay[i].initHoraires();
                 foreach( Match m in _calendar.MatchDay[i].Matchs )
                 {
-                    DateTime today = DateTime.Now;
-                    XDocument doc = XDocument.Load( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
-                    doc.Root.Element( "Profil" ).Element( "Calendar" ).Element( "Days" ).Add( new XElement( "Day" + _calendar.MatchDay[i].Numero, m.Home.TeamTag + " - " + m.Outside.TeamTag + " le " + m.Hour ) );
+                    target.Add( new XElement( "Day" + _calendar.MatchDay[i].Numero, m.Home.TeamTag + " - " + m.Outside.TeamTag + " le " + m.Hour ) );
                     doc.Save( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
                 }
             }
