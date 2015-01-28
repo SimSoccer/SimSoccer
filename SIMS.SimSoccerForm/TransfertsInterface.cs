@@ -78,7 +78,7 @@ namespace SIMS.SimSoccerForm
         private void textBox2_TextChanged( object sender, EventArgs e )
         { 
             listBox1.Items.Clear();
-            foreach( Player p in _game.TeamList.Teams[i].TeamPlayers 
+            foreach( Player p in _game.TeamList.Teams[i].TeamPlayers)
                 listBox1.Items.Add( p.Name );
         }
 
