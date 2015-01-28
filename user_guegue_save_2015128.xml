@@ -1,586 +1,586 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Game>
-  <Profil ID="21">
+  <Profil ID="24">
     <UserName>guegue</UserName>
     <Password>123456</Password>
     <LastName>KIKABOU</LastName>
     <FirstName>Guénolé</FirstName>
-    <BirthDate>27/01/2015</BirthDate>
+    <BirthDate>28/01/2015</BirthDate>
     <Avatar>.\..\..\..\avatar.jpg</Avatar>
-    <ChosenTeam>Paris-Saint-Germain Football Club</ChosenTeam>
+    <ChosenTeam>Olympique Lyonnais</ChosenTeam>
     <Season>1</Season>
     <Calendar>
       <Days>
-        <Day1>RCL - EAG le 09/08/2014 14:00:00</Day1>
-        <Day1>OL - FCL le 09/08/2014 18:00:00</Day1>
-        <Day1>PSG - OGCN le 09/08/2014 20:00:00</Day1>
-        <Day1>MHSC - OM le 09/08/2014 14:00:00</Day1>
-        <Day1>SMC - FCN le 09/08/2014 18:00:00</Day1>
-        <Day1>TFC - ETG le 09/08/2014 20:00:00</Day1>
-        <Day1>SDR - FCB le 09/08/2014 14:00:00</Day1>
-        <Day1>ASSE - SCB le 10/08/2014 14:00:00</Day1>
-        <Day1>LOSC - FCM le 10/08/2014 18:00:00</Day1>
-        <Day1>ASM - SRFC le 10/08/2014 21:00:00</Day1>
-        <Day1>RCL - EAG le 09/08/2014 14:00:00</Day1>
-        <Day1>OL - FCL le 09/08/2014 18:00:00</Day1>
-        <Day1>PSG - OGCN le 09/08/2014 20:00:00</Day1>
-        <Day1>MHSC - OM le 09/08/2014 14:00:00</Day1>
-        <Day1>SMC - FCN le 09/08/2014 18:00:00</Day1>
-        <Day1>TFC - ETG le 09/08/2014 20:00:00</Day1>
-        <Day1>SDR - FCB le 09/08/2014 14:00:00</Day1>
-        <Day1>ASSE - SCB le 10/08/2014 14:00:00</Day1>
-        <Day1>LOSC - FCM le 10/08/2014 18:00:00</Day1>
-        <Day1>ASM - SRFC le 10/08/2014 21:00:00</Day1>
-        <Day2>FCL - FCN le 16/08/2014 14:00:00</Day2>
-        <Day2>RCL - SMC le 16/08/2014 18:00:00</Day2>
-        <Day2>EAG - PSG le 16/08/2014 20:00:00</Day2>
-        <Day2>OM - OL le 16/08/2014 14:00:00</Day2>
-        <Day2>OGCN - TFC le 16/08/2014 18:00:00</Day2>
-        <Day2>FCB - MHSC le 16/08/2014 20:00:00</Day2>
-        <Day2>ETG - ASSE le 16/08/2014 14:00:00</Day2>
-        <Day2>FCM - SDR le 17/08/2014 14:00:00</Day2>
-        <Day2>SCB - ASM le 17/08/2014 18:00:00</Day2>
-        <Day2>SRFC - LOSC le 17/08/2014 21:00:00</Day2>
-        <Day2>FCL - FCN le 16/08/2014 14:00:00</Day2>
-        <Day2>RCL - SMC le 16/08/2014 18:00:00</Day2>
-        <Day2>EAG - PSG le 16/08/2014 20:00:00</Day2>
-        <Day2>OM - OL le 16/08/2014 14:00:00</Day2>
-        <Day2>OGCN - TFC le 16/08/2014 18:00:00</Day2>
-        <Day2>FCB - MHSC le 16/08/2014 20:00:00</Day2>
-        <Day2>ETG - ASSE le 16/08/2014 14:00:00</Day2>
-        <Day2>FCM - SDR le 17/08/2014 14:00:00</Day2>
-        <Day2>SCB - ASM le 17/08/2014 18:00:00</Day2>
-        <Day2>SRFC - LOSC le 17/08/2014 21:00:00</Day2>
-        <Day3>PSG - RCL le 23/08/2014 14:00:00</Day3>
-        <Day3>FCN - OM le 23/08/2014 18:00:00</Day3>
-        <Day3>TFC - EAG le 23/08/2014 20:00:00</Day3>
-        <Day3>OL - FCB le 23/08/2014 14:00:00</Day3>
-        <Day3>ASSE - OGCN le 23/08/2014 18:00:00</Day3>
-        <Day3>MHSC - FCM le 23/08/2014 20:00:00</Day3>
-        <Day3>SMC - FCL le 23/08/2014 14:00:00</Day3>
-        <Day3>ASM - ETG le 24/08/2014 14:00:00</Day3>
-        <Day3>SDR - SRFC le 24/08/2014 18:00:00</Day3>
-        <Day3>LOSC - SCB le 24/08/2014 21:00:00</Day3>
-        <Day3>PSG - RCL le 23/08/2014 14:00:00</Day3>
-        <Day3>FCN - OM le 23/08/2014 18:00:00</Day3>
-        <Day3>TFC - EAG le 23/08/2014 20:00:00</Day3>
-        <Day3>OL - FCB le 23/08/2014 14:00:00</Day3>
-        <Day3>ASSE - OGCN le 23/08/2014 18:00:00</Day3>
-        <Day3>MHSC - FCM le 23/08/2014 20:00:00</Day3>
-        <Day3>SMC - FCL le 23/08/2014 14:00:00</Day3>
-        <Day3>ASM - ETG le 24/08/2014 14:00:00</Day3>
-        <Day3>SDR - SRFC le 24/08/2014 18:00:00</Day3>
-        <Day3>LOSC - SCB le 24/08/2014 21:00:00</Day3>
-        <Day4>OM - FCL le 30/08/2014 14:00:00</Day4>
-        <Day4>RCL - TFC le 30/08/2014 18:00:00</Day4>
-        <Day4>FCB - FCN le 30/08/2014 20:00:00</Day4>
-        <Day4>EAG - ASSE le 30/08/2014 14:00:00</Day4>
-        <Day4>FCM - OL le 30/08/2014 18:00:00</Day4>
-        <Day4>OGCN - ASM le 30/08/2014 20:00:00</Day4>
-        <Day4>SRFC - MHSC le 30/08/2014 14:00:00</Day4>
-        <Day4>ETG - LOSC le 31/08/2014 14:00:00</Day4>
-        <Day4>PSG - SMC le 31/08/2014 18:00:00</Day4>
-        <Day4>SCB - SDR le 31/08/2014 21:00:00</Day4>
-        <Day4>OM - FCL le 30/08/2014 14:00:00</Day4>
-        <Day4>RCL - TFC le 30/08/2014 18:00:00</Day4>
-        <Day4>FCB - FCN le 30/08/2014 20:00:00</Day4>
-        <Day4>EAG - ASSE le 30/08/2014 14:00:00</Day4>
-        <Day4>FCM - OL le 30/08/2014 18:00:00</Day4>
-        <Day4>OGCN - ASM le 30/08/2014 20:00:00</Day4>
-        <Day4>SRFC - MHSC le 30/08/2014 14:00:00</Day4>
-        <Day4>ETG - LOSC le 31/08/2014 14:00:00</Day4>
-        <Day4>PSG - SMC le 31/08/2014 18:00:00</Day4>
-        <Day4>SCB - SDR le 31/08/2014 21:00:00</Day4>
-        <Day5>TFC - PSG le 06/09/2014 14:00:00</Day5>
-        <Day5>FCL - FCB le 06/09/2014 18:00:00</Day5>
-        <Day5>ASSE - RCL le 06/09/2014 20:00:00</Day5>
-        <Day5>FCN - FCM le 06/09/2014 14:00:00</Day5>
-        <Day5>ASM - EAG le 06/09/2014 18:00:00</Day5>
-        <Day5>OL - SRFC le 06/09/2014 20:00:00</Day5>
-        <Day5>LOSC - OGCN le 06/09/2014 14:00:00</Day5>
-        <Day5>MHSC - SCB le 07/09/2014 14:00:00</Day5>
-        <Day5>SMC - OM le 07/09/2014 18:00:00</Day5>
-        <Day5>SDR - ETG le 07/09/2014 21:00:00</Day5>
-        <Day5>TFC - PSG le 06/09/2014 14:00:00</Day5>
-        <Day5>FCL - FCB le 06/09/2014 18:00:00</Day5>
-        <Day5>ASSE - RCL le 06/09/2014 20:00:00</Day5>
-        <Day5>FCN - FCM le 06/09/2014 14:00:00</Day5>
-        <Day5>ASM - EAG le 06/09/2014 18:00:00</Day5>
-        <Day5>OL - SRFC le 06/09/2014 20:00:00</Day5>
-        <Day5>LOSC - OGCN le 06/09/2014 14:00:00</Day5>
-        <Day5>MHSC - SCB le 07/09/2014 14:00:00</Day5>
-        <Day5>SMC - OM le 07/09/2014 18:00:00</Day5>
-        <Day5>SDR - ETG le 07/09/2014 21:00:00</Day5>
-        <Day6>FCB - OM le 13/09/2014 14:00:00</Day6>
-        <Day6>PSG - ASSE le 13/09/2014 18:00:00</Day6>
-        <Day6>FCM - FCL le 13/09/2014 20:00:00</Day6>
-        <Day6>RCL - ASM le 13/09/2014 14:00:00</Day6>
-        <Day6>SRFC - FCN le 13/09/2014 18:00:00</Day6>
-        <Day6>EAG - LOSC le 13/09/2014 20:00:00</Day6>
-        <Day6>SCB - OL le 13/09/2014 14:00:00</Day6>
-        <Day6>TFC - SMC le 14/09/2014 14:00:00</Day6>
-        <Day6>OGCN - SDR le 14/09/2014 18:00:00</Day6>
-        <Day6>ETG - MHSC le 14/09/2014 21:00:00</Day6>
-        <Day6>FCB - OM le 13/09/2014 14:00:00</Day6>
-        <Day6>PSG - ASSE le 13/09/2014 18:00:00</Day6>
-        <Day6>FCM - FCL le 13/09/2014 20:00:00</Day6>
-        <Day6>RCL - ASM le 13/09/2014 14:00:00</Day6>
-        <Day6>SRFC - FCN le 13/09/2014 18:00:00</Day6>
-        <Day6>EAG - LOSC le 13/09/2014 20:00:00</Day6>
-        <Day6>SCB - OL le 13/09/2014 14:00:00</Day6>
-        <Day6>TFC - SMC le 14/09/2014 14:00:00</Day6>
-        <Day6>OGCN - SDR le 14/09/2014 18:00:00</Day6>
-        <Day6>ETG - MHSC le 14/09/2014 21:00:00</Day6>
-        <Day7>ASSE - TFC le 20/09/2014 14:00:00</Day7>
-        <Day7>OM - FCM le 20/09/2014 18:00:00</Day7>
-        <Day7>ASM - PSG le 20/09/2014 20:00:00</Day7>
-        <Day7>FCL - SRFC le 20/09/2014 14:00:00</Day7>
-        <Day7>LOSC - RCL le 20/09/2014 18:00:00</Day7>
-        <Day7>FCN - SCB le 20/09/2014 20:00:00</Day7>
-        <Day7>SDR - EAG le 20/09/2014 14:00:00</Day7>
-        <Day7>OL - ETG le 21/09/2014 14:00:00</Day7>
-        <Day7>MHSC - OGCN le 21/09/2014 18:00:00</Day7>
-        <Day7>SMC - FCB le 21/09/2014 21:00:00</Day7>
-        <Day7>ASSE - TFC le 20/09/2014 14:00:00</Day7>
-        <Day7>OM - FCM le 20/09/2014 18:00:00</Day7>
-        <Day7>ASM - PSG le 20/09/2014 20:00:00</Day7>
-        <Day7>FCL - SRFC le 20/09/2014 14:00:00</Day7>
-        <Day7>LOSC - RCL le 20/09/2014 18:00:00</Day7>
-        <Day7>FCN - SCB le 20/09/2014 20:00:00</Day7>
-        <Day7>SDR - EAG le 20/09/2014 14:00:00</Day7>
-        <Day7>OL - ETG le 21/09/2014 14:00:00</Day7>
-        <Day7>MHSC - OGCN le 21/09/2014 18:00:00</Day7>
-        <Day7>SMC - FCB le 21/09/2014 21:00:00</Day7>
-        <Day8>FCM - FCB le 27/09/2014 14:00:00</Day8>
-        <Day8>TFC - ASM le 27/09/2014 18:00:00</Day8>
-        <Day8>SRFC - OM le 27/09/2014 20:00:00</Day8>
-        <Day8>PSG - LOSC le 27/09/2014 14:00:00</Day8>
-        <Day8>ASSE - SMC le 27/09/2014 18:00:00</Day8>
-        <Day8>SCB - FCL le 27/09/2014 20:00:00</Day8>
-        <Day8>RCL - SDR le 27/09/2014 14:00:00</Day8>
-        <Day8>ETG - FCN le 28/09/2014 14:00:00</Day8>
-        <Day8>EAG - MHSC le 28/09/2014 18:00:00</Day8>
-        <Day8>OGCN - OL le 28/09/2014 21:00:00</Day8>
-        <Day8>FCM - FCB le 27/09/2014 14:00:00</Day8>
-        <Day8>TFC - ASM le 27/09/2014 18:00:00</Day8>
-        <Day8>SRFC - OM le 27/09/2014 20:00:00</Day8>
-        <Day8>PSG - LOSC le 27/09/2014 14:00:00</Day8>
-        <Day8>ASSE - SMC le 27/09/2014 18:00:00</Day8>
-        <Day8>SCB - FCL le 27/09/2014 20:00:00</Day8>
-        <Day8>RCL - SDR le 27/09/2014 14:00:00</Day8>
-        <Day8>ETG - FCN le 28/09/2014 14:00:00</Day8>
-        <Day8>EAG - MHSC le 28/09/2014 18:00:00</Day8>
-        <Day8>OGCN - OL le 28/09/2014 21:00:00</Day8>
-        <Day9>ASM - ASSE le 04/10/2014 14:00:00</Day9>
-        <Day9>FCB - SRFC le 04/10/2014 18:00:00</Day9>
-        <Day9>LOSC - TFC le 04/10/2014 20:00:00</Day9>
-        <Day9>OM - SCB le 04/10/2014 14:00:00</Day9>
-        <Day9>SDR - PSG le 04/10/2014 18:00:00</Day9>
-        <Day9>FCL - ETG le 04/10/2014 20:00:00</Day9>
-        <Day9>MHSC - RCL le 04/10/2014 14:00:00</Day9>
-        <Day9>SMC - FCM le 05/10/2014 14:00:00</Day9>
-        <Day9>FCN - OGCN le 05/10/2014 18:00:00</Day9>
-        <Day9>OL - EAG le 05/10/2014 21:00:00</Day9>
-        <Day9>ASM - ASSE le 04/10/2014 14:00:00</Day9>
-        <Day9>FCB - SRFC le 04/10/2014 18:00:00</Day9>
-        <Day9>LOSC - TFC le 04/10/2014 20:00:00</Day9>
-        <Day9>OM - SCB le 04/10/2014 14:00:00</Day9>
-        <Day9>SDR - PSG le 04/10/2014 18:00:00</Day9>
-        <Day9>FCL - ETG le 04/10/2014 20:00:00</Day9>
-        <Day9>MHSC - RCL le 04/10/2014 14:00:00</Day9>
-        <Day9>SMC - FCM le 05/10/2014 14:00:00</Day9>
-        <Day9>FCN - OGCN le 05/10/2014 18:00:00</Day9>
-        <Day9>OL - EAG le 05/10/2014 21:00:00</Day9>
-        <Day10>SRFC - FCM le 11/10/2014 14:00:00</Day10>
-        <Day10>ASM - SMC le 11/10/2014 18:00:00</Day10>
-        <Day10>ASSE - LOSC le 11/10/2014 20:00:00</Day10>
-        <Day10>SCB - FCB le 11/10/2014 14:00:00</Day10>
-        <Day10>TFC - SDR le 11/10/2014 18:00:00</Day10>
-        <Day10>ETG - OM le 11/10/2014 20:00:00</Day10>
-        <Day10>PSG - MHSC le 11/10/2014 14:00:00</Day10>
-        <Day10>OGCN - FCL le 12/10/2014 14:00:00</Day10>
-        <Day10>RCL - OL le 12/10/2014 18:00:00</Day10>
-        <Day10>EAG - FCN le 12/10/2014 21:00:00</Day10>
-        <Day10>SRFC - FCM le 11/10/2014 14:00:00</Day10>
-        <Day10>ASM - SMC le 11/10/2014 18:00:00</Day10>
-        <Day10>ASSE - LOSC le 11/10/2014 20:00:00</Day10>
-        <Day10>SCB - FCB le 11/10/2014 14:00:00</Day10>
-        <Day10>TFC - SDR le 11/10/2014 18:00:00</Day10>
-        <Day10>ETG - OM le 11/10/2014 20:00:00</Day10>
-        <Day10>PSG - MHSC le 11/10/2014 14:00:00</Day10>
-        <Day10>OGCN - FCL le 12/10/2014 14:00:00</Day10>
-        <Day10>RCL - OL le 12/10/2014 18:00:00</Day10>
-        <Day10>EAG - FCN le 12/10/2014 21:00:00</Day10>
-        <Day11>LOSC - ASM le 18/10/2014 14:00:00</Day11>
-        <Day11>FCM - SCB le 18/10/2014 18:00:00</Day11>
-        <Day11>SDR - ASSE le 18/10/2014 20:00:00</Day11>
-        <Day11>FCB - ETG le 18/10/2014 14:00:00</Day11>
-        <Day11>MHSC - TFC le 18/10/2014 18:00:00</Day11>
-        <Day11>OM - OGCN le 18/10/2014 20:00:00</Day11>
-        <Day11>OL - PSG le 18/10/2014 14:00:00</Day11>
-        <Day11>FCL - EAG le 19/10/2014 14:00:00</Day11>
-        <Day11>FCN - RCL le 19/10/2014 18:00:00</Day11>
-        <Day11>SMC - SRFC le 19/10/2014 21:00:00</Day11>
-        <Day11>LOSC - ASM le 18/10/2014 14:00:00</Day11>
-        <Day11>FCM - SCB le 18/10/2014 18:00:00</Day11>
-        <Day11>SDR - ASSE le 18/10/2014 20:00:00</Day11>
-        <Day11>FCB - ETG le 18/10/2014 14:00:00</Day11>
-        <Day11>MHSC - TFC le 18/10/2014 18:00:00</Day11>
-        <Day11>OM - OGCN le 18/10/2014 20:00:00</Day11>
-        <Day11>OL - PSG le 18/10/2014 14:00:00</Day11>
-        <Day11>FCL - EAG le 19/10/2014 14:00:00</Day11>
-        <Day11>FCN - RCL le 19/10/2014 18:00:00</Day11>
-        <Day11>SMC - SRFC le 19/10/2014 21:00:00</Day11>
-        <Day12>SCB - SRFC le 25/10/2014 14:00:00</Day12>
-        <Day12>ASM - SDR le 25/10/2014 18:00:00</Day12>
-        <Day12>ETG - FCM le 25/10/2014 20:00:00</Day12>
-        <Day12>ASSE - MHSC le 25/10/2014 14:00:00</Day12>
-        <Day12>OGCN - FCB le 25/10/2014 18:00:00</Day12>
-        <Day12>LOSC - SMC le 25/10/2014 20:00:00</Day12>
-        <Day12>TFC - OL le 25/10/2014 14:00:00</Day12>
-        <Day12>EAG - OM le 26/10/2014 14:00:00</Day12>
-        <Day12>PSG - FCN le 26/10/2014 18:00:00</Day12>
-        <Day12>RCL - FCL le 26/10/2014 21:00:00</Day12>
-        <Day12>SCB - SRFC le 25/10/2014 14:00:00</Day12>
-        <Day12>ASM - SDR le 25/10/2014 18:00:00</Day12>
-        <Day12>ETG - FCM le 25/10/2014 20:00:00</Day12>
-        <Day12>ASSE - MHSC le 25/10/2014 14:00:00</Day12>
-        <Day12>OGCN - FCB le 25/10/2014 18:00:00</Day12>
-        <Day12>LOSC - SMC le 25/10/2014 20:00:00</Day12>
-        <Day12>TFC - OL le 25/10/2014 14:00:00</Day12>
-        <Day12>EAG - OM le 26/10/2014 14:00:00</Day12>
-        <Day12>PSG - FCN le 26/10/2014 18:00:00</Day12>
-        <Day12>RCL - FCL le 26/10/2014 21:00:00</Day12>
-        <Day13>SMC - SCB le 01/11/2014 14:00:00</Day13>
-        <Day13>SDR - LOSC le 01/11/2014 18:00:00</Day13>
-        <Day13>SRFC - ETG le 01/11/2014 20:00:00</Day13>
-        <Day13>MHSC - ASM le 01/11/2014 14:00:00</Day13>
-        <Day13>FCM - OGCN le 01/11/2014 18:00:00</Day13>
-        <Day13>OL - ASSE le 01/11/2014 20:00:00</Day13>
-        <Day13>FCB - EAG le 01/11/2014 14:00:00</Day13>
-        <Day13>FCN - TFC le 02/11/2014 14:00:00</Day13>
-        <Day13>OM - RCL le 02/11/2014 18:00:00</Day13>
-        <Day13>FCL - PSG le 02/11/2014 21:00:00</Day13>
-        <Day13>SMC - SCB le 01/11/2014 14:00:00</Day13>
-        <Day13>SDR - LOSC le 01/11/2014 18:00:00</Day13>
-        <Day13>SRFC - ETG le 01/11/2014 20:00:00</Day13>
-        <Day13>MHSC - ASM le 01/11/2014 14:00:00</Day13>
-        <Day13>FCM - OGCN le 01/11/2014 18:00:00</Day13>
-        <Day13>OL - ASSE le 01/11/2014 20:00:00</Day13>
-        <Day13>FCB - EAG le 01/11/2014 14:00:00</Day13>
-        <Day13>FCN - TFC le 02/11/2014 14:00:00</Day13>
-        <Day13>OM - RCL le 02/11/2014 18:00:00</Day13>
-        <Day13>FCL - PSG le 02/11/2014 21:00:00</Day13>
-        <Day14>ETG - SCB le 08/11/2014 14:00:00</Day14>
-        <Day14>LOSC - MHSC le 08/11/2014 18:00:00</Day14>
-        <Day14>OGCN - SRFC le 08/11/2014 20:00:00</Day14>
-        <Day14>ASM - OL le 08/11/2014 14:00:00</Day14>
-        <Day14>SDR - SMC le 08/11/2014 18:00:00</Day14>
-        <Day14>EAG - FCM le 08/11/2014 20:00:00</Day14>
-        <Day14>ASSE - FCN le 08/11/2014 14:00:00</Day14>
-        <Day14>RCL - FCB le 09/11/2014 14:00:00</Day14>
-        <Day14>TFC - FCL le 09/11/2014 18:00:00</Day14>
-        <Day14>PSG - OM le 09/11/2014 21:00:00</Day14>
-        <Day14>ETG - SCB le 08/11/2014 14:00:00</Day14>
-        <Day14>LOSC - MHSC le 08/11/2014 18:00:00</Day14>
-        <Day14>OGCN - SRFC le 08/11/2014 20:00:00</Day14>
-        <Day14>ASM - OL le 08/11/2014 14:00:00</Day14>
-        <Day14>SDR - SMC le 08/11/2014 18:00:00</Day14>
-        <Day14>EAG - FCM le 08/11/2014 20:00:00</Day14>
-        <Day14>ASSE - FCN le 08/11/2014 14:00:00</Day14>
-        <Day14>RCL - FCB le 09/11/2014 14:00:00</Day14>
-        <Day14>TFC - FCL le 09/11/2014 18:00:00</Day14>
-        <Day14>PSG - OM le 09/11/2014 21:00:00</Day14>
-        <Day15>MHSC - SDR le 15/11/2014 14:00:00</Day15>
-        <Day15>SCB - OGCN le 15/11/2014 18:00:00</Day15>
-        <Day15>OL - LOSC le 15/11/2014 20:00:00</Day15>
-        <Day15>SRFC - EAG le 15/11/2014 14:00:00</Day15>
-        <Day15>FCN - ASM le 15/11/2014 18:00:00</Day15>
-        <Day15>SMC - ETG le 15/11/2014 20:00:00</Day15>
-        <Day15>FCM - RCL le 15/11/2014 14:00:00</Day15>
-        <Day15>FCL - ASSE le 16/11/2014 14:00:00</Day15>
-        <Day15>FCB - PSG le 16/11/2014 18:00:00</Day15>
-        <Day15>OM - TFC le 16/11/2014 21:00:00</Day15>
-        <Day15>MHSC - SDR le 15/11/2014 14:00:00</Day15>
-        <Day15>SCB - OGCN le 15/11/2014 18:00:00</Day15>
-        <Day15>OL - LOSC le 15/11/2014 20:00:00</Day15>
-        <Day15>SRFC - EAG le 15/11/2014 14:00:00</Day15>
-        <Day15>FCN - ASM le 15/11/2014 18:00:00</Day15>
-        <Day15>SMC - ETG le 15/11/2014 20:00:00</Day15>
-        <Day15>FCM - RCL le 15/11/2014 14:00:00</Day15>
-        <Day15>FCL - ASSE le 16/11/2014 14:00:00</Day15>
-        <Day15>FCB - PSG le 16/11/2014 18:00:00</Day15>
-        <Day15>OM - TFC le 16/11/2014 21:00:00</Day15>
-        <Day16>OGCN - ETG le 22/11/2014 14:00:00</Day16>
-        <Day16>SDR - OL le 22/11/2014 18:00:00</Day16>
-        <Day16>EAG - SCB le 22/11/2014 20:00:00</Day16>
-        <Day16>MHSC - SMC le 22/11/2014 14:00:00</Day16>
-        <Day16>LOSC - FCN le 22/11/2014 18:00:00</Day16>
-        <Day16>RCL - SRFC le 22/11/2014 20:00:00</Day16>
-        <Day16>ASM - FCL le 22/11/2014 14:00:00</Day16>
-        <Day16>PSG - FCM le 23/11/2014 14:00:00</Day16>
-        <Day16>ASSE - OM le 23/11/2014 18:00:00</Day16>
-        <Day16>TFC - FCB le 23/11/2014 21:00:00</Day16>
-        <Day16>OGCN - ETG le 22/11/2014 14:00:00</Day16>
-        <Day16>SDR - OL le 22/11/2014 18:00:00</Day16>
-        <Day16>EAG - SCB le 22/11/2014 20:00:00</Day16>
-        <Day16>MHSC - SMC le 22/11/2014 14:00:00</Day16>
-        <Day16>LOSC - FCN le 22/11/2014 18:00:00</Day16>
-        <Day16>RCL - SRFC le 22/11/2014 20:00:00</Day16>
-        <Day16>ASM - FCL le 22/11/2014 14:00:00</Day16>
-        <Day16>PSG - FCM le 23/11/2014 14:00:00</Day16>
-        <Day16>ASSE - OM le 23/11/2014 18:00:00</Day16>
-        <Day16>TFC - FCB le 23/11/2014 21:00:00</Day16>
-        <Day17>SMC - OGCN le 29/11/2014 14:00:00</Day17>
-        <Day17>OL - MHSC le 29/11/2014 18:00:00</Day17>
-        <Day17>ETG - EAG le 29/11/2014 20:00:00</Day17>
-        <Day17>FCN - SDR le 29/11/2014 14:00:00</Day17>
-        <Day17>SCB - RCL le 29/11/2014 18:00:00</Day17>
-        <Day17>FCL - LOSC le 29/11/2014 20:00:00</Day17>
-        <Day17>SRFC - PSG le 29/11/2014 14:00:00</Day17>
-        <Day17>OM - ASM le 30/11/2014 14:00:00</Day17>
-        <Day17>FCM - TFC le 30/11/2014 18:00:00</Day17>
-        <Day17>FCB - ASSE le 30/11/2014 21:00:00</Day17>
-        <Day17>SMC - OGCN le 29/11/2014 14:00:00</Day17>
-        <Day17>OL - MHSC le 29/11/2014 18:00:00</Day17>
-        <Day17>ETG - EAG le 29/11/2014 20:00:00</Day17>
-        <Day17>FCN - SDR le 29/11/2014 14:00:00</Day17>
-        <Day17>SCB - RCL le 29/11/2014 18:00:00</Day17>
-        <Day17>FCL - LOSC le 29/11/2014 20:00:00</Day17>
-        <Day17>SRFC - PSG le 29/11/2014 14:00:00</Day17>
-        <Day17>OM - ASM le 30/11/2014 14:00:00</Day17>
-        <Day17>FCM - TFC le 30/11/2014 18:00:00</Day17>
-        <Day17>FCB - ASSE le 30/11/2014 21:00:00</Day17>
-        <Day18>OL - SMC le 06/12/2014 14:00:00</Day18>
-        <Day18>EAG - OGCN le 06/12/2014 18:00:00</Day18>
-        <Day18>MHSC - FCN le 06/12/2014 20:00:00</Day18>
+        <Day1>ASM - EAG le 09/08/2014 14:00:00</Day1>
+        <Day1>SRFC - SCB le 09/08/2014 18:00:00</Day1>
+        <Day1>FCL - OGCN le 09/08/2014 20:00:00</Day1>
+        <Day1>TFC - MHSC le 09/08/2014 14:00:00</Day1>
+        <Day1>OM - ETG le 09/08/2014 18:00:00</Day1>
+        <Day1>SDR - PSG le 09/08/2014 20:00:00</Day1>
+        <Day1>LOSC - SMC le 09/08/2014 14:00:00</Day1>
+        <Day1>FCN - FCB le 10/08/2014 14:00:00</Day1>
+        <Day1>RCL - FCM le 10/08/2014 18:00:00</Day1>
+        <Day1>OL - ASSE le 10/08/2014 21:00:00</Day1>
+        <Day1>ASM - EAG le 09/08/2014 14:00:00</Day1>
+        <Day1>SRFC - SCB le 09/08/2014 18:00:00</Day1>
+        <Day1>FCL - OGCN le 09/08/2014 20:00:00</Day1>
+        <Day1>TFC - MHSC le 09/08/2014 14:00:00</Day1>
+        <Day1>OM - ETG le 09/08/2014 18:00:00</Day1>
+        <Day1>SDR - PSG le 09/08/2014 20:00:00</Day1>
+        <Day1>LOSC - SMC le 09/08/2014 14:00:00</Day1>
+        <Day1>FCN - FCB le 10/08/2014 14:00:00</Day1>
+        <Day1>RCL - FCM le 10/08/2014 18:00:00</Day1>
+        <Day1>OL - ASSE le 10/08/2014 21:00:00</Day1>
+        <Day2>OGCN - SCB le 16/08/2014 14:00:00</Day2>
+        <Day2>EAG - TFC le 16/08/2014 18:00:00</Day2>
+        <Day2>ETG - FCL le 16/08/2014 20:00:00</Day2>
+        <Day2>ASM - SRFC le 16/08/2014 14:00:00</Day2>
+        <Day2>MHSC - SDR le 16/08/2014 18:00:00</Day2>
+        <Day2>SMC - OM le 16/08/2014 20:00:00</Day2>
+        <Day2>PSG - FCN le 16/08/2014 14:00:00</Day2>
+        <Day2>FCM - LOSC le 17/08/2014 14:00:00</Day2>
+        <Day2>FCB - OL le 17/08/2014 18:00:00</Day2>
+        <Day2>ASSE - RCL le 17/08/2014 21:00:00</Day2>
+        <Day2>OGCN - SCB le 16/08/2014 14:00:00</Day2>
+        <Day2>EAG - TFC le 16/08/2014 18:00:00</Day2>
+        <Day2>ETG - FCL le 16/08/2014 20:00:00</Day2>
+        <Day2>ASM - SRFC le 16/08/2014 14:00:00</Day2>
+        <Day2>MHSC - SDR le 16/08/2014 18:00:00</Day2>
+        <Day2>SMC - OM le 16/08/2014 20:00:00</Day2>
+        <Day2>PSG - FCN le 16/08/2014 14:00:00</Day2>
+        <Day2>FCM - LOSC le 17/08/2014 14:00:00</Day2>
+        <Day2>FCB - OL le 17/08/2014 18:00:00</Day2>
+        <Day2>ASSE - RCL le 17/08/2014 21:00:00</Day2>
+        <Day3>SRFC - OGCN le 23/08/2014 14:00:00</Day3>
+        <Day3>TFC - ASM le 23/08/2014 18:00:00</Day3>
+        <Day3>SCB - ETG le 23/08/2014 20:00:00</Day3>
+        <Day3>SDR - EAG le 23/08/2014 14:00:00</Day3>
+        <Day3>FCL - SMC le 23/08/2014 18:00:00</Day3>
+        <Day3>FCN - MHSC le 23/08/2014 20:00:00</Day3>
+        <Day3>OM - FCM le 23/08/2014 14:00:00</Day3>
+        <Day3>OL - PSG le 24/08/2014 14:00:00</Day3>
+        <Day3>LOSC - ASSE le 24/08/2014 18:00:00</Day3>
+        <Day3>RCL - FCB le 24/08/2014 21:00:00</Day3>
+        <Day3>SRFC - OGCN le 23/08/2014 14:00:00</Day3>
+        <Day3>TFC - ASM le 23/08/2014 18:00:00</Day3>
+        <Day3>SCB - ETG le 23/08/2014 20:00:00</Day3>
+        <Day3>SDR - EAG le 23/08/2014 14:00:00</Day3>
+        <Day3>FCL - SMC le 23/08/2014 18:00:00</Day3>
+        <Day3>FCN - MHSC le 23/08/2014 20:00:00</Day3>
+        <Day3>OM - FCM le 23/08/2014 14:00:00</Day3>
+        <Day3>OL - PSG le 24/08/2014 14:00:00</Day3>
+        <Day3>LOSC - ASSE le 24/08/2014 18:00:00</Day3>
+        <Day3>RCL - FCB le 24/08/2014 21:00:00</Day3>
+        <Day4>ETG - OGCN le 30/08/2014 14:00:00</Day4>
+        <Day4>ASM - SDR le 30/08/2014 18:00:00</Day4>
+        <Day4>SMC - SCB le 30/08/2014 20:00:00</Day4>
+        <Day4>EAG - FCN le 30/08/2014 14:00:00</Day4>
+        <Day4>FCM - FCL le 30/08/2014 18:00:00</Day4>
+        <Day4>MHSC - OL le 30/08/2014 20:00:00</Day4>
+        <Day4>ASSE - OM le 30/08/2014 14:00:00</Day4>
+        <Day4>PSG - RCL le 31/08/2014 14:00:00</Day4>
+        <Day4>TFC - SRFC le 31/08/2014 18:00:00</Day4>
+        <Day4>FCB - LOSC le 31/08/2014 21:00:00</Day4>
+        <Day4>ETG - OGCN le 30/08/2014 14:00:00</Day4>
+        <Day4>ASM - SDR le 30/08/2014 18:00:00</Day4>
+        <Day4>SMC - SCB le 30/08/2014 20:00:00</Day4>
+        <Day4>EAG - FCN le 30/08/2014 14:00:00</Day4>
+        <Day4>FCM - FCL le 30/08/2014 18:00:00</Day4>
+        <Day4>MHSC - OL le 30/08/2014 20:00:00</Day4>
+        <Day4>ASSE - OM le 30/08/2014 14:00:00</Day4>
+        <Day4>PSG - RCL le 31/08/2014 14:00:00</Day4>
+        <Day4>TFC - SRFC le 31/08/2014 18:00:00</Day4>
+        <Day4>FCB - LOSC le 31/08/2014 21:00:00</Day4>
+        <Day5>SDR - TFC le 06/09/2014 14:00:00</Day5>
+        <Day5>OGCN - SMC le 06/09/2014 18:00:00</Day5>
+        <Day5>FCN - ASM le 06/09/2014 20:00:00</Day5>
+        <Day5>SCB - FCM le 06/09/2014 14:00:00</Day5>
+        <Day5>OL - EAG le 06/09/2014 18:00:00</Day5>
+        <Day5>FCL - ASSE le 06/09/2014 20:00:00</Day5>
+        <Day5>RCL - MHSC le 06/09/2014 14:00:00</Day5>
+        <Day5>OM - FCB le 07/09/2014 14:00:00</Day5>
+        <Day5>SRFC - ETG le 07/09/2014 18:00:00</Day5>
+        <Day5>LOSC - PSG le 07/09/2014 21:00:00</Day5>
+        <Day5>SDR - TFC le 06/09/2014 14:00:00</Day5>
+        <Day5>OGCN - SMC le 06/09/2014 18:00:00</Day5>
+        <Day5>FCN - ASM le 06/09/2014 20:00:00</Day5>
+        <Day5>SCB - FCM le 06/09/2014 14:00:00</Day5>
+        <Day5>OL - EAG le 06/09/2014 18:00:00</Day5>
+        <Day5>FCL - ASSE le 06/09/2014 20:00:00</Day5>
+        <Day5>RCL - MHSC le 06/09/2014 14:00:00</Day5>
+        <Day5>OM - FCB le 07/09/2014 14:00:00</Day5>
+        <Day5>SRFC - ETG le 07/09/2014 18:00:00</Day5>
+        <Day5>LOSC - PSG le 07/09/2014 21:00:00</Day5>
+        <Day6>SMC - ETG le 13/09/2014 14:00:00</Day6>
+        <Day6>TFC - FCN le 13/09/2014 18:00:00</Day6>
+        <Day6>FCM - OGCN le 13/09/2014 20:00:00</Day6>
+        <Day6>ASM - OL le 13/09/2014 14:00:00</Day6>
+        <Day6>ASSE - SCB le 13/09/2014 18:00:00</Day6>
+        <Day6>SDR - SRFC le 13/09/2014 20:00:00</Day6>
+        <Day6>EAG - RCL le 13/09/2014 14:00:00</Day6>
+        <Day6>FCB - FCL le 14/09/2014 14:00:00</Day6>
+        <Day6>MHSC - LOSC le 14/09/2014 18:00:00</Day6>
+        <Day6>PSG - OM le 14/09/2014 21:00:00</Day6>
+        <Day6>SMC - ETG le 13/09/2014 14:00:00</Day6>
+        <Day6>TFC - FCN le 13/09/2014 18:00:00</Day6>
+        <Day6>FCM - OGCN le 13/09/2014 20:00:00</Day6>
+        <Day6>ASM - OL le 13/09/2014 14:00:00</Day6>
+        <Day6>ASSE - SCB le 13/09/2014 18:00:00</Day6>
+        <Day6>SDR - SRFC le 13/09/2014 20:00:00</Day6>
+        <Day6>EAG - RCL le 13/09/2014 14:00:00</Day6>
+        <Day6>FCB - FCL le 14/09/2014 14:00:00</Day6>
+        <Day6>MHSC - LOSC le 14/09/2014 18:00:00</Day6>
+        <Day6>PSG - OM le 14/09/2014 21:00:00</Day6>
+        <Day7>SRFC - SMC le 20/09/2014 14:00:00</Day7>
+        <Day7>FCN - SDR le 20/09/2014 18:00:00</Day7>
+        <Day7>ETG - FCM le 20/09/2014 20:00:00</Day7>
+        <Day7>OL - TFC le 20/09/2014 14:00:00</Day7>
+        <Day7>OGCN - ASSE le 20/09/2014 18:00:00</Day7>
+        <Day7>RCL - ASM le 20/09/2014 20:00:00</Day7>
+        <Day7>SCB - FCB le 20/09/2014 14:00:00</Day7>
+        <Day7>LOSC - EAG le 21/09/2014 14:00:00</Day7>
+        <Day7>FCL - PSG le 21/09/2014 18:00:00</Day7>
+        <Day7>OM - MHSC le 21/09/2014 21:00:00</Day7>
+        <Day7>SRFC - SMC le 20/09/2014 14:00:00</Day7>
+        <Day7>FCN - SDR le 20/09/2014 18:00:00</Day7>
+        <Day7>ETG - FCM le 20/09/2014 20:00:00</Day7>
+        <Day7>OL - TFC le 20/09/2014 14:00:00</Day7>
+        <Day7>OGCN - ASSE le 20/09/2014 18:00:00</Day7>
+        <Day7>RCL - ASM le 20/09/2014 20:00:00</Day7>
+        <Day7>SCB - FCB le 20/09/2014 14:00:00</Day7>
+        <Day7>LOSC - EAG le 21/09/2014 14:00:00</Day7>
+        <Day7>FCL - PSG le 21/09/2014 18:00:00</Day7>
+        <Day7>OM - MHSC le 21/09/2014 21:00:00</Day7>
+        <Day8>FCM - SMC le 27/09/2014 14:00:00</Day8>
+        <Day8>FCN - SRFC le 27/09/2014 18:00:00</Day8>
+        <Day8>SDR - OL le 27/09/2014 20:00:00</Day8>
+        <Day8>ASSE - ETG le 27/09/2014 14:00:00</Day8>
+        <Day8>TFC - RCL le 27/09/2014 18:00:00</Day8>
+        <Day8>FCB - OGCN le 27/09/2014 20:00:00</Day8>
+        <Day8>ASM - LOSC le 27/09/2014 14:00:00</Day8>
+        <Day8>PSG - SCB le 28/09/2014 14:00:00</Day8>
+        <Day8>EAG - OM le 28/09/2014 18:00:00</Day8>
+        <Day8>MHSC - FCL le 28/09/2014 21:00:00</Day8>
+        <Day8>FCM - SMC le 27/09/2014 14:00:00</Day8>
+        <Day8>FCN - SRFC le 27/09/2014 18:00:00</Day8>
+        <Day8>SDR - OL le 27/09/2014 20:00:00</Day8>
+        <Day8>ASSE - ETG le 27/09/2014 14:00:00</Day8>
+        <Day8>TFC - RCL le 27/09/2014 18:00:00</Day8>
+        <Day8>FCB - OGCN le 27/09/2014 20:00:00</Day8>
+        <Day8>ASM - LOSC le 27/09/2014 14:00:00</Day8>
+        <Day8>PSG - SCB le 28/09/2014 14:00:00</Day8>
+        <Day8>EAG - OM le 28/09/2014 18:00:00</Day8>
+        <Day8>MHSC - FCL le 28/09/2014 21:00:00</Day8>
+        <Day9>OL - FCN le 04/10/2014 14:00:00</Day9>
+        <Day9>SMC - ASSE le 04/10/2014 18:00:00</Day9>
+        <Day9>RCL - SDR le 04/10/2014 20:00:00</Day9>
+        <Day9>ETG - FCB le 04/10/2014 14:00:00</Day9>
+        <Day9>LOSC - TFC le 04/10/2014 18:00:00</Day9>
+        <Day9>OGCN - PSG le 04/10/2014 20:00:00</Day9>
+        <Day9>OM - ASM le 04/10/2014 14:00:00</Day9>
+        <Day9>SRFC - FCM le 05/10/2014 14:00:00</Day9>
+        <Day9>SCB - MHSC le 05/10/2014 18:00:00</Day9>
+        <Day9>FCL - EAG le 05/10/2014 21:00:00</Day9>
+        <Day9>OL - FCN le 04/10/2014 14:00:00</Day9>
+        <Day9>SMC - ASSE le 04/10/2014 18:00:00</Day9>
+        <Day9>RCL - SDR le 04/10/2014 20:00:00</Day9>
+        <Day9>ETG - FCB le 04/10/2014 14:00:00</Day9>
+        <Day9>LOSC - TFC le 04/10/2014 18:00:00</Day9>
+        <Day9>OGCN - PSG le 04/10/2014 20:00:00</Day9>
+        <Day9>OM - ASM le 04/10/2014 14:00:00</Day9>
+        <Day9>SRFC - FCM le 05/10/2014 14:00:00</Day9>
+        <Day9>SCB - MHSC le 05/10/2014 18:00:00</Day9>
+        <Day9>FCL - EAG le 05/10/2014 21:00:00</Day9>
+        <Day10>OL - SRFC le 11/10/2014 14:00:00</Day10>
+        <Day10>ASSE - FCM le 11/10/2014 18:00:00</Day10>
+        <Day10>FCN - RCL le 11/10/2014 20:00:00</Day10>
+        <Day10>FCB - SMC le 11/10/2014 14:00:00</Day10>
+        <Day10>SDR - LOSC le 11/10/2014 18:00:00</Day10>
+        <Day10>PSG - ETG le 11/10/2014 20:00:00</Day10>
+        <Day10>TFC - OM le 11/10/2014 14:00:00</Day10>
+        <Day10>MHSC - OGCN le 12/10/2014 14:00:00</Day10>
+        <Day10>ASM - FCL le 12/10/2014 18:00:00</Day10>
+        <Day10>EAG - SCB le 12/10/2014 21:00:00</Day10>
+        <Day10>OL - SRFC le 11/10/2014 14:00:00</Day10>
+        <Day10>ASSE - FCM le 11/10/2014 18:00:00</Day10>
+        <Day10>FCN - RCL le 11/10/2014 20:00:00</Day10>
+        <Day10>FCB - SMC le 11/10/2014 14:00:00</Day10>
+        <Day10>SDR - LOSC le 11/10/2014 18:00:00</Day10>
+        <Day10>PSG - ETG le 11/10/2014 20:00:00</Day10>
+        <Day10>TFC - OM le 11/10/2014 14:00:00</Day10>
+        <Day10>MHSC - OGCN le 12/10/2014 14:00:00</Day10>
+        <Day10>ASM - FCL le 12/10/2014 18:00:00</Day10>
+        <Day10>EAG - SCB le 12/10/2014 21:00:00</Day10>
+        <Day11>RCL - OL le 18/10/2014 14:00:00</Day11>
+        <Day11>FCM - FCB le 18/10/2014 18:00:00</Day11>
+        <Day11>LOSC - FCN le 18/10/2014 20:00:00</Day11>
+        <Day11>SMC - PSG le 18/10/2014 14:00:00</Day11>
+        <Day11>OM - SDR le 18/10/2014 18:00:00</Day11>
+        <Day11>ETG - MHSC le 18/10/2014 20:00:00</Day11>
+        <Day11>FCL - TFC le 18/10/2014 14:00:00</Day11>
+        <Day11>OGCN - EAG le 19/10/2014 14:00:00</Day11>
+        <Day11>SCB - ASM le 19/10/2014 18:00:00</Day11>
+        <Day11>SRFC - ASSE le 19/10/2014 21:00:00</Day11>
+        <Day11>RCL - OL le 18/10/2014 14:00:00</Day11>
+        <Day11>FCM - FCB le 18/10/2014 18:00:00</Day11>
+        <Day11>LOSC - FCN le 18/10/2014 20:00:00</Day11>
+        <Day11>SMC - PSG le 18/10/2014 14:00:00</Day11>
+        <Day11>OM - SDR le 18/10/2014 18:00:00</Day11>
+        <Day11>ETG - MHSC le 18/10/2014 20:00:00</Day11>
+        <Day11>FCL - TFC le 18/10/2014 14:00:00</Day11>
+        <Day11>OGCN - EAG le 19/10/2014 14:00:00</Day11>
+        <Day11>SCB - ASM le 19/10/2014 18:00:00</Day11>
+        <Day11>SRFC - ASSE le 19/10/2014 21:00:00</Day11>
+        <Day12>FCB - ASSE le 25/10/2014 14:00:00</Day12>
+        <Day12>OL - LOSC le 25/10/2014 18:00:00</Day12>
+        <Day12>PSG - FCM le 25/10/2014 20:00:00</Day12>
+        <Day12>FCN - OM le 25/10/2014 14:00:00</Day12>
+        <Day12>MHSC - SMC le 25/10/2014 18:00:00</Day12>
+        <Day12>RCL - SRFC le 25/10/2014 20:00:00</Day12>
+        <Day12>SDR - FCL le 25/10/2014 14:00:00</Day12>
+        <Day12>EAG - ETG le 26/10/2014 14:00:00</Day12>
+        <Day12>TFC - SCB le 26/10/2014 18:00:00</Day12>
+        <Day12>ASM - OGCN le 26/10/2014 21:00:00</Day12>
+        <Day12>FCB - ASSE le 25/10/2014 14:00:00</Day12>
+        <Day12>OL - LOSC le 25/10/2014 18:00:00</Day12>
+        <Day12>PSG - FCM le 25/10/2014 20:00:00</Day12>
+        <Day12>FCN - OM le 25/10/2014 14:00:00</Day12>
+        <Day12>MHSC - SMC le 25/10/2014 18:00:00</Day12>
+        <Day12>RCL - SRFC le 25/10/2014 20:00:00</Day12>
+        <Day12>SDR - FCL le 25/10/2014 14:00:00</Day12>
+        <Day12>EAG - ETG le 26/10/2014 14:00:00</Day12>
+        <Day12>TFC - SCB le 26/10/2014 18:00:00</Day12>
+        <Day12>ASM - OGCN le 26/10/2014 21:00:00</Day12>
+        <Day13>LOSC - RCL le 01/11/2014 14:00:00</Day13>
+        <Day13>ASSE - PSG le 01/11/2014 18:00:00</Day13>
+        <Day13>OM - OL le 01/11/2014 20:00:00</Day13>
+        <Day13>FCM - MHSC le 01/11/2014 14:00:00</Day13>
+        <Day13>FCL - FCN le 01/11/2014 18:00:00</Day13>
+        <Day13>SMC - EAG le 01/11/2014 20:00:00</Day13>
+        <Day13>SCB - SDR le 01/11/2014 14:00:00</Day13>
+        <Day13>ETG - ASM le 02/11/2014 14:00:00</Day13>
+        <Day13>OGCN - TFC le 02/11/2014 18:00:00</Day13>
+        <Day13>SRFC - FCB le 02/11/2014 21:00:00</Day13>
+        <Day13>LOSC - RCL le 01/11/2014 14:00:00</Day13>
+        <Day13>ASSE - PSG le 01/11/2014 18:00:00</Day13>
+        <Day13>OM - OL le 01/11/2014 20:00:00</Day13>
+        <Day13>FCM - MHSC le 01/11/2014 14:00:00</Day13>
+        <Day13>FCL - FCN le 01/11/2014 18:00:00</Day13>
+        <Day13>SMC - EAG le 01/11/2014 20:00:00</Day13>
+        <Day13>SCB - SDR le 01/11/2014 14:00:00</Day13>
+        <Day13>ETG - ASM le 02/11/2014 14:00:00</Day13>
+        <Day13>OGCN - TFC le 02/11/2014 18:00:00</Day13>
+        <Day13>SRFC - FCB le 02/11/2014 21:00:00</Day13>
+        <Day14>PSG - FCB le 08/11/2014 14:00:00</Day14>
+        <Day14>RCL - OM le 08/11/2014 18:00:00</Day14>
+        <Day14>MHSC - ASSE le 08/11/2014 20:00:00</Day14>
+        <Day14>OL - FCL le 08/11/2014 14:00:00</Day14>
+        <Day14>EAG - FCM le 08/11/2014 18:00:00</Day14>
+        <Day14>FCN - SCB le 08/11/2014 20:00:00</Day14>
+        <Day14>LOSC - SRFC le 08/11/2014 14:00:00</Day14>
+        <Day14>ASM - SMC le 09/11/2014 14:00:00</Day14>
+        <Day14>SDR - OGCN le 09/11/2014 18:00:00</Day14>
+        <Day14>TFC - ETG le 09/11/2014 21:00:00</Day14>
+        <Day14>PSG - FCB le 08/11/2014 14:00:00</Day14>
+        <Day14>RCL - OM le 08/11/2014 18:00:00</Day14>
+        <Day14>MHSC - ASSE le 08/11/2014 20:00:00</Day14>
+        <Day14>OL - FCL le 08/11/2014 14:00:00</Day14>
+        <Day14>EAG - FCM le 08/11/2014 18:00:00</Day14>
+        <Day14>FCN - SCB le 08/11/2014 20:00:00</Day14>
+        <Day14>LOSC - SRFC le 08/11/2014 14:00:00</Day14>
+        <Day14>ASM - SMC le 09/11/2014 14:00:00</Day14>
+        <Day14>SDR - OGCN le 09/11/2014 18:00:00</Day14>
+        <Day14>TFC - ETG le 09/11/2014 21:00:00</Day14>
+        <Day15>OM - LOSC le 15/11/2014 14:00:00</Day15>
+        <Day15>FCB - MHSC le 15/11/2014 18:00:00</Day15>
+        <Day15>FCL - RCL le 15/11/2014 20:00:00</Day15>
+        <Day15>ASSE - EAG le 15/11/2014 14:00:00</Day15>
+        <Day15>SCB - OL le 15/11/2014 18:00:00</Day15>
+        <Day15>FCM - ASM le 15/11/2014 20:00:00</Day15>
+        <Day15>OGCN - FCN le 15/11/2014 14:00:00</Day15>
+        <Day15>SMC - TFC le 16/11/2014 14:00:00</Day15>
+        <Day15>ETG - SDR le 16/11/2014 18:00:00</Day15>
+        <Day15>SRFC - PSG le 16/11/2014 21:00:00</Day15>
+        <Day15>OM - LOSC le 15/11/2014 14:00:00</Day15>
+        <Day15>FCB - MHSC le 15/11/2014 18:00:00</Day15>
+        <Day15>FCL - RCL le 15/11/2014 20:00:00</Day15>
+        <Day15>ASSE - EAG le 15/11/2014 14:00:00</Day15>
+        <Day15>SCB - OL le 15/11/2014 18:00:00</Day15>
+        <Day15>FCM - ASM le 15/11/2014 20:00:00</Day15>
+        <Day15>OGCN - FCN le 15/11/2014 14:00:00</Day15>
+        <Day15>SMC - TFC le 16/11/2014 14:00:00</Day15>
+        <Day15>ETG - SDR le 16/11/2014 18:00:00</Day15>
+        <Day15>SRFC - PSG le 16/11/2014 21:00:00</Day15>
+        <Day16>OM - SRFC le 22/11/2014 14:00:00</Day16>
+        <Day16>MHSC - PSG le 22/11/2014 18:00:00</Day16>
+        <Day16>LOSC - FCL le 22/11/2014 20:00:00</Day16>
+        <Day16>EAG - FCB le 22/11/2014 14:00:00</Day16>
+        <Day16>RCL - SCB le 22/11/2014 18:00:00</Day16>
+        <Day16>ASM - ASSE le 22/11/2014 20:00:00</Day16>
+        <Day16>OL - OGCN le 22/11/2014 14:00:00</Day16>
+        <Day16>TFC - FCM le 23/11/2014 14:00:00</Day16>
+        <Day16>FCN - ETG le 23/11/2014 18:00:00</Day16>
+        <Day16>SDR - SMC le 23/11/2014 21:00:00</Day16>
+        <Day16>OM - SRFC le 22/11/2014 14:00:00</Day16>
+        <Day16>MHSC - PSG le 22/11/2014 18:00:00</Day16>
+        <Day16>LOSC - FCL le 22/11/2014 20:00:00</Day16>
+        <Day16>EAG - FCB le 22/11/2014 14:00:00</Day16>
+        <Day16>RCL - SCB le 22/11/2014 18:00:00</Day16>
+        <Day16>ASM - ASSE le 22/11/2014 20:00:00</Day16>
+        <Day16>OL - OGCN le 22/11/2014 14:00:00</Day16>
+        <Day16>TFC - FCM le 23/11/2014 14:00:00</Day16>
+        <Day16>FCN - ETG le 23/11/2014 18:00:00</Day16>
+        <Day16>SDR - SMC le 23/11/2014 21:00:00</Day16>
+        <Day17>SRFC - MHSC le 29/11/2014 14:00:00</Day17>
+        <Day17>FCL - OM le 29/11/2014 18:00:00</Day17>
+        <Day17>PSG - EAG le 29/11/2014 20:00:00</Day17>
+        <Day17>SCB - LOSC le 29/11/2014 14:00:00</Day17>
+        <Day17>FCB - ASM le 29/11/2014 18:00:00</Day17>
+        <Day17>OGCN - RCL le 29/11/2014 20:00:00</Day17>
+        <Day17>ASSE - TFC le 29/11/2014 14:00:00</Day17>
+        <Day17>ETG - OL le 30/11/2014 14:00:00</Day17>
+        <Day17>FCM - SDR le 30/11/2014 18:00:00</Day17>
+        <Day17>SMC - FCN le 30/11/2014 21:00:00</Day17>
+        <Day17>SRFC - MHSC le 29/11/2014 14:00:00</Day17>
+        <Day17>FCL - OM le 29/11/2014 18:00:00</Day17>
+        <Day17>PSG - EAG le 29/11/2014 20:00:00</Day17>
+        <Day17>SCB - LOSC le 29/11/2014 14:00:00</Day17>
+        <Day17>FCB - ASM le 29/11/2014 18:00:00</Day17>
+        <Day17>OGCN - RCL le 29/11/2014 20:00:00</Day17>
+        <Day17>ASSE - TFC le 29/11/2014 14:00:00</Day17>
+        <Day17>ETG - OL le 30/11/2014 14:00:00</Day17>
+        <Day17>FCM - SDR le 30/11/2014 18:00:00</Day17>
+        <Day17>SMC - FCN le 30/11/2014 21:00:00</Day17>
+        <Day18>EAG - MHSC le 06/12/2014 14:00:00</Day18>
+        <Day18>FCL - SRFC le 06/12/2014 18:00:00</Day18>
+        <Day18>OM - SCB le 06/12/2014 20:00:00</Day18>
+        <Day18>ASM - PSG le 06/12/2014 14:00:00</Day18>
+        <Day18>LOSC - OGCN le 06/12/2014 18:00:00</Day18>
+        <Day18>TFC - FCB le 06/12/2014 20:00:00</Day18>
         <Day18>RCL - ETG le 06/12/2014 14:00:00</Day18>
-        <Day18>SDR - FCL le 06/12/2014 18:00:00</Day18>
-        <Day18>PSG - SCB le 06/12/2014 20:00:00</Day18>
-        <Day18>LOSC - OM le 06/12/2014 14:00:00</Day18>
-        <Day18>TFC - SRFC le 07/12/2014 14:00:00</Day18>
-        <Day18>ASM - FCB le 07/12/2014 18:00:00</Day18>
-        <Day18>ASSE - FCM le 07/12/2014 21:00:00</Day18>
-        <Day18>OL - SMC le 06/12/2014 14:00:00</Day18>
-        <Day18>EAG - OGCN le 06/12/2014 18:00:00</Day18>
-        <Day18>MHSC - FCN le 06/12/2014 20:00:00</Day18>
+        <Day18>SDR - ASSE le 07/12/2014 14:00:00</Day18>
+        <Day18>OL - SMC le 07/12/2014 18:00:00</Day18>
+        <Day18>FCN - FCM le 07/12/2014 21:00:00</Day18>
+        <Day18>EAG - MHSC le 06/12/2014 14:00:00</Day18>
+        <Day18>FCL - SRFC le 06/12/2014 18:00:00</Day18>
+        <Day18>OM - SCB le 06/12/2014 20:00:00</Day18>
+        <Day18>ASM - PSG le 06/12/2014 14:00:00</Day18>
+        <Day18>LOSC - OGCN le 06/12/2014 18:00:00</Day18>
+        <Day18>TFC - FCB le 06/12/2014 20:00:00</Day18>
         <Day18>RCL - ETG le 06/12/2014 14:00:00</Day18>
-        <Day18>SDR - FCL le 06/12/2014 18:00:00</Day18>
-        <Day18>PSG - SCB le 06/12/2014 20:00:00</Day18>
-        <Day18>LOSC - OM le 06/12/2014 14:00:00</Day18>
-        <Day18>TFC - SRFC le 07/12/2014 14:00:00</Day18>
-        <Day18>ASM - FCB le 07/12/2014 18:00:00</Day18>
-        <Day18>ASSE - FCM le 07/12/2014 21:00:00</Day18>
-        <Day19>FCN - OL le 13/12/2014 14:00:00</Day19>
-        <Day19>OGCN - RCL le 13/12/2014 18:00:00</Day19>
-        <Day19>FCL - MHSC le 13/12/2014 20:00:00</Day19>
-        <Day19>ETG - PSG le 13/12/2014 14:00:00</Day19>
-        <Day19>OM - SDR le 13/12/2014 18:00:00</Day19>
-        <Day19>SCB - TFC le 13/12/2014 20:00:00</Day19>
-        <Day19>FCB - LOSC le 13/12/2014 14:00:00</Day19>
-        <Day19>SRFC - ASSE le 14/12/2014 14:00:00</Day19>
-        <Day19>FCM - ASM le 14/12/2014 18:00:00</Day19>
-        <Day19>SMC - EAG le 14/12/2014 21:00:00</Day19>
-        <Day19>FCN - OL le 13/12/2014 14:00:00</Day19>
-        <Day19>OGCN - RCL le 13/12/2014 18:00:00</Day19>
-        <Day19>FCL - MHSC le 13/12/2014 20:00:00</Day19>
-        <Day19>ETG - PSG le 13/12/2014 14:00:00</Day19>
-        <Day19>OM - SDR le 13/12/2014 18:00:00</Day19>
-        <Day19>SCB - TFC le 13/12/2014 20:00:00</Day19>
-        <Day19>FCB - LOSC le 13/12/2014 14:00:00</Day19>
-        <Day19>SRFC - ASSE le 14/12/2014 14:00:00</Day19>
-        <Day19>FCM - ASM le 14/12/2014 18:00:00</Day19>
-        <Day19>SMC - EAG le 14/12/2014 21:00:00</Day19>
-        <Day20>EAG - RCL le 20/12/2014 14:00:00</Day20>
-        <Day20>FCL - OL le 20/12/2014 18:00:00</Day20>
-        <Day20>OGCN - PSG le 20/12/2014 20:00:00</Day20>
-        <Day20>OM - MHSC le 20/12/2014 14:00:00</Day20>
-        <Day20>FCN - SMC le 20/12/2014 18:00:00</Day20>
-        <Day20>ETG - TFC le 20/12/2014 20:00:00</Day20>
-        <Day20>FCB - SDR le 20/12/2014 14:00:00</Day20>
-        <Day20>SCB - ASSE le 21/12/2014 14:00:00</Day20>
-        <Day20>FCM - LOSC le 21/12/2014 18:00:00</Day20>
-        <Day20>SRFC - ASM le 21/12/2014 21:00:00</Day20>
-        <Day21>FCN - FCL le 27/12/2014 14:00:00</Day21>
-        <Day21>SMC - RCL le 27/12/2014 18:00:00</Day21>
-        <Day21>PSG - EAG le 27/12/2014 20:00:00</Day21>
-        <Day21>OL - OM le 27/12/2014 14:00:00</Day21>
-        <Day21>TFC - OGCN le 27/12/2014 18:00:00</Day21>
-        <Day21>MHSC - FCB le 27/12/2014 20:00:00</Day21>
-        <Day21>ASSE - ETG le 27/12/2014 14:00:00</Day21>
-        <Day21>SDR - FCM le 28/12/2014 14:00:00</Day21>
-        <Day21>ASM - SCB le 28/12/2014 18:00:00</Day21>
-        <Day21>LOSC - SRFC le 28/12/2014 21:00:00</Day21>
-        <Day22>RCL - PSG le 03/01/2015 14:00:00</Day22>
-        <Day22>OM - FCN le 03/01/2015 18:00:00</Day22>
-        <Day22>EAG - TFC le 03/01/2015 20:00:00</Day22>
-        <Day22>FCB - OL le 03/01/2015 14:00:00</Day22>
-        <Day22>OGCN - ASSE le 03/01/2015 18:00:00</Day22>
-        <Day22>FCM - MHSC le 03/01/2015 20:00:00</Day22>
-        <Day22>FCL - SMC le 03/01/2015 14:00:00</Day22>
-        <Day22>ETG - ASM le 04/01/2015 14:00:00</Day22>
-        <Day22>SRFC - SDR le 04/01/2015 18:00:00</Day22>
-        <Day22>SCB - LOSC le 04/01/2015 21:00:00</Day22>
-        <Day23>FCL - OM le 10/01/2015 14:00:00</Day23>
-        <Day23>TFC - RCL le 10/01/2015 18:00:00</Day23>
-        <Day23>FCN - FCB le 10/01/2015 20:00:00</Day23>
-        <Day23>ASSE - EAG le 10/01/2015 14:00:00</Day23>
-        <Day23>OL - FCM le 10/01/2015 18:00:00</Day23>
-        <Day23>ASM - OGCN le 10/01/2015 20:00:00</Day23>
-        <Day23>MHSC - SRFC le 10/01/2015 14:00:00</Day23>
-        <Day23>LOSC - ETG le 11/01/2015 14:00:00</Day23>
-        <Day23>SMC - PSG le 11/01/2015 18:00:00</Day23>
-        <Day23>SDR - SCB le 11/01/2015 21:00:00</Day23>
-        <Day24>PSG - TFC le 17/01/2015 14:00:00</Day24>
-        <Day24>FCB - FCL le 17/01/2015 18:00:00</Day24>
-        <Day24>RCL - ASSE le 17/01/2015 20:00:00</Day24>
-        <Day24>FCM - FCN le 17/01/2015 14:00:00</Day24>
-        <Day24>EAG - ASM le 17/01/2015 18:00:00</Day24>
-        <Day24>SRFC - OL le 17/01/2015 20:00:00</Day24>
-        <Day24>OGCN - LOSC le 17/01/2015 14:00:00</Day24>
-        <Day24>SCB - MHSC le 18/01/2015 14:00:00</Day24>
-        <Day24>OM - SMC le 18/01/2015 18:00:00</Day24>
-        <Day24>ETG - SDR le 18/01/2015 21:00:00</Day24>
-        <Day25>OM - FCB le 24/01/2015 14:00:00</Day25>
-        <Day25>ASSE - PSG le 24/01/2015 18:00:00</Day25>
-        <Day25>FCL - FCM le 24/01/2015 20:00:00</Day25>
-        <Day25>ASM - RCL le 24/01/2015 14:00:00</Day25>
-        <Day25>FCN - SRFC le 24/01/2015 18:00:00</Day25>
-        <Day25>LOSC - EAG le 24/01/2015 20:00:00</Day25>
-        <Day25>OL - SCB le 24/01/2015 14:00:00</Day25>
-        <Day25>SMC - TFC le 25/01/2015 14:00:00</Day25>
-        <Day25>SDR - OGCN le 25/01/2015 18:00:00</Day25>
-        <Day25>MHSC - ETG le 25/01/2015 21:00:00</Day25>
-        <Day26>TFC - ASSE le 31/01/2015 14:00:00</Day26>
-        <Day26>FCM - OM le 31/01/2015 18:00:00</Day26>
-        <Day26>PSG - ASM le 31/01/2015 20:00:00</Day26>
-        <Day26>SRFC - FCL le 31/01/2015 14:00:00</Day26>
-        <Day26>RCL - LOSC le 31/01/2015 18:00:00</Day26>
-        <Day26>SCB - FCN le 31/01/2015 20:00:00</Day26>
-        <Day26>EAG - SDR le 31/01/2015 14:00:00</Day26>
-        <Day26>ETG - OL le 01/02/2015 14:00:00</Day26>
-        <Day26>OGCN - MHSC le 01/02/2015 18:00:00</Day26>
-        <Day26>FCB - SMC le 01/02/2015 21:00:00</Day26>
-        <Day27>FCB - FCM le 07/02/2015 14:00:00</Day27>
-        <Day27>ASM - TFC le 07/02/2015 18:00:00</Day27>
-        <Day27>OM - SRFC le 07/02/2015 20:00:00</Day27>
-        <Day27>LOSC - PSG le 07/02/2015 14:00:00</Day27>
-        <Day27>SMC - ASSE le 07/02/2015 18:00:00</Day27>
-        <Day27>FCL - SCB le 07/02/2015 20:00:00</Day27>
-        <Day27>SDR - RCL le 07/02/2015 14:00:00</Day27>
-        <Day27>FCN - ETG le 08/02/2015 14:00:00</Day27>
-        <Day27>MHSC - EAG le 08/02/2015 18:00:00</Day27>
-        <Day27>OL - OGCN le 08/02/2015 21:00:00</Day27>
-        <Day28>ASSE - ASM le 14/02/2015 14:00:00</Day28>
-        <Day28>SRFC - FCB le 14/02/2015 18:00:00</Day28>
-        <Day28>TFC - LOSC le 14/02/2015 20:00:00</Day28>
-        <Day28>SCB - OM le 14/02/2015 14:00:00</Day28>
-        <Day28>PSG - SDR le 14/02/2015 18:00:00</Day28>
-        <Day28>ETG - FCL le 14/02/2015 20:00:00</Day28>
-        <Day28>RCL - MHSC le 14/02/2015 14:00:00</Day28>
-        <Day28>FCM - SMC le 15/02/2015 14:00:00</Day28>
-        <Day28>OGCN - FCN le 15/02/2015 18:00:00</Day28>
-        <Day28>EAG - OL le 15/02/2015 21:00:00</Day28>
-        <Day29>FCM - SRFC le 21/02/2015 14:00:00</Day29>
-        <Day29>SMC - ASM le 21/02/2015 18:00:00</Day29>
-        <Day29>LOSC - ASSE le 21/02/2015 20:00:00</Day29>
-        <Day29>FCB - SCB le 21/02/2015 14:00:00</Day29>
-        <Day29>SDR - TFC le 21/02/2015 18:00:00</Day29>
-        <Day29>OM - ETG le 21/02/2015 20:00:00</Day29>
-        <Day29>MHSC - PSG le 21/02/2015 14:00:00</Day29>
-        <Day29>FCL - OGCN le 22/02/2015 14:00:00</Day29>
-        <Day29>OL - RCL le 22/02/2015 18:00:00</Day29>
-        <Day29>FCN - EAG le 22/02/2015 21:00:00</Day29>
-        <Day30>ASM - LOSC le 28/02/2015 14:00:00</Day30>
-        <Day30>SCB - FCM le 28/02/2015 18:00:00</Day30>
-        <Day30>ASSE - SDR le 28/02/2015 20:00:00</Day30>
-        <Day30>ETG - FCB le 28/02/2015 14:00:00</Day30>
-        <Day30>TFC - MHSC le 28/02/2015 18:00:00</Day30>
-        <Day30>OGCN - OM le 28/02/2015 20:00:00</Day30>
-        <Day30>PSG - OL le 28/02/2015 14:00:00</Day30>
-        <Day30>EAG - FCL le 01/03/2015 14:00:00</Day30>
-        <Day30>RCL - FCN le 01/03/2015 18:00:00</Day30>
-        <Day30>SRFC - SMC le 01/03/2015 21:00:00</Day30>
-        <Day31>SRFC - SCB le 07/03/2015 14:00:00</Day31>
-        <Day31>SDR - ASM le 07/03/2015 18:00:00</Day31>
-        <Day31>FCM - ETG le 07/03/2015 20:00:00</Day31>
-        <Day31>MHSC - ASSE le 07/03/2015 14:00:00</Day31>
-        <Day31>FCB - OGCN le 07/03/2015 18:00:00</Day31>
-        <Day31>SMC - LOSC le 07/03/2015 20:00:00</Day31>
-        <Day31>OL - TFC le 07/03/2015 14:00:00</Day31>
-        <Day31>OM - EAG le 08/03/2015 14:00:00</Day31>
-        <Day31>FCN - PSG le 08/03/2015 18:00:00</Day31>
-        <Day31>FCL - RCL le 08/03/2015 21:00:00</Day31>
-        <Day32>SCB - SMC le 14/03/2015 14:00:00</Day32>
-        <Day32>LOSC - SDR le 14/03/2015 18:00:00</Day32>
-        <Day32>ETG - SRFC le 14/03/2015 20:00:00</Day32>
-        <Day32>ASM - MHSC le 14/03/2015 14:00:00</Day32>
-        <Day32>OGCN - FCM le 14/03/2015 18:00:00</Day32>
-        <Day32>ASSE - OL le 14/03/2015 20:00:00</Day32>
-        <Day32>EAG - FCB le 14/03/2015 14:00:00</Day32>
-        <Day32>TFC - FCN le 15/03/2015 14:00:00</Day32>
-        <Day32>RCL - OM le 15/03/2015 18:00:00</Day32>
-        <Day32>PSG - FCL le 15/03/2015 21:00:00</Day32>
-        <Day33>SCB - ETG le 21/03/2015 14:00:00</Day33>
-        <Day33>MHSC - LOSC le 21/03/2015 18:00:00</Day33>
-        <Day33>SRFC - OGCN le 21/03/2015 20:00:00</Day33>
-        <Day33>OL - ASM le 21/03/2015 14:00:00</Day33>
-        <Day33>SMC - SDR le 21/03/2015 18:00:00</Day33>
-        <Day33>FCM - EAG le 21/03/2015 20:00:00</Day33>
-        <Day33>FCN - ASSE le 21/03/2015 14:00:00</Day33>
-        <Day33>FCB - RCL le 22/03/2015 14:00:00</Day33>
-        <Day33>FCL - TFC le 22/03/2015 18:00:00</Day33>
-        <Day33>OM - PSG le 22/03/2015 21:00:00</Day33>
-        <Day34>SDR - MHSC le 28/03/2015 14:00:00</Day34>
-        <Day34>OGCN - SCB le 28/03/2015 18:00:00</Day34>
-        <Day34>LOSC - OL le 28/03/2015 20:00:00</Day34>
-        <Day34>EAG - SRFC le 28/03/2015 14:00:00</Day34>
-        <Day34>ASM - FCN le 28/03/2015 18:00:00</Day34>
-        <Day34>ETG - SMC le 28/03/2015 20:00:00</Day34>
-        <Day34>RCL - FCM le 28/03/2015 14:00:00</Day34>
-        <Day34>ASSE - FCL le 29/03/2015 14:00:00</Day34>
-        <Day34>PSG - FCB le 29/03/2015 18:00:00</Day34>
-        <Day34>TFC - OM le 29/03/2015 21:00:00</Day34>
-        <Day35>ETG - OGCN le 04/04/2015 14:00:00</Day35>
-        <Day35>OL - SDR le 04/04/2015 18:00:00</Day35>
-        <Day35>SCB - EAG le 04/04/2015 20:00:00</Day35>
-        <Day35>SMC - MHSC le 04/04/2015 14:00:00</Day35>
-        <Day35>FCN - LOSC le 04/04/2015 18:00:00</Day35>
-        <Day35>SRFC - RCL le 04/04/2015 20:00:00</Day35>
-        <Day35>FCL - ASM le 04/04/2015 14:00:00</Day35>
-        <Day35>FCM - PSG le 05/04/2015 14:00:00</Day35>
-        <Day35>OM - ASSE le 05/04/2015 18:00:00</Day35>
-        <Day35>FCB - TFC le 05/04/2015 21:00:00</Day35>
-        <Day36>OGCN - SMC le 11/04/2015 14:00:00</Day36>
-        <Day36>MHSC - OL le 11/04/2015 18:00:00</Day36>
-        <Day36>EAG - ETG le 11/04/2015 20:00:00</Day36>
-        <Day36>SDR - FCN le 11/04/2015 14:00:00</Day36>
-        <Day36>RCL - SCB le 11/04/2015 18:00:00</Day36>
-        <Day36>LOSC - FCL le 11/04/2015 20:00:00</Day36>
-        <Day36>PSG - SRFC le 11/04/2015 14:00:00</Day36>
-        <Day36>ASM - OM le 12/04/2015 14:00:00</Day36>
-        <Day36>TFC - FCM le 12/04/2015 18:00:00</Day36>
-        <Day36>ASSE - FCB le 12/04/2015 21:00:00</Day36>
-        <Day37>SMC - OL le 18/04/2015 14:00:00</Day37>
-        <Day37>OGCN - EAG le 18/04/2015 18:00:00</Day37>
-        <Day37>FCN - MHSC le 18/04/2015 20:00:00</Day37>
+        <Day18>SDR - ASSE le 07/12/2014 14:00:00</Day18>
+        <Day18>OL - SMC le 07/12/2014 18:00:00</Day18>
+        <Day18>FCN - FCM le 07/12/2014 21:00:00</Day18>
+        <Day19>SCB - FCL le 13/12/2014 14:00:00</Day19>
+        <Day19>MHSC - ASM le 13/12/2014 18:00:00</Day19>
+        <Day19>OGCN - OM le 13/12/2014 20:00:00</Day19>
+        <Day19>PSG - TFC le 13/12/2014 14:00:00</Day19>
+        <Day19>ETG - LOSC le 13/12/2014 18:00:00</Day19>
+        <Day19>FCB - SDR le 13/12/2014 20:00:00</Day19>
+        <Day19>SRFC - EAG le 13/12/2014 14:00:00</Day19>
+        <Day19>SMC - RCL le 14/12/2014 14:00:00</Day19>
+        <Day19>ASSE - FCN le 14/12/2014 18:00:00</Day19>
+        <Day19>FCM - OL le 14/12/2014 21:00:00</Day19>
+        <Day19>SCB - FCL le 13/12/2014 14:00:00</Day19>
+        <Day19>MHSC - ASM le 13/12/2014 18:00:00</Day19>
+        <Day19>OGCN - OM le 13/12/2014 20:00:00</Day19>
+        <Day19>PSG - TFC le 13/12/2014 14:00:00</Day19>
+        <Day19>ETG - LOSC le 13/12/2014 18:00:00</Day19>
+        <Day19>FCB - SDR le 13/12/2014 20:00:00</Day19>
+        <Day19>SRFC - EAG le 13/12/2014 14:00:00</Day19>
+        <Day19>SMC - RCL le 14/12/2014 14:00:00</Day19>
+        <Day19>ASSE - FCN le 14/12/2014 18:00:00</Day19>
+        <Day19>FCM - OL le 14/12/2014 21:00:00</Day19>
+        <Day20>EAG - ASM le 20/12/2014 14:00:00</Day20>
+        <Day20>SCB - SRFC le 20/12/2014 18:00:00</Day20>
+        <Day20>OGCN - FCL le 20/12/2014 20:00:00</Day20>
+        <Day20>MHSC - TFC le 20/12/2014 14:00:00</Day20>
+        <Day20>ETG - OM le 20/12/2014 18:00:00</Day20>
+        <Day20>PSG - SDR le 20/12/2014 20:00:00</Day20>
+        <Day20>SMC - LOSC le 20/12/2014 14:00:00</Day20>
+        <Day20>FCB - FCN le 21/12/2014 14:00:00</Day20>
+        <Day20>FCM - RCL le 21/12/2014 18:00:00</Day20>
+        <Day20>ASSE - OL le 21/12/2014 21:00:00</Day20>
+        <Day21>SCB - OGCN le 27/12/2014 14:00:00</Day21>
+        <Day21>TFC - EAG le 27/12/2014 18:00:00</Day21>
+        <Day21>FCL - ETG le 27/12/2014 20:00:00</Day21>
+        <Day21>SRFC - ASM le 27/12/2014 14:00:00</Day21>
+        <Day21>SDR - MHSC le 27/12/2014 18:00:00</Day21>
+        <Day21>OM - SMC le 27/12/2014 20:00:00</Day21>
+        <Day21>FCN - PSG le 27/12/2014 14:00:00</Day21>
+        <Day21>LOSC - FCM le 28/12/2014 14:00:00</Day21>
+        <Day21>OL - FCB le 28/12/2014 18:00:00</Day21>
+        <Day21>RCL - ASSE le 28/12/2014 21:00:00</Day21>
+        <Day22>OGCN - SRFC le 03/01/2015 14:00:00</Day22>
+        <Day22>ASM - TFC le 03/01/2015 18:00:00</Day22>
+        <Day22>ETG - SCB le 03/01/2015 20:00:00</Day22>
+        <Day22>EAG - SDR le 03/01/2015 14:00:00</Day22>
+        <Day22>SMC - FCL le 03/01/2015 18:00:00</Day22>
+        <Day22>MHSC - FCN le 03/01/2015 20:00:00</Day22>
+        <Day22>FCM - OM le 03/01/2015 14:00:00</Day22>
+        <Day22>PSG - OL le 04/01/2015 14:00:00</Day22>
+        <Day22>ASSE - LOSC le 04/01/2015 18:00:00</Day22>
+        <Day22>FCB - RCL le 04/01/2015 21:00:00</Day22>
+        <Day23>OGCN - ETG le 10/01/2015 14:00:00</Day23>
+        <Day23>SDR - ASM le 10/01/2015 18:00:00</Day23>
+        <Day23>SCB - SMC le 10/01/2015 20:00:00</Day23>
+        <Day23>FCN - EAG le 10/01/2015 14:00:00</Day23>
+        <Day23>FCL - FCM le 10/01/2015 18:00:00</Day23>
+        <Day23>OL - MHSC le 10/01/2015 20:00:00</Day23>
+        <Day23>OM - ASSE le 10/01/2015 14:00:00</Day23>
+        <Day23>RCL - PSG le 11/01/2015 14:00:00</Day23>
+        <Day23>SRFC - TFC le 11/01/2015 18:00:00</Day23>
+        <Day23>LOSC - FCB le 11/01/2015 21:00:00</Day23>
+        <Day24>TFC - SDR le 17/01/2015 14:00:00</Day24>
+        <Day24>SMC - OGCN le 17/01/2015 18:00:00</Day24>
+        <Day24>ASM - FCN le 17/01/2015 20:00:00</Day24>
+        <Day24>FCM - SCB le 17/01/2015 14:00:00</Day24>
+        <Day24>EAG - OL le 17/01/2015 18:00:00</Day24>
+        <Day24>ASSE - FCL le 17/01/2015 20:00:00</Day24>
+        <Day24>MHSC - RCL le 17/01/2015 14:00:00</Day24>
+        <Day24>FCB - OM le 18/01/2015 14:00:00</Day24>
+        <Day24>ETG - SRFC le 18/01/2015 18:00:00</Day24>
+        <Day24>PSG - LOSC le 18/01/2015 21:00:00</Day24>
+        <Day25>ETG - SMC le 24/01/2015 14:00:00</Day25>
+        <Day25>FCN - TFC le 24/01/2015 18:00:00</Day25>
+        <Day25>OGCN - FCM le 24/01/2015 20:00:00</Day25>
+        <Day25>OL - ASM le 24/01/2015 14:00:00</Day25>
+        <Day25>SCB - ASSE le 24/01/2015 18:00:00</Day25>
+        <Day25>SRFC - SDR le 24/01/2015 20:00:00</Day25>
+        <Day25>RCL - EAG le 24/01/2015 14:00:00</Day25>
+        <Day25>FCL - FCB le 25/01/2015 14:00:00</Day25>
+        <Day25>LOSC - MHSC le 25/01/2015 18:00:00</Day25>
+        <Day25>OM - PSG le 25/01/2015 21:00:00</Day25>
+        <Day26>SMC - SRFC le 31/01/2015 14:00:00</Day26>
+        <Day26>SDR - FCN le 31/01/2015 18:00:00</Day26>
+        <Day26>FCM - ETG le 31/01/2015 20:00:00</Day26>
+        <Day26>TFC - OL le 31/01/2015 14:00:00</Day26>
+        <Day26>ASSE - OGCN le 31/01/2015 18:00:00</Day26>
+        <Day26>ASM - RCL le 31/01/2015 20:00:00</Day26>
+        <Day26>FCB - SCB le 31/01/2015 14:00:00</Day26>
+        <Day26>EAG - LOSC le 01/02/2015 14:00:00</Day26>
+        <Day26>PSG - FCL le 01/02/2015 18:00:00</Day26>
+        <Day26>MHSC - OM le 01/02/2015 21:00:00</Day26>
+        <Day27>SMC - FCM le 07/02/2015 14:00:00</Day27>
+        <Day27>SRFC - FCN le 07/02/2015 18:00:00</Day27>
+        <Day27>OL - SDR le 07/02/2015 20:00:00</Day27>
+        <Day27>ETG - ASSE le 07/02/2015 14:00:00</Day27>
+        <Day27>RCL - TFC le 07/02/2015 18:00:00</Day27>
+        <Day27>OGCN - FCB le 07/02/2015 20:00:00</Day27>
+        <Day27>LOSC - ASM le 07/02/2015 14:00:00</Day27>
+        <Day27>SCB - PSG le 08/02/2015 14:00:00</Day27>
+        <Day27>OM - EAG le 08/02/2015 18:00:00</Day27>
+        <Day27>FCL - MHSC le 08/02/2015 21:00:00</Day27>
+        <Day28>FCN - OL le 14/02/2015 14:00:00</Day28>
+        <Day28>ASSE - SMC le 14/02/2015 18:00:00</Day28>
+        <Day28>SDR - RCL le 14/02/2015 20:00:00</Day28>
+        <Day28>FCB - ETG le 14/02/2015 14:00:00</Day28>
+        <Day28>TFC - LOSC le 14/02/2015 18:00:00</Day28>
+        <Day28>PSG - OGCN le 14/02/2015 20:00:00</Day28>
+        <Day28>ASM - OM le 14/02/2015 14:00:00</Day28>
+        <Day28>FCM - SRFC le 15/02/2015 14:00:00</Day28>
+        <Day28>MHSC - SCB le 15/02/2015 18:00:00</Day28>
+        <Day28>EAG - FCL le 15/02/2015 21:00:00</Day28>
+        <Day29>SRFC - OL le 21/02/2015 14:00:00</Day29>
+        <Day29>FCM - ASSE le 21/02/2015 18:00:00</Day29>
+        <Day29>RCL - FCN le 21/02/2015 20:00:00</Day29>
+        <Day29>SMC - FCB le 21/02/2015 14:00:00</Day29>
+        <Day29>LOSC - SDR le 21/02/2015 18:00:00</Day29>
+        <Day29>ETG - PSG le 21/02/2015 20:00:00</Day29>
+        <Day29>OM - TFC le 21/02/2015 14:00:00</Day29>
+        <Day29>OGCN - MHSC le 22/02/2015 14:00:00</Day29>
+        <Day29>FCL - ASM le 22/02/2015 18:00:00</Day29>
+        <Day29>SCB - EAG le 22/02/2015 21:00:00</Day29>
+        <Day30>OL - RCL le 28/02/2015 14:00:00</Day30>
+        <Day30>FCB - FCM le 28/02/2015 18:00:00</Day30>
+        <Day30>FCN - LOSC le 28/02/2015 20:00:00</Day30>
+        <Day30>PSG - SMC le 28/02/2015 14:00:00</Day30>
+        <Day30>SDR - OM le 28/02/2015 18:00:00</Day30>
+        <Day30>MHSC - ETG le 28/02/2015 20:00:00</Day30>
+        <Day30>TFC - FCL le 28/02/2015 14:00:00</Day30>
+        <Day30>EAG - OGCN le 01/03/2015 14:00:00</Day30>
+        <Day30>ASM - SCB le 01/03/2015 18:00:00</Day30>
+        <Day30>ASSE - SRFC le 01/03/2015 21:00:00</Day30>
+        <Day31>ASSE - FCB le 07/03/2015 14:00:00</Day31>
+        <Day31>LOSC - OL le 07/03/2015 18:00:00</Day31>
+        <Day31>FCM - PSG le 07/03/2015 20:00:00</Day31>
+        <Day31>OM - FCN le 07/03/2015 14:00:00</Day31>
+        <Day31>SMC - MHSC le 07/03/2015 18:00:00</Day31>
+        <Day31>SRFC - RCL le 07/03/2015 20:00:00</Day31>
+        <Day31>FCL - SDR le 07/03/2015 14:00:00</Day31>
+        <Day31>ETG - EAG le 08/03/2015 14:00:00</Day31>
+        <Day31>SCB - TFC le 08/03/2015 18:00:00</Day31>
+        <Day31>OGCN - ASM le 08/03/2015 21:00:00</Day31>
+        <Day32>RCL - LOSC le 14/03/2015 14:00:00</Day32>
+        <Day32>PSG - ASSE le 14/03/2015 18:00:00</Day32>
+        <Day32>OL - OM le 14/03/2015 20:00:00</Day32>
+        <Day32>MHSC - FCM le 14/03/2015 14:00:00</Day32>
+        <Day32>FCN - FCL le 14/03/2015 18:00:00</Day32>
+        <Day32>EAG - SMC le 14/03/2015 20:00:00</Day32>
+        <Day32>SDR - SCB le 14/03/2015 14:00:00</Day32>
+        <Day32>ASM - ETG le 15/03/2015 14:00:00</Day32>
+        <Day32>TFC - OGCN le 15/03/2015 18:00:00</Day32>
+        <Day32>FCB - SRFC le 15/03/2015 21:00:00</Day32>
+        <Day33>FCB - PSG le 21/03/2015 14:00:00</Day33>
+        <Day33>OM - RCL le 21/03/2015 18:00:00</Day33>
+        <Day33>ASSE - MHSC le 21/03/2015 20:00:00</Day33>
+        <Day33>FCL - OL le 21/03/2015 14:00:00</Day33>
+        <Day33>FCM - EAG le 21/03/2015 18:00:00</Day33>
+        <Day33>SCB - FCN le 21/03/2015 20:00:00</Day33>
+        <Day33>SRFC - LOSC le 21/03/2015 14:00:00</Day33>
+        <Day33>SMC - ASM le 22/03/2015 14:00:00</Day33>
+        <Day33>OGCN - SDR le 22/03/2015 18:00:00</Day33>
+        <Day33>ETG - TFC le 22/03/2015 21:00:00</Day33>
+        <Day34>LOSC - OM le 28/03/2015 14:00:00</Day34>
+        <Day34>MHSC - FCB le 28/03/2015 18:00:00</Day34>
+        <Day34>RCL - FCL le 28/03/2015 20:00:00</Day34>
+        <Day34>EAG - ASSE le 28/03/2015 14:00:00</Day34>
+        <Day34>OL - SCB le 28/03/2015 18:00:00</Day34>
+        <Day34>ASM - FCM le 28/03/2015 20:00:00</Day34>
+        <Day34>FCN - OGCN le 28/03/2015 14:00:00</Day34>
+        <Day34>TFC - SMC le 29/03/2015 14:00:00</Day34>
+        <Day34>SDR - ETG le 29/03/2015 18:00:00</Day34>
+        <Day34>PSG - SRFC le 29/03/2015 21:00:00</Day34>
+        <Day35>SRFC - OM le 04/04/2015 14:00:00</Day35>
+        <Day35>PSG - MHSC le 04/04/2015 18:00:00</Day35>
+        <Day35>FCL - LOSC le 04/04/2015 20:00:00</Day35>
+        <Day35>FCB - EAG le 04/04/2015 14:00:00</Day35>
+        <Day35>SCB - RCL le 04/04/2015 18:00:00</Day35>
+        <Day35>ASSE - ASM le 04/04/2015 20:00:00</Day35>
+        <Day35>OGCN - OL le 04/04/2015 14:00:00</Day35>
+        <Day35>FCM - TFC le 05/04/2015 14:00:00</Day35>
+        <Day35>ETG - FCN le 05/04/2015 18:00:00</Day35>
+        <Day35>SMC - SDR le 05/04/2015 21:00:00</Day35>
+        <Day36>MHSC - SRFC le 11/04/2015 14:00:00</Day36>
+        <Day36>OM - FCL le 11/04/2015 18:00:00</Day36>
+        <Day36>EAG - PSG le 11/04/2015 20:00:00</Day36>
+        <Day36>LOSC - SCB le 11/04/2015 14:00:00</Day36>
+        <Day36>ASM - FCB le 11/04/2015 18:00:00</Day36>
+        <Day36>RCL - OGCN le 11/04/2015 20:00:00</Day36>
+        <Day36>TFC - ASSE le 11/04/2015 14:00:00</Day36>
+        <Day36>OL - ETG le 12/04/2015 14:00:00</Day36>
+        <Day36>SDR - FCM le 12/04/2015 18:00:00</Day36>
+        <Day36>FCN - SMC le 12/04/2015 21:00:00</Day36>
+        <Day37>MHSC - EAG le 18/04/2015 14:00:00</Day37>
+        <Day37>SRFC - FCL le 18/04/2015 18:00:00</Day37>
+        <Day37>SCB - OM le 18/04/2015 20:00:00</Day37>
+        <Day37>PSG - ASM le 18/04/2015 14:00:00</Day37>
+        <Day37>OGCN - LOSC le 18/04/2015 18:00:00</Day37>
+        <Day37>FCB - TFC le 18/04/2015 20:00:00</Day37>
         <Day37>ETG - RCL le 18/04/2015 14:00:00</Day37>
-        <Day37>FCL - SDR le 18/04/2015 18:00:00</Day37>
-        <Day37>SCB - PSG le 18/04/2015 20:00:00</Day37>
-        <Day37>OM - LOSC le 18/04/2015 14:00:00</Day37>
-        <Day37>SRFC - TFC le 19/04/2015 14:00:00</Day37>
-        <Day37>FCB - ASM le 19/04/2015 18:00:00</Day37>
-        <Day37>FCM - ASSE le 19/04/2015 21:00:00</Day37>
-        <Day38>OL - FCN le 25/04/2015 14:00:00</Day38>
-        <Day38>RCL - OGCN le 25/04/2015 18:00:00</Day38>
-        <Day38>MHSC - FCL le 25/04/2015 20:00:00</Day38>
-        <Day38>PSG - ETG le 25/04/2015 14:00:00</Day38>
-        <Day38>SDR - OM le 25/04/2015 18:00:00</Day38>
-        <Day38>TFC - SCB le 25/04/2015 20:00:00</Day38>
-        <Day38>LOSC - FCB le 25/04/2015 14:00:00</Day38>
-        <Day38>ASSE - SRFC le 26/04/2015 14:00:00</Day38>
-        <Day38>ASM - FCM le 26/04/2015 18:00:00</Day38>
-        <Day38>EAG - SMC le 26/04/2015 21:00:00</Day38>
+        <Day37>ASSE - SDR le 19/04/2015 14:00:00</Day37>
+        <Day37>SMC - OL le 19/04/2015 18:00:00</Day37>
+        <Day37>FCM - FCN le 19/04/2015 21:00:00</Day37>
+        <Day38>FCL - SCB le 25/04/2015 14:00:00</Day38>
+        <Day38>ASM - MHSC le 25/04/2015 18:00:00</Day38>
+        <Day38>OM - OGCN le 25/04/2015 20:00:00</Day38>
+        <Day38>TFC - PSG le 25/04/2015 14:00:00</Day38>
+        <Day38>LOSC - ETG le 25/04/2015 18:00:00</Day38>
+        <Day38>SDR - FCB le 25/04/2015 20:00:00</Day38>
+        <Day38>EAG - SRFC le 25/04/2015 14:00:00</Day38>
+        <Day38>RCL - SMC le 26/04/2015 14:00:00</Day38>
+        <Day38>FCN - ASSE le 26/04/2015 18:00:00</Day38>
+        <Day38>OL - FCM le 26/04/2015 21:00:00</Day38>
       </Days>
     </Calendar>
     <Journey>0</Journey>
@@ -4142,10 +4142,10 @@
       <Town>Lyon</Town>
       <Stadium>Gerland</Stadium>
       <Logo>.\..\..\..\images\OL.png</Logo>
-      <Manager>Hubert FOURNIER</Manager>
+      <Manager>Guénolé KIKABOU</Manager>
       <LeagueRanking>9</LeagueRanking>
       <Level>50</Level>
-      <Budget>510000</Budget>
+      <Budget>470000</Budget>
       <Formation>4.4.2 losange</Formation>
       <Players>
         <Titulaire>
@@ -4225,6 +4225,23 @@
             <BirthDate>11/07/1986</BirthDate>
             <BirthPlace>Lorient</BirthPlace>
             <PreviousClub>Bordeaux</PreviousClub>
+            <ActualClub>Olympique Lyonnais</ActualClub>
+            <Stats>50</Stats>
+            <FormState>100</FormState>
+            <Injury>false</Injury>
+            <Mental>100</Mental>
+            <FinancialValue>10000</FinancialValue>
+            <ActualTeamTag>OL</ActualTeamTag>
+            <Status>Titulaire</Status>
+          </Player>
+          <Player Id="208" Name="Alexandre Lacazette">
+            <ShirtNumber>10</ShirtNumber>
+            <Nationality>FRA</Nationality>
+            <Post>BU</Post>
+            <Height>174</Height>
+            <BirthDate>28/05/1991</BirthDate>
+            <BirthPlace>Lyon</BirthPlace>
+            <PreviousClub>None</PreviousClub>
             <ActualClub>Olympique Lyonnais</ActualClub>
             <Stats>50</Stats>
             <FormState>100</FormState>
@@ -4586,6 +4603,57 @@
             <BirthDate>08/04/1995</BirthDate>
             <BirthPlace>Lyon</BirthPlace>
             <PreviousClub>None</PreviousClub>
+            <ActualClub>Olympique Lyonnais</ActualClub>
+            <Stats>50</Stats>
+            <FormState>100</FormState>
+            <Injury>false</Injury>
+            <Mental>100</Mental>
+            <FinancialValue>10000</FinancialValue>
+            <ActualTeamTag>OL</ActualTeamTag>
+            <Status>Reserviste</Status>
+          </Player>
+          <Player Id="410" Name="Sacha Bastien">
+            <ShirtNumber>1</ShirtNumber>
+            <Nationality>FRA</Nationality>
+            <Post>GB</Post>
+            <Height>193</Height>
+            <BirthDate>22/01/1995</BirthDate>
+            <BirthPlace>Metz</BirthPlace>
+            <PreviousClub>Stade de Reims</PreviousClub>
+            <ActualClub>Olympique Lyonnais</ActualClub>
+            <Stats>50</Stats>
+            <FormState>100</FormState>
+            <Injury>false</Injury>
+            <Mental>100</Mental>
+            <FinancialValue>10000</FinancialValue>
+            <ActualTeamTag>OL</ActualTeamTag>
+            <Status>Reserviste</Status>
+          </Player>
+          <Player Id="396" Name="Jean-Christophe Bahebeck">
+            <ShirtNumber>15</ShirtNumber>
+            <Nationality>FRA</Nationality>
+            <Post>AG</Post>
+            <Height>182</Height>
+            <BirthDate>01/05/1993</BirthDate>
+            <BirthPlace>Saint-Denis</BirthPlace>
+            <PreviousClub>Paris-Saint-Germain Football Club</PreviousClub>
+            <ActualClub>Olympique Lyonnais</ActualClub>
+            <Stats>50</Stats>
+            <FormState>100</FormState>
+            <Injury>false</Injury>
+            <Mental>100</Mental>
+            <FinancialValue>10000</FinancialValue>
+            <ActualTeamTag>OL</ActualTeamTag>
+            <Status>Reserviste</Status>
+          </Player>
+          <Player Id="403" Name="Gregory van der Wiel">
+            <ShirtNumber>23</ShirtNumber>
+            <Nationality>NED</Nationality>
+            <Post>DLD</Post>
+            <Height>181</Height>
+            <BirthDate>03/02/1988</BirthDate>
+            <BirthPlace>Amsterdam</BirthPlace>
+            <PreviousClub>Paris-Saint-Germain Football Club</PreviousClub>
             <ActualClub>Olympique Lyonnais</ActualClub>
             <Stats>50</Stats>
             <FormState>100</FormState>
@@ -7403,10 +7471,10 @@
       <Town>Paris</Town>
       <Stadium>Parc des Princes</Stadium>
       <Logo>.\..\..\..\images\PSG.png</Logo>
-      <Manager>Guénolé KIKABOU</Manager>
+      <Manager>Laurent BLANC</Manager>
       <LeagueRanking>16</LeagueRanking>
       <Level>50</Level>
-      <Budget>490000</Budget>
+      <Budget>510000</Budget>
       <Formation>4.3.3</Formation>
       <Players>
         <Titulaire>
@@ -7520,23 +7588,6 @@
             <BirthDate>27/08/1981</BirthDate>
             <BirthPlace>Vila Velha</BirthPlace>
             <PreviousClub>Barcelona</PreviousClub>
-            <ActualClub>Paris-Saint-Germain Football Club</ActualClub>
-            <Stats>50</Stats>
-            <FormState>100</FormState>
-            <Injury>false</Injury>
-            <Mental>100</Mental>
-            <FinancialValue>10000</FinancialValue>
-            <ActualTeamTag>PSG</ActualTeamTag>
-            <Status>Titulaire</Status>
-          </Player>
-          <Player Id="403" Name="Gregory van der Wiel">
-            <ShirtNumber>23</ShirtNumber>
-            <Nationality>NED</Nationality>
-            <Post>DLD</Post>
-            <Height>181</Height>
-            <BirthDate>03/02/1988</BirthDate>
-            <BirthPlace>Amsterdam</BirthPlace>
-            <PreviousClub>Ajax</PreviousClub>
             <ActualClub>Paris-Saint-Germain Football Club</ActualClub>
             <Stats>50</Stats>
             <FormState>100</FormState>
@@ -7737,23 +7788,6 @@
             <ActualTeamTag>PSG</ActualTeamTag>
             <Status>Reserviste</Status>
           </Player>
-          <Player Id="396" Name="Jean-Christophe Bahebeck">
-            <ShirtNumber>15</ShirtNumber>
-            <Nationality>FRA</Nationality>
-            <Post>AG</Post>
-            <Height>182</Height>
-            <BirthDate>01/05/1993</BirthDate>
-            <BirthPlace>Saint-Denis</BirthPlace>
-            <PreviousClub>None</PreviousClub>
-            <ActualClub>Paris-Saint-Germain Football Club</ActualClub>
-            <Stats>50</Stats>
-            <FormState>100</FormState>
-            <Injury>false</Injury>
-            <Mental>100</Mental>
-            <FinancialValue>10000</FinancialValue>
-            <ActualTeamTag>PSG</ActualTeamTag>
-            <Status>Reserviste</Status>
-          </Player>
           <Player Id="397" Name="Mike Maignan">
             <ShirtNumber>16</ShirtNumber>
             <Nationality>FRA</Nationality>
@@ -7822,23 +7856,6 @@
             <ActualTeamTag>PSG</ActualTeamTag>
             <Status>Reserviste</Status>
           </Player>
-          <Player Id="208" Name="Alexandre Lacazette">
-            <ShirtNumber>10</ShirtNumber>
-            <Nationality>FRA</Nationality>
-            <Post>BU</Post>
-            <Height>174</Height>
-            <BirthDate>28/05/1991</BirthDate>
-            <BirthPlace>Lyon</BirthPlace>
-            <PreviousClub>Olympique Lyonnais</PreviousClub>
-            <ActualClub>Paris-Saint-Germain Football Club</ActualClub>
-            <Stats>50</Stats>
-            <FormState>100</FormState>
-            <Injury>false</Injury>
-            <Mental>100</Mental>
-            <FinancialValue>10000</FinancialValue>
-            <ActualTeamTag>PSG</ActualTeamTag>
-            <Status>Reserviste</Status>
-          </Player>
         </Reservistes>
       </Players>
     </Team>
@@ -7850,27 +7867,10 @@
       <Manager>Jean-Luc VASSEUR</Manager>
       <LeagueRanking>17</LeagueRanking>
       <Level>50</Level>
-      <Budget>500000</Budget>
+      <Budget>510000</Budget>
       <Formation>4.2.3.1</Formation>
       <Players>
         <Titulaire>
-          <Player Id="410" Name="Sacha Bastien">
-            <ShirtNumber>1</ShirtNumber>
-            <Nationality>FRA</Nationality>
-            <Post>GB</Post>
-            <Height>193</Height>
-            <BirthDate>22/01/1995</BirthDate>
-            <BirthPlace>Metz</BirthPlace>
-            <PreviousClub>Sedan</PreviousClub>
-            <ActualClub>Stade de Reims</ActualClub>
-            <Stats>50</Stats>
-            <FormState>100</FormState>
-            <Injury>false</Injury>
-            <Mental>100</Mental>
-            <FinancialValue>10000</FinancialValue>
-            <ActualTeamTag>SDR</ActualTeamTag>
-            <Status>Titulaire</Status>
-          </Player>
           <Player Id="412" Name="Franck Signorino">
             <ShirtNumber>3</ShirtNumber>
             <Nationality>ITA</Nationality>
@@ -13475,14 +13475,14 @@
       <BirthDate>28/05/1991</BirthDate>
       <BirthPlace>Lyon</BirthPlace>
       <PreviousClub>None</PreviousClub>
-      <ActualClub>Paris-Saint-Germain Football Club</ActualClub>
+      <ActualClub>Olympique Lyonnais</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
-      <ActualTeamTag>PSG</ActualTeamTag>
-      <Status>Reserviste</Status>
+      <ActualTeamTag>OL</ActualTeamTag>
+      <Status>Titulaire</Status>
     </Player>
     <Player Id="209" Name="Rachid Ghezzal">
       <ShirtNumber>11</ShirtNumber>
@@ -16859,13 +16859,13 @@
       <BirthDate>01/05/1993</BirthDate>
       <BirthPlace>Saint-Denis</BirthPlace>
       <PreviousClub>None</PreviousClub>
-      <ActualClub>Paris-Saint-Germain Football Club</ActualClub>
+      <ActualClub>Olympique Lyonnais</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
-      <ActualTeamTag>PSG</ActualTeamTag>
+      <ActualTeamTag>OL</ActualTeamTag>
       <Status>Reserviste</Status>
     </Player>
     <Player Id="397" Name="Mike Maignan">
@@ -16985,14 +16985,14 @@
       <BirthDate>03/02/1988</BirthDate>
       <BirthPlace>Amsterdam</BirthPlace>
       <PreviousClub>Ajax</PreviousClub>
-      <ActualClub>Paris-Saint-Germain Football Club</ActualClub>
+      <ActualClub>Olympique Lyonnais</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
-      <ActualTeamTag>PSG</ActualTeamTag>
-      <Status>Titulaire</Status>
+      <ActualTeamTag>OL</ActualTeamTag>
+      <Status>Reserviste</Status>
     </Player>
     <Player Id="404" Name="Marco VerrBUti">
       <ShirtNumber>24</ShirtNumber>
@@ -17111,14 +17111,14 @@
       <BirthDate>22/01/1995</BirthDate>
       <BirthPlace>Metz</BirthPlace>
       <PreviousClub>Sedan</PreviousClub>
-      <ActualClub>Stade de Reims</ActualClub>
+      <ActualClub>Olympique Lyonnais</ActualClub>
       <Stats>50</Stats>
       <FormState>100</FormState>
       <Injury>false</Injury>
       <Mental>100</Mental>
       <FinancialValue>10000</FinancialValue>
-      <ActualTeamTag>SDR</ActualTeamTag>
-      <Status>Titulaire</Status>
+      <ActualTeamTag>OL</ActualTeamTag>
+      <Status>Reserviste</Status>
     </Player>
     <Player Id="411" Name="Mohamed Fofana">
       <ShirtNumber>2</ShirtNumber>

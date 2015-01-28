@@ -23,23 +23,23 @@ namespace SIMS.SimSoccerForm
             _lobby = lobby;
             //_game.Ligue.fillCalendar();
 
-            
-            foreach( MatchDay j in _game.Ligue.Calendar.MatchDay)
-                Cjournee.Items.Add( j );
+            /// Show the Journey
+            foreach (MatchDay j in _game.Ligue.Calendar.MatchDay)
+                Cjournee.Items.Add(j);
 
             Cjournee.SelectedIndex = _game.Journey;
         }
 
-        private void Cjournee_SelectedIndexChanged( object sender, EventArgs e )
+        private void Cjournee_SelectedIndexChanged(object sender, EventArgs e)
         {
             TMatchs.Text = string.Empty;
 
             MatchDay j = Cjournee.Items[Cjournee.SelectedIndex] as MatchDay;
 
-            if( j != null )
+            if (j != null)
             {
 
-                foreach( Match m in j.Matchs )
+                foreach (Match m in j.Matchs)
                     TMatchs.Text += m.ToString() + "\r\n";
             }
         }
@@ -47,8 +47,7 @@ namespace SIMS.SimSoccerForm
         {
 
         }
-
-        private void CalendarDisplay_FormClosing( object sender, FormClosingEventArgs e )
+        private void CalendarDisplay_FormClosing(object sender, FormClosingEventArgs e)
         {
             _lobby.cmptCalendar = 0;
         }

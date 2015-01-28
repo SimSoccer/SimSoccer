@@ -39,9 +39,10 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mercatoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.transfertsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aProposToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.léquipeSimSoccerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btOpenRanking = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.btExit)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -58,15 +59,15 @@
             // 
             // btOpenProfile
             // 
-            this.btOpenProfile.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btOpenProfile.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btOpenProfile.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btOpenProfile.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btOpenProfile.BackgroundImage")));
             this.btOpenProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btOpenProfile.Font = new System.Drawing.Font("Impact", 50F);
             this.btOpenProfile.ForeColor = System.Drawing.Color.White;
-            this.btOpenProfile.Location = new System.Drawing.Point(40, 95);
+            this.btOpenProfile.Location = new System.Drawing.Point(0, 95);
             this.btOpenProfile.Name = "btOpenProfile";
-            this.btOpenProfile.Size = new System.Drawing.Size(848, 163);
+            this.btOpenProfile.Size = new System.Drawing.Size(888, 116);
             this.btOpenProfile.TabIndex = 3;
             this.btOpenProfile.Text = "PROFIL";
             this.btOpenProfile.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -75,16 +76,16 @@
             // 
             // btOpenCalendar
             // 
-            this.btOpenCalendar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btOpenCalendar.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btOpenCalendar.AutoSize = true;
             this.btOpenCalendar.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btOpenCalendar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btOpenCalendar.BackgroundImage")));
             this.btOpenCalendar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btOpenCalendar.Font = new System.Drawing.Font("Impact", 50F);
             this.btOpenCalendar.ForeColor = System.Drawing.Color.White;
-            this.btOpenCalendar.Location = new System.Drawing.Point(40, 276);
+            this.btOpenCalendar.Location = new System.Drawing.Point(0, 230);
             this.btOpenCalendar.Name = "btOpenCalendar";
-            this.btOpenCalendar.Size = new System.Drawing.Size(848, 163);
+            this.btOpenCalendar.Size = new System.Drawing.Size(888, 105);
             this.btOpenCalendar.TabIndex = 4;
             this.btOpenCalendar.Text = "CALENDRIER";
             this.btOpenCalendar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -117,24 +118,24 @@
             // 
             this.playJourney.Location = new System.Drawing.Point(285, 38);
             this.playJourney.Name = "playJourney";
-            this.playJourney.Size = new System.Drawing.Size(75, 23);
+            this.playJourney.Size = new System.Drawing.Size(98, 23);
             this.playJourney.TabIndex = 7;
-            this.playJourney.Text = "Play journey";
+            this.playJourney.Text = "Jouer journée";
             this.playJourney.UseVisualStyleBackColor = true;
             this.playJourney.Click += new System.EventHandler(this.playJourney_Click);
             // 
             // button1
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button1.AutoSize = true;
             this.button1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Impact", 50F);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(40, 457);
+            this.button1.Location = new System.Drawing.Point(0, 358);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(848, 163);
+            this.button1.Size = new System.Drawing.Size(888, 100);
             this.button1.TabIndex = 4;
             this.button1.Text = "FORMATION";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -164,9 +165,15 @@
             // transfertsToolStripMenuItem
             // 
             this.transfertsToolStripMenuItem.Name = "transfertsToolStripMenuItem";
-            this.transfertsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.transfertsToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.transfertsToolStripMenuItem.Text = "Transferts";
             this.transfertsToolStripMenuItem.Click += new System.EventHandler(this.transfertsToolStripMenuItem_Click);
+            // 
+            // aideToolStripMenuItem
+            // 
+            this.aideToolStripMenuItem.Name = "aideToolStripMenuItem";
+            this.aideToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.aideToolStripMenuItem.Text = "Aide";
             // 
             // aProposToolStripMenuItem
             // 
@@ -182,11 +189,23 @@
             this.léquipeSimSoccerToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.léquipeSimSoccerToolStripMenuItem.Text = "L\'équipe SimSoccer";
             // 
-            // aideToolStripMenuItem
+            // btOpenRanking
             // 
-            this.aideToolStripMenuItem.Name = "aideToolStripMenuItem";
-            this.aideToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.aideToolStripMenuItem.Text = "Aide";
+            this.btOpenRanking.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btOpenRanking.AutoSize = true;
+            this.btOpenRanking.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btOpenRanking.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btOpenRanking.BackgroundImage")));
+            this.btOpenRanking.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btOpenRanking.Font = new System.Drawing.Font("Impact", 50F);
+            this.btOpenRanking.ForeColor = System.Drawing.Color.White;
+            this.btOpenRanking.Location = new System.Drawing.Point(0, 474);
+            this.btOpenRanking.Name = "btOpenRanking";
+            this.btOpenRanking.Size = new System.Drawing.Size(888, 100);
+            this.btOpenRanking.TabIndex = 9;
+            this.btOpenRanking.Text = "CLASSEMENT";
+            this.btOpenRanking.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btOpenRanking.UseVisualStyleBackColor = false;
+            this.btOpenRanking.Click += new System.EventHandler(this.btOpenRanking_Click);
             // 
             // LobbyForm
             // 
@@ -196,6 +215,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1025, 632);
+            this.Controls.Add(this.btOpenRanking);
             this.Controls.Add(this.playJourney);
             this.Controls.Add(this.currentJourney);
             this.Controls.Add(this.btExit);
@@ -232,5 +252,6 @@
         private System.Windows.Forms.ToolStripMenuItem aideToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aProposToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem léquipeSimSoccerToolStripMenuItem;
+        private System.Windows.Forms.Button btOpenRanking;
     }
 }
