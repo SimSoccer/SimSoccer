@@ -28,8 +28,19 @@ namespace SIMS.SimSoccerForm
                 if( t.Name == _game.ChoosenTeam )
                     _myTeam = t;
 
+
             InitializeComponent();
             pictureBox2_Click( this, EventArgs.Empty );
+            foreach( Player p in _myTeam.TeamPlayers )
+                listBox2.Items.Add( p.Name );
+
+            using( FileStream fs = new FileStream( _myTeam.Logo, FileMode.Open ) )
+            {
+                pictureBox3.Image = Image.FromStream( fs );
+            }
+
+            textBox1.Text = _myTeam.Name;
+            textBox2.Text = _myTeam.Budget.ToString();
         }
 
         private void pictureBox1_Click( object sender, EventArgs e )
@@ -72,14 +83,20 @@ namespace SIMS.SimSoccerForm
                 pictureBox2.Image = Image.FromStream( fs );
                 textBox3_TextChanged( this, EventArgs.Empty );
                 textBox2_TextChanged( this, EventArgs.Empty );
+                textBox4_TextChanged( this, EventArgs.Empty );
             }
         }
 
         private void textBox2_TextChanged( object sender, EventArgs e )
         { 
             listBox1.Items.Clear();
-            foreach( Player p in _game.TeamList.Teams[i].TeamPlayers 
+            foreach( Player p in _game.TeamList.Teams[i].TeamPlayers)
                 listBox1.Items.Add( p.Name );
+        }
+
+        private void textBox4_TextChanged( object sender, EventArgs e )
+        {
+            textBox4.Text = _game.TeamList.Teams[i].Budget.ToString();
         }
 
         private void textBox3_TextChanged( object sender, EventArgs e )
@@ -102,10 +119,19 @@ namespace SIMS.SimSoccerForm
             } 
 
             listBox1.Items.Clear();
+            listBox2.Items.Clear();
+            textBox2.Clear();
+            textBox4.Clear();
             _game.TeamList.Teams.OrderBy( n => n.Id );
 
             foreach( Player p in _game.TeamList.Teams[i].TeamPlayers )
                 listBox1.Items.Add( p.Name );
+
+            foreach( Player p2 in _myTeam.TeamPlayers )
+                listBox2.Items.Add( p2.Name );
+            textBox2.Text = _myTeam.Budget.ToString();
+
+            textBox4.Text = _game.TeamList.Teams[i].Budget.ToString();
         }
     }
 }
