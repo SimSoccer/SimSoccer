@@ -28,22 +28,20 @@ namespace Sims.SimSoccerModel
         readonly Field _field;
         Graphics _graphic;
         int _season;
+        readonly FormationList _formation;
+        public Random _rnd;
+        int _journey;
 
         public Graphics Graphic
         {
             get { return _graphic; }
             set { _graphic = value; }
         }
-        readonly FormationList _formation;
-        public Random _rnd;
-        int _journey;
 
         public Random Rnd
         {
             get { return _rnd; }
         }
-
-
 
         public PlayerList PlayerList
         {
@@ -355,12 +353,18 @@ namespace Sims.SimSoccerModel
             doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
         }
 
-        public void SaveTheGame()
+        public void SaveTheGame(int journey)
         {
+            _journey = journey;
             DateTime today = DateTime.Now;
 
             var doc = XElement.Load( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
-            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var target = doc
+                  .Elements( "Profil" )
+                  .Single();
+            target.Element( "Journey" ).Value = _journey.ToString();
+            doc.Save( @".\..\..\..\user_" + UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" ); 
+            
         }
 
 

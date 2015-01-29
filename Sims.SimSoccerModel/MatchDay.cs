@@ -70,6 +70,8 @@ namespace Sims.SimSoccerModel
                     Console.WriteLine( this.Matchs[i].Result.TextSummary );
                 }            
             }
+
+            
         }
 
     }

@@ -81,6 +81,7 @@ namespace SIMS.SimSoccerForm
         {
             teamStadium.Text = _game.TeamList.Teams[i].Stadium;
             PlayersBox_TextChanged(this, EventArgs.Empty);
+            textBox3_TextChanged( this, EventArgs.Empty );
         }
 
         private void buttoSelect_Click(object sender, EventArgs e)
@@ -125,6 +126,11 @@ namespace SIMS.SimSoccerForm
                 Players2 += _game.TeamList.Teams[i].TeamType[cmpt].Name + "\r\n";
             }
             textBox1.Text = Players2;
+        }
+
+        private void textBox3_TextChanged( object sender, EventArgs e )
+        {
+            textBox3.Text = _game.TeamList.Teams[i].Level.ToString();
         }
     }
 }

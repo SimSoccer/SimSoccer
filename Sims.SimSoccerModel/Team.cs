@@ -102,7 +102,7 @@ namespace Sims.SimSoccerModel
             _remplacents = new List<Player>();
             _reservist = new List<Player>();
             _owner = owner;
-            _leaguePoints = 0;
+            _leaguePoints = int.Parse(e.Element("Points").Value);
             string tt = e.Element("TeamTag").Value;
             _formation = e.Element("Formation").Value;
 
@@ -188,7 +188,8 @@ namespace Sims.SimSoccerModel
         {
             return new XElement("Team",
                         new XAttribute("Id", id),
-                        new XAttribute("Name", Name),
+                        new XElement( "Points"),
+                        new XAttribute( "Name", Name ),
                         new XElement("TeamTag", TeamTag),
                         new XElement("Town", Town),
                         new XElement("Stadium", Stadium),
