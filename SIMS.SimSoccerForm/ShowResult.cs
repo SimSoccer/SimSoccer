@@ -36,12 +36,12 @@ namespace SIMS.SimSoccerForm
                    if( _game.Ligue.Calendar.MatchDay[_game.Journey].Matchs[j].Home.Name == _game.ChoosenTeam || _game.Ligue.Calendar.MatchDay[_game.Journey].Matchs[j].Outside.Name == _game.ChoosenTeam )
                    {
                        temp2 += _game.Ligue.Calendar.MatchDay[_game.Journey].Matchs[j].Result.TextSummary + "\r\n" ;
-                       temp2 += _game.Ligue.Calendar.MatchDay[_game.Journey].Matchs[j].Home.Name + " Scorer \r\n";
+                       temp2 +=  "  Les buteur(s) d\' " + _game.Ligue.Calendar.MatchDay[_game.Journey].Matchs[j].Home.Name + " sont : \r\n"  ;
                        foreach( Player value in _game.Ligue.Calendar.MatchDay[_game.Journey].Matchs[j].Result.ScorerH )
                        {
                            temp2 += "  " + value.Name + "   /";
                        }
-                       temp2 += "\r\n" + _game.Ligue.Calendar.MatchDay[_game.Journey].Matchs[j].Outside.Name + " Scorer \r\n";
+                       temp2 += "\r\n Les buteur(s) d\' " + _game.Ligue.Calendar.MatchDay[_game.Journey].Matchs[j].Outside.Name + " sont : \r\n";
                        foreach( Player value in _game.Ligue.Calendar.MatchDay[_game.Journey].Matchs[j].Result.ScorerO )
                        {
                            temp2 += "  " + value.Name + "   /";

@@ -43,9 +43,9 @@
             this.textBox1.Location = new System.Drawing.Point(12, 28);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(143, 26);
+            this.textBox1.Size = new System.Drawing.Size(216, 26);
             this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Score other teams :";
+            this.textBox1.Text = "Matches des autres équipes :";
             // 
             // ViewOtherScore
             // 
@@ -63,12 +63,12 @@
             // 
             this.textBox3.Enabled = false;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(12, 248);
+            this.textBox3.Location = new System.Drawing.Point(24, 249);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(80, 26);
+            this.textBox3.Size = new System.Drawing.Size(97, 26);
             this.textBox3.TabIndex = 2;
-            this.textBox3.Text = "My match :";
+            this.textBox3.Text = "Mon match :";
             // 
             // MyMatch
             // 

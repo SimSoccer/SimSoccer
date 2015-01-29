@@ -30,11 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.rankingBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.rankingBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.Team = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Score = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Rank = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rankingBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.rankingBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rankingBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rankingBindingSource1)).BeginInit();
@@ -53,14 +53,7 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(484, 466);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // rankingBindingSource
-            // 
-            this.rankingBindingSource.DataSource = typeof(Sims.SimSoccerModel.Ranking);
-            // 
-            // rankingBindingSource1
-            // 
-            this.rankingBindingSource1.DataSource = typeof(Sims.SimSoccerModel.Ranking);
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Team
             // 
@@ -71,8 +64,8 @@
             // 
             // Score
             // 
-            this.Score.HeaderText = "Score";
-            this.Score.Name = "Score";
+            this.Score.HeaderText = "Points";
+            this.Score.Name = "Points";
             this.Score.ReadOnly = true;
             // 
             // Rank
@@ -80,6 +73,14 @@
             this.Rank.HeaderText = "Classement";
             this.Rank.Name = "Rank";
             this.Rank.ReadOnly = true;
+            // 
+            // rankingBindingSource
+            // 
+            this.rankingBindingSource.DataSource = typeof(Sims.SimSoccerModel.Ranking);
+            // 
+            // rankingBindingSource1
+            // 
+            this.rankingBindingSource1.DataSource = typeof(Sims.SimSoccerModel.Ranking);
             // 
             // RankingDisplay
             // 
