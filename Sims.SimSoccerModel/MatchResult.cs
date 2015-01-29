@@ -93,7 +93,7 @@ namespace Sims.SimSoccerModel
             {
                 _winner = _dom.Name;
                 _looser = _winner;
-                _textSummary = "it's a tie betwen " + _dom.TeamTag + " and " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
+                _textSummary = "C'est un match nul entre " + _dom.TeamTag + " et " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
 
                 _dom.LeaguePoint++;
                 _ext.LeaguePoint++;
@@ -103,7 +103,7 @@ namespace Sims.SimSoccerModel
             {
                 _winner = _dom.Name;
                 _looser = _ext.Name;
-                _textSummary = _dom.TeamTag + " won against " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
+                _textSummary = _dom.TeamTag + " a gagné contre " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
 
                 _dom.LeaguePoint += 3;
             }
@@ -111,7 +111,7 @@ namespace Sims.SimSoccerModel
             {
                 _winner = _ext.Name;
                 _looser = _dom.Name;
-                _textSummary = _dom.TeamTag + " loose against " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
+                _textSummary = _dom.TeamTag + " a perdu contre " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
 
                 _ext.LeaguePoint += 3;
 
