@@ -65,6 +65,7 @@
             // 
             // Logo
             // 
+            this.Logo.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.Logo, "Logo");
             this.Logo.Name = "Logo";
             this.Logo.TabStop = false;
