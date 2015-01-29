@@ -272,6 +272,8 @@ namespace Sims.SimSoccerModel
             Player previousPlayer = new Player( _game.PlayerList, "tata" );
             Team previousPlayerTeam = new Team(_owner, "tonton");
             Team newPlayerTeam = new Team( _owner, "titi" );
+            int otherPlayerBudget = 0;
+
             foreach( Team t in _game.TeamList.Teams )
             {
                 if( t.Name == teamName )
@@ -361,9 +363,10 @@ namespace Sims.SimSoccerModel
                                 XElement tt = target3.Single();
                                 Image i = Image.FromFile( @".\..\..\..\images\PlayerOne.png" );
                                 newPlayer = new Player( _game.PlayerList, tt, i );
-                                int otherPlayerBudget = int.Parse(target6.Value) - newPlayer.FinancialValue;
+                                otherPlayerBudget = int.Parse(target6.Value) - newPlayer.FinancialValue;
                                 target6.Value = otherPlayerBudget.ToString();
                                 target7.Value = ( _budget + newPlayer.FinancialValue ).ToString();
+                                _budget = _budget + newPlayer.FinancialValue;
                                 doc.Save( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
                                 
                                 doc = XDocument.Load( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
@@ -375,6 +378,7 @@ namespace Sims.SimSoccerModel
             _game.PlayerList.AddPlayerToList( newPlayer );
             _game.PlayerList.RemovePlayer( previousPlayer );
             _game.TeamList.Teams[newPlayerTeam.Id].TeamPlayers.Add( newPlayer );
+            _game.TeamList.Teams[newPlayerTeam.Id].Budget = otherPlayerBudget;
 
             this.TeamPlayers.Remove( previousPlayer );
             _game.TeamList.Teams.OrderBy( n => n.Id );
@@ -440,6 +444,7 @@ namespace Sims.SimSoccerModel
         public int Budget
         {
             get { return _budget; }
+            set { _budget = value; }
         }
 
         public int LeaguePoint
