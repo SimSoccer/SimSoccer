@@ -70,9 +70,12 @@ namespace SIMS.SimSoccerForm
 
         private void btExit_Click( object sender, EventArgs e )
         {
+<<<<<<< HEAD
+            _game.SaveProfilToXML( _game.BirthDate, _game.Avatar, _game, _game.Journey );
+=======
 
-            _game.SaveTheGame( _game.Journey );
-            //_game.SaveProfilToXML( _game.BirthDate, _game.Avatar, _game, _game.Journey );
+            _game.SaveProfilToXML( _game.BirthDate, _game.Avatar, _game , _game.Journey);
+>>>>>>> ba786d835483dfe55c4d287a53d1685ba707fc19
             Application.Exit();
         }
 
@@ -86,24 +89,6 @@ namespace SIMS.SimSoccerForm
             _game.Ligue.Calendar.MatchDay[_game.Journey].playJourney();
             ShowResult SR = new ShowResult( _game, this );
             SR.Show();
-        }
-
-        private void btFormation_Click( object sender, EventArgs e )
-        {
-            Formation formation = new Formation( _game );
-            formation.Show();
-        }
-
-        private void transfertsToolStripMenuItem_Click( object sender, EventArgs e )
-        {
-            TransfertsInterface transfertInterface = new TransfertsInterface(_game);
-            transfertInterface.Show();
-        }
-
-        private void btOpenRanking_Click( object sender, EventArgs e )
-        {
-            RankingDisplay RD = new RankingDisplay(_game, this);
-            RD.Show();
         }
     }
 }

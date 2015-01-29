@@ -555,7 +555,7 @@ namespace ConvertCSVToXML
                     new XElement("FinancialValue", fields[15]),
                     new XElement("ActualTeamTag", fields[16]),
                     new XElement("Status", fields[17]))));
-            cust.Save(@"C:\Users\user\Documents\SimSoccer\Ligue1Players2.xml");
+            cust.Save(@".\..\..\..\..\Ligue1Players2.xml");
         }
     }
 }
