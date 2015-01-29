@@ -86,7 +86,7 @@ namespace SIMS.SimSoccerForm
            
             
             _lobby.cmptProfil = 0;
-            _game.SaveProfilToXML(_game.BirthDate,_game.Avatar, _game );
+            _game.SaveProfilToXML(_game.BirthDate,_game.Avatar, _game, _game.Journey );
 
             this.Close();
         }
