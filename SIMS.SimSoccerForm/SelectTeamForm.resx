@@ -277,7 +277,7 @@
     <value>MiddleRight</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1000, 165</value>
+    <value>960, 205</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>119, 120</value>
@@ -456,7 +456,7 @@
     <value>MiddleLeft</value>
   </data>
   <data name="previous.Location" type="System.Drawing.Point, System.Drawing">
-    <value>473, 165</value>
+    <value>507, 205</value>
   </data>
   <data name="previous.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 120</value>
