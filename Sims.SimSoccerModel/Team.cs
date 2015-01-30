@@ -102,7 +102,7 @@ namespace Sims.SimSoccerModel
             _remplacents = new List<Player>();
             _reservist = new List<Player>();
             _owner = owner;
-            _leaguePoints = 0;
+            _leaguePoints = int.Parse(e.Element("Points").Value);
             string tt = e.Element("TeamTag").Value;
             _formation = e.Element("Formation").Value;
 
@@ -184,11 +184,18 @@ namespace Sims.SimSoccerModel
                     new XElement("ActualTeamTag", p.ActualTeamTag),
                     new XElement("Status", p.Status)));
         }
+
+             public Team( TeamList owner, XElement e, int i )
+             {
+                 _owner = owner;
+                 _name = e.Value;
+             }
         public XElement ToXml(int id)
         {
             return new XElement("Team",
                         new XAttribute("Id", id),
-                        new XAttribute("Name", Name),
+                        new XElement( "Points", LeaguePoint),
+                        new XAttribute( "Name", Name ),
                         new XElement("TeamTag", TeamTag),
                         new XElement("Town", Town),
                         new XElement("Stadium", Stadium),
