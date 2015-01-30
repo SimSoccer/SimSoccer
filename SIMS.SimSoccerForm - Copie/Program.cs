@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Sims.SimSoccerModel;
 
-namespace GraphicsFormsEssai
+namespace SIMS.SimSoccerForm
 {
     static class Program
     {
+        
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -17,7 +17,8 @@ namespace GraphicsFormsEssai
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault( false );
-            //Application.Run( new GDI() );
+            Application.Run( new StartPage() );
+            //Application.Run( new FormInscription() );
         }
     }
 }

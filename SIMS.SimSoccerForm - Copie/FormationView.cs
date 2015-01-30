@@ -11,23 +11,22 @@ using System.Windows.Forms;
 using System.Xml.Linq;
 using System.Reflection;
 
-namespace GraphicsFormsEssai
+namespace SIMS.SimSoccerForm
 {
-    public partial class GDI : Form
+    public partial class Formation : Form
     {
-       // Game _game = new Game( "test", "1234", "blabla", "lala" );
         Game _game;
         ListBox playerList = new ListBox();
         Team myTeam;
 
-        public GDI(Game game)
+        public Formation(Game game)
         {
             InitializeComponent();
             _game = game;
             NewGDI( this );
         }
 
-        private void NewGDI( GDI newone )
+        private void NewGDI( Formation newone )
         {
             #region Create New GDI
             listBox1.Items.Add( "Joueurs de votre équipe : " );

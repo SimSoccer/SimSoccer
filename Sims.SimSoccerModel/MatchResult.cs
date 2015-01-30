@@ -83,7 +83,6 @@ namespace Sims.SimSoccerModel
             _ext = ext;
             ScorerH = new List<Player>();
             ScorerO = new List<Player>();
-
         }
 
         public void Result()
