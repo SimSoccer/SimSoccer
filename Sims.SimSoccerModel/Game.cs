@@ -31,6 +31,8 @@ namespace Sims.SimSoccerModel
         readonly FormationList _formation;
         public Random _rnd;
         int _journey;
+        bool _gameOver;
+        bool _reached;
 
         public Graphics Graphic
         {
@@ -41,6 +43,12 @@ namespace Sims.SimSoccerModel
         public Random Rnd
         {
             get { return _rnd; }
+        }
+
+        public bool Reached
+        {
+            get { return _reached; }
+            set { _reached = value; }
         }
 
         public PlayerList PlayerList
@@ -88,6 +96,12 @@ namespace Sims.SimSoccerModel
         public string LastName
         {
             get { return _lastName; }
+        }
+
+        public bool GameOver
+        {
+            get { return _gameOver; }
+            set { _gameOver = value; }
         }
         public string FirstName
         {

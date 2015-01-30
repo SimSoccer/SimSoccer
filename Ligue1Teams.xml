@@ -12,6 +12,7 @@
       <Level>70</Level>
       <Budget>500000</Budget>
       <Formation>4.4.2</Formation>
+      <Objectif>5</Objectif>
     </Team>
     <Team Id="1" Name="Football Club des Girondins de Bordeaux">
       <Points>0</Points>
@@ -24,6 +25,7 @@
       <Level>72</Level>
       <Budget>500000</Budget>
       <Formation>4.4.2</Formation>
+      <Objectif>4</Objectif>
     </Team>
     <Team Id="2" Name="Stade Malherbe de Caen">
       <Points>0</Points>
@@ -36,6 +38,7 @@
       <Level>69</Level>
       <Budget>500000</Budget>
       <Formation>5.3.2</Formation>
+      <Objectif>6</Objectif>
     </Team>
     <Team Id="3" Name="Evian Thonon Gaillard Football Club">
       <Points>0</Points>
@@ -48,6 +51,7 @@
       <Level>67</Level>
       <Budget>500000</Budget>
       <Formation>4.4.2</Formation>
+      <Objectif>6</Objectif>
     </Team>
     <Team Id="4" Name="En Avant Guingamp">
       <Points>0</Points>
@@ -60,6 +64,7 @@
       <Level>70</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>6</Objectif>
     </Team>
     <Team Id="5" Name="Racing Club de Lens">
       <Points>0</Points>
@@ -72,6 +77,7 @@
       <Level>64</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>5</Objectif>
     </Team>
     <Team Id="6" Name="Lille Olympique Sporting Club">
       <Points>0</Points>
@@ -84,6 +90,7 @@
       <Level>71</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>3</Objectif>
     </Team>
     <Team Id="7" Name="Football Club Lorient-Bretagne Sud">
       <Points>0</Points>
@@ -96,6 +103,7 @@
       <Level>69</Level>
       <Budget>500000</Budget>
       <Formation>4.4.2</Formation>
+      <Objectif>6</Objectif>
     </Team>
     <Team Id="8" Name="Olympique Lyonnais">
       <Points>0</Points>
@@ -108,6 +116,7 @@
       <Level>78</Level>
       <Budget>500000</Budget>
       <Formation>4.4.2 losange</Formation>
+      <Objectif>3</Objectif>
     </Team>
     <Team Id="9" Name="Olympique de Marseille">
       <Points>0</Points>
@@ -120,6 +129,7 @@
       <Level>75</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>2</Objectif>
     </Team>
     <Team Id="10" Name="Football Club de Metz">
       <Points>0</Points>
@@ -132,6 +142,7 @@
       <Level>68</Level>
       <Budget>500000</Budget>
       <Formation>4.2.3.1</Formation>
+      <Objectif>6</Objectif>
     </Team>
     <Team Id="11" Name="Association sportive de Monaco FC">
       <Points>0</Points>
@@ -144,6 +155,7 @@
       <Level>74</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>2</Objectif>
     </Team>
     <Team Id="12" Name="Montpellier-Herault Sports Club">
       <Points>0</Points>
@@ -156,6 +168,7 @@
       <Level>70</Level>
       <Budget>500000</Budget>
       <Formation>4.2.3.1</Formation>
+      <Objectif>4</Objectif>
     </Team>
     <Team Id="13" Name="Football Club de Nantes">
       <Points>0</Points>
@@ -168,6 +181,7 @@
       <Level>71</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>6</Objectif>
     </Team>
     <Team Id="14" Name="Olympique Gymnaste Club Nice Côte d'Azur">
       <Points>0</Points>
@@ -180,6 +194,7 @@
       <Level>70</Level>
       <Budget>500000</Budget>
       <Formation>4.2.3.1</Formation>
+      <Objectif>5</Objectif>
     </Team>
     <Team Id="15" Name="Paris-Saint-Germain Football Club">
       <Points>0</Points>
@@ -192,6 +207,7 @@
       <Level>80</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>1</Objectif>
     </Team>
     <Team Id="16" Name="Stade de Reims">
       <Points>0</Points>
@@ -204,6 +220,7 @@
       <Level>67</Level>
       <Budget>500000</Budget>
       <Formation>4.2.3.1</Formation>
+      <Objectif>5</Objectif>
     </Team>
     <Team Id="17" Name="Stade Rennais Football Club">
       <Points>0</Points>
@@ -216,6 +233,7 @@
       <Level>72</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>3</Objectif>
     </Team>
     <Team Id="18" Name="Association Sportive de St-Etienne">
       <Points>0</Points>
@@ -228,8 +246,9 @@
       <Level>75</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>3</Objectif>
     </Team>
-    <Team Id="29" Name="Toulouse Football Club">
+    <Team Id="19" Name="Toulouse Football Club">
       <Points>0</Points>
       <TeamTag>TFC</TeamTag>
       <Town>Toulouse</Town>
@@ -240,6 +259,7 @@
       <Level>72</Level>
       <Budget>500000</Budget>
       <Formation>5.3.2</Formation>
+      <Objectif>4</Objectif>
     </Team>
   </Teams>
 </Game>
