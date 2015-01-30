@@ -340,66 +340,55 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
-		<row><td>AxInterop.WMPLib.dll</td><td>{49C64695-6CCC-4D6D-9393-6ED329B23EDB}</td><td>DEBUG</td><td>2</td><td/><td>axinterop.wmplib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>AxInterop.WMPLib.dll1</td><td>{F8C6827B-9683-495B-AE66-50EAC7040805}</td><td>RELEASE</td><td>2</td><td/><td>axinterop.wmplib.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>AxInterop.WMPLib.dll2</td><td>{17B714E2-313E-4ADB-931B-3729EFB37455}</td><td>DEBUG1</td><td>2</td><td/><td>axinterop.wmplib.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>AxInterop.WMPLib.dll3</td><td>{CC505160-9F77-4C86-B1C8-E5792CFACAB6}</td><td>RELEASE1</td><td>2</td><td/><td>axinterop.wmplib.dll3</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>CK.Core.dll</td><td>{EC1FB00A-F64A-4018-9087-3BB18AF337DE}</td><td>DEBUG</td><td>2</td><td/><td>ck.core.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>CK.Core.dll1</td><td>{30786E60-59E8-494B-BC55-B26850619CC0}</td><td>RELEASE</td><td>2</td><td/><td>ck.core.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>CK.Core.dll2</td><td>{917F54B0-3BC7-4B2A-AECE-BBEF5B5850C2}</td><td>DEBUG1</td><td>2</td><td/><td>ck.core.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>AxInterop.WMPLib.dll</td><td>{BC6C203C-A5B8-4377-AF25-E5CA6D77AEDC}</td><td>DEBUG</td><td>2</td><td/><td>axinterop.wmplib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>AxInterop.WMPLib.dll1</td><td>{8ED01AA2-7D55-49AC-B99B-72046C44E4C0}</td><td>RELEASE</td><td>2</td><td/><td>axinterop.wmplib.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>AxInterop.WMPLib.dll2</td><td>{212FD9D3-93D3-4BBB-852D-3A252598524C}</td><td>DEBUG1</td><td>2</td><td/><td>axinterop.wmplib.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>AxInterop.WMPLib.dll3</td><td>{05F50AA7-5B3C-4397-9029-05316EFD1D29}</td><td>RELEASE1</td><td>2</td><td/><td>axinterop.wmplib.dll3</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CK.Core.dll</td><td>{BF5C8D04-359E-4231-83F7-71DF71531A3E}</td><td>DEBUG</td><td>2</td><td/><td>ck.core.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CK.Core.dll1</td><td>{81C7BE1D-38AC-4ED8-AF79-4FA854BB20AD}</td><td>RELEASE</td><td>2</td><td/><td>ck.core.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{EC2403D5-F2C4-4243-B268-F2BC0EAD43CC}</td><td>IMAGES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{9EF9DB1C-E6ED-41E4-A5C0-1815176FED1D}</td><td>MUSICS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT10</td><td>{9398E445-42EA-4ADA-B5E7-FD23977D7A43}</td><td>RELEASE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT11</td><td>{06EA8C6A-DD62-41E9-93A1-E0864AA9D357}</td><td>APP.PUBLISH1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT12</td><td>{CE94432D-557C-4EC2-9854-ADAFD4B271C7}</td><td>FR2</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT13</td><td>{F609CDB4-40DD-4C31-9B24-5D7F8F16504A}</td><td>OBJ</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT14</td><td>{D4DED379-F71F-426C-A7FA-60FECF36E895}</td><td>DEBUG1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT15</td><td>{BC5E2AB9-4A8E-45D6-8BFF-C53DEB518538}</td><td>APP.PUBLISH2</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT16</td><td>{5DA92A4D-68A9-4024-AF95-679AD4216E95}</td><td>APPLICATION_FILES1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT17</td><td>{8803007C-8E1A-41AE-BBFD-CE4E9837CC64}</td><td>SIMS.SIMSOCCERFORM_1_0_0_81</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT18</td><td>{F6252A22-EDC0-45C4-BF29-EA769609E58D}</td><td>FR3</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT10</td><td>{108AC29E-DB6C-45DE-9731-ED8F86F2120F}</td><td>OBJ</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT11</td><td>{BB1341CA-7965-4ED0-A285-EE74B025C06F}</td><td>DEBUG1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT12</td><td>{60136C81-6372-410A-8ADB-F1D6560A006B}</td><td>FR2</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT13</td><td>{A2A299AB-67D3-4967-B728-1E0AB4F4E517}</td><td>TEMPPE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT14</td><td>{D72EF5B3-BE00-4157-B809-BD36B40E65D8}</td><td>RELEASE1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT15</td><td>{44795983-DDE0-4BFB-B882-4B0431979221}</td><td>FR3</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT16</td><td>{D692CE32-7FEE-4AD4-8F48-6E5C2AAF8F8D}</td><td>TEMPPE1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT17</td><td>{D8B51E9C-D445-4DEB-AF65-10C41865DC1F}</td><td>PROPERTIES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT18</td><td>{FC5B8D75-5C43-40D2-89AE-92E3C29BC43D}</td><td>DATASOURCES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT19</td><td>{C9184215-1244-4002-A0E2-04BF0DA4B522}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{A4F78BCE-7EC7-49A8-B469-5BDEB1AB7DB2}</td><td>SIMS.SIMSOCCERFORM___COPIE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT20</td><td>{32AA4C2A-4CB2-4C8F-9B26-59C1F94F25F1}</td><td>FR4</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT21</td><td>{147DE6D3-38DB-4E70-95FD-24807AF2CD7F}</td><td>RELEASE1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT22</td><td>{D1E1E039-D8B8-4827-8A2B-98FB94AA7354}</td><td>FR5</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT23</td><td>{3E05A742-390C-4284-BAF2-3A5DAA4C3C8F}</td><td>TEMPPE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT24</td><td>{3F044304-5D20-4A5E-8187-72FA5A58B3FA}</td><td>PROPERTIES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT25</td><td>{5B0B0F82-C3C9-42B3-A88A-A69E3FFAC515}</td><td>DATASOURCES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT3</td><td>{6CED334D-37F3-4DD1-874D-6919CD3459BC}</td><td>BIN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT4</td><td>{026B28AA-5AB5-45C0-944F-B0F2AF00DF15}</td><td>DEBUG</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT5</td><td>{848053AF-D9FE-4C73-85FD-29DEF3E4AB7B}</td><td>APP.PUBLISH</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT6</td><td>{256E7981-4DE1-4934-B70A-FA41F9BF5B1A}</td><td>APPLICATION_FILES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT7</td><td>{EB8D3E9B-7E82-47FE-BFF3-AFC74804EF10}</td><td>SIMS.SIMSOCCERFORM_1_0_0_8</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT8</td><td>{239C94B8-1593-43AD-A04E-EA2875265D79}</td><td>FR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT9</td><td>{EAC91C2A-2924-438C-BF3D-2CC2854C31E7}</td><td>FR1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Interop.WMPLib.dll</td><td>{07CADCEE-A859-4B02-9B35-3D061106ED19}</td><td>DEBUG</td><td>2</td><td/><td>interop.wmplib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Interop.WMPLib.dll1</td><td>{ECA40199-D7C4-4475-8FF4-8583724D8901}</td><td>RELEASE</td><td>2</td><td/><td>interop.wmplib.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Interop.WMPLib.dll2</td><td>{EFEF9075-9C2F-4FCD-A401-87D4DA90662D}</td><td>DEBUG1</td><td>2</td><td/><td>interop.wmplib.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Interop.WMPLib.dll3</td><td>{2D7F60BC-76C1-4759-89D4-7FE081018851}</td><td>RELEASE1</td><td>2</td><td/><td>interop.wmplib.dll3</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Properties.Resources.Designer.cs.dll</td><td>{30A59B60-D0E7-42BC-BE35-0BF5AADB99C2}</td><td>TEMPPE</td><td>2</td><td/><td>properties.resources.designe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SIMS.SimSoccerForm.exe</td><td>{6CA5FD35-987E-4CEB-84A9-A44640D994C3}</td><td>APP.PUBLISH</td><td>2</td><td/><td>sims.simsoccerform.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SIMS.SimSoccerForm.exe1</td><td>{BC17B74B-ABE0-4AA9-A4CD-69C7FFD537C4}</td><td>DEBUG</td><td>2</td><td/><td>sims.simsoccerform.exe1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SIMS.SimSoccerForm.exe2</td><td>{29E24679-BE07-4711-9BEA-3C110FB78B81}</td><td>APP.PUBLISH1</td><td>2</td><td/><td>sims.simsoccerform.exe2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SIMS.SimSoccerForm.exe3</td><td>{DB49569B-00D9-4B4D-80BD-175A67416270}</td><td>RELEASE</td><td>2</td><td/><td>sims.simsoccerform.exe3</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SIMS.SimSoccerForm.exe4</td><td>{CAC4ED4C-CC7B-4F14-BB06-6ACE34231803}</td><td>APP.PUBLISH2</td><td>2</td><td/><td>sims.simsoccerform.exe4</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SIMS.SimSoccerForm.exe5</td><td>{36506ED8-48FA-447F-AA56-05211AFB4F1A}</td><td>DEBUG1</td><td>2</td><td/><td>sims.simsoccerform.exe5</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SIMS.SimSoccerForm.exe6</td><td>{38B3B5AC-2D55-4E0F-9739-CB4BDD01C5FD}</td><td>RELEASE1</td><td>2</td><td/><td>sims.simsoccerform.exe6</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SIMS.SimSoccerForm.resources.dll</td><td>{7EE9B3F2-0AAD-4D36-87C4-3765F5D2B81C}</td><td>FR1</td><td>2</td><td/><td>sims.simsoccerform.resources1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SIMS.SimSoccerForm.resources.dll1</td><td>{8ED43518-7297-4A9A-B5CF-1B9F4A06844C}</td><td>FR2</td><td>2</td><td/><td>sims.simsoccerform.resources2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SIMS.SimSoccerForm.resources.dll2</td><td>{BC12B3FB-1B5E-407B-B33D-C29A1B674B86}</td><td>FR4</td><td>2</td><td/><td>sims.simsoccerform.resources4</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SIMS.SimSoccerForm.resources.dll3</td><td>{4203EFFD-CD39-4049-854F-817E3A8EEEEA}</td><td>FR5</td><td>2</td><td/><td>sims.simsoccerform.resources5</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SIMS.SimSoccerForm.vshost.exe</td><td>{83A58D8A-E453-44EA-ADD3-E1E7E4F0EF94}</td><td>DEBUG</td><td>2</td><td/><td>sims.simsoccerform.vshost.ex</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SIMS.SimSoccerForm.vshost.exe1</td><td>{219A131F-43F9-405D-9912-EF9565611E30}</td><td>RELEASE</td><td>2</td><td/><td>sims.simsoccerform.vshost.ex2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SIMS.SimSoccerForm.vshost.exe2</td><td>{22C13755-511C-4085-AAAC-2646CD095BDE}</td><td>DEBUG1</td><td>2</td><td/><td>sims.simsoccerform.vshost.ex4</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Sims.SimSoccerModel.dll</td><td>{5412E6A8-D136-4BA0-8899-2CA7211FFA94}</td><td>DEBUG</td><td>2</td><td/><td>sims.simsoccermodel.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Sims.SimSoccerModel.dll1</td><td>{7833F460-83D1-4F2E-AC2B-E363F3DF5A82}</td><td>RELEASE</td><td>2</td><td/><td>sims.simsoccermodel.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Sims.SimSoccerModel.dll2</td><td>{ECADE406-6229-4B1E-84E1-60E10CD9C1C1}</td><td>DEBUG1</td><td>2</td><td/><td>sims.simsoccermodel.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>nunit.framework.dll</td><td>{7E83C7A4-9420-4BD3-9B26-E5967103D4E2}</td><td>DEBUG</td><td>2</td><td/><td>nunit.framework.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>nunit.framework.dll1</td><td>{B55AEE63-9945-4901-ABC3-329B451E520A}</td><td>RELEASE</td><td>2</td><td/><td>nunit.framework.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>nunit.framework.dll2</td><td>{7228F083-10EE-4A6D-9EB3-F1D1FE4101F0}</td><td>DEBUG1</td><td>2</td><td/><td>nunit.framework.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>setup.exe</td><td>{CA2EFADF-8D1D-4286-8C6F-9538240F9C17}</td><td>APP.PUBLISH</td><td>2</td><td/><td>setup.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>setup.exe1</td><td>{19389BEA-CC55-4CA2-A039-75BC481A84FC}</td><td>APP.PUBLISH2</td><td>2</td><td/><td>setup.exe1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{F35F1BE3-9836-4DA3-AB2B-7BC96BE99908}</td><td>SIMS.SIMSOCCERFORM___COPIE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT3</td><td>{9A5AD309-3220-40FB-8094-51B74D7B7ACE}</td><td>BIN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT4</td><td>{42261CFD-2AA5-4357-B168-6F4A917F8039}</td><td>DEBUG</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT5</td><td>{4339C18A-7A78-47A2-A813-2599935F225C}</td><td>APP.PUBLISH</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT6</td><td>{54B97491-FE3F-4389-9C80-88C306B3BBA2}</td><td>FR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT7</td><td>{023B77E8-36DC-4BE4-98CD-11E468589D05}</td><td>RELEASE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT8</td><td>{628BA85E-908E-4C78-BA8B-6F1DA6874C1E}</td><td>APP.PUBLISH1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT9</td><td>{45D24E84-06FA-45BF-ABEB-73E2BD7BCC61}</td><td>FR1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Interop.WMPLib.dll</td><td>{B006F36E-55A1-4785-AABB-E6707B746C79}</td><td>DEBUG</td><td>2</td><td/><td>interop.wmplib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Interop.WMPLib.dll1</td><td>{A50EFB7D-DB64-427E-8EED-96212460A64E}</td><td>RELEASE</td><td>2</td><td/><td>interop.wmplib.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Interop.WMPLib.dll2</td><td>{EA8C2830-40AF-4D38-AE6C-FF7A5405E42D}</td><td>DEBUG1</td><td>2</td><td/><td>interop.wmplib.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Interop.WMPLib.dll3</td><td>{06A91C86-E27C-48AE-BB91-7034197C177F}</td><td>RELEASE1</td><td>2</td><td/><td>interop.wmplib.dll3</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Properties.Resources.Designer.cs.dll</td><td>{2BB0037F-C24E-4229-96DA-049481782368}</td><td>TEMPPE</td><td>2</td><td/><td>properties.resources.designe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Properties.Resources.Designer.cs.dll1</td><td>{5517793C-A3D0-46B4-9070-B5DFBD4F0B36}</td><td>TEMPPE1</td><td>2</td><td/><td>properties.resources.designe1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SIMS.SimSoccerForm.exe</td><td>{8907CAEC-2FD5-42CD-B41A-4AA038CC8B99}</td><td>APP.PUBLISH</td><td>2</td><td/><td>sims.simsoccerform.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SIMS.SimSoccerForm.exe1</td><td>{6A996026-F4C4-4C62-B2C3-2344E05D2D2B}</td><td>DEBUG</td><td>2</td><td/><td>sims.simsoccerform.exe1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SIMS.SimSoccerForm.exe2</td><td>{367C9BF9-4917-490E-B58C-F5F7752BD2A0}</td><td>APP.PUBLISH1</td><td>2</td><td/><td>sims.simsoccerform.exe2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SIMS.SimSoccerForm.exe3</td><td>{012D475B-8F66-42E8-9B18-0F47F2506A34}</td><td>RELEASE</td><td>2</td><td/><td>sims.simsoccerform.exe3</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SIMS.SimSoccerForm.exe4</td><td>{A4A6C9F2-A3FB-41D1-A169-577846B8EEBA}</td><td>DEBUG1</td><td>2</td><td/><td>sims.simsoccerform.exe4</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SIMS.SimSoccerForm.exe5</td><td>{5A4BC9BE-4A7D-45FA-B2D9-DF5ACB329193}</td><td>RELEASE1</td><td>2</td><td/><td>sims.simsoccerform.exe5</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SIMS.SimSoccerForm.resources.dll</td><td>{7F09BFD7-9076-4D57-986B-0ED82DB3A5BB}</td><td>FR</td><td>2</td><td/><td>sims.simsoccerform.resources</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SIMS.SimSoccerForm.resources.dll1</td><td>{2DFC6B7A-BF5A-470E-ABFC-8980278A719B}</td><td>FR1</td><td>2</td><td/><td>sims.simsoccerform.resources1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SIMS.SimSoccerForm.resources.dll2</td><td>{BAB41EDB-3A29-4E63-8209-15C74298E551}</td><td>FR2</td><td>2</td><td/><td>sims.simsoccerform.resources2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SIMS.SimSoccerForm.resources.dll3</td><td>{2D8A9E03-D5E7-4070-BE5D-E2F3975C612B}</td><td>FR3</td><td>2</td><td/><td>sims.simsoccerform.resources3</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SIMS.SimSoccerForm.vshost.exe</td><td>{6772D76D-81DF-4958-89C9-38F0045C886F}</td><td>DEBUG</td><td>2</td><td/><td>sims.simsoccerform.vshost.ex</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SIMS.SimSoccerForm.vshost.exe1</td><td>{442BC35E-FAA7-4D46-876F-4235E9DEB5FD}</td><td>RELEASE</td><td>2</td><td/><td>sims.simsoccerform.vshost.ex2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Sims.SimSoccerModel.dll</td><td>{82342312-F20F-4A59-9C25-62F4BA558E27}</td><td>DEBUG</td><td>2</td><td/><td>sims.simsoccermodel.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Sims.SimSoccerModel.dll1</td><td>{CEF10158-DDB2-4AC4-9A8A-18CD986142DF}</td><td>RELEASE</td><td>2</td><td/><td>sims.simsoccermodel.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Sims.SimSoccerModel.dll2</td><td>{8D78F5DB-81A5-49E7-BD2E-350A451C0FDB}</td><td>DEBUG1</td><td>2</td><td/><td>sims.simsoccermodel.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>nunit.framework.dll</td><td>{97AD4DE9-2FA0-4A72-AC84-882DEB77A633}</td><td>DEBUG</td><td>2</td><td/><td>nunit.framework.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>nunit.framework.dll1</td><td>{1F5D098A-2325-4F07-A805-4F8A12C9FF28}</td><td>RELEASE</td><td>2</td><td/><td>nunit.framework.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1110,17 +1099,15 @@
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
 		<row><td>APP.PUBLISH</td><td>ISX_DEFAULTCOMPONENT5</td></row>
-		<row><td>APP.PUBLISH1</td><td>ISX_DEFAULTCOMPONENT11</td></row>
-		<row><td>APP.PUBLISH2</td><td>ISX_DEFAULTCOMPONENT15</td></row>
-		<row><td>APPLICATION_FILES</td><td>ISX_DEFAULTCOMPONENT6</td></row>
-		<row><td>APPLICATION_FILES1</td><td>ISX_DEFAULTCOMPONENT16</td></row>
+		<row><td>APP.PUBLISH1</td><td>ISX_DEFAULTCOMPONENT8</td></row>
 		<row><td>BIN</td><td>ISX_DEFAULTCOMPONENT3</td></row>
+		<row><td>FR</td><td>ISX_DEFAULTCOMPONENT6</td></row>
 		<row><td>FR1</td><td>ISX_DEFAULTCOMPONENT9</td></row>
 		<row><td>FR2</td><td>ISX_DEFAULTCOMPONENT12</td></row>
-		<row><td>FR4</td><td>ISX_DEFAULTCOMPONENT20</td></row>
-		<row><td>FR5</td><td>ISX_DEFAULTCOMPONENT22</td></row>
-		<row><td>OBJ</td><td>ISX_DEFAULTCOMPONENT13</td></row>
-		<row><td>TEMPPE</td><td>ISX_DEFAULTCOMPONENT23</td></row>
+		<row><td>FR3</td><td>ISX_DEFAULTCOMPONENT15</td></row>
+		<row><td>OBJ</td><td>ISX_DEFAULTCOMPONENT10</td></row>
+		<row><td>TEMPPE</td><td>ISX_DEFAULTCOMPONENT13</td></row>
+		<row><td>TEMPPE1</td><td>ISX_DEFAULTCOMPONENT16</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1203,9 +1190,6 @@
 		<row><td>ALLUSERSPROFILE</td><td>TARGETDIR</td><td>.:ALLUSE~1|All Users</td><td/><td>0</td><td/></row>
 		<row><td>APP.PUBLISH</td><td>DEBUG</td><td>APP_PU~1|app.publish</td><td/><td>0</td><td/></row>
 		<row><td>APP.PUBLISH1</td><td>RELEASE</td><td>APP_PU~1|app.publish</td><td/><td>0</td><td/></row>
-		<row><td>APP.PUBLISH2</td><td>DEBUG1</td><td>APP_PU~1|app.publish</td><td/><td>0</td><td/></row>
-		<row><td>APPLICATION_FILES</td><td>APP.PUBLISH</td><td>APPLIC~1|Application Files</td><td/><td>0</td><td/></row>
-		<row><td>APPLICATION_FILES1</td><td>APP.PUBLISH2</td><td>APPLIC~1|Application Files</td><td/><td>0</td><td/></row>
 		<row><td>AdminToolsFolder</td><td>TARGETDIR</td><td>.:Admint~1|AdminTools</td><td/><td>0</td><td/></row>
 		<row><td>AppDataFolder</td><td>TARGETDIR</td><td>.:APPLIC~1|Application Data</td><td/><td>0</td><td/></row>
 		<row><td>BIN</td><td>SIMS.SIMSOCCERFORM___COPIE</td><td>bin</td><td/><td>0</td><td/></row>
@@ -1217,12 +1201,10 @@
 		<row><td>DEBUG</td><td>BIN</td><td>Debug</td><td/><td>0</td><td/></row>
 		<row><td>DEBUG1</td><td>OBJ</td><td>Debug</td><td/><td>0</td><td/></row>
 		<row><td>DesktopFolder</td><td>TARGETDIR</td><td>.:Desktop</td><td/><td>3</td><td/></row>
-		<row><td>FR</td><td>SIMS.SIMSOCCERFORM_1_0_0_8</td><td>fr</td><td/><td>0</td><td/></row>
-		<row><td>FR1</td><td>DEBUG</td><td>fr</td><td/><td>0</td><td/></row>
-		<row><td>FR2</td><td>RELEASE</td><td>fr</td><td/><td>0</td><td/></row>
-		<row><td>FR3</td><td>SIMS.SIMSOCCERFORM_1_0_0_81</td><td>fr</td><td/><td>0</td><td/></row>
-		<row><td>FR4</td><td>DEBUG1</td><td>fr</td><td/><td>0</td><td/></row>
-		<row><td>FR5</td><td>RELEASE1</td><td>fr</td><td/><td>0</td><td/></row>
+		<row><td>FR</td><td>DEBUG</td><td>fr</td><td/><td>0</td><td/></row>
+		<row><td>FR1</td><td>RELEASE</td><td>fr</td><td/><td>0</td><td/></row>
+		<row><td>FR2</td><td>DEBUG1</td><td>fr</td><td/><td>0</td><td/></row>
+		<row><td>FR3</td><td>RELEASE1</td><td>fr</td><td/><td>0</td><td/></row>
 		<row><td>FavoritesFolder</td><td>TARGETDIR</td><td>.:FAVORI~1|Favorites</td><td/><td>0</td><td/></row>
 		<row><td>FontsFolder</td><td>TARGETDIR</td><td>.:Fonts</td><td/><td>0</td><td/></row>
 		<row><td>GlobalAssemblyCache</td><td>TARGETDIR</td><td>.:Global~1|GlobalAssemblyCache</td><td/><td>0</td><td/></row>
@@ -1249,8 +1231,6 @@
 		<row><td>RELEASE</td><td>BIN</td><td>Release</td><td/><td>0</td><td/></row>
 		<row><td>RELEASE1</td><td>OBJ</td><td>Release</td><td/><td>0</td><td/></row>
 		<row><td>RecentFolder</td><td>TARGETDIR</td><td>.:Recent</td><td/><td>0</td><td/></row>
-		<row><td>SIMS.SIMSOCCERFORM_1_0_0_8</td><td>APPLICATION_FILES</td><td>SIMS_S~1|SIMS.SimSoccerForm_1_0_0_8</td><td/><td>0</td><td/></row>
-		<row><td>SIMS.SIMSOCCERFORM_1_0_0_81</td><td>APPLICATION_FILES1</td><td>SIMS_S~1|SIMS.SimSoccerForm_1_0_0_8</td><td/><td>0</td><td/></row>
 		<row><td>SIMS.SIMSOCCERFORM___COPIE</td><td>INSTALLDIR</td><td>SIMS_S~1|SIMS.SimSoccerForm - Copie</td><td/><td>0</td><td/></row>
 		<row><td>SIMSOCCER</td><td>IN_TECH_INFO</td><td>SIMSOC~1|SimSoccer</td><td/><td>0</td><td/></row>
 		<row><td>SendToFolder</td><td>TARGETDIR</td><td>.:SendTo</td><td/><td>3</td><td/></row>
@@ -1260,7 +1240,8 @@
 		<row><td>System64Folder</td><td>TARGETDIR</td><td>.:System64</td><td/><td>0</td><td/></row>
 		<row><td>SystemFolder</td><td>TARGETDIR</td><td>.:System32</td><td/><td>0</td><td/></row>
 		<row><td>TARGETDIR</td><td/><td>SourceDir</td><td/><td>0</td><td/></row>
-		<row><td>TEMPPE</td><td>RELEASE1</td><td>TempPE</td><td/><td>0</td><td/></row>
+		<row><td>TEMPPE</td><td>DEBUG1</td><td>TempPE</td><td/><td>0</td><td/></row>
+		<row><td>TEMPPE1</td><td>RELEASE1</td><td>TempPE</td><td/><td>0</td><td/></row>
 		<row><td>TempFolder</td><td>TARGETDIR</td><td>.:Temp</td><td/><td>0</td><td/></row>
 		<row><td>TemplateFolder</td><td>TARGETDIR</td><td>.:ShellNew</td><td/><td>0</td><td/></row>
 		<row><td>USERPROFILE</td><td>TARGETDIR</td><td>.:USERPR~1|UserProfile</td><td/><td>0</td><td/></row>
@@ -1965,7 +1946,6 @@
 		<row><td>AlwaysInstall</td><td>AxInterop.WMPLib.dll3</td></row>
 		<row><td>AlwaysInstall</td><td>CK.Core.dll</td></row>
 		<row><td>AlwaysInstall</td><td>CK.Core.dll1</td></row>
-		<row><td>AlwaysInstall</td><td>CK.Core.dll2</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT10</td></row>
@@ -1979,12 +1959,6 @@
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT18</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT19</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT2</td></row>
-		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT20</td></row>
-		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT21</td></row>
-		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT22</td></row>
-		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT23</td></row>
-		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT24</td></row>
-		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT25</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT3</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT4</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT5</td></row>
@@ -1997,28 +1971,24 @@
 		<row><td>AlwaysInstall</td><td>Interop.WMPLib.dll2</td></row>
 		<row><td>AlwaysInstall</td><td>Interop.WMPLib.dll3</td></row>
 		<row><td>AlwaysInstall</td><td>Properties.Resources.Designer.cs.dll</td></row>
+		<row><td>AlwaysInstall</td><td>Properties.Resources.Designer.cs.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>SIMS.SimSoccerForm.exe</td></row>
 		<row><td>AlwaysInstall</td><td>SIMS.SimSoccerForm.exe1</td></row>
 		<row><td>AlwaysInstall</td><td>SIMS.SimSoccerForm.exe2</td></row>
 		<row><td>AlwaysInstall</td><td>SIMS.SimSoccerForm.exe3</td></row>
 		<row><td>AlwaysInstall</td><td>SIMS.SimSoccerForm.exe4</td></row>
 		<row><td>AlwaysInstall</td><td>SIMS.SimSoccerForm.exe5</td></row>
-		<row><td>AlwaysInstall</td><td>SIMS.SimSoccerForm.exe6</td></row>
 		<row><td>AlwaysInstall</td><td>SIMS.SimSoccerForm.resources.dll</td></row>
 		<row><td>AlwaysInstall</td><td>SIMS.SimSoccerForm.resources.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>SIMS.SimSoccerForm.resources.dll2</td></row>
 		<row><td>AlwaysInstall</td><td>SIMS.SimSoccerForm.resources.dll3</td></row>
 		<row><td>AlwaysInstall</td><td>SIMS.SimSoccerForm.vshost.exe</td></row>
 		<row><td>AlwaysInstall</td><td>SIMS.SimSoccerForm.vshost.exe1</td></row>
-		<row><td>AlwaysInstall</td><td>SIMS.SimSoccerForm.vshost.exe2</td></row>
 		<row><td>AlwaysInstall</td><td>Sims.SimSoccerModel.dll</td></row>
 		<row><td>AlwaysInstall</td><td>Sims.SimSoccerModel.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>Sims.SimSoccerModel.dll2</td></row>
 		<row><td>AlwaysInstall</td><td>nunit.framework.dll</td></row>
 		<row><td>AlwaysInstall</td><td>nunit.framework.dll1</td></row>
-		<row><td>AlwaysInstall</td><td>nunit.framework.dll2</td></row>
-		<row><td>AlwaysInstall</td><td>setup.exe</td></row>
-		<row><td>AlwaysInstall</td><td>setup.exe1</td></row>
 	</table>
 
 	<table name="File">
@@ -2037,11 +2007,9 @@
 		<row><td>_6664.png</td><td>ISX_DEFAULTCOMPONENT</td><td>36664.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\36664.png</td><td>1</td><td/></row>
 		<row><td>asm.png</td><td>ISX_DEFAULTCOMPONENT</td><td>ASM.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\ASM.png</td><td>1</td><td/></row>
 		<row><td>asse.png</td><td>ISX_DEFAULTCOMPONENT</td><td>ASSE.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\ASSE.png</td><td>1</td><td/></row>
-		<row><td>assemblyinfo.cs</td><td>ISX_DEFAULTCOMPONENT24</td><td>ASSEMB~1.CS|AssemblyInfo.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\Properties\AssemblyInfo.cs</td><td>1</td><td/></row>
+		<row><td>assemblyinfo.cs</td><td>ISX_DEFAULTCOMPONENT17</td><td>ASSEMB~1.CS|AssemblyInfo.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\Properties\AssemblyInfo.cs</td><td>1</td><td/></row>
 		<row><td>avatar.jpg</td><td>ISX_DEFAULTCOMPONENT19</td><td>avatar.jpg</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\avatar.jpg</td><td>1</td><td/></row>
 		<row><td>axinterop.wmplib.dll</td><td>AxInterop.WMPLib.dll</td><td>AXINTE~1.DLL|AxInterop.WMPLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\AxInterop.WMPLib.dll</td><td>1</td><td/></row>
-		<row><td>axinterop.wmplib.dll.deploy</td><td>ISX_DEFAULTCOMPONENT7</td><td>AXINTE~1.DEP|AxInterop.WMPLib.dll.deploy</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\app.publish\Application Files\SIMS.SimSoccerForm_1_0_0_8\AxInterop.WMPLib.dll.deploy</td><td>1</td><td/></row>
-		<row><td>axinterop.wmplib.dll.deploy1</td><td>ISX_DEFAULTCOMPONENT17</td><td>AXINTE~1.DEP|AxInterop.WMPLib.dll.deploy</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\app.publish\Application Files\SIMS.SimSoccerForm_1_0_0_8\AxInterop.WMPLib.dll.deploy</td><td>1</td><td/></row>
 		<row><td>axinterop.wmplib.dll1</td><td>AxInterop.WMPLib.dll1</td><td>AXINTE~1.DLL|AxInterop.WMPLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\AxInterop.WMPLib.dll</td><td>1</td><td/></row>
 		<row><td>axinterop.wmplib.dll2</td><td>AxInterop.WMPLib.dll2</td><td>AXINTE~1.DLL|AxInterop.WMPLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\AxInterop.WMPLib.dll</td><td>1</td><td/></row>
 		<row><td>axinterop.wmplib.dll3</td><td>AxInterop.WMPLib.dll3</td><td>AXINTE~1.DLL|AxInterop.WMPLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\AxInterop.WMPLib.dll</td><td>1</td><td/></row>
@@ -2063,18 +2031,15 @@
 		<row><td>checkpasswordform.designer.c</td><td>ISX_DEFAULTCOMPONENT2</td><td>CHECKP~1.CS|CheckPasswordForm.Designer.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\CheckPasswordForm.Designer.cs</td><td>1</td><td/></row>
 		<row><td>checkpasswordform.resx</td><td>ISX_DEFAULTCOMPONENT2</td><td>CHECKP~1.RES|CheckPasswordForm.resx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\CheckPasswordForm.resx</td><td>1</td><td/></row>
 		<row><td>ck.core.dll</td><td>CK.Core.dll</td><td>CKCORE~1.DLL|CK.Core.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\CK.Core.dll</td><td>1</td><td/></row>
-		<row><td>ck.core.dll.deploy</td><td>ISX_DEFAULTCOMPONENT7</td><td>CKCORE~1.DEP|CK.Core.dll.deploy</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\app.publish\Application Files\SIMS.SimSoccerForm_1_0_0_8\CK.Core.dll.deploy</td><td>1</td><td/></row>
-		<row><td>ck.core.dll.deploy1</td><td>ISX_DEFAULTCOMPONENT17</td><td>CKCORE~1.DEP|CK.Core.dll.deploy</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\app.publish\Application Files\SIMS.SimSoccerForm_1_0_0_8\CK.Core.dll.deploy</td><td>1</td><td/></row>
 		<row><td>ck.core.dll1</td><td>CK.Core.dll1</td><td>CKCORE~1.DLL|CK.Core.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\CK.Core.dll</td><td>1</td><td/></row>
-		<row><td>ck.core.dll2</td><td>CK.Core.dll2</td><td>CKCORE~1.DLL|CK.Core.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\CK.Core.dll</td><td>1</td><td/></row>
 		<row><td>ck.core.pdb</td><td>ISX_DEFAULTCOMPONENT4</td><td>CKCORE~1.PDB|CK.Core.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\CK.Core.pdb</td><td>1</td><td/></row>
-		<row><td>ck.core.pdb1</td><td>ISX_DEFAULTCOMPONENT10</td><td>CKCORE~1.PDB|CK.Core.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\CK.Core.pdb</td><td>1</td><td/></row>
-		<row><td>ck.core.pdb2</td><td>ISX_DEFAULTCOMPONENT14</td><td>CKCORE~1.PDB|CK.Core.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\CK.Core.pdb</td><td>1</td><td/></row>
+		<row><td>ck.core.pdb1</td><td>ISX_DEFAULTCOMPONENT7</td><td>CKCORE~1.PDB|CK.Core.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\CK.Core.pdb</td><td>1</td><td/></row>
 		<row><td>ck.core.xml</td><td>ISX_DEFAULTCOMPONENT4</td><td>CKCORE~1.XML|CK.Core.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\CK.Core.xml</td><td>1</td><td/></row>
-		<row><td>ck.core.xml1</td><td>ISX_DEFAULTCOMPONENT10</td><td>CKCORE~1.XML|CK.Core.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\CK.Core.xml</td><td>1</td><td/></row>
-		<row><td>ck.core.xml2</td><td>ISX_DEFAULTCOMPONENT14</td><td>CKCORE~1.XML|CK.Core.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\CK.Core.xml</td><td>1</td><td/></row>
-		<row><td>designtimeresolveassemblyref</td><td>ISX_DEFAULTCOMPONENT21</td><td>DESIGN~1.CAC|DesignTimeResolveAssemblyReferences.cache</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\DesignTimeResolveAssemblyReferences.cache</td><td>1</td><td/></row>
-		<row><td>designtimeresolveassemblyref1</td><td>ISX_DEFAULTCOMPONENT21</td><td>DESIGN~1.CAC|DesignTimeResolveAssemblyReferencesInput.cache</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\DesignTimeResolveAssemblyReferencesInput.cache</td><td>1</td><td/></row>
+		<row><td>ck.core.xml1</td><td>ISX_DEFAULTCOMPONENT7</td><td>CKCORE~1.XML|CK.Core.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\CK.Core.xml</td><td>1</td><td/></row>
+		<row><td>designtimeresolveassemblyref</td><td>ISX_DEFAULTCOMPONENT11</td><td>DESIGN~1.CAC|DesignTimeResolveAssemblyReferences.cache</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\DesignTimeResolveAssemblyReferences.cache</td><td>1</td><td/></row>
+		<row><td>designtimeresolveassemblyref1</td><td>ISX_DEFAULTCOMPONENT11</td><td>DESIGN~1.CAC|DesignTimeResolveAssemblyReferencesInput.cache</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache</td><td>1</td><td/></row>
+		<row><td>designtimeresolveassemblyref2</td><td>ISX_DEFAULTCOMPONENT14</td><td>DESIGN~1.CAC|DesignTimeResolveAssemblyReferences.cache</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\DesignTimeResolveAssemblyReferences.cache</td><td>1</td><td/></row>
+		<row><td>designtimeresolveassemblyref3</td><td>ISX_DEFAULTCOMPONENT14</td><td>DESIGN~1.CAC|DesignTimeResolveAssemblyReferencesInput.cache</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\DesignTimeResolveAssemblyReferencesInput.cache</td><td>1</td><td/></row>
 		<row><td>drake_king_leon_hoodcelebrit</td><td>ISX_DEFAULTCOMPONENT1</td><td>DRAKE-~1.WAV|drake-king-leon_hoodcelebritys.wav</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\Musics\drake-king-leon_hoodcelebritys.wav</td><td>1</td><td/></row>
 		<row><td>eag.png</td><td>ISX_DEFAULTCOMPONENT</td><td>EAG.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\EAG.png</td><td>1</td><td/></row>
 		<row><td>etg.png</td><td>ISX_DEFAULTCOMPONENT</td><td>ETG.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\ETG.png</td><td>1</td><td/></row>
@@ -2094,8 +2059,6 @@
 		<row><td>hotniggasinstrumental.wav</td><td>ISX_DEFAULTCOMPONENT1</td><td>HOTNIG~1.WAV|HotNiggasInstrumental.wav</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\Musics\HotNiggasInstrumental.wav</td><td>1</td><td/></row>
 		<row><td>img_08_exit.png</td><td>ISX_DEFAULTCOMPONENT</td><td>IMG_08~1.PNG|img_08_exit.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\img_08_exit.png</td><td>1</td><td/></row>
 		<row><td>interop.wmplib.dll</td><td>Interop.WMPLib.dll</td><td>INTERO~1.DLL|Interop.WMPLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\Interop.WMPLib.dll</td><td>1</td><td/></row>
-		<row><td>interop.wmplib.dll.deploy</td><td>ISX_DEFAULTCOMPONENT7</td><td>INTERO~1.DEP|Interop.WMPLib.dll.deploy</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\app.publish\Application Files\SIMS.SimSoccerForm_1_0_0_8\Interop.WMPLib.dll.deploy</td><td>1</td><td/></row>
-		<row><td>interop.wmplib.dll.deploy1</td><td>ISX_DEFAULTCOMPONENT17</td><td>INTERO~1.DEP|Interop.WMPLib.dll.deploy</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\app.publish\Application Files\SIMS.SimSoccerForm_1_0_0_8\Interop.WMPLib.dll.deploy</td><td>1</td><td/></row>
 		<row><td>interop.wmplib.dll1</td><td>Interop.WMPLib.dll1</td><td>INTERO~1.DLL|Interop.WMPLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\Interop.WMPLib.dll</td><td>1</td><td/></row>
 		<row><td>interop.wmplib.dll2</td><td>Interop.WMPLib.dll2</td><td>INTERO~1.DLL|Interop.WMPLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\Interop.WMPLib.dll</td><td>1</td><td/></row>
 		<row><td>interop.wmplib.dll3</td><td>Interop.WMPLib.dll3</td><td>INTERO~1.DLL|Interop.WMPLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\Interop.WMPLib.dll</td><td>1</td><td/></row>
@@ -2119,13 +2082,9 @@
 		<row><td>mourinho.jpg</td><td>ISX_DEFAULTCOMPONENT</td><td>mourinho.jpg</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\mourinho.jpg</td><td>1</td><td/></row>
 		<row><td>nefield.png</td><td>ISX_DEFAULTCOMPONENT</td><td>nefield.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\nefield.png</td><td>1</td><td/></row>
 		<row><td>nunit.framework.dll</td><td>nunit.framework.dll</td><td>NUNITF~1.DLL|nunit.framework.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\nunit.framework.dll</td><td>1</td><td/></row>
-		<row><td>nunit.framework.dll.deploy</td><td>ISX_DEFAULTCOMPONENT7</td><td>NUNITF~1.DEP|nunit.framework.dll.deploy</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\app.publish\Application Files\SIMS.SimSoccerForm_1_0_0_8\nunit.framework.dll.deploy</td><td>1</td><td/></row>
-		<row><td>nunit.framework.dll.deploy1</td><td>ISX_DEFAULTCOMPONENT17</td><td>NUNITF~1.DEP|nunit.framework.dll.deploy</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\app.publish\Application Files\SIMS.SimSoccerForm_1_0_0_8\nunit.framework.dll.deploy</td><td>1</td><td/></row>
 		<row><td>nunit.framework.dll1</td><td>nunit.framework.dll1</td><td>NUNITF~1.DLL|nunit.framework.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\nunit.framework.dll</td><td>1</td><td/></row>
-		<row><td>nunit.framework.dll2</td><td>nunit.framework.dll2</td><td>NUNITF~1.DLL|nunit.framework.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\nunit.framework.dll</td><td>1</td><td/></row>
 		<row><td>nunit.framework.xml</td><td>ISX_DEFAULTCOMPONENT4</td><td>NUNITF~1.XML|nunit.framework.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\nunit.framework.xml</td><td>1</td><td/></row>
-		<row><td>nunit.framework.xml1</td><td>ISX_DEFAULTCOMPONENT10</td><td>NUNITF~1.XML|nunit.framework.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\nunit.framework.xml</td><td>1</td><td/></row>
-		<row><td>nunit.framework.xml2</td><td>ISX_DEFAULTCOMPONENT14</td><td>NUNITF~1.XML|nunit.framework.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\nunit.framework.xml</td><td>1</td><td/></row>
+		<row><td>nunit.framework.xml1</td><td>ISX_DEFAULTCOMPONENT7</td><td>NUNITF~1.XML|nunit.framework.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\nunit.framework.xml</td><td>1</td><td/></row>
 		<row><td>ogcn.png</td><td>ISX_DEFAULTCOMPONENT</td><td>OGCN.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\OGCN.png</td><td>1</td><td/></row>
 		<row><td>ol.png</td><td>ISX_DEFAULTCOMPONENT</td><td>OL.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\OL.png</td><td>1</td><td/></row>
 		<row><td>om.png</td><td>ISX_DEFAULTCOMPONENT</td><td>OM.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\OM.png</td><td>1</td><td/></row>
@@ -2151,14 +2110,15 @@
 		<row><td>playerone.png</td><td>ISX_DEFAULTCOMPONENT</td><td>PLAYER~1.PNG|PlayerOne.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\PlayerOne.png</td><td>1</td><td/></row>
 		<row><td>power_button_off_md.png</td><td>ISX_DEFAULTCOMPONENT</td><td>POWER-~1.PNG|power-button-off-md.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\power-button-off-md.png</td><td>1</td><td/></row>
 		<row><td>program.cs</td><td>ISX_DEFAULTCOMPONENT2</td><td>Program.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\Program.cs</td><td>1</td><td/></row>
-		<row><td>properties.resources.designe</td><td>Properties.Resources.Designer.cs.dll</td><td>PROPER~1.DLL|Properties.Resources.Designer.cs.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\TempPE\Properties.Resources.Designer.cs.dll</td><td>1</td><td/></row>
+		<row><td>properties.resources.designe</td><td>Properties.Resources.Designer.cs.dll</td><td>PROPER~1.DLL|Properties.Resources.Designer.cs.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll</td><td>1</td><td/></row>
+		<row><td>properties.resources.designe1</td><td>Properties.Resources.Designer.cs.dll1</td><td>PROPER~1.DLL|Properties.Resources.Designer.cs.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\TempPE\Properties.Resources.Designer.cs.dll</td><td>1</td><td/></row>
 		<row><td>psg.png</td><td>ISX_DEFAULTCOMPONENT</td><td>PSG.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\PSG.png</td><td>1</td><td/></row>
 		<row><td>rankingdisplay.cs</td><td>ISX_DEFAULTCOMPONENT2</td><td>RANKIN~1.CS|RankingDisplay.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\RankingDisplay.cs</td><td>1</td><td/></row>
 		<row><td>rankingdisplay.designer.cs</td><td>ISX_DEFAULTCOMPONENT2</td><td>RANKIN~1.CS|RankingDisplay.Designer.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\RankingDisplay.Designer.cs</td><td>1</td><td/></row>
 		<row><td>rankingdisplay.resx</td><td>ISX_DEFAULTCOMPONENT2</td><td>RANKIN~1.RES|RankingDisplay.resx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\RankingDisplay.resx</td><td>1</td><td/></row>
 		<row><td>rcl.png</td><td>ISX_DEFAULTCOMPONENT</td><td>RCL.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\RCL.png</td><td>1</td><td/></row>
-		<row><td>resources.designer.cs</td><td>ISX_DEFAULTCOMPONENT24</td><td>RESOUR~1.CS|Resources.Designer.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\Properties\Resources.Designer.cs</td><td>1</td><td/></row>
-		<row><td>resources.resx</td><td>ISX_DEFAULTCOMPONENT24</td><td>RESOUR~1.RES|Resources.resx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\Properties\Resources.resx</td><td>1</td><td/></row>
+		<row><td>resources.designer.cs</td><td>ISX_DEFAULTCOMPONENT17</td><td>RESOUR~1.CS|Resources.Designer.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\Properties\Resources.Designer.cs</td><td>1</td><td/></row>
+		<row><td>resources.resx</td><td>ISX_DEFAULTCOMPONENT17</td><td>RESOUR~1.RES|Resources.resx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\Properties\Resources.resx</td><td>1</td><td/></row>
 		<row><td>ronaldinhostreetsoccer2007.p</td><td>ISX_DEFAULTCOMPONENT</td><td>RONALD~1.PNG|RonaldinhoStreetSoccer2007.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\RonaldinhoStreetSoccer2007.png</td><td>1</td><td/></row>
 		<row><td>scb.png</td><td>ISX_DEFAULTCOMPONENT</td><td>SCB.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\SCB.png</td><td>1</td><td/></row>
 		<row><td>sdr.png</td><td>ISX_DEFAULTCOMPONENT</td><td>SDR.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\SDR.png</td><td>1</td><td/></row>
@@ -2167,83 +2127,89 @@
 		<row><td>selectteamform.designer.cs</td><td>ISX_DEFAULTCOMPONENT2</td><td>SELECT~1.CS|SelectTeamForm.Designer.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\SelectTeamForm.Designer.cs</td><td>1</td><td/></row>
 		<row><td>selectteamform.fr.resx</td><td>ISX_DEFAULTCOMPONENT2</td><td>SELECT~1.RES|SelectTeamForm.fr.resx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\SelectTeamForm.fr.resx</td><td>1</td><td/></row>
 		<row><td>selectteamform.resx</td><td>ISX_DEFAULTCOMPONENT2</td><td>SELECT~1.RES|SelectTeamForm.resx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\SelectTeamForm.resx</td><td>1</td><td/></row>
-		<row><td>setup.exe</td><td>setup.exe</td><td>setup.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\app.publish\setup.exe</td><td>1</td><td/></row>
-		<row><td>setup.exe1</td><td>setup.exe1</td><td>setup.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\app.publish\setup.exe</td><td>1</td><td/></row>
 		<row><td>showresult.cs</td><td>ISX_DEFAULTCOMPONENT2</td><td>SHOWRE~1.CS|ShowResult.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\ShowResult.cs</td><td>1</td><td/></row>
 		<row><td>showresult.designer.cs</td><td>ISX_DEFAULTCOMPONENT2</td><td>SHOWRE~1.CS|ShowResult.Designer.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\ShowResult.Designer.cs</td><td>1</td><td/></row>
 		<row><td>showresult.resx</td><td>ISX_DEFAULTCOMPONENT2</td><td>SHOWRE~1.RES|ShowResult.resx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\ShowResult.resx</td><td>1</td><td/></row>
 		<row><td>sims.simsoccerform.applicati</td><td>ISX_DEFAULTCOMPONENT4</td><td>SIMSSI~1.APP|SIMS.SimSoccerForm.application</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\SIMS.SimSoccerForm.application</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.applicati1</td><td>ISX_DEFAULTCOMPONENT10</td><td>SIMSSI~1.APP|SIMS.SimSoccerForm.application</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\SIMS.SimSoccerForm.application</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.applicati2</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.APP|SIMS.SimSoccerForm.application</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.application</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.applicati3</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.APP|SIMS.SimSoccerForm.application</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.application</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.calendard</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.CalendarDisplay.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.CalendarDisplay.resources</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.checkpass</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.CheckPasswordForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.CheckPasswordForm.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.applicati1</td><td>ISX_DEFAULTCOMPONENT7</td><td>SIMSSI~1.APP|SIMS.SimSoccerForm.application</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\SIMS.SimSoccerForm.application</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.applicati2</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.APP|SIMS.SimSoccerForm.application</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.application</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.applicati3</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.APP|SIMS.SimSoccerForm.application</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.application</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.calendard</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.CalendarDisplay.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.CalendarDisplay.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.calendard1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.CalendarDisplay.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.CalendarDisplay.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.checkpass</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.CheckPasswordForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.CheckPasswordForm.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.checkpass1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.CheckPasswordForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.CheckPasswordForm.resources</td><td>1</td><td/></row>
 		<row><td>sims.simsoccerform.csproj</td><td>ISX_DEFAULTCOMPONENT2</td><td>SIMSSI~1.CSP|SIMS.SimSoccerForm.csproj</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\SIMS.SimSoccerForm.csproj</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.csproj.fi</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.TXT|SIMS.SimSoccerForm.csproj.FileListAbsolute.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.csproj.FileListAbsolute.txt</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.csproj.ge</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.CAC|SIMS.SimSoccerForm.csproj.GenerateResource.Cache</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.csproj.GenerateResource.Cache</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.csproj.fi</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.TXT|SIMS.SimSoccerForm.csproj.FileListAbsolute.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.csproj.FileListAbsolute.txt</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.csproj.fi1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.TXT|SIMS.SimSoccerForm.csproj.FileListAbsolute.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.csproj.FileListAbsolute.txt</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.csproj.ge</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.CAC|SIMS.SimSoccerForm.csproj.GenerateResource.Cache</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.csproj.GenerateResource.Cache</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.csproj.ge1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.CAC|SIMS.SimSoccerForm.csproj.GenerateResource.Cache</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.csproj.GenerateResource.Cache</td><td>1</td><td/></row>
 		<row><td>sims.simsoccerform.csproj.or</td><td>ISX_DEFAULTCOMPONENT2</td><td>SIMSSI~1.ORI|SIMS.SimSoccerForm.csproj.orig</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\SIMS.SimSoccerForm.csproj.orig</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.csproj.re</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.CAC|SIMS.SimSoccerForm.csproj.ResolveComReference.cache</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.csproj.ResolveComReference.cache</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.csproj.re</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.CAC|SIMS.SimSoccerForm.csproj.ResolveComReference.cache</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.csproj.ResolveComReference.cache</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.csproj.re1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.CAC|SIMS.SimSoccerForm.csproj.ResolveComReference.cache</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.csproj.ResolveComReference.cache</td><td>1</td><td/></row>
 		<row><td>sims.simsoccerform.csproj.us</td><td>ISX_DEFAULTCOMPONENT2</td><td>SIMSSI~1.USE|SIMS.SimSoccerForm.csproj.user</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\SIMS.SimSoccerForm.csproj.user</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.csprojres</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.CAC|SIMS.SimSoccerForm.csprojResolveAssemblyReference.cache</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.csprojResolveAssemblyReference.cache</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.csprojres</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.CAC|SIMS.SimSoccerForm.csprojResolveAssemblyReference.cache</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.csprojResolveAssemblyReference.cache</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.csprojres1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.CAC|SIMS.SimSoccerForm.csprojResolveAssemblyReference.cache</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.csprojResolveAssemblyReference.cache</td><td>1</td><td/></row>
 		<row><td>sims.simsoccerform.exe</td><td>SIMS.SimSoccerForm.exe</td><td>SIMSSI~1.EXE|SIMS.SimSoccerForm.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\app.publish\SIMS.SimSoccerForm.exe</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.exe.deplo</td><td>ISX_DEFAULTCOMPONENT7</td><td>SIMSSI~1.DEP|SIMS.SimSoccerForm.exe.deploy</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\app.publish\Application Files\SIMS.SimSoccerForm_1_0_0_8\SIMS.SimSoccerForm.exe.deploy</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.exe.deplo1</td><td>ISX_DEFAULTCOMPONENT17</td><td>SIMSSI~1.DEP|SIMS.SimSoccerForm.exe.deploy</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\app.publish\Application Files\SIMS.SimSoccerForm_1_0_0_8\SIMS.SimSoccerForm.exe.deploy</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.exe.manif</td><td>ISX_DEFAULTCOMPONENT7</td><td>SIMSSI~1.MAN|SIMS.SimSoccerForm.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\app.publish\Application Files\SIMS.SimSoccerForm_1_0_0_8\SIMS.SimSoccerForm.exe.manifest</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.exe.manif1</td><td>ISX_DEFAULTCOMPONENT4</td><td>SIMSSI~1.MAN|SIMS.SimSoccerForm.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\SIMS.SimSoccerForm.exe.manifest</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.exe.manif2</td><td>ISX_DEFAULTCOMPONENT10</td><td>SIMSSI~1.MAN|SIMS.SimSoccerForm.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\SIMS.SimSoccerForm.exe.manifest</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.exe.manif3</td><td>ISX_DEFAULTCOMPONENT17</td><td>SIMSSI~1.MAN|SIMS.SimSoccerForm.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\app.publish\Application Files\SIMS.SimSoccerForm_1_0_0_8\SIMS.SimSoccerForm.exe.manifest</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.exe.manif4</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.MAN|SIMS.SimSoccerForm.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.exe.manifest</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.exe.manif5</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.MAN|SIMS.SimSoccerForm.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.exe.manifest</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.exe.manif</td><td>ISX_DEFAULTCOMPONENT4</td><td>SIMSSI~1.MAN|SIMS.SimSoccerForm.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\SIMS.SimSoccerForm.exe.manifest</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.exe.manif1</td><td>ISX_DEFAULTCOMPONENT7</td><td>SIMSSI~1.MAN|SIMS.SimSoccerForm.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\SIMS.SimSoccerForm.exe.manifest</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.exe.manif2</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.MAN|SIMS.SimSoccerForm.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.exe.manifest</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.exe.manif3</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.MAN|SIMS.SimSoccerForm.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.exe.manifest</td><td>1</td><td/></row>
 		<row><td>sims.simsoccerform.exe1</td><td>SIMS.SimSoccerForm.exe1</td><td>SIMSSI~1.EXE|SIMS.SimSoccerForm.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\SIMS.SimSoccerForm.exe</td><td>1</td><td/></row>
 		<row><td>sims.simsoccerform.exe2</td><td>SIMS.SimSoccerForm.exe2</td><td>SIMSSI~1.EXE|SIMS.SimSoccerForm.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\app.publish\SIMS.SimSoccerForm.exe</td><td>1</td><td/></row>
 		<row><td>sims.simsoccerform.exe3</td><td>SIMS.SimSoccerForm.exe3</td><td>SIMSSI~1.EXE|SIMS.SimSoccerForm.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\SIMS.SimSoccerForm.exe</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.exe4</td><td>SIMS.SimSoccerForm.exe4</td><td>SIMSSI~1.EXE|SIMS.SimSoccerForm.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\app.publish\SIMS.SimSoccerForm.exe</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.exe5</td><td>SIMS.SimSoccerForm.exe5</td><td>SIMSSI~1.EXE|SIMS.SimSoccerForm.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.exe</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.exe6</td><td>SIMS.SimSoccerForm.exe6</td><td>SIMSSI~1.EXE|SIMS.SimSoccerForm.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.exe</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.formation</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.Formation.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.Formation.resources</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.forminscr</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.FormInscription.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.FormInscription.resources</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.loadgamef</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.LoadGameForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.LoadGameForm.resources</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.lobbyform</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.LobbyForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.LobbyForm.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.exe4</td><td>SIMS.SimSoccerForm.exe4</td><td>SIMSSI~1.EXE|SIMS.SimSoccerForm.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.exe</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.exe5</td><td>SIMS.SimSoccerForm.exe5</td><td>SIMSSI~1.EXE|SIMS.SimSoccerForm.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.exe</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.formation</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.Formation.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.Formation.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.formation1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.Formation.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.Formation.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.forminscr</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.FormInscription.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.FormInscription.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.forminscr1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.FormInscription.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.FormInscription.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.loadgamef</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.LoadGameForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.LoadGameForm.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.loadgamef1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.LoadGameForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.LoadGameForm.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.lobbyform</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.LobbyForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.LobbyForm.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.lobbyform1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.LobbyForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.LobbyForm.resources</td><td>1</td><td/></row>
 		<row><td>sims.simsoccerform.pdb</td><td>ISX_DEFAULTCOMPONENT4</td><td>SIMSSI~1.PDB|SIMS.SimSoccerForm.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\SIMS.SimSoccerForm.pdb</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.pdb1</td><td>ISX_DEFAULTCOMPONENT10</td><td>SIMSSI~1.PDB|SIMS.SimSoccerForm.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\SIMS.SimSoccerForm.pdb</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.pdb2</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.PDB|SIMS.SimSoccerForm.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.pdb</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.pdb3</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.PDB|SIMS.SimSoccerForm.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.pdb</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.propertie</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.Properties.Resources.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.Properties.Resources.resources</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.rankingdi</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.RankingDisplay.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.RankingDisplay.resources</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.resources</td><td>ISX_DEFAULTCOMPONENT8</td><td>SIMSSI~1.DEP|SIMS.SimSoccerForm.resources.dll.deploy</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\app.publish\Application Files\SIMS.SimSoccerForm_1_0_0_8\fr\SIMS.SimSoccerForm.resources.dll.deploy</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.resources1</td><td>SIMS.SimSoccerForm.resources.dll</td><td>SIMSSI~1.DLL|SIMS.SimSoccerForm.resources.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\fr\SIMS.SimSoccerForm.resources.dll</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.resources2</td><td>SIMS.SimSoccerForm.resources.dll1</td><td>SIMSSI~1.DLL|SIMS.SimSoccerForm.resources.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\fr\SIMS.SimSoccerForm.resources.dll</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.resources3</td><td>ISX_DEFAULTCOMPONENT18</td><td>SIMSSI~1.DEP|SIMS.SimSoccerForm.resources.dll.deploy</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\app.publish\Application Files\SIMS.SimSoccerForm_1_0_0_8\fr\SIMS.SimSoccerForm.resources.dll.deploy</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.resources4</td><td>SIMS.SimSoccerForm.resources.dll2</td><td>SIMSSI~1.DLL|SIMS.SimSoccerForm.resources.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\fr\SIMS.SimSoccerForm.resources.dll</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.resources5</td><td>SIMS.SimSoccerForm.resources.dll3</td><td>SIMSSI~1.DLL|SIMS.SimSoccerForm.resources.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\fr\SIMS.SimSoccerForm.resources.dll</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.selecttea</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.SelectTeamForm.fr.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.SelectTeamForm.fr.resources</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.selecttea1</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.SelectTeamForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.SelectTeamForm.resources</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.showresul</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.ShowResult.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.ShowResult.resources</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.splashfor</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.SplashForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.SplashForm.resources</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.startform</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.StartForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.StartForm.resources</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.startpage</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.StartPage.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.StartPage.resources</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.transfert</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.TransfertsInterface.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.TransfertsInterface.resources</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.usercontr</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.UserControl1.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.UserControl1.resources</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.userprofi</td><td>ISX_DEFAULTCOMPONENT21</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.UserProfilForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.UserProfilForm.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.pdb1</td><td>ISX_DEFAULTCOMPONENT7</td><td>SIMSSI~1.PDB|SIMS.SimSoccerForm.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\SIMS.SimSoccerForm.pdb</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.pdb2</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.PDB|SIMS.SimSoccerForm.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.pdb</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.pdb3</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.PDB|SIMS.SimSoccerForm.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.pdb</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.propertie</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.Properties.Resources.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.Properties.Resources.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.propertie1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.Properties.Resources.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.Properties.Resources.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.rankingdi</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.RankingDisplay.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.RankingDisplay.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.rankingdi1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.RankingDisplay.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.RankingDisplay.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.resources</td><td>SIMS.SimSoccerForm.resources.dll</td><td>SIMSSI~1.DLL|SIMS.SimSoccerForm.resources.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\fr\SIMS.SimSoccerForm.resources.dll</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.resources1</td><td>SIMS.SimSoccerForm.resources.dll1</td><td>SIMSSI~1.DLL|SIMS.SimSoccerForm.resources.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\fr\SIMS.SimSoccerForm.resources.dll</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.resources2</td><td>SIMS.SimSoccerForm.resources.dll2</td><td>SIMSSI~1.DLL|SIMS.SimSoccerForm.resources.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\fr\SIMS.SimSoccerForm.resources.dll</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.resources3</td><td>SIMS.SimSoccerForm.resources.dll3</td><td>SIMSSI~1.DLL|SIMS.SimSoccerForm.resources.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\fr\SIMS.SimSoccerForm.resources.dll</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.selecttea</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.SelectTeamForm.fr.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.SelectTeamForm.fr.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.selecttea1</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.SelectTeamForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.SelectTeamForm.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.selecttea2</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.SelectTeamForm.fr.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.SelectTeamForm.fr.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.selecttea3</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.SelectTeamForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.SelectTeamForm.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.showresul</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.ShowResult.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.ShowResult.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.showresul1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.ShowResult.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.ShowResult.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.splashfor</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.SplashForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.SplashForm.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.splashfor1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.SplashForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.SplashForm.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.startform</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.StartForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.StartForm.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.startform1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.StartForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.StartForm.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.startpage</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.StartPage.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.StartPage.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.startpage1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.StartPage.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.StartPage.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.transfert</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.TransfertsInterface.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.TransfertsInterface.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.transfert1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.TransfertsInterface.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.TransfertsInterface.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.usercontr</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.UserControl1.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.UserControl1.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.usercontr1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.UserControl1.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.UserControl1.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.userprofi</td><td>ISX_DEFAULTCOMPONENT11</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.UserProfilForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.UserProfilForm.resources</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.userprofi1</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.RES|SIMS.SimSoccerForm.UserProfilForm.resources</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\SIMS.SimSoccerForm.UserProfilForm.resources</td><td>1</td><td/></row>
 		<row><td>sims.simsoccerform.vshost.ap</td><td>ISX_DEFAULTCOMPONENT4</td><td>SIMSSI~1.APP|SIMS.SimSoccerForm.vshost.application</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\SIMS.SimSoccerForm.vshost.application</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.vshost.ap1</td><td>ISX_DEFAULTCOMPONENT10</td><td>SIMSSI~1.APP|SIMS.SimSoccerForm.vshost.application</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\SIMS.SimSoccerForm.vshost.application</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.vshost.ap2</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.APP|SIMS.SimSoccerForm.vshost.application</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.vshost.application</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.vshost.ap1</td><td>ISX_DEFAULTCOMPONENT7</td><td>SIMSSI~1.APP|SIMS.SimSoccerForm.vshost.application</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\SIMS.SimSoccerForm.vshost.application</td><td>1</td><td/></row>
 		<row><td>sims.simsoccerform.vshost.ex</td><td>SIMS.SimSoccerForm.vshost.exe</td><td>SIMSSI~1.EXE|SIMS.SimSoccerForm.vshost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\SIMS.SimSoccerForm.vshost.exe</td><td>1</td><td/></row>
 		<row><td>sims.simsoccerform.vshost.ex1</td><td>ISX_DEFAULTCOMPONENT4</td><td>SIMSSI~1.MAN|SIMS.SimSoccerForm.vshost.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\SIMS.SimSoccerForm.vshost.exe.manifest</td><td>1</td><td/></row>
 		<row><td>sims.simsoccerform.vshost.ex2</td><td>SIMS.SimSoccerForm.vshost.exe1</td><td>SIMSSI~1.EXE|SIMS.SimSoccerForm.vshost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\SIMS.SimSoccerForm.vshost.exe</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.vshost.ex3</td><td>ISX_DEFAULTCOMPONENT10</td><td>SIMSSI~1.MAN|SIMS.SimSoccerForm.vshost.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\SIMS.SimSoccerForm.vshost.exe.manifest</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.vshost.ex4</td><td>SIMS.SimSoccerForm.vshost.exe2</td><td>SIMSSI~1.EXE|SIMS.SimSoccerForm.vshost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.vshost.exe</td><td>1</td><td/></row>
-		<row><td>sims.simsoccerform.vshost.ex5</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.MAN|SIMS.SimSoccerForm.vshost.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\SIMS.SimSoccerForm.vshost.exe.manifest</td><td>1</td><td/></row>
+		<row><td>sims.simsoccerform.vshost.ex3</td><td>ISX_DEFAULTCOMPONENT7</td><td>SIMSSI~1.MAN|SIMS.SimSoccerForm.vshost.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\SIMS.SimSoccerForm.vshost.exe.manifest</td><td>1</td><td/></row>
 		<row><td>sims.simsoccerform_temporary</td><td>ISX_DEFAULTCOMPONENT2</td><td>SIMSSI~1.PFX|SIMS.SimSoccerForm_TemporaryKey.pfx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\SIMS.SimSoccerForm_TemporaryKey.pfx</td><td>1</td><td/></row>
 		<row><td>sims.simsoccermodel.dll</td><td>Sims.SimSoccerModel.dll</td><td>SIMSSI~1.DLL|Sims.SimSoccerModel.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\Sims.SimSoccerModel.dll</td><td>1</td><td/></row>
-		<row><td>sims.simsoccermodel.dll.depl</td><td>ISX_DEFAULTCOMPONENT7</td><td>SIMSSI~1.DEP|Sims.SimSoccerModel.dll.deploy</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\app.publish\Application Files\SIMS.SimSoccerForm_1_0_0_8\Sims.SimSoccerModel.dll.deploy</td><td>1</td><td/></row>
-		<row><td>sims.simsoccermodel.dll.depl1</td><td>ISX_DEFAULTCOMPONENT17</td><td>SIMSSI~1.DEP|Sims.SimSoccerModel.dll.deploy</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\app.publish\Application Files\SIMS.SimSoccerForm_1_0_0_8\Sims.SimSoccerModel.dll.deploy</td><td>1</td><td/></row>
 		<row><td>sims.simsoccermodel.dll1</td><td>Sims.SimSoccerModel.dll1</td><td>SIMSSI~1.DLL|Sims.SimSoccerModel.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\Sims.SimSoccerModel.dll</td><td>1</td><td/></row>
 		<row><td>sims.simsoccermodel.dll2</td><td>Sims.SimSoccerModel.dll2</td><td>SIMSSI~1.DLL|Sims.SimSoccerModel.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\Sims.SimSoccerModel.dll</td><td>1</td><td/></row>
 		<row><td>sims.simsoccermodel.pdb</td><td>ISX_DEFAULTCOMPONENT4</td><td>SIMSSI~1.PDB|Sims.SimSoccerModel.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Debug\Sims.SimSoccerModel.pdb</td><td>1</td><td/></row>
-		<row><td>sims.simsoccermodel.pdb1</td><td>ISX_DEFAULTCOMPONENT10</td><td>SIMSSI~1.PDB|Sims.SimSoccerModel.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\Sims.SimSoccerModel.pdb</td><td>1</td><td/></row>
-		<row><td>sims.simsoccermodel.pdb2</td><td>ISX_DEFAULTCOMPONENT14</td><td>SIMSSI~1.PDB|Sims.SimSoccerModel.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\Sims.SimSoccerModel.pdb</td><td>1</td><td/></row>
-		<row><td>sims.simsoccermodel.ranking.</td><td>ISX_DEFAULTCOMPONENT25</td><td>SIMSSI~1.DAT|Sims.SimSoccerModel.Ranking.datasource</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\Properties\DataSources\Sims.SimSoccerModel.Ranking.datasource</td><td>1</td><td/></row>
+		<row><td>sims.simsoccermodel.pdb1</td><td>ISX_DEFAULTCOMPONENT7</td><td>SIMSSI~1.PDB|Sims.SimSoccerModel.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\bin\Release\Sims.SimSoccerModel.pdb</td><td>1</td><td/></row>
+		<row><td>sims.simsoccermodel.ranking.</td><td>ISX_DEFAULTCOMPONENT18</td><td>SIMSSI~1.DAT|Sims.SimSoccerModel.Ranking.datasource</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\Properties\DataSources\Sims.SimSoccerModel.Ranking.datasource</td><td>1</td><td/></row>
 		<row><td>sm_real_soccer_ball.png</td><td>ISX_DEFAULTCOMPONENT</td><td>SM-REA~1.PNG|sm-Real-Soccer-ball.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\sm-Real-Soccer-ball.png</td><td>1</td><td/></row>
 		<row><td>smc.png</td><td>ISX_DEFAULTCOMPONENT</td><td>SMC.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\SMC.png</td><td>1</td><td/></row>
 		<row><td>splashform.cs</td><td>ISX_DEFAULTCOMPONENT2</td><td>SPLASH~1.CS|SplashForm.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\SplashForm.cs</td><td>1</td><td/></row>
@@ -2257,9 +2223,12 @@
 		<row><td>startpage.designer.cs</td><td>ISX_DEFAULTCOMPONENT2</td><td>STARTP~1.CS|StartPage.Designer.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\StartPage.Designer.cs</td><td>1</td><td/></row>
 		<row><td>startpage.resx</td><td>ISX_DEFAULTCOMPONENT2</td><td>STARTP~1.RES|StartPage.resx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\StartPage.resx</td><td>1</td><td/></row>
 		<row><td>tactics.xml</td><td>ISX_DEFAULTCOMPONENT19</td><td>Tactics.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\Tactics.xml</td><td>1</td><td/></row>
-		<row><td>temporarygeneratedfile_036c0</td><td>ISX_DEFAULTCOMPONENT21</td><td>TEMPOR~1.CS|TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</td><td>1</td><td/></row>
-		<row><td>temporarygeneratedfile_5937a</td><td>ISX_DEFAULTCOMPONENT21</td><td>TEMPOR~1.CS|TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</td><td>1</td><td/></row>
-		<row><td>temporarygeneratedfile_e7a71</td><td>ISX_DEFAULTCOMPONENT21</td><td>TEMPOR~1.CS|TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</td><td>1</td><td/></row>
+		<row><td>temporarygeneratedfile_036c0</td><td>ISX_DEFAULTCOMPONENT11</td><td>TEMPOR~1.CS|TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</td><td>1</td><td/></row>
+		<row><td>temporarygeneratedfile_036c01</td><td>ISX_DEFAULTCOMPONENT14</td><td>TEMPOR~1.CS|TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</td><td>1</td><td/></row>
+		<row><td>temporarygeneratedfile_5937a</td><td>ISX_DEFAULTCOMPONENT11</td><td>TEMPOR~1.CS|TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</td><td>1</td><td/></row>
+		<row><td>temporarygeneratedfile_5937a1</td><td>ISX_DEFAULTCOMPONENT14</td><td>TEMPOR~1.CS|TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</td><td>1</td><td/></row>
+		<row><td>temporarygeneratedfile_e7a71</td><td>ISX_DEFAULTCOMPONENT11</td><td>TEMPOR~1.CS|TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</td><td>1</td><td/></row>
+		<row><td>temporarygeneratedfile_e7a711</td><td>ISX_DEFAULTCOMPONENT14</td><td>TEMPOR~1.CS|TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</td><td>1</td><td/></row>
 		<row><td>tfc.png</td><td>ISX_DEFAULTCOMPONENT</td><td>TFC.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\images\TFC.png</td><td>1</td><td/></row>
 		<row><td>transfertsinterface.cs</td><td>ISX_DEFAULTCOMPONENT2</td><td>TRANSF~1.CS|TransfertsInterface.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\TransfertsInterface.cs</td><td>1</td><td/></row>
 		<row><td>transfertsinterface.designer</td><td>ISX_DEFAULTCOMPONENT2</td><td>TRANSF~1.CS|TransfertsInterface.Designer.cs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\TransfertsInterface.Designer.cs</td><td>1</td><td/></row>
@@ -2422,66 +2391,55 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
-		<row><td>AxInterop.WMPLib.dll</td><td/><td/><td>_B0611370_F671_4761_B3F8_D346FEA44439_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>AxInterop.WMPLib.dll1</td><td/><td/><td>_8E4C0935_4632_45DE_8C1B_1414E89CBA00_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>AxInterop.WMPLib.dll2</td><td/><td/><td>_19523BF3_C004_4F2F_AC9F_B289E2D2BDC8_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>AxInterop.WMPLib.dll3</td><td/><td/><td>_F1FB36F4_5CE5_47D5_90B9_71618364638D_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>CK.Core.dll</td><td/><td/><td>_97922EE8_455F_4537_8E3F_F784C9F095F1_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>CK.Core.dll1</td><td/><td/><td>_794BD1A6_9B8D_4596_8B69_CC8C25A6F5EA_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>CK.Core.dll2</td><td/><td/><td>_B38A3DF7_DE57_4624_9D8B_A33911F71A82_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>AxInterop.WMPLib.dll</td><td/><td/><td>_F0959B9D_529E_44CF_AD80_5BD619E47B98_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>AxInterop.WMPLib.dll1</td><td/><td/><td>_5DF4F54F_8312_43B4_8F9E_BE43CD8B5D14_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>AxInterop.WMPLib.dll2</td><td/><td/><td>_E9B3B479_A093_4470_8FBA_26B0562A74AB_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>AxInterop.WMPLib.dll3</td><td/><td/><td>_36D003FE_CAFB_4E93_B84E_01844D13B0D5_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CK.Core.dll</td><td/><td/><td>_047B8B30_5217_49CB_A3A2_D377EAA56E98_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CK.Core.dll1</td><td/><td/><td>_ACFD3715_2B36_4239_8981_DD62A043E2C3_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_D32956E6_0EC2_4D62_B60D_F980F139E8F4_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_75E7ED1A_6C5B_4562_8A8C_A86CB03F812D_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT10</td><td/><td/><td>_2AB43085_28BC_41D5_A5EF_8D14291915EA_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT11</td><td/><td/><td>_17D3F31D_4D52_4C9E_943E_4B4C855C29B3_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT12</td><td/><td/><td>_BCFF1AA6_005A_4B65_8E79_99DB47DA8B20_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT13</td><td/><td/><td>_722FD23F_E9AA_4D42_BF5D_AC72BA0EFD47_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT14</td><td/><td/><td>_41BF8E13_4DD2_4613_A60A_182D76F5CABE_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT15</td><td/><td/><td>_85BAA197_D5BA_4F75_A298_DAF884D3B35B_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT16</td><td/><td/><td>_B425DA63_6ABC_4EDF_BA38_9B58F4FA07A8_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT17</td><td/><td/><td>_EEA853A7_AC01_4164_9F98_0CDF6CC6A9D4_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT18</td><td/><td/><td>_FD0EB483_DDC6_4FCD_BFFF_9308B0A5E885_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT10</td><td/><td/><td>_CDAC4866_7518_4F38_A634_0896C89EB349_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT11</td><td/><td/><td>_F64B2653_B684_4F09_8202_ECF321125910_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT12</td><td/><td/><td>_C8C94C13_A92C_46FD_93ED_59E9C722B8B4_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT13</td><td/><td/><td>_49D9C500_A840_4CD5_BD4B_82FDDB6D08D5_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT14</td><td/><td/><td>_894C5AB8_D850_4589_A279_8538E6BC702C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT15</td><td/><td/><td>_A8358C78_E658_40D1_8892_67E2D035AD8E_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT16</td><td/><td/><td>_9C685379_AFD1_4B7D_9C60_6038BBFA03D4_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT17</td><td/><td/><td>_7F676152_39DD_4355_9F67_35EDB549DD3B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT18</td><td/><td/><td>_71BB451A_7002_4302_A0F3_6A561205244D_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT19</td><td/><td/><td>_8782224C_F438_4AFB_8750_CBE13C99926B_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_284A4C48_6217_43B1_A732_2E90BB9B451E_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT20</td><td/><td/><td>_F4806879_3CC3_4D1F_A83C_7A9A8A863262_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT21</td><td/><td/><td>_81EB01D1_D5DF_4B2A_83BF_E75CB0891A89_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT22</td><td/><td/><td>_34B48032_7291_4674_BD6F_F01486E2C3B7_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT23</td><td/><td/><td>_79E8D7DE_3871_4F29_83C0_0FBE7D0B09A1_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT24</td><td/><td/><td>_42EE0FDD_1CD8_4FE2_88D9_3CA9CD469237_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT25</td><td/><td/><td>_F931C1DB_7473_4718_A1FC_E287C48F3888_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT3</td><td/><td/><td>_4B870674_1AEB_438F_B796_EBCE11C5782E_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT4</td><td/><td/><td>_45A2B07D_BB77_42EA_BF08_000F57FE7131_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT5</td><td/><td/><td>_EF3430B0_233F_43A7_BB15_F6F0081860BE_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT6</td><td/><td/><td>_642EE2F5_9EDC_47DB_B270_5ED7BE0802BE_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT7</td><td/><td/><td>_6B5B5AFE_D86B_4A37_A1A5_45D131B01A87_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT8</td><td/><td/><td>_0A614865_2169_46F0_B941_38B0B2FF8DA4_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT9</td><td/><td/><td>_1604AD42_07A8_43E4_B4E9_3B096582A180_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Interop.WMPLib.dll</td><td/><td/><td>_B232058A_B2A5_4A7D_B64F_71CAF0D4A9BD_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Interop.WMPLib.dll1</td><td/><td/><td>_2B616645_D22C_4CE1_810F_C3A9D6ACD3D5_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Interop.WMPLib.dll2</td><td/><td/><td>_95FB8762_5559_4080_958D_E7AF055CF772_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Interop.WMPLib.dll3</td><td/><td/><td>_5309C0DB_B4AC_4409_A5A1_E2F929DC6C73_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Properties.Resources.Designer.cs.dll</td><td/><td/><td>_479C2629_9C1F_4627_AFD6_AA2C282A06A2_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.exe</td><td/><td/><td>_02EE3EFA_5DC7_46BC_8570_C0CF7946B4DE_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.exe1</td><td/><td/><td>_36EEB008_1B35_42B0_A6C3_75E48A01ACAA_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.exe2</td><td/><td/><td>_52B3E191_2093_4712_AEFF_0A3EB6DA59C0_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.exe3</td><td/><td/><td>_A1A541B7_8841_42EA_A2B5_A2D40E1FFAF0_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.exe4</td><td/><td/><td>_5E915AE8_680D_4240_997B_F1656EEB124C_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.exe5</td><td/><td/><td>_2A0B5C42_9F77_4067_B938_FE4E75239C17_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.exe6</td><td/><td/><td>_9F501B90_E513_47DA_98CB_34F5E3BBED1B_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.resources.dll</td><td/><td/><td>_A095645B_A8F6_4D35_9042_1E8FA75E917A_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.resources.dll1</td><td/><td/><td>_A4935B90_FB9F_4CC7_9F73_FA311D163ED9_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.resources.dll2</td><td/><td/><td>_18C75E04_DDF8_499E_B143_EE503E688BC1_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.resources.dll3</td><td/><td/><td>_D8F8270C_CB44_4716_85CE_7F8875AB8624_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.vshost.exe</td><td/><td/><td>_6DA4D7ED_A19D_4761_9A39_6BF22557619B_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.vshost.exe1</td><td/><td/><td>_7E2E381E_970D_412D_9ED9_1D0E8B0F0B5B_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.vshost.exe2</td><td/><td/><td>_50B32F20_4D47_4FE2_A526_B0F07845F7D0_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Sims.SimSoccerModel.dll</td><td/><td/><td>_C635B986_1CE9_4BE1_A60C_452329D7F75B_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Sims.SimSoccerModel.dll1</td><td/><td/><td>_30A1B660_AC9A_4A31_B6A5_5ABB8239A2DD_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Sims.SimSoccerModel.dll2</td><td/><td/><td>_15BF31C8_C108_4E33_806B_737B6220C462_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>nunit.framework.dll</td><td/><td/><td>_6424FF79_2BC7_4DDA_9EDA_156748641895_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>nunit.framework.dll1</td><td/><td/><td>_06B26A67_6E43_41E9_A54A_1FB04001F6CD_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>nunit.framework.dll2</td><td/><td/><td>_BA731782_41C5_4BCB_B92C_EB9B259A41E5_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>setup.exe</td><td/><td/><td>_43C6EE38_F26A_4C83_8200_AB0B7E3BC8FD_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>setup.exe1</td><td/><td/><td>_4A9C31AE_AD92_446B_9A01_AE361C6CBCBE_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_DBA18BE1_4C38_4690_B88B_3C04BAB58086_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT3</td><td/><td/><td>_AE662994_0393_4B30_BD4C_AFE76DEF0C28_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT4</td><td/><td/><td>_2098404C_FA75_437F_9C3B_F4E89628827A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT5</td><td/><td/><td>_A61F6B56_4E7E_463E_B4B1_7330FBADADAD_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT6</td><td/><td/><td>_9DC4E517_BDE3_4CFD_BD68_4CFBCA5A00B5_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT7</td><td/><td/><td>_CE00527D_FD26_4941_830D_39AA1CBF19C3_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT8</td><td/><td/><td>_DC8AC071_B6B5_4742_B379_5965AE8F66BB_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT9</td><td/><td/><td>_D5773040_D719_4780_8769_7239007FCF02_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Interop.WMPLib.dll</td><td/><td/><td>_33B2E344_BF1F_4B31_8FB9_026D74E1C257_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Interop.WMPLib.dll1</td><td/><td/><td>_1AED0BD9_D8CB_4E53_87E0_5C6A7C50F890_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Interop.WMPLib.dll2</td><td/><td/><td>_7366F377_2907_4352_AEAE_400DE257F8EC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Interop.WMPLib.dll3</td><td/><td/><td>_8D7618E9_FB31_404E_BD8F_2D4C05D55C64_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Properties.Resources.Designer.cs.dll</td><td/><td/><td>_70C243DE_7331_4BBD_BC06_A099CF1BDD4F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Properties.Resources.Designer.cs.dll1</td><td/><td/><td>_6EEABE20_B517_493E_BC06_BA57EC7C4245_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.exe</td><td/><td/><td>_D22E080D_C99A_47CE_8FE6_8743EF2130AF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.exe1</td><td/><td/><td>_43C5F427_3CC2_4EE6_8650_CAD07EEF0A6D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.exe2</td><td/><td/><td>_1C764136_DA2F_4CC0_9845_12A86554E6D9_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.exe3</td><td/><td/><td>_5AFA7D36_6AD8_48E4_BC2E_5E8D8A5D05D5_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.exe4</td><td/><td/><td>_FD06DF8D_A8F5_4C5B_AF50_30EC6A77BC46_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.exe5</td><td/><td/><td>_7E21DDEA_195D_4D3E_B8F5_082325548571_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.resources.dll</td><td/><td/><td>_04E525C9_98F0_4922_B0E5_AEA1115B3113_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.resources.dll1</td><td/><td/><td>_75ABCD01_4363_4089_BD00_B54F52B3B3E5_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.resources.dll2</td><td/><td/><td>_5217D388_1F19_4FB8_9223_1FBA4209D95F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.resources.dll3</td><td/><td/><td>_8CE19E81_C718_4740_9A7F_DAD03C1D936E_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.vshost.exe</td><td/><td/><td>_73CD954B_7075_48C2_8F00_1A3B3E68FA05_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.vshost.exe1</td><td/><td/><td>_86F9AE89_8FEA_4311_8BE6_7261EA7566A2_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Sims.SimSoccerModel.dll</td><td/><td/><td>_6D7EC1A2_2489_4633_87A9_81091C60AA23_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Sims.SimSoccerModel.dll1</td><td/><td/><td>_FF61F644_5C1B_4CED_B89F_E6A1A5C05008_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Sims.SimSoccerModel.dll2</td><td/><td/><td>_DC995206_A763_42E4_BFB5_54D14FE49C5F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>nunit.framework.dll</td><td/><td/><td>_24499235_F5E4_4D7C_9C0A_C33A8E74DD1B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>nunit.framework.dll1</td><td/><td/><td>_AB5DFA78_29A8_465C_8EB3_A41308808BF9_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -3930,7 +3888,15 @@
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME25</td><td>1033</td><td>SimSoccer</td><td>0</td><td/><td>-257711680</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME26</td><td>1033</td><td>LAUNCH~1.EXE|Launch SIMS.SimSoccerForm.vshost.exe</td><td>0</td><td/><td>-257738624</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME27</td><td>1033</td><td>SimSoccer</td><td>0</td><td/><td>-257711968</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME28</td><td>1033</td><td>LAUNCH~1.EXE|Launch SIMS.SimSoccerForm.exe</td><td>0</td><td/><td>-257732565</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME29</td><td>1033</td><td>LAUNCH~1.EXE|Launch SIMS.SimSoccerForm.exe</td><td>0</td><td/><td>-257732565</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME3</td><td>1033</td><td>LAUNCH~1.EXE|Launch SIMS.SimSoccerForm.vshost.exe</td><td>0</td><td/><td>-391963498</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME30</td><td>1033</td><td>LAUNCH~1.EXE|Launch SIMS.SimSoccerForm.vshost.exe</td><td>0</td><td/><td>-257732565</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME31</td><td>1033</td><td>LAUNCH~1.EXE|Launch SIMS.SimSoccerForm.exe</td><td>0</td><td/><td>-257732565</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME32</td><td>1033</td><td>LAUNCH~1.EXE|Launch SIMS.SimSoccerForm.exe</td><td>0</td><td/><td>-257732565</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME33</td><td>1033</td><td>LAUNCH~1.EXE|Launch SIMS.SimSoccerForm.vshost.exe</td><td>0</td><td/><td>-257732565</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME34</td><td>1033</td><td>SimSoccer</td><td>0</td><td/><td>-257752853</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME35</td><td>1033</td><td>SimSoccer</td><td>0</td><td/><td>-257697749</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME4</td><td>1033</td><td>SimSoccer</td><td>0</td><td/><td>-391957353</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME5</td><td>1033</td><td>SimSoccer.exe</td><td>0</td><td/><td>-391920521</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME6</td><td>1033</td><td>LAUNCH~1.EXE|Launch SIMS.SimSoccerForm.vshost.exe</td><td>0</td><td/><td>-391963498</td></row>
@@ -4225,8 +4191,10 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>-391918506</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>-391918506</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>-391918506</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.IN'TECHINFO.com</td><td>0</td><td/><td>-257705888</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.intechinfo.fr</td><td>0</td><td/><td>-257747126</td></row>
 		<row><td>ID_STRING10</td><td>1033</td><td>LAUNCH~1.EXE|Launch SIMS.SimSoccerForm.exe</td><td>0</td><td/><td>-257713824</td></row>
+		<row><td>ID_STRING11</td><td>1033</td><td>LAUNCH~1.EXE|Launch SIMS.SimSoccerForm.exe</td><td>0</td><td/><td>-257720277</td></row>
+		<row><td>ID_STRING12</td><td>1033</td><td>LAUNCH~1.EXE|Launch SIMS.SimSoccerForm.exe</td><td>0</td><td/><td>-257713973</td></row>
 		<row><td>ID_STRING2</td><td>1033</td><td>IN'TECH INFO</td><td>0</td><td/><td>-257705888</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>LAUNCH~1.EXE|Launch SIMS.SimSoccerForm.exe</td><td>0</td><td/><td>-391947114</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>LAUNCH~1.EXE|Launch SIMS.SimSoccerForm.exe</td><td>0</td><td/><td>-391965865</td></row>
@@ -4347,20 +4315,28 @@
 		<row><td>SIMS.SimSoccerForm_1CDEE30C20604EE7968487CE1DC09204.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_21F8054679B8403CBE7C82668A8A6C7D.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_29D49BEDEE5B4B27BCEE0767AB21B0BC.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>SIMS.SimSoccerForm_2BEB707A53F24D00B1EB75EFE1F17573.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_2D85098B46404293B41B15BA0C0790B9.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_2FD3CA1DFD884256A0754A9ADA73915B.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_3908AE572F2440718391F82190B328A6.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>SIMS.SimSoccerForm_4DCF4255291341659A4A55C8576CCDB8.exe</td><td/><td>&lt;VSSolutionFolder&gt;\images\1416427492_22984.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_5F95BA9E95A946C8A6171BE75E77ADFD.exe</td><td/><td>&lt;VSSolutionFolder&gt;\images\1416427492_22984.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_71E991D48AD849BDA08B5B81D92C4836.exe</td><td/><td>&lt;VSSolutionFolder&gt;\images\1416427492_22984.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_74271A778DDE422DA34DDB9794FB277D.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_8BC676E040EF4193A36AD0CBD06E09DD.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>SIMS.SimSoccerForm_8D42CF3940CF46CBBDACF12AF6426751.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_9DF2E8EB7C3A497EB8F7C5A9F0562E5B.exe</td><td/><td>&lt;VSSolutionFolder&gt;\images\1416427492_22984.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_AE5AE9A5B41C402B8FB5213592C285BD.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_B57EBEDF24E547B88988FE5A722B517C.exe</td><td/><td>&lt;VSSolutionFolder&gt;\images\1416427492_22984.ico</td><td>0</td></row>
+		<row><td>SIMS.SimSoccerForm_C1571DB0A3DF43C3B9363E11BDB776D0.exe</td><td/><td>&lt;VSSolutionFolder&gt;\images\1416427492_22984.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_C46120C0AFDF4998BEF5A67DC1F02B82.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>SIMS.SimSoccerForm_C538ACB08425482098628790B65CA187.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_CFC2520A98144391912398FD9572B46F.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>SIMS.SimSoccerForm_D1E1CACA269446CEA2AFF4A6143E8B24.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_EE0BADBFF95E4F518684C082A1F2942A.exe</td><td/><td>&lt;VSSolutionFolder&gt;\images\1416427492_22984.ico</td><td>0</td></row>
+		<row><td>SIMS.SimSoccerForm_EE759EC4A69745AEBEB195BDFC684941.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_F11F681D449D42FAB709851097F25593.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>SIMS.SimSoccerForm_F17FB19E324A4F089BD7382A65FDC438.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_F1F7DE1E2052413D99F185409B0F97A7.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>SIMS.SimSoccerForm_FE7031FFD9C84C658789C6EB591666B0.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>setup.exe1_F53D34C1FD134F87837A985605C24FD2.exe</td><td/><td>C:\Users\Guenole\Desktop\SimSoccer2\SIMS.SimSoccerForm - Copie\obj\Debug\app.publish\setup.exe</td><td>0</td></row>
@@ -4843,8 +4819,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>IS_SQLSERVER_USERNAME</td><td>sa</td><td/></row>
 		<row><td>InstallChoice</td><td>AR</td><td/></row>
 		<row><td>LAUNCHPROGRAM</td><td>1</td><td/></row>
-		<row><td>LAUNCHPROGRAMCOMPCODE</td><td>{36506ED8-48FA-447F-AA56-05211AFB4F1A}</td><td/></row>
-		<row><td>LAUNCHPROGRAMFILEKEY</td><td>sims.simsoccerform.exe5</td><td/></row>
+		<row><td>LAUNCHPROGRAMCOMPCODE</td><td>{A4A6C9F2-A3FB-41D1-A169-577846B8EEBA}</td><td/></row>
+		<row><td>LAUNCHPROGRAMFILEKEY</td><td>sims.simsoccerform.exe4</td><td/></row>
 		<row><td>LAUNCHREADME</td><td>1</td><td/></row>
 		<row><td>Manufacturer</td><td>##COMPANY_NAME##</td><td/></row>
 		<row><td>PIDKEY</td><td/><td/></row>
@@ -4955,12 +4931,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>SIMS.SimSoccerForm.exe1</td><td>SIMS.SimSoccerForm.exe1</td><td/><td>simsoc_1_simsoccer</td><td>2</td></row>
 		<row><td>SIMS.SimSoccerForm.exe2</td><td>SIMS.SimSoccerForm.exe2</td><td/><td>simsoc_1_simsoccer</td><td>2</td></row>
 		<row><td>SIMS.SimSoccerForm.exe3</td><td>SIMS.SimSoccerForm.exe3</td><td/><td>simsoc_1_simsoccer</td><td>2</td></row>
-		<row><td>SIMS.SimSoccerForm.exe5</td><td>SIMS.SimSoccerForm.exe5</td><td/><td>simsoc_1_simsoccer</td><td>2</td></row>
+		<row><td>SIMS.SimSoccerForm.exe4</td><td>SIMS.SimSoccerForm.exe4</td><td/><td>simsoc_1_simsoccer</td><td>2</td></row>
 		<row><td>SIMS.SimSoccerForm.vshost.exe</td><td>SIMS.SimSoccerForm.vshost.exe</td><td/><td>simsoc_1_simsoccer</td><td>2</td></row>
 		<row><td>SIMS.SimSoccerForm.vshost.exe1</td><td>SIMS.SimSoccerForm.vshost.exe1</td><td/><td>simsoc_1_simsoccer</td><td>2</td></row>
-		<row><td>SIMS.SimSoccerForm.vshost.exe2</td><td>SIMS.SimSoccerForm.vshost.exe2</td><td/><td>simsoc_1_simsoccer</td><td>2</td></row>
-		<row><td>setup.exe</td><td>setup.exe</td><td/><td>simsoc_1_simsoccer</td><td>2</td></row>
-		<row><td>setup.exe1</td><td>setup.exe1</td><td/><td>simsoc_1_simsoccer</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -5046,17 +5019,14 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>SIMS.SimSoccerForm.exe</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME17##</td><td>SIMS.SimSoccerForm.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_AE5AE9A5B41C402B8FB5213592C285BD.exe</td><td>0</td><td>1</td><td>APP.PUBLISH</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.exe1</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME18##</td><td>SIMS.SimSoccerForm.exe1</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_C46120C0AFDF4998BEF5A67DC1F02B82.exe</td><td>0</td><td>1</td><td>DEBUG</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.exe2</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME20##</td><td>SIMS.SimSoccerForm.exe2</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_F11F681D449D42FAB709851097F25593.exe</td><td>0</td><td>1</td><td>APP.PUBLISH1</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.exe3</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME21##</td><td>SIMS.SimSoccerForm.exe3</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_CFC2520A98144391912398FD9572B46F.exe</td><td>0</td><td>1</td><td>RELEASE</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.exe5</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME25##</td><td>SIMS.SimSoccerForm.exe5</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_9DF2E8EB7C3A497EB8F7C5A9F0562E5B.exe</td><td>0</td><td>1</td><td>DEBUG1</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.exe51</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME25##</td><td>SIMS.SimSoccerForm.exe5</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_EE0BADBFF95E4F518684C082A1F2942A.exe</td><td>0</td><td>1</td><td>DEBUG1</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.vshost.exe</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME19##</td><td>SIMS.SimSoccerForm.vshost.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_1CDEE30C20604EE7968487CE1DC09204.exe</td><td>0</td><td>1</td><td>DEBUG</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.vshost.exe1</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME22##</td><td>SIMS.SimSoccerForm.vshost.exe1</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_FE7031FFD9C84C658789C6EB591666B0.exe</td><td>0</td><td>1</td><td>RELEASE</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>SIMS.SimSoccerForm.vshost.exe2</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME26##</td><td>SIMS.SimSoccerForm.vshost.exe2</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_21F8054679B8403CBE7C82668A8A6C7D.exe</td><td>0</td><td>1</td><td>DEBUG1</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>setup.exe</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME16##</td><td>setup.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>setup.exe_6368C8BCBE8745C5999BD0C0184A4134.exe</td><td>1</td><td>1</td><td>APP.PUBLISH</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>setup.exe1</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME23##</td><td>setup.exe1</td><td>AlwaysInstall</td><td/><td/><td/><td>setup.exe1_F53D34C1FD134F87837A985605C24FD2.exe</td><td>1</td><td>1</td><td>APP.PUBLISH2</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.exe</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME28##</td><td>SIMS.SimSoccerForm.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_2BEB707A53F24D00B1EB75EFE1F17573.exe</td><td>0</td><td>1</td><td>APP.PUBLISH</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.exe1</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME29##</td><td>SIMS.SimSoccerForm.exe1</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_8D42CF3940CF46CBBDACF12AF6426751.exe</td><td>0</td><td>1</td><td>DEBUG</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.exe2</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME31##</td><td>SIMS.SimSoccerForm.exe2</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_C538ACB08425482098628790B65CA187.exe</td><td>0</td><td>1</td><td>APP.PUBLISH1</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.exe3</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME32##</td><td>SIMS.SimSoccerForm.exe3</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_EE759EC4A69745AEBEB195BDFC684941.exe</td><td>0</td><td>1</td><td>RELEASE</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.exe4</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME34##</td><td>SIMS.SimSoccerForm.exe4</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_C1571DB0A3DF43C3B9363E11BDB776D0.exe</td><td>0</td><td>1</td><td>DEBUG1</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.exe41</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME34##</td><td>SIMS.SimSoccerForm.exe4</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_4DCF4255291341659A4A55C8576CCDB8.exe</td><td>0</td><td>1</td><td>DEBUG1</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.vshost.exe</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME30##</td><td>SIMS.SimSoccerForm.vshost.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_D1E1CACA269446CEA2AFF4A6143E8B24.exe</td><td>0</td><td>1</td><td>DEBUG</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>SIMS.SimSoccerForm.vshost.exe1</td><td>simsoc_1_simsoccer</td><td>##IDS_SHORTCUT_DISPLAY_NAME33##</td><td>SIMS.SimSoccerForm.vshost.exe1</td><td>AlwaysInstall</td><td/><td/><td/><td>SIMS.SimSoccerForm_F17FB19E324A4F089BD7382A65FDC438.exe</td><td>0</td><td>1</td><td>RELEASE</td><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">

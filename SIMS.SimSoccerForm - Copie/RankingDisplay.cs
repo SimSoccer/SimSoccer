@@ -39,6 +39,14 @@ namespace SIMS.SimSoccerForm
            dataGridView1.Rows[17].DefaultCellStyle.BackColor = Color.OrangeRed;
            dataGridView1.Rows[18].DefaultCellStyle.BackColor = Color.OrangeRed;
            dataGridView1.Rows[19].DefaultCellStyle.BackColor = Color.OrangeRed;
+           
+            for( int h = 1; h < dataGridView1.Rows.Count - 1; h++ )
+           {
+               if( dataGridView1.Rows[h].Cells[0].Value.ToString() == _game.ChoosenTeam )
+               {
+                   dataGridView1.Rows[h].DefaultCellStyle.BackColor = Color.Yellow;
+               }
+           }
 
            if( dataGridView1.RowCount > 0 && dataGridView1.ColumnCount > 0 )
            {
