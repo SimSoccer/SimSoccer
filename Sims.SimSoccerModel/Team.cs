@@ -32,6 +32,7 @@ namespace Sims.SimSoccerModel
         readonly Game _game;
         int _id;
         int _budget;
+        int _objectif;
         #endregion
 
         #region contructor
@@ -105,6 +106,7 @@ namespace Sims.SimSoccerModel
             _leaguePoints = int.Parse(e.Element("Points").Value);
             string tt = e.Element("TeamTag").Value;
             _formation = e.Element("Formation").Value;
+            _objectif = int.Parse(e.Element( "Objectif" ).Value);
 
 
             /// Incumbant the players holder in a team and in its global player list
@@ -205,6 +207,7 @@ namespace Sims.SimSoccerModel
                         new XElement( "Level", Level ),
                         new XElement( "Budget", Budget ),
                         new XElement("Formation", Formation),
+                        new XElement("Objectif", Objectif),
                         new XElement("Players",
                             new XElement("Titulaire",
                             from p in TeamType
@@ -458,6 +461,11 @@ namespace Sims.SimSoccerModel
         {
             get { return _leaguePoints; }
             set { _leaguePoints = value; }
+        }
+
+        public int Objectif
+        {
+            get { return _objectif; }
         }
 
     }
