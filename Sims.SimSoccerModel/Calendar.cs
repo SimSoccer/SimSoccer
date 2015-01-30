@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Sims.SimSoccerModel
 {
@@ -48,6 +49,32 @@ namespace Sims.SimSoccerModel
 
             for (int i = 1; i <= (_nbTeams - 1) * 2; i++)
                 _matchDay.Add(new MatchDay(i, Saturday, this));
+
+        }
+
+        public Calendar( int nbEquipes, Ligue owner, XElement e, int year )
+        {
+            _game = owner.Game;
+            _owner = owner;
+            _nbTeams = nbEquipes;
+            _matchDay = new List<MatchDay>();
+            List<DateTime> dates = new List<DateTime>();
+
+            var datesString = e.Element( "Days" ).Elements( "Day" ).Attributes( "Date" ).ToList();
+            foreach( String s in datesString )
+            {
+                dates.Add( DateTime.Parse( s ) );
+            }
+
+            DateTime dt = new DateTime( year, 8, 7 );
+
+            for( int i = 1; i <= ( _nbTeams - 1 ) * 2; i++ )
+                _matchDay.Add( new MatchDay( this, i, dates ) );
+        }
+
+        public void CheckCalendar()
+        {
+            _matchDay.Add( new MatchDay( this ) );
         }
 
         public Game Game

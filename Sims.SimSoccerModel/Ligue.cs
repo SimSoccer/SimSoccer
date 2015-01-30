@@ -29,6 +29,33 @@ namespace Sims.SimSoccerModel
             get { return _game; }
         }
 
+        public void LoadCalendar()
+        {
+            List<Team> homeTeams = new List<Team>();
+            Team team = new Team( _game.TeamList, "toto" );
+            int teamNumber = 0;
+            DateTime today = DateTime.Now;
+            XDocument doc = XDocument.Load( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var home = doc.Element( "Game" ).Element( "Profil" ).Element( "Calendar" ).Element( "Days" )
+               .Elements( "Day" ).Elements( "Meeting" ).Elements( "HomeTeam" )
+               .Select( hT => new Team( _game.TeamList, hT, 1 ) );
+
+            XElement calendar = doc.Element( "Game" ).Element( "Profil" ).Element( "Calendar" );
+
+            foreach( Team t in home )
+            {
+                foreach( Team tea in _game.TeamList.Teams )
+                {
+                    if( tea.Name == t.Name )
+                        team = tea;
+                }
+                if(!homeTeams.Contains(team))
+                    homeTeams.Add( team );
+            }
+            teamNumber = homeTeams.Count;
+            _calendar = new Calendar( teamNumber, this, calendar, _year );
+
+        }
         public void fillCalendar()
         {
             Random r = new Random();
@@ -44,11 +71,6 @@ namespace Sims.SimSoccerModel
                 {
                     _calendar.MatchDay[i].Matchs = MatchDayGo(r, (i % 2 == 0), indexTeams);
                     _calendar.MatchDay[i].initHoraires();
-                    foreach( Match m in _calendar.MatchDay[i].Matchs )
-                    {
-                        target.Add( new XElement( "Day" + _calendar.MatchDay[i].Numero, m.Home.TeamTag + " - " + m.Outside.TeamTag + " le " + m.Hour ) );
-                        doc.Save( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
-                    }
                     indexTeams = permutations(indexTeams);
                 }
                 else
@@ -56,9 +78,37 @@ namespace Sims.SimSoccerModel
                 _calendar.MatchDay[i].initHoraires();
                 foreach( Match m in _calendar.MatchDay[i].Matchs )
                 {
-                    target.Add( new XElement( "Day" + _calendar.MatchDay[i].Numero, m.Home.TeamTag + " - " + m.Outside.TeamTag + " le " + m.Hour ) );
+                    target.Add( new XElement( "Day",
+                        new XAttribute("Number", _calendar.MatchDay[i].Numero),
+                            new XAttribute( "Date", m.Hour.ToString() ),
+                            new XElement( "Meeting",
+                                new XElement("HomeTeam", m.Home.Name),
+                                new XElement("AwayTeam", m.Outside.Name ) ) ));
                     doc.Save( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
                 }
+            }
+        }
+
+        public void fillCalendar(int j)
+        {
+            Random r = new Random();
+            _calendar = new Calendar( _game.TeamList.Teams.Count, _year, this );
+            List<int> indexTeams = Enumerable.Range( 0, 20 ).OrderBy( x => r.Next() ).ToList();
+            DateTime today = DateTime.Now;
+            XDocument doc = XDocument.Load( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+            var target = doc.Root.Element( "Profil" ).Element( "Calendar" ).Element( "Days" );
+
+            for( int i = 0; i < ( _game.TeamList.Teams.Count - 1 ) * 2; i++ )
+            {
+                if( i < _game.TeamList.Teams.Count - 1 )
+                {
+                    _calendar.MatchDay[i].Matchs = MatchDayGo( r, ( i % 2 == 0 ), indexTeams );
+                    _calendar.MatchDay[i].initHoraires();
+                    indexTeams = permutations( indexTeams );
+                }
+                else
+                    _calendar.MatchDay[i].Matchs = MatchDayBack( i );
+                _calendar.MatchDay[i].initHoraires();
             }
         }
 

@@ -184,11 +184,17 @@ namespace Sims.SimSoccerModel
                     new XElement("ActualTeamTag", p.ActualTeamTag),
                     new XElement("Status", p.Status)));
         }
+
+             public Team( TeamList owner, XElement e, int i )
+             {
+                 _owner = owner;
+                 _name = e.Value;
+             }
         public XElement ToXml(int id)
         {
             return new XElement("Team",
                         new XAttribute("Id", id),
-                        new XElement( "Points"),
+                        new XElement( "Points", LeaguePoint),
                         new XAttribute( "Name", Name ),
                         new XElement("TeamTag", TeamTag),
                         new XElement("Town", Town),

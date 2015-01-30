@@ -177,7 +177,7 @@ namespace Sims.SimSoccerModel
             _field = new Field();
             _rnd = new Random();
             _ranking = new Ranking( this );
-            _ligue.fillCalendar();
+            _ligue.LoadCalendar();
         }
 
         public Game( XElement e, int i )

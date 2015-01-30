@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Sims.SimSoccerModel
 {
@@ -45,7 +46,16 @@ namespace Sims.SimSoccerModel
             _outside = ext;
             _home.Opponent.Add(_outside);
             _outside.Opponent.Add(_home);
+        }
 
+        public Match( Team dom, Team ext, XElement e )
+        {
+            _game = dom.Game;
+            if( _game != ext.Game ) throw new ArgumentException( "Teams must be in the same Game" );
+            _home = dom;
+            _outside = ext;
+            _home.Opponent.Add( _outside );
+            _outside.Opponent.Add( _home );
         }
 
         public override string ToString()
