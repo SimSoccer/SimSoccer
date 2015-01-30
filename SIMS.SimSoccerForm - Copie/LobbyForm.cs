@@ -13,8 +13,7 @@ namespace SIMS.SimSoccerForm
 {
     public partial class LobbyForm : Form
     {
-        readonly Game _game;
-        
+        Game _game;
         
         public int cmptCalendar = 0;
         public int cmptProfil = 0;
@@ -83,9 +82,23 @@ namespace SIMS.SimSoccerForm
 
         private void playJourney_Click( object sender, EventArgs e )
         {
-            _game.Ligue.Calendar.MatchDay[_game.Journey].playJourney();
-            ShowResult SR = new ShowResult( _game, this );
-            SR.Show();
+            if( _game.GameOver == false )
+            {
+                _game.Ligue.Calendar.MatchDay[_game.Journey].playJourney();
+                ShowResult SR = new ShowResult( _game, this );
+                SR.Show();
+            }
+            else if( _game.GameOver == true && _game.Reached == false )
+            {
+                MessageBox.Show( "Vous avez perdu !!!! Objectifs, non atteints ! Game Over.." );
+            }
+            else if( _game.GameOver == true && _game.Reached == true )
+            {
+                _game = new Game( _game.UserName, _game.UserPassword, _game.LastName, _game.FirstName );
+                LobbyForm f = new LobbyForm( _game );
+                f.Show();
+                this.Close();
+            }
         }
 
         private void btFormation_Click( object sender, EventArgs e )
