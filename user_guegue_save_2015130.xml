@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Game>
-  <Profil ID="15">
+  <Profil ID="17">
     <UserName>guegue</UserName>
     <Password>123456</Password>
     <LastName>KIKABOU</LastName>
@@ -13,74 +13,92 @@
       <Days>
         <Day Number="1" Date="09/08/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Football Club de Metz</AwayTeam>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="1" Date="09/08/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Toulouse Football Club</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="1" Date="09/08/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="1" Date="09/08/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="1" Date="09/08/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="1" Date="09/08/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="1" Date="09/08/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="1" Date="10/08/2014 14:00:00">
           <Meeting>
             <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
             <AwayTeam>Olympique Lyonnais</AwayTeam>
           </Meeting>
         </Day>
+        <Day Number="1" Date="09/08/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="1" Date="09/08/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="1" Date="09/08/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Toulouse Football Club</HomeTeam>
+            <AwayTeam>Football Club de Metz</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="1" Date="09/08/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="1" Date="09/08/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="1" Date="10/08/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
+          </Meeting>
+        </Day>
         <Day Number="1" Date="10/08/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="1" Date="10/08/2014 21:00:00">
           <Meeting>
             <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="2" Date="16/08/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Olympique Lyonnais</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="2" Date="16/08/2014 18:00:00">
           <Meeting>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="2" Date="16/08/2014 20:00:00">
+          <Meeting>
             <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="2" Date="16/08/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="2" Date="16/08/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Stade de Reims</HomeTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="2" Date="16/08/2014 20:00:00">
@@ -91,1136 +109,1136 @@
         </Day>
         <Day Number="2" Date="16/08/2014 14:00:00">
           <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="2" Date="16/08/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="2" Date="16/08/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="2" Date="16/08/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="2" Date="17/08/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>Football Club de Nantes</AwayTeam>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="2" Date="17/08/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>Football Club de Nantes</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="2" Date="17/08/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="3" Date="23/08/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="3" Date="23/08/2014 18:00:00">
           <Meeting>
+            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="3" Date="23/08/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Olympique Lyonnais</HomeTeam>
+            <AwayTeam>Football Club de Metz</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="3" Date="23/08/2014 14:00:00">
+          <Meeting>
             <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="3" Date="23/08/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="3" Date="23/08/2014 20:00:00">
           <Meeting>
             <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="3" Date="23/08/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Football Club de Metz</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="3" Date="23/08/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Toulouse Football Club</HomeTeam>
             <AwayTeam>Stade de Reims</AwayTeam>
           </Meeting>
         </Day>
-        <Day Number="3" Date="23/08/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
-          </Meeting>
-        </Day>
         <Day Number="3" Date="23/08/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+            <HomeTeam>Toulouse Football Club</HomeTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="3" Date="24/08/2014 14:00:00">
           <Meeting>
             <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="3" Date="24/08/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="3" Date="24/08/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
-            <AwayTeam>Olympique Lyonnais</AwayTeam>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="4" Date="30/08/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Stade Rennais Football Club</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="4" Date="30/08/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="4" Date="30/08/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="4" Date="30/08/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="4" Date="30/08/2014 18:00:00">
           <Meeting>
             <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="4" Date="30/08/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
             <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="4" Date="30/08/2014 20:00:00">
           <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
-            <AwayTeam>Toulouse Football Club</AwayTeam>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="4" Date="30/08/2014 14:00:00">
           <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <HomeTeam>Stade Rennais Football Club</HomeTeam>
+            <AwayTeam>Olympique Lyonnais</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="4" Date="30/08/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="4" Date="30/08/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="4" Date="30/08/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Stade de Reims</HomeTeam>
             <AwayTeam>Football Club de Nantes</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="4" Date="31/08/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Toulouse Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="4" Date="31/08/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="4" Date="31/08/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="5" Date="06/09/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="5" Date="06/09/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="5" Date="06/09/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
             <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
           </Meeting>
         </Day>
-        <Day Number="5" Date="06/09/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
-          </Meeting>
-        </Day>
         <Day Number="5" Date="06/09/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Football Club de Metz</AwayTeam>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="5" Date="06/09/2014 20:00:00">
           <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
+            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="5" Date="06/09/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Toulouse Football Club</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>Football Club de Metz</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="5" Date="06/09/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Olympique Lyonnais</HomeTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="5" Date="06/09/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Football Club de Nantes</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="5" Date="06/09/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="5" Date="07/09/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="5" Date="07/09/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Olympique Lyonnais</AwayTeam>
+            <HomeTeam>Toulouse Football Club</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="5" Date="07/09/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="6" Date="13/09/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
+            <HomeTeam>Stade Rennais Football Club</HomeTeam>
+            <AwayTeam>Football Club de Metz</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="6" Date="13/09/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="6" Date="13/09/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="6" Date="13/09/2014 14:00:00">
           <Meeting>
             <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Football Club de Nantes</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="6" Date="13/09/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
             <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="6" Date="13/09/2014 20:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="6" Date="13/09/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>Toulouse Football Club</AwayTeam>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Football Club de Nantes</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="6" Date="13/09/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Olympique Lyonnais</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="6" Date="13/09/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="6" Date="13/09/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="6" Date="14/09/2014 14:00:00">
           <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
+            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="6" Date="14/09/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
+            <HomeTeam>Stade de Reims</HomeTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="6" Date="14/09/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="7" Date="20/09/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="7" Date="20/09/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="7" Date="20/09/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Stade Rennais Football Club</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="7" Date="20/09/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="7" Date="20/09/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="7" Date="20/09/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <AwayTeam>Toulouse Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="7" Date="20/09/2014 14:00:00">
           <Meeting>
             <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Olympique Lyonnais</AwayTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="7" Date="20/09/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="7" Date="20/09/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Football Club de Nantes</HomeTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="7" Date="20/09/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="7" Date="20/09/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="7" Date="20/09/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="7" Date="20/09/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Olympique Lyonnais</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="7" Date="21/09/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
-            <AwayTeam>Football Club de Metz</AwayTeam>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="7" Date="21/09/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Toulouse Football Club</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="7" Date="21/09/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="8" Date="27/09/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="8" Date="27/09/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <HomeTeam>Toulouse Football Club</HomeTeam>
             <AwayTeam>Stade de Reims</AwayTeam>
           </Meeting>
         </Day>
-        <Day Number="8" Date="27/09/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Football Club de Nantes</AwayTeam>
-          </Meeting>
-        </Day>
         <Day Number="8" Date="27/09/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
             <AwayTeam>Stade Rennais Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="8" Date="27/09/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
+            <AwayTeam>Football Club de Nantes</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="8" Date="27/09/2014 20:00:00">
           <Meeting>
-            <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Football Club de Metz</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="8" Date="27/09/2014 14:00:00">
           <Meeting>
             <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="8" Date="27/09/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
             <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="8" Date="27/09/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="8" Date="27/09/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <AwayTeam>Olympique Lyonnais</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="8" Date="28/09/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <AwayTeam>Toulouse Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="8" Date="28/09/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
+            <HomeTeam>Stade de Reims</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="8" Date="28/09/2014 21:00:00">
           <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Toulouse Football Club</AwayTeam>
+            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
+            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="9" Date="04/10/2014 14:00:00">
           <Meeting>
             <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
+            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="9" Date="04/10/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
+            <HomeTeam>Stade Rennais Football Club</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="9" Date="04/10/2014 20:00:00">
           <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="9" Date="04/10/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Stade Rennais Football Club</HomeTeam>
-            <AwayTeam>Olympique Lyonnais</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="9" Date="04/10/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
             <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
           </Meeting>
         </Day>
+        <Day Number="9" Date="04/10/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
+          </Meeting>
+        </Day>
         <Day Number="9" Date="04/10/2014 20:00:00">
           <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="9" Date="04/10/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="9" Date="05/10/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+            <HomeTeam>Toulouse Football Club</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="9" Date="05/10/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
+            <HomeTeam>Olympique Lyonnais</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="9" Date="05/10/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Toulouse Football Club</HomeTeam>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="10" Date="11/10/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="10" Date="11/10/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="10" Date="11/10/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Football Club de Nantes</HomeTeam>
+            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="10" Date="11/10/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="10" Date="11/10/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="10" Date="11/10/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
             <AwayTeam>Football Club de Metz</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="10" Date="11/10/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="10" Date="11/10/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="10" Date="11/10/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="10" Date="11/10/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="10" Date="11/10/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="10" Date="11/10/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="10" Date="11/10/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
+            <AwayTeam>Toulouse Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="10" Date="12/10/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Toulouse Football Club</AwayTeam>
+            <HomeTeam>Stade de Reims</HomeTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="10" Date="12/10/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="10" Date="12/10/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <AwayTeam>Olympique Lyonnais</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="11" Date="18/10/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
             <AwayTeam>Football Club de Nantes</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="11" Date="18/10/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
-            <AwayTeam>Olympique Lyonnais</AwayTeam>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="11" Date="18/10/2014 20:00:00">
           <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
-            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="11" Date="18/10/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="11" Date="18/10/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="11" Date="18/10/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
+            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="11" Date="18/10/2014 14:00:00">
           <Meeting>
             <HomeTeam>Stade Rennais Football Club</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="11" Date="18/10/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Toulouse Football Club</HomeTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="11" Date="18/10/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="11" Date="18/10/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="11" Date="19/10/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Toulouse Football Club</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="11" Date="19/10/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Football Club de Metz</AwayTeam>
+            <HomeTeam>Olympique Lyonnais</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="11" Date="19/10/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="12" Date="25/10/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="12" Date="25/10/2014 18:00:00">
           <Meeting>
             <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="12" Date="25/10/2014 20:00:00">
           <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="12" Date="25/10/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
+            <AwayTeam>Toulouse Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="12" Date="25/10/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Stade de Reims</HomeTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="12" Date="25/10/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="12" Date="25/10/2014 14:00:00">
           <Meeting>
             <HomeTeam>Sporting Club de Bastia</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="12" Date="25/10/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="12" Date="25/10/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="12" Date="25/10/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Toulouse Football Club</AwayTeam>
+            <AwayTeam>Football Club de Metz</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="12" Date="26/10/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="12" Date="26/10/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
+            <AwayTeam>Olympique Lyonnais</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="12" Date="26/10/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="13" Date="01/11/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Olympique Lyonnais</AwayTeam>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="13" Date="01/11/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="13" Date="01/11/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="13" Date="01/11/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Football Club de Nantes</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="13" Date="01/11/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="13" Date="01/11/2014 20:00:00">
           <Meeting>
             <HomeTeam>Toulouse Football Club</HomeTeam>
-            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
+            <AwayTeam>Football Club de Nantes</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="13" Date="01/11/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Football Club de Metz</AwayTeam>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="13" Date="01/11/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="13" Date="01/11/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="13" Date="01/11/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Stade Rennais Football Club</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="13" Date="02/11/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
+            <HomeTeam>Olympique Lyonnais</HomeTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="13" Date="02/11/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Stade Rennais Football Club</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+            <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="13" Date="02/11/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="14" Date="08/11/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="14" Date="08/11/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>Olympique Lyonnais</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="14" Date="08/11/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
             <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
           </Meeting>
         </Day>
-        <Day Number="14" Date="08/11/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
-          </Meeting>
-        </Day>
         <Day Number="14" Date="08/11/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Nantes</HomeTeam>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
             <AwayTeam>Toulouse Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="14" Date="08/11/2014 20:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
+            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="14" Date="08/11/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
-            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+            <HomeTeam>Stade de Reims</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="14" Date="08/11/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Football Club de Nantes</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="14" Date="08/11/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="14" Date="08/11/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
+            <AwayTeam>Olympique Lyonnais</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="14" Date="09/11/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="14" Date="09/11/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="14" Date="09/11/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="15" Date="15/11/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="15" Date="15/11/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="15" Date="15/11/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Toulouse Football Club</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="15" Date="15/11/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
             <AwayTeam>Football Club de Metz</AwayTeam>
           </Meeting>
         </Day>
+        <Day Number="15" Date="15/11/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Toulouse Football Club</HomeTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
+          </Meeting>
+        </Day>
         <Day Number="15" Date="15/11/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Football Club de Nantes</AwayTeam>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="15" Date="15/11/2014 20:00:00">
           <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="15" Date="15/11/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="15" Date="15/11/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="15" Date="15/11/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Olympique Lyonnais</HomeTeam>
+            <AwayTeam>Football Club de Nantes</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="15" Date="15/11/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="15" Date="16/11/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="15" Date="16/11/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
+            <HomeTeam>Stade Rennais Football Club</HomeTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="15" Date="16/11/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Stade Rennais Football Club</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
+            <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="16" Date="22/11/2014 14:00:00">
           <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
+            <HomeTeam>Stade de Reims</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="16" Date="22/11/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="16" Date="22/11/2014 20:00:00">
           <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
-            <AwayTeam>Toulouse Football Club</AwayTeam>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="16" Date="22/11/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
             <AwayTeam>Olympique Lyonnais</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="16" Date="22/11/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
-            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="16" Date="22/11/2014 20:00:00">
           <Meeting>
-            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
+            <HomeTeam>Football Club de Nantes</HomeTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="16" Date="22/11/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+            <HomeTeam>Toulouse Football Club</HomeTeam>
+            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="16" Date="23/11/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="16" Date="23/11/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
+            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
+            <AwayTeam>Football Club de Metz</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="16" Date="23/11/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="17" Date="29/11/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Toulouse Football Club</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="17" Date="29/11/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>Football Club de Metz</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="17" Date="29/11/2014 20:00:00">
-          <Meeting>
             <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="17" Date="29/11/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="17" Date="29/11/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="17" Date="29/11/2014 20:00:00">
           <Meeting>
             <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>Toulouse Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="17" Date="29/11/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
             <AwayTeam>Sporting Club de Bastia</AwayTeam>
           </Meeting>
         </Day>
+        <Day Number="17" Date="29/11/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Olympique Lyonnais</HomeTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
+          </Meeting>
+        </Day>
         <Day Number="17" Date="29/11/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="17" Date="29/11/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="17" Date="29/11/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="17" Date="29/11/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>Football Club de Nantes</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="17" Date="30/11/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Stade Rennais Football Club</HomeTeam>
-            <AwayTeam>Football Club de Nantes</AwayTeam>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="17" Date="30/11/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="17" Date="30/11/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="18" Date="06/12/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="18" Date="06/12/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <HomeTeam>Stade Rennais Football Club</HomeTeam>
             <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
           </Meeting>
         </Day>
-        <Day Number="18" Date="06/12/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
-          </Meeting>
-        </Day>
         <Day Number="18" Date="06/12/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="18" Date="06/12/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
+            <HomeTeam>Toulouse Football Club</HomeTeam>
             <AwayTeam>Olympique Lyonnais</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="18" Date="06/12/2014 20:00:00">
           <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="18" Date="06/12/2014 14:00:00">
           <Meeting>
             <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="18" Date="06/12/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="18" Date="06/12/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <AwayTeam>Football Club de Metz</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="18" Date="06/12/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="18" Date="07/12/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Toulouse Football Club</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
+            <HomeTeam>Football Club de Nantes</HomeTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="18" Date="07/12/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="18" Date="07/12/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="19" Date="13/12/2014 14:00:00">
-          <Meeting>
             <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Toulouse Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="19" Date="13/12/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="19" Date="13/12/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Football Club de Metz</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="19" Date="13/12/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="19" Date="13/12/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
             <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="19" Date="13/12/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Stade Rennais Football Club</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="19" Date="13/12/2014 14:00:00">
           <Meeting>
             <HomeTeam>Olympique Lyonnais</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="19" Date="13/12/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Stade de Reims</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="19" Date="13/12/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Toulouse Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="19" Date="13/12/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="19" Date="13/12/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Football Club de Metz</HomeTeam>
             <AwayTeam>Racing Club de Lens</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="19" Date="13/12/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="19" Date="13/12/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="19" Date="14/12/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+            <HomeTeam>Stade Rennais Football Club</HomeTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="19" Date="14/12/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
-            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="19" Date="14/12/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
             <AwayTeam>Football Club de Nantes</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="20" Date="20/12/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="20" Date="20/12/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Toulouse Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="20" Date="20/12/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="20" Date="20/12/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="20" Date="20/12/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Stade Rennais Football Club</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="20" Date="20/12/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="20" Date="20/12/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="20" Date="21/12/2014 14:00:00">
           <Meeting>
             <HomeTeam>Olympique Lyonnais</HomeTeam>
             <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
           </Meeting>
         </Day>
+        <Day Number="20" Date="20/12/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="20" Date="20/12/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Stade de Reims</HomeTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="20" Date="20/12/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>Toulouse Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="20" Date="20/12/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="20" Date="20/12/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Stade Rennais Football Club</HomeTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="20" Date="21/12/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+          </Meeting>
+        </Day>
         <Day Number="20" Date="21/12/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="20" Date="21/12/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
             <AwayTeam>Football Club de Nantes</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="21" Date="27/12/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+            <HomeTeam>Olympique Lyonnais</HomeTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="21" Date="27/12/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
+            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="21" Date="27/12/2014 20:00:00">
+          <Meeting>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
             <AwayTeam>Football Club de Metz</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="21" Date="27/12/2014 14:00:00">
+          <Meeting>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="21" Date="27/12/2014 18:00:00">
+          <Meeting>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="21" Date="27/12/2014 20:00:00">
@@ -1231,1073 +1249,1055 @@
         </Day>
         <Day Number="21" Date="27/12/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="21" Date="27/12/2014 18:00:00">
-          <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="21" Date="27/12/2014 20:00:00">
-          <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="21" Date="27/12/2014 14:00:00">
-          <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="21" Date="28/12/2014 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Olympique Lyonnais</AwayTeam>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="21" Date="28/12/2014 18:00:00">
           <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+            <HomeTeam>Football Club de Nantes</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="21" Date="28/12/2014 21:00:00">
           <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="22" Date="03/01/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="22" Date="03/01/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="22" Date="03/01/2015 20:00:00">
           <Meeting>
+            <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>Olympique Lyonnais</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="22" Date="03/01/2015 14:00:00">
+          <Meeting>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="22" Date="03/01/2015 18:00:00">
+          <Meeting>
             <HomeTeam>Stade Rennais Football Club</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="22" Date="03/01/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>Stade de Reims</HomeTeam>
             <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="22" Date="03/01/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="22" Date="03/01/2015 18:00:00">
-          <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
             <AwayTeam>Toulouse Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="22" Date="03/01/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="22" Date="03/01/2015 14:00:00">
-          <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="22" Date="04/01/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
             <AwayTeam>Football Club de Nantes</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="22" Date="04/01/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="22" Date="04/01/2015 21:00:00">
           <Meeting>
-            <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="23" Date="10/01/2015 14:00:00">
-          <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="23" Date="10/01/2015 18:00:00">
-          <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="23" Date="10/01/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="23" Date="10/01/2015 14:00:00">
-          <Meeting>
-            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="23" Date="10/01/2015 18:00:00">
-          <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
-            <AwayTeam>Football Club de Metz</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="23" Date="10/01/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>Toulouse Football Club</HomeTeam>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
             <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="23" Date="10/01/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Nantes</HomeTeam>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Football Club de Metz</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="23" Date="10/01/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="23" Date="10/01/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
             <AwayTeam>En Avant Guingamp</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="23" Date="10/01/2015 14:00:00">
+          <Meeting>
+            <HomeTeam>Olympique Lyonnais</HomeTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="23" Date="10/01/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="23" Date="10/01/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="23" Date="10/01/2015 14:00:00">
+          <Meeting>
+            <HomeTeam>Football Club de Nantes</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="23" Date="11/01/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
+            <HomeTeam>Toulouse Football Club</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="23" Date="11/01/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="23" Date="11/01/2015 21:00:00">
           <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
-            <AwayTeam>Olympique Lyonnais</AwayTeam>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="24" Date="17/01/2015 14:00:00">
-          <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="24" Date="17/01/2015 18:00:00">
-          <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="24" Date="17/01/2015 20:00:00">
           <Meeting>
             <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="24" Date="17/01/2015 14:00:00">
-          <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
-            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="24" Date="17/01/2015 18:00:00">
-          <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>Football Club de Nantes</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="24" Date="17/01/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>Stade Rennais Football Club</HomeTeam>
             <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
           </Meeting>
         </Day>
+        <Day Number="24" Date="17/01/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>Stade Rennais Football Club</HomeTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="24" Date="17/01/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+          </Meeting>
+        </Day>
         <Day Number="24" Date="17/01/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
-            <AwayTeam>Toulouse Football Club</AwayTeam>
+            <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="24" Date="17/01/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
+            <AwayTeam>Olympique Lyonnais</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="24" Date="17/01/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <AwayTeam>Football Club de Nantes</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="24" Date="17/01/2015 14:00:00">
+          <Meeting>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="24" Date="18/01/2015 14:00:00">
           <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+            <HomeTeam>Stade de Reims</HomeTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="24" Date="18/01/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>Toulouse Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="24" Date="18/01/2015 21:00:00">
           <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="25" Date="24/01/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Stade Rennais Football Club</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="25" Date="24/01/2015 18:00:00">
-          <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="25" Date="24/01/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="25" Date="24/01/2015 14:00:00">
-          <Meeting>
-            <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+            <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="25" Date="24/01/2015 18:00:00">
           <Meeting>
             <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="25" Date="24/01/2015 20:00:00">
           <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
-            <AwayTeam>Football Club de Metz</AwayTeam>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="25" Date="24/01/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Toulouse Football Club</HomeTeam>
-            <AwayTeam>Olympique Lyonnais</AwayTeam>
+            <HomeTeam>Football Club de Nantes</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="25" Date="24/01/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>Olympique Lyonnais</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="25" Date="24/01/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="25" Date="24/01/2015 14:00:00">
+          <Meeting>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="25" Date="25/01/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="25" Date="25/01/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="25" Date="25/01/2015 21:00:00">
           <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
+            <HomeTeam>Toulouse Football Club</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="26" Date="31/01/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
+            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="26" Date="31/01/2015 18:00:00">
-          <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="26" Date="31/01/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="26" Date="31/01/2015 14:00:00">
           <Meeting>
             <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>Football Club de Nantes</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="26" Date="31/01/2015 18:00:00">
-          <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+            <AwayTeam>Football Club de Metz</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="26" Date="31/01/2015 20:00:00">
           <Meeting>
             <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+            <AwayTeam>Football Club de Nantes</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="26" Date="31/01/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="26" Date="31/01/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="26" Date="31/01/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>Stade Rennais Football Club</HomeTeam>
+            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="26" Date="31/01/2015 14:00:00">
+          <Meeting>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>Olympique Lyonnais</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="26" Date="01/02/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="26" Date="01/02/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>Toulouse Football Club</AwayTeam>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="26" Date="01/02/2015 21:00:00">
           <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="27" Date="07/02/2015 14:00:00">
-          <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="27" Date="07/02/2015 18:00:00">
-          <Meeting>
             <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="27" Date="07/02/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
+            <AwayTeam>Toulouse Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="27" Date="07/02/2015 14:00:00">
           <Meeting>
             <HomeTeam>Stade Rennais Football Club</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="27" Date="07/02/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+            <HomeTeam>Football Club de Nantes</HomeTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="27" Date="07/02/2015 20:00:00">
           <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Olympique Lyonnais</AwayTeam>
+            <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="27" Date="07/02/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
             <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="27" Date="07/02/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="27" Date="07/02/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="27" Date="07/02/2015 14:00:00">
+          <Meeting>
+            <HomeTeam>Olympique Lyonnais</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="27" Date="08/02/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
+            <HomeTeam>Toulouse Football Club</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="27" Date="08/02/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Football Club de Metz</AwayTeam>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="27" Date="08/02/2015 21:00:00">
           <Meeting>
-            <HomeTeam>Toulouse Football Club</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="28" Date="14/02/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
             <AwayTeam>Football Club de Nantes</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="28" Date="14/02/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="28" Date="14/02/2015 20:00:00">
           <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="28" Date="14/02/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
+            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="28" Date="14/02/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>Football Club de Metz</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="28" Date="14/02/2015 20:00:00">
           <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
+            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="28" Date="14/02/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="28" Date="15/02/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Toulouse Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="28" Date="15/02/2015 18:00:00">
           <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+            <HomeTeam>Stade de Reims</HomeTeam>
+            <AwayTeam>Olympique Lyonnais</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="28" Date="15/02/2015 21:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>Toulouse Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="29" Date="21/02/2015 14:00:00">
-          <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="29" Date="21/02/2015 18:00:00">
-          <Meeting>
             <HomeTeam>Sporting Club de Bastia</HomeTeam>
-            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="29" Date="21/02/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Olympique Lyonnais</AwayTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="29" Date="21/02/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="29" Date="21/02/2015 18:00:00">
-          <Meeting>
-            <HomeTeam>Stade Rennais Football Club</HomeTeam>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
             <AwayTeam>Stade Malherbe de Caen</AwayTeam>
           </Meeting>
         </Day>
+        <Day Number="29" Date="21/02/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+          </Meeting>
+        </Day>
         <Day Number="29" Date="21/02/2015 20:00:00">
           <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>Football Club de Nantes</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="29" Date="21/02/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
+            <HomeTeam>Stade Rennais Football Club</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="29" Date="21/02/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="29" Date="21/02/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="29" Date="21/02/2015 14:00:00">
+          <Meeting>
+            <HomeTeam>Toulouse Football Club</HomeTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="29" Date="22/02/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Toulouse Football Club</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="29" Date="22/02/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Football Club de Nantes</AwayTeam>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="29" Date="22/02/2015 21:00:00">
           <Meeting>
-            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Football Club de Metz</AwayTeam>
+            <HomeTeam>Olympique Lyonnais</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="30" Date="28/02/2015 14:00:00">
           <Meeting>
             <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="30" Date="28/02/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="30" Date="28/02/2015 20:00:00">
           <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="30" Date="28/02/2015 14:00:00">
           <Meeting>
             <HomeTeam>Olympique de Marseille</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="30" Date="28/02/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
+            <AwayTeam>Toulouse Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="30" Date="28/02/2015 20:00:00">
           <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
+            <HomeTeam>Stade de Reims</HomeTeam>
+            <AwayTeam>Football Club de Metz</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="30" Date="28/02/2015 14:00:00">
           <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
+            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="30" Date="01/03/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>Toulouse Football Club</AwayTeam>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="30" Date="01/03/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Olympique Lyonnais</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="30" Date="01/03/2015 21:00:00">
           <Meeting>
-            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="31" Date="07/03/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
-            <AwayTeam>Olympique Lyonnais</AwayTeam>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="31" Date="07/03/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
             <AwayTeam>Football Club de Nantes</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="31" Date="07/03/2015 20:00:00">
           <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="31" Date="07/03/2015 14:00:00">
-          <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="31" Date="07/03/2015 18:00:00">
-          <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="31" Date="07/03/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="31" Date="07/03/2015 14:00:00">
           <Meeting>
             <HomeTeam>Toulouse Football Club</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
+            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="31" Date="07/03/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>Stade Rennais Football Club</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="31" Date="07/03/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="31" Date="07/03/2015 14:00:00">
+          <Meeting>
+            <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="31" Date="08/03/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Stade Rennais Football Club</HomeTeam>
-            <AwayTeam>Football Club de Metz</AwayTeam>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="31" Date="08/03/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+            <HomeTeam>Olympique Lyonnais</HomeTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="31" Date="08/03/2015 21:00:00">
           <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="32" Date="14/03/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="32" Date="14/03/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="32" Date="14/03/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="32" Date="14/03/2015 14:00:00">
           <Meeting>
             <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="32" Date="14/03/2015 18:00:00">
-          <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="32" Date="14/03/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
             <AwayTeam>Toulouse Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="32" Date="14/03/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="32" Date="14/03/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>Stade de Reims</HomeTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="32" Date="14/03/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="32" Date="14/03/2015 14:00:00">
+          <Meeting>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="32" Date="15/03/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
+            <AwayTeam>Olympique Lyonnais</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="32" Date="15/03/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Football Club de Metz</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="32" Date="15/03/2015 21:00:00">
           <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="33" Date="21/03/2015 14:00:00">
-          <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
+            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
             <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
           </Meeting>
         </Day>
-        <Day Number="33" Date="21/03/2015 18:00:00">
-          <Meeting>
-            <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="33" Date="21/03/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
-          </Meeting>
-        </Day>
         <Day Number="33" Date="21/03/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="33" Date="21/03/2015 18:00:00">
           <Meeting>
             <HomeTeam>Toulouse Football Club</HomeTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="33" Date="21/03/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="33" Date="21/03/2015 14:00:00">
+          <Meeting>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="33" Date="21/03/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
             <AwayTeam>Football Club de Nantes</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="33" Date="21/03/2015 20:00:00">
           <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
-            <AwayTeam>Football Club de Metz</AwayTeam>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="33" Date="21/03/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
+            <HomeTeam>Olympique Lyonnais</HomeTeam>
+            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="33" Date="22/03/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+            <HomeTeam>Stade Rennais Football Club</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="33" Date="22/03/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="33" Date="22/03/2015 21:00:00">
           <Meeting>
-            <HomeTeam>Stade Rennais Football Club</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+            <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="34" Date="28/03/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="34" Date="28/03/2015 18:00:00">
-          <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Olympique Lyonnais</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="34" Date="28/03/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
             <AwayTeam>Toulouse Football Club</AwayTeam>
           </Meeting>
         </Day>
-        <Day Number="34" Date="28/03/2015 14:00:00">
-          <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
-          </Meeting>
-        </Day>
         <Day Number="34" Date="28/03/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+            <HomeTeam>Stade de Reims</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="34" Date="28/03/2015 20:00:00">
           <Meeting>
-            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="34" Date="28/03/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="34" Date="28/03/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="34" Date="28/03/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>Football Club de Nantes</HomeTeam>
+            <AwayTeam>Olympique Lyonnais</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="34" Date="28/03/2015 14:00:00">
+          <Meeting>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="34" Date="29/03/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
+            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="34" Date="29/03/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
+            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="34" Date="29/03/2015 21:00:00">
           <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
+            <AwayTeam>Football Club de Metz</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="35" Date="04/04/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="35" Date="04/04/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>Racing Club de Lens</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="35" Date="04/04/2015 20:00:00">
           <Meeting>
-            <HomeTeam>Toulouse Football Club</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="35" Date="04/04/2015 14:00:00">
           <Meeting>
             <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>Football Club de Metz</AwayTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="35" Date="04/04/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="35" Date="04/04/2015 20:00:00">
           <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
+            <AwayTeam>Football Club de Nantes</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="35" Date="04/04/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Football Club de Nantes</AwayTeam>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>Toulouse Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="35" Date="05/04/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="35" Date="05/04/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Stade Rennais Football Club</HomeTeam>
-            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
+            <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="35" Date="05/04/2015 21:00:00">
           <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Racing Club de Lens</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="36" Date="11/04/2015 14:00:00">
-          <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Toulouse Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="36" Date="11/04/2015 18:00:00">
-          <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="36" Date="11/04/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <HomeTeam>Stade Rennais Football Club</HomeTeam>
             <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="36" Date="11/04/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
-            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+            <HomeTeam>Toulouse Football Club</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="36" Date="11/04/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>Olympique Lyonnais</AwayTeam>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="36" Date="11/04/2015 20:00:00">
           <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
+            <AwayTeam>Olympique Lyonnais</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="36" Date="11/04/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="36" Date="11/04/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="36" Date="11/04/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="36" Date="11/04/2015 14:00:00">
+          <Meeting>
+            <HomeTeam>Football Club de Nantes</HomeTeam>
+            <AwayTeam>Football Club de Metz</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="36" Date="12/04/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
+            <HomeTeam>Stade de Reims</HomeTeam>
+            <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="36" Date="12/04/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="36" Date="12/04/2015 21:00:00">
           <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="37" Date="18/04/2015 14:00:00">
-          <Meeting>
-            <HomeTeam>En Avant Guingamp</HomeTeam>
-            <AwayTeam>Football Club de Metz</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="37" Date="18/04/2015 18:00:00">
-          <Meeting>
             <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
-            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="37" Date="18/04/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
-            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="37" Date="18/04/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
-            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+            <HomeTeam>Stade de Reims</HomeTeam>
+            <AwayTeam>Sporting Club de Bastia</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="37" Date="18/04/2015 18:00:00">
           <Meeting>
             <HomeTeam>Olympique Lyonnais</HomeTeam>
-            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
+            <AwayTeam>Toulouse Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="37" Date="18/04/2015 20:00:00">
           <Meeting>
-            <HomeTeam>Stade Rennais Football Club</HomeTeam>
-            <AwayTeam>Sporting Club de Bastia</AwayTeam>
+            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <AwayTeam>En Avant Guingamp</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="37" Date="18/04/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Olympique de Marseille</HomeTeam>
+            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
             <AwayTeam>Racing Club de Lens</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="37" Date="18/04/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
+            <AwayTeam>Montpellier-Herault Sports Club</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="37" Date="18/04/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>Football Club de Metz</HomeTeam>
+            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="37" Date="18/04/2015 14:00:00">
+          <Meeting>
+            <HomeTeam>Stade Malherbe de Caen</HomeTeam>
+            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="37" Date="19/04/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
-            <AwayTeam>Toulouse Football Club</AwayTeam>
+            <HomeTeam>Stade Rennais Football Club</HomeTeam>
+            <AwayTeam>Football Club de Nantes</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="37" Date="19/04/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Stade de Reims</HomeTeam>
-            <AwayTeam>Football Club de Nantes</AwayTeam>
+            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
+            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="37" Date="19/04/2015 21:00:00">
           <Meeting>
-            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
+            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="38" Date="25/04/2015 14:00:00">
+          <Meeting>
+            <HomeTeam>Association sportive de Monaco FC</HomeTeam>
+            <AwayTeam>Olympique Lyonnais</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="38" Date="25/04/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>En Avant Guingamp</HomeTeam>
+            <AwayTeam>Stade de Reims</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="38" Date="25/04/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>Toulouse Football Club</HomeTeam>
+            <AwayTeam>Football Club Lorient-Bretagne Sud</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="38" Date="25/04/2015 14:00:00">
+          <Meeting>
+            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
+            <AwayTeam>Olympique de Marseille</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="38" Date="25/04/2015 18:00:00">
+          <Meeting>
+            <HomeTeam>Racing Club de Lens</HomeTeam>
+            <AwayTeam>Football Club de Metz</AwayTeam>
+          </Meeting>
+        </Day>
+        <Day Number="38" Date="25/04/2015 20:00:00">
+          <Meeting>
+            <HomeTeam>Sporting Club de Bastia</HomeTeam>
             <AwayTeam>Evian Thonon Gaillard Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="38" Date="25/04/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Toulouse Football Club</HomeTeam>
-            <AwayTeam>Association Sportive de St-Etienne</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="38" Date="25/04/2015 18:00:00">
-          <Meeting>
-            <HomeTeam>Montpellier-Herault Sports Club</HomeTeam>
-            <AwayTeam>En Avant Guingamp</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="38" Date="25/04/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>Football Club de Metz</HomeTeam>
-            <AwayTeam>Lille Olympique Sporting Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="38" Date="25/04/2015 14:00:00">
-          <Meeting>
-            <HomeTeam>Olympique Gymnaste Club Nice Côte d'Azur</HomeTeam>
-            <AwayTeam>Association sportive de Monaco FC</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="38" Date="25/04/2015 18:00:00">
-          <Meeting>
-            <HomeTeam>Paris-Saint-Germain Football Club</HomeTeam>
-            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="38" Date="25/04/2015 20:00:00">
-          <Meeting>
-            <HomeTeam>Football Club Lorient-Bretagne Sud</HomeTeam>
-            <AwayTeam>Stade Rennais Football Club</AwayTeam>
-          </Meeting>
-        </Day>
-        <Day Number="38" Date="25/04/2015 14:00:00">
-          <Meeting>
-            <HomeTeam>Racing Club de Lens</HomeTeam>
-            <AwayTeam>Olympique Lyonnais</AwayTeam>
+            <HomeTeam>Lille Olympique Sporting Club</HomeTeam>
+            <AwayTeam>Olympique Gymnaste Club Nice Côte d'Azur</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="38" Date="26/04/2015 14:00:00">
           <Meeting>
-            <HomeTeam>Sporting Club de Bastia</HomeTeam>
-            <AwayTeam>Stade de Reims</AwayTeam>
+            <HomeTeam>Football Club des Girondins de Bordeaux</HomeTeam>
+            <AwayTeam>Stade Rennais Football Club</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="38" Date="26/04/2015 18:00:00">
           <Meeting>
-            <HomeTeam>Evian Thonon Gaillard Football Club</HomeTeam>
-            <AwayTeam>Olympique de Marseille</AwayTeam>
+            <HomeTeam>Association Sportive de St-Etienne</HomeTeam>
+            <AwayTeam>Stade Malherbe de Caen</AwayTeam>
           </Meeting>
         </Day>
         <Day Number="38" Date="26/04/2015 21:00:00">
           <Meeting>
             <HomeTeam>Football Club de Nantes</HomeTeam>
-            <AwayTeam>Football Club des Girondins de Bordeaux</AwayTeam>
+            <AwayTeam>Paris-Saint-Germain Football Club</AwayTeam>
           </Meeting>
         </Day>
       </Days>
     </Calendar>
-    <Journey>3</Journey>
+    <Journey>38</Journey>
   </Profil>
   <Teams>
     <Team Id="0" Name="Sporting Club de Bastia">
-      <Points>4</Points>
+      <Points>51</Points>
       <TeamTag>SCB</TeamTag>
       <Town>Bastia</Town>
       <Stadium>Armand-Cesari</Stadium>
@@ -2307,6 +2307,7 @@
       <Level>70</Level>
       <Budget>500000</Budget>
       <Formation>4.4.2</Formation>
+      <Objectif>5</Objectif>
       <Players>
         <Titulaire>
           <Player Id="0" Name="Alphonse Aréola">
@@ -2827,7 +2828,7 @@
       </Players>
     </Team>
     <Team Id="1" Name="Football Club des Girondins de Bordeaux">
-      <Points>1</Points>
+      <Points>63</Points>
       <TeamTag>FCB</TeamTag>
       <Town>Bordeaux</Town>
       <Stadium>Jacques Chaban-Delmas</Stadium>
@@ -2837,6 +2838,7 @@
       <Level>72</Level>
       <Budget>500000</Budget>
       <Formation>4.4.2</Formation>
+      <Objectif>4</Objectif>
       <Players>
         <Titulaire>
           <Player Id="31" Name="Mariano">
@@ -3289,7 +3291,7 @@
       </Players>
     </Team>
     <Team Id="2" Name="Stade Malherbe de Caen">
-      <Points>4</Points>
+      <Points>45</Points>
       <TeamTag>SMC</TeamTag>
       <Town>Cean</Town>
       <Stadium>Michel-d'Ornano</Stadium>
@@ -3299,6 +3301,7 @@
       <Level>69</Level>
       <Budget>500000</Budget>
       <Formation>5.3.2</Formation>
+      <Objectif>6</Objectif>
       <Players>
         <Titulaire>
           <Player Id="56" Name="Rémy Vercoutre">
@@ -3734,7 +3737,7 @@
       </Players>
     </Team>
     <Team Id="3" Name="Evian Thonon Gaillard Football Club">
-      <Points>4</Points>
+      <Points>50</Points>
       <TeamTag>ETG</TeamTag>
       <Town>Evian</Town>
       <Stadium>Parc des Sports</Stadium>
@@ -3744,6 +3747,7 @@
       <Level>67</Level>
       <Budget>500000</Budget>
       <Formation>4.4.2</Formation>
+      <Objectif>6</Objectif>
       <Players>
         <Titulaire>
           <Player Id="82" Name="Kassim Abdallah">
@@ -4162,7 +4166,7 @@
       </Players>
     </Team>
     <Team Id="4" Name="En Avant Guingamp">
-      <Points>4</Points>
+      <Points>65</Points>
       <TeamTag>EAG</TeamTag>
       <Town>Guingamp</Town>
       <Stadium>Stade du Roudourou</Stadium>
@@ -4172,6 +4176,7 @@
       <Level>70</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>6</Objectif>
       <Players>
         <Titulaire>
           <Player Id="105" Name="Jonas Lössl">
@@ -4607,7 +4612,7 @@
       </Players>
     </Team>
     <Team Id="5" Name="Racing Club de Lens">
-      <Points>1</Points>
+      <Points>43</Points>
       <TeamTag>RCL</TeamTag>
       <Town>Lens</Town>
       <Stadium>Bollaert-Delelis</Stadium>
@@ -4617,6 +4622,7 @@
       <Level>64</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>5</Objectif>
       <Players>
         <Titulaire>
           <Player Id="130" Name="Rudy Riou">
@@ -4949,7 +4955,7 @@
       </Players>
     </Team>
     <Team Id="6" Name="Lille Olympique Sporting Club">
-      <Points>3</Points>
+      <Points>65</Points>
       <TeamTag>LOSC</TeamTag>
       <Town>Lille</Town>
       <Stadium>Stade Pierre-Mauroy</Stadium>
@@ -4959,6 +4965,7 @@
       <Level>71</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>3</Objectif>
       <Players>
         <Titulaire>
           <Player Id="148" Name="Vincent Enyeama">
@@ -5360,7 +5367,7 @@
       </Players>
     </Team>
     <Team Id="7" Name="Football Club Lorient-Bretagne Sud">
-      <Points>3</Points>
+      <Points>41</Points>
       <TeamTag>FCL</TeamTag>
       <Town>Lorient</Town>
       <Stadium>Yves-Allainmat</Stadium>
@@ -5370,6 +5377,7 @@
       <Level>69</Level>
       <Budget>500000</Budget>
       <Formation>4.4.2</Formation>
+      <Objectif>6</Objectif>
       <Players>
         <Titulaire>
           <Player Id="171" Name="Lamine Koné">
@@ -5856,7 +5864,7 @@
       </Players>
     </Team>
     <Team Id="8" Name="Olympique Lyonnais">
-      <Points>7</Points>
+      <Points>59</Points>
       <TeamTag>OL</TeamTag>
       <Town>Lyon</Town>
       <Stadium>Gerland</Stadium>
@@ -5866,6 +5874,7 @@
       <Level>78</Level>
       <Budget>500000</Budget>
       <Formation>4.4.2 losange</Formation>
+      <Objectif>3</Objectif>
       <Players>
         <Titulaire>
           <Player Id="200" Name="Anthony Lopes">
@@ -6335,7 +6344,7 @@
       </Players>
     </Team>
     <Team Id="9" Name="Olympique de Marseille">
-      <Points>6</Points>
+      <Points>50</Points>
       <TeamTag>OM</TeamTag>
       <Town>Marseille</Town>
       <Stadium>Velodrome</Stadium>
@@ -6345,6 +6354,7 @@
       <Level>75</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>2</Objectif>
       <Players>
         <Titulaire>
           <Player Id="227" Name="Nicolas Nkoulou">
@@ -6729,7 +6739,7 @@
       </Players>
     </Team>
     <Team Id="10" Name="Football Club de Metz">
-      <Points>9</Points>
+      <Points>45</Points>
       <TeamTag>FCM</TeamTag>
       <Town>Metz</Town>
       <Stadium>Saint-Symphorien</Stadium>
@@ -6739,6 +6749,7 @@
       <Level>68</Level>
       <Budget>500000</Budget>
       <Formation>4.2.3.1</Formation>
+      <Objectif>6</Objectif>
       <Players>
         <Titulaire>
           <Player Id="249" Name="Johann Carrasso">
@@ -7225,7 +7236,7 @@
       </Players>
     </Team>
     <Team Id="11" Name="Association sportive de Monaco FC">
-      <Points>6</Points>
+      <Points>45</Points>
       <TeamTag>ASM</TeamTag>
       <Town>Monaco</Town>
       <Stadium>Louis II</Stadium>
@@ -7235,6 +7246,7 @@
       <Level>74</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>2</Objectif>
       <Players>
         <Titulaire>
           <Player Id="277" Name="Danijel Subaši?">
@@ -7721,7 +7733,7 @@
       </Players>
     </Team>
     <Team Id="12" Name="Montpellier-Herault Sports Club">
-      <Points>3</Points>
+      <Points>55</Points>
       <TeamTag>MHSC</TeamTag>
       <Town>Montpellier</Town>
       <Stadium>La Mosson</Stadium>
@@ -7731,6 +7743,7 @@
       <Level>70</Level>
       <Budget>500000</Budget>
       <Formation>4.2.3.1</Formation>
+      <Objectif>4</Objectif>
       <Players>
         <Titulaire>
           <Player Id="306" Name="Daniel Congré">
@@ -8217,7 +8230,7 @@
       </Players>
     </Team>
     <Team Id="13" Name="Football Club de Nantes">
-      <Points>4</Points>
+      <Points>54</Points>
       <TeamTag>FCN</TeamTag>
       <Town>Nantes</Town>
       <Stadium>La Beaujoire</Stadium>
@@ -8227,6 +8240,7 @@
       <Level>71</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>6</Objectif>
       <Players>
         <Titulaire>
           <Player Id="333" Name="Rémy Riou">
@@ -8696,7 +8710,7 @@
       </Players>
     </Team>
     <Team Id="14" Name="Olympique Gymnaste Club Nice Côte d'Azur">
-      <Points>3</Points>
+      <Points>49</Points>
       <TeamTag>OGCN</TeamTag>
       <Town>Nice</Town>
       <Stadium>Allianz Riviera</Stadium>
@@ -8706,6 +8720,7 @@
       <Level>70</Level>
       <Budget>500000</Budget>
       <Formation>4.2.3.1</Formation>
+      <Objectif>5</Objectif>
       <Players>
         <Titulaire>
           <Player Id="360" Name="Mouez Hassan">
@@ -9141,7 +9156,7 @@
       </Players>
     </Team>
     <Team Id="15" Name="Paris-Saint-Germain Football Club">
-      <Points>0</Points>
+      <Points>51</Points>
       <TeamTag>PSG</TeamTag>
       <Town>Paris</Town>
       <Stadium>Parc des Princes</Stadium>
@@ -9151,6 +9166,7 @@
       <Level>80</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>1</Objectif>
       <Players>
         <Titulaire>
           <Player Id="387" Name="Thiago Silva">
@@ -9569,7 +9585,7 @@
       </Players>
     </Team>
     <Team Id="16" Name="Stade de Reims">
-      <Points>9</Points>
+      <Points>49</Points>
       <TeamTag>SDR</TeamTag>
       <Town>Reims</Town>
       <Stadium>Auguste-Delaune</Stadium>
@@ -9579,6 +9595,7 @@
       <Level>67</Level>
       <Budget>500000</Budget>
       <Formation>4.2.3.1</Formation>
+      <Objectif>5</Objectif>
       <Players>
         <Titulaire>
           <Player Id="410" Name="Sacha Bastien">
@@ -10082,7 +10099,7 @@
       </Players>
     </Team>
     <Team Id="17" Name="Stade Rennais Football Club">
-      <Points>9</Points>
+      <Points>60</Points>
       <TeamTag>SRFC</TeamTag>
       <Town>Rennes</Town>
       <Stadium>Stade de la Route de Lorient</Stadium>
@@ -10092,6 +10109,7 @@
       <Level>72</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>3</Objectif>
       <Players>
         <Titulaire>
           <Player Id="439" Name="Benoît Costil">
@@ -10544,7 +10562,7 @@
       </Players>
     </Team>
     <Team Id="18" Name="Association Sportive de St-Etienne">
-      <Points>6</Points>
+      <Points>60</Points>
       <TeamTag>ASSE</TeamTag>
       <Town>Saint-Etiennes</Town>
       <Stadium>Geoffroy-Guichard</Stadium>
@@ -10554,6 +10572,7 @@
       <Level>75</Level>
       <Budget>500000</Budget>
       <Formation>4.3.3</Formation>
+      <Objectif>3</Objectif>
       <Players>
         <Titulaire>
           <Player Id="466" Name="Kévin Theophile CBUherine">
@@ -10938,7 +10957,7 @@
       </Players>
     </Team>
     <Team Id="19" Name="Toulouse Football Club">
-      <Points>0</Points>
+      <Points>51</Points>
       <TeamTag>TFC</TeamTag>
       <Town>Toulouse</Town>
       <Stadium>Stadium Municipal</Stadium>
@@ -10948,6 +10967,7 @@
       <Level>72</Level>
       <Budget>500000</Budget>
       <Formation>5.3.2</Formation>
+      <Objectif>4</Objectif>
       <Players>
         <Titulaire>
           <Player Id="490" Name="Tongo Doumbia">

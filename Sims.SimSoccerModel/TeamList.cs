@@ -31,6 +31,16 @@ namespace Sims.SimSoccerModel
                 .Select(eT => new Team(this, eT))
                 .ToList();
         }
+
+        public TeamList( Game game, XElement e, string s )
+        {
+            _game = game;
+            _teams = e.Elements( "Team" )
+                .OrderBy( eT => int.Parse( eT.Attribute( "Id" ).Value ) )
+                .Select( eT => new Team( this, eT ) )
+                .ToList();
+        }
+
         public XElement ToXml()
         {
             return new XElement("Teams", _teams.Select((t, idx) => t.ToXml(idx)));

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Sims.SimSoccerModel;
+using System.Xml.Linq;
 
 namespace SIMS.SimSoccerForm
 {
@@ -87,6 +88,7 @@ namespace SIMS.SimSoccerForm
                 _game.Ligue.Calendar.MatchDay[_game.Journey].playJourney();
                 ShowResult SR = new ShowResult( _game, this );
                 SR.Show();
+                _game.Ranking.getRanking();
             }
             else if( _game.GameOver == true && _game.Reached == false )
             {
@@ -94,7 +96,10 @@ namespace SIMS.SimSoccerForm
             }
             else if( _game.GameOver == true && _game.Reached == true )
             {
-                _game = new Game( _game.UserName, _game.UserPassword, _game.LastName, _game.FirstName );
+                int season = _game.Season + 1;
+                DateTime today = DateTime.Now;
+                XDocument doc = XDocument.Load( @".\..\..\..\user_" + _game.UserName + "_save_" + today.Year + today.Month + today.Day + ".xml" );
+                _game = new Game( _game.UserName, _game.UserPassword, _game.LastName, _game.FirstName, season, doc.Root, _game.ChoosenTeam );
                 LobbyForm f = new LobbyForm( _game );
                 f.Show();
                 this.Close();

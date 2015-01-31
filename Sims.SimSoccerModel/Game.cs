@@ -167,6 +167,32 @@ namespace Sims.SimSoccerModel
             _rnd = new Random();
             _avatar = @".\..\..\..\avatar.jpg";
             _field = new Field();
+            _season = 1;
+            _choosenTeam = "";
+            GameToXml( this );
+            _ligue.fillCalendar();
+        }
+
+        public Game( string userName, string userPassword, string lastName, string firstName, int season, XElement e, string chosenTeam )
+        {
+            _choosenTeam = chosenTeam;
+            _userName = userName;
+            _userPassword = userPassword;
+            _lastName = lastName;
+            _firstName = firstName;
+            _journey = 0;
+            XDocument doc = XDocument.Load( @".\..\..\..\Ligue1Players2.xml" );
+            XDocument doc2 = XDocument.Load( @".\..\..\..\Ligue1Teams.xml" );
+            XDocument doc3 = XDocument.Load( @".\..\..\..\Tactics.xml" );
+            _playerList = new PlayerList( this, doc.Root.Element( "Players" ) );
+            _teamList = new TeamList( this, doc2.Root.Element( "Teams" ), "" );
+            _formation = new FormationList( this, doc3.Root.Element( "Tactics" ) );
+            _ligue = new Ligue( this, 2014 );
+            _ranking = new Ranking( this );
+            _rnd = new Random();
+            _avatar = @".\..\..\..\avatar.jpg";
+            _field = new Field();
+            _season = season;
             GameToXml( this );
             _ligue.fillCalendar();
         }
@@ -249,7 +275,6 @@ namespace Sims.SimSoccerModel
                     saveNameUserId = i.ToString();
 
             }
-            _season = 1;
             DateTime today = DateTime.Now;
 
             XDocument gameSave = new XDocument(
@@ -262,7 +287,7 @@ namespace Sims.SimSoccerModel
                         new XElement( "FirstName", _firstName ),
                         new XElement( "BirthDate", today ),
                         new XElement( "Avatar", _avatar ),
-                        new XElement( "ChosenTeam", "" ),
+                        new XElement( "ChosenTeam", _choosenTeam ),
                         new XElement( "Season", _season ),
                         new XElement( "Calendar",
                             new XElement( "Days" ) ),

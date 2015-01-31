@@ -157,12 +157,12 @@ namespace Sims.SimSoccerModel
                             _game.GameOver = true;
                             _game.Reached = false;
                         }
-                        else if( t.Objectif == 1 && t.LeagueRanking < 1 )
+                        else if( t.Objectif == 1 && t.LeagueRanking == 1 )
                         {
                             _game.GameOver = true;
                             _game.Reached = true;
                         }
-                        else if( t.Objectif == 2 && t.LeagueRanking >= 1 && t.LeagueRanking <= 3 )
+                        else if( t.Objectif == 2 && t.LeagueRanking <= 3 )
                         {
                             _game.GameOver = true;
                             _game.Reached = true;
@@ -172,7 +172,7 @@ namespace Sims.SimSoccerModel
                             _game.GameOver = true;
                             _game.Reached = false;
                         }
-                        else if( t.Objectif == 3 && t.LeagueRanking <= 4 && t.LeagueRanking <= 5 )
+                        else if( t.Objectif == 3 && t.LeagueRanking <= 5 )
                         {
                             _game.GameOver = true;
                             _game.Reached = true;
@@ -182,7 +182,7 @@ namespace Sims.SimSoccerModel
                             _game.GameOver = true;
                             _game.Reached = false;
                         }
-                        else if( t.Objectif == 4 && t.LeagueRanking <= 5 && t.LeagueRanking <= 10 )
+                        else if( t.Objectif == 4 && t.LeagueRanking <= 10 )
                         {
                             _game.GameOver = true;
                             _game.Reached = true;
@@ -192,7 +192,7 @@ namespace Sims.SimSoccerModel
                             _game.GameOver = true;
                             _game.Reached = false;
                         }
-                        else if( t.Objectif == 5 && t.LeagueRanking <= 10 && t.LeagueRanking <= 15 )
+                        else if( t.Objectif == 5 && t.LeagueRanking <= 15 )
                         {
                             _game.GameOver = true;
                             _game.Reached = true;
@@ -202,7 +202,7 @@ namespace Sims.SimSoccerModel
                             _game.GameOver = true;
                             _game.Reached = false;
                         }
-                        else if( t.Objectif == 6 && t.LeagueRanking <= 15 && t.LeagueRanking <= 17 )
+                        else if( t.Objectif == 6 && t.LeagueRanking <= 17 )
                         {
                             _game.GameOver = true;
                             _game.Reached = true;
