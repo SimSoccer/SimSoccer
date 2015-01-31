@@ -54,6 +54,27 @@ namespace Sims.SimSoccerModel
 
             board = board.OrderByDescending( kvp => kvp.Value ).ToDictionary( kvp => kvp.Key, kvp => kvp.Value );
 
+            for( int i = 0; i < _game.TeamList.Teams.Count; i++ )
+            {
+                doc = XDocument.Load( userDoc );
+                XElement ranking = doc.Element( "Game" ).Element( "Teams" ).Elements( "Team" )
+                    .Where( tN => tN.Attribute( "Name" ).Value == _game.TeamList.Teams[i].Name )
+                    .Select( e => e.Element( "LeagueRanking" ) )
+                    .Single();
+
+                int c = 0;
+                foreach( KeyValuePair<string, int> kp in board )
+                {
+                    c++;
+                    if( kp.Key == _game.TeamList.Teams[i].Name )
+                    {
+                        ranking.Value = c.ToString();
+                        _game.TeamList.Teams[i].LeagueRanking = c;
+                    }
+                }
+                doc.Save( userDoc );
+            }
+
             return board;
         }
         
