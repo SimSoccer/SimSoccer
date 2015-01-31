@@ -104,12 +104,10 @@ namespace Sims.SimSoccerModel
 
                         do
                         {
-
-                            int G = _game.Rnd.Next(0, _home.TeamPlayers.Count);
-                            if (_home.TeamPlayers[G].Poste == "BU" || _home.TeamPlayers[G].Poste == "ATG" || _home.TeamPlayers[G].Poste == "ATD")
+                            int G = _game.Rnd.Next(0, _home.TeamType.Count);
+                            if( _home.TeamType[G].Poste == "BU" || _home.TeamType[G].Poste == "ATG" || _home.TeamType[G].Poste == "ATD" || _home.TeamType[G].Poste == "AG" || _home.TeamType[G].Poste == "AD" || _home.TeamType[G].Poste == "MOG" || _home.TeamType[G].Poste == "MOD" || _home.TeamType[G].Poste == "MO" || _home.TeamType[G].Poste == "MOC" )
                             {
-                                //   Console.WriteLine( _home.TeamPlayers[G].Name + " Scored for " + _home.TeamTag );
-                                _result.ScorerH.Add(_home.TeamPlayers[G]);
+                                _result.ScorerH.Add(_home.TeamType[G]);
                                 isFound = true;
 
                             }
@@ -123,20 +121,17 @@ namespace Sims.SimSoccerModel
                 {
                     if (detail == true)
                     {
-
                         bool isFound = false;
-
                         do
                         {
-
-                            int G = _game.Rnd.Next(0, _outside.TeamPlayers.Count);
-                            if (_outside.TeamPlayers[G].Poste == "BU" || _outside.TeamPlayers[G].Poste == "ATG" || _outside.TeamPlayers[G].Poste == "ATD")
+                            int G = _game.Rnd.Next(0, _outside.TeamType.Count);
+                            if( _outside.TeamType[G].Poste == "BU" || _outside.TeamType[G].Poste == "ATG" || _outside.TeamType[G].Poste == "ATD" || _outside.TeamType[G].Poste == "AG" || _outside.TeamType[G].Poste == "AD" || _outside.TeamType[G].Poste == "MOD" || _outside.TeamType[G].Poste == "MOG" || _outside.TeamType[G].Poste == "MO" || _outside.TeamType[G].Poste == "MOC" )
                             {
-                                //Console.WriteLine( _outside.TeamPlayers[G].Name + " Scored for " + _outside.TeamTag );
-                                _result.ScorerO.Add(_outside.TeamPlayers[G]);
+                                _result.ScorerO.Add( _outside.TeamType[G] );
                                 isFound = true;
-
                             }
+                            else
+                                isFound = false;
                         } while (isFound == false);
                     }
 

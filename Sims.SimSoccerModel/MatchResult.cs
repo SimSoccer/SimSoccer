@@ -102,7 +102,17 @@ namespace Sims.SimSoccerModel
             {
                 _winner = _dom.Name;
                 _looser = _ext.Name;
-                _textSummary = _dom.TeamTag + " a gagné contre " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
+
+                if(_winner == _game.UserTeam.Name && _dom.Name == _game.UserTeam.Name)
+                    _textSummary = "Vous avez gagné contre " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
+                else if(_looser == _game.UserTeam.Name && _dom.Name == _game.UserTeam.Name)
+                    _textSummary = "Vous avez perdu contre " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
+                else if( _winner == _game.UserTeam.Name && _ext.Name == _game.UserTeam.Name )
+                    _textSummary = "Vous avez gagné contre " + _dom.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
+                else if( _looser == _game.UserTeam.Name && _ext.Name == _game.UserTeam.Name )
+                    _textSummary = "Vous avez perdu contre " + _dom.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
+                else
+                    _textSummary = _dom.TeamTag + " a gagné contre " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
 
                 _dom.LeaguePoint += 3;
             }
@@ -110,7 +120,17 @@ namespace Sims.SimSoccerModel
             {
                 _winner = _ext.Name;
                 _looser = _dom.Name;
-                _textSummary = _dom.TeamTag + " a perdu contre " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
+
+                if( _winner == _game.UserTeam.Name && _dom.Name == _game.UserTeam.Name)
+                    _textSummary = "Vous avez gagné contre " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
+                else if( _looser == _game.UserTeam.Name && _dom.Name == _game.UserTeam.Name)
+                    _textSummary = "Vous avez perdu contre " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
+                else if( _looser == _game.UserTeam.Name && _ext.Name == _game.UserTeam.Name )
+                    _textSummary = "Vous avez perdu contre " + _dom.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
+                else if( _winner == _game.UserTeam.Name && _ext.Name == _game.UserTeam.Name )
+                    _textSummary = "Vous avez gagné contre " + _dom.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
+                else
+                    _textSummary = _dom.TeamTag + " a perdu contre " + _ext.TeamTag + "\r\n Score: " + ScoreH + " - " + ScoreO;
 
                 _ext.LeaguePoint += 3;
 

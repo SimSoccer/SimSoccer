@@ -33,6 +33,7 @@ namespace Sims.SimSoccerModel
         int _journey;
         bool _gameOver;
         bool _reached;
+        Team _userTeam;
 
         public Graphics Graphic
         {
@@ -49,6 +50,20 @@ namespace Sims.SimSoccerModel
         {
             get { return _reached; }
             set { _reached = value; }
+        }
+
+        public Team UserTeam
+        {
+            get
+            {
+                foreach( Team t in this.TeamList.Teams )
+                    if( t.Name == _choosenTeam && _userTeam == null )
+                        _userTeam = t;
+                    else if( t.Name != _choosenTeam && _userTeam == null )
+                        _userTeam = null;
+                return _userTeam;
+            }
+
         }
 
         public PlayerList PlayerList
@@ -175,7 +190,6 @@ namespace Sims.SimSoccerModel
 
         public Game( string userName, string userPassword, string lastName, string firstName, int season, XElement e, string chosenTeam )
         {
-            _choosenTeam = chosenTeam;
             _userName = userName;
             _userPassword = userPassword;
             _lastName = lastName;
@@ -193,6 +207,7 @@ namespace Sims.SimSoccerModel
             _avatar = @".\..\..\..\avatar.jpg";
             _field = new Field();
             _season = season;
+            _choosenTeam = chosenTeam;
             GameToXml( this );
             _ligue.fillCalendar();
         }
@@ -239,6 +254,12 @@ namespace Sims.SimSoccerModel
             _ligue = new Ligue( this, 2014 );
             _field = new Field();
             _rnd = new Random();
+            /*foreach( Team t in this.TeamList.Teams )
+                if( t.Name == _choosenTeam && _userTeam == null )
+                    _userTeam = t;
+                else if( t.Name != _choosenTeam && _userTeam == null )
+                    _userTeam = null;*/
+
             _ligue.fillCalendar();
         }
 
