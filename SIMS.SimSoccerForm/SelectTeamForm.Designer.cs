@@ -43,6 +43,8 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -139,6 +141,22 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Cursor = System.Windows.Forms.Cursors.Arrow;
+            resources.ApplyResources(this.textBox4, "textBox4");
+            this.textBox4.Name = "textBox4";
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.BackColor = System.Drawing.SystemColors.Control;
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Name = "label3";
+            // 
             // SelectTeamForm
             // 
             resources.ApplyResources(this, "$this");
@@ -153,7 +171,9 @@
             this.Controls.Add(this.teamStadium);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelStadium);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.labelName);
+            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.teamName);
             this.Controls.Add(this.Logo);
             this.Controls.Add(this.previous);
@@ -184,5 +204,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label3;
     }
 }

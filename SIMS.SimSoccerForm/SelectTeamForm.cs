@@ -103,6 +103,7 @@ namespace SIMS.SimSoccerForm
 
             PlayersBox.Text = Players;
             textBox1_TextChanged(this, EventArgs.Empty);
+            textBox4_TextChanged( this, EventArgs.Empty );
         }
 
         private void button1_KeyDown(object sender, KeyEventArgs e)
@@ -131,6 +132,44 @@ namespace SIMS.SimSoccerForm
         private void textBox3_TextChanged( object sender, EventArgs e )
         {
             textBox3.Text = _game.TeamList.Teams[i].Level.ToString();
+        }
+
+        private void textBox4_TextChanged( object sender, EventArgs e )
+        {
+            foreach( Team t in _game.TeamList.Teams )
+            {
+                if( _game.TeamList.Teams[i].Name == t.Name )
+                {
+                    #region Cases' Gestion
+                    int objectif = t.Objectif;
+
+                    switch( objectif )
+                    {
+                        case 1:
+                            textBox4.Text = "C'est champion ou rien !";
+                            break;
+                        case 2:
+                            textBox4.Text = "Ici, nous jouons pour être dans les 3 premiers, être en Champion's League.";
+                            break;
+                        case 3:
+                            textBox4.Text = "Vous devez être dans les 5 premiers. L'Europa League nous attend.";
+                            break;
+                        case 4:
+                            textBox4.Text = "Allez, nous voulons le haut du tableau, les 10 premières place.";
+                            break;
+                        case 5:
+                            textBox4.Text = "Soyons honnêtes et modestes, essayons d'être entre la 10e et 15e place.";
+                            break;
+                        case 6:
+                            textBox4.Text = "Évitons la zone rouge pour être sauvés ! Évitions les 3 dernières places !";
+                            break;
+                        default:
+                            break;
+                    #endregion
+                    }
+
+                }
+            }
         }
     }
 }
